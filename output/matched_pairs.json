@@ -286,6 +286,25 @@
     "score": 100
   },
   {
+    "corpus_canonical_name": "Administration of blood",
+    "corpus_total_mentions": 17,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0391 - Blood Administration",
+    "tree_topic_ids": [
+      23875
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/AMBULATORY SURGICAL SERVICES/BLOOD PROCESSING AND STORAGE/0391 - BLOOD ADMINISTRATION"
+    ],
+    "match_type": "fuzzy",
+    "score": 93.02325581395348
+  },
+  {
     "corpus_canonical_name": "Colonoscopy",
     "corpus_total_mentions": 16,
     "corpus_tiers_present": [
@@ -830,6 +849,25 @@
     "score": 100
   },
   {
+    "corpus_canonical_name": "Prosthetic and Orthotic Devices",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0274 - Prosthetic/Orthotic Devices",
+    "tree_topic_ids": [
+      23806
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PROSTHETIC AND ORTHOTIC/0274 - PROSTHETIC/ORTHOTIC DEVICES"
+    ],
+    "match_type": "fuzzy",
+    "score": 92.85714285714286
+  },
+  {
     "corpus_canonical_name": "Spare prosthesis devices",
     "corpus_total_mentions": 14,
     "corpus_tiers_present": [
@@ -846,7 +884,7 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/SPARE PROSTHETIC DEVICES"
     ],
     "match_type": "fuzzy",
-    "score": 91.66666666666666
+    "score": 91.30434782608697
   },
   {
     "corpus_canonical_name": "Routine maintenance of a prosthetic device",
@@ -865,7 +903,7 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/ROUTINE MAINTENANCE OF PROSTHETIC DEVICES"
     ],
     "match_type": "fuzzy",
-    "score": 96.3855421686747
+    "score": 97.5609756097561
   },
   {
     "corpus_canonical_name": "Laboratory services",
@@ -1001,6 +1039,25 @@
     ],
     "match_type": "exact",
     "score": 100
+  },
+  {
+    "corpus_canonical_name": "Electroencephalogram (EEG)",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "EEG (Electroencephalogram)",
+    "tree_topic_ids": [
+      60574
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/DIAGNOSTIC SERVICES/NEUROMUSCULAR PROCEDURES/EEG (ELECTROENCEPHALOGRAM)"
+    ],
+    "match_type": "fuzzy",
+    "score": 100.0
   },
   {
     "corpus_canonical_name": "Arthrocentesis",
@@ -1153,7 +1210,7 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/LENTICULAR ASPHERIC MYODISC LENSE"
     ],
     "match_type": "fuzzy",
-    "score": 90.0
+    "score": 91.52542372881356
   },
   {
     "corpus_canonical_name": "Lenticular aspheric aphakic",
@@ -1173,7 +1230,7 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/LENTICULAR ASPHERIC APHAKIC LENSE"
     ],
     "match_type": "fuzzy",
-    "score": 90.0
+    "score": 91.52542372881356
   },
   {
     "corpus_canonical_name": "Lancets",
@@ -1250,6 +1307,25 @@
     ],
     "match_type": "exact",
     "score": 100
+  },
+  {
+    "corpus_canonical_name": "Any covered drug entirely consumed at the time and place of the prescription",
+    "corpus_total_mentions": 5,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Covered drug entirely consumed at the time and place of prescription",
+    "tree_topic_ids": [
+      52498
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PRESCRIPTION DRUG PROGRAM/COVERED DRUG ENTIRELY CONSUMED AT THE TIME AND PLACE OF PRESCRIPTION"
+    ],
+    "match_type": "fuzzy",
+    "score": 94.20289855072464
   },
   {
     "corpus_canonical_name": "Lenses",
@@ -1385,6 +1461,25 @@
     ],
     "match_type": "exact",
     "score": 100
+  },
+  {
+    "corpus_canonical_name": "For bone marrow transplants",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Bone marrow transplant donor",
+    "tree_topic_ids": [
+      60053
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/BONE MARROW TRANSPLANT DONOR"
+    ],
+    "match_type": "fuzzy",
+    "score": 92.5925925925926
   },
   {
     "corpus_canonical_name": "Aphakic Lenses",
@@ -1577,6 +1672,25 @@
     "score": 100
   },
   {
+    "corpus_canonical_name": "Cosmetic Lenses/Processes",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Cosmetic lenses or processes",
+    "tree_topic_ids": [
+      60512
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/COSMETIC LENSES OR PROCESSES"
+    ],
+    "match_type": "fuzzy",
+    "score": 93.33333333333333
+  },
+  {
     "corpus_canonical_name": "Diagnostic tests and laboratory examinations",
     "corpus_total_mentions": 2,
     "corpus_tiers_present": [
@@ -1593,7 +1707,7 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/DIAGNOSTIC TESTS AND LAB EXAMINATIONS"
     ],
     "match_type": "fuzzy",
-    "score": 91.35802469135803
+    "score": 90.9090909090909
   },
   {
     "corpus_canonical_name": "Photochromatic lenses",
@@ -1612,6 +1726,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/PHOTOCHROMIC"
     ],
     "match_type": "fuzzy",
-    "score": 95.0
+    "score": 94.44444444444444
   }
 ]

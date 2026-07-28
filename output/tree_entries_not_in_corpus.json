@@ -1518,17 +1518,6 @@
     "_key": "take home supply"
   },
   {
-    "benefit_name": "0274 - Prosthetic/Orthotic Devices",
-    "normalized_key": "prosthetic orthotic device",
-    "topic_ids": [
-      23806
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PROSTHETIC AND ORTHOTIC/0274 - PROSTHETIC/ORTHOTIC DEVICES"
-    ],
-    "_key": "prosthetic orthotic device"
-  },
-  {
     "benefit_name": "0275 - Pacemaker",
     "normalized_key": "pacemaker",
     "topic_ids": [
@@ -2286,17 +2275,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/AMBULATORY SURGICAL SERVICES/BLOOD PROCESSING AND STORAGE/0390 - GENERAL CLASSIFICATION FOR BLOOD STORAGE AND PROCESSING"
     ],
     "_key": "general classification for blood storage and processing"
-  },
-  {
-    "benefit_name": "0391 - Blood Administration",
-    "normalized_key": "blood administration",
-    "topic_ids": [
-      23875
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/AMBULATORY SURGICAL SERVICES/BLOOD PROCESSING AND STORAGE/0391 - BLOOD ADMINISTRATION"
-    ],
-    "_key": "blood administration"
   },
   {
     "benefit_name": "0392 -  Administration , Processing and Storage for Blood and Blood Components - Processing and Storage",
@@ -7333,17 +7311,6 @@
     "_key": "bone marrow or stem cell service procedure"
   },
   {
-    "benefit_name": "Bone marrow transplant donor",
-    "normalized_key": "bone marrow transplant donor",
-    "topic_ids": [
-      60053
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/BONE MARROW TRANSPLANT DONOR"
-    ],
-    "_key": "bone marrow transplant donor"
-  },
-  {
     "benefit_name": "Bone marrow transplant registry search",
     "normalized_key": "bone marrow transplant registry search",
     "topic_ids": [
@@ -8575,17 +8542,6 @@
     "_key": "cosmetic and reconstructive surgery procedure"
   },
   {
-    "benefit_name": "Cosmetic lenses or processes",
-    "normalized_key": "cosmetic lens or process",
-    "topic_ids": [
-      60512
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/COSMETIC LENSES OR PROCESSES"
-    ],
-    "_key": "cosmetic lens or process"
-  },
-  {
     "benefit_name": "Cosmetic procedures",
     "normalized_key": "cosmetic procedure",
     "topic_ids": [
@@ -8617,17 +8573,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/COUNSELING/SCREENING"
     ],
     "_key": "counseling screening"
-  },
-  {
-    "benefit_name": "Covered drug entirely consumed at the time and place of prescription",
-    "normalized_key": "cover drug entirely consume at the time and place of prescription",
-    "topic_ids": [
-      52498
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PRESCRIPTION DRUG PROGRAM/COVERED DRUG ENTIRELY CONSUMED AT THE TIME AND PLACE OF PRESCRIPTION"
-    ],
-    "_key": "cover drug entirely consume at the time and place of prescription"
   },
   {
     "benefit_name": "COVID Immunizations",
@@ -9863,17 +9808,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIABETES MANAGEMENT PROGRAM/EDUCATION FOR DIABETES MANAGEMENT"
     ],
     "_key": "education for diabetes management"
-  },
-  {
-    "benefit_name": "EEG (Electroencephalogram)",
-    "normalized_key": "eeg electroencephalogram",
-    "topic_ids": [
-      60574
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/DIAGNOSTIC SERVICES/NEUROMUSCULAR PROCEDURES/EEG (ELECTROENCEPHALOGRAM)"
-    ],
-    "_key": "eeg electroencephalogram"
   },
   {
     "benefit_name": "Elective",

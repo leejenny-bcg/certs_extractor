@@ -9,10 +9,13 @@ script applies the same leading-article strip to it so both sides are on
 equal footing before comparing.
 
 Pass B - fuzzy match (RapidFuzz) between whatever's left unmatched on both
-sides. Unlike Stage 4 (which restricted fuzzy rescue to true singletons to
-keep ~16k raw candidates tractable), both lists here are already small and
-deduped (1,986 tree entries, ~1,200 corpus benefits), so a full comparison
-is cheap enough to run directly with no subsetting.
+sides, on the same normalized `_key` Pass A uses (not raw display text -
+confirmed this recovers real matches Pass A's exact comparison already
+benefited from lemmatization for but Pass B previously didn't). Unlike
+Stage 4 (which restricted fuzzy rescue to true singletons to keep ~16k raw
+candidates tractable), both lists here are already small and deduped
+(1,986 tree entries, ~1,200 corpus benefits), so a full comparison is
+cheap enough to run directly with no subsetting.
 
 Outputs (JSON + CSV, kept as flat records for an eventual Streamlit UI to
 load directly without further reshaping):
@@ -91,16 +94,26 @@ def run_comparison(corpus, tree):
     # entries. Deliberately not removing tree entries as they get matched -
     # multiple corpus benefits legitimately mapping to the same coarser tree
     # entry is expected, not a bug to prevent.
+    #
+    # Fuzzy-matches on _key (lemma-normalized + leading-article-stripped),
+    # not the raw benefit_name/canonical_name display text - confirmed this
+    # recovers real matches Pass A's exact-key comparison already benefits
+    # from but Pass B previously didn't: "Bone Marrow Transplants" <->
+    # "Bone marrow transplantation" scores 80 on raw text (misses the 90
+    # threshold) but 90 on normalized keys (crosses it); "Electroencephalogram
+    # (EEG)" <-> "EEG (Electroencephalogram)" goes from 81 to 100. Output
+    # fields still use the original display names - only the comparison
+    # basis changed.
     tree_pool = [e for e in tree if e["_key"] not in matched_tree_keys]
-    tree_pool_names = [e["benefit_name"] for e in tree_pool]
+    tree_pool_keys = [e["_key"] for e in tree_pool]
 
     still_unmatched_corpus = []
     for c in corpus_unmatched:
         best = (
             process.extractOne(
-                c["canonical_name"], tree_pool_names, scorer=fuzz.token_sort_ratio, score_cutoff=FUZZY_THRESHOLD
+                c["_key"], tree_pool_keys, scorer=fuzz.token_sort_ratio, score_cutoff=FUZZY_THRESHOLD
             )
-            if tree_pool_names
+            if tree_pool_keys
             else None
         )
         if best is None:

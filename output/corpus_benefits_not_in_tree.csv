@@ -71,7 +71,6 @@ More than 30 visits a year for combined outpatient cardiac or pulmonary rehabili
 Billing,17,17,3,"ppo_medical,vision",
 Contract,17,17,3,"dental,ppo_medical,vision",
 24/7 virtual visits only when performed through the Blue Cross selected vendor app,17,17,2,"csr_rider,ppo_medical",BCBSM PPO In-Network Providers | Copayment Requirements
-Administration of blood,17,14,2,ppo_medical,Surgery
 Autism Spectrum Disorders,16,14,"1,3",ppo_medical,
 Dental Services,16,16,"1,3","dental,ppo_medical",
 Laboratory examinations,16,16,"2,3","dental,ppo_medical",Class I – Diagnostic and Preventive Services | Skilled Nursing Facility Services
@@ -332,7 +331,6 @@ Routine Gynecological Examination,14,14,2,ppo_medical,Preventive Care Services
 Morbid Obesity Weight Management,14,14,2,ppo_medical,Preventive Care Services
 Tobacco Cessation Programs,14,14,2,ppo_medical,Preventive Care Services
 Therapeutic injections,14,14,2,ppo_medical,Professional Services
-Prosthetic and Orthotic Devices,14,14,1,ppo_medical,
 The cost of purchasing or replacing the device,14,14,2,ppo_medical,Prosthetic and Orthotic Devices
 The cost of developing and fitting the basic device,14,14,2,ppo_medical,Prosthetic and Orthotic Devices
 Any medically necessary special features,14,14,2,ppo_medical,Prosthetic and Orthotic Devices
@@ -455,7 +453,6 @@ Severe respiratory disease,13,13,2,ppo_medical,Dental Services
 "Known reaction to analgesics, anesthetics, etc.",13,13,2,ppo_medical,Dental Services
 Thyroid function,13,13,2,ppo_medical,Diagnostic Services
 Electrocardiogram (EKG),13,13,2,ppo_medical,Diagnostic Services
-Electroencephalogram (EEG),13,13,2,ppo_medical,Diagnostic Services
 Pulmonary function studies,13,13,2,ppo_medical,Diagnostic Services
 Electromyogram (EMG),13,13,2,ppo_medical,Diagnostic Services
 Nerve conduction,13,13,2,ppo_medical,Diagnostic Services
@@ -744,7 +741,6 @@ Prescriptions for quantities of 84 through 90 days that are not provided by a 90
 "More than the quantities allowed per prescription of select drugs by BCBSM, unless the prescriber obtains prior authorization from BCBSM. A list of drugs that may have quantity limits is available at the BCBSM website at https://www.bcbsm.com/2026-select-ppo-druglist",5,5,2,ppo_medical,Prescription Drugs
 Any drug we think is experimental or investigational.,5,5,2,ppo_medical,Prescription Drugs
 State-controlled drugs,5,5,2,ppo_medical,Prescription Drugs
-Any covered drug entirely consumed at the time and place of the prescription,5,5,2,ppo_medical,Prescription Drugs
 Administration of covered drugs except for select immunization vaccines,5,5,2,ppo_medical,Prescription Drugs
 Anything other than covered drugs and services,5,5,2,ppo_medical,Prescription Drugs
 Diagnostic agents,5,5,2,ppo_medical,Prescription Drugs
@@ -824,7 +820,6 @@ Two visits for children 36 months through 47 months,4,4,2,ppo_medical,Preventive
 "Well-child visits after 47 months are limited to one per member, per calendar year under your health maintenance exam benefit.",4,4,2,ppo_medical,Preventive Care Services
 We pay for local anesthesia only when needed as part of infusion therapy done in an office.,4,4,2,ppo_medical,Anesthesiology Services
 Diagnostic Observation Schedule,4,4,3,ppo_medical,
-For bone marrow transplants,4,4,3,ppo_medical,Transplant Services
 For oncology clinical trials,4,4,3,ppo_medical,Oncology Clinical Trials
 Spectrum Disorders,4,3,3,ppo_medical,Audiologist Services
 Diagnostic and preventive services,4,2,"2,3",dental,Class I – Diagnostic and Preventive Services
@@ -921,7 +916,6 @@ A licensed psychologist,2,2,2,ppo_medical,Autism Spectrum Disorders
 Dental injury,2,1,3,ppo_medical,Contraceptive Services
 Requirements,2,2,3,ppo_medical,
 Changes in Your Certificate,2,2,3,vision,
-Cosmetic Lenses/Processes,2,2,3,vision,Contact Lenses
 Medical Necessity,2,2,3,vision,
 Medically Unnecessary Services,2,2,3,vision,
 Medical-Surgical Treatment,2,2,3,vision,Contact Lenses

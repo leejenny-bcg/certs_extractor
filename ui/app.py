@@ -43,6 +43,10 @@ def records_to_df(records):
                 "covered": r["inclusion_breakdown"].get("covered", 0),
                 "excluded": r["inclusion_breakdown"].get("excluded", 0),
                 "parent_headers": " | ".join(r["parent_headers"][:5]),
+                # Not displayed - just available for the "hide low-quality
+                # entries" checkbox filter. See data.is_high_confidence for
+                # what counts, and its docstring for how to extend this.
+                "_high_confidence": data.is_high_confidence(r),
             }
         )
     return pd.DataFrame(rows)
@@ -79,6 +83,13 @@ def render_benefit_explorer():
         )
     with col3:
         min_mentions = st.number_input("Min mentions", min_value=1, value=1)
+    hide_low_quality = st.checkbox(
+        "Hide low-quality entries",
+        value=True,
+        help="Hides benefits whose mentions are mostly index terms or criteria/description "
+        "sentences rather than a clean benefit name. More exclusion criteria may be added "
+        "to this filter later.",
+    )
 
     filtered = df
     if search:
@@ -86,19 +97,22 @@ def render_benefit_explorer():
     if profile_filter:
         filtered = filtered[filtered["profiles_present"].apply(lambda p: any(pf in p for pf in profile_filter))]
     filtered = filtered[filtered["total_mentions"] >= min_mentions]
+    if hide_low_quality:
+        filtered = filtered[filtered["_high_confidence"]]
 
     filtered = filtered.sort_values("total_mentions", ascending=False)
 
+    display_cols = ["canonical_name", "total_mentions", "document_count",
+                     "profiles_present", "covered", "excluded", "matched_to_tree"]
     st.caption(f"{len(filtered):,} of {len(df):,} benefits shown")
     st.dataframe(
-        filtered[["canonical_name", "total_mentions", "document_count",
-                  "profiles_present", "covered", "excluded", "matched_to_tree"]],
+        filtered[display_cols],
         use_container_width=True,
         hide_index=True,
         height=400,
         column_config={k: st.column_config.Column(help=v) for k, v in COLUMN_HELP.items()},
     )
-    download_button(filtered, "Download filtered benefits (CSV)", "benefits_filtered.csv", "explorer_download")
+    download_button(filtered[display_cols], "Download filtered benefits (CSV)", "benefits_filtered.csv", "explorer_download")
 
     st.divider()
     st.subheader("Benefit detail")
@@ -203,13 +217,14 @@ def render_topic_tree_comparison():
             filtered1 = filtered1[filtered1["canonical_name"].str.contains(search1, case=False, na=False)]
         filtered1 = filtered1.sort_values("total_mentions", ascending=False)
 
+        tab1_display_cols = ["canonical_name", "total_mentions", "document_count", "profiles_present"]
         st.caption(f"{len(filtered1):,} of {len(df1):,} shown")
         st.dataframe(
-            filtered1[["canonical_name", "total_mentions", "document_count", "profiles_present"]],
+            filtered1[tab1_display_cols],
             use_container_width=True, hide_index=True, height=400,
             column_config={k: st.column_config.Column(help=v) for k, v in COLUMN_HELP.items()},
         )
-        download_button(filtered1, "Download (CSV)", "corpus_benefits_not_in_tree.csv", "tab1_download")
+        download_button(filtered1[tab1_display_cols], "Download (CSV)", "corpus_benefits_not_in_tree.csv", "tab1_download")
 
         st.divider()
         options1 = filtered1["canonical_name"].tolist()

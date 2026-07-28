@@ -58,6 +58,22 @@ def has_revenue_code_prefix(benefit_name):
     return bool(CODE_PREFIX_RE.match(benefit_name))
 
 
+def is_high_confidence(record):
+    """A benefit is high-confidence if any of its mentions came from a
+    certificate's own section header (Tier 1) or a benefit-section bullet
+    (Tier 2a/2b) - i.e. not exclusively index terms or sentence-shaped
+    criteria, which are more likely to be noise than a real benefit name.
+    This is the single place to extend the "hide low-quality entries"
+    checkbox with more exclusion criteria later (e.g. revenue-code-style
+    names) without touching the UI filtering logic itself.
+    """
+    if 1 in record["tiers_present"]:
+        return True
+    phrase_count = record["shape_breakdown"].get("phrase", 0)
+    sentence_count = record["shape_breakdown"].get("sentence", 0)
+    return phrase_count >= sentence_count
+
+
 @lru_cache(maxsize=None)
 def get_extracted_doc(doc_id):
     """Lazily load a single Stage 1 extracted-text cache file for a document.

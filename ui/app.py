@@ -321,7 +321,11 @@ def render_topic_tree_comparison():
             "Overlap between the two sources, tagged exact/fuzzy with score - sorted by score "
             "ascending by default so the most borderline fuzzy matches surface first for review."
         )
-        match_type_filter = st.selectbox("Match type", ["All", "exact", "fuzzy"], key="tab3_match_type")
+        match_type_filter = st.selectbox(
+            "Match type",
+            ["All", "exact", "fuzzy", "fuzzy_compound", "fuzzy_suffix_stripped", "llm_semantic"],
+            key="tab3_match_type",
+        )
         search3 = st.text_input("Search", key="tab3_search")
 
         rows3 = [
@@ -331,6 +335,7 @@ def render_topic_tree_comparison():
                 "match_type": p["match_type"],
                 "score": p["score"],
                 "corpus_total_mentions": p["corpus_total_mentions"],
+                "llm_reasoning": p.get("llm_reasoning", ""),
             }
             for p in matched_pairs
         ]

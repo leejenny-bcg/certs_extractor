@@ -19,6 +19,48 @@
     "score": 100
   },
   {
+    "corpus_canonical_name": "Individual psychotherapeutic treatment",
+    "corpus_total_mentions": 64,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Individual psychotherapy",
+    "tree_topic_ids": [
+      52457
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PSYCHIATRIC SERVICES/INDIVIDUAL PSYCHOTHERAPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Both refer to individual psychotherapeutic treatment - one-on-one psychotherapy sessions. 'Individual psychotherapeutic treatment' and 'Individual psychotherapy' denote the same specific service."
+  },
+  {
+    "corpus_canonical_name": "Group psychotherapeutic treatment",
+    "corpus_total_mentions": 64,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Group psychotherapy",
+    "tree_topic_ids": [
+      52444
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PSYCHIATRIC SERVICES/GROUP PSYCHOTHERAPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Group psychotherapeutic treatment and Group psychotherapy refer to the same specific service - psychotherapy delivered in a group setting for behavioral health."
+  },
+  {
     "corpus_canonical_name": "Physical therapy",
     "corpus_total_mentions": 50,
     "corpus_tiers_present": [
@@ -81,6 +123,27 @@
     "score": 100
   },
   {
+    "corpus_canonical_name": "Infusion of colony stimulating growth factors",
+    "corpus_total_mentions": 39,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Infusion of colony stimulating growth fators for bone marrow transplant",
+    "tree_topic_ids": [
+      60052
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/SURGERY AND ANESTHESIA/SURGICAL PROCEDURES/TRANSPLANTATION/BASIC ORGAN/BONE MARROW/BONE MARROW TRANSPLANT DONOR/INFUSION OF COLONY STIMULATING GROWTH FATORS FOR BONE MARROW TRANSPLANT"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "Candidate 1 describes infusion of colony stimulating growth factors (with a typo 'fators'), matching the core service. The candidate adds 'for bone marrow transplant', which is more specific, but given the benefit appeared under Transplant Services, this is very likely the same specific benefit."
+  },
+  {
     "corpus_canonical_name": "High-dose chemotherapy and/or total body irradiation",
     "corpus_total_mentions": 38,
     "corpus_tiers_present": [
@@ -121,6 +184,28 @@
     "score": 100
   },
   {
+    "corpus_canonical_name": "Speech language therapy",
+    "corpus_total_mentions": 36,
+    "corpus_tiers_present": [
+      1,
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Speech therapy",
+    "tree_topic_ids": [
+      52729
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PT,OT,SLP/SPEECH THERAPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Speech language therapy is the same specific service as 'Speech therapy'. The top candidate 'Speech and hearing therapy' bundles a distinct service (hearing therapy) and is the known failure mode. 'Speech and language pathology' is a related but distinct evaluation/diagnostic discipline, while 'Speech therapy' is the direct therapeutic service match."
+  },
+  {
     "corpus_canonical_name": "Prosthetics and orthotics",
     "corpus_total_mentions": 31,
     "corpus_tiers_present": [
@@ -159,6 +244,29 @@
     ],
     "match_type": "exact",
     "score": 100
+  },
+  {
+    "corpus_canonical_name": "Contraceptive Services",
+    "corpus_total_mentions": 31,
+    "corpus_tiers_present": [
+      1,
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Contraceptive professional services",
+    "tree_topic_ids": [
+      52477
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/CONTRACEPTIVE PROFESSIONAL SERVICES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "'Contraceptive Services' most closely aligns with 'Contraceptive professional services', which covers the professional service component of contraception broadly. The other contraceptive candidates (injections, implants) are specific modalities, not the general service. While not a perfect lexical match, 'Contraceptive professional services' is the closest semantic equivalent representing contraceptive services generally."
   },
   {
     "corpus_canonical_name": "Diagnostic X-rays",
@@ -265,6 +373,28 @@
     "score": 100
   },
   {
+    "corpus_canonical_name": "Approved clinical trial",
+    "corpus_total_mentions": 26,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Clinical trial",
+    "tree_topic_ids": [
+      12957
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/MISCELLANEOUS/CLINICAL TRIAL"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Approved clinical trial' refers to routine patient costs associated with participation in approved clinical trials. The candidate 'Clinical trial' refers to the same specific benefit/service. The 'Approved' qualifier just specifies the type of clinical trial covered, but they refer to the same clinical trial coverage benefit."
+  },
+  {
     "corpus_canonical_name": "Cardiac Rehabilitation",
     "corpus_total_mentions": 25,
     "corpus_tiers_present": [
@@ -287,6 +417,27 @@
     "score": 100
   },
   {
+    "corpus_canonical_name": "Nuclear cardiac studies",
+    "corpus_total_mentions": 24,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Cardiovascular System (Nuclear Med)",
+    "tree_topic_ids": [
+      18791
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/RADIOLOGY/NUCLEAR MEDICINE/DIAGNOSTIC/CARDIOVASCULAR SYSTEM (NUCLEAR MED)"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Nuclear cardiac studies are nuclear medicine imaging of the cardiovascular system, which matches 'Cardiovascular System (Nuclear Med)' as the same specific service. 'Nuclear medicine' alone is broader, and other candidates are distinct cardiac procedures."
+  },
+  {
     "corpus_canonical_name": "Ambulance Services",
     "corpus_total_mentions": 23,
     "corpus_tiers_present": [
@@ -306,6 +457,28 @@
     "match_type": "fuzzy_suffix_stripped",
     "score": 100.0,
     "corpus_matched_part": "Ambulance"
+  },
+  {
+    "corpus_canonical_name": "Oncology Clinical Trials",
+    "corpus_total_mentions": 21,
+    "corpus_tiers_present": [
+      1,
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Specified Oncology Clinical Trials",
+    "tree_topic_ids": [
+      60344
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/SPECIFIED ONCOLOGY CLINICAL TRIALS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Candidate 1 'Specified Oncology Clinical Trials' refers to the same specific benefit - clinical trials in the oncology context. The 'Specified' qualifier does not change the core service. This is a much closer match than the generic 'Clinical trial'."
   },
   {
     "corpus_canonical_name": "Immunizations",
@@ -388,6 +561,29 @@
     "corpus_matched_part": "Dental"
   },
   {
+    "corpus_canonical_name": "Laboratory examinations",
+    "corpus_total_mentions": 16,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "dental",
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Diagnostic and clinical laboratory",
+    "tree_topic_ids": [
+      60460
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PATHOLOGY AND LABORATORY/DIAGNOSTIC AND CLINICAL LABORATORY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "'Laboratory examinations' refers to general lab testing/diagnostics. 'Diagnostic and clinical laboratory' is the closest match representing general laboratory services. Other candidates like 'Chemistry laboratory tests' and 'Immunology laboratory tests' are specific subtypes, and 'Postmortem Examination'/'Routine Oral Examination' are unrelated. While not a perfect lexical match, it represents the same general lab examination service."
+  },
+  {
     "corpus_canonical_name": "Behavioral health services",
     "corpus_total_mentions": 15,
     "corpus_tiers_present": [
@@ -406,6 +602,28 @@
     ],
     "match_type": "exact",
     "score": 100
+  },
+  {
+    "corpus_canonical_name": "Specialty Pharmaceuticals",
+    "corpus_total_mentions": 15,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Specialty Drugs",
+    "tree_topic_ids": [
+      2011213
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PRESCRIPTION DRUG PROGRAM/SPECIALTY DRUGS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Specialty Pharmaceuticals and Specialty Drugs refer to the same specific benefit - high-cost specialty prescription medications. Under the Prescription Drugs section, these terms are synonymous."
   },
   {
     "corpus_canonical_name": "Allergy Testing",
@@ -1091,6 +1309,636 @@
     "corpus_matched_part": "Urgent Care"
   },
   {
+    "corpus_canonical_name": "Self-administered, over-the-counter drugs",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Over-the-counter medications and supplies",
+    "tree_topic_ids": [
+      52499
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/MISCELLANEOUS/OVER-THE-COUNTER MEDICATIONS AND SUPPLIES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit refers to self-administered, over-the-counter drugs. Candidate 3 'Over-the-counter medications and supplies' captures the core OTC drug concept. Candidate 1 is chemotherapy-specific and candidate 2's meaning is unclear. While the corpus name adds 'self-administered', OTC drugs are inherently self-administered, so this is the closest same-concept match, though not a perfect wording overlap."
+  },
+  {
+    "corpus_canonical_name": "Anesthesiology Services",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Anesthesia professional services",
+    "tree_topic_ids": [
+      82159
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/SURGERY AND ANESTHESIA/ANESTHESIA PROFESSIONAL SERVICES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Anesthesiology Services and Anesthesia professional services refer to the same specific service - the professional anesthesia services provided by anesthesiologists. This is a clear semantic match despite slightly different wording."
+  },
+  {
+    "corpus_canonical_name": "Behavioral Health Services (Mental Health and Substance Use Disorder)",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Behavioral health services",
+    "tree_topic_ids": [
+      63239
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PSYCHIATRY AND MENTAL HEALTH/BEHAVIORAL HEALTH SERVICES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Behavioral Health Services (Mental Health and Substance Use Disorder)' is the same specific benefit as candidate 'Behavioral health services'. Behavioral health services encompass both mental health and substance use disorder treatment, so the parenthetical is clarifying scope rather than narrowing to a distinct service. This is a direct match."
+  },
+  {
+    "corpus_canonical_name": "Electroconvulsive Therapy (ECT)",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Therapeutic electroshock therapy",
+    "tree_topic_ids": [
+      52456
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PSYCHIATRIC SERVICES/THERAPEUTIC ELECTROSHOCK THERAPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Electroconvulsive Therapy (ECT) is synonymous with electroshock therapy. 'Therapeutic electroshock therapy' refers to the same specific treatment."
+  },
+  {
+    "corpus_canonical_name": "Psychiatric Partial Hospitalization Program (PHP)",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Psychiatric partial hospitalization",
+    "tree_topic_ids": [
+      52424
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PSYCHIATRY AND MENTAL HEALTH/PSYCHIATRIC PARTIAL HOSPITALIZATION"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Psychiatric Partial Hospitalization Program (PHP)' directly matches candidate 1 'Psychiatric partial hospitalization' - both refer to the same specific psychiatric partial hospitalization service."
+  },
+  {
+    "corpus_canonical_name": "Chiropractic office visits",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Chiropractic services",
+    "tree_topic_ids": [
+      52125
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/CHIROPRACTIC SERVICES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Chiropractic office visits' refers to visits to a chiropractor. 'Chiropractic services' is the closest match and refers to the same general chiropractic care benefit. While 'Chiropractic services' is somewhat broader, office visits are the core delivery mechanism of chiropractic services and this is the most appropriate specific match. Alternatives like 'Chiropractic manipulative treatment' refer to a specific procedure rather than the visit itself, and x-rays are a distinct service."
+  },
+  {
+    "corpus_canonical_name": "Clinical Trials (Routine Patient Costs)",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Clinical trial",
+    "tree_topic_ids": [
+      12957
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/MISCELLANEOUS/CLINICAL TRIAL"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Clinical Trials (Routine Patient Costs)' refers to routine patient care costs associated with clinical trials. Candidate 9 'Clinical trial' is the generic version referring to the same service. Candidate 1 'Specified Oncology Clinical Trials' is narrower (oncology-specific), so not a match. 'Clinical trial' is the closest same-benefit match, though slightly less specific about routine costs."
+  },
+  {
+    "corpus_canonical_name": "Emergency Treatment",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Emergency treatment/First aid",
+    "tree_topic_ids": [
+      24103
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/EMERGENCY TREATMENT/FIRST AID"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The candidate 'Emergency treatment/First aid' refers to the same specific benefit of emergency treatment. The additional 'First aid' component is part of the same emergency service bundle rather than a distinct modality."
+  },
+  {
+    "corpus_canonical_name": "Embryo transfer to member within one year from cryopreservation",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Embryo transfer procedures",
+    "tree_topic_ids": [
+      60397
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/EMBRYO TRANSFER PROCEDURES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit describes embryo transfer to a member following cryopreservation, which is fundamentally an embryo transfer procedure. Candidate 3 'Embryo transfer procedures' refers to the same specific service. The corpus name adds timing/context detail (within one year from cryopreservation), but the core benefit is embryo transfer. Medium confidence since the Topic Tree entry is slightly more general but still refers to the same specific service."
+  },
+  {
+    "corpus_canonical_name": "Custodial or nonskilled care",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Custodial care",
+    "tree_topic_ids": [
+      52740
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/NURSING HOME CARE/CUSTODIAL CARE"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Custodial or nonskilled care' refers to the same specific service as the candidate 'Custodial care' - custodial/nonskilled care are synonymous terms for the same non-medical assistance service."
+  },
+  {
+    "corpus_canonical_name": "Hospice Care Services",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Hospice services",
+    "tree_topic_ids": [
+      12931
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/HOSPICE SERVICES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Both refer to the same specific benefit - hospice care services. 'Hospice services' is the direct equivalent, not a related-but-different service like pre-hospice/palliative care or a specific sub-detail like levels of hospice care."
+  },
+  {
+    "corpus_canonical_name": "Up to eight hours of routine home care per day",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0651 - Routine home care",
+    "tree_topic_ids": [
+      23794
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/HOSPICE SERVICES/0651 - ROUTINE HOME CARE"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit is routine home care under Hospice Care Services. Revenue code 0651 is specifically 'Routine home care' which is the standard hospice routine home care level of care. This is the same specific benefit."
+  },
+  {
+    "corpus_canonical_name": "Physician services by a member of the hospice interdisciplinary team",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0657 - Hospice physician services",
+    "tree_topic_ids": [
+      23799
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/HOSPICE SERVICES/0657 - HOSPICE PHYSICIAN SERVICES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit describes physician services provided as part of the hospice interdisciplinary team, which directly matches '0657 - Hospice physician services'. This is the same specific service - physician care within hospice."
+  },
+  {
+    "corpus_canonical_name": "Medical social services by a licensed social worker, provided under the direction of a physician",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0984 - Professional charges for medical social services",
+    "tree_topic_ids": [
+      24097
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/MISCELLANEOUS/PROFESSIONAL FACILITY CHARGES/0984 - PROFESSIONAL CHARGES FOR MEDICAL SOCIAL SERVICES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Candidate 7 explicitly refers to medical social services, which is the same specific benefit as 'Medical social services by a licensed social worker.' The other candidates refer to unrelated services (radiation physics, physician face-to-face services, room and board, etc.)."
+  },
+  {
+    "corpus_canonical_name": "Lamaze, parenting or other similar classes.",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Training and educational classes for various topics",
+    "tree_topic_ids": [
+      61341
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/MISCELLANEOUS/TRAINING AND EDUCATIONAL CLASSES FOR VARIOUS TOPICS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "Lamaze and parenting classes are educational classes offered to expectant parents. Candidate 5, 'Training and educational classes for various topics,' captures this same concept of educational/training classes. While somewhat broad, it is the closest semantic match and appears to represent the same category of benefit. Other candidates are unrelated (blood storage, lab, room and board, etc.)."
+  },
+  {
+    "corpus_canonical_name": "Medical Supplies",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Medical/surgical supplies",
+    "tree_topic_ids": [
+      60566
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/MEDICAL AND SURGICAL SUPPLIES AND DEVICES/MEDICAL/SURGICAL SUPPLIES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "'Medical Supplies' matches 'Medical/surgical supplies' - both refer to the same category of medical/surgical supply items. Candidate 9 'Medical and surgical supplies' is equivalent but candidate 1 is the top-ranked exact conceptual match. This is the same specific benefit."
+  },
+  {
+    "corpus_canonical_name": "Outpatient Diabetes Management Program (ODMP)",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Diabetes Management",
+    "tree_topic_ids": [
+      61280
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIABETES MANAGEMENT"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit is an Outpatient Diabetes Management Program. Candidate 'Diabetes Management' is the general match for diabetes management services. The other candidates are subtypes (medication, education, supplies, other). While the outpatient program aspect isn't fully captured, 'Diabetes Management' is the closest specific match representing the same core service. Confidence is medium because the program-specific/outpatient nature may make it broader than intended."
+  },
+  {
+    "corpus_canonical_name": "Pain Management",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Pain management services",
+    "tree_topic_ids": [
+      59772
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/PAIN MANAGEMENT SERVICES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The candidate 'Pain management services' refers to the same specific benefit as 'Pain Management' - both denote the service of managing pain. The 'services' suffix is generic and does not change the specific meaning."
+  },
+  {
+    "corpus_canonical_name": "Prescription Drugs",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Prescription drug program",
+    "tree_topic_ids": [
+      12725
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PRESCRIPTION DRUG PROGRAM"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Prescription Drugs' refers to general prescription drug coverage. 'Prescription drug program' is the closest general match. Other candidates are narrower/distinct (non-prescription, select, off-label, mail order, specialty). While not an exact wording match, 'Prescription drug program' most plausibly represents the same general prescription drug benefit."
+  },
+  {
+    "corpus_canonical_name": "Test strips for glucometer",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Test Strips",
+    "tree_topic_ids": [
+      2012815
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIABETES MANAGEMENT PROGRAM/TEST STRIPS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Test strips for glucometer' refers to diabetic blood glucose test strips. Candidate 'Test Strips' directly refers to the same specific supply item. The context (Prescription Drugs, glucometer) confirms these are glucose test strips, and 'Test Strips' is the matching taxonomy entry."
+  },
+  {
+    "corpus_canonical_name": "Test strips and lancets",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Test Strips",
+    "tree_topic_ids": [
+      2012815
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIABETES MANAGEMENT PROGRAM/TEST STRIPS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Test strips and lancets' bundles two diabetic supply items. Candidate 'Test Strips' matches one component exactly but omits lancets. Since test strips are the primary/defining component and the two are commonly bundled together, this is a reasonable match, though the absence of lancets creates some doubt about whether it's the identical bundled benefit."
+  },
+  {
+    "corpus_canonical_name": "Routine Gynecological Examination",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Gynecological exam",
+    "tree_topic_ids": [
+      52647
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/EVALUATION AND MANAGEMENT - HEALTH MAINTENANCE EXAM OR GYNECOLOGICAL EXAM/GYNECOLOGICAL EXAM"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Routine Gynecological Examination' refers to the same specific service as the candidate 'Gynecological exam'. Both denote a gynecological examination, and 'routine' simply indicates the preventive context. This is the same specific benefit a member could point to."
+  },
+  {
+    "corpus_canonical_name": "Tobacco Cessation Programs",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Smoking cessation counseling",
+    "tree_topic_ids": [
+      52847
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/EVALUATION AND MANAGEMENT - HEALTH MAINTENANCE EXAM OR GYNECOLOGICAL EXAM/COUNSELING OR RISK FACTOR REDUCTION INTERVENTION /SMOKING CESSATION COUNSELING"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "Tobacco Cessation Programs refers to programs to help members quit tobacco. Two candidates are related: 'Smoking cessation products' (medications/products) and 'Smoking cessation counseling' (counseling services). A cessation program most closely aligns with the counseling/program service rather than just products. However, 'products' is a distinct modality. The program concept best matches counseling, though there is some ambiguity since a full program may include both. Choosing counseling as the closest service match with medium confidence."
+  },
+  {
+    "corpus_canonical_name": "A semiprivate room, including general nursing service, meals and special diets",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0121 - Room and board for semi-private medical, surgical, gynecological two bed room",
+    "tree_topic_ids": [
+      24136
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/ROOM, BOARD AND NURSING CHARGES/SEMI-PRIVATE TWO BED (MEDICAL OR GENERAL)/0121 - MEDICAL/SURGICAL/GYN"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit describes a semiprivate room with nursing, meals and special diets under Skilled Nursing Facility Services. Candidate 9 (Room and board for semi-private medical, surgical, gynecological two bed room) is the closest semantic match for a semiprivate room-and-board benefit. Candidate 6 is similar but less specific. Medium confidence because the corpus benefit bundles nursing/meals and is in a SNF context, while the candidate is framed for medical/surgical/gynecological rooms, but both refer to the same core semiprivate room-and-board service."
+  },
+  {
+    "corpus_canonical_name": "Special treatment rooms",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0761 - Specialty Services - Treatment Room",
+    "tree_topic_ids": [
+      23832
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/TREATMENT AND OBSERVATION ROOMS/0761 - SPECIALTY SERVICES - TREATMENT ROOM"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "Candidate 1 '0761 - Specialty Services - Treatment Room' refers to a special/specialty treatment room, which aligns closely with 'Special treatment rooms' as a revenue-code style facility charge. The other candidates are specific therapies or unrelated services. While the context (Skilled Nursing Facility) differs slightly, the specific benefit\u2014a special treatment room\u2014matches. Confidence is medium due to context uncertainty."
+  },
+  {
+    "corpus_canonical_name": "Physician services (up to two visits per week)",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0696 - Physician services",
+    "tree_topic_ids": [
+      2324423
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/PRE-HOSPICE/PALLIATIVE CARE SERVICE/0696 - PHYSICIAN SERVICES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit is 'Physician services' provided within a Skilled Nursing Facility, limited to two visits per week. Candidate 3 '0696 - Physician services' is the general physician services entry, which matches the core service. The visit limit is a coverage detail rather than a different service. Other candidates (hospice, non-face-to-face, prolonged, therapy, social services) are distinct services."
+  },
+  {
+    "corpus_canonical_name": "Care for substance use disorder",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Substance abuse",
+    "tree_topic_ids": [
+      52714
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/SUBSTANCE ABUSE"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Care for substance use disorder' refers to treatment/care for substance abuse. The candidate 'Substance abuse' refers to the same specific condition/service area. While the wording differs, both point to the same substance use disorder care. Reasonable confidence but not full certainty since context is under Skilled Nursing Facility Services, so using medium."
+  },
+  {
+    "corpus_canonical_name": "Use of ambulatory surgery facility",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0490 - Ambulatory Surgery Facility Charges General Classification",
+    "tree_topic_ids": [
+      12824
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/AMBULATORY SURGICAL SERVICES/AMBULATORY SURGERY/0490 - AMBULATORY SURGERY FACILITY CHARGES GENERAL CLASSIFICATION"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Use of ambulatory surgery facility' refers specifically to the facility charges for using an ambulatory surgery center, which exactly matches '0490 - Ambulatory Surgery Facility Charges General Classification'. Candidates like 'Ambulatory surgery' and 'Ambulatory surgical services' refer to the surgical service itself rather than the facility use/charge, so they are distinct concepts."
+  },
+  {
+    "corpus_canonical_name": "Services by a nonparticipating ambulatory surgery facility",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Ambulatory surgical services",
+    "tree_topic_ids": [
+      86458
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/AMBULATORY SURGICAL SERVICES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit refers to services provided by an ambulatory surgery facility (specifically nonparticipating). Candidate 4 'Ambulatory surgical services' captures the same specific service type. Candidate 1 is about facility charges classification. The nonparticipating distinction is a network status modifier rather than a different service, so 'Ambulatory surgical services' is the closest same-service match, though not perfectly aligned."
+  },
+  {
+    "corpus_canonical_name": "Bone marrow (described below)",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Bone Marrow or Stem Cell Services/Procedures",
+    "tree_topic_ids": [
+      60289
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/HEMIC AND LYMPHATIC SYSTEM/GENERAL/BONE MARROW OR STEM CELL SERVICES/PROCEDURES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit appears under 'Transplant Services' and refers to bone marrow transplant. Candidate 5 'Bone Marrow or Stem Cell Services/Procedures' is the closest match to bone marrow transplant services. Other candidates refer to specific sub-aspects (donor evaluation, harvesting/storing, donor) rather than the overall bone marrow transplant service."
+  },
+  {
     "corpus_canonical_name": "Laboratory services",
     "corpus_total_mentions": 13,
     "corpus_tiers_present": [
@@ -1283,6 +2131,258 @@
     "score": 96.55172413793103
   },
   {
+    "corpus_canonical_name": "A partial hospitalization program described in the PHP section of this document",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Psychiatric partial hospitalization",
+    "tree_topic_ids": [
+      52424
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PSYCHIATRY AND MENTAL HEALTH/PSYCHIATRIC PARTIAL HOSPITALIZATION"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit is a partial hospitalization program (PHP) under Behavioral Health Services. 'Psychiatric partial hospitalization' refers to the same specific mental health PHP service. While '0913 - Partial Hospitalization - Intensive' is also relevant, the psychiatric PHP entry is the closest specific match to a behavioral health partial hospitalization program."
+  },
+  {
+    "corpus_canonical_name": "Physical therapists",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Physical therapy",
+    "tree_topic_ids": [
+      52483
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PT,OT,SLP/PHYSICAL THERAPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Physical therapists' refers to physical therapy services provided by physical therapists, which is the same specific service as the candidate 'Physical therapy'. The other candidates are billing codes, evaluations, or unrelated therapies."
+  },
+  {
+    "corpus_canonical_name": "Electrocardiogram (EKG)",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Electrocardiography (EKG/ECG)",
+    "tree_topic_ids": [
+      52720
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/CARDIOLOGY/ELECTROCARDIOGRAPHY (EKG/ECG)"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Both refer to the same diagnostic test - electrocardiogram (EKG/ECG). Candidate 1 explicitly includes the EKG abbreviation and matches the specific service."
+  },
+  {
+    "corpus_canonical_name": "Pulmonary function studies",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Pulmonary function testing",
+    "tree_topic_ids": [
+      12788
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PULMONARY FUNCTION TESTING"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "'Pulmonary function studies' and 'Pulmonary function testing' refer to the same specific diagnostic service measuring lung function; 'studies' and 'testing' are synonymous in this context."
+  },
+  {
+    "corpus_canonical_name": "Electromyogram (EMG)",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0922 - Electromyelgram",
+    "tree_topic_ids": [
+      24207
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/DIAGNOSTIC SERVICES/NEUROMUSCULAR PROCEDURES/0922 - ELECTROMYELGRAM"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Electromyogram (EMG) matches 'Electromyelgram' (a misspelling of electromyogram) - the same diagnostic test. Candidate 10 'Electromyography and Nerve Conduction Studies' bundles EMG with nerve conduction studies, making it broader/distinct, whereas candidate 1 is specifically the electromyogram test itself."
+  },
+  {
+    "corpus_canonical_name": "Routine Flexible Sigmoidoscopy Examination",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Flexible sigmoidoscopy",
+    "tree_topic_ids": [
+      52662
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/SURGERY/FLEXIBLE SIGMOIDOSCOPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Routine Flexible Sigmoidoscopy Examination' refers to the same specific procedure as the candidate 'Flexible sigmoidoscopy'. The 'Routine' and 'Examination' qualifiers describe the same screening service."
+  },
+  {
+    "corpus_canonical_name": "24/7 Virtual Visit",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Online Visits",
+    "tree_topic_ids": [
+      2332872
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/OFFICE, OUTPATIENT AND HOME MEDICAL CARE VISITS/OFFICE OR OTHER OUTPATIENT SERVICES/ONLINE VISITS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "A 24/7 Virtual Visit refers to on-demand virtual/telehealth appointments, which aligns semantically with 'Online Visits'. This is a reasonable match though terminology differs slightly (virtual vs online). 'Remote In-Home Visits' implies physical in-home visits, which is different."
+  },
+  {
+    "corpus_canonical_name": "Alternative Medicines",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Alternative therapy services",
+    "tree_topic_ids": [
+      60579
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/ALTERNATIVE THERAPY SERVICES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "'Alternative Medicines' refers to alternative/complementary medicine services, which closely aligns with 'Alternative therapy services.' Both refer to the same category of non-conventional medical treatments. There is some uncertainty since 'medicines' could emphasize drugs/remedies while 'therapy services' emphasizes treatments, but they represent the same specific benefit domain of alternative medicine."
+  },
+  {
+    "corpus_canonical_name": "Certified Registered Nurse Anesthetist",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0964 - Anesthetist (CRNA) professional charges",
+    "tree_topic_ids": [
+      24083
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/ANESTHESIA/0964 - ANESTHETIST (CRNA) PROFESSIONAL CHARGES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Candidate 1 explicitly references CRNA (Certified Registered Nurse Anesthetist) professional charges, which is the same specific benefit/provider service as the benefit name."
+  },
+  {
+    "corpus_canonical_name": "Allergy immunotherapy by injection (allergy shots)",
+    "corpus_total_mentions": 12,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Allergen Immunotherapy",
+    "tree_topic_ids": [
+      20562
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/ALLERGY AND CLINICAL IMMUNOLOGY/ALLERGEN IMMUNOTHERAPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Allergen Immunotherapy is the same specific benefit as allergy immunotherapy by injection (allergy shots). The terms are synonymous - both refer to the treatment of desensitizing patients to allergens via immunotherapy."
+  },
+  {
+    "corpus_canonical_name": "Psychiatric Intensive Outpatient Program (IOP)",
+    "corpus_total_mentions": 12,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0905 - Intensive Outpatient Services - Psychiatric",
+    "tree_topic_ids": [
+      63255
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PSYCHIATRY AND MENTAL HEALTH/BEHAVIORAL HEALTH TREATMENTS/0905 - INTENSIVE OUTPATIENT SERVICES - PSYCHIATRIC"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Candidate 1 'Intensive Outpatient Services - Psychiatric' refers to the exact same specific service as 'Psychiatric Intensive Outpatient Program (IOP)'. Both denote psychiatric intensive outpatient care. Candidate 10 is the chemical dependency variant, which is distinct."
+  },
+  {
+    "corpus_canonical_name": "Contraceptive Medication",
+    "corpus_total_mentions": 12,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Contraceptive drugs non-NHCR/PPACA",
+    "tree_topic_ids": [
+      52475
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/CONTRACEPTION/CONTRACEPTIVE DRUGS NON-NHCR/PPACA"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "Contraceptive Medication refers to contraceptive drugs. Candidate 'Contraceptive drugs non-NHCR/PPACA' is the closest specific match for contraceptive medication/drugs, whereas injections, implants, and general 'Contraception' are distinct forms or broader categories."
+  },
+  {
     "corpus_canonical_name": "Fecal Occult Blood Screening",
     "corpus_total_mentions": 11,
     "corpus_tiers_present": [
@@ -1300,6 +2400,238 @@
     ],
     "match_type": "exact",
     "score": 100
+  },
+  {
+    "corpus_canonical_name": "An office consultation with a specialist",
+    "corpus_total_mentions": 11,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "csr_rider",
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Office or Other Outpatient Consultations",
+    "tree_topic_ids": [
+      20794
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/CONSULTATIONS/OFFICE OR OTHER OUTPATIENT CONSULTATIONS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit is an office consultation with a specialist. Candidate 1 'Office or Other Outpatient Consultations' captures the same specific service of an office/outpatient consultation. While it doesn't explicitly mention 'specialist', an office consultation is inherently the same service type. Other candidates refer to inpatient, pathology, or education consultations which are distinct."
+  },
+  {
+    "corpus_canonical_name": "Routine Laboratory Services",
+    "corpus_total_mentions": 11,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Laboratory services",
+    "tree_topic_ids": [
+      52649
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/LABORATORY SERVICES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Routine Laboratory Services' appears under Preventive Care, but the core service is laboratory services. Candidate 1 'Laboratory services' refers to the same specific service (lab work). While 'routine' adds a preventive context, it is still fundamentally laboratory services. However, there is some doubt since it is specifically preventive/routine labs versus general lab services, hence medium confidence."
+  },
+  {
+    "corpus_canonical_name": "X-rays",
+    "corpus_total_mentions": 11,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Diagnostic X-ray",
+    "tree_topic_ids": [
+      2380998
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/DIAGNOSTIC TESTS AND LAB EXAMINATIONS/DIAGNOSTIC X-RAY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'X-rays' under Radiology Services refers to general diagnostic X-ray imaging, which matches 'Diagnostic X-ray'. Other candidates are specific body-part or context X-rays (chest, chiropractic, screening) rather than the general X-ray benefit."
+  },
+  {
+    "corpus_canonical_name": "Ultrasound",
+    "corpus_total_mentions": 11,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Diagnostic ultrasound",
+    "tree_topic_ids": [
+      12883
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/RADIOLOGY/DIAGNOSTIC RADIOLOGY/ULTRASOUND"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Ultrasound' appears under Radiology Services, which strongly indicates diagnostic imaging via ultrasound. 'Diagnostic ultrasound' is the closest specific match. Other candidates are too specific (spinal canal, obstetrical pelvic) or unrelated (facility charges). While 'Ultrasound' is somewhat generic, in a radiology context it corresponds to diagnostic ultrasound imaging."
+  },
+  {
+    "corpus_canonical_name": "Magnetic resonance imaging (MRI)",
+    "corpus_total_mentions": 11,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Diagnostic magnetic resonance imaging",
+    "tree_topic_ids": [
+      52319
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/RADIOLOGY/DIAGNOSTIC RADIOLOGY/MRI/MRA"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "MRI under Radiology Services refers to diagnostic magnetic resonance imaging, which is exactly what candidate 1 describes. Other candidates are specific body regions, angiography, or unrelated services."
+  },
+  {
+    "corpus_canonical_name": "Positron emission tomography (PET) scans",
+    "corpus_total_mentions": 11,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0404 - Positron Emission Tomography",
+    "tree_topic_ids": [
+      23881
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/RADIOLOGY/FACILITY CHARGES FOR OTHER DIAGNOSTIC RADIOLOGY IMAGING SERVICES/0404 - POSITRON EMISSION TOMOGRAPHY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Positron emission tomography (PET) scans' matches candidate '0404 - Positron Emission Tomography' exactly in meaning. Candidate 2 'Positron emission therapy' is a different service (therapy vs imaging scan)."
+  },
+  {
+    "corpus_canonical_name": "Blood tests on first degree relatives to evaluate them as donors",
+    "corpus_total_mentions": 11,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Blood tests to evaluate bone marrow donor",
+    "tree_topic_ids": [
+      52636
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/SURGERY AND ANESTHESIA/SURGICAL PROCEDURES/TRANSPLANTATION/BASIC ORGAN/BONE MARROW/BONE MARROW TRANSPLANT DONOR/BLOOD TESTS TO EVALUATE BONE MARROW DONOR"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "Both refer to blood tests done to evaluate potential donors in the transplant context. The corpus specifies first degree relatives while the candidate specifies bone marrow donor evaluation. These are closely aligned - evaluating relatives as donors for transplant matches the intent of testing potential donors. Confidence is medium rather than high because the candidate specifies bone marrow donor while the corpus is more general about donor type, but both describe donor evaluation blood testing in transplant services."
+  },
+  {
+    "corpus_canonical_name": "Covered services and devices for pain management",
+    "corpus_total_mentions": 11,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Pain management services",
+    "tree_topic_ids": [
+      59772
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/PAIN MANAGEMENT SERVICES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit refers to covered services and devices for pain management, which directly corresponds to 'Pain management services'. Both refer to the same specific service area of pain management."
+  },
+  {
+    "corpus_canonical_name": "Routine Pap Smear",
+    "corpus_total_mentions": 10,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Pap smear",
+    "tree_topic_ids": [
+      52458
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/LABORATORY SERVICES/PAP SMEAR"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Routine Pap Smear' is a Pap smear performed as a routine preventive screening. Candidate 'Pap smear' refers to the same specific service. The 'diagnostic' variant is distinct (diagnostic vs routine screening), so I chose the general 'Pap smear' entry which matches the routine preventive context."
+  },
+  {
+    "corpus_canonical_name": "Screening Mammography",
+    "corpus_total_mentions": 10,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Mammogram, screening",
+    "tree_topic_ids": [
+      52321
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/RADIOLOGY/MAMMOGRAMS/MAMMOGRAM, SCREENING"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "'Screening Mammography' and 'Mammogram, screening' refer to the same specific preventive service. This is a direct match, distinct from diagnostic mammography candidates."
+  },
+  {
+    "corpus_canonical_name": "A certified registered nurse anesthetist (CRNA)",
+    "corpus_total_mentions": 10,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0964 - Anesthetist (CRNA) professional charges",
+    "tree_topic_ids": [
+      24083
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/ANESTHESIA/0964 - ANESTHETIST (CRNA) PROFESSIONAL CHARGES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Candidate 1 explicitly refers to CRNA (certified registered nurse anesthetist) professional charges, which is the same specific service as the benefit name."
   },
   {
     "corpus_canonical_name": "Assessments",
@@ -1359,6 +2691,112 @@
     "score": 100
   },
   {
+    "corpus_canonical_name": "An office consultation",
+    "corpus_total_mentions": 9,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "csr_rider",
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Office or Other Outpatient Consultations",
+    "tree_topic_ids": [
+      20794
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/CONSULTATIONS/OFFICE OR OTHER OUTPATIENT CONSULTATIONS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'An office consultation' refers to a consultation performed in an office setting, which directly matches 'Office or Other Outpatient Consultations'. This is more specific and accurate than the generic 'Consultations' candidate."
+  },
+  {
+    "corpus_canonical_name": "Inhalation therapy",
+    "corpus_total_mentions": 9,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Inhalation services",
+    "tree_topic_ids": [
+      2327445
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DURABLE MEDICAL EQUIPMENT/CAPPED RENTAL DME/INHALATION"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Inhalation therapy and Inhalation services refer to the same specific respiratory therapy service delivering medication via inhalation. The candidate 'Inhalation services' (also '0412 - Inhalation Services') is the same benefit."
+  },
+  {
+    "corpus_canonical_name": "Electroconvulsive Treatment (ECT)",
+    "corpus_total_mentions": 9,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0901 - Electroshock Treatment",
+    "tree_topic_ids": [
+      23826
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PSYCHIATRY AND MENTAL HEALTH/BEHAVIORAL HEALTH TREATMENTS/0901 - ELECTROSHOCK TREATMENT"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Electroshock Treatment is a synonym for Electroconvulsive Treatment/Therapy (ECT); both refer to the same specific psychiatric procedure."
+  },
+  {
+    "corpus_canonical_name": "Pulmonary function evaluation",
+    "corpus_total_mentions": 9,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Pulmonary function testing",
+    "tree_topic_ids": [
+      12788
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PULMONARY FUNCTION TESTING"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Pulmonary function evaluation and pulmonary function testing refer to the same specific service - assessment/measurement of lung function. Candidate 1 'Other Pulmonary Function' is a residual category, while 'Pulmonary function testing' directly matches the specific benefit."
+  },
+  {
+    "corpus_canonical_name": "Hyperbaric oxygenation (therapy given in a pressure chamber)",
+    "corpus_total_mentions": 9,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0413 - Hyperbaric Oxygen Therapy",
+    "tree_topic_ids": [
+      23951
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/RESPIRATORY SERVICES/0413 - HYPERBARIC OXYGEN THERAPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Hyperbaric oxygenation (therapy given in a pressure chamber)' is exactly the same service as candidate 'Hyperbaric Oxygen Therapy'."
+  },
+  {
     "corpus_canonical_name": "Cosmetic Drugs",
     "corpus_total_mentions": 8,
     "corpus_tiers_present": [
@@ -1376,6 +2814,28 @@
     ],
     "match_type": "exact",
     "score": 100
+  },
+  {
+    "corpus_canonical_name": "Eye Exam",
+    "corpus_total_mentions": 8,
+    "corpus_tiers_present": [
+      1,
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Vision exam",
+    "tree_topic_ids": [
+      12942
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/VISION/EXAM"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "An eye exam and a vision exam refer to the same specific service - an examination of the eyes/vision. This is the same benefit a member would point to and confirm."
   },
   {
     "corpus_canonical_name": "Lenticular aspheric myodisc",
@@ -1416,6 +2876,93 @@
     ],
     "match_type": "fuzzy",
     "score": 91.52542372881356
+  },
+  {
+    "corpus_canonical_name": "Aphakic",
+    "corpus_total_mentions": 7,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Aphakic lense",
+    "tree_topic_ids": [
+      60414
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/APHAKIC LENSE"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit appeared under Lenses/Eye Exam, referring to aphakic lenses for post-cataract/lens-absence correction. Candidate 'Aphakic lense' is the same specific benefit. Candidate 7 'Lenticular aphakic lense' is a more specific subtype, making the plain 'Aphakic lense' the better general match."
+  },
+  {
+    "corpus_canonical_name": "Lenticular aphakic",
+    "corpus_total_mentions": 7,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Lenticular aphakic lense",
+    "tree_topic_ids": [
+      60415
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/LENTICULAR APHAKIC LENSE"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Lenticular aphakic' appears under Lenses and clearly refers to a lenticular aphakic lens. Candidate 1 'Lenticular aphakic lense' is the exact same specific item, just with the word 'lense' appended."
+  },
+  {
+    "corpus_canonical_name": "A primary care physician office, home, online, virtual or outpatient visit",
+    "corpus_total_mentions": 7,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "csr_rider",
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Office, outpatient and home medical care visits",
+    "tree_topic_ids": [
+      89152
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/OFFICE, OUTPATIENT AND HOME MEDICAL CARE VISITS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The corpus benefit describes a primary care physician visit across office, home, online, virtual or outpatient settings. Candidate 1 'Office, outpatient and home medical care visits' captures the same set of general medical care visit locations. While it doesn't explicitly mention virtual/online, it is the closest representation of a physician office/outpatient/home visit. Other candidates are psychiatric-specific, dialysis-specific, or billing codes, none of which fit. Confidence is medium since the corpus emphasizes primary care and virtual visits which the candidate doesn't fully mirror."
+  },
+  {
+    "corpus_canonical_name": "Blood tests to evaluate donors (if not covered by t he potential donor\u2019s insurance)",
+    "corpus_total_mentions": 7,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Blood tests to evaluate bone marrow donor",
+    "tree_topic_ids": [
+      52636
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/SURGERY AND ANESTHESIA/SURGICAL PROCEDURES/TRANSPLANTATION/BASIC ORGAN/BONE MARROW/BONE MARROW TRANSPLANT DONOR/BLOOD TESTS TO EVALUATE BONE MARROW DONOR"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The corpus benefit refers to blood tests to evaluate donors. The top candidate specifies 'bone marrow donor', which is a specific type of donor. In the oncology/transplant context this is plausibly the same service, but the corpus name is more generic about donors while the candidate is specific to bone marrow. Reasonable confidence but not full certainty due to the specificity difference."
   },
   {
     "corpus_canonical_name": "Lancets",
@@ -1494,6 +3041,69 @@
     "score": 100
   },
   {
+    "corpus_canonical_name": "Test strips for glucose monitors",
+    "corpus_total_mentions": 6,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Test Strips",
+    "tree_topic_ids": [
+      2012815
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIABETES MANAGEMENT PROGRAM/TEST STRIPS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Candidate 'Test Strips' directly refers to the same specific benefit - glucose test strips used in diabetes management. Given the context of an Outpatient Diabetes Management Program, this is clearly the same item."
+  },
+  {
+    "corpus_canonical_name": "Syringes",
+    "corpus_total_mentions": 6,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Needles and Syringes",
+    "tree_topic_ids": [
+      52491
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/MEDICAL AND SURGICAL SUPPLIES/NEEDLES AND SYRINGES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Syringes' appears under diabetes management, referring to syringes for insulin administration. Candidate 'Needles and Syringes' clearly includes syringes as a covered supply. While it bundles needles too, it directly refers to the same specific supply item (syringes), making it a reasonable match rather than a broader category."
+  },
+  {
+    "corpus_canonical_name": "Medical supplies required for the use of an insulin pump",
+    "corpus_total_mentions": 6,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Miscellaneous Medical supplies for Diabetes Management",
+    "tree_topic_ids": [
+      2011954
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIABETES MANAGEMENT PROGRAM/MISCELLANEOUS MEDICAL SUPPLIES FOR DIABETES MANAGEMENT"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit is medical supplies for insulin pump use, appearing under a diabetes management program. Candidate 9 'Miscellaneous Medical supplies for Diabetes Management' is the closest semantic match - both refer to diabetes-related medical supplies. While insulin pump supplies are a specific subset, this candidate is the diabetes-supply category and aligns well contextually. Some doubt remains about specificity, hence medium confidence."
+  },
+  {
     "corpus_canonical_name": "Any covered drug entirely consumed at the time and place of the prescription",
     "corpus_total_mentions": 5,
     "corpus_tiers_present": [
@@ -1511,6 +3121,92 @@
     ],
     "match_type": "fuzzy",
     "score": 94.20289855072464
+  },
+  {
+    "corpus_canonical_name": "Myodisc",
+    "corpus_total_mentions": 5,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Myodisc lense",
+    "tree_topic_ids": [
+      60411
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/MYODISC LENSE"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Myodisc' appears under the Lenses section, and the candidate 'Myodisc lense' refers to the same specific lens type. This is the same specific benefit."
+  },
+  {
+    "corpus_canonical_name": "Lenticular myodisc",
+    "corpus_total_mentions": 5,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Lenticular myodisc lense",
+    "tree_topic_ids": [
+      60412
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/LENTICULAR MYODISC LENSE"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Lenticular myodisc' appears under 'Lenses' and refers to a lenticular myodisc lens. Candidate 1 'Lenticular myodisc lense' is the same specific lens type. Candidate 3 adds 'aspheric' which is a distinct variant, so the exact match is candidate 1."
+  },
+  {
+    "corpus_canonical_name": "Blood tests to evaluate donors (if not covered by the potential donor\u2019s insurance)",
+    "corpus_total_mentions": 5,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Blood tests to evaluate bone marrow donor",
+    "tree_topic_ids": [
+      52636
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/SURGERY AND ANESTHESIA/SURGICAL PROCEDURES/TRANSPLANTATION/BASIC ORGAN/BONE MARROW/BONE MARROW TRANSPLANT DONOR/BLOOD TESTS TO EVALUATE BONE MARROW DONOR"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "Both refer to blood tests to evaluate a donor. The candidate specifies 'bone marrow donor' while the corpus name is generic 'donors'. Given the context of oncology, bone marrow/stem cell donor evaluation is the likely intended service, and the candidate is the closest specific match. However, the generic corpus phrasing introduces some doubt about whether it's specifically bone marrow donors, so medium confidence."
+  },
+  {
+    "corpus_canonical_name": "Bone Marrow Transplants",
+    "corpus_total_mentions": 5,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Bone marrow transplantation",
+    "tree_topic_ids": [
+      12843
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/TRANSPLANTATION/BASIC ORGAN/BONE MARROW"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Bone Marrow Transplants' directly corresponds to 'Bone marrow transplantation'. Candidates 4 and 5 are specific subtypes (allogeneic/autologous), while candidate 1 is the general matching service."
   },
   {
     "corpus_canonical_name": "Lenses",
@@ -1667,6 +3363,217 @@
     "score": 92.5925925925926
   },
   {
+    "corpus_canonical_name": "Ophthalmoscopic examinations",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Ophthalmoscopy",
+    "tree_topic_ids": [
+      20310
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIAGNOSTIC SERVICES/SPECIAL OPHTHALMOLOGICAL SERVICES/OPHTHALMOSCOPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Ophthalmoscopic examinations refers to ophthalmoscopy, the examination of the eye's interior using an ophthalmoscope. The candidate 'Ophthalmoscopy' names the same specific procedure/service."
+  },
+  {
+    "corpus_canonical_name": "Tonometry (test for glaucoma) when indicated",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Glaucoma Screening",
+    "tree_topic_ids": [
+      2321021
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/DIAGNOSTIC SERVICES/GLAUCOMA SCREENING"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "Tonometry is a test for glaucoma, and 'Glaucoma Screening' refers to testing for glaucoma, which is the same specific service being described. While tonometry is one specific method, the benefit is explicitly framed as a test/screening for glaucoma, aligning with the Glaucoma Screening entry."
+  },
+  {
+    "corpus_canonical_name": "Frames",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Eyeglass frames",
+    "tree_topic_ids": [
+      12946
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS/PROSTHETIC DEVICE/SPECTACLE LENSES/EYEGLASS FRAMES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "In the context of vision/health insurance benefits, 'Frames' refers to eyeglass frames, which is exactly what candidate 2 describes."
+  },
+  {
+    "corpus_canonical_name": "Broken or Lost Lenses or Frames",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Replacement of lenses or frames",
+    "tree_topic_ids": [
+      60428
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/VISION/REPLACEMENT OF LENSES OR FRAMES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Broken or Lost Lenses or Frames' refers to coverage for replacing lenses or frames that are broken or lost. Candidate 1 'Replacement of lenses or frames' describes the same specific service - replacing lenses or frames. While the corpus name emphasizes the cause (broken/lost) and the candidate emphasizes the action (replacement), both refer to the same coverage of getting new lenses/frames. Medium confidence due to slight framing difference."
+  },
+  {
+    "corpus_canonical_name": "Coating/Laminating",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Coating or laminating of lenses",
+    "tree_topic_ids": [
+      60429
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/COATING OR LAMINATING"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Coating/Laminating' appears under Contact Lenses, and candidate 1 'Coating or laminating of lenses' refers to the same specific lens treatment service."
+  },
+  {
+    "corpus_canonical_name": "Accidental Dental Injury",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Dental care related to accidental injuries",
+    "tree_topic_ids": [
+      65918
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/DENTAL MEDICAL AND SURGERY TREATMENT/DENTAL CARE RELATED TO ACCIDENTAL INJURIES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Accidental Dental Injury' refers to dental care resulting from accidental injuries, which is exactly what candidate 1 'Dental care related to accidental injuries' describes. Same specific service."
+  },
+  {
+    "corpus_canonical_name": "Cosmetic Surgery",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Cosmetic procedures",
+    "tree_topic_ids": [
+      2016771
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/COSMETIC AND RECONSTRUCTIVE SURGERY PROCEDURES/COSMETIC PROCEDURES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "Cosmetic surgery and 'Cosmetic procedures' both refer to cosmetic interventions. While 'procedures' is slightly broader than 'surgery,' in insurance taxonomy these typically refer to the same specific benefit category of cosmetic treatments. The other candidates like 'Cosmetic drugs' or 'Cosmetic lenses' are distinct modalities, and generic 'Surgery' is too broad."
+  },
+  {
+    "corpus_canonical_name": "Certified Nurse Anesthetist (CRNA)",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0964 - Anesthetist (CRNA) professional charges",
+    "tree_topic_ids": [
+      24083
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/ANESTHESIA/0964 - ANESTHETIST (CRNA) PROFESSIONAL CHARGES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit refers to Certified Nurse Anesthetist (CRNA) charges, and candidate 1 explicitly refers to Anesthetist (CRNA) professional charges - the same specific service and provider type."
+  },
+  {
+    "corpus_canonical_name": "HIV counseling and screening",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "AIDS/HIV Screening",
+    "tree_topic_ids": [
+      2320973
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/PATHOLOGY & LABORATORY/AIDS/HIV SCREENING"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'HIV counseling and screening' refers to HIV testing/screening (with associated counseling as part of preventive care). The candidate 'AIDS/HIV Screening' refers to the same specific service. The generic 'Counseling/Screening' is too broad. This is the correct specific match."
+  },
+  {
+    "corpus_canonical_name": "Emergency palliative treatment",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Palliative dental treatments",
+    "tree_topic_ids": [
+      60504
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/PALLIATIVE DENTAL TREATMENTS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit appears under dental service classes (Class I Diagnostic/Preventive and Class II Basic Services), which are dental coverage categories. 'Emergency palliative treatment' in dental contexts refers to emergency palliative dental care (relief of pain). Candidate 1 'Palliative dental treatments' refers to the same specific dental service. 'Emergency treatment/First aid' is broader/general medical emergency care, not the dental palliative service indicated by the section headers."
+  },
+  {
     "corpus_canonical_name": "Aphakic Lenses",
     "corpus_total_mentions": 3,
     "corpus_tiers_present": [
@@ -1722,6 +3629,70 @@
     ],
     "match_type": "exact",
     "score": 100
+  },
+  {
+    "corpus_canonical_name": "Second opinion \u2014 a consultation to confirm the need for surgery",
+    "corpus_total_mentions": 3,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Second Opinion Program for Consultation of Elective Surgery",
+    "tree_topic_ids": [
+      60231
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/SECOND OPINION PROGRAM FOR CONSULTATION OF ELECTIVE SURGERY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit describes a second opinion consultation to confirm the need for surgery, which matches the candidate 'Second Opinion Program for Consultation of Elective Surgery' - both refer to the same specific second opinion service for surgery."
+  },
+  {
+    "corpus_canonical_name": "Surgical treatment of male gynecomastia",
+    "corpus_total_mentions": 3,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Mastectomy for gynecomastia",
+    "tree_topic_ids": [
+      2016776
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/COSMETIC AND RECONSTRUCTIVE SURGERY PROCEDURES/RECONSTRUCTIVE PROCEDURES/MASTECTOMY FOR GYNECOMASTIA"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Surgical treatment of male gynecomastia is the surgical removal of breast tissue for gynecomastia, which is exactly what 'Mastectomy for gynecomastia' describes. Both refer to the same specific surgical procedure."
+  },
+  {
+    "corpus_canonical_name": "Fluoride treatments",
+    "corpus_total_mentions": 3,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Topical fluoride treatment",
+    "tree_topic_ids": [
+      60492
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/TOPICAL FLUORIDE TREATMENT"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Fluoride treatments in a dental preventive services context refers to topical fluoride application, which matches 'Topical fluoride treatment' as the same specific benefit."
   },
   {
     "corpus_canonical_name": "Contraceptive Injections",
@@ -1895,6 +3866,216 @@
     "score": 90.9090909090909
   },
   {
+    "corpus_canonical_name": "A primary care physician office, home, virtual or outpatient visit",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Office, outpatient and home medical care visits",
+    "tree_topic_ids": [
+      89152
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/OFFICE, OUTPATIENT AND HOME MEDICAL CARE VISITS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit describes primary care physician visits in office, home, virtual, or outpatient settings. Candidate 1 'Office, outpatient and home medical care visits' covers the same core service (physician medical care visits across office/outpatient/home settings). While the corpus benefit adds 'virtual' and specifies 'primary care physician', the fundamental service is the same specific benefit. Medium confidence because the tree entry doesn't explicitly restrict to primary care, but it clearly refers to the same office/outpatient/home visit benefit."
+  },
+  {
+    "corpus_canonical_name": "Class I \u2013 Diagnostic and Preventive Services",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Class I Diagnostic and Preventive Services",
+    "tree_topic_ids": [
+      52472
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Candidate 1 is an exact match apart from the dash punctuation, referring to the same specific dental benefit class."
+  },
+  {
+    "corpus_canonical_name": "Oral examinations/evaluations",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Oral Exams and Evaluations",
+    "tree_topic_ids": [
+      60488
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/ORAL EXAMS AND EVALUATIONS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Candidate 2 'Oral Exams and Evaluations' is essentially identical in meaning to 'Oral examinations/evaluations' - same dental diagnostic service. It's a stronger match than 'Routine Oral Examination' which is narrower (only routine)."
+  },
+  {
+    "corpus_canonical_name": "Prophylaxes",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Dental prophylaxis",
+    "tree_topic_ids": [
+      60491
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/PREVENTIVE DENTAL SERVICES/DENTAL CLEANINGS/DENTAL PROPHYLAXIS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit appears under 'Diagnostic and Preventive Services' in a dental context (Class I is standard dental plan terminology). Prophylaxes here refers to dental cleanings, matching 'Dental prophylaxis' exactly as the same specific preventive dental service."
+  },
+  {
+    "corpus_canonical_name": "Oral brush biopsy sample collection",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Oral Brush Biopsy",
+    "tree_topic_ids": [
+      2381001
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/ORAL BRUSH BIOPSY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Oral brush biopsy sample collection' refers to the same specific service as 'Oral Brush Biopsy' - the collection of a sample via oral brush biopsy. These describe the identical diagnostic procedure."
+  },
+  {
+    "corpus_canonical_name": "Full-mouth and panoramic radiographs (X \u2010 rays)",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Dental radiographs",
+    "tree_topic_ids": [
+      60489
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/DENTAL RADIOGRAPHS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Full-mouth and panoramic radiographs are dental X-rays, appearing under dental Basic Services. 'Dental radiographs' refers to the same specific service. The other X-ray candidates are for non-dental imaging (aorta, gynecological, general imaging)."
+  },
+  {
+    "corpus_canonical_name": "Basic prosthodontic services",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Basic Prosthodontic Services (Type A)",
+    "tree_topic_ids": [
+      2380848
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/CLASS II BASIC SERVICES/BASIC PROSTHODONTIC SERVICES (TYPE A)"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit 'Basic prosthodontic services' matches candidate 1 'Basic Prosthodontic Services (Type A)' - both refer to the same specific basic prosthodontic dental service. The '(Type A)' designation aligns with the 'Basic Services' classification. Other candidates are either broader (Type B) or distinct modalities (fixed/removable prosthodontics, orthodontics)."
+  },
+  {
+    "corpus_canonical_name": "Adjustments, repairs, relines, rebases and tissue conditioning for prosthodontic appliances",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Repairs, adjustments, rebasing or relining of dentures or bridges",
+    "tree_topic_ids": [
+      60503
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL II/REPAIRS, ADJUSTMENTS, REBASING OR RELINING OF DENTURES OR BRIDGES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Both refer to the same specific dental maintenance services: adjustments, repairs, rebasing, and relining of prosthodontic appliances (dentures/bridges). The candidate covers the same core services; tissue conditioning is a minor addition within the same category of prosthodontic appliance maintenance."
+  },
+  {
+    "corpus_canonical_name": "Recementation of fixed bridges",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Recementing Crowns and Bridges",
+    "tree_topic_ids": [
+      2386254
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/ALVEOPLASTY/IMPLANT DENTAL SERVICES/RECEMENTING CROWNS AND BRIDGES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The candidate 'Recementing Crowns and Bridges' covers recementation of fixed bridges. It is slightly broader (includes crowns), but recementation of fixed bridges is directly part of this same service. Confidence is medium because the corpus name is specific to bridges while the candidate bundles crowns and bridges together, though this is standard dental benefit grouping and refers to the same recementation service."
+  },
+  {
+    "corpus_canonical_name": "Abutment",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Abutment - Other",
+    "tree_topic_ids": [
+      2383609
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/ALVEOPLASTY/IMPLANT DENTAL SERVICES/ABUTMENT - OTHER"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Abutment' refers to a dental component that connects an implant to a crown. 'Abutment - Other' is the closest general match for the abutment benefit itself, whereas 'Abutment Supported' and 'Abutment placement' refer to more specific related services/procedures rather than the abutment benefit as a standalone item. 'Abutment - Other' appears to be the generic catch-all for the abutment benefit."
+  },
+  {
     "corpus_canonical_name": "Photochromatic lenses",
     "corpus_total_mentions": 1,
     "corpus_tiers_present": [
@@ -1912,5 +4093,152 @@
     ],
     "match_type": "fuzzy",
     "score": 94.44444444444444
+  },
+  {
+    "corpus_canonical_name": "Physical therapy, speech language therapy services, and occupational therapy when provided to control symptoms and maintain the member\u2019s daily activities and basic functional skills",
+    "corpus_total_mentions": 1,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Physical therapy, occupational therapy and speech therapy",
+    "tree_topic_ids": [
+      12744
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PHYSICAL THERAPY, OCCUPATIONAL THERAPY AND SPEECH THERAPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "Candidate 1 covers the same three therapies (physical, occupational, speech). The corpus benefit lists these therapies but in a hospice context with a specific purpose (symptom control/maintaining function). The candidate is the generic therapy bundle without the hospice framing, but it refers to the same set of specific rehabilitative therapy services, making it the best semantic match."
+  },
+  {
+    "corpus_canonical_name": "Certified Nurse Anesthetist",
+    "corpus_total_mentions": 1,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0964 - Anesthetist (CRNA) professional charges",
+    "tree_topic_ids": [
+      24083
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/ANESTHESIA/0964 - ANESTHETIST (CRNA) PROFESSIONAL CHARGES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "CRNA stands for Certified Registered Nurse Anesthetist, which is the same specific service/provider as 'Certified Nurse Anesthetist'. Candidate 1 explicitly references CRNA professional charges, matching the benefit."
+  },
+  {
+    "corpus_canonical_name": "Contact lenses every 12 months",
+    "corpus_total_mentions": 1,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Contact lenses",
+    "tree_topic_ids": [
+      12945
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS/PROSTHETIC DEVICE/SPECTACLE LENSES/CONTACT LENSES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit refers to contact lenses (with a frequency qualifier of every 12 months). The candidate 'Contact lenses' is the same specific benefit; the frequency detail is a coverage limitation rather than a distinct service."
+  },
+  {
+    "corpus_canonical_name": "$150 elective contact lenses",
+    "corpus_total_mentions": 1,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Not medically necessary contact lenses",
+    "tree_topic_ids": [
+      61301
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS/PROSTHETIC DEVICE/SPECTACLE LENSES/CONTACT LENSES/NOT MEDICALLY NECESSARY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit refers to 'elective contact lenses' with a $150 allowance. 'Elective' contact lenses are typically cosmetic/non-medically-necessary lenses, which aligns with 'Not medically necessary contact lenses'. While 'Contact lenses' is a generic candidate, the specific 'elective' descriptor best maps to the non-medically-necessary category. However, there is some doubt as 'elective' could simply mean a routine allowance for standard contact lenses, so confidence is medium."
+  },
+  {
+    "corpus_canonical_name": "Blood tests on first degree relatives to evaluate them as donors Search of the National Bone",
+    "corpus_total_mentions": 1,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Blood tests to evaluate bone marrow donor",
+    "tree_topic_ids": [
+      52636
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/SURGERY AND ANESTHESIA/SURGICAL PROCEDURES/TRANSPLANTATION/BASIC ORGAN/BONE MARROW/BONE MARROW TRANSPLANT DONOR/BLOOD TESTS TO EVALUATE BONE MARROW DONOR"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The corpus benefit concerns blood tests on first degree relatives to evaluate them as donors, plus a national bone marrow registry search. Candidate 1 'Blood tests to evaluate bone marrow donor' captures the same core service of donor evaluation blood testing in the transplant/bone marrow context. While the corpus adds the registry search element, the primary matching service is the same donor-evaluation blood testing. Given contextual alignment but slight scope difference, medium confidence."
+  },
+  {
+    "corpus_canonical_name": "Photochromatic glass lenses",
+    "corpus_total_mentions": 1,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Photochromic lenses",
+    "tree_topic_ids": [
+      60511
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/PHOTOCHROMIC"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "Photochromatic glass lenses and Photochromic lenses refer to the same specific type of lens that darkens in response to light. 'Photochromatic' is a common variant term for 'photochromic', and the material (glass) is a subordinate detail. This is the same specific benefit."
+  },
+  {
+    "corpus_canonical_name": "Plastic photosensitive lenses (Transitions\u00ae)",
+    "corpus_total_mentions": 1,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Photosensitive lenses",
+    "tree_topic_ids": [
+      60430
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/PHOTOSENSITIVE"
+    ],
+    "match_type": "llm_semantic",
+    "score": 95,
+    "llm_confidence": "high",
+    "llm_reasoning": "The benefit refers to plastic photosensitive lenses (Transitions), which are a specific type of photosensitive lens. The candidate 'Photosensitive lenses' refers to the same specific service/product - lenses that darken in response to light. The 'plastic' and brand qualifier are just specifications of the same benefit."
   }
 ]

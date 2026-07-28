@@ -264,17 +264,6 @@
     "_key": "general classification for room and board for semi private two bed room medical or general"
   },
   {
-    "benefit_name": "0121 - Room and board for semi-private medical, surgical, gynecological two bed room",
-    "normalized_key": "room and board for semi private medical surgical gynecological two bed room",
-    "topic_ids": [
-      24136
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/ROOM, BOARD AND NURSING CHARGES/SEMI-PRIVATE TWO BED (MEDICAL OR GENERAL)/0121 - MEDICAL/SURGICAL/GYN"
-    ],
-    "_key": "room and board for semi private medical surgical gynecological two bed room"
-  },
-  {
     "benefit_name": "0122 - Room and board for obstetrics semi-private two bed room",
     "normalized_key": "room and board for obstetric semi private two bed room",
     "topic_ids": [
@@ -2343,17 +2332,6 @@
     "_key": "screen mammography facility charge"
   },
   {
-    "benefit_name": "0404 - Positron Emission Tomography",
-    "normalized_key": "positron emission tomography",
-    "topic_ids": [
-      23881
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/RADIOLOGY/FACILITY CHARGES FOR OTHER DIAGNOSTIC RADIOLOGY IMAGING SERVICES/0404 - POSITRON EMISSION TOMOGRAPHY"
-    ],
-    "_key": "positron emission tomography"
-  },
-  {
     "benefit_name": "0409 - Other Imaging Service",
     "normalized_key": "other imaging service",
     "topic_ids": [
@@ -2374,28 +2352,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/RESPIRATORY SERVICES/0410 - GENERAL CLASSIFICATION FOR RESPIRATORY SERVICES"
     ],
     "_key": "general classification for respiratory service"
-  },
-  {
-    "benefit_name": "0412 - Inhalation Services",
-    "normalized_key": "inhalation service",
-    "topic_ids": [
-      23950
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/RESPIRATORY SERVICES/0412 - INHALATION SERVICES"
-    ],
-    "_key": "inhalation service"
-  },
-  {
-    "benefit_name": "0413 - Hyperbaric Oxygen Therapy",
-    "normalized_key": "hyperbaric oxygen therapy",
-    "topic_ids": [
-      23951
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/RESPIRATORY SERVICES/0413 - HYPERBARIC OXYGEN THERAPY"
-    ],
-    "_key": "hyperbaric oxygen therapy"
   },
   {
     "benefit_name": "0419 - Other Respiratory Services",
@@ -2770,17 +2726,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/CARDIOLOGY/CARDIOLOGY/0489 - OTHER CARDIOLOGY"
     ],
     "_key": "other cardiology"
-  },
-  {
-    "benefit_name": "0490 - Ambulatory Surgery Facility Charges General Classification",
-    "normalized_key": "ambulatory surgery facility charge general classification",
-    "topic_ids": [
-      12824
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/AMBULATORY SURGICAL SERVICES/AMBULATORY SURGERY/0490 - AMBULATORY SURGERY FACILITY CHARGES GENERAL CLASSIFICATION"
-    ],
-    "_key": "ambulatory surgery facility charge general classification"
   },
   {
     "benefit_name": "0499 - Other Ambulatory Surgical Care",
@@ -3751,17 +3696,6 @@
     "_key": "general classification for hospice service"
   },
   {
-    "benefit_name": "0651 - Routine home care",
-    "normalized_key": "routine home care",
-    "topic_ids": [
-      23794
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/HOSPICE SERVICES/0651 - ROUTINE HOME CARE"
-    ],
-    "_key": "routine home care"
-  },
-  {
     "benefit_name": "0652 - Continuous home care",
     "normalized_key": "continuous home care",
     "topic_ids": [
@@ -3793,17 +3727,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/HOSPICE SERVICES/0656 - GENERAL INPATIENT CARE (NON-RESPITE)"
     ],
     "_key": "general inpatient care non respite"
-  },
-  {
-    "benefit_name": "0657 - Hospice physician services",
-    "normalized_key": "hospice physician service",
-    "topic_ids": [
-      23799
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/HOSPICE SERVICES/0657 - HOSPICE PHYSICIAN SERVICES"
-    ],
-    "_key": "hospice physician service"
   },
   {
     "benefit_name": "0658 - Hospice room & board; nursing facility",
@@ -4048,17 +3971,6 @@
     "_key": "inpatient care"
   },
   {
-    "benefit_name": "0696 - Physician services",
-    "normalized_key": "physician service",
-    "topic_ids": [
-      2324423
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/PRE-HOSPICE/PALLIATIVE CARE SERVICE/0696 - PHYSICIAN SERVICES"
-    ],
-    "_key": "physician service"
-  },
-  {
     "benefit_name": "0699 - Other pre-hospice/palliative care services",
     "normalized_key": "other pre hospice palliative care service",
     "topic_ids": [
@@ -4255,17 +4167,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/TREATMENT AND OBSERVATION ROOMS/0760 - SPECIALTY SERVICES - GENERAL CLASSIFICATION"
     ],
     "_key": "specialty service general classification"
-  },
-  {
-    "benefit_name": "0761 - Specialty Services - Treatment Room",
-    "normalized_key": "specialty service treatment room",
-    "topic_ids": [
-      23832
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/TREATMENT AND OBSERVATION ROOMS/0761 - SPECIALTY SERVICES - TREATMENT ROOM"
-    ],
-    "_key": "specialty service treatment room"
   },
   {
     "benefit_name": "0762 - Specialty Services - Observation Hours",
@@ -4976,17 +4877,6 @@
     "_key": "general classification for psychiatric or psychological treatment"
   },
   {
-    "benefit_name": "0901 - Electroshock Treatment",
-    "normalized_key": "electroshock treatment",
-    "topic_ids": [
-      23826
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PSYCHIATRY AND MENTAL HEALTH/BEHAVIORAL HEALTH TREATMENTS/0901 - ELECTROSHOCK TREATMENT"
-    ],
-    "_key": "electroshock treatment"
-  },
-  {
     "benefit_name": "0902 - Milieu Therapy",
     "normalized_key": "milieu therapy",
     "topic_ids": [
@@ -5018,17 +4908,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PSYCHIATRY AND MENTAL HEALTH/BEHAVIORAL HEALTH TREATMENTS/0904 - ACTIVITY THERAPY"
     ],
     "_key": "activity therapy"
-  },
-  {
-    "benefit_name": "0905 - Intensive Outpatient Services - Psychiatric",
-    "normalized_key": "intensive outpatient service psychiatric",
-    "topic_ids": [
-      63255
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PSYCHIATRY AND MENTAL HEALTH/BEHAVIORAL HEALTH TREATMENTS/0905 - INTENSIVE OUTPATIENT SERVICES - PSYCHIATRIC"
-    ],
-    "_key": "intensive outpatient service psychiatric"
   },
   {
     "benefit_name": "0906 - Intensive Outpatient Services - Chemical Dependency",
@@ -5194,28 +5073,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/DIAGNOSTIC SERVICES/NON-INVASIVE VASCULAR DIAGNOSTIC STUDIES/0921 - PERIPHERAL VASCULAR LAB"
     ],
     "_key": "peripheral vascular lab"
-  },
-  {
-    "benefit_name": "0922 - Electromyelgram",
-    "normalized_key": "electromyelgram",
-    "topic_ids": [
-      24207
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/DIAGNOSTIC SERVICES/NEUROMUSCULAR PROCEDURES/0922 - ELECTROMYELGRAM"
-    ],
-    "_key": "electromyelgram"
-  },
-  {
-    "benefit_name": "0923 - Pap Smear",
-    "normalized_key": "pap smear",
-    "topic_ids": [
-      24208
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PATHOLOGY AND LABORATORY/OTHER PATHOLOGY AND LABORATORY PROCEDURES/0923 - PAP SMEAR"
-    ],
-    "_key": "pap smear"
   },
   {
     "benefit_name": "0924 - Allergy Test",
@@ -5438,17 +5295,6 @@
     "_key": "anesthesiologist md professional charge"
   },
   {
-    "benefit_name": "0964 - Anesthetist (CRNA) professional charges",
-    "normalized_key": "anesthetist crna professional charge",
-    "topic_ids": [
-      24083
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/ANESTHESIA/0964 - ANESTHETIST (CRNA) PROFESSIONAL CHARGES"
-    ],
-    "_key": "anesthetist crna professional charge"
-  },
-  {
     "benefit_name": "0969 - Other Professional Fee",
     "normalized_key": "other professional fee",
     "topic_ids": [
@@ -5590,17 +5436,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/MISCELLANEOUS/PROFESSIONAL FACILITY CHARGES /0983 - PROFESSIONAL CHARGES FOR CLINIC"
     ],
     "_key": "professional charge for clinic"
-  },
-  {
-    "benefit_name": "0984 - Professional charges for medical social services",
-    "normalized_key": "professional charge for medical social service",
-    "topic_ids": [
-      24097
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/MISCELLANEOUS/PROFESSIONAL FACILITY CHARGES/0984 - PROFESSIONAL CHARGES FOR MEDICAL SOCIAL SERVICES"
-    ],
-    "_key": "professional charge for medical social service"
   },
   {
     "benefit_name": "0985 - Professional charges for electrocardiogram",
@@ -6065,17 +5900,6 @@
     "_key": "abortion"
   },
   {
-    "benefit_name": "Abutment - Other",
-    "normalized_key": "abutment other",
-    "topic_ids": [
-      2383609
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/ALVEOPLASTY/IMPLANT DENTAL SERVICES/ABUTMENT - OTHER"
-    ],
-    "_key": "abutment other"
-  },
-  {
     "benefit_name": "Abutment placement",
     "normalized_key": "abutment placement",
     "topic_ids": [
@@ -6318,17 +6142,6 @@
     "_key": "advance care planning"
   },
   {
-    "benefit_name": "AIDS/HIV Screening",
-    "normalized_key": "aids hiv screening",
-    "topic_ids": [
-      2320973
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/PATHOLOGY & LABORATORY/AIDS/HIV SCREENING"
-    ],
-    "_key": "aids hiv screening"
-  },
-  {
     "benefit_name": "Air ambulance services",
     "normalized_key": "air ambulance service",
     "topic_ids": [
@@ -6384,17 +6197,6 @@
     "_key": "all inclusive rate for room board and ancillary facility charge"
   },
   {
-    "benefit_name": "Allergen Immunotherapy",
-    "normalized_key": "allergen immunotherapy",
-    "topic_ids": [
-      20562
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/ALLERGY AND CLINICAL IMMUNOLOGY/ALLERGEN IMMUNOTHERAPY"
-    ],
-    "_key": "allergen immunotherapy"
-  },
-  {
     "benefit_name": "Allergy and clinical immunology",
     "normalized_key": "allergy and clinical immunology",
     "topic_ids": [
@@ -6428,17 +6230,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/MUSCULOSKELETAL SYSTEM/GENERAL/GRAFTS (OR IMPLANTS)/ALLOGRAFT AND GRAFT"
     ],
     "_key": "allograft and graft"
-  },
-  {
-    "benefit_name": "Alternative therapy services",
-    "normalized_key": "alternative therapy service",
-    "topic_ids": [
-      60579
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/ALTERNATIVE THERAPY SERVICES"
-    ],
-    "_key": "alternative therapy service"
   },
   {
     "benefit_name": "Ambulance and other transportation",
@@ -6494,17 +6285,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/AMBULANCE/AMBULANCED ADVANCE LIFE SUPPORT SERVICES (ALS)"
     ],
     "_key": "ambulance advance life support service al"
-  },
-  {
-    "benefit_name": "Ambulatory surgical services",
-    "normalized_key": "ambulatory surgical service",
-    "topic_ids": [
-      86458
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/AMBULATORY SURGICAL SERVICES"
-    ],
-    "_key": "ambulatory surgical service"
   },
   {
     "benefit_name": "Amputation",
@@ -6565,17 +6345,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/ANESTHESIA"
     ],
     "_key": "anesthesia"
-  },
-  {
-    "benefit_name": "Anesthesia professional services",
-    "normalized_key": "anesthesia professional service",
-    "topic_ids": [
-      82159
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/SURGERY AND ANESTHESIA/ANESTHESIA PROFESSIONAL SERVICES"
-    ],
-    "_key": "anesthesia professional service"
   },
   {
     "benefit_name": "Angioscopy",
@@ -7034,17 +6803,6 @@
     "_key": "basic organ transplantation"
   },
   {
-    "benefit_name": "Basic Prosthodontic Services (Type A)",
-    "normalized_key": "basic prosthodontic service type a",
-    "topic_ids": [
-      2380848
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/CLASS II BASIC SERVICES/BASIC PROSTHODONTIC SERVICES (TYPE A)"
-    ],
-    "_key": "basic prosthodontic service type a"
-  },
-  {
     "benefit_name": "Bath and Toilet Aids",
     "normalized_key": "bath and toilet aid",
     "topic_ids": [
@@ -7223,17 +6981,6 @@
     "_key": "blood product storage and processing"
   },
   {
-    "benefit_name": "Blood tests to evaluate bone marrow donor",
-    "normalized_key": "blood test to evaluate bone marrow donor",
-    "topic_ids": [
-      52636
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/SURGERY AND ANESTHESIA/SURGICAL PROCEDURES/TRANSPLANTATION/BASIC ORGAN/BONE MARROW/BONE MARROW TRANSPLANT DONOR/BLOOD TESTS TO EVALUATE BONE MARROW DONOR"
-    ],
-    "_key": "blood test to evaluate bone marrow donor"
-  },
-  {
     "benefit_name": "Blue Distinction Total Care",
     "normalized_key": "blue distinction total care",
     "topic_ids": [
@@ -7278,17 +7025,6 @@
     "_key": "bone density"
   },
   {
-    "benefit_name": "Bone Marrow or Stem Cell Services/Procedures",
-    "normalized_key": "bone marrow or stem cell service procedure",
-    "topic_ids": [
-      60289
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/HEMIC AND LYMPHATIC SYSTEM/GENERAL/BONE MARROW OR STEM CELL SERVICES/PROCEDURES"
-    ],
-    "_key": "bone marrow or stem cell service procedure"
-  },
-  {
     "benefit_name": "Bone marrow transplant registry search",
     "normalized_key": "bone marrow transplant registry search",
     "topic_ids": [
@@ -7298,17 +7034,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/SURGERY AND ANESTHESIA/SURGICAL PROCEDURES/TRANSPLANTATION/BASIC ORGAN/BONE MARROW/BONE MARROW TRANSPLANT DONOR/BONE MARROW TRANSPLANT REGISTRY SEARCH"
     ],
     "_key": "bone marrow transplant registry search"
-  },
-  {
-    "benefit_name": "Bone marrow transplantation",
-    "normalized_key": "bone marrow transplantation",
-    "topic_ids": [
-      12843
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/TRANSPLANTATION/BASIC ORGAN/BONE MARROW"
-    ],
-    "_key": "bone marrow transplantation"
   },
   {
     "benefit_name": "BPCI Advanced",
@@ -7632,17 +7357,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/CARDIOVASCULAR SYSTEM/HEART AND PERICARDIUM"
     ],
     "_key": "cardiovascular surgery heart and pericardium"
-  },
-  {
-    "benefit_name": "Cardiovascular System (Nuclear Med)",
-    "normalized_key": "cardiovascular system nuclear med",
-    "topic_ids": [
-      18791
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/RADIOLOGY/NUCLEAR MEDICINE/DIAGNOSTIC/CARDIOVASCULAR SYSTEM (NUCLEAR MED)"
-    ],
-    "_key": "cardiovascular system nuclear med"
   },
   {
     "benefit_name": "Cardiovascular system surgery and anesthesia",
@@ -8034,17 +7748,6 @@
     "_key": "clinical treatment planning external and internal"
   },
   {
-    "benefit_name": "Clinical trial",
-    "normalized_key": "clinical trial",
-    "topic_ids": [
-      12957
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/MISCELLANEOUS/CLINICAL TRIAL"
-    ],
-    "_key": "clinical trial"
-  },
-  {
     "benefit_name": "CMS Demo Project Chemotherapy",
     "normalized_key": "cms demo project chemotherapy",
     "topic_ids": [
@@ -8098,17 +7801,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PRESCRIPTION DRUG PROGRAM/CO-BRANDED FORMULARY PROGRAM"
     ],
     "_key": "co branded formulary program"
-  },
-  {
-    "benefit_name": "Coating or laminating of lenses",
-    "normalized_key": "coating or laminating of lens",
-    "topic_ids": [
-      60429
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/COATING OR LAMINATING"
-    ],
-    "_key": "coating or laminating of lens"
   },
   {
     "benefit_name": "Cologuard",
@@ -8388,17 +8080,6 @@
     "_key": "contraception"
   },
   {
-    "benefit_name": "Contraceptive drugs non-NHCR/PPACA",
-    "normalized_key": "contraceptive drug non nhcr ppaca",
-    "topic_ids": [
-      52475
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/CONTRACEPTION/CONTRACEPTIVE DRUGS NON-NHCR/PPACA"
-    ],
-    "_key": "contraceptive drug non nhcr ppaca"
-  },
-  {
     "benefit_name": "Contraceptive implants",
     "normalized_key": "contraceptive implant",
     "topic_ids": [
@@ -8408,17 +8089,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/CONTRACEPTION/IMPLANTS"
     ],
     "_key": "contraceptive implant"
-  },
-  {
-    "benefit_name": "Contraceptive professional services",
-    "normalized_key": "contraceptive professional service",
-    "topic_ids": [
-      52477
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/CONTRACEPTIVE PROFESSIONAL SERVICES"
-    ],
-    "_key": "contraceptive professional service"
   },
   {
     "benefit_name": "Conventional drug",
@@ -8518,17 +8188,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/COSMETIC AND RECONSTRUCTIVE SURGERY PROCEDURES"
     ],
     "_key": "cosmetic and reconstructive surgery procedure"
-  },
-  {
-    "benefit_name": "Cosmetic procedures",
-    "normalized_key": "cosmetic procedure",
-    "topic_ids": [
-      2016771
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/COSMETIC AND RECONSTRUCTIVE SURGERY PROCEDURES/COSMETIC PROCEDURES"
-    ],
-    "_key": "cosmetic procedure"
   },
   {
     "benefit_name": "Counseling or risk factor reduction intervention",
@@ -8806,17 +8465,6 @@
     "_key": "deluxe durable medical equipment"
   },
   {
-    "benefit_name": "Dental care related to accidental injuries",
-    "normalized_key": "dental care relate to accidental injury",
-    "topic_ids": [
-      65918
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/DENTAL MEDICAL AND SURGERY TREATMENT/DENTAL CARE RELATED TO ACCIDENTAL INJURIES"
-    ],
-    "_key": "dental care relate to accidental injury"
-  },
-  {
     "benefit_name": "Dental Cleanings",
     "normalized_key": "dental cleaning",
     "topic_ids": [
@@ -8861,17 +8509,6 @@
     "_key": "dental medical and surgery treatment"
   },
   {
-    "benefit_name": "Dental prophylaxis",
-    "normalized_key": "dental prophylaxis",
-    "topic_ids": [
-      60491
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/PREVENTIVE DENTAL SERVICES/DENTAL CLEANINGS/DENTAL PROPHYLAXIS"
-    ],
-    "_key": "dental prophylaxis"
-  },
-  {
     "benefit_name": "Dental Prosthesis",
     "normalized_key": "dental prosthesis",
     "topic_ids": [
@@ -8892,17 +8529,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/DENTAL PULP VITALITY TESTS"
     ],
     "_key": "dental pulp vitality test"
-  },
-  {
-    "benefit_name": "Dental radiographs",
-    "normalized_key": "dental radiograph",
-    "topic_ids": [
-      60489
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/DENTAL RADIOGRAPHS"
-    ],
-    "_key": "dental radiograph"
   },
   {
     "benefit_name": "Dental Sealant Repair",
@@ -9060,17 +8686,6 @@
     "_key": "device for the diagnosis or treatment of jaw joint disorder"
   },
   {
-    "benefit_name": "Diabetes Management",
-    "normalized_key": "diabete management",
-    "topic_ids": [
-      61280
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIABETES MANAGEMENT"
-    ],
-    "_key": "diabete management"
-  },
-  {
     "benefit_name": "Diabetes Programs",
     "normalized_key": "diabetes program",
     "topic_ids": [
@@ -9113,17 +8728,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/RADIOLOGY/NUCLEAR MEDICINE/DIAGNOSTIC"
     ],
     "_key": "diagnostic"
-  },
-  {
-    "benefit_name": "Diagnostic and clinical laboratory",
-    "normalized_key": "diagnostic and clinical laboratory",
-    "topic_ids": [
-      60460
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PATHOLOGY AND LABORATORY/DIAGNOSTIC AND CLINICAL LABORATORY"
-    ],
-    "_key": "diagnostic and clinical laboratory"
   },
   {
     "benefit_name": "Diagnostic Casts",
@@ -9269,17 +8873,6 @@
     "_key": "diagnostic imaging"
   },
   {
-    "benefit_name": "Diagnostic magnetic resonance imaging",
-    "normalized_key": "diagnostic magnetic resonance imaging",
-    "topic_ids": [
-      52319
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/RADIOLOGY/DIAGNOSTIC RADIOLOGY/MRI/MRA"
-    ],
-    "_key": "diagnostic magnetic resonance imaging"
-  },
-  {
     "benefit_name": "Diagnostic mammography",
     "normalized_key": "diagnostic mammography",
     "topic_ids": [
@@ -9388,17 +8981,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIAGNOSTIC SERVICES MISCELLANEOUS"
     ],
     "_key": "diagnostic service miscellaneous"
-  },
-  {
-    "benefit_name": "Diagnostic ultrasound",
-    "normalized_key": "diagnostic ultrasound",
-    "topic_ids": [
-      12883
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/RADIOLOGY/DIAGNOSTIC RADIOLOGY/ULTRASOUND"
-    ],
-    "_key": "diagnostic ultrasound"
   },
   {
     "benefit_name": "Diagnostic X-ray abdomen",
@@ -9788,17 +9370,6 @@
     "_key": "elective drug"
   },
   {
-    "benefit_name": "Electrocardiography (EKG/ECG)",
-    "normalized_key": "electrocardiography ekg ecg",
-    "topic_ids": [
-      52720
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/CARDIOLOGY/ELECTROCARDIOGRAPHY (EKG/ECG)"
-    ],
-    "_key": "electrocardiography ekg ecg"
-  },
-  {
     "benefit_name": "Electromyography and Nerve Conduction Studies",
     "normalized_key": "electromyography and nerve conduction study",
     "topic_ids": [
@@ -9832,17 +9403,6 @@
     "_key": "embolectomy thrombectomy"
   },
   {
-    "benefit_name": "Embryo transfer procedures",
-    "normalized_key": "embryo transfer procedure",
-    "topic_ids": [
-      60397
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/EMBRYO TRANSFER PROCEDURES"
-    ],
-    "_key": "embryo transfer procedure"
-  },
-  {
     "benefit_name": "Emergency Ambulance Services",
     "normalized_key": "emergency ambulance service",
     "topic_ids": [
@@ -9863,17 +9423,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/EMERGENCY ROOM CHARGES"
     ],
     "_key": "emergency room charge"
-  },
-  {
-    "benefit_name": "Emergency treatment/First aid",
-    "normalized_key": "emergency treatment first aid",
-    "topic_ids": [
-      24103
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/EMERGENCY TREATMENT/FIRST AID"
-    ],
-    "_key": "emergency treatment first aid"
   },
   {
     "benefit_name": "Employer Sponsored Clinic",
@@ -10800,17 +10349,6 @@
     "_key": "eyeball"
   },
   {
-    "benefit_name": "Eyeglass frames",
-    "normalized_key": "eyeglass frame",
-    "topic_ids": [
-      12946
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS/PROSTHETIC DEVICE/SPECTACLE LENSES/EYEGLASS FRAMES"
-    ],
-    "_key": "eyeglass frame"
-  },
-  {
     "benefit_name": "Eyelid repair",
     "normalized_key": "eyelid repair",
     "topic_ids": [
@@ -11152,17 +10690,6 @@
     "_key": "flap skin deep tissue"
   },
   {
-    "benefit_name": "Flexible sigmoidoscopy",
-    "normalized_key": "flexible sigmoidoscopy",
-    "topic_ids": [
-      52662
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/SURGERY/FLEXIBLE SIGMOIDOSCOPY"
-    ],
-    "_key": "flexible sigmoidoscopy"
-  },
-  {
     "benefit_name": "Fluoroscopic Guidance",
     "normalized_key": "fluoroscopic guidance",
     "topic_ids": [
@@ -11460,17 +10987,6 @@
     "_key": "genomic sequence procedure gsps and other molecular multianalyte assay"
   },
   {
-    "benefit_name": "Glaucoma Screening",
-    "normalized_key": "glaucoma screening",
-    "topic_ids": [
-      2321021
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/DIAGNOSTIC SERVICES/GLAUCOMA SCREENING"
-    ],
-    "_key": "glaucoma screening"
-  },
-  {
     "benefit_name": "Glucose",
     "normalized_key": "glucose",
     "topic_ids": [
@@ -11515,17 +11031,6 @@
     "_key": "ground mileage"
   },
   {
-    "benefit_name": "Group psychotherapy",
-    "normalized_key": "group psychotherapy",
-    "topic_ids": [
-      52444
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PSYCHIATRIC SERVICES/GROUP PSYCHOTHERAPY"
-    ],
-    "_key": "group psychotherapy"
-  },
-  {
     "benefit_name": "Growth Hormone",
     "normalized_key": "growth hormone",
     "topic_ids": [
@@ -11557,17 +11062,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL II/GUIDED TISSUE REGENERATION"
     ],
     "_key": "guide tissue regeneration"
-  },
-  {
-    "benefit_name": "Gynecological exam",
-    "normalized_key": "gynecological exam",
-    "topic_ids": [
-      52647
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/EVALUATION AND MANAGEMENT - HEALTH MAINTENANCE EXAM OR GYNECOLOGICAL EXAM/GYNECOLOGICAL EXAM"
-    ],
-    "_key": "gynecological exam"
   },
   {
     "benefit_name": "Hair prostheses",
@@ -12100,17 +11594,6 @@
     "_key": "hospice professional charge"
   },
   {
-    "benefit_name": "Hospice services",
-    "normalized_key": "hospice service",
-    "topic_ids": [
-      12931
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/HOSPICE SERVICES"
-    ],
-    "_key": "hospice service"
-  },
-  {
     "benefit_name": "Hospital beds",
     "normalized_key": "hospital bed",
     "topic_ids": [
@@ -12510,17 +11993,6 @@
     "_key": "incremental nursing charge"
   },
   {
-    "benefit_name": "Individual psychotherapy",
-    "normalized_key": "individual psychotherapy",
-    "topic_ids": [
-      52457
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PSYCHIATRIC SERVICES/INDIVIDUAL PSYCHOTHERAPY"
-    ],
-    "_key": "individual psychotherapy"
-  },
-  {
     "benefit_name": "Infertility drugs",
     "normalized_key": "infertility drug",
     "topic_ids": [
@@ -12587,17 +12059,6 @@
     "_key": "infusion administration exclude chemotherapy"
   },
   {
-    "benefit_name": "Infusion of colony stimulating growth fators for bone marrow transplant",
-    "normalized_key": "infusion of colony stimulate growth fator for bone marrow transplant",
-    "topic_ids": [
-      60052
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/SURGERY AND ANESTHESIA/SURGICAL PROCEDURES/TRANSPLANTATION/BASIC ORGAN/BONE MARROW/BONE MARROW TRANSPLANT DONOR/INFUSION OF COLONY STIMULATING GROWTH FATORS FOR BONE MARROW TRANSPLANT"
-    ],
-    "_key": "infusion of colony stimulate growth fator for bone marrow transplant"
-  },
-  {
     "benefit_name": "Infusion Supplies",
     "normalized_key": "infusion supply",
     "topic_ids": [
@@ -12607,17 +12068,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DURABLE MEDICAL EQUIPMENT/INFUSION SUPPLIES"
     ],
     "_key": "infusion supply"
-  },
-  {
-    "benefit_name": "Inhalation services",
-    "normalized_key": "inhalation service",
-    "topic_ids": [
-      2327445
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DURABLE MEDICAL EQUIPMENT/CAPPED RENTAL DME/INHALATION"
-    ],
-    "_key": "inhalation service"
   },
   {
     "benefit_name": "Inhalation solutions",
@@ -13444,28 +12894,6 @@
     "_key": "lens other than contact"
   },
   {
-    "benefit_name": "Lenticular aphakic lense",
-    "normalized_key": "lenticular aphakic lens",
-    "topic_ids": [
-      60415
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/LENTICULAR APHAKIC LENSE"
-    ],
-    "_key": "lenticular aphakic lens"
-  },
-  {
-    "benefit_name": "Lenticular myodisc lense",
-    "normalized_key": "lenticular myodisc lens",
-    "topic_ids": [
-      60412
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/LENTICULAR MYODISC LENSE"
-    ],
-    "_key": "lenticular myodisc lens"
-  },
-  {
     "benefit_name": "Leukemia and Lymphoma",
     "normalized_key": "leukemia and lymphoma",
     "topic_ids": [
@@ -13804,17 +13232,6 @@
     "_key": "male genital system surgery and anesthesia"
   },
   {
-    "benefit_name": "Mammogram, screening",
-    "normalized_key": "mammogram screen",
-    "topic_ids": [
-      52321
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/RADIOLOGY/MAMMOGRAMS/MAMMOGRAM, SCREENING"
-    ],
-    "_key": "mammogram screen"
-  },
-  {
     "benefit_name": "Mammograms",
     "normalized_key": "mammograms",
     "topic_ids": [
@@ -13901,17 +13318,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS/PROSTHETIC DEVICE/BREAST PROSTHETICS AND SUPPLIES/MASTECTOMY BRAS"
     ],
     "_key": "mastectomy bras"
-  },
-  {
-    "benefit_name": "Mastectomy for gynecomastia",
-    "normalized_key": "mastectomy for gynecomastia",
-    "topic_ids": [
-      2016776
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/COSMETIC AND RECONSTRUCTIVE SURGERY PROCEDURES/RECONSTRUCTIVE PROCEDURES/MASTECTOMY FOR GYNECOMASTIA"
-    ],
-    "_key": "mastectomy for gynecomastia"
   },
   {
     "benefit_name": "Mastectomy Procedures",
@@ -14125,17 +13531,6 @@
     "_key": "medical rehabilitation day program"
   },
   {
-    "benefit_name": "Medical/surgical supplies",
-    "normalized_key": "medical surgical supply",
-    "topic_ids": [
-      60566
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/MEDICAL AND SURGICAL SUPPLIES AND DEVICES/MEDICAL/SURGICAL SUPPLIES"
-    ],
-    "_key": "medical surgical supply"
-  },
-  {
     "benefit_name": "Medical/surgical supplies and devices",
     "normalized_key": "medical surgical supply and device",
     "topic_ids": [
@@ -14318,17 +13713,6 @@
     "_key": "miscellaneous dme"
   },
   {
-    "benefit_name": "Miscellaneous Medical supplies for Diabetes Management",
-    "normalized_key": "miscellaneous medical supply for diabetes management",
-    "topic_ids": [
-      2011954
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIABETES MANAGEMENT PROGRAM/MISCELLANEOUS MEDICAL SUPPLIES FOR DIABETES MANAGEMENT"
-    ],
-    "_key": "miscellaneous medical supply for diabetes management"
-  },
-  {
     "benefit_name": "Miscellaneous Services",
     "normalized_key": "miscellaneous service",
     "topic_ids": [
@@ -14494,17 +13878,6 @@
     "_key": "musculoskeletal system surgery and anesthesia"
   },
   {
-    "benefit_name": "Myodisc lense",
-    "normalized_key": "myodisc lens",
-    "topic_ids": [
-      60411
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/MYODISC LENSE"
-    ],
-    "_key": "myodisc lens"
-  },
-  {
     "benefit_name": "Nails surgical procedures",
     "normalized_key": "nail surgical procedure",
     "topic_ids": [
@@ -14558,17 +13931,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/ANESTHESIA/NECK"
     ],
     "_key": "neck"
-  },
-  {
-    "benefit_name": "Needles and Syringes",
-    "normalized_key": "needle and syrinx",
-    "topic_ids": [
-      52491
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/MEDICAL AND SURGICAL SUPPLIES/NEEDLES AND SYRINGES"
-    ],
-    "_key": "needle and syrinx"
   },
   {
     "benefit_name": "Needles/Syringes for Insulin",
@@ -14921,17 +14283,6 @@
     "_key": "nose prosethesis"
   },
   {
-    "benefit_name": "Not medically necessary contact lenses",
-    "normalized_key": "not medically necessary contact lens",
-    "topic_ids": [
-      61301
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS/PROSTHETIC DEVICE/SPECTACLE LENSES/CONTACT LENSES/NOT MEDICALLY NECESSARY"
-    ],
-    "_key": "not medically necessary contact lens"
-  },
-  {
     "benefit_name": "Nuclear medicine",
     "normalized_key": "nuclear medicine",
     "topic_ids": [
@@ -15110,17 +14461,6 @@
     "_key": "off label use of prescription drug"
   },
   {
-    "benefit_name": "Office or Other Outpatient Consultations",
-    "normalized_key": "office or other outpatient consultation",
-    "topic_ids": [
-      20794
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/CONSULTATIONS/OFFICE OR OTHER OUTPATIENT CONSULTATIONS"
-    ],
-    "_key": "office or other outpatient consultation"
-  },
-  {
     "benefit_name": "On-line medical evaluation",
     "normalized_key": "on line medical evaluation",
     "topic_ids": [
@@ -15174,17 +14514,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/INJECTIONS AND INFUSIONS/INJECTABLE DRUGS/ONCOLOGY MANAGEMENT FOR INJECTABLE DRUGS"
     ],
     "_key": "oncology management for injectable drug"
-  },
-  {
-    "benefit_name": "Online Visits",
-    "normalized_key": "online visit",
-    "topic_ids": [
-      2332872
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/OFFICE, OUTPATIENT AND HOME MEDICAL CARE VISITS/OFFICE OR OTHER OUTPATIENT SERVICES/ONLINE VISITS"
-    ],
-    "_key": "online visit"
   },
   {
     "benefit_name": "Operating Microscope",
@@ -15242,28 +14571,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/MEDICATION/ORAL AND OTHER DRUGS"
     ],
     "_key": "oral and other drug"
-  },
-  {
-    "benefit_name": "Oral Brush Biopsy",
-    "normalized_key": "oral brush biopsy",
-    "topic_ids": [
-      2381001
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/ORAL BRUSH BIOPSY"
-    ],
-    "_key": "oral brush biopsy"
-  },
-  {
-    "benefit_name": "Oral Exams and Evaluations",
-    "normalized_key": "oral exam and evaluation",
-    "topic_ids": [
-      60488
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/ORAL EXAMS AND EVALUATIONS"
-    ],
-    "_key": "oral exam and evaluation"
   },
   {
     "benefit_name": "Orbit",
@@ -16124,17 +15431,6 @@
     "_key": "ovary"
   },
   {
-    "benefit_name": "Over-the-counter medications and supplies",
-    "normalized_key": "over the counter medication and supply",
-    "topic_ids": [
-      52499
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/MISCELLANEOUS/OVER-THE-COUNTER MEDICATIONS AND SUPPLIES"
-    ],
-    "_key": "over the counter medication and supply"
-  },
-  {
     "benefit_name": "Oversized",
     "normalized_key": "oversize",
     "topic_ids": [
@@ -16223,17 +15519,6 @@
     "_key": "pack red blood cell"
   },
   {
-    "benefit_name": "Pain management services",
-    "normalized_key": "pain management service",
-    "topic_ids": [
-      59772
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/PAIN MANAGEMENT SERVICES"
-    ],
-    "_key": "pain management service"
-  },
-  {
     "benefit_name": "Palate and Uvula",
     "normalized_key": "palate and uvula",
     "topic_ids": [
@@ -16254,17 +15539,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/COSMETIC AND RECONSTRUCTIVE SURGERY PROCEDURES/RECONSTRUCTIVE PROCEDURES/PALATE LIFT PROSTHESIS PREP"
     ],
     "_key": "palate lift prosthesis prep"
-  },
-  {
-    "benefit_name": "Palliative dental treatments",
-    "normalized_key": "palliative dental treatment",
-    "topic_ids": [
-      60504
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/PALLIATIVE DENTAL TREATMENTS"
-    ],
-    "_key": "palliative dental treatment"
   },
   {
     "benefit_name": "Pancreas",
@@ -16309,17 +15583,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/DENTAL RADIOGRAPHS/PANOREX"
     ],
     "_key": "panorex"
-  },
-  {
-    "benefit_name": "Pap smear",
-    "normalized_key": "pap smear",
-    "topic_ids": [
-      52458
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/LABORATORY SERVICES/PAP SMEAR"
-    ],
-    "_key": "pap smear"
   },
   {
     "benefit_name": "Pap smear - diagnostic",
@@ -16694,17 +15957,6 @@
     "_key": "photorefractive keratectomy prk"
   },
   {
-    "benefit_name": "Photosensitive lenses",
-    "normalized_key": "photosensitive lens",
-    "topic_ids": [
-      60430
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/PHOTOSENSITIVE"
-    ],
-    "_key": "photosensitive lens"
-  },
-  {
     "benefit_name": "Physical therapy and Occupational Therapy",
     "normalized_key": "physical therapy and occupational therapy",
     "topic_ids": [
@@ -16736,17 +15988,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/PHYSICAL THERAPY FREESTANDING FACILITY"
     ],
     "_key": "physical therapy freestande facility"
-  },
-  {
-    "benefit_name": "Physical therapy, occupational therapy and speech therapy",
-    "normalized_key": "physical therapy occupational therapy and speech therapy",
-    "topic_ids": [
-      12744
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PHYSICAL THERAPY, OCCUPATIONAL THERAPY AND SPEECH THERAPY"
-    ],
-    "_key": "physical therapy occupational therapy and speech therapy"
   },
   {
     "benefit_name": "Pilonidal cyst",
@@ -16923,17 +16164,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/PREADMISSION TESTING"
     ],
     "_key": "preadmission testing"
-  },
-  {
-    "benefit_name": "Prescription drug program",
-    "normalized_key": "prescription drug program",
-    "topic_ids": [
-      12725
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PRESCRIPTION DRUG PROGRAM"
-    ],
-    "_key": "prescription drug program"
   },
   {
     "benefit_name": "Prescription refills",
@@ -17388,17 +16618,6 @@
     "_key": "psychiatric or psychological service or substance abuse"
   },
   {
-    "benefit_name": "Psychiatric partial hospitalization",
-    "normalized_key": "psychiatric partial hospitalization",
-    "topic_ids": [
-      52424
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PSYCHIATRY AND MENTAL HEALTH/PSYCHIATRIC PARTIAL HOSPITALIZATION"
-    ],
-    "_key": "psychiatric partial hospitalization"
-  },
-  {
     "benefit_name": "Psychiatric services",
     "normalized_key": "psychiatric service",
     "topic_ids": [
@@ -17487,17 +16706,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/CARDIOVASCULAR SYSTEM/HEART AND PERICARDIUM/PULMONARY ARTERY"
     ],
     "_key": "pulmonary artery"
-  },
-  {
-    "benefit_name": "Pulmonary function testing",
-    "normalized_key": "pulmonary function testing",
-    "topic_ids": [
-      12788
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PULMONARY FUNCTION TESTING"
-    ],
-    "_key": "pulmonary function testing"
   },
   {
     "benefit_name": "Pulmonology",
@@ -17647,17 +16855,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/DENTAL SPACE MAINTAINERS (PASSIVE APPLIANCES)/RECEMENTING"
     ],
     "_key": "recemente"
-  },
-  {
-    "benefit_name": "Recementing Crowns and Bridges",
-    "normalized_key": "recemente crown and bridge",
-    "topic_ids": [
-      2386254
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/ALVEOPLASTY/IMPLANT DENTAL SERVICES/RECEMENTING CROWNS AND BRIDGES"
-    ],
-    "_key": "recemente crown and bridge"
   },
   {
     "benefit_name": "Reconstructive procedures",
@@ -18169,17 +17366,6 @@
     "_key": "repair to partial denture"
   },
   {
-    "benefit_name": "Repairs, adjustments, rebasing or relining of dentures or bridges",
-    "normalized_key": "repair adjustment rebase or relining of denture or bridge",
-    "topic_ids": [
-      60503
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL II/REPAIRS, ADJUSTMENTS, REBASING OR RELINING OF DENTURES OR BRIDGES"
-    ],
-    "_key": "repair adjustment rebase or relining of denture or bridge"
-  },
-  {
     "benefit_name": "Replacement of hearing aids",
     "normalized_key": "replacement of hear aid",
     "topic_ids": [
@@ -18189,17 +17375,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/HEARING/HEARING AIDS/REPLACEMENT"
     ],
     "_key": "replacement of hear aid"
-  },
-  {
-    "benefit_name": "Replacement of lenses or frames",
-    "normalized_key": "replacement of lens or frame",
-    "topic_ids": [
-      60428
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/VISION/REPLACEMENT OF LENSES OR FRAMES"
-    ],
-    "_key": "replacement of lens or frame"
   },
   {
     "benefit_name": "Replacement of prosthetic and orthotic devices/appliances",
@@ -18666,17 +17841,6 @@
     "_key": "scrotum"
   },
   {
-    "benefit_name": "Second Opinion Program for Consultation of Elective Surgery",
-    "normalized_key": "second opinion program for consultation of elective surgery",
-    "topic_ids": [
-      60231
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/SECOND OPINION PROGRAM FOR CONSULTATION OF ELECTIVE SURGERY"
-    ],
-    "_key": "second opinion program for consultation of elective surgery"
-  },
-  {
     "benefit_name": "Secondary Implant(s) Procedures",
     "normalized_key": "secondary procedure",
     "topic_ids": [
@@ -19062,17 +18226,6 @@
     "_key": "small intestine transplantation"
   },
   {
-    "benefit_name": "Smoking cessation counseling",
-    "normalized_key": "smoking cessation counseling",
-    "topic_ids": [
-      52847
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/EVALUATION AND MANAGEMENT - HEALTH MAINTENANCE EXAM OR GYNECOLOGICAL EXAM/COUNSELING OR RISK FACTOR REDUCTION INTERVENTION /SMOKING CESSATION COUNSELING"
-    ],
-    "_key": "smoking cessation counseling"
-  },
-  {
     "benefit_name": "Smoking cessation products",
     "normalized_key": "smoke cessation product",
     "topic_ids": [
@@ -19260,28 +18413,6 @@
     "_key": "special size"
   },
   {
-    "benefit_name": "Specialty Drugs",
-    "normalized_key": "specialty drug",
-    "topic_ids": [
-      2011213
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PRESCRIPTION DRUG PROGRAM/SPECIALTY DRUGS"
-    ],
-    "_key": "specialty drug"
-  },
-  {
-    "benefit_name": "Specified Oncology Clinical Trials",
-    "normalized_key": "specify oncology clinical trial",
-    "topic_ids": [
-      60344
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/SPECIFIED ONCOLOGY CLINICAL TRIALS"
-    ],
-    "_key": "specify oncology clinical trial"
-  },
-  {
     "benefit_name": "Specified organ transplantation",
     "normalized_key": "specify organ transplantation",
     "topic_ids": [
@@ -19357,17 +18488,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DURABLE MEDICAL EQUIPMENT/SPEECH GENERATING DEVICES (SGD)"
     ],
     "_key": "speech generating device sgd"
-  },
-  {
-    "benefit_name": "Speech therapy",
-    "normalized_key": "speech therapy",
-    "topic_ids": [
-      52729
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PT,OT,SLP/SPEECH THERAPY"
-    ],
-    "_key": "speech therapy"
   },
   {
     "benefit_name": "Spermatic Cord",
@@ -19574,17 +18694,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/INPATIENT MEDICAL CARE/NURSING FACILITY SERVICES/SUBSEQUENT NURSING FACILITY CARE"
     ],
     "_key": "subsequent nursing facility care"
-  },
-  {
-    "benefit_name": "Substance abuse",
-    "normalized_key": "substance abuse",
-    "topic_ids": [
-      52714
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/SUBSTANCE ABUSE"
-    ],
-    "_key": "substance abuse"
   },
   {
     "benefit_name": "Suction Pump/Room Vaporizers",
@@ -20066,17 +19175,6 @@
     "_key": "terminal device"
   },
   {
-    "benefit_name": "Test Strips",
-    "normalized_key": "test strip",
-    "topic_ids": [
-      2012815
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIABETES MANAGEMENT PROGRAM/TEST STRIPS"
-    ],
-    "_key": "test strip"
-  },
-  {
     "benefit_name": "Testicular prosthesis",
     "normalized_key": "testicular prosthesis",
     "topic_ids": [
@@ -20130,17 +19228,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PATHOLOGY AND LABORATORY/THERAPEUTIC DRUG ASSAYS"
     ],
     "_key": "therapeutic drug assay"
-  },
-  {
-    "benefit_name": "Therapeutic electroshock therapy",
-    "normalized_key": "therapeutic electroshock therapy",
-    "topic_ids": [
-      52456
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PSYCHIATRIC SERVICES/THERAPEUTIC ELECTROSHOCK THERAPY"
-    ],
-    "_key": "therapeutic electroshock therapy"
   },
   {
     "benefit_name": "Therapeutic infusable drugs",
@@ -20297,17 +19384,6 @@
     "_key": "tongue and floor of mouth"
   },
   {
-    "benefit_name": "Topical fluoride treatment",
-    "normalized_key": "topical fluoride treatment",
-    "topic_ids": [
-      60492
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/TOPICAL FLUORIDE TREATMENT"
-    ],
-    "_key": "topical fluoride treatment"
-  },
-  {
     "benefit_name": "Torso Supports",
     "normalized_key": "torso support",
     "topic_ids": [
@@ -20405,17 +19481,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DURABLE MEDICAL EQUIPMENT/TRACTION EQUIPMENT"
     ],
     "_key": "traction equipment"
-  },
-  {
-    "benefit_name": "Training and educational classes for various topics",
-    "normalized_key": "training and educational class for various topic",
-    "topic_ids": [
-      61341
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/MISCELLANEOUS/TRAINING AND EDUCATIONAL CLASSES FOR VARIOUS TOPICS"
-    ],
-    "_key": "training and educational class for various topic"
   },
   {
     "benefit_name": "Transcatheter Procedures",
@@ -21209,17 +20274,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/VISION/AIDS"
     ],
     "_key": "vision aids"
-  },
-  {
-    "benefit_name": "Vision exam",
-    "normalized_key": "vision exam",
-    "topic_ids": [
-      12942
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/VISION/EXAM"
-    ],
-    "_key": "vision exam"
   },
   {
     "benefit_name": "Visual Screening",

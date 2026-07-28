@@ -2,6 +2,8 @@ corpus_canonical_name,tree_benefit_name,match_type,score,corpus_total_mentions
 Psychological testing,Psychological testing,exact,100,92
 Durable medical equipment,Durable medical equipment,exact,100,45
 Recreational therapy,0941 - Recreational therapy,exact,100,42
+Physical therapy,Physical therapy,exact,100,36
+Occupational therapy,Occupational therapy,exact,100,36
 Prosthetics and orthotics,Prosthetic and orthotic,exact,100,31
 Prosthetics and orthotics,Prosthetics and orthotics,exact,100,31
 Diagnostic X-rays,Diagnostic X-ray,exact,100,28
@@ -9,8 +11,6 @@ Custodial care,Custodial care,exact,100,27
 Diagnostic Services,Diagnostic services,exact,100,27
 Diagnostic Services,Diagnostic Services,exact,100,27
 Chemotherapy,Chemotherapy,exact,100,27
-Physical Therapy,Physical therapy,exact,100,26
-Occupational Therapy,Occupational therapy,exact,100,26
 Cardiac Rehabilitation,Cardiac rehabilitation,exact,100,25
 Immunizations,Immunizations,exact,100,17
 Colonoscopy,Colonoscopy,exact,100,16

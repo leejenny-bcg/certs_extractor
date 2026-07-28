@@ -7833,5 +7833,10 @@
     "classification": "fragment_or_criterion",
     "confidence": "medium",
     "reasoning": "\"Act of War\" is not a nameable service or item; it describes a scenario/circumstance typically used as an exclusion condition (e.g., losses resulting from an act of war). It names a qualifying condition rather than a specific covered service, so it is best classified as a fragment/criterion."
+  },
+  "In a participating skilled nursing facility (see::35d3f5d6fe60efdf": {
+    "classification": "fragment_or_criterion",
+    "confidence": "high",
+    "reasoning": "The name 'In a participating skilled nursing facility (see' is a sentence fragment describing a location/scenario with a truncated cross-reference, not a specific nameable service or item. It clearly reads as extracted mid-clause rather than as a benefit name."
   }
 }

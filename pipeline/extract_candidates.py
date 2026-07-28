@@ -231,6 +231,29 @@ def strip_trailing_colon(text):
     return text[:-1].rstrip() if text.endswith(":") else text
 
 
+# A candidate ending in a bare page cross-reference (", Page 86" or
+# "(Page 86)") is citing where the SAME concept has its own full benefit
+# section elsewhere in the certificate - confirmed against the source PDF:
+# "Occupational therapy, Page 73" / "Physical therapy, Page 86" / "Speech
+# language therapy, Page 121" are nested under "The following when
+# provided for rehabilitation:" in Home Health Care Services, and each of
+# those three names already has its own full Tier 1 section elsewhere.
+# Since every document has different pagination, the literal page number
+# differs per document and silently blocks the cross-document merge that
+# should otherwise unify these with their real canonical entry. The page
+# number is never part of the benefit's name, so stripping it is safe.
+TRAILING_PAGE_REF_RE = re.compile(r"[,.]?\s*\(?page\s+\d+\)?\.?\s*$", re.IGNORECASE)
+
+
+def strip_trailing_page_reference(text):
+    stripped = TRAILING_PAGE_REF_RE.sub("", text).rstrip()
+    return stripped if stripped else text
+
+
+def clean_candidate_text(text):
+    return strip_trailing_colon(strip_trailing_page_reference(text))
+
+
 TERMINAL_PUNCT = (".", "!", "?", ":")
 
 
@@ -246,15 +269,24 @@ def try_merge_continuation(last_candidate, line_text):
     happened to follow. The reliable signal is the continuation line's own
     first character: a genuine wrap is still mid-sentence, so it starts
     lowercase ("physician's office"); an unrelated new sentence starts
-    capitalized ("Your copayment is applied..."). Returns True if merged.
+    capitalized ("Your copayment is applied...").
+
+    One exception to the lowercase check: a wrap that splits mid-parenthetical
+    (e.g. "...occupational therapy (Page" / "71) when medically necessary" -
+    confirmed in the source PDF) continues with whatever the parenthetical's
+    content starts with, which can be a digit rather than a lowercase letter.
+    An unclosed "(" - more "("s than ")"s so far - is an unambiguous "this is
+    not a complete sentence yet" signal on its own, independent of
+    capitalization. Returns True if merged.
     """
     if last_candidate is None:
         return False
     if last_candidate["text"].rstrip().endswith(TERMINAL_PUNCT):
         return False
-    if not line_text or not line_text[0].islower():
+    mid_parenthetical = last_candidate["text"].count("(") > last_candidate["text"].count(")")
+    if not line_text or not (line_text[0].islower() or mid_parenthetical):
         return False
-    merged_text = strip_trailing_colon(f"{last_candidate['text']} {line_text}".strip())
+    merged_text = clean_candidate_text(f"{last_candidate['text']} {line_text}".strip())
     last_candidate["text"] = merged_text
     last_candidate["shape"] = shape_of(merged_text)
     return True
@@ -362,7 +394,7 @@ def walk_benefit_bullets(lines, header_text, section_context, dental_split, defa
             split_name, did_split = bold_split(line["words"][1:])  # skip bullet glyph word
             if did_split:
                 candidate_text = split_name
-        candidate_text = strip_trailing_colon(candidate_text)
+        candidate_text = clean_candidate_text(candidate_text)
 
         parent = stack_text_by_depth.get(depth - 1) if depth > 0 else None
         stack_text_by_depth[depth] = candidate_text
@@ -405,7 +437,7 @@ def walk_cost_tier_bullets(lines, header_text, section_context):
 
         inline_match = COST_TIER_INLINE_RE.match(raw)
         if inline_match:
-            candidate_text = strip_trailing_colon(inline_match.group("service").strip())
+            candidate_text = clean_candidate_text(inline_match.group("service").strip())
             if HOUSEHOLD_SIZE_RE.match(candidate_text):
                 group_active_depth = None
                 last_candidate = None
@@ -433,7 +465,7 @@ def walk_cost_tier_bullets(lines, header_text, section_context):
             continue
 
         if group_active_depth is not None and depth > group_active_depth:
-            candidate_text = strip_trailing_colon(raw)
+            candidate_text = clean_candidate_text(raw)
             new_candidate = {
                 "text": candidate_text,
                 "tier": 2,
@@ -506,7 +538,7 @@ def extract_index_entries(pages, sections_by_page, page_offset):
                 m = INDEX_ENTRY_RE.match(text.strip())
                 if not m:
                     continue
-                term = strip_trailing_colon(m.group("term").strip())
+                term = clean_candidate_text(m.group("term").strip())
                 printed_page = int(m.group("page"))
                 absolute_page = printed_page + page_offset
                 in_range = 0 <= absolute_page < num_pages
@@ -583,7 +615,7 @@ def extract_one(record, segmentation):
         if BENEFIT_SECTION_RE.search(ctx):
             candidates.append(
                 {
-                    "text": strip_trailing_colon(header),
+                    "text": clean_candidate_text(header),
                     "tier": 1,
                     "subtier": "1",
                     "parent_header": None,

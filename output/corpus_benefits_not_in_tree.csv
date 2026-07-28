@@ -77,6 +77,7 @@ Dental Services,16,16,"1,3","dental,ppo_medical",
 Laboratory examinations,16,16,"2,3","dental,ppo_medical",Class I – Diagnostic and Preventive Services | Skilled Nursing Facility Services
 Ambulatory Surgery Facility,16,14,"2,3",ppo_medical,Surgery
 Copayment,15,15,3,"dental,ppo_medical,vision",
+Harvesting (including peripheral blood stem cell pheresis) and storage of bone marrow and/or peripheral blood stem cells,15,12,2,ppo_medical,Oncology Clinical Trials | Transplant Services
 Infusion of bone marrow and/or peripheral blood stem cells,15,12,2,ppo_medical,Oncology Clinical Trials | Transplant Services
 Specialty Pharmaceuticals,15,13,"2,3",ppo_medical,Prescription Drugs
 Contraceptive Drugs,15,9,"2,3",ppo_medical,Preventive Care Services
@@ -178,6 +179,7 @@ Services provided by a nonparticipating end stage renal disease facility,14,14,2
 Services not provided by the employees of the ESRD facility,14,14,2,ppo_medical,Dialysis Services
 Services not related to the dialysis process,14,14,2,ppo_medical,Dialysis Services
 Home hemodialysis,14,14,2,ppo_medical,Dialysis Services
+Placement and maintenance of a dialysis machine in the member’s home,14,14,2,ppo_medical,Dialysis Services
 Expenses to train the member and one other person who will assist the member in the home in operating the equipment,14,14,2,ppo_medical,Dialysis Services
 Laboratory tests related to the dialysis,14,14,2,ppo_medical,Dialysis Services
 "Supplies required during the dialysis, such as dialysis membrane, solution, tubing and drugs",14,14,2,ppo_medical,Dialysis Services
@@ -282,7 +284,6 @@ Therapy that is performed without an occupational therapy treatment plan,14,14,2
 "Treatment solely to improve cognition (e.g., memory or perception), concentration and/or attentiveness, organizational or problem-solving skills, academic skills, impulse control or other behaviors for which behavior modification is sought without an occupational therapy treatment plan that guides and helps to monitor the provided therapy",14,14,2,ppo_medical,Occupational Therapy
 The diagnosis of a condition,14,14,2,ppo_medical,"Office, Outpatient and Home Medical Care Visits"
 Treatment and consultation recommendations,14,14,2,ppo_medical,"Office, Outpatient and Home Medical Care Visits"
-Harvesting (including peripheral blood stem cell pheresis) and storage of bone marrow and/or peripheral blood stem cells,14,12,2,ppo_medical,Oncology Clinical Trials | Transplant Services
 Bone marrow,14,14,2,ppo_medical,Oncology Clinical Trials
 Peripheral blood stem cell (including peripheral blood stem cell pheresis),14,14,2,ppo_medical,Oncology Clinical Trials
 Umbilical cord blood,14,14,2,ppo_medical,Oncology Clinical Trials
@@ -463,7 +464,6 @@ You will need to pay the out-of-network cost-share if tests are done by an out-o
 "The treatment must be arranged by the member’s physician and the physician director, or a committee of staff physicians of a self-dialysis training program",13,13,2,ppo_medical,Dialysis Services
 The owner of the member’s home must give the hospital prior written permission to install the equipment.,13,13,2,ppo_medical,Dialysis Services
 Continuous ambulatory peritoneal dialysis and self-dialysis training with the number of training sessions limited according to Medicare guidelines,13,13,2,ppo_medical,Dialysis Services
-Placement and maintenance of a dialysis machine in the member’s home,13,13,2,ppo_medical,Dialysis Services
 A participating hospital (when you are discharged),13,13,2,ppo_medical,Durable Medical Equipment
 A DME supplier,13,13,2,ppo_medical,Durable Medical Equipment
 Short-term general inpatient care when the member is admitted for pain control or to manage symptoms. (These services are payable if they meet the plan of care established for the member.),13,13,2,ppo_medical,Hospice Care Services
@@ -474,6 +474,7 @@ Vaginal delivery or cesarean section when provided in,13,13,2,ppo_medical,Matern
 A participating hospital setting,13,13,2,ppo_medical,Maternity Care
 "A hospital-affiliated birthing center that is owned and operated by a participating state- licensed and accredited hospital, as defined by BCBSM",13,13,2,ppo_medical,Maternity Care
 A member’s home,13,13,2,ppo_medical,Maternity Care
+"Postnatal care, including a Papanicolaou (Pap) smear during the six-week visit.",13,13,2,ppo_medical,Maternity Care
 Lactation education and alternative fertility awareness counseling,13,13,2,ppo_medical,Maternity Care
 Ostomy sets and accessories,13,13,2,ppo_medical,Medical Supplies
 The exam must be given by a physician other than the anesthesiologist or the birth parent’s attending physician.,13,13,2,ppo_medical,Newborn Care
@@ -525,7 +526,7 @@ Therapeutic care – Evidence-based services from licensed providers. It include
 Nutritional therapy,12,12,2,ppo_medical,Autism Spectrum Disorders
 Psychiatric Intensive Outpatient Program (IOP),12,12,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Services to treat temporomandibular joint dysfunction (TMJ) limited to those described below,12,12,2,ppo_medical,Dental Services
-"Postnatal care, including a Papanicolaou (Pap) smear during the six-week visit.",12,12,2,ppo_medical,Maternity Care
+Medically necessary professional and facility services for the treatment of gender dysphoria.,12,12,2,ppo_medical,Gender Affirming Services
 Newborn services provided during the first 48 or 96 hours if the newborn has not been added to the BCBSM contract of the birth parent. These services include,12,12,2,ppo_medical,Maternity Care
 "Services to treat a newborn’s injury, sickness, congenital defects or birth abnormalities",12,12,2,ppo_medical,Maternity Care
 Purging or positive stem cell selection of bone marrow or peripheral blood stem cells,12,12,2,ppo_medical,Oncology Clinical Trials
@@ -567,7 +568,6 @@ Room and board,11,11,2,ppo_medical,Behavioral Health Services (Mental Health and
 General nursing services,11,11,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
 "Drugs, biologicals and solutions used in the facility",11,11,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Outpatient substance use disorder services for the treatment of tobacco dependence,11,11,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
-Medically necessary professional and facility services for the treatment of gender dysphoria.,11,11,2,ppo_medical,Gender Affirming Services
 "Physical therapy, speech language therapy, and occupational therapy when provided to control symptoms and maintain the member’s daily activities and basic functional skills",11,11,2,ppo_medical,Hospice Care Services
 Preventive drugs,11,11,2,ppo_medical,Prescription Drugs
 Select immunization vaccines,11,11,2,ppo_medical,Prescription Drugs
@@ -622,6 +622,7 @@ An office consultation,9,9,2,"csr_rider,ppo_medical",BCBSM PPO In-Network Provid
 A pre-surgical consultation,9,9,2,"csr_rider,ppo_medical",BCBSM PPO In-Network Providers | Copayment Requirements
 A medical evaluation at an affiliated immunization pharmacy,9,9,2,"csr_rider,ppo_medical",BCBSM PPO In-Network Providers | Copayment Requirements
 "Evaluations or tests, including the Autism Diagnostic Observation Schedule",9,9,2,ppo_medical,Autism Spectrum Disorders
+"To avoid out-of-network cost share, obtain your prescribed durable medical equipment, prosthetics, orthotics, and medical supplies from an in-network provider. Contact Customer",9,9,2,ppo_medical,Durable Medical Equipment
 Transplants or related services rendered at a nondesignated cancer center or its affiliate,9,9,2,ppo_medical,Oncology Clinical Trials
 Billed by a contracted specialty pharmacy provider and administered by a physician.,9,9,2,ppo_medical,Prescription Drugs
 "One per member, per calendar year to detect blood in the feces or stool",9,8,2,ppo_medical,Preventive Care Services
@@ -659,7 +660,6 @@ Lens tolerance tests,8,4,"2,3",vision,Contact Lenses | Frames | Lenses
 Psychiatric care – It includes a p sychiatrist’s direct or consulting services. The psychiatrist must be licensed in the state of practice.,8,8,2,ppo_medical,Autism Spectrum Disorders
 "Drugs, biologicals and solutions, including drugs taken home",8,8,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
 By a lab at your in- network physician’s direction.,8,8,2,ppo_medical,Diagnostic Services
-"To avoid out-of-network cost share, obtain your prescribed durable medical equipment, prosthetics, orthotics, and medical supplies from an in-network provider. Contact Customer",8,8,2,ppo_medical,Durable Medical Equipment
 Newborn examination given by a physician other than the anesthesiologist or the birth parent’s attending physician,8,8,2,ppo_medical,Maternity Care
 "One per member, per calendar year, when prescribed by a physician",8,8,2,ppo_medical,Preventive Care Services
 One per member per calendar year to screen for breast cancer,8,8,2,ppo_medical,Preventive Care Services
@@ -1012,7 +1012,6 @@ Antibiotic injections,2,1,"2,3",dental,Class II – Basic Services
 $150 allowance for frames or elective contact lenses,1,1,2,vision,Frequency
 "If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for occupational therapy and physical therapy and the 30-visit maximum for speech language therapy described on pages 71, 83 and 116.",1,1,2,ppo_medical,Home Health Care Services
 "The service must be provided in a vehicle licensed as a ground or air ambulance, and which is part of a licensed ambulance operation.",1,1,2,ppo_medical,Ambulance Services
-"To avoid out-of-network cost share, obtain your prescribed durable medical equipment, medical supplies, prosthetics and orthotics, from an in-network provider. Contact Customer",1,1,2,ppo_medical,Durable Medical Equipment
 "If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy services described on pages 69, 81 and",1,1,2,ppo_medical,Home Health Care Services
 Short-term general inpatient care when the member is admitted for pain control or to manage symptoms,1,1,2,ppo_medical,Hospice Care Services
 "Physical therapy, speech language therapy services and occupational therapy when provided to control symptoms and maintain a member’s daily activities and basic functional skills",1,1,2,ppo_medical,Hospice Care Services
@@ -1032,7 +1031,6 @@ Chemotherapy Specialty Pharmaceuticals,1,1,3,ppo_medical,Prescription Drugs
 Prior Authorization – Autism spectrum disorder services must be authorized by,1,1,2,ppo_medical,Autism Spectrum Disorders
 Autism spectrum disorder services (including ABA) when performed by a participation LBA or other provider acting within their scope of practice.,1,1,2,ppo_medical,Autism Spectrum Disorders
 "Services provided by a qualified provider, including but not limited to physician, fully licensed psychologist, certified nurse practitioner, clinical nurse specialist-certified, clinical licensed master’s social worker, licensed professional counselor, limited licensed psychologists, or licensed marriage and family therapist, or other professional provider as determined by BCBSM",1,1,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
-Medically necessary professional and facility services the treatment of gender dysphoria.,1,1,2,ppo_medical,Gender Affirming Services
 "If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy services described on pages 75, 87 and 124.",1,1,2,ppo_medical,Home Health Care Services
 "Physical therapy, speech language therapy services, and occupational therapy when provided to control symptoms and maintain the member’s daily activities and basic functional skills",1,1,2,ppo_medical,Hospice Care Services
 More than a 30-day supply of covered drugs within 60 days of the end of the plan year,1,1,2,ppo_medical,Prescription Drugs
@@ -1046,7 +1044,6 @@ A speech language pathologist certified by the American Speech-Language-Hearing,
 Autism Spectrum Disorders - Benefit Maximums,1,1,3,ppo_medical,Autism Spectrum Disorders
 Autism Spectrum Disorders- Covered Services,1,1,3,ppo_medical,Audiologist Services
 Anesthesia services may also be covered as part of electroconvulsive therapy (ECT) (see Page 69) and for covered dental services (see 24 SECTION 3: WHAT BCBSM PAYS FOR ` BLUE CROSS ® PREMIER PPO VALUE,1,1,2,ppo_medical,Anesthesiology Services
-Placement and maintenance of a d ialysis machine in the member’s home,1,1,2,ppo_medical,Dialysis Services
 "If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy services described on Pages 71, 83 and 117.",1,1,2,ppo_medical,Home Health Care Services
 "Physical therapy, speech language therapy, and occupational therapy services when provided to control symptoms and maintain the member’s daily activities and basic functional skills",1,1,2,ppo_medical,Hospice Care Services
 "Services of a freestanding facility provided to you while you are an inpatient in a hospital, skilled nursing facility or residential substance abuse treatment program",1,1,2,ppo_medical,Occupational Therapy
@@ -1058,7 +1055,6 @@ Coverage Requirements,1,1,3,ppo_medical,Autism Spectrum Disorders
 Limitations and Exclusions,1,1,3,ppo_medical,Autism Spectrum Disorders
 Procedures that are payable in the circumstances explained above include,1,1,2,ppo_medical,Dental Services
 "If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy described on Pages 71, 84 and 119.",1,1,2,ppo_medical,Home Health Care Services
-Harvesting (including peripheral blood stem cell phereses) and storage of bone marrow and/or peripheral blood stem cells,1,1,2,ppo_medical,Oncology Clinical Trials
 Visits through age 18 as follows,1,1,2,ppo_medical,Preventive Care Services
 "The following services once per member, per calendar year, when performed as routine screening",1,1,2,ppo_medical,Preventive Care Services
 Hospital and physician benefits for colonoscopy services are payable at 100% of the BCBSM approved amount as follows,1,1,2,ppo_medical,Preventive Care Services
@@ -1075,7 +1071,6 @@ A virtual primary care visit,1,1,2,ppo_medical,BCBSM PPO In-Network Providers
 Outpatient mental health,1,1,2,ppo_medical,Autism Spectrum Disorders
 "Covered services include, but not limited to, the following",1,1,2,ppo_medical,Gender Affirming Services
 "If physical therapy, occupational therapy or speech language therapy cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for occupational therapy and physical therapy and the 30-visit maximum for speech language therapy described on pages",1,1,2,ppo_medical,Home Health Care Services
-"Post-natal care, including a Papanicolaou (Pap) smear during the six-week visit.",1,1,2,ppo_medical,Maternity Care
 "For a member with a BMI of 30 or above, we pay for 26 visits per member per calendar year. Visits can include nutritional counseling, such as dietician services, billed by professional provider recognized by BCBSM.",1,1,2,ppo_medical,Preventive Care Services
 One pair of lenses every 12 months,1,1,2,vision,Frequency
 Contact lenses every 12 months,1,1,2,vision,Frequency

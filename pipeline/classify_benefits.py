@@ -11,21 +11,38 @@ population with Claude, using real snippet evidence, and tags (never deletes)
 the ones it's confident are not real benefit names.
 
 Scope gate: only canonical records where `1 not in tiers_present` (not a
-section header) AND `shape_breakdown["phrase"] >= shape_breakdown["sentence"]`
-(i.e. records is_high_confidence() currently marks confident via the
-*shape* path, not the *Tier 1* path). Tier 1 was briefly included (found
-two real gaps this way: "Temporary Benefits" and "Value Based Programs"
-are policy/program section headers, not nameable services), but reverted
-after finding the classification was inconsistent on Tier-1 headers
-specifically -- two near-duplicate "Class I - Diagnostic and Preventive
-Services" records (differing only by dash character) got opposite
-verdicts, and several broad-but-legitimate "PAYS FOR" section categories
-("Surgery", "Hospital Services", dental's "Class II/III" tiers) got
-flagged too, which would hide primary navigation categories this whole
-pipeline treats as ground-truth Tier 1 elsewhere. Tier-1 visibility is
-now a deterministic user-facing UI toggle instead (see
-ui/data.py:is_top_level_header) rather than an LLM judgment call. No
-mention-count/MeSH-style gate is applied on top, because generic
+section header). Tier 1 was briefly included (found two real gaps this
+way: "Temporary Benefits" and "Value Based Programs" are policy/program
+section headers, not nameable services), but reverted after finding the
+classification was inconsistent on Tier-1 headers specifically -- two
+near-duplicate "Class I - Diagnostic and Preventive Services" records
+(differing only by dash character) got opposite verdicts, and several
+broad-but-legitimate "PAYS FOR" section categories ("Surgery", "Hospital
+Services", dental's "Class II/III" tiers) got flagged too, which would
+hide primary navigation categories this whole pipeline treats as
+ground-truth Tier 1 elsewhere. Tier-1 visibility is now a deterministic
+user-facing UI toggle instead (see ui/data.py:is_top_level_header) rather
+than an LLM judgment call.
+
+The scope gate previously also required `shape_breakdown["phrase"] >=
+shape_breakdown["sentence"]`, skipping anything shape_of() already called
+"sentence" on the assumption that heuristic was always right about that.
+It wasn't: "Mental health and substance use disorder visits (office,
+virtual or online visits)" (12 words, no verb) and "LTACH services if the
+member's primary diagnosis is a mental health or substance use disorder
+condition" both got excluded by shape_of()'s old length-only proxy and
+never reached review at all because of this gate. Removed - every
+non-Tier-1 record is reviewed regardless of shape now, roughly doubling
+scope (~562 -> ~1,164), one-time and cheap via the Batches API. Most
+sentence-shaped records really are fragments/criteria and should -- and
+do -- come back classified that way; this only matters for the genuine
+exceptions the heuristic couldn't tell apart from real ones.
+ui/data.py:is_high_confidence() has a matching "rescue" path: a
+sentence-shaped record classified "benefit" at high/medium confidence is
+treated as high-confidence despite its shape, the mirror image of the
+existing "flag" path for phrase-shaped non-benefits.
+
+No mention-count/MeSH-style gate is applied on top, because generic
 administrative terms (e.g. "Coinsurance") often have *high* mention counts
 precisely because they're generic -- mention count doesn't separate signal
 from noise here the way it does in certs_riders' Topic-Tree-anchored
@@ -154,11 +171,7 @@ def save_cache(cache):
 
 
 def is_scope_candidate(record):
-    if 1 in record["tiers_present"]:
-        return False
-    phrase_count = record["shape_breakdown"].get("phrase", 0)
-    sentence_count = record["shape_breakdown"].get("sentence", 0)
-    return phrase_count >= sentence_count
+    return 1 not in record["tiers_present"]
 
 
 def gather_snippets(output_dir, record, max_snippets=MAX_SNIPPETS):
@@ -264,7 +277,7 @@ def main():
 
     candidates = [r for r in records if is_scope_candidate(r)]
     print(f"{len(records)} canonical benefits total, {len(candidates)} in scope "
-          f"(non-Tier-1, phrase-majority)", file=sys.stderr)
+          f"(non-Tier-1)", file=sys.stderr)
 
     # Clear stale llm_review left over from a broader scope gate in a
     # previous run (e.g. the Tier-1 expansion this file's docstring

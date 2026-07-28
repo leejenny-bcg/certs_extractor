@@ -59,6 +59,12 @@ def has_revenue_code_prefix(benefit_name):
     return bool(CODE_PREFIX_RE.match(benefit_name))
 
 
+# Mirrors classify_benefits.py's APPLY_CONFIDENCE_LEVELS - kept as a
+# separate constant rather than importing the pipeline module, which pulls
+# in the Anthropic SDK for no reason here. Keep the two in sync by hand.
+_CONFIDENT_LEVELS = ("high", "medium")
+
+
 def is_high_confidence(record):
     """A benefit is high-confidence if any of its mentions came from a
     certificate's own section header (Tier 1) or a benefit-section bullet
@@ -67,10 +73,29 @@ def is_high_confidence(record):
     This is the single place to extend the "hide low-quality entries"
     checkbox with more exclusion criteria later (e.g. revenue-code-style
     names) without touching the UI filtering logic itself.
+
+    llm_review can push a record either direction, not just toward
+    exclusion: shape_of() is a heuristic, not a solved classifier, and can
+    wrongly tag a real benefit "sentence" (confirmed: "Mental health and
+    substance use disorder visits (office, virtual or online visits)" - no
+    verb, just long - and "LTACH services if the member's primary
+    diagnosis is a mental health or substance use disorder condition" -
+    both real, both excluded, neither ever reviewed under the old scope
+    gate). Now that classify_benefits.py reviews every non-Tier-1 record
+    regardless of shape, a high/medium-confidence "benefit" verdict
+    rescues a record from that shape-based exclusion - the mirror image of
+    the flag path above. Low-confidence "benefit" verdicts don't rescue,
+    same precision-first reasoning as the flag path: surfacing a
+    borderline exclusion (still visible in the "Low-Quality / Excluded"
+    tab either way) is a smaller error than confidently asserting
+    something is clean when the model itself wasn't sure.
     """
     llm_review = record.get("llm_review")
-    if llm_review and llm_review.get("applied"):
-        return False
+    if llm_review:
+        if llm_review.get("applied"):
+            return False
+        if llm_review["classification"] == "benefit" and llm_review["confidence"] in _CONFIDENT_LEVELS:
+            return True
     if 1 in record["tiers_present"]:
         return True
     phrase_count = record["shape_breakdown"].get("phrase", 0)

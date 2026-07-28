@@ -43,7 +43,14 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+import spacy
+
 from layout import BULLET_CHARS, group_words_into_lines, is_bullet_word, merge_lone_bullet_lines
+
+# parser/ner not needed for POS tagging alone; disabling roughly halves
+# per-call latency (see pipeline/normalize.py, same tradeoff for the same
+# reason).
+_NLP = spacy.load("en_core_web_sm", disable=["parser", "ner"])
 
 BENEFIT_SECTION_RE = re.compile(r"PAYS FOR|COVERAGE FOR")
 PAY_SECTION_RE = re.compile(r"WHAT YOU MUST PAY")
@@ -108,6 +115,36 @@ PAYMENT_FOR_RE = re.compile(r"^payment for\b", re.IGNORECASE)
 NOT_MEET_RE = re.compile(r"\bdo(?:es)? not meet\b|\bhas not been\b|\bhave not been\b", re.IGNORECASE)
 
 
+def contains_finite_verb(text):
+    """A real benefit name, however long, is a noun phrase - no verb
+    anywhere in it. A genuine description/criterion sentence almost
+    always has one. Replaces a pure word-count proxy that mis-tagged
+    long-but-verbless phrases as "sentence" - confirmed: "Mental health
+    and substance use disorder visits (office, virtual or online visits)"
+    (12 words, no verb) was wrongly excluded, and never even reached LLM
+    review because of it (the review scope gate skips anything already
+    shape-tagged "sentence").
+
+    Deliberately narrower than "any VERB/AUX token": a bare check flags
+    legitimate long benefit names that contain an infinitive-of-purpose
+    ("Services TO TREAT temporomandibular joint dysfunction...") or a
+    participial modifier ("...limited to those described below") - both
+    common, neither a real assertion. Content verbs only count in present
+    tense (VBZ/VBP - "is", "requires"); past tense (VBD) is excluded
+    because spaCy's tagger, with no surrounding sentence, confirmed
+    mistagging a participial modifier as VBD ("limited" in the TMJ
+    example above, should be VBN). Auxiliaries (is/are/was/were/have/
+    has/do/does) count in any tense - "was"/"were" aren't participle-
+    homographs the way "limited"/"required"/"described" are, so the same
+    ambiguity doesn't apply."""
+    for tok in _NLP(text):
+        if tok.pos_ == "AUX" and tok.tag_ in ("VBZ", "VBP", "VBD"):
+            return True
+        if tok.pos_ == "VERB" and tok.tag_ in ("VBZ", "VBP"):
+            return True
+    return False
+
+
 def shape_of(text):
     """Conservative phrase-vs-sentence heuristic. Not a solved classifier -
     ambiguous items still get emitted, just tagged lower-confidence."""
@@ -117,7 +154,13 @@ def shape_of(text):
     lower_words = {w.lower().strip(",:;") for w in words}
     if words[0].lower().strip(",:;") in LEADING_VERB_WORDS:
         return "sentence"
-    if len(words) > 10:
+    # Extreme outlier backstop (rare) - a genuinely enormous candidate is
+    # almost certainly not a clean benefit name regardless of structure.
+    # Between the old threshold and this one, verb presence (not length
+    # alone) decides - see contains_finite_verb().
+    if len(words) > 25:
+        return "sentence"
+    if len(words) > 10 and contains_finite_verb(text):
         return "sentence"
     if lower_words & CRITERION_WORDS:
         return "sentence"

@@ -1,0 +1,1243 @@
+canonical_name,match_type,tiers_present,total_mentions,document_count,profiles_present,covered,excluded,unknown,phrase_count,sentence_count,parent_headers
+Psychological testing,exact,2,92,14,ppo_medical,26,66,0,92,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Any difference between the Maximum Allowable Cost and BCBSM’s approved amount for a covered brand-name drug,exact,2,66,14,ppo_medical,0,66,0,0,66,Prescription Drugs
+Drugs obtained from an out-of-network mail order provider.,exact,2,65,14,ppo_medical,0,65,0,65,0,Prescription Drugs
+Individual psychotherapeutic treatment,exact,2,64,14,ppo_medical,13,51,0,64,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Family counseling,exact,2,64,14,ppo_medical,13,51,0,64,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Group psychotherapeutic treatment,exact,2,64,14,ppo_medical,13,51,0,64,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Marital counseling,exact,2,52,13,ppo_medical,0,52,0,52,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Prescribed drugs given by the hospital or facility during the member’s treatment,exact,2,52,13,ppo_medical,0,52,0,52,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Ancillary services,exact,"2,3",50,14,ppo_medical,0,37,13,50,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Durable medical equipment,exact,"1,2",45,20,"csr_rider,ppo_medical",45,0,0,45,0,BCBSM PPO In-Network Providers | BCBSM PPO Out-of-Network Providers | Coinsurance Requirements
+Amounts that exceed our approved amount for covered drugs or out-of-network retail penalty amounts.,exact,2,43,14,ppo_medical,0,43,0,0,43,Prescription Drugs
+Therapy billed as a rehabilitative service when it does not meet the definition of rehabilitative service in this certificate,exact,2,42,14,ppo_medical,0,42,0,0,42,Occupational Therapy | Physical Therapy | Speech Language Therapy
+"Services provided by a freestanding facility in a home, hospital, skilled nursing facility, or residential substance abuse treatment facility",exact,2,42,14,ppo_medical,0,42,0,0,42,Occupational Therapy | Physical Therapy | Speech Language Therapy
+Recreational therapy,exact,2,42,14,ppo_medical,0,42,0,42,0,Occupational Therapy | Physical Therapy | Speech Language Therapy
+Member education and home programs,exact,2,42,14,ppo_medical,0,42,0,42,0,Occupational Therapy | Physical Therapy | Speech Language Therapy
+A participating hospital,exact,2,41,14,ppo_medical,41,0,0,41,0,Chronic Disease Management | Infertility Treatment | Preventive Care Services
+Infusion of colony stimulating growth factors,exact,2,39,13,ppo_medical,39,0,0,39,0,Oncology Clinical Trials | Transplant Services
+High-dose chemotherapy and/or total body irradiation,exact,2,38,12,ppo_medical,38,0,0,38,0,Oncology Clinical Trials | Transplant Services
+Hospitalization,exact,2,38,12,ppo_medical,38,0,0,38,0,Oncology Clinical Trials | Transplant Services
+Allogeneic Transplants,exact,"2,3",38,14,ppo_medical,28,0,10,38,0,Oncology Clinical Trials | Transplant Services
+Services provided by the hospital’s or facility’s staff,exact,2,37,13,ppo_medical,0,37,0,37,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Autologous Transplants,exact,"2,3",33,14,ppo_medical,18,0,15,33,0,Oncology Clinical Trials | Transplant Services
+Payment for noncovered drugs or services,exact,2,33,13,ppo_medical,0,33,0,33,0,Prescription Drugs
+Temporomandibular surgery,exact,2,31,16,"csr_rider,ppo_medical",31,0,0,31,0,BCBSM PPO In-Network Providers | BCBSM PPO Out-of-Network Providers | Coinsurance Requirements
+Infertility testing and treatment,exact,2,31,16,"csr_rider,ppo_medical",31,0,0,31,0,BCBSM PPO In-Network Providers | BCBSM PPO Out-of-Network Providers | Coinsurance Requirements
+Prosthetics and orthotics,exact,2,31,16,"csr_rider,ppo_medical",31,0,0,31,0,BCBSM PPO In-Network Providers | BCBSM PPO Out-of-Network Providers | Coinsurance Requirements
+Contraceptive Services,exact,"1,2,3",31,14,ppo_medical,30,0,1,31,0,Collaborative Care Management | Preventive Care Services
+Bariatric surgery,exact,2,30,16,"csr_rider,ppo_medical",30,0,0,30,0,BCBSM PPO In-Network Providers | BCBSM PPO Out-of-Network Providers | Coinsurance Requirements | Surgery
+Services that require less than intensive monitoring or supervision because the member ’s endurance while exercising and management of risk factors are stable,exact,2,28,14,ppo_medical,0,28,0,0,28,Cardiac Rehabilitation | Pulmonary Rehabilitation
+Medication assessments to identify:,exact,2,28,14,ppo_medical,28,0,0,28,0,Collaborative Care Management | Value Based Programs
+Diagnostic X-rays,exact,2,28,14,ppo_medical,28,0,0,28,0,Dental Services
+An office,exact,2,28,14,ppo_medical,28,0,0,28,0,Infertility Treatment | Preventive Care Services
+Services received from a nonparticipating hospital or nonparticipating facility,fuzzy,2,28,14,ppo_medical,0,28,0,28,0,Occupational Therapy | Physical Therapy
+"Items that are not considered by BCBSM to be directly related to travel and lodging. Examples include, but are not limited to:",exact,2,28,14,ppo_medical,0,28,0,0,28,Oncology Clinical Trials | Transplant Services
+Allergy Testing and Therapy,exact,"1,3",27,14,ppo_medical,14,0,13,27,0,Allergy Testing and Therapy | BCBSM PPO Out-of-Network Providers
+Custodial care,exact,2,27,14,ppo_medical,0,27,0,27,0,Behavioral Health Services (Mental Health and Substance Use Disorder) | Skilled Nursing Facility Services
+Diagnostic Services,exact,"1,2",27,14,ppo_medical,27,0,0,27,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Services given when intensive monitoring and/or supervision during exercise is required.,exact,2,27,14,ppo_medical,27,0,0,0,27,Cardiac Rehabilitation | Pulmonary Rehabilitation
+Chemotherapy,exact,"1,3",27,14,ppo_medical,14,0,13,27,0,Cardiac Rehabilitation
+Chronic Disease Management,exact,"1,3",27,14,ppo_medical,14,0,13,27,0,Chiropractic Services and Osteopathic Manipulative Therapy
+A participating facility,exact,2,27,14,ppo_medical,27,0,0,27,0,Chronic Disease Management | Preventive Care Services
+"More than the combined 30 habilitative and the combined 30 rehabilitative outpatient visits for physical and occupational therapy per member per calendar year, (see above about combined benefit) whether obtained from an in-network or out-of-network provider",exact,2,27,14,ppo_medical,0,27,0,0,27,Occupational Therapy | Physical Therapy
+Therapy billed as an habilitative service when it does not meet the definition of habilitative service in this certificate,exact,2,27,14,ppo_medical,0,27,0,0,27,Physical Therapy | Speech Language Therapy
+Acute Care,exact,"2,3",27,14,ppo_medical,0,14,13,27,0,Skilled Nursing Facility Services
+Physical Therapy,exact,"1,2",26,14,ppo_medical,26,0,0,26,0,Autism Spectrum Disorders
+Occupational Therapy,exact,"1,2",26,14,ppo_medical,26,0,0,26,0,Autism Spectrum Disorders
+Speech Language Therapy,exact,"1,2",26,14,ppo_medical,26,0,0,26,0,Autism Spectrum Disorders
+Consultations required by a facility’s or program’s rules,exact,2,26,13,ppo_medical,0,26,0,26,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Treatment or supplies that do not meet BCBSM requirements,exact,2,26,13,ppo_medical,0,26,0,26,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Services provided by the facility's staff,exact,2,26,13,ppo_medical,13,13,0,26,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Prescribed drugs given by the facility in connection with treatment,exact,2,26,13,ppo_medical,13,13,0,26,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Services provided in a skilled nursing facility or through a residential or outpatient substance abuse treatment program,exact,2,26,13,ppo_medical,0,26,0,0,26,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Consultations required by a facility or program’s rule,exact,2,26,13,ppo_medical,0,26,0,26,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Services provided by a nonparticipating outpatient psychiatric care facility,exact,2,26,13,ppo_medical,0,26,0,26,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Certified Nurse Practitioner,exact,"2,3",26,14,ppo_medical,13,0,13,26,0,Chronic Disease Management
+Clinical Nurse Specialist-Certified,exact,"2,3",26,14,ppo_medical,13,0,13,26,0,Chronic Disease Management
+Athletic Trainer,exact,"2,3",26,14,ppo_medical,13,0,13,26,0,Chronic Disease Management
+Approved clinical trial,exact,"2,3",26,14,ppo_medical,13,0,13,26,0,Clinical Trials (Routine Patient Costs)
+Medically necessary to treat severe deficits in members who have certain conditions that are identified by BCBSM,exact,2,26,13,ppo_medical,0,26,0,0,26,Occupational Therapy | Physical Therapy
+Cardiac Rehabilitation,exact,"1,3",25,14,ppo_medical,14,0,11,25,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+The drug Interactions,exact,2,25,13,ppo_medical,25,0,0,25,0,Collaborative Care Management | Value Based Programs
+Routine care during the newborn’s eligible hospital stay.,exact,2,25,14,ppo_medical,25,0,0,25,0,Maternity Care | Newborn Care
+Nuclear cardiac studies,exact,2,24,13,ppo_medical,24,0,0,24,0,Diagnostic Services | Radiology Services
+Contraceptive Counseling,exact,"2,3",24,13,ppo_medical,12,0,12,24,0,Preventive Care Services
+Ambulance Services,exact,"1,3",23,14,ppo_medical,14,0,9,23,0,
+Search of the National Bone Marrow Donor Program Registry for a donor. A search will begin only when the need for a donor is established and the transplant is preapproved.,exact,2,23,12,ppo_medical,23,0,0,0,23,Oncology Clinical Trials | Transplant Services
+"Infusion of bone marrow, peripheral blood stem cells, and/or umbilical cord blood",exact,2,23,12,ppo_medical,23,0,0,23,0,Oncology Clinical Trials | Transplant Services
+T-cell depleted infusion,exact,2,23,12,ppo_medical,23,0,0,23,0,Oncology Clinical Trials | Transplant Services
+Donor lymphocyte infusion,exact,2,23,12,ppo_medical,23,0,0,23,0,Oncology Clinical Trials | Transplant Services
+Amounts that exceed our approved amount for covered specialty drugs or out-of-network retail penalty amounts.,exact,2,23,14,ppo_medical,0,23,0,0,23,Prescription Drugs
+Applied Behavior Analysis (ABA) treatment,exact,2,21,14,"csr_rider,ppo_medical",21,0,0,21,0,Autism Spectrum Disorders | BCBSM PPO In-Network Providers | Copayment Requirements
+Oncology Clinical Trials,exact,"1,3",21,14,ppo_medical,14,0,7,21,0,Oncology Clinical Trials
+Adverse Benefit Decision,exact,3,19,19,"dental,ppo_medical,vision",0,0,19,19,0,
+Appeals,exact,3,19,19,"dental,ppo_medical,vision",0,0,19,19,0,
+Approved Amount,exact,3,19,19,"dental,ppo_medical,vision",0,0,19,19,0,
+BCBSM,exact,3,19,19,"dental,ppo_medical,vision",0,0,19,19,0,
+Calendar Year,exact,3,19,19,"dental,ppo_medical,vision",0,0,19,19,0,
+Cancellation,exact,3,19,19,"dental,ppo_medical,vision",0,0,19,19,0,
+Certificate,exact,3,19,19,"dental,ppo_medical,vision",0,0,19,19,0,
+Claim for Damages,exact,3,19,19,"dental,ppo_medical,vision",0,0,19,19,0,
+Coinsurance,exact,3,19,19,"dental,ppo_medical,vision",0,0,19,19,0,
+Alveoloplasty,exact,"2,3",19,14,ppo_medical,14,0,5,19,0,Contraceptive Services | Dental Services
+Genetic testing,exact,"2,3",18,18,"dental,ppo_medical,vision",12,0,6,18,0,Autism Spectrum Disorders
+Specialty drugs obtained from any provider other than our exclusive pharmacy network for specialty drugs.,exact,2,18,14,ppo_medical,0,18,0,0,18,Prescription Drugs
+More than 30 visits a year for combined outpatient cardiac or pulmonary rehabilitation services,exact,2,18,14,ppo_medical,0,18,0,0,18,Cardiac Rehabilitation | Pulmonary Rehabilitation
+Billing,exact,3,17,17,"ppo_medical,vision",0,0,17,17,0,
+Contract,exact,3,17,17,"dental,ppo_medical,vision",0,0,17,17,0,
+24/7 virtual visits only when performed through the Blue Cross selected vendor app,exact,2,17,17,"csr_rider,ppo_medical",17,0,0,0,17,BCBSM PPO In-Network Providers | Copayment Requirements
+Immunizations,exact,2,17,10,ppo_medical,17,0,0,17,0,Oncology Clinical Trials | Preventive Care Services
+Administration of blood,exact,2,17,14,ppo_medical,17,0,0,17,0,Surgery
+Autism Spectrum Disorders,exact,"1,3",16,14,ppo_medical,14,0,2,16,0,
+Dental Services,exact,"1,3",16,16,"dental,ppo_medical",14,0,2,16,0,
+Colonoscopy,exact,"2,3",16,14,ppo_medical,14,0,2,16,0,Preventive Care Services
+Laboratory examinations,exact,"2,3",16,16,"dental,ppo_medical",14,0,2,16,0,Class I – Diagnostic and Preventive Services | Skilled Nursing Facility Services
+Ambulatory Surgery Facility,exact,"2,3",16,14,ppo_medical,3,0,13,16,0,Surgery
+Copayment,exact,3,15,15,"dental,ppo_medical,vision",0,0,15,15,0,
+Behavioral health services,exact,"2,3",15,14,ppo_medical,14,0,1,15,0,Autism Spectrum Disorders | Gender Affirming Services
+Infusion of bone marrow and/or peripheral blood stem cells,exact,2,15,12,ppo_medical,15,0,0,15,0,Oncology Clinical Trials | Transplant Services
+Specialty Pharmaceuticals,exact,"2,3",15,13,ppo_medical,3,0,12,15,0,Prescription Drugs
+Contraceptive Drugs,exact,"2,3",15,9,ppo_medical,6,0,9,15,0,Preventive Care Services
+Allergy Testing,exact,2,14,14,ppo_medical,14,0,0,14,0,Allergy Testing and Therapy
+Allergy Therapy,exact,2,14,14,ppo_medical,14,0,0,14,0,Allergy Testing and Therapy
+Fungal or bacterial skin tests (such as those given for tuberculosis or diphtheria),exact,2,14,14,ppo_medical,0,14,0,0,14,Allergy Testing and Therapy
+"Self-administered, over-the-counter drugs",exact,2,14,14,ppo_medical,0,14,0,14,0,Allergy Testing and Therapy
+"Psychological testing, evaluation, or therapy for allergies",exact,2,14,14,ppo_medical,0,14,0,14,0,Allergy Testing and Therapy
+"Environmental studies, evaluation, or control",exact,2,14,14,ppo_medical,0,14,0,14,0,Allergy Testing and Therapy
+A member to be taken to the nearest approved destination capable of providing the level of care necessary to treat the member’s condition,exact,2,14,14,ppo_medical,14,0,0,0,14,Ambulance Services
+The ambulance arrives at the scene but transport is not needed or is refused.,exact,2,14,14,ppo_medical,14,0,0,0,14,Ambulance Services
+The ambulance arrives at the scene but the member has expired.,exact,2,14,14,ppo_medical,14,0,0,14,0,Ambulance Services
+Non-emergent air ambulance services between covered destinations,exact,2,14,14,ppo_medical,14,0,0,14,0,Ambulance Services
+"The transfer must be preapproved and prescribed by the attending physician, and",exact,2,14,14,ppo_medical,14,0,0,0,14,Ambulance Services
+The member will be taken to the nearest approved location capable of providing the level of care necessary to treat the member’s condition,exact,2,14,14,ppo_medical,14,0,0,0,14,Ambulance Services
+No other means of transportation are available,exact,2,14,14,ppo_medical,14,0,0,14,0,Ambulance Services
+The member ’s condition requires transportation by air ambulance rather than ground ambulance,exact,2,14,14,ppo_medical,14,0,0,0,14,Ambulance Services
+The provider is not a commercial airline,exact,2,14,14,ppo_medical,14,0,0,14,0,Ambulance Services
+The member is taken to the nearest facility capable of treating the member 's condition.,exact,2,14,14,ppo_medical,14,0,0,0,14,Ambulance Services
+"Services provided by fire departments, rescue squads or other emergency transport providers whose fees are in the form of donations.",exact,2,14,14,ppo_medical,0,14,0,0,14,Ambulance Services
+Air ambulance services when the member’s condition does not require air ambulance transport.,exact,2,14,14,ppo_medical,0,14,0,0,14,Ambulance Services
+Air ambulance services when a hospital or air ambulance provider is required to pay for the transport under the law.,exact,2,14,14,ppo_medical,0,14,0,0,14,Ambulance Services
+Anesthesiology Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Anesthesiology during surgery,exact,2,14,14,ppo_medical,14,0,0,14,0,Anesthesiology Services
+Directly supervised by the physician performing the surgery or procedure or,exact,2,14,14,ppo_medical,14,0,0,14,0,Anesthesiology Services
+Under the indirect supervision of the physician responsible for anesthesiology services,exact,2,14,14,ppo_medical,14,0,0,14,0,Anesthesiology Services
+Anesthesia during infusion therapy,exact,2,14,14,ppo_medical,14,0,0,14,0,Anesthesiology Services
+Other Services,exact,2,14,14,ppo_medical,14,0,0,14,0,Anesthesiology Services
+Audiologist Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+"Services performed by an audiologist, if they are prescribed by a provider who is legally authorized to prescribe the services.",exact,2,14,14,ppo_medical,14,0,0,0,14,Audiologist Services
+Diagnostic services provided by a qualified provider.,exact,2,14,14,ppo_medical,14,0,0,14,0,Autism Spectrum Disorders
+Treatment prescribed by a physician or licensed psychologist:,exact,2,14,14,ppo_medical,14,0,0,14,0,Autism Spectrum Disorders
+Behavioral Health Services (Mental Health and Substance Use Disorder),exact,1,14,14,ppo_medical,14,0,0,14,0,
+Electroconvulsive Therapy (ECT),exact,2,14,14,ppo_medical,14,0,0,14,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Transcranial Magnetic Stimulation (TMS),exact,2,14,14,ppo_medical,14,0,0,14,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Inpatient Hospital Mental Health Services,exact,2,14,14,ppo_medical,14,0,0,14,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Psychiatric Partial Hospitalization Program (PHP),exact,2,14,14,ppo_medical,0,14,0,14,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"Outpatient Psychiatric Care Facility, Office Setting, Online and Virtual",fuzzy,2,14,14,ppo_medical,0,14,0,14,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"Services provided by a qualified provider, including but not limited to a physician, fully licensed psychologist, certified nurse practitioner, clinical nurse specialist-certified, clinical licensed master’s social worker, licensed professional counselor, limited licensed psychologists, or licensed marriage and family therapist, or other professional provider as determined by BCBSM in a participating outpatient psychiatric care facility or an office setting:",exact,2,14,14,ppo_medical,0,14,0,0,14,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Inpatient Hospital,exact,2,14,14,ppo_medical,14,0,0,14,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Residential and Outpatient Substance Abuse Treatment Facility,exact,2,14,14,ppo_medical,14,0,0,14,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Substance Use Disorder Partial Hospitalization Program (PHP),exact,2,14,14,ppo_medical,0,14,0,14,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Outpatient Psychiatric Care Facility and Office Setting,exact,2,14,14,ppo_medical,0,14,0,14,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"Services that began during a hospital admission for an invasive cardiovascular procedure (e.g., heart surgery) or an acute cardiovascular event (e.g., heart attack)",exact,2,14,14,ppo_medical,14,0,0,0,14,Cardiac Rehabilitation
+Ordered by a physician for the treatment of a specific type of malignant disease,exact,2,14,14,ppo_medical,14,0,0,0,14,Chemotherapy
+Provided as part of a chemotherapy program and,exact,2,14,14,ppo_medical,14,0,0,14,0,Chemotherapy
+Approved by the Food and Drug Administration (FDA) for use in chemotherapy treatment,exact,2,14,14,ppo_medical,14,0,0,0,14,Chemotherapy
+Current medical literature must confirm that the drug is effective for the disease being treated,exact,2,14,14,ppo_medical,14,0,0,0,14,Chemotherapy
+Recognized oncology organizations must generally accept the drug as treatment for the specific disease,exact,2,14,14,ppo_medical,14,0,0,0,14,Chemotherapy
+The physician must obtain informed consent from the member for the treatment.,exact,2,14,14,ppo_medical,14,0,0,0,14,Chemotherapy
+Chiropractic Services and Osteopathic Manipulative Therapy,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Osteopathic manipulation therapy (OMT) on any location of the body,exact,2,14,14,ppo_medical,14,0,0,14,0,Chiropractic Services and Osteopathic Manipulative Therapy
+Chiropractic spinal manipulation (CSM) to treat misaligned or displaced vertebrae of the spine and chiropractic manipulations (CM) to treat other areas of the body allowed by BCBSM,exact,2,14,14,ppo_medical,14,0,0,0,14,Chiropractic Services and Osteopathic Manipulative Therapy
+Chiropractic office visits:,exact,2,14,14,ppo_medical,14,0,0,14,0,Chiropractic Services and Osteopathic Manipulative Therapy
+"Physical medicine that is part of a treatment plan prepared by your chiropractor. The plan must be signed by your M.D. or D.O. before you receive physical medicine services for those services to be covered. If a treatment plan is not signed by your M.D. or D.O. before services are rendered, the services will not be covered and you may have to pay for them.",exact,2,14,14,ppo_medical,14,0,0,0,14,Chiropractic Services and Osteopathic Manipulative Therapy
+"Mechanical traction once per day when it is given with CSM or CM. These visits are applied toward your combined 30-visit limit for rehabilitative physical medicine, physical and occupational therapy services.",exact,2,14,14,ppo_medical,14,0,0,0,14,Chiropractic Services and Osteopathic Manipulative Therapy
+X-rays when medically necessary.,exact,2,14,14,ppo_medical,14,0,0,0,14,Chiropractic Services and Osteopathic Manipulative Therapy
+Chronic disease management services provided by:,exact,2,14,14,ppo_medical,14,0,0,14,0,Chronic Disease Management
+Clinical Trials (Routine Patient Costs),exact,1,14,14,ppo_medical,14,0,0,14,0,
+All routine services covered under this certificate and related riders that would be covered even if the member were not enrolled in an approved clinical trial,exact,2,14,14,ppo_medical,14,0,0,0,14,Clinical Trials (Routine Patient Costs)
+"The experimental or investigational item, device or service",exact,2,14,14,ppo_medical,0,14,0,14,0,Clinical Trials (Routine Patient Costs)
+Use of transition technologies as a routine service in an approved clinical trial such as cellular or gene therapies that have not been FDA approved for those indications,exact,2,14,14,ppo_medical,0,14,0,0,14,Clinical Trials (Routine Patient Costs)
+Routine patient costs for Phase I clinical trials whose primary purpose is not for therapeutic intent,exact,2,14,14,ppo_medical,0,14,0,0,14,Clinical Trials (Routine Patient Costs)
+"Items and services provided solely to satisfy data collection and analysis needs and that are not used in the direct clinical management of the trial participant, or",exact,2,14,14,ppo_medical,0,14,0,0,14,Clinical Trials (Routine Patient Costs)
+A service that is clearly inconsistent with widely accepted and established standards of care for a particular diagnosis.,exact,2,14,14,ppo_medical,0,14,0,0,14,Clinical Trials (Routine Patient Costs)
+Collaborative Care Management,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Telephone or face-to-face contact and group interventions,exact,2,14,14,ppo_medical,14,0,0,14,0,Collaborative Care Management
+Services performed by providers who are not designated as CoCare providers,exact,2,14,14,ppo_medical,0,14,0,14,0,Collaborative Care Management
+Emergency Dental Care,exact,2,14,14,ppo_medical,14,0,0,14,0,Dental Services
+Dental Services in a Participating Hospital,exact,2,14,14,ppo_medical,14,0,0,14,0,Dental Services
+We will pay for dental treatment for a member in a participating hospital if the treatment helps improve the medical condition that put the member in the hospital. The dental condition must be hindering improvement of the medical condition.,exact,2,14,14,ppo_medical,14,0,0,0,14,Dental Services
+We may pay for facility and anesthesia services for a member in a participating hospital if dental treatment would be unsafe in an office setting.,exact,2,14,14,ppo_medical,14,0,0,0,14,Dental Services
+Multiple extractions or removal of unerupted teeth,exact,2,14,14,ppo_medical,14,0,0,14,0,Dental Services
+Other Dental Services,exact,2,14,14,ppo_medical,14,0,0,14,0,Dental Services
+Surgery directly to the temporomandibular joint (jaw joint) and related anesthesia services,exact,2,14,14,ppo_medical,14,0,0,14,0,Dental Services
+Arthrocentesis performed for the treatment of temporomandibular joint (jaw joint) dysfunction),exact,2,14,14,ppo_medical,14,0,0,14,0,Dental Services
+Reversible appliance therapy (mandibular orthotic repositioning device such as a bite splint),exact,2,14,14,ppo_medical,14,0,0,14,0,Dental Services
+Routine dental services,exact,2,14,14,ppo_medical,0,14,0,14,0,Dental Services
+Treatment that was previously paid as a result of an accident,exact,2,14,14,ppo_medical,0,14,0,14,0,Dental Services
+Services covered under any other health plan,exact,2,14,14,ppo_medical,0,14,0,14,0,Dental Services
+"Dental implants and related services, including repair and maintenance of implants and surrounding tissue",exact,2,14,14,ppo_medical,0,14,0,0,14,Dental Services
+Dental conditions existing before an accident requiring emergency dental treatment,exact,2,14,14,ppo_medical,0,14,0,14,0,Dental Services
+Services to treat temporomandibular joint dysfunction (except as described above),exact,2,14,14,ppo_medical,0,14,0,14,0,Dental Services
+Physician services are payable for tests such as:,exact,2,14,14,ppo_medical,14,0,0,14,0,Diagnostic Services
+Physician and independent physical therapist services are payable for the following tests:,exact,2,14,14,ppo_medical,14,0,0,14,0,Diagnostic Services
+In a participating hospital (under the direction of a pathologist employed by the hospital) or,exact,2,14,14,ppo_medical,14,0,0,0,14,Diagnostic Services
+"In an office for standard office laboratory tests approved by BCBSM and in connection with medical care. (We do not pay for nonstandard tests performed in a physician’s office). Tests must be provided by the member ’s attending physician or by another physician, if prescribed by the attending physician, or",exact,2,14,14,ppo_medical,14,0,0,0,14,Diagnostic Services
+By a laboratory when prescribed by a physician,exact,2,14,14,ppo_medical,14,0,0,0,14,Diagnostic Services
+"By a participating substance abuse facility in connection with treatment of substance use disorder, or",exact,2,14,14,ppo_medical,14,0,0,0,14,Diagnostic Services
+"By your physician, or",exact,2,14,14,ppo_medical,14,0,0,14,0,Diagnostic Services
+"By another physician, if your in-network physician refers you to one, or",exact,2,14,14,ppo_medical,14,0,0,0,14,Diagnostic Services
+Dialysis Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Acute renal (kidney) failure,exact,2,14,14,ppo_medical,14,0,0,14,0,Dialysis Services
+"Chronic, irreversible kidney failure (End Stage Renal Disease (ESRD))",exact,2,14,14,ppo_medical,14,0,0,14,0,Dialysis Services
+Ultrafiltration,exact,2,14,14,ppo_medical,14,0,0,14,0,Dialysis Services
+Equipment,exact,2,14,14,ppo_medical,14,0,0,14,0,Dialysis Services
+Solutions,exact,2,14,14,ppo_medical,14,0,0,14,0,Dialysis Services
+Routine laboratory tests,exact,2,14,14,ppo_medical,14,0,0,14,0,Dialysis Services
+Drugs,exact,2,14,14,ppo_medical,14,0,0,14,0,Dialysis Services
+Supplies,exact,2,14,14,ppo_medical,14,0,0,14,0,Dialysis Services
+Other medically necessary services related to dialysis treatment,exact,2,14,14,ppo_medical,14,0,0,14,0,Dialysis Services
+Services provided by a nonparticipating end stage renal disease facility,exact,2,14,14,ppo_medical,0,14,0,14,0,Dialysis Services
+Services not provided by the employees of the ESRD facility,exact,2,14,14,ppo_medical,0,14,0,14,0,Dialysis Services
+Services not related to the dialysis process,exact,2,14,14,ppo_medical,0,14,0,14,0,Dialysis Services
+Home hemodialysis,exact,2,14,14,ppo_medical,14,0,0,14,0,Dialysis Services
+Placement and maintenance of a dialysis machine in the member’s home,fuzzy,2,14,14,ppo_medical,14,0,0,14,0,Dialysis Services
+Expenses to train the member and one other person who will assist the member in the home in operating the equipment,exact,2,14,14,ppo_medical,14,0,0,0,14,Dialysis Services
+Laboratory tests related to the dialysis,exact,2,14,14,ppo_medical,14,0,0,14,0,Dialysis Services
+"Supplies required during the dialysis, such as dialysis membrane, solution, tubing and drugs",exact,2,14,14,ppo_medical,14,0,0,0,14,Dialysis Services
+Removal of the equipment after it is no longer needed,exact,2,14,14,ppo_medical,14,0,0,14,0,Dialysis Services
+"Services provided by persons under contract with the hospital, agencies or organizations assisting in the dialysis or acting as ""backup"" including hospital personnel sent to the member's home",exact,2,14,14,ppo_medical,0,14,0,0,14,Dialysis Services
+Electricity or water used to operate the dialyzer,exact,2,14,14,ppo_medical,0,14,0,14,0,Dialysis Services
+"Installation of electric power, a water supply or a sanitary waste disposal system",exact,2,14,14,ppo_medical,0,14,0,0,14,Dialysis Services
+Physician services not paid by the hospital,exact,2,14,14,ppo_medical,0,14,0,14,0,Dialysis Services
+The use of durable medical equipment while you are in the hospital.,exact,2,14,14,ppo_medical,14,0,0,14,0,Durable Medical Equipment
+"The rental or purchase of durable medical equipment, if prescribed by a physician or other provider licensed to prescribe it. You may obtain it from:",exact,2,14,14,ppo_medical,14,0,0,0,14,Durable Medical Equipment
+"Exercise and hygienic equipment, such as exercycles, Moore Wheel, bidet toilet seats and bathtub seats",exact,2,14,14,ppo_medical,0,14,0,0,14,Durable Medical Equipment
+"Deluxe equipment, such as motorized wheelchairs and beds, unless medically necessary and required so that members can operate the equipment themselves",exact,2,14,14,ppo_medical,0,14,0,0,14,Durable Medical Equipment
+"Comfort and convenience items, such as bed boards, bathtub lifts, overbed tables, adjust-a-beds, telephone arms or air conditioners",exact,2,14,14,ppo_medical,0,14,0,0,14,Durable Medical Equipment
+"Provider’s equipment, such as stethoscopes",exact,2,14,14,ppo_medical,0,14,0,14,0,Durable Medical Equipment
+"Self-help devices not primarily medical in nature, such as sauna baths and elevators",exact,2,14,14,ppo_medical,0,14,0,0,14,Durable Medical Equipment
+Experimental equipment,exact,2,14,14,ppo_medical,0,14,0,14,0,Durable Medical Equipment
+Emergency Treatment,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Facility and professional services to examine and treat a medical emergency or accidental injury.,exact,2,14,14,ppo_medical,14,0,0,0,14,Emergency Treatment
+Enhanced Condition Management Program (ECMP),exact,1,14,14,ppo_medical,14,0,0,14,0,
+Diabetes Prevention Program,exact,2,14,14,ppo_medical,14,0,0,14,0,Enhanced Condition Management Program (ECMP)
+"Select services, equipment, and tools to reduce the risk of a Type 2 diabetes diagnosis",exact,2,14,14,ppo_medical,14,0,0,0,14,Enhanced Condition Management Program (ECMP)
+Enhanced Diabetes Management Program,exact,2,14,14,ppo_medical,14,0,0,14,0,Enhanced Condition Management Program (ECMP)
+"Select services, equipment, tools to manage Type 2 diabetes",exact,2,14,14,ppo_medical,14,0,0,14,0,Enhanced Condition Management Program (ECMP)
+Cardiovascular Management Program,exact,2,14,14,ppo_medical,14,0,0,14,0,Enhanced Condition Management Program (ECMP)
+"Select services, equipment, and tools to manage hypertension",exact,2,14,14,ppo_medical,14,0,0,14,0,Enhanced Condition Management Program (ECMP)
+Fertility Preservation,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Collection of mature eggs and sperm,exact,2,14,14,ppo_medical,14,0,0,14,0,Fertility Preservation
+"Cryopreservation of embryos, mature eggs and sperm",exact,2,14,14,ppo_medical,14,0,0,14,0,Fertility Preservation
+"Storage of embryos, mature eggs and sperm for up to one year",exact,2,14,14,ppo_medical,14,0,0,14,0,Fertility Preservation
+"Thawing of embryos, mature eggs and sperm within one year of procurement",exact,2,14,14,ppo_medical,14,0,0,14,0,Fertility Preservation
+Culture of eggs,exact,2,14,14,ppo_medical,14,0,0,14,0,Fertility Preservation
+Ovarian transposition,exact,2,14,14,ppo_medical,14,0,0,14,0,Fertility Preservation
+Embryo transfer to member within one year from cryopreservation,exact,2,14,14,ppo_medical,14,0,0,14,0,Fertility Preservation
+"Storage of sperm, eggs or embryos for longer than one year",exact,2,14,14,ppo_medical,0,14,0,14,0,Fertility Preservation
+Co-culture of embryo(s),exact,2,14,14,ppo_medical,0,14,0,14,0,Fertility Preservation
+Post-menopausal members,exact,2,14,14,ppo_medical,0,14,0,14,0,Fertility Preservation
+"Members who have undergone elective sterilization (vasectomy, tubal sterilization), with or without reversal",exact,2,14,14,ppo_medical,0,14,0,0,14,Fertility Preservation
+Gender Affirming Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Gender affirming surgery and related services,exact,2,14,14,ppo_medical,14,0,0,14,0,Gender Affirming Services
+Prescription drugs including hormone therapy (see Prescription Drugs),exact,2,14,14,ppo_medical,14,0,0,14,0,Gender Affirming Services
+"Gender affirming services that are not medically necessary, considered to be cosmetic, experimental, or investigational by BCBSM.",exact,2,14,14,ppo_medical,0,14,0,0,14,Gender Affirming Services
+Home Health Care Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Skilled nursing care provided or supervised by a registered nurse employed by the home health care agency,exact,2,14,14,ppo_medical,14,0,0,0,14,Home Health Care Services
+"Social services by a licensed social worker, if requested by the member's attending physician",exact,2,14,14,ppo_medical,14,0,0,0,14,Home Health Care Services
+The following when provided for rehabilitation:,exact,2,14,14,ppo_medical,14,0,0,0,14,Home Health Care Services
+"Part-time health aide services, including preparing meals, laundering, bathing and feeding if :",exact,2,14,14,ppo_medical,14,0,0,0,14,Home Health Care Services
+"Lab services, prescription drugs, biologicals and solutions related to the condition for which the member is participating in the program",exact,2,14,14,ppo_medical,14,0,0,0,14,Home Health Care Services
+"Medical and surgical supplies such as catheters, colostomy supplies, hypodermic needles and oxygen needed to effectively administer the medical treatment plan ordered by the physician",exact,2,14,14,ppo_medical,14,0,0,0,14,Home Health Care Services
+General housekeeping services,exact,2,14,14,ppo_medical,0,14,0,14,0,Home Health Care Services
+Transportation to and from a hospital or other facility,exact,2,14,14,ppo_medical,0,14,0,14,0,Home Health Care Services
+Private duty nursing,exact,2,14,14,ppo_medical,0,14,0,14,0,Home Health Care Services
+"Elastic stockings, sheepskin or comfort items (lotion, mouthwash, body powder, etc.)",exact,2,14,14,ppo_medical,0,14,0,14,0,Home Health Care Services
+Durable medical equipment (when billed by the home health care agency unless the agency is an approved DME provider),exact,2,14,14,ppo_medical,0,14,0,0,14,Home Health Care Services
+Physician services (when billed by the home health care agency),exact,2,14,14,ppo_medical,0,14,0,14,0,Home Health Care Services
+Custodial or nonskilled care,exact,2,14,14,ppo_medical,0,14,0,14,0,Home Health Care Services
+Services performed by a nonparticipating home health care provider,exact,2,14,14,ppo_medical,0,14,0,14,0,Home Health Care Services
+Hospice Care Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Up to eight hours of routine home care per day,exact,2,14,14,ppo_medical,14,0,0,14,0,Hospice Care Services
+Continuous home care for up to 24 hours per day during periods of crisis,exact,2,14,14,ppo_medical,14,0,0,0,14,Hospice Care Services
+Home health aide services provided by qualified aides. These services must be rendered under the general supervision of a registered nurse.,exact,2,14,14,ppo_medical,14,0,0,0,14,Hospice Care Services
+Inpatient care provided by:,exact,2,14,14,ppo_medical,14,0,0,14,0,Hospice Care Services
+Five days of occasional respite care during a 30-day period,exact,2,14,14,ppo_medical,14,0,0,14,0,Hospice Care Services
+Physician services by a member of the hospice interdisciplinary team,exact,2,14,14,ppo_medical,14,0,0,14,0,Hospice Care Services
+"Nursing care provided by, or under the supervision of, a registered nurse",exact,2,14,14,ppo_medical,14,0,0,14,0,Hospice Care Services
+"Medical social services by a licensed social worker, provided under the direction of a physician",exact,2,14,14,ppo_medical,14,0,0,0,14,Hospice Care Services
+"Counseling services to the member and to caregivers, when care is provided at home",exact,2,14,14,ppo_medical,14,0,0,0,14,Hospice Care Services
+BCBSM-approved medical appliances and supplies (these include drugs and biologicals to provide comfort to the member),exact,2,14,14,ppo_medical,14,0,0,0,14,Hospice Care Services
+BCBSM-approved durable medical equipment furnished by the hospice program for use in a member’s home,exact,2,14,14,ppo_medical,14,0,0,0,14,Hospice Care Services
+Bereavement counseling for the family after the member’s death,fuzzy,2,14,14,ppo_medical,14,0,0,14,0,Hospice Care Services
+Provided by the attending physician to make the member comfortable and to manage the terminal illness and related conditions,exact,2,14,14,ppo_medical,14,0,0,0,14,Hospice Care Services
+"Of a hospice program other than the one designated by the member. (If the designated program arranges for the member to receive the services of another hospice program, the services are covered.)",exact,2,14,14,ppo_medical,0,14,0,0,14,Hospice Care Services
+That are not part of the plan of care established by the hospice program for the member.,exact,2,14,14,ppo_medical,0,14,0,0,14,Hospice Care Services
+Hospital Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Inpatient Hospital Services:,exact,2,14,14,ppo_medical,14,0,0,14,0,Hospital Services
+Outpatient Hospital Services:,exact,2,14,14,ppo_medical,14,0,0,14,0,Hospital Services
+Temporary Benefits for Hospital Services:,exact,2,14,14,ppo_medical,14,0,0,14,0,Hospital Services
+Infertility Treatment,exact,1,14,14,ppo_medical,14,0,0,14,0,
+A participating freestanding ambulatory surgery facility,exact,2,14,14,ppo_medical,14,0,0,14,0,Infertility Treatment
+Medically necessary diagnostic services,exact,2,14,14,ppo_medical,14,0,0,14,0,Infertility Treatment
+Counseling services,exact,2,14,14,ppo_medical,14,0,0,14,0,Infertility Treatment
+Planning services,exact,2,14,14,ppo_medical,14,0,0,14,0,Infertility Treatment
+Artificial insemination,exact,2,14,14,ppo_medical,0,14,0,14,0,Infertility Treatment
+Sperm washing,exact,2,14,14,ppo_medical,0,14,0,14,0,Infertility Treatment
+Post-coital test,exact,2,14,14,ppo_medical,0,14,0,14,0,Infertility Treatment
+Monitoring of ovarian response to ovulatory stimulants,exact,2,14,14,ppo_medical,0,14,0,14,0,Infertility Treatment
+In vitro fertilization,exact,2,14,14,ppo_medical,0,14,0,14,0,Infertility Treatment
+Ovarian wedge resection or ovarian drilling,exact,2,14,14,ppo_medical,0,14,0,14,0,Infertility Treatment
+Reconstructive surgery of one or both fallopian tubes to open the blockage that causes infertility,exact,2,14,14,ppo_medical,0,14,0,0,14,Infertility Treatment
+Diagnostic studies done for the sole purpose of infertility assessment,exact,2,14,14,ppo_medical,0,14,0,14,0,Infertility Treatment
+Any procedure done to enhance reproductive capacity or fertility,exact,2,14,14,ppo_medical,0,14,0,14,0,Infertility Treatment
+Infusion Therapy,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Nursing services needed to administer infusion therapy and treat infusion therapy-related wound care,exact,2,14,14,ppo_medical,14,0,0,0,14,Infusion Therapy
+"Durable medical equipment, medical supplies and solutions needed for infusion therapy",exact,2,14,14,ppo_medical,14,0,0,14,0,Infusion Therapy
+Long-Term Acute Care Hospital Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+"Services in a nonparticipating LTACH, including emergency services, unless BCBSM determines there are extenuating circumstances",exact,2,14,14,ppo_medical,0,14,0,0,14,Long-Term Acute Care Hospital Services
+Inpatient admissions that BCBSM has not preapproved,exact,2,14,14,ppo_medical,0,14,0,14,0,Long-Term Acute Care Hospital Services
+LTACH services if the member ’s primary diagnosis is a mental health or substance use disorder condition,exact,2,14,14,ppo_medical,0,14,0,0,14,Long-Term Acute Care Hospital Services
+Maternity Care,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Obstetrics,exact,2,14,14,ppo_medical,14,0,0,14,0,Maternity Care
+"Lamaze, parenting or other similar classes.",exact,2,14,14,ppo_medical,0,14,0,14,0,Maternity Care
+Services provided to the newborn if one of the following apply:,exact,2,14,14,ppo_medical,0,14,0,0,14,Maternity Care
+Medical Supplies,exact,1,14,14,ppo_medical,14,0,0,14,0,
+"Gauze, cotton, fabrics, plaster and other materials used in dressings and casts",exact,2,14,14,ppo_medical,14,0,0,14,0,Medical Supplies
+Catheterization equipment and urinary sets,exact,2,14,14,ppo_medical,14,0,0,14,0,Medical Supplies
+Newborn Care,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Newborn examination,exact,2,14,14,ppo_medical,14,0,0,14,0,Newborn Care
+Routine care,exact,2,14,14,ppo_medical,14,0,0,14,0,Newborn Care
+Parenting or other similar classes,exact,2,14,14,ppo_medical,0,14,0,14,0,Newborn Care
+Therapy billed as a habilitative service when it does not meet the definition of habilitative in this certificate,exact,2,14,14,ppo_medical,0,14,0,0,14,Occupational Therapy
+Therapy that is performed without an occupational therapy treatment plan,exact,2,14,14,ppo_medical,0,14,0,14,0,Occupational Therapy
+"Treatment solely to improve cognition (e.g., memory or perception), concentration and/or attentiveness, organizational or problem-solving skills, academic skills, impulse control or other behaviors for which behavior modification is sought without an occupational therapy treatment plan that guides and helps to monitor the provided therapy",exact,2,14,14,ppo_medical,0,14,0,0,14,Occupational Therapy
+"Office, Outpatient and Home Medical Care Visits",exact,1,14,14,ppo_medical,14,0,0,14,0,
+The diagnosis of a condition,exact,2,14,14,ppo_medical,14,0,0,14,0,"Office, Outpatient and Home Medical Care Visits"
+Treatment and consultation recommendations,exact,2,14,14,ppo_medical,14,0,0,14,0,"Office, Outpatient and Home Medical Care Visits"
+Harvesting (including peripheral blood stem cell pheresis) and storage of bone marrow and/or peripheral blood stem cells,exact,2,14,12,ppo_medical,14,0,0,0,14,Oncology Clinical Trials | Transplant Services
+Bone marrow,exact,2,14,14,ppo_medical,14,0,0,14,0,Oncology Clinical Trials
+Peripheral blood stem cell (including peripheral blood stem cell pheresis),exact,2,14,14,ppo_medical,14,0,0,14,0,Oncology Clinical Trials
+Umbilical cord blood,exact,2,14,14,ppo_medical,14,0,0,14,0,Oncology Clinical Trials
+Travel and Lodging,exact,2,14,14,ppo_medical,14,0,0,14,0,Oncology Clinical Trials
+An admission to a designated center or a length of stay at a designated center that has not been preapproved,exact,2,14,14,ppo_medical,0,14,0,0,14,Oncology Clinical Trials
+Services that have not been preapproved,exact,2,14,14,ppo_medical,0,14,0,14,0,Oncology Clinical Trials
+Services that are not medically necessary (see Section 7 for the definition of “medically necessary”),exact,2,14,14,ppo_medical,0,14,0,0,14,Oncology Clinical Trials
+Services provided by persons or entities that are not legally qualified or licensed to provide such services,exact,2,14,14,ppo_medical,0,14,0,0,14,Oncology Clinical Trials
+Donor services for a transplant recipient who is not a BCBSM member,exact,2,14,14,ppo_medical,0,14,0,14,0,Oncology Clinical Trials
+Services rendered to a donor when the donor’s health care coverage will pay for such services,exact,2,14,14,ppo_medical,0,14,0,0,14,Oncology Clinical Trials
+"The routine harvesting and storage costs of bone marrow, peripheral blood stem cells or a newborn’s umbilical cord blood if not intended for transplant within one year",exact,2,14,14,ppo_medical,0,14,0,0,14,Oncology Clinical Trials
+More than two single transplants per member for the same condition,exact,2,14,14,ppo_medical,0,14,0,14,0,Oncology Clinical Trials
+Non-health care related services and/or research management (such as administrative costs),exact,2,14,14,ppo_medical,0,14,0,14,0,Oncology Clinical Trials
+Search of an international donor registry,exact,2,14,14,ppo_medical,0,14,0,14,0,Oncology Clinical Trials
+Experimental treatment not included in this certificate,exact,2,14,14,ppo_medical,0,14,0,14,0,Oncology Clinical Trials
+"Items or services that are normally covered by other funding sources (e.g., investigational drugs funded by a drug company)",exact,2,14,14,ppo_medical,0,14,0,0,14,Oncology Clinical Trials
+"Any other services, admissions or length of stay related to any of the above exclusions",exact,2,14,14,ppo_medical,0,14,0,0,14,Oncology Clinical Trials
+Optometrist Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Covered services are provided within the state of Michigan.,exact,2,14,14,ppo_medical,14,0,0,14,0,Optometrist Services
+The optometrist is:,exact,2,14,14,ppo_medical,14,0,0,14,0,Optometrist Services
+Routine eye exams or services,exact,2,14,14,ppo_medical,0,14,0,14,0,Optometrist Services
+Outpatient Diabetes Management Program (ODMP),fuzzy,1,14,14,ppo_medical,14,0,0,14,0,
+"Diabetes self-management training conducted in a group setting, whenever practicable, if:",exact,2,14,14,ppo_medical,14,0,0,0,14,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Pain Management,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Services and devices for pain management provided by a nonparticipating hospital or facility.,exact,2,14,14,ppo_medical,0,14,0,0,14,Pain Management
+"Tests to measure physical capacities such as strength, dexterity, coordination or stamina, unless part of a complete physical therapy treatment program",exact,2,14,14,ppo_medical,0,14,0,0,14,Physical Therapy
+"Treatment solely to improve cognition (e.g., memory or perception), concentration and/or attentiveness, organizational or problem-solving skills, academic skills, impulse control or other behaviors for which behavior modification is sought without a physical therapy treatment plan that guides and helps to monitor the provided therapy",exact,2,14,14,ppo_medical,0,14,0,0,14,Physical Therapy
+Sports medicine for purposes such as prevention of injuries or for conditioning,exact,2,14,14,ppo_medical,0,14,0,14,0,Physical Therapy
+Prescription Drugs,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Glucometers,exact,2,14,14,ppo_medical,14,0,0,14,0,Prescription Drugs
+Continuous glucose monitors,exact,2,14,14,ppo_medical,14,0,0,14,0,Prescription Drugs
+Insulin delivery monitors,exact,2,14,14,ppo_medical,14,0,0,14,0,Prescription Drugs
+Test strips for glucometer,exact,2,14,14,ppo_medical,14,0,0,14,0,Prescription Drugs
+Test strips and lancets,exact,2,14,14,ppo_medical,14,0,0,14,0,Prescription Drugs
+Continuous glucose monitor sensors,exact,2,14,14,ppo_medical,14,0,0,14,0,Prescription Drugs
+Insulin delivery reservoirs,exact,2,14,14,ppo_medical,14,0,0,14,0,Prescription Drugs
+Any prescribed drugs that are medically necessary for the treatment of gender dysphoria and gender affirming services.,exact,2,14,14,ppo_medical,14,0,0,0,14,Prescription Drugs
+Prescription drugs that we consider to be cosmetic,exact,2,14,14,ppo_medical,0,14,0,14,0,Prescription Drugs
+Prescription drugs that are experimental or investigational.,exact,2,14,14,ppo_medical,0,14,0,14,0,Prescription Drugs
+Drugs Received in a Hospital,exact,2,14,14,ppo_medical,14,0,0,14,0,Prescription Drugs
+Drugs Received in Other Locations,exact,2,14,14,ppo_medical,14,0,0,14,0,Prescription Drugs
+Drugs Administered by a Physician,exact,2,14,14,ppo_medical,14,0,0,14,0,Prescription Drugs
+FDA approved,exact,2,14,14,ppo_medical,14,0,0,14,0,Prescription Drugs
+Ordered or furnished by a physician,exact,2,14,14,ppo_medical,14,0,0,14,0,Prescription Drugs
+Administered and billed by a physician,exact,2,14,14,ppo_medical,14,0,0,14,0,Prescription Drugs
+Preventive Care Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+A participating independent laboratory,exact,2,14,14,ppo_medical,14,0,0,14,0,Preventive Care Services
+Health Maintenance Examination,exact,2,14,14,ppo_medical,14,0,0,14,0,Preventive Care Services
+Related reading and interpretation of your test results,exact,2,14,14,ppo_medical,14,0,0,14,0,Preventive Care Services
+Routine Gynecological Examination,exact,2,14,14,ppo_medical,14,0,0,14,0,Preventive Care Services
+Morbid Obesity Weight Management,exact,2,14,14,ppo_medical,14,0,0,14,0,Preventive Care Services
+Tobacco Cessation Programs,exact,2,14,14,ppo_medical,14,0,0,14,0,Preventive Care Services
+Screening and preventive care services that are:,exact,2,14,14,ppo_medical,0,14,0,14,0,Contraceptive Services | Preventive Care Services
+Professional Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Therapeutic injections,exact,2,14,14,ppo_medical,0,14,0,14,0,Professional Services
+Prosthetic and Orthotic Devices,exact,1,14,14,ppo_medical,14,0,0,14,0,
+The cost of purchasing or replacing the device,exact,2,14,14,ppo_medical,14,0,0,14,0,Prosthetic and Orthotic Devices
+The cost of developing and fitting the basic device,exact,2,14,14,ppo_medical,14,0,0,14,0,Prosthetic and Orthotic Devices
+Any medically necessary special features,exact,2,14,14,ppo_medical,14,0,0,14,0,Prosthetic and Orthotic Devices
+"Repairs, limited to the cost of a new device",exact,2,14,14,ppo_medical,14,0,0,14,0,Prosthetic and Orthotic Devices
+"Hair prostheses such as wigs, hair pieces, hair implants, etc.",exact,2,14,14,ppo_medical,0,14,0,14,0,Prosthetic and Orthotic Devices
+Spare prosthesis devices,exact,2,14,14,ppo_medical,0,14,0,14,0,Prosthetic and Orthotic Devices
+Routine maintenance of a prosthetic device,exact,2,14,14,ppo_medical,0,14,0,14,0,Prosthetic and Orthotic Devices
+Experimental prosthetic devices,exact,2,14,14,ppo_medical,0,14,0,14,0,Prosthetic and Orthotic Devices
+Devices ordered or purchased prior to the certificate’s effective date,exact,2,14,14,ppo_medical,0,14,0,14,0,Prosthetic and Orthotic Devices
+"Nonrigid devices and supplies such as elastic stockings, garter belts, and corsets",exact,2,14,14,ppo_medical,0,14,0,14,0,Prosthetic and Orthotic Devices
+Hearing aids,exact,2,14,14,ppo_medical,0,14,0,14,0,Prosthetic and Orthotic Devices
+Pulmonary Rehabilitation,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Radiology Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Diagnostic Radiology Services,exact,2,14,14,ppo_medical,14,0,0,14,0,Radiology Services
+"Procedures not directly related and necessary to diagnose a disease, illness, pregnancy or injury",exact,2,14,14,ppo_medical,0,14,0,0,14,Radiology Services
+Skilled Nursing Facility Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+"A semiprivate room, including general nursing service, meals and special diets",exact,2,14,14,ppo_medical,14,0,0,14,0,Skilled Nursing Facility Services
+Special treatment rooms,exact,2,14,14,ppo_medical,14,0,0,14,0,Skilled Nursing Facility Services
+Oxygen and other gas therapy,exact,2,14,14,ppo_medical,14,0,0,14,0,Skilled Nursing Facility Services
+"Drugs, biologicals and solutions",exact,2,14,14,ppo_medical,14,0,0,14,0,Skilled Nursing Facility Services
+"Gauze, cotton, fabrics, solutions, plaster, and other materials used in dressings and casts",exact,2,14,14,ppo_medical,14,0,0,0,14,Skilled Nursing Facility Services
+Durable medical equipment used in the facility or outside the facility when rented or purchased from the skilled nursing facility,exact,2,14,14,ppo_medical,14,0,0,0,14,Skilled Nursing Facility Services
+Physician services (up to two visits per week),exact,2,14,14,ppo_medical,14,0,0,14,0,Skilled Nursing Facility Services
+Care for senility or developmental disability,exact,2,14,14,ppo_medical,0,14,0,14,0,Skilled Nursing Facility Services
+Care for substance use disorder,exact,2,14,14,ppo_medical,0,14,0,14,0,Skilled Nursing Facility Services
+Care for mental illness,exact,2,14,14,ppo_medical,0,14,0,14,0,Skilled Nursing Facility Services
+Care provided by a nonparticipating skilled nursing facility,exact,2,14,14,ppo_medical,0,14,0,14,0,Skilled Nursing Facility Services
+Special Medical Foods for Inborn Errors of Metabolism,exact,1,14,14,ppo_medical,14,0,0,14,0,
+The cost of special medical foods must be higher than the cost of foods or items that are not special medical foods,exact,2,14,14,ppo_medical,14,0,0,0,14,Special Medical Foods for Inborn Errors of Metabolism
+Medical documentation must support the diagnosis of a covered condition that requires special medical foods,exact,2,14,14,ppo_medical,14,0,0,0,14,Special Medical Foods for Inborn Errors of Metabolism
+"Nutritional products, supplements, medical foods or any other items provided to treat medical conditions that are not related to the treatment of inborn errors of metabolism",exact,2,14,14,ppo_medical,0,14,0,0,14,Special Medical Foods for Inborn Errors of Metabolism
+"Foods used by members with inborn errors of metabolism that are not special medical foods, as defined by this certificate",exact,2,14,14,ppo_medical,0,14,0,0,14,Special Medical Foods for Inborn Errors of Metabolism
+"Nutritional products, supplements or foods used for the member ’s convenience or for weight reduction programs",exact,2,14,14,ppo_medical,0,14,0,0,14,Special Medical Foods for Inborn Errors of Metabolism
+A maximum of 30 habilitative and 30 rehabilitative outpatient visits per member per calendar year.,exact,2,14,14,ppo_medical,14,0,0,0,14,Speech Language Therapy
+"Treatment of chronic, developmental or congenital conditions, learning disabilities or inherited speech abnormalities",exact,2,14,14,ppo_medical,0,14,0,0,14,Speech Language Therapy
+Therapy that is performed without a speech language therapy treatment plan,fuzzy,2,14,14,ppo_medical,0,14,0,14,0,Speech Language Therapy
+Services provided by speech-language pathology assistants or therapy aides,exact,2,14,14,ppo_medical,0,14,0,14,0,Speech Language Therapy
+Services received from a nonparticipating freestanding outpatient physical therapy facility or a nonparticipating skilled nursing facility,exact,2,14,14,ppo_medical,0,14,0,0,14,Speech Language Therapy
+"More than 30 habilitative and 30 rehabilitative outpatient visits per member per calendar year, whether obtained from an in-network or out-of-network provider",exact,2,14,14,ppo_medical,0,14,0,0,14,Speech Language Therapy
+Surgery,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Use of ambulatory surgery facility,exact,2,14,14,ppo_medical,14,0,0,14,0,Surgery
+Anesthesia services and materials,exact,2,14,14,ppo_medical,14,0,0,14,0,Surgery
+Recovery room,exact,2,14,14,ppo_medical,14,0,0,14,0,Surgery
+"Nursing care by, or under the supervision of, a registered nurse",exact,2,14,14,ppo_medical,14,0,0,14,0,Surgery
+"Drugs, biologicals, surgical dressings, supplies, splints and casts directly related to providing surgery",exact,2,14,14,ppo_medical,14,0,0,0,14,Surgery
+Oxygen and other therapeutic gases,exact,2,14,14,ppo_medical,14,0,0,14,0,Surgery
+"Skin bank, bone bank and other tissue storage costs for supplies and services for the removal of skin, bone or other tissue, as well as the cost of processing and storage",exact,2,14,14,ppo_medical,14,0,0,0,14,Surgery
+Routine laboratory services related to the surgery or a concurrent medical condition,exact,2,14,14,ppo_medical,14,0,0,14,0,Surgery
+Services by a nonparticipating ambulatory surgery facility,exact,2,14,14,ppo_medical,0,14,0,14,0,Surgery
+Temporary Benefits,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Transplant Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Cornea,exact,2,14,14,ppo_medical,14,0,0,14,0,Transplant Services
+Skin,exact,2,14,14,ppo_medical,14,0,0,14,0,Transplant Services
+Bone marrow (described below),exact,2,14,14,ppo_medical,14,0,0,14,0,Transplant Services
+Two tandem transplants,exact,2,14,14,ppo_medical,14,0,0,14,0,Transplant Services
+Two single transplants,exact,2,14,14,ppo_medical,14,0,0,14,0,Transplant Services
+A single and a tandem transplant,exact,2,14,14,ppo_medical,14,0,0,14,0,Transplant Services
+A first degree relative and matches at least four of the six important HLA genetic markers with the member or,exact,2,14,14,ppo_medical,14,0,0,0,14,Transplant Services
+Not a first degree relative and matches five of the six important HLA genetic markers with the member. (This provision does not apply to transplants for sickle cell anemia (ss or sc) or beta thalassemia.),exact,2,14,14,ppo_medical,14,0,0,0,14,Transplant Services
+Services that are not BCBSM benefits,exact,2,14,14,ppo_medical,0,14,0,14,0,Transplant Services
+Services provided to a recipient who is not a BCBSM member,exact,2,14,14,ppo_medical,0,14,0,14,0,Transplant Services
+Living donor transplants not listed in this certificate,exact,2,14,14,ppo_medical,0,14,0,14,0,Transplant Services
+Anti-rejection drugs that do not have Food and Drug Administration approval,exact,2,14,14,ppo_medical,0,14,0,14,0,Transplant Services
+Transportation and lodging costs for circumstances other than those related to the initial transplant surgery and hospitalization,exact,2,14,14,ppo_medical,0,14,0,0,14,Transplant Services
+Routine storage cost of donor organs for the future purpose of transplantation,exact,2,14,14,ppo_medical,0,14,0,14,0,Transplant Services
+"Services prior to your organ transplant surgery, such as expenses for evaluation and testing, unless covered elsewhere under this certificate",exact,2,14,14,ppo_medical,0,14,0,0,14,Transplant Services
+Experimental transplant procedures. See the “General Conditions of Your Contract” section for guidelines related to experimental treatment,exact,2,14,14,ppo_medical,0,14,0,0,14,Transplant Services
+Urgent Care Services,exact,1,14,14,ppo_medical,14,0,0,14,0,
+Value Based Programs,exact,1,14,14,ppo_medical,14,0,0,14,0,
+"Telephone, individual face-to-face, and group interventions",exact,2,14,14,ppo_medical,14,0,0,14,0,Value Based Programs
+"Setting goals by your primary care physician (PCP), your care manager, and yourself to help you manage your health better",exact,2,14,14,ppo_medical,14,0,0,0,14,Value Based Programs
+Services performed by providers who are not designated as PDCM providers,exact,2,14,14,ppo_medical,0,14,0,14,0,Value Based Programs
+Services performed by providers outside the state of Michigan,exact,2,14,14,ppo_medical,0,14,0,14,0,Value Based Programs
+Behavioral Health Treatment,exact,3,14,11,ppo_medical,0,0,14,14,0,
+"The service must be provided in a vehicle licensed as a ground or air ambulance, which is part of a licensed ambulance operation.",exact,2,13,13,ppo_medical,0,13,0,0,13,Ambulance Services
+Treatment must be provided or supervised by one of the following:,exact,2,13,13,ppo_medical,13,0,0,0,13,Autism Spectrum Disorders
+"We do not cover any other services provided by a licensed behavior analyst including, but not limited to, treatment of traumatic brain injuries.",exact,2,13,13,ppo_medical,13,0,0,0,13,Autism Spectrum Disorders
+The psychologist must have adequate formal university training and supervised experience in ABA.,exact,2,13,13,ppo_medical,13,0,0,0,13,Autism Spectrum Disorders
+Only covered in an inpatient or outpatient hospital location,exact,2,13,13,ppo_medical,13,0,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"When administered by, or under the supervision, of a physician",exact,2,13,13,ppo_medical,13,0,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"Anesthetics for ECT when administered by, or under the supervision of, a physician other than the physician giving the ECT",exact,2,13,13,ppo_medical,13,0,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Must be provided by a board-certified psychiatrist in an outpatient setting.,exact,2,13,13,ppo_medical,13,0,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"Inpatient consultations. If a physician needs help diagnosing or treating a member’s condition,",exact,2,13,13,ppo_medical,13,0,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Services provided by a nonparticipating hospital,exact,2,13,13,ppo_medical,0,13,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Care provided by a non-participating psychiatric residential facility,exact,2,13,13,ppo_medical,0,13,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Services that are not focused on improving the member’s functioning,exact,2,13,13,ppo_medical,0,13,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Services that are primarily for maintaining long-term gains made by the member while in another treatment program,exact,2,13,13,ppo_medical,0,13,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+A residential program that is a long- term substitute for a member’s lack of available supportive living environment within the community,exact,2,13,13,ppo_medical,0,13,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+A residential program that serves to protect family members and other individuals in the member’s living environment,exact,2,13,13,ppo_medical,0,13,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Services or treatment that are cognitive in nature or supplies related to such services or treatment,exact,2,13,13,ppo_medical,0,13,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Transitional living centers such as half-way and three-quarter way houses,exact,2,13,13,ppo_medical,0,13,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Therapeutic boarding schools,exact,2,13,13,ppo_medical,0,13,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"Milieu therapies, such as wilderness program, supportive houses or group homes",exact,2,13,13,ppo_medical,0,13,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Domiciliary foster care,exact,2,13,13,ppo_medical,0,13,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Treatment or programs for sex offenders or perpetrators of sexual or physical violence,exact,2,13,13,ppo_medical,0,13,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Services to hold or confine a member under chemical influence when the member does not require medical treatment,exact,2,13,13,ppo_medical,0,13,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+A private room or an apartment,exact,2,13,13,ppo_medical,0,13,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Service provided by a nonparticipating psychiatric residential treatment facility,exact,2,13,13,ppo_medical,0,13,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"Non-medical services including, but not limited to: enrichment programs, dance therapy, art therapy, music therapy, equine therapy, yoga and other movement therapies, ropes courses, guided imagery, consciousness raising, socialization therapy, social outings or preparatory courses or classes. These services may be paid as part of a treatment program but they are not payable separately.",exact,2,13,13,ppo_medical,0,13,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+A partial hospitalization program described in the PHP section of this document,exact,2,13,13,ppo_medical,0,13,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Acute detoxification when provided in a participating hospital,exact,2,13,13,ppo_medical,13,0,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Services must be medically necessary to treat the member’s condition.,exact,2,13,13,ppo_medical,13,0,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Services in a residential substance abuse treatment facility must be preapproved by BCBSM.,exact,2,13,13,ppo_medical,13,0,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Services must be provided by a participating substance abuse treatment facility.,exact,2,13,13,ppo_medical,13,0,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Laboratory services,exact,2,13,13,ppo_medical,13,0,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Supplies and equipment used for subacute detoxification or rehabilitation,exact,2,13,13,ppo_medical,13,0,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Professional and trained staff and program services necessary for care and treatment of the member,exact,2,13,13,ppo_medical,13,0,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Individual and group therapy or counseling,exact,2,13,13,ppo_medical,13,0,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Therapy and counseling for family members,exact,2,13,13,ppo_medical,13,0,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"Dispensing methadone or testing of urine specimens unless the member is receiving therapy, counseling or psychological testing",exact,2,13,13,ppo_medical,0,13,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Diversional therapy,exact,2,13,13,ppo_medical,0,13,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Services provided beyond the period necessary for the member’s care and treatment,exact,2,13,13,ppo_medical,0,13,0,13,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"Services provided by a qualified provider, including but not limited to a physician, fully licensed psychologist, certified nurse practitioner, clinical nurse specialist-certified, clinical licensed master’s social worker, licensed professional counselor, limited licensed psychologists, or licensed marriage and family therapist, or other professional provider as determined by BCBSM",exact,2,13,13,ppo_medical,13,0,0,0,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"For new patients, we pay for one office visit every 36 months. A new patient is one who has not received chiropractic services within the past 36 months.",exact,2,13,13,ppo_medical,13,0,0,0,13,Chiropractic Services and Osteopathic Manipulative Therapy
+"For established patients, we pay for office visits. An established patient is one who has received chiropractic services within the past 36 months.",exact,2,13,13,ppo_medical,13,0,0,0,13,Chiropractic Services and Osteopathic Manipulative Therapy
+A signed treatment plan is not required for the first physical medicine service your chiropractor performs on you.,exact,2,13,13,ppo_medical,13,0,0,0,13,Chiropractic Services and Osteopathic Manipulative Therapy
+Physicians,exact,2,13,13,ppo_medical,13,0,0,13,0,Chronic Disease Management
+Certified licensed social workers,exact,2,13,13,ppo_medical,13,0,0,13,0,Chronic Disease Management
+Psychologists,exact,2,13,13,ppo_medical,13,0,0,13,0,Chronic Disease Management
+Physical therapists,exact,2,13,13,ppo_medical,13,0,0,13,0,Chronic Disease Management
+Life-threatening condition,exact,2,13,13,ppo_medical,13,0,0,13,0,Clinical Trials (Routine Patient Costs)
+Routine patient costs,exact,2,13,13,ppo_medical,13,0,0,13,0,Clinical Trials (Routine Patient Costs)
+Qualified individual,exact,2,13,13,ppo_medical,13,0,0,13,0,Clinical Trials (Routine Patient Costs)
+The appropriateness of a drug for your condition,exact,2,13,13,ppo_medical,13,0,0,13,0,Collaborative Care Management
+The correct drug dosage,exact,2,13,13,ppo_medical,13,0,0,13,0,Collaborative Care Management
+The right time to take the drug,exact,2,13,13,ppo_medical,13,0,0,13,0,Collaborative Care Management
+Bleeding or clotting abnormalities,exact,2,13,13,ppo_medical,13,0,0,13,0,Dental Services
+Unstable angina,exact,2,13,13,ppo_medical,13,0,0,13,0,Dental Services
+Severe respiratory disease,exact,2,13,13,ppo_medical,13,0,0,13,0,Dental Services
+"Known reaction to analgesics, anesthetics, etc.",exact,2,13,13,ppo_medical,13,0,0,13,0,Dental Services
+Thyroid function,exact,2,13,13,ppo_medical,13,0,0,13,0,Diagnostic Services
+Electrocardiogram (EKG),exact,2,13,13,ppo_medical,13,0,0,13,0,Diagnostic Services
+Electroencephalogram (EEG),exact,2,13,13,ppo_medical,13,0,0,13,0,Diagnostic Services
+Pulmonary function studies,exact,2,13,13,ppo_medical,13,0,0,13,0,Diagnostic Services
+Electromyogram (EMG),exact,2,13,13,ppo_medical,13,0,0,13,0,Diagnostic Services
+Nerve conduction,exact,2,13,13,ppo_medical,13,0,0,13,0,Diagnostic Services
+We pay for standard office lab tests in your physician’s office. Other lab tests must be sent to a laboratory.,exact,2,13,13,ppo_medical,13,0,0,0,13,Diagnostic Services
+You will need to pay the out-of-network cost-share if tests are done by an out-of-network lab or in an out-of-network hospital.,exact,2,13,13,ppo_medical,13,0,0,0,13,Diagnostic Services
+"The treatment must be arranged by the member’s physician and the physician director, or a committee of staff physicians of a self-dialysis training program",exact,2,13,13,ppo_medical,0,13,0,0,13,Dialysis Services
+The owner of the member’s home must give the hospital prior written permission to install the equipment.,exact,2,13,13,ppo_medical,0,13,0,0,13,Dialysis Services
+Continuous ambulatory peritoneal dialysis and self-dialysis training with the number of training sessions limited according to Medicare guidelines,exact,2,13,13,ppo_medical,13,0,0,0,13,Dialysis Services
+Continuous cycling peritoneal dialysis (limited to 14 dialysis treatments per month) and self- dialysis training with the number of training sessions limited according to Medicare guidelines,exact,2,13,13,ppo_medical,13,0,0,0,13,Dialysis Services
+A participating hospital (when you are discharged),exact,2,13,13,ppo_medical,13,0,0,13,0,Durable Medical Equipment
+A DME supplier,exact,2,13,13,ppo_medical,13,0,0,13,0,Durable Medical Equipment
+Short-term general inpatient care when the member is admitted for pain control or to manage symptoms. (These services are payable if they meet the plan of care established for the member.),exact,2,13,13,ppo_medical,13,0,0,0,13,Hospice Care Services
+Other than those furnished by the hospice program.,exact,2,13,13,ppo_medical,0,13,0,13,0,Hospice Care Services
+Medically necessary genetic testing,exact,2,13,13,ppo_medical,13,0,0,13,0,Maternity Care
+Vaginal delivery or cesarean section when provided in:,exact,2,13,13,ppo_medical,13,0,0,0,13,Maternity Care
+A participating hospital setting,exact,2,13,13,ppo_medical,13,0,0,13,0,Maternity Care
+"A hospital-affiliated birthing center that is owned and operated by a participating state- licensed and accredited hospital, as defined by BCBSM",exact,2,13,13,ppo_medical,13,0,0,0,13,Maternity Care
+A member’s home,exact,2,13,13,ppo_medical,13,0,0,13,0,Maternity Care
+"Postnatal care, including a Papanicolaou (Pap) smear during the six-week visit.",fuzzy,2,13,13,ppo_medical,13,0,0,13,0,Maternity Care
+Lactation education and alternative fertility awareness counseling,exact,2,13,13,ppo_medical,13,0,0,13,0,Maternity Care
+Ostomy sets and accessories,exact,2,13,13,ppo_medical,13,0,0,13,0,Medical Supplies
+The exam must be given by a physician other than the anesthesiologist or the birth parent’s attending physician.,exact,2,13,13,ppo_medical,13,0,0,0,13,Newborn Care
+A combined maximum of 30 habilitative and a combined maximum of 30 rehabilitative outpatient visits per member per year.,exact,2,13,13,ppo_medical,13,0,0,0,13,Occupational Therapy
+Services received from an independent sports medicine clinic,exact,2,13,13,ppo_medical,0,13,0,13,0,Occupational Therapy
+Part of a comprehensive rehabilitation plan,exact,2,13,13,ppo_medical,0,13,0,13,0,Occupational Therapy
+"If you get services from an optometrist who does not participate in BCBSM’s vision program, they will be treated as services of a nonparticipating provider.",exact,2,13,13,ppo_medical,13,0,0,0,13,Optometrist Services
+Services and medical supplies to treat and control diabetes when prescribed by a physician or other professional provider licensed to prescribe it. Services and supplies include:,exact,2,13,13,ppo_medical,13,0,0,0,13,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+"Part of a comprehensive rehabilitation plan, and",exact,2,13,13,ppo_medical,0,13,0,13,0,Physical Therapy
+Select diabetic supplies and devices when prescribed by a physician or other professional provider licensed to prescribe it. Select diabetic supplies and devices include:,exact,2,13,13,ppo_medical,13,0,0,0,13,Prescription Drugs
+Diabetic supplies will be subject to your preferred brand-name drug and/or nonpreferred brand- name drugs cost-share requirement.,exact,2,13,13,ppo_medical,13,0,0,0,13,Prescription Drugs
+“Preferred” devices will be covered at 100% of our approved amount. “Nonpreferred” devices will be subject to your nonpreferred brand-name drugs cost-share requirement.,exact,2,13,13,ppo_medical,13,0,0,0,13,Prescription Drugs
+Covered Drugs Obtained from an Out-of-Network Pharmacy,exact,2,13,13,ppo_medical,13,0,0,13,0,Prescription Drugs
+Payment for non-covered specialty drugs or services.,exact,2,13,7,ppo_medical,0,13,0,13,0,Prescription Drugs
+Routine Flexible Sigmoidoscopy Examination,exact,2,13,13,ppo_medical,13,0,0,13,0,Preventive Care Services
+A change in the patient's condition,exact,2,13,13,ppo_medical,13,0,0,13,0,Prosthetic and Orthotic Devices
+Damage to the device so that it cannot be restored,exact,2,13,13,ppo_medical,13,0,0,13,0,Prosthetic and Orthotic Devices
+Loss of the device,exact,2,13,13,ppo_medical,13,0,0,13,0,Prosthetic and Orthotic Devices
+The member’s physician provides a written confirmation indicating that skilled care is needed.,exact,2,13,13,ppo_medical,13,0,0,0,13,Skilled Nursing Facility Services
+"Treatment solely to improve cognition (e.g., memory or perception), concentration and/or attentiveness, organizational or problem-solving skills, academic skills, impulse control or other behaviors for which behavior modification is sought without a speech language therapy treatment plan that guides and helps to monitor the provided therapy",exact,2,13,13,ppo_medical,0,13,0,0,13,Speech Language Therapy
+24/7 Virtual Visit,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Accredited Hospital,fuzzy,3,13,13,ppo_medical,0,0,13,13,0,
+Acupuncture,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Acute Care Facility,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Administrative Costs,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Affiliate Cancer Center,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Air Ambulance,exact,3,13,13,ppo_medical,0,0,13,13,0,Ambulance Services
+Alternative Medicines,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Ambulatory Surgery,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Arthrocentesis,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Attending Physician,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Audiologist,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Autism Spectrum Disorder Services,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Benefit Period,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Biological,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Blue Cross Plan,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Blue Shield Plan,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Carrier,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Case Management,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Certified Registered Nurse Anesthetist,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Chiropractic Services,exact,3,13,13,ppo_medical,0,0,13,13,0,Chemotherapy
+Chronic Condition,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Clinical Licensed Master’s Social Worker,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Colony Stimulating Growth Factors,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Congenital Condition,exact,3,13,13,ppo_medical,0,0,13,13,0,
+Continuity of Care,exact,3,13,13,ppo_medical,0,0,13,13,0,
+"Survey, including history, physical exam, and diagnostic laboratory studies",exact,2,12,12,ppo_medical,12,0,0,12,0,Allergy Testing and Therapy
+"Intradermal, scratch and puncture tests",exact,2,12,12,ppo_medical,12,0,0,12,0,Allergy Testing and Therapy
+Patch and photo tests,exact,2,12,12,ppo_medical,12,0,0,12,0,Allergy Testing and Therapy
+Double-blind food challenge test and bronchial challenge test,exact,2,12,12,ppo_medical,12,0,0,12,0,Allergy Testing and Therapy
+Allergy immunotherapy by injection (allergy shots),exact,2,12,12,ppo_medical,12,0,0,12,0,Allergy Testing and Therapy
+"Injections of antiallergen, antihistamine, bronchodilator or antispasmodic agents",exact,2,12,12,ppo_medical,12,0,0,12,0,Allergy Testing and Therapy
+Behavioral Health Treatment (BHT) – Evidence-based counseling is part of BHT. A licensed psychologist must perform or supervise this treatment. The psychologist must have adequate formal university training and supervised experience in BHT.,exact,2,12,12,ppo_medical,12,0,0,0,12,Autism Spectrum Disorders
+Psychological care – It includes a psychologist’s direct or consulting services. The psychologist must be licensed in the state of practice.,exact,2,12,12,ppo_medical,12,0,0,0,12,Autism Spectrum Disorders
+Therapeutic care – Evidence-based services from licensed providers. It includes:,exact,2,12,12,ppo_medical,12,0,0,12,0,Autism Spectrum Disorders
+Nutritional therapy,exact,2,12,12,ppo_medical,12,0,0,12,0,Autism Spectrum Disorders
+Psychiatric Intensive Outpatient Program (IOP),exact,2,12,12,ppo_medical,0,12,0,12,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Services to treat temporomandibular joint dysfunction (TMJ) limited to those described below:,exact,2,12,12,ppo_medical,12,0,0,12,0,Dental Services
+Medically necessary professional and facility services for the treatment of gender dysphoria.,fuzzy,2,12,12,ppo_medical,12,0,0,12,0,Gender Affirming Services
+"Drugs required for infusion therapy. Since specialty pharmaceuticals may be used in infusion therapy, please see the Prior Authorization for Specialty Pharmaceuticals requirement described on",exact,2,12,12,ppo_medical,12,0,0,0,12,Infusion Therapy
+Newborn services provided during the first 48 or 96 hours if the newborn has not been added to the BCBSM contract of the birth parent. These services include:,exact,2,12,12,ppo_medical,12,0,0,0,12,Maternity Care
+"Services to treat a newborn’s injury, sickness, congenital defects or birth abnormalities",exact,2,12,12,ppo_medical,12,0,0,12,0,Maternity Care
+Purging or positive stem cell selection of bone marrow or peripheral blood stem cells,exact,2,12,12,ppo_medical,12,0,0,0,12,Oncology Clinical Trials
+Harvesting and storage (both covered even if it is not covered by the donor’s insurance) of the donor’s:,exact,2,12,12,ppo_medical,12,0,0,0,12,Oncology Clinical Trials
+$60 per day for travel,exact,2,12,12,ppo_medical,12,0,0,12,0,Oncology Clinical Trials
+$50 per day for lodging,exact,2,12,12,ppo_medical,12,0,0,12,0,Oncology Clinical Trials
+Licensed in the state of Michigan,exact,2,12,12,ppo_medical,12,0,0,12,0,Optometrist Services
+Certified by the Michigan Board of Optometry to administer and prescribe therapeutic pharmaceutical agents,exact,2,12,12,ppo_medical,12,0,0,0,12,Optometrist Services
+Your M.D. or D.O. diagnoses a significant change with long-term implications in your symptoms or conditions that necessitate changes in your self-management or a significant change in medical protocol or treatment.,exact,2,12,12,ppo_medical,12,0,0,0,12,Outpatient Diabetes Management Program (ODMP)
+The provider of self-management training must be:,exact,2,12,12,ppo_medical,12,0,0,0,12,Outpatient Diabetes Management Program (ODMP)
+A combined maximum of 30 habilitative and a combined maximum of 30 rehabilitative outpatient visits per member per calendar year.,exact,2,12,12,ppo_medical,12,0,0,0,12,Occupational Therapy | Physical Therapy
+"One per member, per calendar year",exact,2,12,12,ppo_medical,12,0,0,12,0,Preventive Care Services
+"Two visits per member, per calendar year",exact,2,12,12,ppo_medical,12,0,0,12,0,Preventive Care Services
+"Screening, counseling and prescription drugs to help you stop smoking",exact,2,12,12,ppo_medical,12,0,0,12,0,Preventive Care Services
+"Voluntary sterilization of female reproductive organs including tubal ligation and related charges associated with the procedure (anesthesia, labs, etc.).",exact,2,12,12,ppo_medical,12,0,0,0,12,Preventive Care Services
+Depo-Provera and Intrauterine Devices (IUD),exact,2,12,12,ppo_medical,12,0,0,12,0,Preventive Care Services
+Diaphragms (when performed in the physician’s office),exact,2,12,12,ppo_medical,12,0,0,12,0,Preventive Care Services
+Not listed in this certificate or,exact,2,12,12,ppo_medical,0,12,0,12,0,Contraceptive Services | Preventive Care Services
+Not required to be covered under PPACA,exact,2,12,12,ppo_medical,0,12,0,12,0,Contraceptive Services | Preventive Care Services
+"When services of interns, residents or other physicians employed by the hospital are available at the time of surgery or",exact,2,12,12,ppo_medical,0,12,0,0,12,Surgery
+When services are provided in a location other than a hospital or ambulatory surgery facility,exact,2,12,12,ppo_medical,0,12,0,0,12,Surgery
+The appropriateness of the drug for your condition,exact,2,12,12,ppo_medical,12,0,0,12,0,Value Based Programs
+The correct dosage,exact,2,12,12,ppo_medical,12,0,0,12,0,Value Based Programs
+When to take the drug,exact,2,12,12,ppo_medical,12,0,0,0,12,Value Based Programs
+Licensed Behavior Analyst,exact,3,12,12,ppo_medical,0,0,12,12,0,
+Autism Evaluation Center,exact,3,12,12,ppo_medical,0,0,12,12,0,
+Bite Splint,exact,3,12,12,ppo_medical,0,0,12,12,0,Dental Services
+Contraceptive Medication,exact,3,12,12,ppo_medical,0,0,12,12,0,
+Cost Sharing,exact,3,11,11,"dental,ppo_medical,vision",0,0,11,11,0,
+Covered Services,exact,3,11,11,"dental,ppo_medical,vision",0,0,11,11,0,Audiologist Services
+"A specialist office, home, virtual or outpatient visit",exact,2,11,11,"csr_rider,ppo_medical",11,0,0,11,0,BCBSM PPO In-Network Providers | Copayment Requirements
+An office consultation with a specialist,exact,2,11,11,"csr_rider,ppo_medical",11,0,0,11,0,BCBSM PPO In-Network Providers | Copayment Requirements
+A pre-surgical consultation with a specialist,exact,2,11,11,"csr_rider,ppo_medical",11,0,0,11,0,BCBSM PPO In-Network Providers | Copayment Requirements
+Autism spectrum disorder services (including ABA) when performed by a participating LBA or other provider acting within their scope of practice.,exact,2,11,11,ppo_medical,11,0,0,0,11,Autism Spectrum Disorders
+Outpatient mental health therapy,exact,2,11,11,ppo_medical,11,0,0,11,0,Autism Spectrum Disorders
+Room and board,exact,2,11,11,ppo_medical,11,0,0,11,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+General nursing services,exact,2,11,11,ppo_medical,11,0,0,11,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"Drugs, biologicals and solutions used in the facility",exact,2,11,11,ppo_medical,11,0,0,11,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Outpatient substance use disorder services for the treatment of tobacco dependence,exact,2,11,11,ppo_medical,11,0,0,11,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"Physical therapy, speech language therapy, and occupational therapy when provided to control symptoms and maintain the member’s daily activities and basic functional skills",exact,2,11,11,ppo_medical,11,0,0,0,11,Hospice Care Services
+Preventive drugs,exact,2,11,11,ppo_medical,11,0,0,11,0,Prescription Drugs
+Select immunization vaccines,exact,2,11,11,ppo_medical,11,0,0,11,0,Prescription Drugs
+Supplements,exact,2,11,11,ppo_medical,11,0,0,11,0,Prescription Drugs
+Vitamins,exact,2,11,11,ppo_medical,11,0,0,11,0,Prescription Drugs
+Dispensed by an in-network pharmacy and,exact,2,11,11,ppo_medical,11,0,0,11,0,Prescription Drugs
+"Approved by the FDA, when FDA approval is available and",exact,2,11,11,ppo_medical,11,0,0,0,11,Prescription Drugs
+Meet coverage criteria required under the Patient Protection and Affordable Care Act.,exact,2,11,11,ppo_medical,11,0,0,11,0,Prescription Drugs
+"If an in-network provider does a covered preventive test, and a Michigan out-of-network provider reads and interprets the test results, we will pay the claim from the Michigan out-of-network provider as if it were an in-network claim. You will not have to pay your out-of-network cost share for this claim. You will pay out-of-network cost share if an out-of-state out-of-network provider read and the interprets the test results.",exact,2,11,11,ppo_medical,11,0,0,0,11,Preventive Care Services
+Fecal Occult Blood Screening,exact,2,11,10,ppo_medical,11,0,0,11,0,Preventive Care Services
+Routine Laboratory Services,exact,2,11,11,ppo_medical,11,0,0,11,0,Preventive Care Services
+"Contraceptive Devices Injections, and Implants",exact,2,11,11,ppo_medical,11,0,0,11,0,Preventive Care Services
+X-rays,exact,2,11,11,ppo_medical,11,0,0,11,0,Radiology Services
+Radioactive isotope studies and use of radium,exact,2,11,11,ppo_medical,11,0,0,11,0,Radiology Services
+Ultrasound,exact,2,11,11,ppo_medical,11,0,0,11,0,Radiology Services
+Computerized axial tomography (CAT) scans,exact,2,11,11,ppo_medical,11,0,0,11,0,Radiology Services
+Magnetic resonance imaging (MRI),exact,2,11,11,ppo_medical,11,0,0,11,0,Radiology Services
+Positron emission tomography (PET) scans,exact,2,11,11,ppo_medical,11,0,0,11,0,Radiology Services
+Medically necessary mammography,exact,2,11,11,ppo_medical,11,0,0,11,0,Radiology Services
+Blood tests on first degree relatives to evaluate them as donors,exact,2,11,11,ppo_medical,11,0,0,11,0,Transplant Services
+Allogeneic (Allogenic) Transplant,exact,3,11,11,ppo_medical,0,0,11,11,0,
+Contracted Area Hospital,exact,3,11,11,ppo_medical,0,0,11,11,0,
+Certified to receive Medicare or Medicaid reimbursement or,exact,2,11,11,ppo_medical,11,0,0,11,0,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Certified by the Michigan Department of Community Health,exact,2,11,11,ppo_medical,11,0,0,11,0,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Covered services and devices for pain management,exact,2,11,11,ppo_medical,11,0,0,11,0,Pain Management
+Administered by the physician or under the physician’s supervision.,exact,2,11,11,ppo_medical,11,0,0,11,0,Prescription Drugs
+Coordination of Benefits,exact,3,10,10,"dental,ppo_medical,vision",0,0,10,10,0,
+More than 30 visits a year for combined outpatient cardiac and pulmonary rehabilitation services,exact,2,10,10,ppo_medical,0,10,0,0,10,Cardiac Rehabilitation
+Services in a participating LTACH that we would pay for in a participating hospital.,exact,2,10,10,ppo_medical,10,0,0,0,10,Long-Term Acute Care Hospital Services
+"Prenatal care , including maternity education provided in a physician’s office as part of a pre - natal visit",exact,2,10,10,ppo_medical,10,0,0,0,10,Maternity Care
+Payment for non-covered drugs or services.,exact,2,10,4,ppo_medical,0,10,0,10,0,Prescription Drugs
+Routine Pap Smear,exact,2,10,10,ppo_medical,10,0,0,10,0,Preventive Care Services
+Screening Mammography,exact,2,10,10,ppo_medical,10,0,0,10,0,Preventive Care Services
+We follow PPACA guidelines consistent with the HRSA- Supported Women’s Preventive,exact,2,10,10,ppo_medical,10,0,0,10,0,Preventive Care Services
+Well-Baby and Well-Child Visits,exact,2,10,10,ppo_medical,10,0,0,10,0,Preventive Care Services
+"For a member with a BMI of 30 or above, we pay for 26 visits per member per calendar year.",exact,2,10,10,ppo_medical,10,0,0,0,10,Preventive Care Services
+"Radiology services performed on equipment owned by, and performed on the premises of, the facility that are necessary to enhance the surgical service",exact,2,10,10,ppo_medical,10,0,0,0,10,Surgery
+"Consultations, Inpatient or Outpatient",exact,3,10,10,ppo_medical,0,0,10,10,0,Contraceptive Services | Preventive Care Services
+Conventional Treatment,exact,3,10,10,ppo_medical,0,0,10,10,0,
+A physician who orders and supervises anesthesiology services,exact,2,10,10,ppo_medical,10,0,0,10,0,Anesthesiology Services
+A certified registered nurse anesthetist (CRNA),exact,2,10,10,ppo_medical,10,0,0,10,0,Anesthesiology Services
+Autism spectrum disorder services including applied behavior analysis (ABA) is covered subject to the following requirements:,exact,2,10,10,ppo_medical,10,0,0,0,10,Autism Spectrum Disorders
+The member's family cannot provide the services and the home health care agency has identified a need for these services for the member to participate in the program,exact,2,10,10,ppo_medical,10,0,0,0,10,Home Health Care Services
+The services are provided by a home health aide and supervised by a registered nurse employed by the agency,exact,2,10,10,ppo_medical,10,0,0,0,10,Home Health Care Services
+A participating hospice inpatient unit,exact,2,10,10,ppo_medical,10,0,0,10,0,Hospice Care Services
+A participating hospital contracting with the hospice program or,exact,2,10,10,ppo_medical,10,0,0,10,0,Hospice Care Services
+A participating skilled nursing facility contracting with the hospice program,exact,2,10,10,ppo_medical,10,0,0,10,0,Hospice Care Services
+Transfer of the dialyzer to another location in the member’s home,exact,2,10,10,ppo_medical,0,10,0,10,0,Dialysis Services
+"Occupational therapy, Page 73",fuzzy,2,10,10,ppo_medical,10,0,0,10,0,Home Health Care Services
+"Speech language therapy, Page 121",fuzzy,2,10,10,ppo_medical,10,0,0,10,0,Home Health Care Services
+Payment for noncovered specialty drugs or services,exact,2,10,7,ppo_medical,0,10,0,10,0,Prescription Drugs
+A retail health clinic visit,exact,2,9,9,"csr_rider,ppo_medical",9,0,0,9,0,BCBSM PPO In-Network Providers | Copayment Requirements
+A virtual primary care visit through the Blue Cross selected vendor app,exact,2,9,9,"csr_rider,ppo_medical",9,0,0,9,0,BCBSM PPO In-Network Providers | Copayment Requirements
+An office consultation,exact,2,9,9,"csr_rider,ppo_medical",9,0,0,9,0,BCBSM PPO In-Network Providers | Copayment Requirements
+A pre-surgical consultation,exact,2,9,9,"csr_rider,ppo_medical",9,0,0,9,0,BCBSM PPO In-Network Providers | Copayment Requirements
+A medical evaluation at an affiliated immunization pharmacy,exact,2,9,9,"csr_rider,ppo_medical",9,0,0,9,0,BCBSM PPO In-Network Providers | Copayment Requirements
+Assessments,exact,2,9,9,ppo_medical,9,0,0,9,0,Autism Spectrum Disorders
+"Evaluations or tests, including the Autism Diagnostic Observation Schedule",exact,2,9,9,ppo_medical,9,0,0,9,0,Autism Spectrum Disorders
+Transplants or related services rendered at a nondesignated cancer center or its affiliate,exact,2,9,9,ppo_medical,0,9,0,0,9,Oncology Clinical Trials
+Billed by a contracted specialty pharmacy provider and administered by a physician.,exact,2,9,9,ppo_medical,9,0,0,9,0,Prescription Drugs
+"One per member, per calendar year to detect blood in the feces or stool",exact,2,9,8,ppo_medical,9,0,0,0,9,Preventive Care Services
+Housekeeping items and services,exact,2,9,9,ppo_medical,9,0,0,9,0,Surgery
+EKGs,exact,2,9,9,ppo_medical,9,0,0,9,0,Surgery
+Transplant surgery and related services performed in a non-designated facility,exact,2,9,9,ppo_medical,0,9,0,9,0,Transplant Services
+Autism Behavioral Health Treatment,exact,3,9,9,ppo_medical,0,0,9,9,0,
+Autism Diagnostic Observation Schedule,exact,3,9,9,ppo_medical,0,0,9,9,0,
+Chemotherapy for Bone Marrow Transplants,exact,3,9,9,ppo_medical,0,0,9,9,0,Transplant Services
+Chemotherapy for Oncology Clinical Trials,exact,3,9,9,ppo_medical,0,0,9,9,0,Oncology Clinical Trials
+Chemotherapy Infusion Pumps,exact,3,9,9,ppo_medical,0,0,9,9,0,Cardiac Rehabilitation
+Continuous Positive Airway Pressure (CPAP),exact,3,9,9,ppo_medical,0,0,9,9,0,Durable Medical Equipment
+Coordination Period,exact,3,9,9,ppo_medical,0,0,9,9,0,
+A physician other than the operating physician,exact,2,9,9,ppo_medical,9,0,0,9,0,Anesthesiology Services
+Medical care by hospital personnel while you are receiving inpatient services,exact,2,9,9,ppo_medical,9,0,0,9,0,Hospital Services
+Semiprivate room,exact,2,9,9,ppo_medical,9,0,0,9,0,Hospital Services
+Nursing services,exact,2,9,9,ppo_medical,9,0,0,9,0,Hospital Services
+"Meals, including special diets",exact,2,9,9,ppo_medical,9,0,0,9,0,Hospital Services
+"Services provided in a special care unit, such as intensive care",exact,2,9,9,ppo_medical,9,0,0,9,0,Hospital Services
+Oxygen and other therapeutic gases and their administration,exact,2,9,9,ppo_medical,9,0,0,9,0,Hospital Services
+Inhalation therapy,exact,2,9,9,ppo_medical,9,0,0,9,0,Hospital Services
+Electroconvulsive Treatment (ECT),exact,2,9,9,ppo_medical,9,0,0,9,0,Hospital Services
+Pulmonary function evaluation,exact,2,9,9,ppo_medical,9,0,0,9,0,Hospital Services
+"Whole blood, blood derivatives, blood plasma or packed red blood cells, supplies and their administration",exact,2,9,9,ppo_medical,9,0,0,0,9,Hospital Services
+Hyperbaric oxygenation (therapy given in a pressure chamber),exact,2,9,9,ppo_medical,9,0,0,9,0,Hospital Services
+Self-management training is considered medically necessary upon diagnosis by an M.D. or D.O.,exact,2,9,9,ppo_medical,9,0,0,0,9,Outpatient Diabetes Management Program (ODMP)
+"One exam per member, per calendar year",exact,2,9,9,ppo_medical,9,0,0,9,0,Preventive Care Services
+"Harvesting (including peripheral blood stem cell pheresis) and storage of the donor’s bone marrow, peripheral blood stem cell and/or umbilical cord blood, if the donor is:",exact,2,9,9,ppo_medical,9,0,0,0,9,Transplant Services
+Therapy that is performed without a physical therapy treatment plan,exact,2,9,9,ppo_medical,0,9,0,9,0,Physical Therapy
+Alveoplasty,exact,3,9,9,ppo_medical,0,0,9,9,0,Speech Language Therapy | Surgery
+Birthing center,exact,3,9,9,ppo_medical,0,0,9,9,0,Medical Supplies
+Frequency,exact,"1,3",8,4,vision,4,0,4,8,0,Frequency
+Eye Exam,exact,"1,3",8,4,vision,4,0,4,8,0,Frequency
+Biomicroscopic evaluation,exact,"2,3",8,4,vision,4,0,4,8,0,Contact Lenses | Frames | Lenses
+Fluorescein evaluation,exact,"2,3",8,4,vision,4,0,4,8,0,Contact Lenses | Frames | Lenses
+Cornea evaluation,exact,"2,3",8,4,vision,4,0,4,8,0,Contact Lenses | Frames | Lenses
+Lens tolerance tests,exact,"2,3",8,4,vision,4,0,4,8,0,Contact Lenses | Frames | Lenses
+Psychiatric care – It includes a p sychiatrist’s direct or consulting services. The psychiatrist must be licensed in the state of practice.,exact,2,8,8,ppo_medical,8,0,0,0,8,Autism Spectrum Disorders
+"Drugs, biologicals and solutions, including drugs taken home",exact,2,8,8,ppo_medical,8,0,0,8,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+By a lab at your in- network physician’s direction.,exact,2,8,8,ppo_medical,8,0,0,8,0,Diagnostic Services
+"To avoid out-of-network cost share, obtain your prescribed durable medical equipment, prosthetics, orthotics, and medical supplies from an in-network provider. Contact Customer",exact,2,8,8,ppo_medical,8,0,0,0,8,Durable Medical Equipment
+Newborn examination given by a physician other than the anesthesiologist or the birth parent’s attending physician,exact,2,8,8,ppo_medical,8,0,0,0,8,Maternity Care
+"One per member, per calendar year, when prescribed by a physician",exact,2,8,8,ppo_medical,8,0,0,0,8,Preventive Care Services
+One per member per calendar year to screen for breast cancer,exact,2,8,8,ppo_medical,8,0,0,8,0,Preventive Care Services
+Subsequent medically necessary mammographies performed during the same calendar year by an in-network or out-of-network provider are subject to your deductible and coinsurance requirements.,exact,2,8,8,ppo_medical,8,0,0,0,8,Preventive Care Services
+"One screening colonoscopy once per member per calendar year, when performed by an in- network provider. This service is not subject to any deductible, coinsurance or copayment requirements.",exact,2,8,8,ppo_medical,8,0,0,0,8,Preventive Care Services
+Allogeneic Oncology Clinical Trials,exact,3,8,8,ppo_medical,0,0,8,8,0,Oncology Clinical Trials
+Autism Benefit Maximums,exact,3,8,8,ppo_medical,0,0,8,8,0,Autism Spectrum Disorders
+Autism Covered Services,exact,3,8,8,ppo_medical,0,0,8,8,0,Audiologist Services
+Autism Limitations and Exclusions,exact,3,8,8,ppo_medical,0,0,8,8,0,Autism Spectrum Disorders
+Prior Authorization,exact,3,8,8,ppo_medical,0,0,8,8,0,Prescription Drugs
+Controlled Substances,exact,3,8,8,ppo_medical,0,0,8,8,0,
+Cosmetic Drugs,exact,3,8,8,ppo_medical,0,0,8,8,0,
+Medically necessary and appropriate,exact,2,8,8,ppo_medical,8,0,0,8,0,Autism Spectrum Disorders
+Comprehensive and focused on managing and improving the symptoms directly related to a member’s autism spectrum disorder,exact,2,8,8,ppo_medical,8,0,0,0,8,Autism Spectrum Disorders
+Deemed safe and effective by BCBSM,exact,2,8,8,ppo_medical,8,0,0,8,0,Autism Spectrum Disorders
+Physical therapy (see Page 86 for physical therapy services),fuzzy,2,8,8,ppo_medical,8,0,0,8,0,Dental Services
+"Physical therapy, Page 86",fuzzy,2,8,8,ppo_medical,8,0,0,8,0,Home Health Care Services
+"Inpatient and Outpatient Consultations: If a physician needs help diagnosing or treating a member’s condition, we pay for inpatient and outpatient consultations. They must be provided by a professional provider who has the skills or knowledge needed for the consultations.",exact,2,8,8,ppo_medical,8,0,0,0,8,Professional Services
+Lenticular aspheric myodisc,exact,"2,3",7,4,vision,4,0,3,7,0,Eye Exam | Lenses
+Aphakic,exact,"2,3",7,4,vision,4,0,3,7,0,Eye Exam | Lenses
+Lenticular aphakic,exact,"2,3",7,4,vision,4,0,3,7,0,Eye Exam | Lenses
+Lenticular aspheric aphakic,exact,"2,3",7,4,vision,4,0,3,7,0,Eye Exam | Lenses
+"A primary care physician office, home, online, virtual or outpatient visit",exact,2,7,7,"csr_rider,ppo_medical",7,0,0,7,0,BCBSM PPO In-Network Providers | Copayment Requirements
+"A mental health or substance use disorder visit (office, virtual or online visit)",exact,2,7,7,"csr_rider,ppo_medical",7,0,0,1,6,BCBSM PPO In-Network Providers | Copayment Requirements
+Chemotherapeutic drugs.,exact,2,7,7,ppo_medical,7,0,0,7,0,Oncology Clinical Trials
+"If you need another colonoscopy in the same calendar year, you will have to pay your deductible and coinsurance. It can be done by an in-network or out-of-network provider.",exact,2,7,7,ppo_medical,7,0,0,0,7,Preventive Care Services
+"Chemotherapeutic drugs. If Michigan law requires it, we cover these drugs and the reasonable cost of giving them.",exact,2,7,7,ppo_medical,7,0,0,0,7,Oncology Clinical Trials
+"Elective abortion (also known as termination of pregnancy) - Services, devices, drugs or other substances for which federal funding is not available, no matter the location.",exact,2,7,7,ppo_medical,0,7,0,0,7,Prescription Drugs
+"Prescription drug services for the treatment of gender dysphoria that are considered by BCBSM to be cosmetic, or prescription drug treatment that is experimental or investigational.",exact,2,7,7,ppo_medical,0,7,0,0,7,Prescription Drugs
+A licensed behavior analyst (LBA),exact,2,7,7,ppo_medical,7,0,0,7,0,Autism Spectrum Disorders
+The provider must request and receive preapproval for inpatient services,exact,2,7,7,ppo_medical,7,0,0,0,7,Long-Term Acute Care Hospital Services
+Blood tests to evaluate donors (if not covered by t he potential donor’s insurance),exact,2,7,7,ppo_medical,7,0,0,0,7,Oncology Clinical Trials
+Lid evaluation,exact,"2,3",6,4,vision,4,0,2,6,0,Contact Lenses | Frames | Lenses
+Assignment,exact,3,6,6,"dental,vision",0,0,6,6,0,
+Changes in Your Address,exact,3,6,6,"dental,vision",0,0,6,6,0,
+Changes in Your Family,exact,3,6,6,"dental,vision",0,0,6,6,0,
+Changing Your Coverage,exact,3,6,6,"dental,vision",0,0,6,6,0,
+Deductible,exact,3,6,6,"dental,vision",0,0,6,6,0,
+Effective Date,exact,3,6,6,"dental,vision",0,0,6,6,0,
+Entire Contract Changes,exact,3,6,6,"dental,vision",0,0,6,6,0,
+First Priority Security Interest,exact,3,6,6,"dental,vision",0,0,6,6,0,
+"Fraud, Waste and Abuse",exact,3,6,6,"dental,vision",0,0,6,6,0,
+Grace Period,exact,3,6,6,"dental,vision",0,0,6,6,0,
+Grievance and Appeals Process,exact,3,6,6,"dental,vision",0,0,6,6,0,
+How to Terminate Your Coverage,exact,3,6,6,"dental,vision",0,0,6,6,0,
+"If services in a member’s home are billed by a home health care agency, they will not count toward the visit maximums.",exact,2,6,6,ppo_medical,6,0,0,0,6,Home Health Care Services
+Blood glucose monitors,exact,2,6,6,ppo_medical,6,0,0,6,0,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Blood glucose monitors for the legally blind,exact,2,6,6,ppo_medical,6,0,0,6,0,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Insulin pumps,exact,2,6,6,ppo_medical,6,0,0,6,0,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Test strips for glucose monitors,exact,2,6,6,ppo_medical,6,0,0,6,0,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Visual reading and urine test strips,exact,2,6,6,ppo_medical,6,0,0,6,0,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Lancets,exact,2,6,6,ppo_medical,6,0,0,6,0,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Spring-powered lancet devices,exact,2,6,6,ppo_medical,6,0,0,6,0,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Syringes,exact,2,6,6,ppo_medical,6,0,0,6,0,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Insulin,exact,2,6,6,ppo_medical,6,0,0,6,0,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Medical supplies required for the use of an insulin pump,exact,2,6,6,ppo_medical,6,0,0,6,0,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Nonexperimental drugs to control blood sugar,exact,2,6,6,ppo_medical,6,0,0,6,0,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+"Medication prescribed by a podiatric physician, M.D. or D.O. that is used to treat foot ailments, infections and other medical conditions of the foot, ankle or nails associated with diabetes",exact,2,6,6,ppo_medical,6,0,0,0,6,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Diabetic specialty shoes,exact,2,6,6,ppo_medical,6,0,0,6,0,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
+Specialty drugs obtained from any provider other than exclusive pharmacy network for specialty drug.,exact,2,6,6,ppo_medical,0,6,0,0,6,Prescription Drugs
+Blue Cross Blue Shield Global Core Program,exact,3,6,6,ppo_medical,0,0,6,6,0,
+Coinsurance Requirements,exact,3,6,6,"dental,ppo_medical",0,0,6,6,0,
+Certain drugs that may not be covered based on recommendations from BCBSM,exact,2,6,6,ppo_medical,0,6,0,6,0,Prescription Drugs
+"Labeled FDA-approved as defined under the amended Food, Drug and Cosmetic Act and",exact,2,6,6,ppo_medical,6,0,0,0,6,Prescription Drugs
+Used during an inpatient hospital stay or dispensed when part of covered outpatient services,exact,2,6,6,ppo_medical,6,0,0,0,6,Prescription Drugs
+In a participating freestanding ambulatory surgery facility when directly related to surgery (see,exact,2,6,6,ppo_medical,6,0,0,0,6,Prescription Drugs
+As part of home health services when services are provided by a participating hospital (see,exact,2,6,6,ppo_medical,6,0,0,0,6,Prescription Drugs
+Chemical profile,exact,2,6,6,ppo_medical,6,0,0,6,0,Preventive Care Services
+Cholesterol testing,exact,2,6,6,ppo_medical,6,0,0,6,0,Preventive Care Services
+By a lab at your physician’s direction.,exact,2,6,6,ppo_medical,6,0,0,6,0,Diagnostic Services
+The member is receiving skilled nursing care or physical therapy or speech language therapy,exact,2,6,6,ppo_medical,6,0,0,0,6,Home Health Care Services
+In a participating skilled nursing facility (see Page 118),fuzzy,2,6,6,ppo_medical,6,0,0,6,0,Prescription Drugs
+Myodisc,exact,"2,3",5,4,vision,4,0,1,5,0,Lenses
+Lenticular myodisc,exact,"2,3",5,4,vision,4,0,1,5,0,Lenses
+Changes to Your Certificate,exact,3,5,5,"dental,vision",0,0,5,5,0,
+Enforceability of Various Provisions,exact,3,5,5,"dental,vision",0,0,5,5,0,
+Expedited External Review Process,exact,3,5,5,"dental,vision",0,0,5,5,0,
+Expedited Internal Review Process,exact,3,5,5,"dental,vision",0,0,5,5,0,
+In-Network Provider,exact,3,5,4,vision,0,0,5,5,0,
+Blood tests to evaluate donors (if not covered by the potential donor’s insurance),exact,2,5,5,ppo_medical,5,0,0,0,5,Oncology Clinical Trials
+Therapy that is performed without a physical therapy treatment,exact,2,5,5,ppo_medical,0,5,0,5,0,Physical Therapy
+Autism Coverage Requirements,exact,3,5,5,ppo_medical,0,0,5,5,0,Autism Spectrum Disorders
+Immunizations. We pay for vaccines against infection during the first 24 months after a transplant as recommended by the ACIP (Advisory Committee on Immunization Practices).,exact,2,5,5,ppo_medical,5,0,0,0,5,Oncology Clinical Trials
+"Non-specialty drugs obtained from out-of-network mail order providers, including Internet providers.",exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
+Specialty drugs dispensed by a participating mail order provider. Specialty drugs may only be obtained from the exclusive pharmacy network for specialty drugs. See specialty drugs within your certificate for more information.,exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
+Specialty drugs obtained outside our exclusive pharmacy network for specialty drugs,exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
+Prescriptions for quantities of 84 through 90 days that are not provided by a 90-Day Retail,exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
+Any drug we think is experimental or investigational.,exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
+State-controlled drugs,exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
+Any covered drug entirely consumed at the time and place of the prescription,exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
+Administration of covered drugs except for select immunization vaccines,exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
+Anything other than covered drugs and services,exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
+Diagnostic agents,exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
+"Drugs that are not labeled “FDA approved,"" except for insulin, or such drugs that BCBSM designates as covered",exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
+Covered drugs or services that are covered under a medical benefit in a BCBSM certificate you have,exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
+"Drugs or services obtained before the effective date of this contract, or after the contract ends",exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
+Claims for covered drugs or services submitted after the applicable time limit for filing claims,exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
+Support garments or other nonmedical items,exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
+Compounded drugs that contain any bulk chemical powders or ingredients that are not approved by BCBSM,exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
+Over the counter drugs unless coverage is required under the Patient Protection and Affordable,exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
+"Prescription drugs with comparable products available over-the-counter, including but not limited to, cough/cold products",exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
+"Lifestyle drugs, such as but not limited to drugs used for weight loss or erectile dysfunction",exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
+Compounded hormones,exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
+Select high abuse drugs,exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
+Dietary supplements,exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
+Drugs newly approved by the FDA until review and coverage determination by BCBSM,exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
+Non-self-administered injectable drugs (except for select immunization vaccines),exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
+Marijuana (cannabis); medical or otherwise,exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
+Injectable/Infused Drugs,exact,2,5,5,ppo_medical,5,0,0,5,0,Prescription Drugs
+Transplant surgery and related services performed in a nondesignated facility,exact,2,5,5,ppo_medical,0,5,0,5,0,Transplant Services
+Autologous Oncology Clinical Trials,exact,3,5,5,ppo_medical,0,0,5,5,0,Oncology Clinical Trials
+Bone Marrow Transplants,exact,3,5,5,ppo_medical,0,0,5,5,0,Temporary Benefits | Transplant Services
+"Interdisciplinary Evaluation – An interdisciplinary evaluation must occur before a member will be approved for ABA treatment. The interdisciplinary team must include, but is not limited to, a physician, behavior health specialist, and a speech-language specialist. A BCBSM-approved autism evaluation center can perform this evaluation and",exact,2,5,5,ppo_medical,5,0,0,0,5,Autism Spectrum Disorders
+"Prior Authorization – Autism spectrum disorder services must be authorized by BCBSM before treatment is given. If not, you will have to pay for it. See Section 7 for the definition of autism spectrum disorder services which includes a list of service types that require prior authorization.",exact,2,5,5,ppo_medical,5,0,0,0,5,Autism Spectrum Disorders
+Transplants or related services rendered at a non-designated cancer center or its affiliate,exact,2,5,5,ppo_medical,0,5,0,0,5,Oncology Clinical Trials
+Copayment Requirements,exact,3,5,5,"ppo_medical,vision",0,0,5,5,0,
+History,exact,2,4,4,vision,4,0,0,4,0,Eye Exam
+Testing of visual acuity,exact,2,4,4,vision,4,0,0,4,0,Eye Exam
+External exams of the eye,exact,2,4,4,vision,4,0,0,4,0,Eye Exam
+Binocular measure,exact,2,4,4,vision,4,0,0,4,0,Eye Exam
+Ophthalmoscopic examinations,exact,2,4,4,vision,4,0,0,4,0,Eye Exam
+Tonometry (test for glaucoma) when indicated,exact,2,4,4,vision,4,0,0,0,4,Eye Exam
+"Medication for dilating the pupils and desensitizing the eyes for tonometry, if necessary",exact,2,4,4,vision,4,0,0,0,4,Eye Exam
+Summary of findings,exact,2,4,4,vision,4,0,0,4,0,Eye Exam
+Lenses,exact,1,4,4,vision,4,0,0,4,0,
+"Lenses may be molded or ground, glass or plastic.",exact,2,4,4,vision,4,0,0,4,0,Lenses
+The lenses may be colorless or have rose tints #1 or #2 if therapeutically necessary. The provider may charge you for additional tinting other than for necessary rose tints #1 or #2.,exact,2,4,4,vision,4,0,0,0,4,Lenses
+The lens blank of a standard lens must not exceed 60 mm in diameter. The provider may charge you for the difference in cost between standard and oversize lenses.,exact,2,4,4,vision,4,0,0,0,4,Lenses
+Frames,exact,1,4,4,vision,4,0,0,4,0,
+Contact Lenses,exact,1,4,4,vision,4,0,0,4,0,
+Ophthalmoscopy,exact,2,4,4,vision,4,0,0,4,0,Contact Lenses
+Tear test,exact,2,4,4,vision,4,0,0,4,0,Contact Lenses
+Pupil evaluation,exact,2,4,4,vision,4,0,0,4,0,Contact Lenses
+They are the only way to correct vision to 20/70 in the better eye or,exact,2,4,4,vision,4,0,0,0,4,Contact Lenses
+"They are the only effective treatment to correct keratoconus, irregular astigmatism or irregular corneal curvature.",exact,2,4,4,vision,4,0,0,0,4,Contact Lenses
+Antireflective Lenses,fuzzy,"2,3",4,3,vision,1,0,3,4,0,Contact Lenses | Lenses
+Broken or Lost Lenses or Frames,exact,3,4,4,vision,0,0,4,4,0,Contact Lenses
+Coating/Laminating,exact,3,4,4,vision,0,0,4,4,0,Contact Lenses
+Eligibility,exact,3,4,4,vision,0,0,4,4,0,
+Experimental and Investigational Treatment,exact,3,4,4,vision,0,0,4,4,0,
+Experimental or Investigational Services,exact,3,4,4,vision,0,0,4,4,0,
+Experimental Treatment,exact,3,4,4,vision,0,0,4,4,0,
+General conditions of Your Contract,exact,3,4,4,vision,0,0,4,4,0,
+How to Reach VSP,exact,3,4,4,vision,0,0,4,4,0,
+Emergency dental care is the treatment of accidental injuries within 24 hours of the injury. This is to relieve pain and discomfort. We also pay for follow-up treatment completed within six months of the injury.,exact,2,4,4,ppo_medical,4,0,0,0,4,Dental Services
+Physical therapy or (see Page 83 for physical therapy services),fuzzy,2,4,4,ppo_medical,4,0,0,4,0,Dental Services
+Transfer of the dialyzer to another location in the members home,exact,2,4,4,ppo_medical,0,4,0,4,0,Dialysis Services
+"Inpatient and Outpatient Consultations: If a physician needs help diagnosing or treating a member ’s condition, we pay for inpatient and outpatient consultations. They must be provided by a professional provider who has the skills or knowledge needed for the case.",exact,2,4,4,ppo_medical,4,0,0,0,4,Professional Services
+Accidental Dental Injury,exact,3,4,4,ppo_medical,0,0,4,4,0,Contraceptive Services
+Blue Cross Blue Shield Global Core,exact,3,4,4,ppo_medical,0,0,4,4,0,
+Contraceptive Devices,exact,3,4,4,ppo_medical,0,0,4,4,0,
+Cosmetic Surgery,exact,3,4,4,ppo_medical,0,0,4,4,0,Surgery
+Psychiatric care – It includes a psychiatrist’s direct or consulting services. The psychiatrist must be licensed in the state of practice.,exact,2,4,4,ppo_medical,4,0,0,0,4,Autism Spectrum Disorders
+The member is receiving skilled nursing care or physical therapy or speech language therapy services,exact,2,4,4,ppo_medical,4,0,0,0,4,Home Health Care Services
+Newborn examination given by a physician other than the anesthesiologist or the attending physician of the birth parent,exact,2,4,4,ppo_medical,4,0,0,0,4,Maternity Care
+"each visit, including:",exact,2,4,4,ppo_medical,4,0,0,4,0,BCBSM PPO In-Network Providers
+"To avoid out-of-network cost share, obtain your prescribed durable medical equipment and prosthetics, orthotics and medical supplies from an in-network provider. Contact Customer",exact,2,4,4,ppo_medical,4,0,0,0,4,Durable Medical Equipment
+"More than the quantities allowed per prescription of select drugs by BCBSM, unless the prescriber obtains prior authorization from BCBSM. A list of drugs that may have quantity limits is available at the BCBSM website at https://www.bcbsm.com/2026-select-ppo-druglist",exact,2,4,4,ppo_medical,0,4,0,0,4,Prescription Drugs
+In a participating freestanding ESRD facility in conjunction with dialysis services (see Page 52),exact,2,4,4,ppo_medical,4,0,0,0,4,Prescription Drugs
+When required for infusion therapy (see Page 67),exact,2,4,4,ppo_medical,4,0,0,0,4,Prescription Drugs
+In a participating hospice for the comfort of the member (see Page 61),exact,2,4,4,ppo_medical,4,0,0,0,4,Prescription Drugs
+In a participating residential or outpatient substance abuse treatment facility (see Page 71).,exact,2,4,4,ppo_medical,4,0,0,0,4,Prescription Drugs
+Billed by the contracted specialty pharmacy provider and administered by a physician,exact,2,4,4,ppo_medical,4,0,0,4,0,Prescription Drugs
+Certified Nurse Anesthetist (CRNA),exact,3,4,4,ppo_medical,0,0,4,4,0,Ambulance Services
+Preauthorization,exact,3,4,4,ppo_medical,0,0,4,4,0,Prescription Drugs
+Contraceptive Mobile App,exact,2,4,4,ppo_medical,4,0,0,4,0,Preventive Care Services
+"Additional Counseling and Screening Services, including but not limited to:",exact,2,4,4,ppo_medical,4,0,0,4,0,Preventive Care Services
+Genetic counselling and breast cancer genetic testing (BRCA),exact,2,4,4,ppo_medical,4,0,0,4,0,Preventive Care Services
+Rh(D) incompatibility screening,exact,2,4,4,ppo_medical,4,0,0,4,0,Preventive Care Services
+Cervical cancer screening,exact,2,4,4,ppo_medical,4,0,0,4,0,Preventive Care Services
+Sexually transmitted infection screening,exact,2,4,4,ppo_medical,4,0,0,4,0,Preventive Care Services
+HIV counseling and screening,exact,2,4,4,ppo_medical,4,0,0,4,0,Preventive Care Services
+HPV screening,exact,2,4,4,ppo_medical,4,0,0,4,0,Preventive Care Services
+Eight visits for children from birth through 12 months,exact,2,4,4,ppo_medical,4,0,0,4,0,Preventive Care Services
+Six visits for children 13 months through 23 months,exact,2,4,4,ppo_medical,4,0,0,4,0,Preventive Care Services
+Six visits for children 24 months through 35 months,exact,2,4,4,ppo_medical,4,0,0,4,0,Preventive Care Services
+Two visits for children 36 months through 47 months,exact,2,4,4,ppo_medical,4,0,0,4,0,Preventive Care Services
+"Well-child visits after 47 months are limited to one per member, per calendar year under your health maintenance exam benefit.",exact,2,4,4,ppo_medical,4,0,0,0,4,Preventive Care Services
+We pay for local anesthesia only when needed as part of infusion therapy done in an office.,exact,2,4,4,ppo_medical,4,0,0,0,4,Anesthesiology Services
+Diagnostic Observation Schedule,exact,3,4,4,ppo_medical,0,0,4,4,0,
+For bone marrow transplants,exact,3,4,4,ppo_medical,0,0,4,4,0,Transplant Services
+For oncology clinical trials,exact,3,4,4,ppo_medical,0,0,4,4,0,Oncology Clinical Trials
+Infusion pumps,exact,3,4,4,ppo_medical,0,0,4,4,0,Cardiac Rehabilitation
+Spectrum Disorders,exact,3,4,3,ppo_medical,0,0,4,4,0,Audiologist Services
+Class I – Diagnostic and Preventive Services,exact,"1,3",4,2,dental,2,0,2,4,0,Class I – Diagnostic and Preventive Services
+Diagnostic and preventive services,exact,"2,3",4,2,dental,2,0,2,4,0,Class I – Diagnostic and Preventive Services
+Class II – Basic Services,exact,"1,3",4,2,dental,2,0,2,4,0,Class I – Diagnostic and Preventive Services
+Emergency palliative treatment,exact,"2,3",4,2,dental,2,0,2,4,0,Class I – Diagnostic and Preventive Services | Class II – Basic Services
+Class III – Major Services,exact,"1,3",4,2,dental,2,0,2,4,0,Class II – Basic Services
+Complete dentures,exact,"2,3",4,2,dental,2,0,2,4,0,Class III – Major Services
+One eye exam every 12 months,exact,2,3,3,vision,3,0,0,3,0,Frequency
+One pair of frames every 12 months,fuzzy,2,3,3,vision,3,0,0,3,0,Frequency
+"Lenses must be equal in quality to the first-quality lens series made by American Optical, Bausch &",exact,2,3,3,vision,3,0,0,0,3,Lenses
+The lens blank must meet Z80.1 or Z80.2 standards of the American National Standards Institute.,exact,2,3,3,vision,3,0,0,0,3,Lenses
+"If only one lens is needed, we pay half the amount we pay per pair.",exact,2,3,3,vision,3,0,0,0,3,Lenses
+Aphakic Lenses,exact,3,3,3,vision,0,0,3,3,0,
+Blended Lenses,exact,3,3,3,vision,0,0,3,3,0,Contact Lenses
+Copayment Amount,exact,3,3,3,vision,0,0,3,3,0,
+Improper Use of Contract,exact,3,3,3,vision,0,0,3,3,0,
+In Network Providers - Copayments,exact,3,3,3,vision,0,0,3,3,0,
+Applied spectrum disorder services including applied behavior analysis (ABA) is covered subject to the following requirements:,exact,2,3,3,ppo_medical,3,0,0,0,3,Autism Spectrum Disorders
+Services must be medically necessary . Refer to Section 7 for the definition of “medically necessary.”,exact,2,3,3,ppo_medical,3,0,0,0,3,Optometrist Services
+Self-management training is considered medically necessary upon diagnosis by an M.D. or,exact,2,3,3,ppo_medical,3,0,0,3,0,Outpatient Diabetes Management Program (ODMP)
+Administered by the physician or un der the physician’s supervision,exact,2,3,3,ppo_medical,3,0,0,3,0,Prescription Drugs
+"Harvesting (including peripheral blood stem cell pheresi s) and storage of the donor’s bone marrow, peripheral blood stem cell and/or umbilical cord blood, if the donor is:",exact,2,3,3,ppo_medical,3,0,0,0,3,Transplant Services
+"Prenatal care, including maternity education provided in a physician’s office as part of a prenatal visit",exact,2,3,3,ppo_medical,3,0,0,0,3,Maternity Care
+We follow the recommendations of the Advisory Committee on Immunization Practices. We may also follow other sources as known to BCBSM.,exact,2,3,3,ppo_medical,3,0,0,0,3,Preventive Care Services
+We pay for all other immunizations and preventive care benefits required by PPACA at the time the services are performed.,exact,2,3,3,ppo_medical,3,0,0,0,3,Preventive Care Services
+Purging and/or positive stem cell selection of bone marrow or peripheral blood stem cells,exact,2,3,3,ppo_medical,3,0,0,0,3,Transplant Services
+"Drugs, biologicals and solutions used including drugs taken home",exact,2,3,3,ppo_medical,3,0,0,3,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"Any drug or device prescribed for uses or in dosages other than those specifically approved by the Food and Drug Administration. This is often referred to as the off-label use of a drug or device. (However, we will pay for such drugs and the reasonable cost of supplies needed to administer them, if the prescriber can substantiate that the drug is recognized for treatment of the condition for which it was prescribed. See criteria under “Covered Drug” in the “Definition” section.)",exact,2,3,3,ppo_medical,0,3,0,0,3,Prescription Drugs
+"Physical therapy (Page 86), speech language therapy (Page 121) or occupational therapy (Page",exact,2,3,3,ppo_medical,3,0,0,0,3,Skilled Nursing Facility Services
+A combined maximum of 30 habilitative and a combined maximum of 30 rehabilitative outpatient visits per member per member per calendar year.,exact,2,3,3,ppo_medical,3,0,0,0,3,Physical Therapy
+Accidental Injury,exact,3,3,3,"dental,ppo_medical",0,0,3,3,0,
+Anesthesia services may also be covered as part of electroconvulsive therapy (ECT) (see Page,exact,2,3,3,ppo_medical,3,0,0,0,3,Anesthesiology Services
+"If your physician tells you that you need surgery, you may choose to have a presurgical consultation with another physician. The consulting physician must be an MD, DO, podiatric physician or an oral surgeon. The physician must also be an in-network provider.",exact,2,3,3,ppo_medical,3,0,0,0,3,Surgery
+Second opinion — a consultation to confirm the need for surgery,exact,2,3,3,ppo_medical,3,0,0,3,0,Surgery
+Third opinion — allowed if the second opinion differs from the initial proposal for surgery,exact,2,3,3,ppo_medical,3,0,0,0,3,Surgery
+Nonsurgical opinion — given to determine your medical tolerance for the proposed surgery,exact,2,3,3,ppo_medical,3,0,0,0,3,Surgery
+Physician's surgical fee,exact,2,3,3,ppo_medical,3,0,0,3,0,Surgery
+Medical care provided by the surgeon before and after surgery while the member is in the hospital,exact,2,3,3,ppo_medical,3,0,0,0,3,Surgery
+Visits to the attending physician for the usual care before and after surgery,exact,2,3,3,ppo_medical,3,0,0,0,3,Surgery
+"Operating room services, including delivery and surgical treatment rooms",exact,2,3,3,ppo_medical,3,0,0,3,0,Surgery
+Sleep studies and surgeries to diagnose and treat sleep apnea,exact,2,3,3,ppo_medical,3,0,0,3,0,Surgery
+Sterilization of female reproductive organs and male reproductive organs (whether or not medically necessary),exact,2,3,3,ppo_medical,3,0,0,0,3,Surgery
+Cosmetic surgery is only payable for:,exact,2,3,3,ppo_medical,3,0,0,3,0,Surgery
+Blepharoplasty of upper lids,exact,2,3,3,ppo_medical,3,0,0,3,0,Surgery
+Breast reduction,exact,2,3,3,ppo_medical,3,0,0,3,0,Surgery
+Surgical treatment of male gynecomastia,exact,2,3,3,ppo_medical,3,0,0,3,0,Surgery
+Panniculectomy,exact,2,3,3,ppo_medical,3,0,0,3,0,Surgery
+Sleep apnea treatments:,exact,2,3,3,ppo_medical,3,0,0,3,0,Surgery
+Rhinoplasty,exact,2,3,3,ppo_medical,3,0,0,3,0,Surgery
+Septorhinoplasty,exact,2,3,3,ppo_medical,3,0,0,3,0,Surgery
+Dental surgery is only payable for:,exact,2,3,3,ppo_medical,3,0,0,3,0,Surgery
+Hospital (inpatient or outpatient),exact,2,3,3,ppo_medical,3,0,0,3,0,Surgery
+90-Day Retail Pharmacy,exact,3,3,3,ppo_medical,0,0,3,3,0,
+definition,exact,3,3,3,ppo_medical,0,0,3,3,0,
+Allogeneic,exact,3,3,3,ppo_medical,0,0,3,3,0,Temporary Benefits | Transplant Services
+Department of Insurance and Financial Services (DIFS),exact,3,3,3,"dental,vision",0,0,3,3,0,
+Improper Use,exact,3,3,3,"dental,vision",0,0,3,3,0,
+Member,exact,3,3,3,"dental,vision",0,0,3,3,0,
+Fluoride treatments,exact,"2,3",3,2,dental,2,0,1,3,0,Class I – Diagnostic and Preventive Services
+Adjunctive general services,exact,"2,3",3,2,dental,2,0,1,3,0,Class II – Basic Services
+Major restorative services,exact,"2,3",3,2,dental,2,0,1,3,0,Class II – Basic Services | Class III – Major Services
+How We Terminate Your Coverage,exact,3,3,3,"dental,vision",0,0,3,3,0,
+Information About Your Bill,exact,3,3,3,"dental,vision",0,0,3,3,0,
+Lien,exact,3,3,3,"dental,vision",0,0,3,3,0,
+One pair of lenses or contact lenses every 12 months,exact,2,2,2,vision,2,0,0,2,0,Frequency
+Paid Under Other Certificates,exact,3,2,2,vision,0,0,2,2,0,
+(DIFS),exact,3,2,2,vision,0,0,2,2,0,
+"Physical therapy (Page 83), speech language therapy (Page 116) or occupational therapy (Page",exact,2,2,2,ppo_medical,2,0,0,0,2,Skilled Nursing Facility Services
+"More than a 30-day supply of a covered drug unless dispensed by an In-Network Retail 90 pharmacy or In-Network Mail Order pharmacy. We may make exceptions for drugs whose minimal package size prevents a 30-day supply from being dispensed (e.g., inhalers)",exact,2,2,2,ppo_medical,0,2,0,0,2,Prescription Drugs
+Covered Drugs,exact,3,2,2,ppo_medical,0,0,2,2,0,
+"If physical therapy, occupational therapy or speech language therapy and cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy described on pages 73, 86 and 121.",exact,2,2,2,ppo_medical,2,0,0,0,2,Home Health Care Services
+"If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for occupational therapy and physical therapy and the 30-visit maximum for speech language therapy described on pages 71, 83 and 117.",exact,2,2,2,ppo_medical,2,0,0,0,2,Home Health Care Services
+"Physical therapy (Page 83), speech language therapy (Page 117) or occupational therapy (Page",exact,2,2,2,ppo_medical,2,0,0,0,2,Skilled Nursing Facility Services
+"A primary care physician office, home, virtual or outpatient visit",exact,2,2,2,ppo_medical,2,0,0,2,0,BCBSM PPO In-Network Providers
+The birth parent is not covered under this certificate on the newborn’s date of birth,exact,2,2,2,ppo_medical,0,2,0,0,2,Maternity Care
+The newborn is eligible for coverage as a dependent under a BCBSM or other health care benefit plan and has been added as a dependent to that plan.,exact,2,2,2,ppo_medical,0,2,0,0,2,Maternity Care
+The subscriber directs BCBSM not to cover the newborn’s services,exact,2,2,2,ppo_medical,0,2,0,2,0,Maternity Care
+Services provided to the newborn occur after the 48 or 96 hours,exact,2,2,2,ppo_medical,0,2,0,2,0,Maternity Care
+Immunizations. We pay for vaccines against infection during the first 24 months after a transplant as recommended by the Advisory Committee on Immunization Practices (ACIP).,exact,2,2,2,ppo_medical,2,0,0,0,2,Oncology Clinical Trials
+deductible and coinsurance. It can be done by an in-network or out-of-network provider.,exact,2,2,2,ppo_medical,2,0,0,0,2,Preventive Care Services
+BlueCard Worldwide Program,exact,3,2,2,ppo_medical,0,0,2,2,0,
+Medically necessary services professional and facility services for the treatment of gender dysphoria.,exact,2,2,2,ppo_medical,2,0,0,0,2,Gender Affirming Services
+"If services in a member’s home are billed by a professional provider or independent physical therapist, they will count toward the physical therapy benefit maximum.",exact,2,2,2,ppo_medical,2,0,0,0,2,Home Health Care Services
+Correction of deformities present at birth. Congenital deformities of the teeth are not covered.,exact,2,2,2,ppo_medical,2,0,0,0,2,Surgery
+Correction of deformities resulting from cancer surgery including reconstructive surgery after a mastectomy,exact,2,2,2,ppo_medical,2,0,0,0,2,Surgery
+"Conditions caused by accidental injuries, and",exact,2,2,2,ppo_medical,2,0,0,2,0,Surgery
+Traumatic scars,exact,2,2,2,ppo_medical,2,0,0,2,0,Surgery
+Multiple extractions or removal of unerupted teeth or alveoloplasty when:,exact,2,2,2,ppo_medical,2,0,0,0,2,Surgery
+"A hospitalized member has a dental condition that is adversely affecting a medical condition, and",exact,2,2,2,ppo_medical,2,0,0,0,2,Surgery
+Ambulatory Infusion Center,exact,3,2,2,ppo_medical,0,0,2,2,0,
+Medical records must confirm the need for the dental services above.,exact,2,2,2,ppo_medical,2,0,0,0,2,Dental Services
+The consultation will be paid for if the surgery you plan to have is covered under this certificate and will be done in a covered location (see above).,exact,2,2,2,ppo_medical,2,0,0,0,2,Surgery
+You are limited to three presurgical consultations for each surgical diagnosis. The three consultations consist of a:,exact,2,2,2,ppo_medical,2,0,0,0,2,Surgery
+"Technical surgical assistance (TSA ): In some cases, a surgeon will need another physician to give them technical assistance. We pay the approved amount for TSA, according to our guidelines.",exact,2,2,2,ppo_medical,2,0,0,0,2,Surgery
+A licensed psychologist,exact,2,2,2,ppo_medical,2,0,0,2,0,Autism Spectrum Disorders
+Dental injury,exact,3,2,1,ppo_medical,0,0,2,2,0,Contraceptive Services
+Requirements,exact,3,2,2,ppo_medical,0,0,2,2,0,
+Contraceptive Injections,exact,3,2,2,ppo_medical,0,0,2,2,0,Preventive Care Services
+Progressive lenses,exact,2,2,2,vision,2,0,0,2,0,Lenses
+Changes in Your Certificate,exact,3,2,2,vision,0,0,2,2,0,
+Cosmetic Lenses/Processes,exact,3,2,2,vision,0,0,2,2,0,Contact Lenses
+Medical Necessity,exact,3,2,2,vision,0,0,2,2,0,
+Medically Necessary,exact,3,2,2,vision,0,0,2,2,0,
+Medically Unnecessary Services,exact,3,2,2,vision,0,0,2,2,0,
+Medical-Surgical Treatment,exact,3,2,2,vision,0,0,2,2,0,Contact Lenses
+Medicare,exact,3,2,2,vision,0,0,2,2,0,
+Medications,exact,3,2,2,vision,0,0,2,2,0,Contact Lenses
+Notification,exact,3,2,2,vision,0,0,2,2,0,
+Physical therapy (see Page 91 for physical therapy services),exact,2,2,2,ppo_medical,2,0,0,2,0,Dental Services
+"Physical therapy, Page 91",exact,2,2,2,ppo_medical,2,0,0,2,0,Home Health Care Services
+Benefit Maximums,exact,3,2,2,ppo_medical,0,0,2,2,0,Autism Spectrum Disorders
+Autologous,exact,3,2,2,ppo_medical,0,0,2,2,0,Transplant Services
+"Mental health and substance use disorder visits (office, virtual or online visits)",exact,2,2,2,"csr_rider,ppo_medical",2,0,0,1,1,BCBSM PPO In-Network Providers | Copayment Requirements
+Oral examinations/evaluations,exact,2,2,2,dental,2,0,0,2,0,Class I – Diagnostic and Preventive Services
+Prophylaxes,exact,2,2,2,dental,2,0,0,2,0,Class I – Diagnostic and Preventive Services
+Bitewing radiographs (X-rays) and individual periapical films,exact,2,2,2,dental,2,0,0,2,0,Class I – Diagnostic and Preventive Services
+Oral brush biopsy sample collection,exact,2,2,2,dental,2,0,0,2,0,Class I – Diagnostic and Preventive Services
+Other diagnostic and preventive services:,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Diagnostic tests and laboratory examinations,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Dental sealants,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Space maintainers,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Full-mouth and panoramic radiographs (X ‐ rays),exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Minor restorative services,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Amalgam and resin based composite fillings and fillings of similar materials,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+"Recementation or repair of posts, crowns, veneers, inlays and onlays",exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Simple extractions,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Non-surgical endodontic services,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Root canal treatments on permanent teeth and on primary teeth without permanent successors,exact,2,2,2,dental,2,0,0,0,2,Class II – Basic Services
+Therapeutic pulpotomies or pulpal debridement,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Vital pulpotomies on primary teeth,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Non-surgical periodontic services,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Periodontal maintenance following periodontal scaling and root planing or surgical periodontal treatment,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+"General anesthesia or IV sedation in connection with oral surgery, when medically or dentally necessary as determined by BCBSM. To be considered necessary, one of the following criteria must be met:",exact,2,2,2,dental,2,0,0,0,2,Class II – Basic Services
+Significant cellulitis or swelling and the associated inability to open the mouth fully does not allow the use of local anesthesia at the site of the injection,exact,2,2,2,dental,2,0,0,0,2,Class II – Basic Services
+"Treatment is for bilateral alveolectomy, bilateral alveoloplasty, bilateral surgical exposures or bilateral tori",exact,2,2,2,dental,2,0,0,0,2,Class II – Basic Services
+Six or more teeth in various quadrants are removed on the same date of service,exact,2,2,2,dental,2,0,0,0,2,Class II – Basic Services
+Two or more impacted teeth are removed on the same date of service,exact,2,2,2,dental,2,0,0,0,2,Class II – Basic Services
+Four third molars are removed on the same date of service,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Patient is medically impaired or compromised,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Patient is allergic to local anesthesia,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Patient is younger than age seven,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Office visits after regularly scheduled hours,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Consultations by dentists not providing treatment,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Basic prosthodontic services,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+"Adjustments, repairs, relines, rebases and tissue conditioning for prosthodontic appliances",exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+Recementation of fixed bridges,exact,2,2,2,dental,2,0,0,2,0,Class II – Basic Services
+"Onlays, crowns and veneers, but only when a tooth cannot be restored with materials such as amalgam or resin based composite fillings",exact,2,2,2,dental,2,0,0,0,2,Class III – Major Services
+"Substructures, including cores with or without pins and posts with cores or pins",exact,2,2,2,dental,2,0,0,0,2,Class III – Major Services
+Oral surgery services,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Surgical and impacted tooth extractions and root removal,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Surgical exposure and facilitation of eruption of unerupted teeth,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Incision and drainage of cellulitis or fascial space abscesses of intraoral soft tissue,exact,2,2,2,dental,2,0,0,0,2,Class III – Major Services
+Alveoloplasty needed to prepare for a denture,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Removal of exostoses (excess bony growths of the upper and lower jaw),exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Excision of hyperplastic tissue per arch,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Frenulectomies,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Surgical endodontic services,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Apical surgeries on permanent teeth,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Hemisections,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Surgical periodontic services,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Gingivectomies and gingivoplasties,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Gingival flap procedures,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Soft tissue grafts,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Prosthodontic services,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+"Removable partial dentures and fixed partial dentures (bridges), including abutment crowns and pontics",exact,2,2,2,dental,2,0,0,0,2,Class III – Major Services
+"Porcelain, ceramic and cast metal retainers for resin-bonded bridges",exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Repairs of bridges,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Stayplates to replace recently extracted permanent anterior (front) teeth,exact,2,2,2,dental,2,0,0,2,0,Class III – Major Services
+Abutment,exact,3,2,2,dental,0,0,2,2,0,
+Adjustments,exact,3,2,2,dental,0,0,2,2,0,Class II – Basic Services
+Amalgam Fillings,exact,3,2,2,dental,0,0,2,2,0,Class I – Diagnostic and Preventive Services
+Amount Billed,exact,3,2,2,dental,0,0,2,2,0,
+Bridges,exact,3,2,2,dental,0,0,2,2,0,Class I – Diagnostic and Preventive Services
+By Report,exact,3,2,2,dental,0,0,2,2,0,
+Choosing A Dentist,exact,3,2,2,dental,0,0,2,2,0,
+Composite Fillings,exact,3,2,2,dental,0,0,2,2,0,Class I – Diagnostic and Preventive Services
+Course of Treatment,exact,3,2,2,dental,0,0,2,2,0,
+Crowns,exact,3,2,2,dental,0,0,2,2,0,Class I – Diagnostic and Preventive Services
+Deductible Requirements,exact,3,2,2,dental,0,0,2,2,0,
+Dentally Appropriate,exact,3,2,2,dental,0,0,2,2,0,
+Dentally Necessary,exact,3,2,2,dental,0,0,2,2,0,
+Dentist,exact,3,2,2,dental,0,0,2,2,0,
+Dentist of Choice,exact,3,2,2,dental,0,0,2,2,0,
+Diagnostic Tests,exact,3,2,2,dental,0,0,2,2,0,Class I – Diagnostic and Preventive Services
+Endodontic Services,exact,3,2,2,dental,0,0,2,2,0,Class II – Basic Services
+Explanation of Benefits (EOB),exact,3,2,2,dental,0,0,2,2,0,
+Filing Claims,exact,3,2,2,dental,0,0,2,2,0,
+General Anesthesia,exact,3,2,2,dental,0,0,2,2,0,Class II – Basic Services
+Hygienist,exact,3,2,2,dental,0,0,2,2,0,
+Inlays,exact,3,2,2,dental,0,0,2,2,0,Class I – Diagnostic and Preventive Services
+IV Sedation,exact,3,2,2,dental,0,0,2,2,0,Class II – Basic Services
+House and hospital calls,exact,"2,3",2,1,dental,1,0,1,2,0,Class II – Basic Services
+Antibiotic injections,exact,"2,3",2,1,dental,1,0,1,2,0,Class II – Basic Services
+$150 allowance for frames or elective contact lenses,exact,2,1,1,vision,1,0,0,1,0,Frequency
+"If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for occupational therapy and physical therapy and the 30-visit maximum for speech language therapy described on pages 71, 83 and 116.",exact,2,1,1,ppo_medical,1,0,0,0,1,Home Health Care Services
+"The service must be provided in a vehicle licensed as a ground or air ambulance, and which is part of a licensed ambulance operation.",exact,2,1,1,ppo_medical,0,1,0,0,1,Ambulance Services
+"To avoid out-of-network cost share, obtain your prescribed durable medical equipment, medical supplies, prosthetics and orthotics, from an in-network provider. Contact Customer",exact,2,1,1,ppo_medical,1,0,0,0,1,Durable Medical Equipment
+"If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy services described on pages 69, 81 and",exact,2,1,1,ppo_medical,1,0,0,0,1,Home Health Care Services
+Short-term general inpatient care when the member is admitted for pain control or to manage symptoms,exact,2,1,1,ppo_medical,1,0,0,0,1,Hospice Care Services
+"Physical therapy, speech language therapy services and occupational therapy when provided to control symptoms and maintain a member’s daily activities and basic functional skills",exact,2,1,1,ppo_medical,1,0,0,0,1,Hospice Care Services
+"Drugs required for infusion therapy. Since specialty pharmaceuticals may be used in infusion therapy, please see the Prior Authorization for Specialty Pharmaceuticals requirement described on Page 101.",exact,2,1,1,ppo_medical,1,0,0,0,1,Infusion Therapy
+"More than the quantities allowed per prescription of select drugs by BCBSM, unless the prescriber obtains prior authorization from BCBSM. A list of drugs that may have quantity limits is available at the BCBSM website at https://www.bcbsm.com/2025-select-ppo-druglist",exact,2,1,1,ppo_medical,0,1,0,0,1,Prescription Drugs
+Any drug or device prescribed for uses or in dosages other than those specifically approved by the Food and Drug Administration. This is often referred to as the off-label use of a drug or device.,exact,2,1,1,ppo_medical,0,1,0,0,1,Prescription Drugs
+In a participating freestanding ESRD facility in conjunction with dialysis services (see Page 48),exact,2,1,1,ppo_medical,1,0,0,0,1,Prescription Drugs
+When required for infusion therapy (see Page 63),exact,2,1,1,ppo_medical,1,0,0,0,1,Prescription Drugs
+In a participating hospice for the comfort of the member (see Page 57),exact,2,1,1,ppo_medical,1,0,0,0,1,Prescription Drugs
+In a participating residential or outpatient substance abuse treatment facility (see Page 67),exact,2,1,1,ppo_medical,1,0,0,0,1,Prescription Drugs
+Specialty Pharmaceuticals: We pay for approved specialty drugs when:,exact,2,1,1,ppo_medical,1,0,0,0,1,Prescription Drugs
+"Physical therapy (Page 81), speech language therapy (Page 113) or occupational therapy (Page",exact,2,1,1,ppo_medical,1,0,0,0,1,Skilled Nursing Facility Services
+Therapy billed as an habilitative service when it does not meet the definition of rehabilitative service in this certificate,exact,2,1,1,ppo_medical,0,1,0,0,1,Speech Language Therapy
+BlueCard - Travel,exact,3,1,1,ppo_medical,0,0,1,1,0,
+Chemotherapy Prior Authorization,exact,3,1,1,ppo_medical,0,0,1,1,0,Prescription Drugs
+Chemotherapy Specialty Pharmaceuticals,exact,3,1,1,ppo_medical,0,0,1,1,0,Prescription Drugs
+"diagnostic laboratory and pathology services in an outpatient hospital, independent laboratory, or physician’s office",exact,2,1,1,ppo_medical,1,0,0,0,1,BCBSM PPO In-Network Providers
+"diagnostic laboratory and pathology services an outpatient hospital, independent laboratory or physician ’ s office.",exact,2,1,1,ppo_medical,1,0,0,0,1,BCBSM PPO In-Network Providers
+CRNA services must be:,exact,2,1,1,ppo_medical,1,0,0,0,1,Anesthesiology Services
+"Interdisciplinary Evaluation – An interdisciplinary evaluation must occur before a member will be approved for ABA treatment. The interdisciplinary team must include, but is not limited to, a physician, behavior health specialist, and a speech language specialist. A BCBS-approved autism evaluation center can perform this evaluation and",exact,2,1,1,ppo_medical,1,0,0,0,1,Autism Spectrum Disorders
+Prior Authorization – Autism spectrum disorder services must be authorized by,exact,2,1,1,ppo_medical,1,0,0,0,1,Autism Spectrum Disorders
+Autism spectrum disorder services (including ABA) when performed by a participation LBA or other provider acting within their scope of practice.,exact,2,1,1,ppo_medical,1,0,0,0,1,Autism Spectrum Disorders
+"Services provided by a qualified provider, including but not limited to physician, fully licensed psychologist, certified nurse practitioner, clinical nurse specialist-certified, clinical licensed master’s social worker, licensed professional counselor, limited licensed psychologists, or licensed marriage and family therapist, or other professional provider as determined by BCBSM",exact,2,1,1,ppo_medical,1,0,0,0,1,Behavioral Health Services (Mental Health and Substance Use Disorder)
+"If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy services described on pages 75, 87 and 124.",exact,2,1,1,ppo_medical,1,0,0,0,1,Home Health Care Services
+"Physical therapy, speech language therapy services, and occupational therapy when provided to control symptoms and maintain the member’s daily activities and basic functional skills",exact,2,1,1,ppo_medical,1,0,0,0,1,Hospice Care Services
+More than a 30-day supply of covered drugs within 60 days of the end of the plan year,exact,2,1,1,ppo_medical,0,1,0,0,1,Prescription Drugs
+"Any drug or device prescribed for uses or in dosages other than those specifically approved by the Food and Drug Administration. This is often referred to as the off-label use of a drug or device. (However, we will pay for such drugs and the reasonable cost of supplies needed to administer them, if the prescriber can substantiate that the drug is recognized for treatment of the co ndition for which it was prescribed. See criteria under “Covered Drug” in the “Definition” section)",exact,2,1,1,ppo_medical,0,1,0,0,1,Prescription Drugs
+"If an in-network provider does a covered preventive test, and a Michigan out-of-network provider reads and interprets the test results, we will pay the claim from the Michigan out-of-network provider as if it were an in-network claim. You will not have to pay your out-of-network cost",exact,2,1,1,ppo_medical,1,0,0,0,1,Preventive Care Services
+"Physical therapy (Page 87), speech language therapy (Page 124) or occupational therapy (Page",exact,2,1,1,ppo_medical,1,0,0,0,1,Skilled Nursing Facility Services
+Prescribed by a professional provider licensed to prescribe speech language therapy services.,exact,2,1,1,ppo_medical,1,0,0,1,0,Speech Language Therapy
+"Given for a condition that can be significantly improved in a reasonable and generally predictable period of time (usually about six months), or to optimize the developmental potential of the member and/or maintain the member ’s level of functioning",exact,2,1,1,ppo_medical,1,0,0,0,1,Speech Language Therapy
+Given by:,exact,2,1,1,ppo_medical,1,0,0,1,0,Speech Language Therapy
+A speech language pathologist certified by the American Speech-Language-Hearing,exact,2,1,1,ppo_medical,1,0,0,1,0,Speech Language Therapy
+Autism Spectrum Disorders - Benefit Maximums,exact,3,1,1,ppo_medical,0,0,1,1,0,Autism Spectrum Disorders
+Autism Spectrum Disorders- Covered Services,exact,3,1,1,ppo_medical,0,0,1,1,0,Audiologist Services
+"If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy services described on Pages 71, 83 and 117.",exact,2,1,1,ppo_medical,1,0,0,0,1,Home Health Care Services
+"Physical therapy, speech language therapy, and occupational therapy services when provided to control symptoms and maintain the member’s daily activities and basic functional skills",exact,2,1,1,ppo_medical,1,0,0,0,1,Hospice Care Services
+"Services of a freestanding facility provided to you while you are an inpatient in a hospital, skilled nursing facility or residential substance abuse treatment program",exact,2,1,1,ppo_medical,0,1,0,0,1,Occupational Therapy
+In a participating freestanding ESRD facility in conjunction with dialysis services (see Page 50),exact,2,1,1,ppo_medical,1,0,0,0,1,Prescription Drugs
+When required for infusion therapy (see Page 65),exact,2,1,1,ppo_medical,1,0,0,0,1,Prescription Drugs
+In a participating hospice for the comfort of the member (see Page 59),exact,2,1,1,ppo_medical,1,0,0,0,1,Prescription Drugs
+In a participating residential or outpatient substance abuse treatment facility (see Page 29).,exact,2,1,1,ppo_medical,1,0,0,0,1,Prescription Drugs
+"One routine screening colonoscopy once per member per calendar year, when performed by an in- network provider. This service is not subject to any deductible, coinsurance or copayment requirements.",exact,2,1,1,ppo_medical,1,0,0,0,1,Preventive Care Services
+The consultation will be paid for if the surgery you plan to have is covered under this certificate and will be done in a covered location (see above). Consultations consist of a:,exact,2,1,1,ppo_medical,1,0,0,0,1,Surgery
+Treatment of the dental condition is expected to improve the medical condition (see Page 45 for examples),exact,2,1,1,ppo_medical,1,0,0,0,1,Surgery
+"Surgery and treatment related to the treatment of temporomandibular joint (jaw joint) dysfunction (TMJ), see Page 47.",exact,2,1,1,ppo_medical,1,0,0,0,1,Surgery
+"Technical surgical assistance (TSA): In some cases, a surgeon will need another physician to give them technical assistance. We pay the approved amount for TSA, according to our guidelines. The surgery can be done in a:",exact,2,1,1,ppo_medical,1,0,0,0,1,Surgery
+"We pay for facility services in a participating ambulatory surgery center. You must be under the care of a licensed doctor of medicine, osteopathy, podiatry or oral surgery. The services must be directly related to the covered surgery.",exact,2,1,1,ppo_medical,0,1,0,0,1,Surgery
+Coverage Requirements,exact,3,1,1,ppo_medical,0,0,1,1,0,Autism Spectrum Disorders
+Limitations and Exclusions,exact,3,1,1,ppo_medical,0,0,1,1,0,Autism Spectrum Disorders
+Procedures that are payable in the circumstances explained above include:,exact,2,1,1,ppo_medical,1,0,0,1,0,Dental Services
+"If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy described on Pages 71, 84 and 119.",exact,2,1,1,ppo_medical,1,0,0,0,1,Home Health Care Services
+Harvesting (including peripheral blood stem cell phereses) and storage of bone marrow and/or peripheral blood stem cells,exact,2,1,1,ppo_medical,1,0,0,0,1,Oncology Clinical Trials
+Visits through age 18 as follows:,exact,2,1,1,ppo_medical,1,0,0,1,0,Preventive Care Services
+"The following services once per member, per calendar year, when performed as routine screening:",exact,2,1,1,ppo_medical,1,0,0,0,1,Preventive Care Services
+Hospital and physician benefits for colonoscopy services are payable at 100% of the BCBSM approved amount as follows:,exact,2,1,1,ppo_medical,1,0,0,0,1,Preventive Care Services
+"Physical therapy (Page 84), speech language therapy (Page 119) or occupational therapy (Page",exact,2,1,1,ppo_medical,1,0,0,0,1,Skilled Nursing Facility Services
+"Treatment solely to improve cognition (e.g., memory or perception), concentration and/or attentiveness, organizational or problem-solving skills, academic skills, impulse control or other behaviors for which behavior modification is sought without speech language therapy treatment plan that guides and helps to monitor the provided therapy",exact,2,1,1,ppo_medical,0,1,0,0,1,Speech Language Therapy
+Treatment of the dental condition is expected to improve the medical condition (see Page 43 for examples),exact,2,1,1,ppo_medical,1,0,0,0,1,Surgery
+"Surgery and treatment related to the treatment of temporomandibular joint (jaw joint) dysfunction (TMJ), see Page 46.",exact,2,1,1,ppo_medical,1,0,0,0,1,Surgery
+"If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy described on Pages 73, 85 and 121.",exact,2,1,1,ppo_medical,1,0,0,0,1,Home Health Care Services
+"Other than those furnished by the hospice program. (Remember, the services covered are those provided primarily in connection with the condition causing the member’s terminal illness.)",exact,2,1,1,ppo_medical,0,1,0,0,1,Hospice Care Services
+"More than the combined 30 habilitative and the combined 30 rehabilitative outpatient visits for physical therapy and occupational therapy per member per calendar year (see above about combined benefit), whether obtained from an in-network or out-of-network provider.",exact,2,1,1,ppo_medical,0,1,0,0,1,Physical Therapy
+"Physical therapy (Page 85), speech language therapy (Page 121) or occupational therapy (Page",exact,2,1,1,ppo_medical,1,0,0,0,1,Skilled Nursing Facility Services
+Bariatric surgery is limited to one per member per lifetime,exact,2,1,1,ppo_medical,1,0,0,1,0,Surgery
+Certified Nurse Anesthetist,exact,3,1,1,ppo_medical,0,0,1,1,0,Ambulance Services
+A virtual primary care visit,exact,2,1,1,ppo_medical,1,0,0,1,0,BCBSM PPO In-Network Providers
+Outpatient mental health,exact,2,1,1,ppo_medical,1,0,0,1,0,Autism Spectrum Disorders
+"Covered services include, but not limited to, the following:",exact,2,1,1,ppo_medical,1,0,0,1,0,Gender Affirming Services
+"If physical therapy, occupational therapy or speech language therapy cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for occupational therapy and physical therapy and the 30-visit maximum for speech language therapy described on pages",exact,2,1,1,ppo_medical,1,0,0,0,1,Home Health Care Services
+"For a member with a BMI of 30 or above, we pay for 26 visits per member per calendar year. Visits can include nutritional counseling, such as dietician services, billed by professional provider recognized by BCBSM.",exact,2,1,1,ppo_medical,1,0,0,0,1,Preventive Care Services
+One pair of lenses every 12 months,exact,2,1,1,vision,1,0,0,1,0,Frequency
+Contact lenses every 12 months,exact,2,1,1,vision,1,0,0,1,0,Frequency
+$150 allowance for frames,exact,2,1,1,vision,1,0,0,1,0,Frequency
+$150 elective contact lenses,exact,2,1,1,vision,1,0,0,1,0,Frequency
+"Lenses must be equal in quality to the first-quality lens series made by American Optical,",exact,2,1,1,vision,1,0,0,0,1,Lenses
+The lens blank must meet Z80.1 or Z80.2 standards of the American National Standards,exact,2,1,1,vision,1,0,0,0,1,Lenses
+UV coating,exact,2,1,1,vision,1,0,0,1,0,Lenses
+Photochromatic lenses,exact,2,1,1,vision,1,0,0,1,0,Lenses
+$130 allowance for frames or elective contact lenses,exact,2,1,1,vision,1,0,0,1,0,Frequency
+Lein,exact,3,1,1,vision,0,0,1,1,0,
+Medically Appropriate,exact,3,1,1,vision,0,0,1,1,0,
+"To avoid out-of-network cost share, obtain your prescribed durable medical equipment, prosthetics, orthotics, and medical supplies from an in-network provider. Contact Customer Service to locate a provider in your network.",exact,2,1,1,ppo_medical,1,0,0,0,1,Durable Medical Equipment
+"If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for occupational therapy and physical therapy and the 30-visit maximum for speech language therapy described on",exact,2,1,1,ppo_medical,1,0,0,0,1,Home Health Care Services
+"Drugs required for infusion therapy. Since specialty pharmaceuticals may be used in infusion therapy, please see the P rior Authorization for Specialty Pharmaceuticals requirement described on",exact,2,1,1,ppo_medical,1,0,0,0,1,Infusion Therapy
+Prior Authorization for Specialty Pharmaceuticals,exact,2,1,1,ppo_medical,1,0,0,1,0,Prescription Drugs
+"Physical therapy (Page 91), speech language therapy (Page 125) or occupational therapy (Page",exact,2,1,1,ppo_medical,1,0,0,0,1,Skilled Nursing Facility Services
+Allogeneic transplants and autologous transplants are covered to treat only certain,exact,2,1,1,ppo_medical,1,0,0,1,0,Transplant Services
+BCBSM-designated providers in Michigan,exact,2,1,1,ppo_medical,1,0,0,1,0,Value Based Programs
+Evaluation Center,exact,3,1,1,ppo_medical,0,0,1,1,0,
+"A physical therapy, occupational therapy or speech language therapy visit",exact,2,1,1,ppo_medical,1,0,0,1,0,BCBSM PPO In-Network Providers
+BCBSM PPO Out-of-Network Providers,exact,1,1,1,ppo_medical,1,0,0,1,0,
+Hospitals and Other Facilities,exact,2,1,1,ppo_medical,1,0,0,1,0,BCBSM PPO Out-of-Network Providers
+Physicians and Other Professional Providers,exact,2,1,1,ppo_medical,1,0,0,1,0,BCBSM PPO Out-of-Network Providers
+Services given when intensive monitoring and/or supervision during exercise is required. Services may be given in:,exact,2,1,1,ppo_medical,1,0,0,0,1,Cardiac Rehabilitation
+"If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy described on Pages 77, 91 and 127.",exact,2,1,1,ppo_medical,1,0,0,0,1,Home Health Care Services
+"Ostomy sets and accessories, catheterization equipment and urinary sets",exact,2,1,1,ppo_medical,1,0,0,1,0,Medical Supplies
+Refills of prescriptions for covered drugs that exceed BCBSM’s limits:,exact,2,1,1,ppo_medical,0,1,0,1,0,Prescription Drugs
+BCBSM does not cover refills that are dispensed before 75% of the time the prescription covers has elapsed.,exact,2,1,1,ppo_medical,0,1,0,0,1,Prescription Drugs
+BCBSM does not cover more refills than your prescription allows.,exact,2,1,1,ppo_medical,0,1,0,0,1,Prescription Drugs
+BCBSM does not cover more than a 30-day supply of covered drugs within 60 days of the end of the plan year.,exact,2,1,1,ppo_medical,0,1,0,0,1,Prescription Drugs
+"Physical therapy (Page 91), speech language therapy (Page 127) or occupational therapy (Page",exact,2,1,1,ppo_medical,1,0,0,0,1,Skilled Nursing Facility Services
+Blood tests on first degree relatives to evaluate them as donors Search of the National Bone,exact,2,1,1,ppo_medical,1,0,0,0,1,Transplant Services
+90-Day Retail Network Pharmacy,exact,3,1,1,ppo_medical,0,0,1,1,0,
+"If physical therapy, occupational therapy or speech language therapy and cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy described on pages 73, 86 and 120.",exact,2,1,1,ppo_medical,1,0,0,0,1,Home Health Care Services
+"Physical therapy (Page 86), speech language therapy (Page 120) or occupational therapy (Page",exact,2,1,1,ppo_medical,1,0,0,0,1,Skilled Nursing Facility Services
+BlueCard PPO Program,exact,3,1,1,ppo_medical,0,0,1,1,0,
+Periodontal scaling and root planing,exact,2,1,1,dental,1,0,0,1,0,Class III – Major Services
+Limitations,exact,3,1,1,dental,0,0,1,1,0,
+Office visits for observation (during regularly scheduled hours),exact,2,1,1,dental,1,0,0,1,0,Class II – Basic Services
+Limited occlusal adjustments,exact,2,1,1,dental,1,0,0,1,0,Class II – Basic Services
+Occlusal biteguards,exact,2,1,1,dental,1,0,0,1,0,Class II – Basic Services
+Osseous surgeries,exact,2,1,1,dental,1,0,0,1,0,Class III – Major Services
+Bone replacement grafts,exact,2,1,1,dental,1,0,0,1,0,Class III – Major Services
+Localized delivery of antimicrobial agents,exact,2,1,1,dental,1,0,0,1,0,Class III – Major Services
+Adjunctive G eneral Services,exact,3,1,1,dental,0,0,1,1,0,Class II – Basic Services
+Annual Benefit Maximum,exact,3,1,1,dental,0,0,1,1,0,
+Antimicrobial Agents,exact,3,1,1,dental,0,0,1,1,0,
+One eye exam every calendar year,exact,2,1,1,vision,1,0,0,1,0,Frequency
+One pair of lenses or contact lenses every calendar year,exact,2,1,1,vision,1,0,0,1,0,Frequency
+One pair of frames every calendar year,exact,2,1,1,vision,1,0,0,1,0,Frequency
+"If only one lens is needed, we pay half the amount we would pay for a pair.",exact,2,1,1,vision,1,0,0,0,1,Lenses
+Polycarbonate lenses for children through 18 years of age,exact,2,1,1,vision,1,0,0,1,0,Lenses
+Polycarbonate lenses,exact,2,1,1,vision,1,0,0,1,0,Lenses
+Ultraviolet protective coating,exact,2,1,1,vision,1,0,0,1,0,Lenses
+Anti reflective coating,exact,2,1,1,vision,1,0,0,1,0,Lenses
+Photochromatic glass lenses,exact,2,1,1,vision,1,0,0,1,0,Lenses
+Plastic photosensitive lenses (Transitions®),exact,2,1,1,vision,1,0,0,1,0,Lenses
+Polarized lenses,exact,2,1,1,vision,1,0,0,1,0,Lenses
+Intermediate vision lenses,exact,2,1,1,vision,1,0,0,1,0,Lenses
+Hi index lenses,exact,2,1,1,vision,1,0,0,1,0,Lenses
+Standard (one pair annually),exact,2,1,1,vision,1,0,0,1,0,Contact Lenses
+Monthly (six-month supply),exact,2,1,1,vision,1,0,0,1,0,Contact Lenses
+Bi-weekly (three-month supply),exact,2,1,1,vision,1,0,0,1,0,Contact Lenses
+Dailies (three-month supply),exact,2,1,1,vision,1,0,0,1,0,Contact Lenses
+Act of War,exact,3,1,1,vision,0,0,1,1,0,Contact Lenses
+Other Certificates,exact,3,1,1,vision,0,0,1,1,0,
+Non-pediatric Members,exact,3,1,1,vision,0,0,1,1,0,

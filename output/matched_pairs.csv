@@ -1,0 +1,79 @@
+corpus_canonical_name,tree_benefit_name,match_type,score,corpus_total_mentions
+Psychological testing,Psychological testing,exact,100,92
+Durable medical equipment,Durable medical equipment,exact,100,45
+Recreational therapy,0941 - Recreational therapy,exact,100,42
+Prosthetics and orthotics,Prosthetics and orthotics,exact,100,31
+Diagnostic X-rays,Diagnostic X-ray,exact,100,28
+Custodial care,Custodial care,exact,100,27
+Diagnostic Services,Diagnostic services,exact,100,27
+Diagnostic Services,Diagnostic Services,exact,100,27
+Chemotherapy,Chemotherapy,exact,100,27
+Physical Therapy,Physical therapy,exact,100,26
+Occupational Therapy,Occupational therapy,exact,100,26
+Cardiac Rehabilitation,Cardiac rehabilitation,exact,100,25
+Immunizations,Immunizations,exact,100,17
+Colonoscopy,Colonoscopy,exact,100,16
+Behavioral health services,Behavioral health services,exact,100,15
+Allergy Testing,0924 - Allergy Test,exact,100,14
+Allergy Testing,Allergy Testing,exact,100,14
+Inpatient Hospital,Inpatient hospital,exact,100,14
+Dialysis Services,Dialysis services,exact,100,14
+Ultrafiltration,0881 - Ultrafiltration,exact,100,14
+Electricity or water used to operate the dialyzer,Electricity or water used to operate the dialyzer,exact,100,14
+"Installation of electric power, a water supply or a sanitary waste disposal system","Installation of electric power, a water supply, or a sanitary waste disposal system",exact,100,14
+Private duty nursing,Private duty nursing,exact,100,14
+Infertility Treatment,Infertility treatment,exact,100,14
+Artificial insemination,Artificial insemination,exact,100,14
+In vitro fertilization,In Vitro Fertilization,exact,100,14
+Maternity Care,Maternity care,exact,100,14
+Newborn Care,Newborn care,exact,100,14
+"Office, Outpatient and Home Medical Care Visits","Office, outpatient and home medical care visits",exact,100,14
+Optometrist Services,Optometrist services,exact,100,14
+Preventive Care Services,Preventive care services,exact,100,14
+Professional Services,Professional services,exact,100,14
+Hearing aids,Hearing aids,exact,100,14
+Pulmonary Rehabilitation,0948 - Pulmonary Rehabilitation,exact,100,14
+Pulmonary Rehabilitation,Pulmonary rehabilitation,exact,100,14
+Radiology Services,Radiology services,exact,100,14
+Surgery,Surgery,exact,100,14
+Recovery room,Recovery room,exact,100,14
+Cornea,Cornea,exact,100,14
+Value Based Programs,Value Based Program,exact,100,14
+Behavioral Health Treatment,Behavioral health treatments,exact,100,14
+Obstetrics,Obstetric,fuzzy,94.73684210526316,14
+Spare prosthesis devices,Spare prosthetic devices,fuzzy,91.66666666666666,14
+Routine maintenance of a prosthetic device,Routine maintenance of prosthetic devices,fuzzy,96.3855421686747,14
+Laboratory services,Laboratory services,exact,100,13
+Diversional therapy,Diversional therapy,exact,100,13
+Acupuncture,2101 - Acupuncture,exact,100,13
+Acupuncture,Acupuncture,exact,100,13
+Air Ambulance,0545 - Air Ambulance,exact,100,13
+Ambulatory Surgery,Ambulatory surgery,exact,100,13
+Chiropractic Services,Chiropractic services,exact,100,13
+Arthrocentesis,Athrocentesis,fuzzy,96.2962962962963,13
+Case Management,Case Managment,fuzzy,96.55172413793103,13
+Fecal Occult Blood Screening,Fecal occult blood screening,exact,100,11
+Assessments,0583 - Assessment,exact,100,9
+Birthing center,0724 - Birthing center,exact,100,9
+Cosmetic Drugs,Cosmetic drugs,exact,100,8
+Lenticular aspheric myodisc,Lenticular aspheric myodisc lense,fuzzy,90.0,7
+Lenticular aspheric aphakic,Lenticular aspheric aphakic lense,fuzzy,90.0,7
+Lancets,Lancets,exact,100,6
+Insulin,Insulin,exact,100,6
+Chemical profile,Chemical profile,exact,100,6
+Cholesterol testing,Cholesterol testing,exact,100,6
+Contact Lenses,Contact lenses,exact,100,4
+Ophthalmoscopy,Ophthalmoscopy,exact,100,4
+HPV screening,HPV Screening,exact,100,4
+Infusion pumps,0261 - Infusion Pump,exact,100,4
+Class I – Diagnostic and Preventive Services,Class I Diagnostic and Preventive Services,exact,100,4
+Class III – Major Services,Class III Major Services,exact,100,4
+Complete dentures,Complete Denture,exact,100,4
+Rhinoplasty,Rhinoplasty,exact,100,3
+Contraceptive Injections,Contraceptive injections,exact,100,2
+Medically Necessary,Medically Necessary,exact,100,2
+Medications,Medication,exact,100,2
+Medications,Medications,exact,100,2
+Dental sealants,Dental sealant,exact,100,2
+Diagnostic tests and laboratory examinations,Diagnostic tests and lab examinations,fuzzy,91.35802469135803,2
+Photochromatic lenses,Photochromic lenses,fuzzy,95.0,1

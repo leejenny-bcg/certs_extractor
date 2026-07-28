@@ -1,0 +1,18 @@
+# Raw source data - not read by the deployed UI (it only reads output/),
+# and too large/unnecessary for a deploy repo.
+Certificates/
+Dental Riders/
+Med Rx Riders/
+Topic Tree v9.xlsx
+
+# Pipeline intermediate caches - regenerable by rerunning the pipeline
+# scripts, and not read directly by the UI.
+output/extracted/
+output/segments/
+output/candidates/
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
+.streamlit/secrets.toml

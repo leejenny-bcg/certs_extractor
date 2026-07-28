@@ -1,0 +1,1522 @@
+[
+  {
+    "corpus_canonical_name": "Psychological testing",
+    "corpus_total_mentions": 92,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Psychological testing",
+    "tree_topic_ids": [
+      12794
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/PSYCHOLOGICAL TESTING"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Durable medical equipment",
+    "corpus_total_mentions": 45,
+    "corpus_tiers_present": [
+      1,
+      2
+    ],
+    "corpus_profiles_present": [
+      "csr_rider",
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Durable medical equipment",
+    "tree_topic_ids": [
+      52645,
+      82199
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/DURABLE MEDICAL EQUIPMENT",
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DURABLE MEDICAL EQUIPMENT"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Recreational therapy",
+    "corpus_total_mentions": 42,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0941 - Recreational therapy",
+    "tree_topic_ids": [
+      24106
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PSYCHIATRY AND MENTAL HEALTH/0941 - RECREATIONAL THERAPY"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Prosthetics and orthotics",
+    "corpus_total_mentions": 31,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "csr_rider",
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Prosthetics and orthotics",
+    "tree_topic_ids": [
+      12936
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Diagnostic X-rays",
+    "corpus_total_mentions": 28,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Diagnostic X-ray",
+    "tree_topic_ids": [
+      2380998
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/DIAGNOSTIC TESTS AND LAB EXAMINATIONS/DIAGNOSTIC X-RAY"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Custodial care",
+    "corpus_total_mentions": 27,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Custodial care",
+    "tree_topic_ids": [
+      52740
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/NURSING HOME CARE/CUSTODIAL CARE"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Diagnostic Services",
+    "corpus_total_mentions": 27,
+    "corpus_tiers_present": [
+      1,
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Diagnostic services",
+    "tree_topic_ids": [
+      60456,
+      89332,
+      52471
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/DIAGNOSTIC SERVICES",
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/SKILLED NURSING FACILITY/DIAGNOSTIC SERVICES",
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIAGNOSTIC SERVICES"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Diagnostic Services",
+    "corpus_total_mentions": 27,
+    "corpus_tiers_present": [
+      1,
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Diagnostic Services",
+    "tree_topic_ids": [
+      2320923
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/DIAGNOSTIC SERVICES"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Chemotherapy",
+    "corpus_total_mentions": 27,
+    "corpus_tiers_present": [
+      1,
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Chemotherapy",
+    "tree_topic_ids": [
+      52557,
+      52357
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/CHEMOTHERAPY",
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/CHEMOTHERAPY"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Physical Therapy",
+    "corpus_total_mentions": 26,
+    "corpus_tiers_present": [
+      1,
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Physical therapy",
+    "tree_topic_ids": [
+      52483
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PT,OT,SLP/PHYSICAL THERAPY"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Occupational Therapy",
+    "corpus_total_mentions": 26,
+    "corpus_tiers_present": [
+      1,
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Occupational therapy",
+    "tree_topic_ids": [
+      52727
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PT,OT,SLP/OCCUPATIONAL THERAPY"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Cardiac Rehabilitation",
+    "corpus_total_mentions": 25,
+    "corpus_tiers_present": [
+      1,
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Cardiac rehabilitation",
+    "tree_topic_ids": [
+      87714,
+      60359
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/CARDIAC REHABILITATION",
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/CARDIAC REHABILITATION"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Immunizations",
+    "corpus_total_mentions": 17,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Immunizations",
+    "tree_topic_ids": [
+      2010427
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/IMMUNIZATIONS"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Colonoscopy",
+    "corpus_total_mentions": 16,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Colonoscopy",
+    "tree_topic_ids": [
+      52664
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/COLONOSCOPY"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Behavioral health services",
+    "corpus_total_mentions": 15,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Behavioral health services",
+    "tree_topic_ids": [
+      63239
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PSYCHIATRY AND MENTAL HEALTH/BEHAVIORAL HEALTH SERVICES"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Allergy Testing",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0924 - Allergy Test",
+    "tree_topic_ids": [
+      24209
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/ALLERGY AND CLINICAL IMMUNOLOGY/0924 - ALLERGY TEST"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Allergy Testing",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Allergy Testing",
+    "tree_topic_ids": [
+      20561
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/ALLERGY AND CLINICAL IMMUNOLOGY/ALLERGY TESTING"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Inpatient Hospital",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Inpatient hospital",
+    "tree_topic_ids": [
+      87478
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Dialysis Services",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Dialysis services",
+    "tree_topic_ids": [
+      83860
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIALYSIS SERVICES"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Ultrafiltration",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0881 - Ultrafiltration",
+    "tree_topic_ids": [
+      20227
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/OUTPATIENT HOSPITAL/DIALYSIS/FACILITY CHARGES FOR MISCELLANEOUS DIALYSIS/0881 - ULTRAFILTRATION"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Electricity or water used to operate the dialyzer",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Electricity or water used to operate the dialyzer",
+    "tree_topic_ids": [
+      52439
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/DIALYSIS/ELECTRICITY OR WATER USED TO OPERATE THE DIALYZER"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Installation of electric power, a water supply or a sanitary waste disposal system",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Installation of electric power, a water supply, or a sanitary waste disposal system",
+    "tree_topic_ids": [
+      52440
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/DIALYSIS/INSTALLATION OF ELECTRIC POWER, A WATER SUPPLY, OR A SANITARY WASTE DISPOSAL SYSTEM"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Private duty nursing",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Private duty nursing",
+    "tree_topic_ids": [
+      83865,
+      52277
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/PRIVATE DUTY NURSING",
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PRIVATE DUTY NURSE"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Infertility Treatment",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Infertility treatment",
+    "tree_topic_ids": [
+      89472
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/INFERTILITY SERVICES/INFERTILITY TREATMENT"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Artificial insemination",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Artificial insemination",
+    "tree_topic_ids": [
+      60396
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/INFERTILITY SERVICES/INFERTILITY TREATMENT/ARTIFICIAL INSEMINATION"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "In vitro fertilization",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "In Vitro Fertilization",
+    "tree_topic_ids": [
+      17179
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/INFERTILITY SERVICES/INFERTILITY TREATMENT/IN VITRO FERTILIZATION"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Maternity Care",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Maternity care",
+    "tree_topic_ids": [
+      87852,
+      12983
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/MATERNITY CARE",
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/MATERNITY CARE"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Newborn Care",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Newborn care",
+    "tree_topic_ids": [
+      12741
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NEWBORN CARE"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Office, Outpatient and Home Medical Care Visits",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Office, outpatient and home medical care visits",
+    "tree_topic_ids": [
+      89152
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/OFFICE, OUTPATIENT AND HOME MEDICAL CARE VISITS"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Optometrist Services",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Optometrist services",
+    "tree_topic_ids": [
+      87972
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/OPTOMETRIST SERVICES"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Preventive Care Services",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Preventive care services",
+    "tree_topic_ids": [
+      52665
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PREVENTIVE CARE SERVICES"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Professional Services",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Professional services",
+    "tree_topic_ids": [
+      83864
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PRIVATE DUTY NURSE/PROFESSIONAL SERVICES"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Hearing aids",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Hearing aids",
+    "tree_topic_ids": [
+      52593
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/HEARING/HEARING AIDS"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Pulmonary Rehabilitation",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0948 - Pulmonary Rehabilitation",
+    "tree_topic_ids": [
+      2007088
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/OUTPATIENT HOSPITAL/PULMONARY REHABILITATION/0948 - PULMONARY REHABILITATION"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Pulmonary Rehabilitation",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Pulmonary rehabilitation",
+    "tree_topic_ids": [
+      2007086,
+      2321875
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/OUTPATIENT HOSPITAL/PULMONARY REHABILITATION",
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PULMONARY REHABILITATION"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Radiology Services",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Radiology services",
+    "tree_topic_ids": [
+      52470,
+      79995
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/RADIOLOGY SERVICES",
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/RADIOLOGY SERVICES"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Surgery",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Surgery",
+    "tree_topic_ids": [
+      2010429,
+      12827
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/SURGERY",
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGERY"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Recovery room",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Recovery room",
+    "tree_topic_ids": [
+      12820
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/SURGICAL CHARGES/RECOVERY ROOM"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Cornea",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Cornea",
+    "tree_topic_ids": [
+      17912
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/EYE AND OCULAR ADNEXA/ANTERIOR SEGMENT/CORNEA"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Value Based Programs",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Value Based Program",
+    "tree_topic_ids": [
+      2336248
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/BLUE HEALTH CONNECT/VALUE BASED PROGRAM"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Behavioral Health Treatment",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Behavioral health treatments",
+    "tree_topic_ids": [
+      12752
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PSYCHIATRY AND MENTAL HEALTH/BEHAVIORAL HEALTH TREATMENTS"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Obstetrics",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Obstetric",
+    "tree_topic_ids": [
+      60152
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/ANESTHESIA/OBSTETRIC"
+    ],
+    "match_type": "fuzzy",
+    "score": 94.73684210526316
+  },
+  {
+    "corpus_canonical_name": "Spare prosthesis devices",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Spare prosthetic devices",
+    "tree_topic_ids": [
+      52594
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/SPARE PROSTHETIC DEVICES"
+    ],
+    "match_type": "fuzzy",
+    "score": 91.66666666666666
+  },
+  {
+    "corpus_canonical_name": "Routine maintenance of a prosthetic device",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Routine maintenance of prosthetic devices",
+    "tree_topic_ids": [
+      52595
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/ROUTINE MAINTENANCE OF PROSTHETIC DEVICES"
+    ],
+    "match_type": "fuzzy",
+    "score": 96.3855421686747
+  },
+  {
+    "corpus_canonical_name": "Laboratory services",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Laboratory services",
+    "tree_topic_ids": [
+      52649
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/LABORATORY SERVICES"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Diversional therapy",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Diversional therapy",
+    "tree_topic_ids": [
+      52461
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/DIVERSIONAL THERAPY"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Acupuncture",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "2101 - Acupuncture",
+    "tree_topic_ids": [
+      60581
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/ACUPUNCTURE/2101 - ACUPUNCTURE"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Acupuncture",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Acupuncture",
+    "tree_topic_ids": [
+      87480,
+      12806
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/ACUPUNCTURE",
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/ACUPUNCTURE"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Air Ambulance",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0545 - Air Ambulance",
+    "tree_topic_ids": [
+      24064
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/AMBULANCE AND OTHER TRANSPORTATION/0545 - AIR AMBULANCE"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Ambulatory Surgery",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Ambulatory surgery",
+    "tree_topic_ids": [
+      12823
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/AMBULATORY SURGICAL SERVICES/AMBULATORY SURGERY"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Chiropractic Services",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Chiropractic services",
+    "tree_topic_ids": [
+      52125
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/CHIROPRACTIC SERVICES"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Arthrocentesis",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Athrocentesis",
+    "tree_topic_ids": [
+      86153
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/MUSCULOSKELETAL SYSTEM/GENERAL/ATHROCENTESIS"
+    ],
+    "match_type": "fuzzy",
+    "score": 96.2962962962963
+  },
+  {
+    "corpus_canonical_name": "Case Management",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Case Managment",
+    "tree_topic_ids": [
+      89192
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/BLUE HEALTH CONNECT/CASE MANAGMENT"
+    ],
+    "match_type": "fuzzy",
+    "score": 96.55172413793103
+  },
+  {
+    "corpus_canonical_name": "Fecal Occult Blood Screening",
+    "corpus_total_mentions": 11,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Fecal occult blood screening",
+    "tree_topic_ids": [
+      52653
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/LABORATORY SERVICES/FECAL OCCULT BLOOD SCREENING"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Assessments",
+    "corpus_total_mentions": 9,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0583 - Assessment",
+    "tree_topic_ids": [
+      61339
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/HOME HEALTH CARE/OTHER HOME HEALTH  VISITS/0583 - ASSESSMENT"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Birthing center",
+    "corpus_total_mentions": 9,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0724 - Birthing center",
+    "tree_topic_ids": [
+      23816
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/MATERNITY CARE/LABOR AND DELIVERY ROOM CHARGES/0724 - BIRTHING CENTER"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Cosmetic Drugs",
+    "corpus_total_mentions": 8,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Cosmetic drugs",
+    "tree_topic_ids": [
+      52496
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PRESCRIPTION DRUG PROGRAM/COSMETIC DRUGS"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Lenticular aspheric myodisc",
+    "corpus_total_mentions": 7,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Lenticular aspheric myodisc lense",
+    "tree_topic_ids": [
+      60413
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/LENTICULAR ASPHERIC MYODISC LENSE"
+    ],
+    "match_type": "fuzzy",
+    "score": 90.0
+  },
+  {
+    "corpus_canonical_name": "Lenticular aspheric aphakic",
+    "corpus_total_mentions": 7,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Lenticular aspheric aphakic lense",
+    "tree_topic_ids": [
+      60416
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/LENTICULAR ASPHERIC APHAKIC LENSE"
+    ],
+    "match_type": "fuzzy",
+    "score": 90.0
+  },
+  {
+    "corpus_canonical_name": "Lancets",
+    "corpus_total_mentions": 6,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Lancets",
+    "tree_topic_ids": [
+      2012816
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIABETES MANAGEMENT PROGRAM/LANCETS"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Insulin",
+    "corpus_total_mentions": 6,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Insulin",
+    "tree_topic_ids": [
+      2429662
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/INJECTIONS AND INFUSIONS/INSULIN"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Chemical profile",
+    "corpus_total_mentions": 6,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Chemical profile",
+    "tree_topic_ids": [
+      52650
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/LABORATORY SERVICES/CHEMICAL PROFILE"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Cholesterol testing",
+    "corpus_total_mentions": 6,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Cholesterol testing",
+    "tree_topic_ids": [
+      52652
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/LABORATORY SERVICES/CHOLESTEROL TESTING"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Contact Lenses",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Contact lenses",
+    "tree_topic_ids": [
+      12945
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS/PROSTHETIC DEVICE/SPECTACLE LENSES/CONTACT LENSES"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Ophthalmoscopy",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Ophthalmoscopy",
+    "tree_topic_ids": [
+      20310
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIAGNOSTIC SERVICES/SPECIAL OPHTHALMOLOGICAL SERVICES/OPHTHALMOSCOPY"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "HPV screening",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "HPV Screening",
+    "tree_topic_ids": [
+      2320980
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/PATHOLOGY & LABORATORY/HPV SCREENING"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Infusion pumps",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "0261 - Infusion Pump",
+    "tree_topic_ids": [
+      23788
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/IV THERAPY/0261 - INFUSION PUMP"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Class I \u2013 Diagnostic and Preventive Services",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      1,
+      3
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Class I Diagnostic and Preventive Services",
+    "tree_topic_ids": [
+      52472
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Class III \u2013 Major Services",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      1,
+      3
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Class III Major Services",
+    "tree_topic_ids": [
+      66747
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/ALVEOPLASTY"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Complete dentures",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Complete Denture",
+    "tree_topic_ids": [
+      2386250
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/ALVEOPLASTY/DENTAL PROSTHODONTICS/FIXED/IMPLANT/ABUTMENT SUPPORTED DENTURE/COMPLETE DENTURE"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Rhinoplasty",
+    "corpus_total_mentions": 3,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Rhinoplasty",
+    "tree_topic_ids": [
+      67769
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/RESPIRATORY SYSTEM/NOSE/REPAIR/RHINOPLASTY"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Contraceptive Injections",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Contraceptive injections",
+    "tree_topic_ids": [
+      60520
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/CONTRACEPTION/INJECTIONS"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Medically Necessary",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Medically Necessary",
+    "tree_topic_ids": [
+      66986
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/ABORTION/MEDICALLY NECESSARY"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Medications",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Medication",
+    "tree_topic_ids": [
+      52716
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/MEDICATION"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Medications",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Medications",
+    "tree_topic_ids": [
+      12941
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/MEDICATIONS"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Dental sealants",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Dental sealant",
+    "tree_topic_ids": [
+      61287
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/DENTAL SEALANT"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Diagnostic tests and laboratory examinations",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Diagnostic tests and lab examinations",
+    "tree_topic_ids": [
+      60490
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/BASIC/DIAGNOSTIC TESTS AND LAB EXAMINATIONS"
+    ],
+    "match_type": "fuzzy",
+    "score": 91.35802469135803
+  },
+  {
+    "corpus_canonical_name": "Photochromatic lenses",
+    "corpus_total_mentions": 1,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Photochromic lenses",
+    "tree_topic_ids": [
+      60511
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/PHOTOCHROMIC"
+    ],
+    "match_type": "fuzzy",
+    "score": 95.0
+  }
+]

@@ -1,0 +1,3 @@
+pdfplumber
+simplemma
+rapidfuzz

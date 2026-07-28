@@ -2640,17 +2640,6 @@
     "_key": "er beyond emtala screening"
   },
   {
-    "benefit_name": "0456 - Urgent Care",
-    "normalized_key": "urgent care",
-    "topic_ids": [
-      23928
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/URGENT CARE/0456 - URGENT CARE"
-    ],
-    "_key": "urgent care"
-  },
-  {
     "benefit_name": "0459 - Other Emergency Room",
     "normalized_key": "other emergency room",
     "topic_ids": [
@@ -6452,17 +6441,6 @@
     "_key": "alternative therapy service"
   },
   {
-    "benefit_name": "Ambulance",
-    "normalized_key": "ambulance",
-    "topic_ids": [
-      82179
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/AMBULANCE"
-    ],
-    "_key": "ambulance"
-  },
-  {
     "benefit_name": "Ambulance and other transportation",
     "normalized_key": "ambulance and other transportation",
     "topic_ids": [
@@ -8828,17 +8806,6 @@
     "_key": "deluxe durable medical equipment"
   },
   {
-    "benefit_name": "Dental",
-    "normalized_key": "dental",
-    "topic_ids": [
-      52695
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL"
-    ],
-    "_key": "dental"
-  },
-  {
     "benefit_name": "Dental care related to accidental injuries",
     "normalized_key": "dental care relate to accidental injury",
     "topic_ids": [
@@ -9410,17 +9377,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/DIAGNOSTIC NUCLEAR MEDICINE FACILITY CHARGES"
     ],
     "_key": "diagnostic nuclear medicine facility charge"
-  },
-  {
-    "benefit_name": "Diagnostic radiology",
-    "normalized_key": "diagnostic radiology",
-    "topic_ids": [
-      52391
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/RADIOLOGY/DIAGNOSTIC RADIOLOGY"
-    ],
-    "_key": "diagnostic radiology"
   },
   {
     "benefit_name": "Diagnostic Services Miscellaneous",
@@ -11957,17 +11913,6 @@
     "_key": "heritable disorder"
   },
   {
-    "benefit_name": "High dose chemotherapy",
-    "normalized_key": "high dose chemotherapy",
-    "topic_ids": [
-      52784
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/HIGH DOSE CHEMOTHERAPY"
-    ],
-    "_key": "high dose chemotherapy"
-  },
-  {
     "benefit_name": "HIV Testing",
     "normalized_key": "hiv testing",
     "topic_ids": [
@@ -11999,19 +11944,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/HOME HEALTH CARE/HOME HEALTH AIDE (HOME HEALTH)"
     ],
     "_key": "home health aide home health"
-  },
-  {
-    "benefit_name": "Home health care",
-    "normalized_key": "home health care",
-    "topic_ids": [
-      68213,
-      23953
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/HOME HEALTH CARE",
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/OFFICE, OUTPATIENT AND HOME MEDICAL CARE VISITS/HOME HEALTH CARE"
-    ],
-    "_key": "home health care"
   },
   {
     "benefit_name": "Home Health Procedures/Services",
@@ -13688,17 +13620,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/LOCAL ANESTHESIA"
     ],
     "_key": "local anesthesia"
-  },
-  {
-    "benefit_name": "Long-term acute care hospital",
-    "normalized_key": "long term acute care hospital",
-    "topic_ids": [
-      2009264
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/LONG-TERM ACUTE CARE HOSPITAL"
-    ],
-    "_key": "long term acute care hospital"
   },
   {
     "benefit_name": "Lower Abdomen",
@@ -16168,17 +16089,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/OUTPATIENT HOSPITAL/OUTPATIENT CLINIC"
     ],
     "_key": "outpatient clinic"
-  },
-  {
-    "benefit_name": "Outpatient hospital",
-    "normalized_key": "outpatient hospital",
-    "topic_ids": [
-      87479
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/OUTPATIENT HOSPITAL"
-    ],
-    "_key": "outpatient hospital"
   },
   {
     "benefit_name": "Outpatient services",
@@ -19075,17 +18985,6 @@
     "_key": "skilled nursing home health"
   },
   {
-    "benefit_name": "Skilled nursing facility",
-    "normalized_key": "skilled nursing facility",
-    "topic_ids": [
-      88572
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/SKILLED NURSING FACILITY"
-    ],
-    "_key": "skilled nursing facility"
-  },
-  {
     "benefit_name": "Skin tissue or substitutes",
     "normalized_key": "skin tissue or substitute",
     "topic_ids": [
@@ -21033,17 +20932,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/URINARY SYSTEM/URETHRA"
     ],
     "_key": "urethra"
-  },
-  {
-    "benefit_name": "Urgent Care",
-    "normalized_key": "urgent care",
-    "topic_ids": [
-      2316977
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/URGENT CARE"
-    ],
-    "_key": "urgent care"
   },
   {
     "benefit_name": "Urinalysis",

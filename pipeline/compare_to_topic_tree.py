@@ -17,6 +17,41 @@ candidates tractable), both lists here are already small and deduped
 (1,986 tree entries, ~1,200 corpus benefits), so a full comparison is
 cheap enough to run directly with no subsetting.
 
+Pass C - compound splitting. A corpus name joining two genuinely separate
+items with literal "and/or" (e.g. "High-dose chemotherapy and/or total
+body irradiation") scores low as a whole against either item's own tree
+entry, because the other item's words dilute the ratio - confirmed:
+"High-dose chemotherapy and/or total body irradiation" only reaches 66
+against "High dose chemotherapy" even on normalized keys. Splitting on
+" and/or " and fuzzy-matching each half separately (same normalized-key
+approach, same threshold) recovers these without the false-positive risk
+of splitting on plain "and"/"or"/commas generally - checked against the
+corpus first: those split on a fixed idiom ("Room and board"), an
+enumeration with ambiguous grouping ("Broken or Lost Lenses or Frames"),
+or leave a content-free fragment ("Routine eye exams or services" ->
+"services"). "and/or" is a much less ambiguous authorial signal for
+"these are separate alternatives" and only 5 corpus names in the whole
+unmatched population contain it, all cleanly splittable. Tagged as its
+own match_type with the matched half recorded, not folded into "fuzzy",
+so a compound-derived match stays distinguishable from a direct one.
+
+Pass D - generic-suffix stripping. Both sides of this comparison use
+"Service(s)" as a near-content-free tail word ("Ambulance Services" /
+"Ambulance", "Dental Services" / "Dental") - checked directly against the
+42 unmatched corpus names ending in "Service(s)": stripping it and
+re-matching on normalized keys recovers 7 clean matches (Ambulance,
+Dental, Home Health Care, Long-Term Acute Care Hospital, Diagnostic
+Radiology, Skilled Nursing Facility, Urgent Care), all >=90 and all
+correct, with zero false positives among the ones that stayed below
+threshold. Deliberately scoped to "Service(s)" only, not generalized to
+other plausible suffixes ("Care", "Program", "Treatment", "Devices",
+"Therapy", "Testing", "Examination", "Equipment") - tested each the same
+way first and none produced a single clean match; "Supplies" produced
+exactly one hit and it was wrong ("Medical Supplies" -> "Medical" at 100,
+matching on an overly generic shared word rather than real equivalence).
+"Service(s)" is uniquely safe in this corpus, not representative of
+suffixes generally, so the list stays a list of one.
+
 Outputs (JSON + CSV, kept as flat records for an eventual Streamlit UI to
 load directly without further reshaping):
   - corpus_benefits_not_in_tree  - the original motivating question
@@ -29,13 +64,55 @@ Usage:
 import argparse
 import csv
 import json
+import re
 import sys
 from pathlib import Path
 
-from merge_candidates import strip_leading_article
+from merge_candidates import merge_key, strip_leading_article
 from rapidfuzz import fuzz, process
 
 FUZZY_THRESHOLD = 90
+
+COMPOUND_SPLIT_RE = re.compile(r"\s+and/or\s+", re.IGNORECASE)
+
+
+def split_compound_parts(text):
+    """Split a corpus name on literal "and/or" into its separate items, each
+    cleaned of leading/trailing punctuation left over from the split (e.g.
+    a trailing comma from "X, Y, and/or Z"). Returns [] if there's nothing
+    to split - deliberately narrow, see the Pass C docstring above for why
+    plain "and"/"or"/commas aren't included."""
+    if not COMPOUND_SPLIT_RE.search(text):
+        return []
+    parts = COMPOUND_SPLIT_RE.split(text)
+    return [p.strip(" ,.;") for p in parts if p.strip(" ,.;")]
+
+
+GENERIC_SUFFIX_RE = re.compile(r"\s+services?$", re.IGNORECASE)
+
+
+# Found by running this against the real corpus: "Other Services" strips
+# to "Other", which then matches the tree's "2109 - Other" at 100 - both
+# sides are generic catch-all placeholders, not a real equivalence. This
+# pipeline has independently flagged "Other Services"/"Other Dental
+# Services" as generic_administrative (not real benefit names) elsewhere,
+# so excluding the bare word is evidenced, not speculative. Narrower than a
+# word-count guard, which would also reject genuinely good single-word
+# remainders like "Ambulance" or "Dental".
+GENERIC_REMAINDER_WORDS = {"other", "others"}
+
+
+def strip_generic_suffix(text):
+    """Strip a trailing "Service(s)" - see the Pass D docstring above for
+    why this is scoped to that one word specifically. Returns None if there
+    is nothing to strip, or if what's left is itself too generic to be a
+    meaningful match target (see GENERIC_REMAINDER_WORDS)."""
+    stripped = GENERIC_SUFFIX_RE.sub("", text).strip()
+    if not stripped or stripped == text:
+        return None
+    if stripped.lower() in GENERIC_REMAINDER_WORDS:
+        return None
+    return stripped
 
 
 def load_corpus(path):
@@ -136,6 +213,84 @@ def run_comparison(corpus, tree):
         )
         matched_tree_keys.add(e["_key"])
 
+    # Pass C: compound splitting (see module docstring). Only attempted for
+    # names Pass B's whole-string comparison already failed on.
+    still_unmatched_after_c = []
+    for c in still_unmatched_corpus:
+        parts = split_compound_parts(c["canonical_name"])
+        match = None
+        matched_part = None
+        for part in parts:
+            tree_pool = [e for e in tree if e["_key"] not in matched_tree_keys]
+            tree_pool_keys = [e["_key"] for e in tree_pool]
+            if not tree_pool_keys:
+                break
+            best = process.extractOne(
+                merge_key(part), tree_pool_keys, scorer=fuzz.token_sort_ratio, score_cutoff=FUZZY_THRESHOLD
+            )
+            if best is not None:
+                _, score, idx = best
+                match = (score, tree_pool[idx])
+                matched_part = part
+                break
+        if match is None:
+            still_unmatched_after_c.append(c)
+            continue
+        score, e = match
+        matched_pairs.append(
+            {
+                "corpus_canonical_name": c["canonical_name"],
+                "corpus_total_mentions": c["total_mentions"],
+                "corpus_tiers_present": c["tiers_present"],
+                "corpus_profiles_present": c["profiles_present"],
+                "tree_benefit_name": e["benefit_name"],
+                "tree_topic_ids": e["topic_ids"],
+                "tree_paths": e["tree_paths"],
+                "match_type": "fuzzy_compound",
+                "score": score,
+                "corpus_matched_part": matched_part,
+            }
+        )
+        matched_tree_keys.add(e["_key"])
+
+    # Pass D: generic-suffix stripping (see module docstring). Only
+    # attempted for names Pass C also failed on.
+    still_unmatched_corpus = []
+    for c in still_unmatched_after_c:
+        stripped = strip_generic_suffix(c["canonical_name"])
+        if stripped is None:
+            still_unmatched_corpus.append(c)
+            continue
+        tree_pool = [e for e in tree if e["_key"] not in matched_tree_keys]
+        tree_pool_keys = [e["_key"] for e in tree_pool]
+        best = (
+            process.extractOne(
+                merge_key(stripped), tree_pool_keys, scorer=fuzz.token_sort_ratio, score_cutoff=FUZZY_THRESHOLD
+            )
+            if tree_pool_keys
+            else None
+        )
+        if best is None:
+            still_unmatched_corpus.append(c)
+            continue
+        _, score, idx = best
+        e = tree_pool[idx]
+        matched_pairs.append(
+            {
+                "corpus_canonical_name": c["canonical_name"],
+                "corpus_total_mentions": c["total_mentions"],
+                "corpus_tiers_present": c["tiers_present"],
+                "corpus_profiles_present": c["profiles_present"],
+                "tree_benefit_name": e["benefit_name"],
+                "tree_topic_ids": e["topic_ids"],
+                "tree_paths": e["tree_paths"],
+                "match_type": "fuzzy_suffix_stripped",
+                "score": score,
+                "corpus_matched_part": stripped,
+            }
+        )
+        matched_tree_keys.add(e["_key"])
+
     tree_unmatched = [e for e in tree if e["_key"] not in matched_tree_keys]
 
     return matched_pairs, still_unmatched_corpus, tree_unmatched
@@ -174,9 +329,11 @@ def write_tree_csv(entries, path):
 def write_matched_csv(pairs, path):
     with open(path, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["corpus_canonical_name", "tree_benefit_name", "match_type", "score", "corpus_total_mentions"])
+        writer.writerow(["corpus_canonical_name", "tree_benefit_name", "match_type", "score",
+                          "corpus_total_mentions", "corpus_matched_part"])
         for p in pairs:
-            writer.writerow([p["corpus_canonical_name"], p["tree_benefit_name"], p["match_type"], p["score"], p["corpus_total_mentions"]])
+            writer.writerow([p["corpus_canonical_name"], p["tree_benefit_name"], p["match_type"], p["score"],
+                              p["corpus_total_mentions"], p.get("corpus_matched_part", "")])
 
 
 def main():
@@ -207,11 +364,14 @@ def main():
 
     exact_count = sum(1 for p in matched_pairs if p["match_type"] == "exact")
     fuzzy_count = sum(1 for p in matched_pairs if p["match_type"] == "fuzzy")
+    compound_count = sum(1 for p in matched_pairs if p["match_type"] == "fuzzy_compound")
+    suffix_count = sum(1 for p in matched_pairs if p["match_type"] == "fuzzy_suffix_stripped")
     matched_tree_count = len(tree) - len(tree_unmatched)
     matched_corpus_count = len(corpus) - len(corpus_unmatched)
 
     print("\n--- summary ---", file=sys.stderr)
-    print(f"Matched pairs: {len(matched_pairs)} ({exact_count} exact, {fuzzy_count} fuzzy)", file=sys.stderr)
+    print(f"Matched pairs: {len(matched_pairs)} ({exact_count} exact, {fuzzy_count} fuzzy, "
+          f"{compound_count} fuzzy_compound, {suffix_count} fuzzy_suffix_stripped)", file=sys.stderr)
     print(f"Topic Tree: {matched_tree_count}/{len(tree)} matched ({matched_tree_count/len(tree):.1%}), {len(tree_unmatched)} not found in corpus", file=sys.stderr)
     print(f"Corpus: {matched_corpus_count}/{len(corpus)} matched ({matched_corpus_count/len(corpus):.1%}), {len(corpus_unmatched)} not on Topic Tree", file=sys.stderr)
 

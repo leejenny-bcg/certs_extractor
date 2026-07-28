@@ -13,7 +13,6 @@ Therapy billed as a rehabilitative service when it does not meet the definition 
 "Services provided by a freestanding facility in a home, hospital, skilled nursing facility, or residential substance abuse treatment facility",42,14,2,ppo_medical,Occupational Therapy | Physical Therapy | Speech Language Therapy
 Member education and home programs,42,14,2,ppo_medical,Occupational Therapy | Physical Therapy | Speech Language Therapy
 Infusion of colony stimulating growth factors,39,13,2,ppo_medical,Oncology Clinical Trials | Transplant Services
-High-dose chemotherapy and/or total body irradiation,38,12,2,ppo_medical,Oncology Clinical Trials | Transplant Services
 Hospitalization,38,12,2,ppo_medical,Oncology Clinical Trials | Transplant Services
 Allogeneic Transplants,38,14,"2,3",ppo_medical,Oncology Clinical Trials | Transplant Services
 Services provided by the hospital’s or facility’s staff,37,13,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
@@ -47,7 +46,6 @@ The drug Interactions,25,13,2,ppo_medical,Collaborative Care Management | Value 
 Routine care during the newborn’s eligible hospital stay.,25,14,2,ppo_medical,Maternity Care | Newborn Care
 Nuclear cardiac studies,24,13,2,ppo_medical,Diagnostic Services | Radiology Services
 Contraceptive Counseling,24,13,"2,3",ppo_medical,Preventive Care Services
-Ambulance Services,23,14,"1,3",ppo_medical,
 Search of the National Bone Marrow Donor Program Registry for a donor. A search will begin only when the need for a donor is established and the transplant is preapproved.,23,12,2,ppo_medical,Oncology Clinical Trials | Transplant Services
 "Infusion of bone marrow, peripheral blood stem cells, and/or umbilical cord blood",23,12,2,ppo_medical,Oncology Clinical Trials | Transplant Services
 T-cell depleted infusion,23,12,2,ppo_medical,Oncology Clinical Trials | Transplant Services
@@ -72,7 +70,6 @@ Billing,17,17,3,"ppo_medical,vision",
 Contract,17,17,3,"dental,ppo_medical,vision",
 24/7 virtual visits only when performed through the Blue Cross selected vendor app,17,17,2,"csr_rider,ppo_medical",BCBSM PPO In-Network Providers | Copayment Requirements
 Autism Spectrum Disorders,16,14,"1,3",ppo_medical,
-Dental Services,16,16,"1,3","dental,ppo_medical",
 Laboratory examinations,16,16,"2,3","dental,ppo_medical",Class I – Diagnostic and Preventive Services | Skilled Nursing Facility Services
 Ambulatory Surgery Facility,16,14,"2,3",ppo_medical,Surgery
 Copayment,15,15,3,"dental,ppo_medical,vision",
@@ -219,7 +216,6 @@ Gender Affirming Services,14,14,1,ppo_medical,
 Gender affirming surgery and related services,14,14,2,ppo_medical,Gender Affirming Services
 Prescription drugs including hormone therapy (see Prescription Drugs),14,14,2,ppo_medical,Gender Affirming Services
 "Gender affirming services that are not medically necessary, considered to be cosmetic, experimental, or investigational by BCBSM.",14,14,2,ppo_medical,Gender Affirming Services
-Home Health Care Services,14,14,1,ppo_medical,
 Skilled nursing care provided or supervised by a registered nurse employed by the home health care agency,14,14,2,ppo_medical,Home Health Care Services
 "Social services by a licensed social worker, if requested by the member's attending physician",14,14,2,ppo_medical,Home Health Care Services
 The following when provided for rehabilitation,14,14,2,ppo_medical,Home Health Care Services
@@ -251,7 +247,6 @@ Provided by the attending physician to make the member comfortable and to manage
 That are not part of the plan of care established by the hospice program for the member.,14,14,2,ppo_medical,Hospice Care Services
 Hospital Services,14,14,1,ppo_medical,
 Inpatient Hospital Services,14,14,2,ppo_medical,Hospital Services
-Outpatient Hospital Services,14,14,2,ppo_medical,Hospital Services
 Temporary Benefits for Hospital Services,14,14,2,ppo_medical,Hospital Services
 Medically necessary diagnostic services,14,14,2,ppo_medical,Infertility Treatment
 Counseling services,14,14,2,ppo_medical,Infertility Treatment
@@ -266,7 +261,6 @@ Any procedure done to enhance reproductive capacity or fertility,14,14,2,ppo_med
 Infusion Therapy,14,14,1,ppo_medical,
 Nursing services needed to administer infusion therapy and treat infusion therapy-related wound care,14,14,2,ppo_medical,Infusion Therapy
 "Durable medical equipment, medical supplies and solutions needed for infusion therapy",14,14,2,ppo_medical,Infusion Therapy
-Long-Term Acute Care Hospital Services,14,14,1,ppo_medical,
 "Services in a nonparticipating LTACH, including emergency services, unless BCBSM determines there are extenuating circumstances",14,14,2,ppo_medical,Long-Term Acute Care Hospital Services
 Inpatient admissions that BCBSM has not preapproved,14,14,2,ppo_medical,Long-Term Acute Care Hospital Services
 LTACH services if the member ’s primary diagnosis is a mental health or substance use disorder condition,14,14,2,ppo_medical,Long-Term Acute Care Hospital Services
@@ -339,9 +333,7 @@ Any medically necessary special features,14,14,2,ppo_medical,Prosthetic and Orth
 Experimental prosthetic devices,14,14,2,ppo_medical,Prosthetic and Orthotic Devices
 Devices ordered or purchased prior to the certificate’s effective date,14,14,2,ppo_medical,Prosthetic and Orthotic Devices
 "Nonrigid devices and supplies such as elastic stockings, garter belts, and corsets",14,14,2,ppo_medical,Prosthetic and Orthotic Devices
-Diagnostic Radiology Services,14,14,2,ppo_medical,Radiology Services
 "Procedures not directly related and necessary to diagnose a disease, illness, pregnancy or injury",14,14,2,ppo_medical,Radiology Services
-Skilled Nursing Facility Services,14,14,1,ppo_medical,
 "A semiprivate room, including general nursing service, meals and special diets",14,14,2,ppo_medical,Skilled Nursing Facility Services
 Special treatment rooms,14,14,2,ppo_medical,Skilled Nursing Facility Services
 Oxygen and other gas therapy,14,14,2,ppo_medical,Skilled Nursing Facility Services
@@ -390,7 +382,6 @@ Transportation and lodging costs for circumstances other than those related to t
 Routine storage cost of donor organs for the future purpose of transplantation,14,14,2,ppo_medical,Transplant Services
 "Services prior to your organ transplant surgery, such as expenses for evaluation and testing, unless covered elsewhere under this certificate",14,14,2,ppo_medical,Transplant Services
 Experimental transplant procedures. See the “General Conditions of Your Contract” section for guidelines related to experimental treatment,14,14,2,ppo_medical,Transplant Services
-Urgent Care Services,14,14,1,ppo_medical,
 "Telephone, individual face-to-face, and group interventions",14,14,2,ppo_medical,Value Based Programs
 "Setting goals by your primary care physician (PCP), your care manager, and yourself to help you manage your health better",14,14,2,ppo_medical,Value Based Programs
 Services performed by providers who are not designated as PDCM providers,14,14,2,ppo_medical,Value Based Programs

@@ -1033,7 +1033,7 @@
       "excluded": 52
     },
     "shape_breakdown": {
-      "phrase": 52
+      "sentence": 52
     },
     "total_mentions": 52,
     "document_count": 13,
@@ -1951,162 +1951,6 @@
     "_key": "member education and home program"
   },
   {
-    "canonical_name": "A participating hospital",
-    "merge_key": "participate hospital",
-    "match_type": "exact",
-    "variant_texts": {
-      "Participating hospitals": 13,
-      "A participating hospital": 28
-    },
-    "tiers_present": [
-      2
-    ],
-    "profiles_present": [
-      "ppo_medical"
-    ],
-    "parent_headers": [
-      "Chronic Disease Management",
-      "Infertility Treatment",
-      "Preventive Care Services"
-    ],
-    "inclusion_breakdown": {
-      "covered": 41
-    },
-    "shape_breakdown": {
-      "phrase": 41
-    },
-    "total_mentions": 41,
-    "document_count": 14,
-    "documents": [
-      {
-        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 3,
-        "pages": [
-          47,
-          70,
-          110
-        ]
-      },
-      {
-        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 3,
-        "pages": [
-          46,
-          69,
-          109
-        ]
-      },
-      {
-        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 3,
-        "pages": [
-          49,
-          72,
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 3,
-        "pages": [
-          47,
-          70,
-          110
-        ]
-      },
-      {
-        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 3,
-        "pages": [
-          49,
-          72,
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 3,
-        "pages": [
-          47,
-          70,
-          110
-        ]
-      },
-      {
-        "doc_id": "Certificates/315K BC PREMIER PPO SILVER SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 3,
-        "pages": [
-          50,
-          74,
-          117
-        ]
-      },
-      {
-        "doc_id": "Certificates/601F BLUE CROSS PREMIER PPO VALUE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 3,
-        "pages": [
-          44,
-          67,
-          108
-        ]
-      },
-      {
-        "doc_id": "Certificates/602F BLUE CROSS PREMIER PPO BRONZE SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 3,
-        "pages": [
-          47,
-          71,
-          113
-        ]
-      },
-      {
-        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 3,
-        "pages": [
-          49,
-          72,
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
-        "mention_count": 3,
-        "pages": [
-          49,
-          72,
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 3,
-        "pages": [
-          49,
-          73,
-          117
-        ]
-      },
-      {
-        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 3,
-        "pages": [
-          49,
-          72,
-          113
-        ]
-      },
-      {
-        "doc_id": "Certificates/820H BLUE CROSS PREMIER PPO BRONZE EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          74,
-          115
-        ]
-      }
-    ],
-    "_key": "participate hospital"
-  },
-  {
     "canonical_name": "Infusion of colony stimulating growth factors",
     "merge_key": "infusion of colony stimulate growth factor",
     "match_type": "exact",
@@ -2696,7 +2540,7 @@
       "excluded": 37
     },
     "shape_breakdown": {
-      "phrase": 37
+      "sentence": 37
     },
     "total_mentions": 37,
     "document_count": 13,
@@ -2976,7 +2820,7 @@
       "excluded": 33
     },
     "shape_breakdown": {
-      "phrase": 33
+      "sentence": 33
     },
     "total_mentions": 33,
     "document_count": 13,
@@ -3858,430 +3702,6 @@
     "_key": "service that require less than intensive monitor or supervision because the member s endurance while exercise and management of risk factor be stable"
   },
   {
-    "canonical_name": "Medication assessments to identify:",
-    "merge_key": "medication assessment to identify",
-    "match_type": "exact",
-    "variant_texts": {
-      "Medication assessments to identify:": 28
-    },
-    "tiers_present": [
-      2
-    ],
-    "profiles_present": [
-      "ppo_medical"
-    ],
-    "parent_headers": [
-      "Collaborative Care Management",
-      "Value Based Programs"
-    ],
-    "inclusion_breakdown": {
-      "covered": 28
-    },
-    "shape_breakdown": {
-      "phrase": 28
-    },
-    "total_mentions": 28,
-    "document_count": 14,
-    "documents": [
-      {
-        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          49,
-          143
-        ]
-      },
-      {
-        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          48,
-          140
-        ]
-      },
-      {
-        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          51,
-          147
-        ]
-      },
-      {
-        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          49,
-          144
-        ]
-      },
-      {
-        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          51,
-          147
-        ]
-      },
-      {
-        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          49,
-          144
-        ]
-      },
-      {
-        "doc_id": "Certificates/315K BC PREMIER PPO SILVER SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          52,
-          149
-        ]
-      },
-      {
-        "doc_id": "Certificates/601F BLUE CROSS PREMIER PPO VALUE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          46,
-          139
-        ]
-      },
-      {
-        "doc_id": "Certificates/602F BLUE CROSS PREMIER PPO BRONZE SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          49,
-          145
-        ]
-      },
-      {
-        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          51,
-          147
-        ]
-      },
-      {
-        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          51,
-          147
-        ]
-      },
-      {
-        "doc_id": "Certificates/820H BLUE CROSS PREMIER PPO BRONZE EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          52,
-          149
-        ]
-      },
-      {
-        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          51,
-          150
-        ]
-      },
-      {
-        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          51,
-          146
-        ]
-      }
-    ],
-    "_key": "medication assessment to identify"
-  },
-  {
-    "canonical_name": "An office",
-    "merge_key": "office",
-    "match_type": "exact",
-    "variant_texts": {
-      "An office": 28
-    },
-    "tiers_present": [
-      2
-    ],
-    "profiles_present": [
-      "ppo_medical"
-    ],
-    "parent_headers": [
-      "Infertility Treatment",
-      "Preventive Care Services"
-    ],
-    "inclusion_breakdown": {
-      "covered": 28
-    },
-    "shape_breakdown": {
-      "phrase": 28
-    },
-    "total_mentions": 28,
-    "document_count": 14,
-    "documents": [
-      {
-        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          70,
-          110
-        ]
-      },
-      {
-        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          69,
-          109
-        ]
-      },
-      {
-        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          72,
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          70,
-          110
-        ]
-      },
-      {
-        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          72,
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          70,
-          110
-        ]
-      },
-      {
-        "doc_id": "Certificates/315K BC PREMIER PPO SILVER SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          74,
-          117
-        ]
-      },
-      {
-        "doc_id": "Certificates/601F BLUE CROSS PREMIER PPO VALUE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          67,
-          108
-        ]
-      },
-      {
-        "doc_id": "Certificates/602F BLUE CROSS PREMIER PPO BRONZE SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          71,
-          113
-        ]
-      },
-      {
-        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          72,
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          72,
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/820H BLUE CROSS PREMIER PPO BRONZE EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          74,
-          115
-        ]
-      },
-      {
-        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          73,
-          117
-        ]
-      },
-      {
-        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          72,
-          113
-        ]
-      }
-    ],
-    "_key": "office"
-  },
-  {
-    "canonical_name": "Services received from a nonparticipating hospital or nonparticipating facility",
-    "merge_key": "service receive from a nonparticipating hospital or nonparticipating facility",
-    "match_type": "fuzzy",
-    "variant_texts": {
-      "Services received from a nonparticipating hospital or nonparticipating facility": 27,
-      "Services received from a nonparticipating hospital or nonparticipating": 1
-    },
-    "tiers_present": [
-      2
-    ],
-    "profiles_present": [
-      "ppo_medical"
-    ],
-    "parent_headers": [
-      "Occupational Therapy",
-      "Physical Therapy"
-    ],
-    "inclusion_breakdown": {
-      "excluded": 28
-    },
-    "shape_breakdown": {
-      "phrase": 28
-    },
-    "total_mentions": 28,
-    "document_count": 14,
-    "documents": [
-      {
-        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          79,
-          91
-        ]
-      },
-      {
-        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          78,
-          90
-        ]
-      },
-      {
-        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          81,
-          94
-        ]
-      },
-      {
-        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          79,
-          91
-        ]
-      },
-      {
-        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          81,
-          94
-        ]
-      },
-      {
-        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          79,
-          91
-        ]
-      },
-      {
-        "doc_id": "Certificates/315K BC PREMIER PPO SILVER SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          83,
-          95
-        ]
-      },
-      {
-        "doc_id": "Certificates/601F BLUE CROSS PREMIER PPO VALUE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          76,
-          88
-        ]
-      },
-      {
-        "doc_id": "Certificates/602F BLUE CROSS PREMIER PPO BRONZE SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          80,
-          93
-        ]
-      },
-      {
-        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          81,
-          93
-        ]
-      },
-      {
-        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          81,
-          94
-        ]
-      },
-      {
-        "doc_id": "Certificates/820H BLUE CROSS PREMIER PPO BRONZE EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          83,
-          96
-        ]
-      },
-      {
-        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          82,
-          96
-        ]
-      },
-      {
-        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          81,
-          94
-        ]
-      }
-    ],
-    "_key": "service receive from a nonparticipating hospital or nonparticipating facility"
-  },
-  {
     "canonical_name": "Items that are not considered by BCBSM to be directly related to travel and lodging. Examples include, but are not limited to:",
     "merge_key": "item that be not consider by bcbsm to be directly relate to travel and lodging example include but be not limit to",
     "match_type": "exact",
@@ -4821,147 +4241,6 @@
     "_key": "chronic disease management"
   },
   {
-    "canonical_name": "A participating facility",
-    "merge_key": "participate facility",
-    "match_type": "exact",
-    "variant_texts": {
-      "Participating facilities": 13,
-      "A participating facility": 14
-    },
-    "tiers_present": [
-      2
-    ],
-    "profiles_present": [
-      "ppo_medical"
-    ],
-    "parent_headers": [
-      "Chronic Disease Management",
-      "Preventive Care Services"
-    ],
-    "inclusion_breakdown": {
-      "covered": 27
-    },
-    "shape_breakdown": {
-      "phrase": 27
-    },
-    "total_mentions": 27,
-    "document_count": 14,
-    "documents": [
-      {
-        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          47,
-          110
-        ]
-      },
-      {
-        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          46,
-          109
-        ]
-      },
-      {
-        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          49,
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          47,
-          110
-        ]
-      },
-      {
-        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          49,
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          47,
-          110
-        ]
-      },
-      {
-        "doc_id": "Certificates/315K BC PREMIER PPO SILVER SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          50,
-          117
-        ]
-      },
-      {
-        "doc_id": "Certificates/601F BLUE CROSS PREMIER PPO VALUE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          44,
-          108
-        ]
-      },
-      {
-        "doc_id": "Certificates/602F BLUE CROSS PREMIER PPO BRONZE SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          47,
-          113
-        ]
-      },
-      {
-        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          49,
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          49,
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          49,
-          117
-        ]
-      },
-      {
-        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 2,
-        "pages": [
-          49,
-          113
-        ]
-      },
-      {
-        "doc_id": "Certificates/820H BLUE CROSS PREMIER PPO BRONZE EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          115
-        ]
-      }
-    ],
-    "_key": "participate facility"
-  },
-  {
     "canonical_name": "More than the combined 30 habilitative and the combined 30 rehabilitative outpatient visits for physical and occupational therapy per member per calendar year, (see above about combined benefit) whether obtained from an in-network or out-of-network provider",
     "merge_key": "more than the combine 30 habilitative and the combine 30 rehabilitative outpatient visit for physical and occupational therapy per member per calendar year see above about combine benefit whether obtain from a in network or out of network provider",
     "match_type": "exact",
@@ -5101,6 +4380,146 @@
       }
     ],
     "_key": "more than the combine 30 habilitative and the combine 30 rehabilitative outpatient visit for physical and occupational therapy per member per calendar year see above about combine benefit whether obtain from a in network or out of network provider"
+  },
+  {
+    "canonical_name": "Services received from a nonparticipating hospital or nonparticipating facility",
+    "merge_key": "service receive from a nonparticipating hospital or nonparticipating facility",
+    "match_type": "exact",
+    "variant_texts": {
+      "Services received from a nonparticipating hospital or nonparticipating facility": 27
+    },
+    "tiers_present": [
+      2
+    ],
+    "profiles_present": [
+      "ppo_medical"
+    ],
+    "parent_headers": [
+      "Occupational Therapy",
+      "Physical Therapy"
+    ],
+    "inclusion_breakdown": {
+      "excluded": 27
+    },
+    "shape_breakdown": {
+      "sentence": 27
+    },
+    "total_mentions": 27,
+    "document_count": 14,
+    "documents": [
+      {
+        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 2,
+        "pages": [
+          79,
+          91
+        ]
+      },
+      {
+        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
+        "mention_count": 2,
+        "pages": [
+          81,
+          94
+        ]
+      },
+      {
+        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 2,
+        "pages": [
+          79,
+          91
+        ]
+      },
+      {
+        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
+        "mention_count": 2,
+        "pages": [
+          81,
+          94
+        ]
+      },
+      {
+        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 2,
+        "pages": [
+          79,
+          91
+        ]
+      },
+      {
+        "doc_id": "Certificates/315K BC PREMIER PPO SILVER SECURE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 2,
+        "pages": [
+          83,
+          95
+        ]
+      },
+      {
+        "doc_id": "Certificates/601F BLUE CROSS PREMIER PPO VALUE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 2,
+        "pages": [
+          76,
+          88
+        ]
+      },
+      {
+        "doc_id": "Certificates/602F BLUE CROSS PREMIER PPO BRONZE SAVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 2,
+        "pages": [
+          80,
+          93
+        ]
+      },
+      {
+        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 2,
+        "pages": [
+          81,
+          93
+        ]
+      },
+      {
+        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
+        "mention_count": 2,
+        "pages": [
+          81,
+          94
+        ]
+      },
+      {
+        "doc_id": "Certificates/820H BLUE CROSS PREMIER PPO BRONZE EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 2,
+        "pages": [
+          83,
+          96
+        ]
+      },
+      {
+        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 2,
+        "pages": [
+          82,
+          96
+        ]
+      },
+      {
+        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 2,
+        "pages": [
+          81,
+          94
+        ]
+      },
+      {
+        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          90
+        ]
+      }
+    ],
+    "_key": "service receive from a nonparticipating hospital or nonparticipating facility"
   },
   {
     "canonical_name": "Therapy billed as an habilitative service when it does not meet the definition of habilitative service in this certificate",
@@ -5544,7 +4963,7 @@
       "excluded": 26
     },
     "shape_breakdown": {
-      "phrase": 26
+      "sentence": 26
     },
     "total_mentions": 26,
     "document_count": 13,
@@ -5677,7 +5096,7 @@
       "excluded": 26
     },
     "shape_breakdown": {
-      "phrase": 26
+      "sentence": 26
     },
     "total_mentions": 26,
     "document_count": 13,
@@ -5810,7 +5229,7 @@
       "covered": 13
     },
     "shape_breakdown": {
-      "phrase": 26
+      "sentence": 26
     },
     "total_mentions": 26,
     "document_count": 13,
@@ -5943,7 +5362,7 @@
       "covered": 13
     },
     "shape_breakdown": {
-      "phrase": 26
+      "sentence": 26
     },
     "total_mentions": 26,
     "document_count": 13,
@@ -6208,7 +5627,7 @@
       "excluded": 26
     },
     "shape_breakdown": {
-      "phrase": 26
+      "sentence": 26
     },
     "total_mentions": 26,
     "document_count": 13,
@@ -6340,7 +5759,7 @@
       "excluded": 26
     },
     "shape_breakdown": {
-      "phrase": 26
+      "sentence": 26
     },
     "total_mentions": 26,
     "document_count": 13,
@@ -7965,7 +7384,7 @@
       "covered": 23
     },
     "shape_breakdown": {
-      "phrase": 23
+      "sentence": 23
     },
     "total_mentions": 23,
     "document_count": 12,
@@ -13217,7 +12636,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -14856,7 +14275,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -14982,7 +14401,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -15611,7 +15030,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -18895,7 +18314,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -20151,7 +19570,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -21033,7 +20452,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -21160,7 +20579,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -21286,7 +20705,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -21538,7 +20957,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -22295,7 +21714,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -24186,7 +23605,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -24312,7 +23731,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -24669,133 +24088,6 @@
       }
     ],
     "_key": "home hemodialysis"
-  },
-  {
-    "canonical_name": "Placement and maintenance of a dialysis machine in the member\u2019s home",
-    "merge_key": "placement and maintenance of a dialysis machine in the member s home",
-    "match_type": "fuzzy",
-    "variant_texts": {
-      "Placement and maintenance of a dialysis machine in the member\u2019s home": 13,
-      "Placement and maintenance of a d ialysis machine in the member\u2019s home": 1
-    },
-    "tiers_present": [
-      2
-    ],
-    "profiles_present": [
-      "ppo_medical"
-    ],
-    "parent_headers": [
-      "Dialysis Services"
-    ],
-    "inclusion_breakdown": {
-      "covered": 14
-    },
-    "shape_breakdown": {
-      "phrase": 14
-    },
-    "total_mentions": 14,
-    "document_count": 14,
-    "documents": [
-      {
-        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          57
-        ]
-      },
-      {
-        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          56
-        ]
-      },
-      {
-        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          59
-        ]
-      },
-      {
-        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          57
-        ]
-      },
-      {
-        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          59
-        ]
-      },
-      {
-        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          57
-        ]
-      },
-      {
-        "doc_id": "Certificates/315K BC PREMIER PPO SILVER SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          60
-        ]
-      },
-      {
-        "doc_id": "Certificates/602F BLUE CROSS PREMIER PPO BRONZE SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          57
-        ]
-      },
-      {
-        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          59
-        ]
-      },
-      {
-        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          59
-        ]
-      },
-      {
-        "doc_id": "Certificates/820H BLUE CROSS PREMIER PPO BRONZE EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          60
-        ]
-      },
-      {
-        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          59
-        ]
-      },
-      {
-        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          59
-        ]
-      },
-      {
-        "doc_id": "Certificates/601F BLUE CROSS PREMIER PPO VALUE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          54
-        ]
-      }
-    ],
-    "_key": "placement and maintenance of a dialysis machine in the member s home"
   },
   {
     "canonical_name": "Expenses to train the member and one other person who will assist the member in the home in operating the equipment",
@@ -25575,7 +24867,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -28090,7 +27382,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -28216,7 +27508,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -28720,7 +28012,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -30862,7 +30154,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -31994,7 +31286,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -32372,7 +31664,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -33995,132 +33287,6 @@
     "_key": "temporary benefit for hospital service"
   },
   {
-    "canonical_name": "A participating freestanding ambulatory surgery facility",
-    "merge_key": "participate freestanding ambulatory surgery facility",
-    "match_type": "exact",
-    "variant_texts": {
-      "A participating freestanding ambulatory surgery facility": 14
-    },
-    "tiers_present": [
-      2
-    ],
-    "profiles_present": [
-      "ppo_medical"
-    ],
-    "parent_headers": [
-      "Infertility Treatment"
-    ],
-    "inclusion_breakdown": {
-      "covered": 14
-    },
-    "shape_breakdown": {
-      "phrase": 14
-    },
-    "total_mentions": 14,
-    "document_count": 14,
-    "documents": [
-      {
-        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          70
-        ]
-      },
-      {
-        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          69
-        ]
-      },
-      {
-        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          72
-        ]
-      },
-      {
-        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          70
-        ]
-      },
-      {
-        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          72
-        ]
-      },
-      {
-        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          70
-        ]
-      },
-      {
-        "doc_id": "Certificates/315K BC PREMIER PPO SILVER SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          74
-        ]
-      },
-      {
-        "doc_id": "Certificates/601F BLUE CROSS PREMIER PPO VALUE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          67
-        ]
-      },
-      {
-        "doc_id": "Certificates/602F BLUE CROSS PREMIER PPO BRONZE SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          71
-        ]
-      },
-      {
-        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          72
-        ]
-      },
-      {
-        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          72
-        ]
-      },
-      {
-        "doc_id": "Certificates/820H BLUE CROSS PREMIER PPO BRONZE EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          74
-        ]
-      },
-      {
-        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          73
-        ]
-      },
-      {
-        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          72
-        ]
-      }
-    ],
-    "_key": "participate freestanding ambulatory surgery facility"
-  },
-  {
     "canonical_name": "Medically necessary diagnostic services",
     "merge_key": "medically necessary diagnostic service",
     "match_type": "exact",
@@ -35653,7 +34819,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -36658,7 +35824,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -39043,7 +38209,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -39421,7 +38587,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -39547,7 +38713,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -41313,7 +40479,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -43562,132 +42728,6 @@
     "_key": "administer and bill by a physician"
   },
   {
-    "canonical_name": "A participating independent laboratory",
-    "merge_key": "participate independent laboratory",
-    "match_type": "exact",
-    "variant_texts": {
-      "A participating independent laboratory": 14
-    },
-    "tiers_present": [
-      2
-    ],
-    "profiles_present": [
-      "ppo_medical"
-    ],
-    "parent_headers": [
-      "Preventive Care Services"
-    ],
-    "inclusion_breakdown": {
-      "covered": 14
-    },
-    "shape_breakdown": {
-      "phrase": 14
-    },
-    "total_mentions": 14,
-    "document_count": 14,
-    "documents": [
-      {
-        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          110
-        ]
-      },
-      {
-        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          109
-        ]
-      },
-      {
-        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          110
-        ]
-      },
-      {
-        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          110
-        ]
-      },
-      {
-        "doc_id": "Certificates/315K BC PREMIER PPO SILVER SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          117
-        ]
-      },
-      {
-        "doc_id": "Certificates/601F BLUE CROSS PREMIER PPO VALUE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          108
-        ]
-      },
-      {
-        "doc_id": "Certificates/602F BLUE CROSS PREMIER PPO BRONZE SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          113
-        ]
-      },
-      {
-        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          114
-        ]
-      },
-      {
-        "doc_id": "Certificates/820H BLUE CROSS PREMIER PPO BRONZE EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          115
-        ]
-      },
-      {
-        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          117
-        ]
-      },
-      {
-        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          113
-        ]
-      }
-    ],
-    "_key": "participate independent laboratory"
-  },
-  {
     "canonical_name": "Health Maintenance Examination",
     "merge_key": "health maintenance examination",
     "match_type": "exact",
@@ -45598,7 +44638,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -46100,7 +45140,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -47360,7 +46400,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -48494,7 +47534,8 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 13,
+      "phrase": 1
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -48621,7 +47662,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -49251,7 +48292,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -49755,7 +48796,7 @@
       "covered": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -51264,7 +50305,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -51516,7 +50557,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -51768,7 +50809,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -52523,7 +51564,7 @@
       "excluded": 14
     },
     "shape_breakdown": {
-      "phrase": 14
+      "sentence": 14
     },
     "total_mentions": 14,
     "document_count": 14,
@@ -53846,7 +52887,7 @@
       "excluded": 13
     },
     "shape_breakdown": {
-      "phrase": 13
+      "sentence": 13
     },
     "total_mentions": 13,
     "document_count": 13,
@@ -53965,7 +53006,7 @@
       "excluded": 13
     },
     "shape_breakdown": {
-      "phrase": 13
+      "sentence": 13
     },
     "total_mentions": 13,
     "document_count": 13,
@@ -54917,7 +53958,7 @@
       "excluded": 13
     },
     "shape_breakdown": {
-      "phrase": 13
+      "sentence": 13
     },
     "total_mentions": 13,
     "document_count": 13,
@@ -55512,7 +54553,7 @@
       "excluded": 13
     },
     "shape_breakdown": {
-      "phrase": 13
+      "sentence": 13
     },
     "total_mentions": 13,
     "document_count": 13,
@@ -55751,7 +54792,7 @@
       "excluded": 13
     },
     "shape_breakdown": {
-      "phrase": 13
+      "sentence": 13
     },
     "total_mentions": 13,
     "document_count": 13,
@@ -56942,7 +55983,7 @@
       "excluded": 13
     },
     "shape_breakdown": {
-      "phrase": 13
+      "sentence": 13
     },
     "total_mentions": 13,
     "document_count": 13,
@@ -57519,6 +56560,125 @@
     "_key": "sign treatment plan be not require for the first physical medicine service your chiropractor perform on you"
   },
   {
+    "canonical_name": "Participating hospitals",
+    "merge_key": "participate hospital",
+    "match_type": "exact",
+    "variant_texts": {
+      "Participating hospitals": 13
+    },
+    "tiers_present": [
+      2
+    ],
+    "profiles_present": [
+      "ppo_medical"
+    ],
+    "parent_headers": [
+      "Chronic Disease Management"
+    ],
+    "inclusion_breakdown": {
+      "covered": 13
+    },
+    "shape_breakdown": {
+      "phrase": 13
+    },
+    "total_mentions": 13,
+    "document_count": 13,
+    "documents": [
+      {
+        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          47
+        ]
+      },
+      {
+        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          46
+        ]
+      },
+      {
+        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          49
+        ]
+      },
+      {
+        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          47
+        ]
+      },
+      {
+        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          49
+        ]
+      },
+      {
+        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          47
+        ]
+      },
+      {
+        "doc_id": "Certificates/315K BC PREMIER PPO SILVER SECURE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          50
+        ]
+      },
+      {
+        "doc_id": "Certificates/601F BLUE CROSS PREMIER PPO VALUE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          44
+        ]
+      },
+      {
+        "doc_id": "Certificates/602F BLUE CROSS PREMIER PPO BRONZE SAVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          47
+        ]
+      },
+      {
+        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          49
+        ]
+      },
+      {
+        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          49
+        ]
+      },
+      {
+        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          49
+        ]
+      },
+      {
+        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          49
+        ]
+      }
+    ],
+    "_key": "participate hospital"
+  },
+  {
     "canonical_name": "Physicians",
     "merge_key": "physician",
     "match_type": "exact",
@@ -57636,6 +56796,125 @@
       }
     ],
     "_key": "physician"
+  },
+  {
+    "canonical_name": "Participating facilities",
+    "merge_key": "participate facility",
+    "match_type": "exact",
+    "variant_texts": {
+      "Participating facilities": 13
+    },
+    "tiers_present": [
+      2
+    ],
+    "profiles_present": [
+      "ppo_medical"
+    ],
+    "parent_headers": [
+      "Chronic Disease Management"
+    ],
+    "inclusion_breakdown": {
+      "covered": 13
+    },
+    "shape_breakdown": {
+      "phrase": 13
+    },
+    "total_mentions": 13,
+    "document_count": 13,
+    "documents": [
+      {
+        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          47
+        ]
+      },
+      {
+        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          46
+        ]
+      },
+      {
+        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          49
+        ]
+      },
+      {
+        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          47
+        ]
+      },
+      {
+        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          49
+        ]
+      },
+      {
+        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          47
+        ]
+      },
+      {
+        "doc_id": "Certificates/315K BC PREMIER PPO SILVER SECURE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          50
+        ]
+      },
+      {
+        "doc_id": "Certificates/601F BLUE CROSS PREMIER PPO VALUE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          44
+        ]
+      },
+      {
+        "doc_id": "Certificates/602F BLUE CROSS PREMIER PPO BRONZE SAVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          47
+        ]
+      },
+      {
+        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          49
+        ]
+      },
+      {
+        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          49
+        ]
+      },
+      {
+        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          49
+        ]
+      },
+      {
+        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          49
+        ]
+      }
+    ],
+    "_key": "participate facility"
   },
   {
     "canonical_name": "Certified licensed social workers",
@@ -60617,6 +59896,125 @@
     "_key": "continuous cycle peritoneal dialysis limit to 14 dialysis treatment per month and self dialysis train with the number of train session limit accord to medicare guideline"
   },
   {
+    "canonical_name": "Placement and maintenance of a dialysis machine in the member\u2019s home",
+    "merge_key": "placement and maintenance of a dialysis machine in the member s home",
+    "match_type": "exact",
+    "variant_texts": {
+      "Placement and maintenance of a dialysis machine in the member\u2019s home": 13
+    },
+    "tiers_present": [
+      2
+    ],
+    "profiles_present": [
+      "ppo_medical"
+    ],
+    "parent_headers": [
+      "Dialysis Services"
+    ],
+    "inclusion_breakdown": {
+      "covered": 13
+    },
+    "shape_breakdown": {
+      "sentence": 13
+    },
+    "total_mentions": 13,
+    "document_count": 13,
+    "documents": [
+      {
+        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          57
+        ]
+      },
+      {
+        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          56
+        ]
+      },
+      {
+        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          59
+        ]
+      },
+      {
+        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          57
+        ]
+      },
+      {
+        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          59
+        ]
+      },
+      {
+        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          57
+        ]
+      },
+      {
+        "doc_id": "Certificates/315K BC PREMIER PPO SILVER SECURE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          60
+        ]
+      },
+      {
+        "doc_id": "Certificates/602F BLUE CROSS PREMIER PPO BRONZE SAVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          57
+        ]
+      },
+      {
+        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          59
+        ]
+      },
+      {
+        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          59
+        ]
+      },
+      {
+        "doc_id": "Certificates/820H BLUE CROSS PREMIER PPO BRONZE EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          60
+        ]
+      },
+      {
+        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          59
+        ]
+      },
+      {
+        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          59
+        ]
+      }
+    ],
+    "_key": "placement and maintenance of a dialysis machine in the member s home"
+  },
+  {
     "canonical_name": "A participating hospital (when you are discharged)",
     "merge_key": "participate hospital when you be discharge",
     "match_type": "exact",
@@ -61691,127 +61089,6 @@
     "_key": "member s home"
   },
   {
-    "canonical_name": "Postnatal care, including a Papanicolaou (Pap) smear during the six-week visit.",
-    "merge_key": "postnatal care including a papanicolaou pap smear during the six week visit",
-    "match_type": "fuzzy",
-    "variant_texts": {
-      "Postnatal care, including a Papanicolaou (Pap) smear during the six-week visit": 5,
-      "Postnatal care, including a Papanicolaou (Pap) smear during the six-week visit.": 7,
-      "Post-natal care, including a Papanicolaou (Pap) smear during the six-week visit.": 1
-    },
-    "tiers_present": [
-      2
-    ],
-    "profiles_present": [
-      "ppo_medical"
-    ],
-    "parent_headers": [
-      "Maternity Care"
-    ],
-    "inclusion_breakdown": {
-      "covered": 13
-    },
-    "shape_breakdown": {
-      "phrase": 13
-    },
-    "total_mentions": 13,
-    "document_count": 13,
-    "documents": [
-      {
-        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          74
-        ]
-      },
-      {
-        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          73
-        ]
-      },
-      {
-        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          76
-        ]
-      },
-      {
-        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          74
-        ]
-      },
-      {
-        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          76
-        ]
-      },
-      {
-        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          74
-        ]
-      },
-      {
-        "doc_id": "Certificates/601F BLUE CROSS PREMIER PPO VALUE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          71
-        ]
-      },
-      {
-        "doc_id": "Certificates/602F BLUE CROSS PREMIER PPO BRONZE SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          75
-        ]
-      },
-      {
-        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          76
-        ]
-      },
-      {
-        "doc_id": "Certificates/820H BLUE CROSS PREMIER PPO BRONZE EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          78
-        ]
-      },
-      {
-        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          77
-        ]
-      },
-      {
-        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          76
-        ]
-      },
-      {
-        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          76
-        ]
-      }
-    ],
-    "_key": "postnatal care including a papanicolaou pap smear during the six week visit"
-  },
-  {
     "canonical_name": "Lactation education and alternative fertility awareness counseling",
     "merge_key": "lactation education and alternative fertility awareness counseling",
     "match_type": "exact",
@@ -62308,7 +61585,7 @@
       "excluded": 13
     },
     "shape_breakdown": {
-      "phrase": 13
+      "sentence": 13
     },
     "total_mentions": 13,
     "document_count": 13,
@@ -63384,7 +62661,7 @@
       "excluded": 13
     },
     "shape_breakdown": {
-      "phrase": 13
+      "sentence": 13
     },
     "total_mentions": 13,
     "document_count": 7,
@@ -67758,7 +67035,7 @@
       "covered": 12
     },
     "shape_breakdown": {
-      "phrase": 12
+      "sentence": 12
     },
     "total_mentions": 12,
     "document_count": 12,
@@ -67849,119 +67126,6 @@
       }
     ],
     "_key": "service to treat temporomandibular joint dysfunction tmj limit to that describe below"
-  },
-  {
-    "canonical_name": "Medically necessary professional and facility services for the treatment of gender dysphoria.",
-    "merge_key": "medically necessary professional and facility service for the treatment of gender dysphoria",
-    "match_type": "fuzzy",
-    "variant_texts": {
-      "Medically necessary professional and facility services for the treatment of gender dysphoria.": 11,
-      "Medically necessary professional and facility services the treatment of gender dysphoria.": 1
-    },
-    "tiers_present": [
-      2
-    ],
-    "profiles_present": [
-      "ppo_medical"
-    ],
-    "parent_headers": [
-      "Gender Affirming Services"
-    ],
-    "inclusion_breakdown": {
-      "covered": 12
-    },
-    "shape_breakdown": {
-      "phrase": 12
-    },
-    "total_mentions": 12,
-    "document_count": 12,
-    "documents": [
-      {
-        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          63
-        ]
-      },
-      {
-        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          62
-        ]
-      },
-      {
-        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          65
-        ]
-      },
-      {
-        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          63
-        ]
-      },
-      {
-        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          65
-        ]
-      },
-      {
-        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          63
-        ]
-      },
-      {
-        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          65
-        ]
-      },
-      {
-        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          65
-        ]
-      },
-      {
-        "doc_id": "Certificates/820H BLUE CROSS PREMIER PPO BRONZE EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          67
-        ]
-      },
-      {
-        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          66
-        ]
-      },
-      {
-        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          65
-        ]
-      },
-      {
-        "doc_id": "Certificates/315K BC PREMIER PPO SILVER SECURE BENEFITS CERTIFICATE.pdf",
-        "mention_count": 1,
-        "pages": [
-          67
-        ]
-      }
-    ],
-    "_key": "medically necessary professional and facility service for the treatment of gender dysphoria"
   },
   {
     "canonical_name": "Drugs required for infusion therapy. Since specialty pharmaceuticals may be used in infusion therapy, please see the Prior Authorization for Specialty Pharmaceuticals requirement described on",
@@ -68075,6 +67239,119 @@
       }
     ],
     "_key": "drug require for infusion therapy since specialty pharmaceutical may be use in infusion therapy please see the prior authorization for specialty pharmaceutical requirement describe on"
+  },
+  {
+    "canonical_name": "Postnatal care, including a Papanicolaou (Pap) smear during the six-week visit.",
+    "merge_key": "postnatal care including a papanicolaou pap smear during the six week visit",
+    "match_type": "exact",
+    "variant_texts": {
+      "Postnatal care, including a Papanicolaou (Pap) smear during the six-week visit": 5,
+      "Postnatal care, including a Papanicolaou (Pap) smear during the six-week visit.": 7
+    },
+    "tiers_present": [
+      2
+    ],
+    "profiles_present": [
+      "ppo_medical"
+    ],
+    "parent_headers": [
+      "Maternity Care"
+    ],
+    "inclusion_breakdown": {
+      "covered": 12
+    },
+    "shape_breakdown": {
+      "sentence": 12
+    },
+    "total_mentions": 12,
+    "document_count": 12,
+    "documents": [
+      {
+        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          74
+        ]
+      },
+      {
+        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          73
+        ]
+      },
+      {
+        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          76
+        ]
+      },
+      {
+        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          74
+        ]
+      },
+      {
+        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          76
+        ]
+      },
+      {
+        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          74
+        ]
+      },
+      {
+        "doc_id": "Certificates/601F BLUE CROSS PREMIER PPO VALUE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          71
+        ]
+      },
+      {
+        "doc_id": "Certificates/602F BLUE CROSS PREMIER PPO BRONZE SAVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          75
+        ]
+      },
+      {
+        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          76
+        ]
+      },
+      {
+        "doc_id": "Certificates/820H BLUE CROSS PREMIER PPO BRONZE EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          78
+        ]
+      },
+      {
+        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          77
+        ]
+      },
+      {
+        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          76
+        ]
+      }
+    ],
+    "_key": "postnatal care including a papanicolaou pap smear during the six week visit"
   },
   {
     "canonical_name": "Newborn services provided during the first 48 or 96 hours if the newborn has not been added to the BCBSM contract of the birth parent. These services include:",
@@ -68209,7 +67486,7 @@
       "covered": 12
     },
     "shape_breakdown": {
-      "phrase": 12
+      "sentence": 12
     },
     "total_mentions": 12,
     "document_count": 12,
@@ -72297,7 +71574,7 @@
       "covered": 11
     },
     "shape_breakdown": {
-      "phrase": 11
+      "sentence": 11
     },
     "total_mentions": 11,
     "document_count": 11,
@@ -72381,6 +71658,111 @@
       }
     ],
     "_key": "outpatient substance use disorder service for the treatment of tobacco dependence"
+  },
+  {
+    "canonical_name": "Medically necessary professional and facility services for the treatment of gender dysphoria.",
+    "merge_key": "medically necessary professional and facility service for the treatment of gender dysphoria",
+    "match_type": "exact",
+    "variant_texts": {
+      "Medically necessary professional and facility services for the treatment of gender dysphoria.": 11
+    },
+    "tiers_present": [
+      2
+    ],
+    "profiles_present": [
+      "ppo_medical"
+    ],
+    "parent_headers": [
+      "Gender Affirming Services"
+    ],
+    "inclusion_breakdown": {
+      "covered": 11
+    },
+    "shape_breakdown": {
+      "sentence": 11
+    },
+    "total_mentions": 11,
+    "document_count": 11,
+    "documents": [
+      {
+        "doc_id": "Certificates/126J BLUE CROSS PREMIER PPO SILVER SAVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          63
+        ]
+      },
+      {
+        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          62
+        ]
+      },
+      {
+        "doc_id": "Certificates/162T BLUE CROSS PREMIER PPO SILVER PLUS BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          65
+        ]
+      },
+      {
+        "doc_id": "Certificates/163T BLUE CROSS PREMIER PPO SILVER HSA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          63
+        ]
+      },
+      {
+        "doc_id": "Certificates/164T BLUE CROSS PREMIER PPO BRONZE PLUS BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          65
+        ]
+      },
+      {
+        "doc_id": "Certificates/165T BLUE CROSS PREMIER PPO BRONZE HSA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          63
+        ]
+      },
+      {
+        "doc_id": "Certificates/603F BLUE CROSS PREMIER PPO SILVER BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          65
+        ]
+      },
+      {
+        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          65
+        ]
+      },
+      {
+        "doc_id": "Certificates/820H BLUE CROSS PREMIER PPO BRONZE EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          67
+        ]
+      },
+      {
+        "doc_id": "Certificates/821H BLUE CROSS PREMIER PPO SILVER EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          66
+        ]
+      },
+      {
+        "doc_id": "Certificates/910R BLUE CROSS PREMIER PPO GOLD EXTRA BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          65
+        ]
+      }
+    ],
+    "_key": "medically necessary professional and facility service for the treatment of gender dysphoria"
   },
   {
     "canonical_name": "Physical therapy, speech language therapy, and occupational therapy when provided to control symptoms and maintain the member\u2019s daily activities and basic functional skills",
@@ -73139,7 +72521,7 @@
       "covered": 11
     },
     "shape_breakdown": {
-      "phrase": 11
+      "sentence": 11
     },
     "total_mentions": 11,
     "document_count": 11,
@@ -74296,7 +73678,7 @@
       "covered": 11
     },
     "shape_breakdown": {
-      "phrase": 11
+      "sentence": 11
     },
     "total_mentions": 11,
     "document_count": 11,
@@ -75425,7 +74807,7 @@
       "excluded": 10
     },
     "shape_breakdown": {
-      "phrase": 10
+      "sentence": 10
     },
     "total_mentions": 10,
     "document_count": 4,
@@ -75683,7 +75065,7 @@
       "covered": 10
     },
     "shape_breakdown": {
-      "phrase": 10
+      "sentence": 10
     },
     "total_mentions": 10,
     "document_count": 10,
@@ -77057,7 +76439,7 @@
       "excluded": 10
     },
     "shape_breakdown": {
-      "phrase": 10
+      "sentence": 10
     },
     "total_mentions": 10,
     "document_count": 10,
@@ -77363,7 +76745,7 @@
       "excluded": 10
     },
     "shape_breakdown": {
-      "phrase": 10
+      "sentence": 10
     },
     "total_mentions": 10,
     "document_count": 7,
@@ -77538,7 +76920,7 @@
       "covered": 9
     },
     "shape_breakdown": {
-      "phrase": 9
+      "sentence": 9
     },
     "total_mentions": 9,
     "document_count": 9,
@@ -78091,7 +77473,7 @@
       "covered": 9
     },
     "shape_breakdown": {
-      "phrase": 9
+      "sentence": 9
     },
     "total_mentions": 9,
     "document_count": 9,
@@ -79262,7 +78644,7 @@
       "covered": 9
     },
     "shape_breakdown": {
-      "phrase": 9
+      "sentence": 9
     },
     "total_mentions": 9,
     "document_count": 9,
@@ -79626,7 +79008,7 @@
       "covered": 9
     },
     "shape_breakdown": {
-      "phrase": 9
+      "sentence": 9
     },
     "total_mentions": 9,
     "document_count": 9,
@@ -81590,7 +80972,7 @@
       "covered": 8
     },
     "shape_breakdown": {
-      "phrase": 8
+      "sentence": 8
     },
     "total_mentions": 8,
     "document_count": 8,
@@ -82980,7 +82362,7 @@
       "covered": 7
     },
     "shape_breakdown": {
-      "phrase": 7
+      "sentence": 7
     },
     "total_mentions": 7,
     "document_count": 7,
@@ -83062,8 +82444,7 @@
       "covered": 7
     },
     "shape_breakdown": {
-      "sentence": 6,
-      "phrase": 1
+      "sentence": 7
     },
     "total_mentions": 7,
     "document_count": 7,
@@ -85704,7 +85085,7 @@
       "excluded": 6
     },
     "shape_breakdown": {
-      "phrase": 6
+      "sentence": 6
     },
     "total_mentions": 6,
     "document_count": 6,
@@ -86942,7 +86323,8 @@
       "excluded": 5
     },
     "shape_breakdown": {
-      "phrase": 5
+      "phrase": 2,
+      "sentence": 3
     },
     "total_mentions": 5,
     "document_count": 5,
@@ -87068,7 +86450,7 @@
       "excluded": 5
     },
     "shape_breakdown": {
-      "phrase": 5
+      "sentence": 5
     },
     "total_mentions": 5,
     "document_count": 5,
@@ -90579,7 +89961,7 @@
       "excluded": 4
     },
     "shape_breakdown": {
-      "phrase": 4
+      "sentence": 4
     },
     "total_mentions": 4,
     "document_count": 4,
@@ -91474,7 +90856,7 @@
       "covered": 4
     },
     "shape_breakdown": {
-      "phrase": 4
+      "sentence": 4
     },
     "total_mentions": 4,
     "document_count": 4,
@@ -93305,7 +92687,7 @@
       "covered": 3
     },
     "shape_breakdown": {
-      "phrase": 3
+      "sentence": 3
     },
     "total_mentions": 3,
     "document_count": 3,
@@ -93990,7 +93372,7 @@
       "covered": 3
     },
     "shape_breakdown": {
-      "phrase": 3
+      "sentence": 3
     },
     "total_mentions": 3,
     "document_count": 3,
@@ -95981,7 +95363,7 @@
       "excluded": 2
     },
     "shape_breakdown": {
-      "phrase": 2
+      "sentence": 2
     },
     "total_mentions": 2,
     "document_count": 2,
@@ -97310,8 +96692,7 @@
       "covered": 2
     },
     "shape_breakdown": {
-      "phrase": 1,
-      "sentence": 1
+      "sentence": 2
     },
     "total_mentions": 2,
     "document_count": 2,
@@ -97690,7 +97071,7 @@
       "covered": 2
     },
     "shape_breakdown": {
-      "phrase": 2
+      "sentence": 2
     },
     "total_mentions": 2,
     "document_count": 2,
@@ -98027,7 +97408,7 @@
       "covered": 2
     },
     "shape_breakdown": {
-      "phrase": 2
+      "sentence": 2
     },
     "total_mentions": 2,
     "document_count": 2,
@@ -98279,7 +97660,7 @@
       "covered": 2
     },
     "shape_breakdown": {
-      "phrase": 2
+      "sentence": 2
     },
     "total_mentions": 2,
     "document_count": 2,
@@ -98952,7 +98333,7 @@
       "covered": 2
     },
     "shape_breakdown": {
-      "phrase": 2
+      "sentence": 2
     },
     "total_mentions": 2,
     "document_count": 2,
@@ -100859,6 +100240,41 @@
     "_key": "drug require for infusion therapy since specialty pharmaceutical may be use in infusion therapy please see the prior authorization for specialty pharmaceutical requirement describe on page 101"
   },
   {
+    "canonical_name": "Services received from a nonparticipating hospital or nonparticipating",
+    "merge_key": "service receive from a nonparticipating hospital or nonparticipating",
+    "match_type": "exact",
+    "variant_texts": {
+      "Services received from a nonparticipating hospital or nonparticipating": 1
+    },
+    "tiers_present": [
+      2
+    ],
+    "profiles_present": [
+      "ppo_medical"
+    ],
+    "parent_headers": [
+      "Occupational Therapy"
+    ],
+    "inclusion_breakdown": {
+      "excluded": 1
+    },
+    "shape_breakdown": {
+      "sentence": 1
+    },
+    "total_mentions": 1,
+    "document_count": 1,
+    "documents": [
+      {
+        "doc_id": "Certificates/127J BLUE CROSS PREMIER PPO BRONZE SECURE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          78
+        ]
+      }
+    ],
+    "_key": "service receive from a nonparticipating hospital or nonparticipating"
+  },
+  {
     "canonical_name": "More than the quantities allowed per prescription of select drugs by BCBSM, unless the prescriber obtains prior authorization from BCBSM. A list of drugs that may have quantity limits is available at the BCBSM website at https://www.bcbsm.com/2025-select-ppo-druglist",
     "merge_key": "more than the quantity allow per prescription of select drug by bcbsm unless the prescriber obtain prior authorization from bcbsm a list of drug that may have quantity limit be available at the bcbsm website at https www bcbsm com 2025 select ppo druglist",
     "match_type": "exact",
@@ -101522,6 +100938,41 @@
     "_key": "service provide by a qualify provider including but not limit to physician fully license psychologist certify nurse practitioner clinical nurse specialist certify clinical license master s social worker license professional counselor limit license psychologist or license marriage and family therapist or other professional provider as determine by bcbsm"
   },
   {
+    "canonical_name": "Medically necessary professional and facility services the treatment of gender dysphoria.",
+    "merge_key": "medically necessary professional and facility service the treatment of gender dysphoria",
+    "match_type": "exact",
+    "variant_texts": {
+      "Medically necessary professional and facility services the treatment of gender dysphoria.": 1
+    },
+    "tiers_present": [
+      2
+    ],
+    "profiles_present": [
+      "ppo_medical"
+    ],
+    "parent_headers": [
+      "Gender Affirming Services"
+    ],
+    "inclusion_breakdown": {
+      "covered": 1
+    },
+    "shape_breakdown": {
+      "sentence": 1
+    },
+    "total_mentions": 1,
+    "document_count": 1,
+    "documents": [
+      {
+        "doc_id": "Certificates/315K BC PREMIER PPO SILVER SECURE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          67
+        ]
+      }
+    ],
+    "_key": "medically necessary professional and facility service the treatment of gender dysphoria"
+  },
+  {
     "canonical_name": "If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy services described on pages 75, 87 and 124.",
     "merge_key": "if physical therapy occupational therapy or speech language therapy service cannot be do in the home we will pay for outpatient therapy it may be in a outpatient department of a hospital or a physical therapy facility benefit be subject to the combine 30 visit maximum for physical therapy and occupational therapy and the 30 visit maximum for speech language therapy service describe on page 75 87 and 124",
     "match_type": "exact",
@@ -101751,7 +101202,7 @@
       "covered": 1
     },
     "shape_breakdown": {
-      "phrase": 1
+      "sentence": 1
     },
     "total_mentions": 1,
     "document_count": 1,
@@ -101821,7 +101272,7 @@
       "covered": 1
     },
     "shape_breakdown": {
-      "phrase": 1
+      "sentence": 1
     },
     "total_mentions": 1,
     "document_count": 1,
@@ -101940,6 +101391,41 @@
       }
     ],
     "_key": "autism spectrum disorder cover service"
+  },
+  {
+    "canonical_name": "Placement and maintenance of a d ialysis machine in the member\u2019s home",
+    "merge_key": "placement and maintenance of a d ialysis machine in the member s home",
+    "match_type": "exact",
+    "variant_texts": {
+      "Placement and maintenance of a d ialysis machine in the member\u2019s home": 1
+    },
+    "tiers_present": [
+      2
+    ],
+    "profiles_present": [
+      "ppo_medical"
+    ],
+    "parent_headers": [
+      "Dialysis Services"
+    ],
+    "inclusion_breakdown": {
+      "covered": 1
+    },
+    "shape_breakdown": {
+      "sentence": 1
+    },
+    "total_mentions": 1,
+    "document_count": 1,
+    "documents": [
+      {
+        "doc_id": "Certificates/601F BLUE CROSS PREMIER PPO VALUE BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          54
+        ]
+      }
+    ],
+    "_key": "placement and maintenance of a d ialysis machine in the member s home"
   },
   {
     "canonical_name": "If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy services described on Pages 71, 83 and 117.",
@@ -103167,6 +102653,41 @@
     "_key": "if physical therapy occupational therapy or speech language therapy cannot be do in the home we will pay for outpatient therapy it may be in a outpatient department of a hospital or a physical therapy facility benefit be subject to the combine 30 visit maximum for occupational therapy and physical therapy and the 30 visit maximum for speech language therapy describe on page"
   },
   {
+    "canonical_name": "Post-natal care, including a Papanicolaou (Pap) smear during the six-week visit.",
+    "merge_key": "post natal care including a papanicolaou pap smear during the six week visit",
+    "match_type": "exact",
+    "variant_texts": {
+      "Post-natal care, including a Papanicolaou (Pap) smear during the six-week visit.": 1
+    },
+    "tiers_present": [
+      2
+    ],
+    "profiles_present": [
+      "ppo_medical"
+    ],
+    "parent_headers": [
+      "Maternity Care"
+    ],
+    "inclusion_breakdown": {
+      "covered": 1
+    },
+    "shape_breakdown": {
+      "sentence": 1
+    },
+    "total_mentions": 1,
+    "document_count": 1,
+    "documents": [
+      {
+        "doc_id": "Certificates/604F BLUE CROSS PREMIER PPO GOLD BENEFITS CERTIFICATE.pdf",
+        "mention_count": 1,
+        "pages": [
+          76
+        ]
+      }
+    ],
+    "_key": "post natal care including a papanicolaou pap smear during the six week visit"
+  },
+  {
     "canonical_name": "For a member with a BMI of 30 or above, we pay for 26 visits per member per calendar year. Visits can include nutritional counseling, such as dietician services, billed by professional provider recognized by BCBSM.",
     "merge_key": "for a member with a bmi of 30 or above we pay for 26 visit per member per calendar year visit can include nutritional counseling such as dietician service bill by professional provider recognize by bcbsm",
     "match_type": "exact",
@@ -103742,7 +103263,7 @@
       "covered": 1
     },
     "shape_breakdown": {
-      "phrase": 1
+      "sentence": 1
     },
     "total_mentions": 1,
     "document_count": 1,

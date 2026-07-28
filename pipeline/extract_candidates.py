@@ -55,6 +55,14 @@ SEE_SECTION_HELPER_RE = re.compile(r"^see section \d+ beginning on page", re.IGN
 LOCATIONS_LINE_RE = re.compile(r"^locations:", re.IGNORECASE)
 LETTERHEAD_MAX_SIZE = 9.0
 
+# A bullet ending in a bare "to <verb>:" (nothing between the infinitive and
+# the colon) is introducing a list of things being identified/determined/
+# etc, not naming a benefit itself (e.g. "Medication assessments to
+# identify:"). Deliberately narrow - a colon preceded by more than one word
+# (e.g. "...limited to those described below:") is often a legitimate
+# standalone name that just happens to introduce children too.
+BARE_INFINITIVE_COLON_RE = re.compile(r"\bto\s+\w+:$")
+
 COST_TIER_GROUP_HEADER_RE = re.compile(
     r"^(\$[\d,]+(\.\d+)?\s+for:|"
     r"\d{1,3}%\s+of the approved amount for:|"
@@ -77,6 +85,17 @@ CRITERION_WORDS = {"when", "if", "unless", "because", "must", "will", "does", "s
 # isn't literally "if"/"when"/etc.
 LEADING_VERB_WORDS = {"are", "is", "can", "will", "does", "has", "have", "was", "were", "do", "did", "should", "shall", "may", "might", "must"}
 
+# Generic/administrative descriptors that sit at the exact same bullet depth
+# as real named benefits in the source (e.g. "Individual psychotherapeutic
+# treatment" and "Services provided by the hospital's or facility's staff"
+# under the same "We pay for:" list) - no structural signal (font, glyph,
+# depth) distinguishes them, only the lexical pattern. Confirmed against 6
+# real examples (all caught) and 10 known-good benefit names (0 false
+# positives) before adding.
+AGENT_CLAUSE_RE = re.compile(r"\b(provided|given|required|received)\s+(by|from)\b", re.IGNORECASE)
+PAYMENT_FOR_RE = re.compile(r"^payment for\b", re.IGNORECASE)
+NOT_MEET_RE = re.compile(r"\bdo(?:es)? not meet\b", re.IGNORECASE)
+
 
 def shape_of(text):
     """Conservative phrase-vs-sentence heuristic. Not a solved classifier -
@@ -87,11 +106,13 @@ def shape_of(text):
     lower_words = {w.lower().strip(",:;") for w in words}
     if words[0].lower().strip(",:;") in LEADING_VERB_WORDS:
         return "sentence"
-    if len(words) > 12:
+    if len(words) > 10:
         return "sentence"
     if lower_words & CRITERION_WORDS:
         return "sentence"
     if re.search(r"\b\d{1,3}%\b", text) and len(words) > 4:
+        return "sentence"
+    if AGENT_CLAUSE_RE.search(text) or PAYMENT_FOR_RE.match(text) or NOT_MEET_RE.search(text):
         return "sentence"
     return "phrase"
 
@@ -101,8 +122,11 @@ def is_letterhead_or_noise(line_words, line_text_str):
         return True
     if SEE_SECTION_HELPER_RE.match(line_text_str.strip()):
         return True
-    if LOCATIONS_LINE_RE.match(line_text_str.strip()):
-        return True
+    # NOT LOCATIONS_LINE_RE here - it used to be filtered out here, which
+    # meant its facility-type bullets (which aren't filtered) flowed into
+    # walk_benefit_bullets with no record of what block they belonged to.
+    # walk_benefit_bullets needs to see this line itself to know to skip the
+    # bullet run that follows.
     if re.match(r"^SECTION \d+:", line_text_str.strip()):
         return True
     if "Blue Cross Blue Shield of Michigan" in line_text_str:
@@ -238,15 +262,45 @@ def walk_benefit_bullets(lines, header_text, section_context, dental_split, defa
     covered items directly, with real exclusions living in a separate
     Section 4 - so it needs `default_inclusion="covered"` or every one of
     its bullets gets silently dropped waiting for a marker that never comes.
+
+    Two things need handling independent of `inclusion` state entirely,
+    because relying on marker-matching to happen to be in the right state
+    at the right time proved fragile in practice (see the "An office" bug):
+
+    - A "Locations:" bullet run (facility types, not benefits) needs to be
+      skipped even when a generic summary sentence earlier in the section
+      (e.g. "We pay for professional, hospital and facility services to
+      treat the underlying causes of infertility.") happened to already
+      match WE_PAY_FOR_RE and set inclusion to "covered" before the real
+      list-introducing marker appears.
+    - A bullet that's a bare infinitive clause ending in a colon (e.g.
+      "Medication assessments to identify:") is a group header for its own
+      children, not a benefit itself - narrower than "any colon-ending
+      bullet" on purpose, since some colon-ending bullets ARE legitimate
+      standalone names (e.g. "Services to treat temporomandibular joint
+      dysfunction (TMJ) limited to those described below:").
     """
     candidates = []
     depth_rank = bullet_depth_ranker(lines)
     inclusion = default_inclusion
     stack_text_by_depth = {}
     last_candidate = None
+    skipping_locations = False
 
     for line in lines:
         text = line["text"]
+
+        if LOCATIONS_LINE_RE.match(text.strip()):
+            skipping_locations = True
+            last_candidate = None
+            continue
+        if skipping_locations:
+            if line["is_bullet"]:
+                continue
+            skipping_locations = False
+            # fall through - this non-bullet line (often the real "We pay
+            # for:" marker) still needs normal handling below.
+
         if WE_PAY_FOR_RE.match(text):
             inclusion = "covered"
             last_candidate = None
@@ -268,6 +322,14 @@ def walk_benefit_bullets(lines, header_text, section_context, dental_split, defa
 
         depth = depth_rank.get(round(line["x0"], 0), 0)
         raw = strip_leading_bullet(text)
+
+        if BARE_INFINITIVE_COLON_RE.search(raw):
+            # Group header for its children, not a candidate itself - still
+            # tracked in stack_text_by_depth so children get the right
+            # immediate_parent.
+            stack_text_by_depth[depth] = raw
+            last_candidate = None
+            continue
 
         candidate_text = raw
         did_split = False

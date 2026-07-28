@@ -19,6 +19,18 @@ ORANGE = "#eb6834"
 AQUA = "#1baf7a"
 
 
+COLUMN_HELP = {
+    "covered": "How many mentions of this benefit, across all documents, were found under a "
+    "\"We pay for:\" (or equivalent covered cost-tier) marker in the source text.",
+    "excluded": "How many mentions were found under a \"We do not pay for:\" / exclusions marker "
+    "instead. A benefit can have both if it's covered in most plans but excluded in one.",
+    "profiles_present": "Which document type(s) this benefit was found in: ppo_medical, vision, "
+    "or dental certificates, or csr_rider (cost-sharing riders).",
+    "matched_to_tree": "Whether this benefit (exact or fuzzy match) has a corresponding entry on "
+    "the Topic Tree - see the Topic Tree Comparison page for details.",
+}
+
+
 def records_to_df(records):
     rows = []
     for r in records:
@@ -27,14 +39,9 @@ def records_to_df(records):
                 "canonical_name": r["canonical_name"],
                 "total_mentions": r["total_mentions"],
                 "document_count": r["document_count"],
-                "tiers_present": ",".join(str(t) for t in r["tiers_present"]),
                 "profiles_present": ", ".join(r["profiles_present"]),
                 "covered": r["inclusion_breakdown"].get("covered", 0),
                 "excluded": r["inclusion_breakdown"].get("excluded", 0),
-                "unknown": r["inclusion_breakdown"].get("unknown", 0),
-                "phrase": r["shape_breakdown"].get("phrase", 0),
-                "sentence": r["shape_breakdown"].get("sentence", 0),
-                "high_confidence": data.is_high_confidence(r),
                 "parent_headers": " | ".join(r["parent_headers"][:5]),
             }
         )
@@ -60,42 +67,36 @@ def render_benefit_explorer():
 
     records = data.load_benefits_master()
     df = records_to_df(records)
+    unmatched_names = {r["canonical_name"] for r in data.load_corpus_not_in_tree()}
+    df["matched_to_tree"] = ~df["canonical_name"].isin(unmatched_names)
 
-    col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
+    col1, col2, col3 = st.columns([2, 1, 1])
     with col1:
         search = st.text_input("Search benefit name")
     with col2:
-        tier_filter = st.multiselect("Tier", ["1", "2", "3"], default=[])
-    with col3:
         profile_filter = st.multiselect(
             "Profile", sorted({p for r in records for p in r["profiles_present"]}), default=[]
         )
-    with col4:
+    with col3:
         min_mentions = st.number_input("Min mentions", min_value=1, value=1)
-    hide_low_confidence = st.checkbox(
-        "Hide low-confidence (Tier 3 / mostly-criteria) benefits", value=True
-    )
 
     filtered = df
     if search:
         filtered = filtered[filtered["canonical_name"].str.contains(search, case=False, na=False)]
-    if tier_filter:
-        filtered = filtered[filtered["tiers_present"].apply(lambda t: any(tf in t.split(",") for tf in tier_filter))]
     if profile_filter:
         filtered = filtered[filtered["profiles_present"].apply(lambda p: any(pf in p for pf in profile_filter))]
     filtered = filtered[filtered["total_mentions"] >= min_mentions]
-    if hide_low_confidence:
-        filtered = filtered[filtered["high_confidence"]]
 
     filtered = filtered.sort_values("total_mentions", ascending=False)
 
     st.caption(f"{len(filtered):,} of {len(df):,} benefits shown")
     st.dataframe(
-        filtered[["canonical_name", "total_mentions", "document_count", "tiers_present",
-                  "profiles_present", "covered", "excluded", "high_confidence"]],
+        filtered[["canonical_name", "total_mentions", "document_count",
+                  "profiles_present", "covered", "excluded", "matched_to_tree"]],
         use_container_width=True,
         hide_index=True,
         height=400,
+        column_config={k: st.column_config.Column(help=v) for k, v in COLUMN_HELP.items()},
     )
     download_button(filtered, "Download filtered benefits (CSV)", "benefits_filtered.csv", "explorer_download")
 
@@ -123,11 +124,10 @@ def render_benefit_detail(canonical_name):
             for v, count in record["variant_texts"].items():
                 st.write(f"- \"{v}\" ({count}x)")
 
-    m1, m2, m3, m4 = st.columns(4)
+    m1, m2, m3 = st.columns(3)
     m1.metric("Total mentions", record["total_mentions"])
     m2.metric("Documents", record["document_count"])
-    m3.metric("Tiers present", ", ".join(str(t) for t in record["tiers_present"]))
-    m4.metric("Profiles", ", ".join(record["profiles_present"]))
+    m3.metric("Profiles", ", ".join(record["profiles_present"]))
 
     st.write(
         f"**Inclusion:** {record['inclusion_breakdown'].get('covered', 0)} covered, "
@@ -192,23 +192,22 @@ def render_topic_tree_comparison():
 
     with tab1:
         st.caption(
-            "Corpus benefits with no Topic Tree match (exact or fuzzy). Benefits containing a "
-            "Tier 1 (section header) mention are the highest-confidence gaps - sorted first."
+            "Corpus benefits with no Topic Tree match (exact or fuzzy), sorted by how often they "
+            "appear across the corpus."
         )
         df1 = records_to_df(corpus_not_in_tree)
-        df1["contains_tier1"] = df1["tiers_present"].apply(lambda t: "1" in t.split(","))
 
         search1 = st.text_input("Search", key="tab1_search")
         filtered1 = df1
         if search1:
             filtered1 = filtered1[filtered1["canonical_name"].str.contains(search1, case=False, na=False)]
-        filtered1 = filtered1.sort_values(["contains_tier1", "total_mentions"], ascending=[False, False])
+        filtered1 = filtered1.sort_values("total_mentions", ascending=False)
 
-        st.caption(f"{len(filtered1):,} of {len(df1):,} shown ({df1['contains_tier1'].sum()} contain a Tier 1 header)")
+        st.caption(f"{len(filtered1):,} of {len(df1):,} shown")
         st.dataframe(
-            filtered1[["canonical_name", "contains_tier1", "total_mentions", "document_count",
-                       "tiers_present", "profiles_present"]],
+            filtered1[["canonical_name", "total_mentions", "document_count", "profiles_present"]],
             use_container_width=True, hide_index=True, height=400,
+            column_config={k: st.column_config.Column(help=v) for k, v in COLUMN_HELP.items()},
         )
         download_button(filtered1, "Download (CSV)", "corpus_benefits_not_in_tree.csv", "tab1_download")
 

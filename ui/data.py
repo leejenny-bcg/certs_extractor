@@ -58,20 +58,6 @@ def has_revenue_code_prefix(benefit_name):
     return bool(CODE_PREFIX_RE.match(benefit_name))
 
 
-def is_high_confidence(record):
-    """A benefit is high-confidence if any of its mentions are Tier 1
-    (a certificate's own section header) or Tier 2a/2b bullet phrases -
-    i.e. not exclusively Tier 3 index terms or sentence-shaped criteria.
-    Mirrors the confidence tiering used throughout the extraction pipeline
-    (surfaced as a filter here, never silently dropped from the data).
-    """
-    if 1 in record["tiers_present"]:
-        return True
-    phrase_count = record["shape_breakdown"].get("phrase", 0)
-    sentence_count = record["shape_breakdown"].get("sentence", 0)
-    return phrase_count >= sentence_count
-
-
 @lru_cache(maxsize=None)
 def get_extracted_doc(doc_id):
     """Lazily load a single Stage 1 extracted-text cache file for a document.

@@ -38,7 +38,7 @@
     },
     {
       "benefit_name": "0022 - Skilled Nursing Facility Prospective Payment System SNF PPS (RUG)",
-      "normalized_key": "skill nursing facility prospective payment system snf pp rug",
+      "normalized_key": "skilled nursing facility prospective payment system snf pps rug",
       "topic_ids": [
         66925
       ],
@@ -48,7 +48,7 @@
     },
     {
       "benefit_name": "0023 - Home Health Prospective Payment System SNF PPS (RUG)",
-      "normalized_key": "home health prospective payment system snf pp rug",
+      "normalized_key": "home health prospective payment system snf pps rug",
       "topic_ids": [
         66926
       ],
@@ -158,7 +158,7 @@
     },
     {
       "benefit_name": "0112 - Room and board for obstetrics private room",
-      "normalized_key": "room and board for obstetrics private room",
+      "normalized_key": "room and board for obstetric private room",
       "topic_ids": [
         24127
       ],
@@ -258,7 +258,7 @@
     },
     {
       "benefit_name": "0122 - Room and board for obstetrics semi-private two bed room",
-      "normalized_key": "room and board for obstetrics semi private two bed room",
+      "normalized_key": "room and board for obstetric semi private two bed room",
       "topic_ids": [
         24137
       ],
@@ -358,7 +358,7 @@
     },
     {
       "benefit_name": "0132 - Room and board for obstetrics semi-private three and four bed room",
-      "normalized_key": "room and board for obstetrics semi private three and four bed room",
+      "normalized_key": "room and board for obstetric semi private three and four bed room",
       "topic_ids": [
         24147
       ],
@@ -458,7 +458,7 @@
     },
     {
       "benefit_name": "0142 - Room and board for obstetrics deluxe private room",
-      "normalized_key": "room and board for obstetrics deluxe private room",
+      "normalized_key": "room and board for obstetric deluxe private room",
       "topic_ids": [
         24157
       ],
@@ -778,7 +778,7 @@
     },
     {
       "benefit_name": "0184 - Leave of absense - ICF/MR - any reason",
-      "normalized_key": "leave of absense icf Mr any reason",
+      "normalized_key": "leave of absense icf mr any reason",
       "topic_ids": [
         24188
       ],
@@ -818,7 +818,7 @@
     },
     {
       "benefit_name": "0191 - Subacute skilled care room and board (Level I)",
-      "normalized_key": "subacute skill care room and board level I",
+      "normalized_key": "subacute skilled care room and board level i",
       "topic_ids": [
         12918
       ],
@@ -1048,7 +1048,7 @@
     },
     {
       "benefit_name": "0223 - U.R. Service Charge",
-      "normalized_key": "u r service charge",
+      "normalized_key": "service charge",
       "topic_ids": [
         23770
       ],
@@ -1898,7 +1898,7 @@
     },
     {
       "benefit_name": "0360 - General classification for operating room charges",
-      "normalized_key": "general classification for operate room charge",
+      "normalized_key": "general classification for operating room charge",
       "topic_ids": [
         24054
       ],
@@ -1908,7 +1908,7 @@
     },
     {
       "benefit_name": "0361 - Operating room charges for minor surgery",
-      "normalized_key": "operate room charge for minor surgery",
+      "normalized_key": "operating room charge for minor surgery",
       "topic_ids": [
         24055
       ],
@@ -1918,7 +1918,7 @@
     },
     {
       "benefit_name": "0362 - Operating room charges for organ transplant - other than kidney",
-      "normalized_key": "operate room charge for organ transplant other than kidney",
+      "normalized_key": "operating room charge for organ transplant other than kidney",
       "topic_ids": [
         24056
       ],
@@ -1928,7 +1928,7 @@
     },
     {
       "benefit_name": "0367 - Operating room charges for kidney transplant",
-      "normalized_key": "operate room charge for kidney transplant",
+      "normalized_key": "operating room charge for kidney transplant",
       "topic_ids": [
         24057
       ],
@@ -1938,7 +1938,7 @@
     },
     {
       "benefit_name": "0369 - Other Operating Room Services",
-      "normalized_key": "other operate room service",
+      "normalized_key": "other operating room service",
       "topic_ids": [
         24058
       ],
@@ -2068,7 +2068,7 @@
     },
     {
       "benefit_name": "0387 - Other Derivatives (Cryopricipitates)",
-      "normalized_key": "other derivative cryopricipitates",
+      "normalized_key": "other derivative cryopricipitate",
       "topic_ids": [
         24024
       ],
@@ -2088,7 +2088,7 @@
     },
     {
       "benefit_name": "0390 - General classification for blood storage and processing",
-      "normalized_key": "general classification for blood storage and process",
+      "normalized_key": "general classification for blood storage and processing",
       "topic_ids": [
         23874
       ],
@@ -2108,7 +2108,7 @@
     },
     {
       "benefit_name": "0392 -  Administration , Processing and Storage for Blood and Blood Components - Processing and Storage",
-      "normalized_key": "administration process and storage for blood and blood component process and storage",
+      "normalized_key": "administration processing and storage for blood and blood component processing and storage",
       "topic_ids": [
         2016175
       ],
@@ -2118,7 +2118,7 @@
     },
     {
       "benefit_name": "0399 - Other Blood Storage and Processing",
-      "normalized_key": "other blood storage and process",
+      "normalized_key": "other blood storage and processing",
       "topic_ids": [
         23876
       ],
@@ -2418,7 +2418,7 @@
     },
     {
       "benefit_name": "0451 - EMTALA Emergency Medical Screening Services",
-      "normalized_key": "emtala emergency medical screen service",
+      "normalized_key": "emtala emergency medical screening service",
       "topic_ids": [
         23926
       ],
@@ -2428,7 +2428,7 @@
     },
     {
       "benefit_name": "0452 - ER Beyond EMTALA Screening",
-      "normalized_key": "er beyond emtala screen",
+      "normalized_key": "er beyond emtala screening",
       "topic_ids": [
         23927
       ],
@@ -2748,7 +2748,7 @@
     },
     {
       "benefit_name": "0525 - RHC/FQHC visit in SNF (noncovered Part A stay) or NF or ICF MR or resid fac",
-      "normalized_key": "rhc fqhc visit in snf noncovered part a stay or nf or icf Mr or resid fac",
+      "normalized_key": "rhc fqhc visit in snf noncovere part a stay or nf or icf mr or resid fac",
       "topic_ids": [
         86222
       ],
@@ -2768,7 +2768,7 @@
     },
     {
       "benefit_name": "0527 - RHC/FQHC visit nurse service(s) to home (home health shortage area)",
-      "normalized_key": "rhc fqhc visit nurse service s to home home health shortage area",
+      "normalized_key": "rhc fqhc visit nurse to home home health shortage area",
       "topic_ids": [
         86223
       ],
@@ -2788,7 +2788,7 @@
     },
     {
       "benefit_name": "0529 - Other Freestanding Clinic",
-      "normalized_key": "other freestanding clinic",
+      "normalized_key": "other freestande clinic",
       "topic_ids": [
         23889
       ],
@@ -2928,7 +2928,7 @@
     },
     {
       "benefit_name": "0550 - General classification for skilled nursing",
-      "normalized_key": "general classification for skill nursing",
+      "normalized_key": "general classification for skilled nursing",
       "topic_ids": [
         24046
       ],
@@ -2938,7 +2938,7 @@
     },
     {
       "benefit_name": "0551 - Skilled nursing visit charge",
-      "normalized_key": "skill nursing visit charge",
+      "normalized_key": "skilled nursing visit charge",
       "topic_ids": [
         24047
       ],
@@ -2948,7 +2948,7 @@
     },
     {
       "benefit_name": "0552 - Skilled nursing hourly charge",
-      "normalized_key": "skill nursing hourly charge",
+      "normalized_key": "skilled nursing hourly charge",
       "topic_ids": [
         24048
       ],
@@ -2958,7 +2958,7 @@
     },
     {
       "benefit_name": "0559 - Other Skilled Nursing",
-      "normalized_key": "other skill nursing",
+      "normalized_key": "other skilled nursing",
       "topic_ids": [
         24049
       ],
@@ -3138,7 +3138,7 @@
     },
     {
       "benefit_name": "0602 - Oxygen-State/Equip/Suppl/ Under 1 LPM",
-      "normalized_key": "oxygen state equip suppl under 1 lpm",
+      "normalized_key": "oxygen state equip under 1 lpm",
       "topic_ids": [
         23966
       ],
@@ -3188,7 +3188,7 @@
     },
     {
       "benefit_name": "0611 - MRI-Brain (Including Brainstem)",
-      "normalized_key": "mri brain including brainstem",
+      "normalized_key": "mri brain include brainstem",
       "topic_ids": [
         24008
       ],
@@ -3198,7 +3198,7 @@
     },
     {
       "benefit_name": "0612 - MRI-Spinal Cord (Including Spine)",
-      "normalized_key": "mri spinal cord including spine",
+      "normalized_key": "mri spinal cord include spine",
       "topic_ids": [
         24009
       ],
@@ -3328,7 +3328,7 @@
     },
     {
       "benefit_name": "0634 - Erythropoietin (EPO) Less Than 10,000 Units",
-      "normalized_key": "erythropoietin epo less than 10 000 unit",
+      "normalized_key": "erythropoietin epo less than unit",
       "topic_ids": [
         23984
       ],
@@ -3338,7 +3338,7 @@
     },
     {
       "benefit_name": "0635 - Erythropoietin, (EPO) 10,000 or More Units",
-      "normalized_key": "erythropoietin epo 10 000 or more unit",
+      "normalized_key": "erythropoietin epo or more unit",
       "topic_ids": [
         23985
       ],
@@ -3348,7 +3348,7 @@
     },
     {
       "benefit_name": "0636 - Drugs Requiring Detailed Coding (a)",
-      "normalized_key": "drug require detail coding a",
+      "normalized_key": "drug require detailed coding a",
       "topic_ids": [
         23986
       ],
@@ -3418,7 +3418,7 @@
     },
     {
       "benefit_name": "0645 - Training Patient/Caregiver, Central Line",
-      "normalized_key": "train patient caregiver central line",
+      "normalized_key": "training patient caregiver central line",
       "topic_ids": [
         23908
       ],
@@ -3428,7 +3428,7 @@
     },
     {
       "benefit_name": "0646 - Training, Disabled Patient, Central Line",
-      "normalized_key": "train disable patient central line",
+      "normalized_key": "training disabled patient central line",
       "topic_ids": [
         23909
       ],
@@ -3438,7 +3438,7 @@
     },
     {
       "benefit_name": "0647 - Training, Patient/ Caregiver, Peripheral Line",
-      "normalized_key": "train patient caregiver peripheral line",
+      "normalized_key": "training caregiver peripheral line",
       "topic_ids": [
         23910
       ],
@@ -3448,7 +3448,7 @@
     },
     {
       "benefit_name": "0648 - Training, Disabled Patient, Peripheral Line",
-      "normalized_key": "train disable patient peripheral line",
+      "normalized_key": "training disabled patient peripheral line",
       "topic_ids": [
         23911
       ],
@@ -3558,7 +3558,7 @@
     },
     {
       "benefit_name": "0661 - Hourly charge for skilled nursing for respite care",
-      "normalized_key": "hourly charge for skill nursing for respite care",
+      "normalized_key": "hourly charge for skilled nursing for respite care",
       "topic_ids": [
         23784
       ],
@@ -3838,7 +3838,7 @@
     },
     {
       "benefit_name": "0724 - Birthing center",
-      "normalized_key": "birth center",
+      "normalized_key": "birthing center",
       "topic_ids": [
         23816
       ],
@@ -4092,7 +4092,7 @@
     },
     {
       "benefit_name": "0804 - Inpatient Continuous Cycling Peritoneal Dialysis (CCPD)",
-      "normalized_key": "inpatient continuous cycle peritoneal dialysis ccpd",
+      "normalized_key": "inpatient continuous cycling peritoneal dialysis ccpd",
       "topic_ids": [
         20248
       ],
@@ -4122,7 +4122,7 @@
     },
     {
       "benefit_name": "0811 - Living Donor",
-      "normalized_key": "living donor",
+      "normalized_key": "live donor",
       "topic_ids": [
         60534
       ],
@@ -4142,7 +4142,7 @@
     },
     {
       "benefit_name": "0813 - Unknown donor",
-      "normalized_key": "unknow donor",
+      "normalized_key": "unknown donor",
       "topic_ids": [
         60536
       ],
@@ -4222,7 +4222,7 @@
     },
     {
       "benefit_name": "0824 - Maintenance/100%",
-      "normalized_key": "maintenance 100",
+      "normalized_key": "",
       "topic_ids": [
         23822
       ],
@@ -4292,7 +4292,7 @@
     },
     {
       "benefit_name": "0834 - Maintenance/100%",
-      "normalized_key": "maintenance 100",
+      "normalized_key": "",
       "topic_ids": [
         20254
       ],
@@ -4392,7 +4392,7 @@
     },
     {
       "benefit_name": "0850 - General classification for outpatient or home continuous cycling peritoneal dialysis",
-      "normalized_key": "general classification for outpatient or home continuous cycle peritoneal dialysis",
+      "normalized_key": "general classification for outpatient or home continuous cycling peritoneal dialysis",
       "topic_ids": [
         20230
       ],
@@ -4502,7 +4502,7 @@
     },
     {
       "benefit_name": "0872 - Specialized Biologic Processing and Storage-Prior to Transport",
-      "normalized_key": "specialize biologic process and storage prior to transport",
+      "normalized_key": "specialized biologic processing and storage prior to transport",
       "topic_ids": [
         2379358
       ],
@@ -4512,7 +4512,7 @@
     },
     {
       "benefit_name": "0873 - Storage and Processing after Receipt of Cells from Manufacturer",
-      "normalized_key": "storage and process after receipt of cell from manufacturer",
+      "normalized_key": "storage and processing after receipt of cell from manufacturer",
       "topic_ids": [
         2379359
       ],
@@ -4772,7 +4772,7 @@
     },
     {
       "benefit_name": "0918 - Psych/testing",
-      "normalized_key": "psych test",
+      "normalized_key": "psych testing",
       "topic_ids": [
         13022
       ],
@@ -4902,7 +4902,7 @@
     },
     {
       "benefit_name": "0942 - Education/Training",
-      "normalized_key": "education train",
+      "normalized_key": "education training",
       "topic_ids": [
         24107
       ],
@@ -4942,7 +4942,7 @@
     },
     {
       "benefit_name": "0946 - Complex Medical Equipment- Routine",
-      "normalized_key": "complex medical equipment routine",
+      "normalized_key": "complex medical routine",
       "topic_ids": [
         24111
       ],
@@ -4952,7 +4952,7 @@
     },
     {
       "benefit_name": "0947 - Complex Medical Equipment- Ancillary",
-      "normalized_key": "complex medical equipment ancillary",
+      "normalized_key": "complex medical ancillary",
       "topic_ids": [
         24112
       ],
@@ -4982,7 +4982,7 @@
     },
     {
       "benefit_name": "0951 - Athletic Training",
-      "normalized_key": "athletic train",
+      "normalized_key": "athletic training",
       "topic_ids": [
         24115
       ],
@@ -5112,7 +5112,7 @@
     },
     {
       "benefit_name": "0975 - Professional charges for operating room",
-      "normalized_key": "professional charge for operate room",
+      "normalized_key": "professional charge for operating room",
       "topic_ids": [
         24089
       ],
@@ -5864,7 +5864,7 @@
     },
     {
       "benefit_name": "Advance care planning",
-      "normalized_key": "advance care plan",
+      "normalized_key": "advance care planning",
       "topic_ids": [
         2333396
       ],
@@ -5874,7 +5874,7 @@
     },
     {
       "benefit_name": "AIDS/HIV Screening",
-      "normalized_key": "aid hiv screen",
+      "normalized_key": "aids hiv screening",
       "topic_ids": [
         2320973
       ],
@@ -5956,7 +5956,7 @@
     },
     {
       "benefit_name": "Allergy Testing",
-      "normalized_key": "allergy test",
+      "normalized_key": "allergy testing",
       "topic_ids": [
         20561
       ],
@@ -6036,7 +6036,7 @@
     },
     {
       "benefit_name": "Ambulance waiting time",
-      "normalized_key": "ambulance wait time",
+      "normalized_key": "ambulance waiting time",
       "topic_ids": [
         60437
       ],
@@ -6046,7 +6046,7 @@
     },
     {
       "benefit_name": "Ambulanced advance life support services (ALS)",
-      "normalized_key": "ambulanced advance life support service als",
+      "normalized_key": "ambulance advance life support service al",
       "topic_ids": [
         60435
       ],
@@ -6448,7 +6448,7 @@
     },
     {
       "benefit_name": "Assistive listening device",
-      "normalized_key": "assistive listen device",
+      "normalized_key": "assistive listening device",
       "topic_ids": [
         68287
       ],
@@ -6548,7 +6548,7 @@
     },
     {
       "benefit_name": "Automatic external defibrillator (AED) and related supplies",
-      "normalized_key": "automatic external defibrillator aed and relate supply",
+      "normalized_key": "automatic external defibrillator aed and related supply",
       "topic_ids": [
         63951
       ],
@@ -6568,7 +6568,7 @@
     },
     {
       "benefit_name": "Basic Life and/or Disability Evaluation Services",
-      "normalized_key": "basic life and or disability evaluation service",
+      "normalized_key": "basic life disability evaluation service",
       "topic_ids": [
         60198
       ],
@@ -6720,7 +6720,7 @@
     },
     {
       "benefit_name": "Bitewing",
-      "normalized_key": "bitewing",
+      "normalized_key": "bitewe",
       "topic_ids": [
         89772
       ],
@@ -6760,7 +6760,7 @@
     },
     {
       "benefit_name": "Blood processing and storage",
-      "normalized_key": "blood process and storage",
+      "normalized_key": "blood processing and storage",
       "topic_ids": [
         66914
       ],
@@ -6780,7 +6780,7 @@
     },
     {
       "benefit_name": "Blood products, storage and processing",
-      "normalized_key": "blood product storage and process",
+      "normalized_key": "blood product storage and processing",
       "topic_ids": [
         12940
       ],
@@ -6880,7 +6880,7 @@
     },
     {
       "benefit_name": "BPCI Advanced",
-      "normalized_key": "bpci advance",
+      "normalized_key": "bpci advanced",
       "topic_ids": [
         2372848
       ],
@@ -6930,7 +6930,7 @@
     },
     {
       "benefit_name": "Breast prosthetics and supplies",
-      "normalized_key": "breast prosthetics and supply",
+      "normalized_key": "breast prosthetic and supply",
       "topic_ids": [
         52520
       ],
@@ -7216,7 +7216,7 @@
     },
     {
       "benefit_name": "Care Planning",
-      "normalized_key": "care plan",
+      "normalized_key": "care planning",
       "topic_ids": [
         2419105
       ],
@@ -7258,7 +7258,7 @@
     },
     {
       "benefit_name": "Cast, splint and sling supplies",
-      "normalized_key": "cast splint and sling supply",
+      "normalized_key": "cast splint and sle supply",
       "topic_ids": [
         60589
       ],
@@ -7290,7 +7290,7 @@
     },
     {
       "benefit_name": "Category II codes (tracking codes)",
-      "normalized_key": "category ii code track code",
+      "normalized_key": "category ii code tracking code",
       "topic_ids": [
         65930
       ],
@@ -7300,7 +7300,7 @@
     },
     {
       "benefit_name": "Category II Codes- Data Gathering",
-      "normalized_key": "category ii code datum gathering",
+      "normalized_key": "category ii datum gathering",
       "topic_ids": [
         2421461
       ],
@@ -7310,7 +7310,7 @@
     },
     {
       "benefit_name": "Category III Codes (tracking/analysis codes)",
-      "normalized_key": "category iii code track analysis code",
+      "normalized_key": "category iii code tracking analysis code",
       "topic_ids": [
         2444256
       ],
@@ -7360,7 +7360,7 @@
     },
     {
       "benefit_name": "Cervix Uteri",
-      "normalized_key": "cervix uterus",
+      "normalized_key": "cervix uteri",
       "topic_ids": [
         17175
       ],
@@ -7532,7 +7532,7 @@
     },
     {
       "benefit_name": "Chlamydia Screening",
-      "normalized_key": "chlamydia screen",
+      "normalized_key": "chlamydia screening",
       "topic_ids": [
         2320974
       ],
@@ -7542,7 +7542,7 @@
     },
     {
       "benefit_name": "Cholesterol testing",
-      "normalized_key": "cholesterol test",
+      "normalized_key": "cholesterol testing",
       "topic_ids": [
         52652
       ],
@@ -7582,7 +7582,7 @@
     },
     {
       "benefit_name": "Class IV Orthodontic and Related Services",
-      "normalized_key": "class iv orthodontic and relate service",
+      "normalized_key": "class iv orthodontic and related service",
       "topic_ids": [
         66942
       ],
@@ -7612,7 +7612,7 @@
     },
     {
       "benefit_name": "Clinical Treatment Planning (External and Internal)",
-      "normalized_key": "clinical treatment plan external and internal",
+      "normalized_key": "clinical treatment planning external and internal",
       "topic_ids": [
         18718
       ],
@@ -7632,7 +7632,7 @@
     },
     {
       "benefit_name": "CMS Demo Project Chemotherapy",
-      "normalized_key": "cm demo project chemotherapy",
+      "normalized_key": "cms demo project chemotherapy",
       "topic_ids": [
         81144
       ],
@@ -7642,7 +7642,7 @@
     },
     {
       "benefit_name": "CMS Demo Project Intravenous Immune Globulin",
-      "normalized_key": "cm demo project intravenous immune globulin",
+      "normalized_key": "cms demo project intravenous immune globulin",
       "topic_ids": [
         2323836
       ],
@@ -7652,7 +7652,7 @@
     },
     {
       "benefit_name": "Co-branded drug/non-preferred",
-      "normalized_key": "co brand drug non preferr",
+      "normalized_key": "co brand drug non preferred",
       "topic_ids": [
         52817
       ],
@@ -7662,7 +7662,7 @@
     },
     {
       "benefit_name": "Co-branded drug/preferred",
-      "normalized_key": "co brand drug preferr",
+      "normalized_key": "co brand drug prefer",
       "topic_ids": [
         52818
       ],
@@ -7672,7 +7672,7 @@
     },
     {
       "benefit_name": "Co-branded Formulary Program",
-      "normalized_key": "co brand formulary program",
+      "normalized_key": "co branded formulary program",
       "topic_ids": [
         52819
       ],
@@ -7682,7 +7682,7 @@
     },
     {
       "benefit_name": "Coating or laminating of lenses",
-      "normalized_key": "coating or laminate of lens",
+      "normalized_key": "coating or laminating of lens",
       "topic_ids": [
         60429
       ],
@@ -7742,7 +7742,7 @@
     },
     {
       "benefit_name": "Comlicated suturing",
-      "normalized_key": "comlicated suture",
+      "normalized_key": "comlicate suturing",
       "topic_ids": [
         66788
       ],
@@ -7774,7 +7774,7 @@
     },
     {
       "benefit_name": "Complete dentures (including routine post delivery care)",
-      "normalized_key": "complete denture including routine post delivery care",
+      "normalized_key": "complete denture include routine post delivery care",
       "topic_ids": [
         66547
       ],
@@ -7834,7 +7834,7 @@
     },
     {
       "benefit_name": "Compression Stocking - Medical Supplies",
-      "normalized_key": "compression stock medical supply",
+      "normalized_key": "compression stocking medical supply",
       "topic_ids": [
         85742
       ],
@@ -7854,7 +7854,7 @@
     },
     {
       "benefit_name": "Computed Tomography Guidance",
-      "normalized_key": "compute tomography guidance",
+      "normalized_key": "computed tomography guidance",
       "topic_ids": [
         88035
       ],
@@ -7884,7 +7884,7 @@
     },
     {
       "benefit_name": "Congenital Cardiovascular Screening",
-      "normalized_key": "congenital cardiovascular screen",
+      "normalized_key": "congenital cardiovascular screening",
       "topic_ids": [
         2317282
       ],
@@ -7894,7 +7894,7 @@
     },
     {
       "benefit_name": "Congenital hypothyroidism screening",
-      "normalized_key": "congenital hypothyroidism screen",
+      "normalized_key": "congenital hypothyroidism screening",
       "topic_ids": [
         2321071
       ],
@@ -8024,7 +8024,7 @@
     },
     {
       "benefit_name": "Cornea",
-      "normalized_key": "corneum",
+      "normalized_key": "cornea",
       "topic_ids": [
         17912
       ],
@@ -8034,7 +8034,7 @@
     },
     {
       "benefit_name": "Cornea transplantation",
-      "normalized_key": "corneum transplantation",
+      "normalized_key": "cornea transplantation",
       "topic_ids": [
         12833
       ],
@@ -8084,7 +8084,7 @@
     },
     {
       "benefit_name": "Corpus Uteri",
-      "normalized_key": "corpus uterus",
+      "normalized_key": "corpus uteri",
       "topic_ids": [
         17176
       ],
@@ -8154,7 +8154,7 @@
     },
     {
       "benefit_name": "Counseling/Screening",
-      "normalized_key": "counseling screen",
+      "normalized_key": "counseling screening",
       "topic_ids": [
         2317284
       ],
@@ -8214,7 +8214,7 @@
     },
     {
       "benefit_name": "Cros hearing aid",
-      "normalized_key": "cros hearing aid",
+      "normalized_key": "cro hear aid",
       "topic_ids": [
         68233
       ],
@@ -8224,7 +8224,7 @@
     },
     {
       "benefit_name": "Crutches",
-      "normalized_key": "crutch",
+      "normalized_key": "crutche",
       "topic_ids": [
         21396
       ],
@@ -8374,7 +8374,7 @@
     },
     {
       "benefit_name": "Definitive Drug Testing",
-      "normalized_key": "definitive drug test",
+      "normalized_key": "definitive drug testing",
       "topic_ids": [
         2328824
       ],
@@ -8636,7 +8636,7 @@
     },
     {
       "benefit_name": "Developmental Screening",
-      "normalized_key": "developmental screen",
+      "normalized_key": "developmental screening",
       "topic_ids": [
         2317283
       ],
@@ -8666,7 +8666,7 @@
     },
     {
       "benefit_name": "Diabetes Management",
-      "normalized_key": "diabetes management",
+      "normalized_key": "diabete management",
       "topic_ids": [
         61280
       ],
@@ -8746,7 +8746,7 @@
     },
     {
       "benefit_name": "Diagnostic CAT scans aorta and artieries",
-      "normalized_key": "diagnostic cat scan aorta and artiery",
+      "normalized_key": "diagnostic cat scan aorta and artierie",
       "topic_ids": [
         52351
       ],
@@ -9292,7 +9292,7 @@
     },
     {
       "benefit_name": "Drug testing",
-      "normalized_key": "drug test",
+      "normalized_key": "drug testing",
       "topic_ids": [
         12889
       ],
@@ -9626,7 +9626,7 @@
     },
     {
       "benefit_name": "Endoscopy for Cervix Uteri",
-      "normalized_key": "endoscopy for cervix uterus",
+      "normalized_key": "endoscopy for cervix uteri",
       "topic_ids": [
         17190
       ],
@@ -9676,7 +9676,7 @@
     },
     {
       "benefit_name": "Endoscopy/ Arthroscopy",
-      "normalized_key": "endoscopy arthroscopy",
+      "normalized_key": "arthroscopy",
       "topic_ids": [
         13681
       ],
@@ -9756,7 +9756,7 @@
     },
     {
       "benefit_name": "Enteral formulae and enteral medical supplies",
-      "normalized_key": "enteral formula and enteral medical supply",
+      "normalized_key": "enteral formulae and enteral medical supply",
       "topic_ids": [
         21355
       ],
@@ -9806,7 +9806,7 @@
     },
     {
       "benefit_name": "ESRD freestanding facility",
-      "normalized_key": "esrd freestanding facility",
+      "normalized_key": "esrd freestande facility",
       "topic_ids": [
         89496
       ],
@@ -9994,7 +9994,7 @@
     },
     {
       "benefit_name": "Evaluation and management for prolonged services",
-      "normalized_key": "evaluation and management for prolong service",
+      "normalized_key": "evaluation and management for prolonged service",
       "topic_ids": [
         12737
       ],
@@ -10014,7 +10014,7 @@
     },
     {
       "benefit_name": "Evocative-suppression laboratory testing",
-      "normalized_key": "evocative suppression laboratory test",
+      "normalized_key": "evocative suppression laboratory testing",
       "topic_ids": [
         12891
       ],
@@ -10190,7 +10190,7 @@
     },
     {
       "benefit_name": "Excision and/or Destruction",
-      "normalized_key": "excision and or destruction",
+      "normalized_key": "excision destruction",
       "topic_ids": [
         17924
       ],
@@ -10328,7 +10328,7 @@
     },
     {
       "benefit_name": "Extremity Arterial Studies (Including Digits)",
-      "normalized_key": "extremity arterial study including digit",
+      "normalized_key": "extremity arterial study include digit",
       "topic_ids": [
         20496
       ],
@@ -10348,7 +10348,7 @@
     },
     {
       "benefit_name": "Extremity Venous Studies (Including Digits)",
-      "normalized_key": "extremity venous study including digit",
+      "normalized_key": "extremity venous study include digit",
       "topic_ids": [
         20497
       ],
@@ -10488,7 +10488,7 @@
     },
     {
       "benefit_name": "Facility charges for outpatient or home continuous cycling peritoneal dialysis",
-      "normalized_key": "facility charge for outpatient or home continuous cycle peritoneal dialysis",
+      "normalized_key": "facility charge for outpatient or home continuous cycling peritoneal dialysis",
       "topic_ids": [
         12760
       ],
@@ -10578,7 +10578,7 @@
     },
     {
       "benefit_name": "Family planning services",
-      "normalized_key": "family plan service",
+      "normalized_key": "family planning service",
       "topic_ids": [
         60425
       ],
@@ -10598,7 +10598,7 @@
     },
     {
       "benefit_name": "Fecal occult blood screening",
-      "normalized_key": "fecal occult blood screen",
+      "normalized_key": "fecal occult blood screening",
       "topic_ids": [
         52653
       ],
@@ -10608,7 +10608,7 @@
     },
     {
       "benefit_name": "Federally qualified health center",
-      "normalized_key": "federally qualify health center",
+      "normalized_key": "federally qualified health center",
       "topic_ids": [
         2326783
       ],
@@ -10648,7 +10648,7 @@
     },
     {
       "benefit_name": "FEVAR Endograft Planning",
-      "normalized_key": "fevar endograft plan",
+      "normalized_key": "fevar endograft planning",
       "topic_ids": [
         2328180
       ],
@@ -10658,7 +10658,7 @@
     },
     {
       "benefit_name": "Fixed partial pontics",
-      "normalized_key": "fixe partial pontics",
+      "normalized_key": "fix partial pontic",
       "topic_ids": [
         66616
       ],
@@ -10668,7 +10668,7 @@
     },
     {
       "benefit_name": "Fixed prosthodontics",
-      "normalized_key": "fixe prosthodontics",
+      "normalized_key": "fix prosthodontic",
       "topic_ids": [
         66615
       ],
@@ -10678,7 +10678,7 @@
     },
     {
       "benefit_name": "Fixed retainers - crown",
-      "normalized_key": "fixe retainer crown",
+      "normalized_key": "fix retainer crown",
       "topic_ids": [
         66618
       ],
@@ -10688,7 +10688,7 @@
     },
     {
       "benefit_name": "Fixed retainers inlay/onlay",
-      "normalized_key": "fixe retainer inlay onlay",
+      "normalized_key": "fix retainer inlay onlay",
       "topic_ids": [
         66617
       ],
@@ -10698,7 +10698,7 @@
     },
     {
       "benefit_name": "Flaps (Skin and/or Deep Tissues)",
-      "normalized_key": "flap skin and or deep tissue",
+      "normalized_key": "flap skin deep tissue",
       "topic_ids": [
         13316
       ],
@@ -10788,7 +10788,7 @@
     },
     {
       "benefit_name": "Fracture and/or Dislocation",
-      "normalized_key": "fracture and or dislocation",
+      "normalized_key": "fracture dislocation",
       "topic_ids": [
         13742,
         13755,
@@ -10828,7 +10828,7 @@
     },
     {
       "benefit_name": "Freestanding clinic charges",
-      "normalized_key": "freestanding clinic charge",
+      "normalized_key": "freestande clinic charge",
       "topic_ids": [
         23883
       ],
@@ -10980,7 +10980,7 @@
     },
     {
       "benefit_name": "Genomic Sequencing Procedures (GSPs) and Other Molecular Multianalyte Assays",
-      "normalized_key": "genomic sequencing procedure gsps and other molecular multianalyte assay",
+      "normalized_key": "genomic sequence procedure gsps and other molecular multianalyte assay",
       "topic_ids": [
         2328022
       ],
@@ -10990,7 +10990,7 @@
     },
     {
       "benefit_name": "Glaucoma Screening",
-      "normalized_key": "glaucoma screen",
+      "normalized_key": "glaucoma screening",
       "topic_ids": [
         2321021
       ],
@@ -11010,7 +11010,7 @@
     },
     {
       "benefit_name": "Gonorrhea Screening",
-      "normalized_key": "gonorrhea screen",
+      "normalized_key": "gonorrhea screening",
       "topic_ids": [
         2320975
       ],
@@ -11180,7 +11180,7 @@
     },
     {
       "benefit_name": "Hearing",
-      "normalized_key": "hearing",
+      "normalized_key": "hear",
       "topic_ids": [
         12724
       ],
@@ -11190,7 +11190,7 @@
     },
     {
       "benefit_name": "Hearing aid dispensing fee",
-      "normalized_key": "hearing aid dispense fee",
+      "normalized_key": "hear aid dispense fee",
       "topic_ids": [
         68374
       ],
@@ -11200,7 +11200,7 @@
     },
     {
       "benefit_name": "Hearing aid evaluation test",
-      "normalized_key": "hearing aid evaluation test",
+      "normalized_key": "hear aid evaluation test",
       "topic_ids": [
         52781
       ],
@@ -11210,7 +11210,7 @@
     },
     {
       "benefit_name": "Hearing aid services",
-      "normalized_key": "hearing aid service",
+      "normalized_key": "hear aid service",
       "topic_ids": [
         60061
       ],
@@ -11220,7 +11220,7 @@
     },
     {
       "benefit_name": "Hearing aids",
-      "normalized_key": "hearing aid",
+      "normalized_key": "hear aid",
       "topic_ids": [
         52593
       ],
@@ -11230,7 +11230,7 @@
     },
     {
       "benefit_name": "Hearing examination/evaluation",
-      "normalized_key": "hearing examination evaluation",
+      "normalized_key": "hear examination evaluation",
       "topic_ids": [
         60448
       ],
@@ -11240,7 +11240,7 @@
     },
     {
       "benefit_name": "Hearing Screening",
-      "normalized_key": "hearing screen",
+      "normalized_key": "hearing screening",
       "topic_ids": [
         2317281
       ],
@@ -11300,7 +11300,7 @@
     },
     {
       "benefit_name": "Hematology and coagulation laboratory testing",
-      "normalized_key": "hematology and coagulation laboratory test",
+      "normalized_key": "hematology and coagulation laboratory testing",
       "topic_ids": [
         12895
       ],
@@ -11372,7 +11372,7 @@
     },
     {
       "benefit_name": "Hepatitis B Screening",
-      "normalized_key": "hepatitis b screen",
+      "normalized_key": "hepatitis b screening",
       "topic_ids": [
         2320977
       ],
@@ -11422,7 +11422,7 @@
     },
     {
       "benefit_name": "HIV Testing",
-      "normalized_key": "hiv test",
+      "normalized_key": "hiv testing",
       "topic_ids": [
         63123
       ],
@@ -11664,7 +11664,7 @@
     },
     {
       "benefit_name": "HPV Screening",
-      "normalized_key": "hpv screen",
+      "normalized_key": "hpv screening",
       "topic_ids": [
         2320980
       ],
@@ -11674,7 +11674,7 @@
     },
     {
       "benefit_name": "HSV Screening",
-      "normalized_key": "hsv screen",
+      "normalized_key": "hsv screening",
       "topic_ids": [
         2320979
       ],
@@ -11694,7 +11694,7 @@
     },
     {
       "benefit_name": "Humidifiers/Compressors/ Nebulizers",
-      "normalized_key": "humidifier compressor nebulizers",
+      "normalized_key": "humidifier nebulizer",
       "topic_ids": [
         21405
       ],
@@ -11704,7 +11704,7 @@
     },
     {
       "benefit_name": "Humidifiers/compressors/nebulizers",
-      "normalized_key": "humidifier compressor nebulizers",
+      "normalized_key": "humidifier compressor nebulizer",
       "topic_ids": [
         2327429
       ],
@@ -11956,7 +11956,7 @@
     },
     {
       "benefit_name": "Incision and/or Destruction",
-      "normalized_key": "incision and or destruction",
+      "normalized_key": "incision destruction",
       "topic_ids": [
         18184
       ],
@@ -12046,7 +12046,7 @@
     },
     {
       "benefit_name": "Infertility testing or medical services",
-      "normalized_key": "infertility test or medical service",
+      "normalized_key": "infertility testing or medical service",
       "topic_ids": [
         89473
       ],
@@ -12056,7 +12056,7 @@
     },
     {
       "benefit_name": "Infertility testing or sterilization",
-      "normalized_key": "infertility test or sterilization",
+      "normalized_key": "infertility testing or sterilization",
       "topic_ids": [
         2320621
       ],
@@ -12096,7 +12096,7 @@
     },
     {
       "benefit_name": "Infusion of colony stimulating growth fators for bone marrow transplant",
-      "normalized_key": "infusion of colony stimulate growth fators for bone marrow transplant",
+      "normalized_key": "infusion of colony stimulate growth fator for bone marrow transplant",
       "topic_ids": [
         60052
       ],
@@ -12200,7 +12200,7 @@
     },
     {
       "benefit_name": "Inj(s)/Transfunction, dx or tx",
-      "normalized_key": "inj s transfunction dx or tx",
+      "normalized_key": "dx or tx",
       "topic_ids": [
         2395848
       ],
@@ -12630,7 +12630,7 @@
     },
     {
       "benefit_name": "Introduction, Revision and/or Removal",
-      "normalized_key": "introduction revision and or removal",
+      "normalized_key": "introduction revision removal",
       "topic_ids": [
         16074
       ],
@@ -13024,7 +13024,7 @@
     },
     {
       "benefit_name": "Limited Lymphadenectomy for Staging",
-      "normalized_key": "limit lymphadenectomy for stage",
+      "normalized_key": "limited lymphadenectomy for staging",
       "topic_ids": [
         15930
       ],
@@ -13034,7 +13034,7 @@
     },
     {
       "benefit_name": "Limited orthodontic treatment",
-      "normalized_key": "limit orthodontic treatment",
+      "normalized_key": "limited orthodontic treatment",
       "topic_ids": [
         66687
       ],
@@ -13096,7 +13096,7 @@
     },
     {
       "benefit_name": "Living donor transplants",
-      "normalized_key": "living donor transplant",
+      "normalized_key": "live donor transplant",
       "topic_ids": [
         60049
       ],
@@ -13192,7 +13192,7 @@
     },
     {
       "benefit_name": "Lower Quadrant",
-      "normalized_key": "low quadrant",
+      "normalized_key": "lower quadrant",
       "topic_ids": [
         2385702
       ],
@@ -13312,7 +13312,7 @@
     },
     {
       "benefit_name": "Mammograms",
-      "normalized_key": "mammogram",
+      "normalized_key": "mammograms",
       "topic_ids": [
         81293
       ],
@@ -13384,7 +13384,7 @@
     },
     {
       "benefit_name": "Mastectomy bras",
-      "normalized_key": "mastectomy bra",
+      "normalized_key": "mastectomy bras",
       "topic_ids": [
         89452
       ],
@@ -13456,7 +13456,7 @@
     },
     {
       "benefit_name": "Maxillofacial prosthetics",
-      "normalized_key": "maxillofacial prosthetics",
+      "normalized_key": "maxillofacial prosthetic",
       "topic_ids": [
         60249
       ],
@@ -13486,7 +13486,7 @@
     },
     {
       "benefit_name": "Meckel's Diverticulum and the Mesentery",
-      "normalized_key": "meckel s diverticulum and the mesentery",
+      "normalized_key": "meckel diverticulum and the mesentery",
       "topic_ids": [
         15993
       ],
@@ -13496,7 +13496,7 @@
     },
     {
       "benefit_name": "Med-surg Injections",
-      "normalized_key": "med surg injection",
+      "normalized_key": "me surg injection",
       "topic_ids": [
         89453
       ],
@@ -13934,7 +13934,7 @@
     },
     {
       "benefit_name": "Multianalyte Assays with Algorithmic Analyses (MAAA)",
-      "normalized_key": "multianalyte assay with algorithmic analyse maaa",
+      "normalized_key": "multianalyte assay with algorithmic analysis maaa",
       "topic_ids": [
         2317579
       ],
@@ -13944,7 +13944,7 @@
     },
     {
       "benefit_name": "Muscle and Range of Motion Testing",
-      "normalized_key": "muscle and range of motion test",
+      "normalized_key": "muscle and range of motion testing",
       "topic_ids": [
         81320
       ],
@@ -14034,7 +14034,7 @@
     },
     {
       "benefit_name": "Needles and Syringes",
-      "normalized_key": "needle and syringe",
+      "normalized_key": "needle and syrinx",
       "topic_ids": [
         52491
       ],
@@ -14044,7 +14044,7 @@
     },
     {
       "benefit_name": "Needles/Syringes for Insulin",
-      "normalized_key": "needle syringe for insulin",
+      "normalized_key": "needle syrinx for insulin",
       "topic_ids": [
         2012817
       ],
@@ -14146,7 +14146,7 @@
     },
     {
       "benefit_name": "Neurostimulators (hypoglossal nerve)",
-      "normalized_key": "neurostimulators hypoglossal nerve",
+      "normalized_key": "neurostimulator hypoglossal nerve",
       "topic_ids": [
         2332123
       ],
@@ -14156,7 +14156,7 @@
     },
     {
       "benefit_name": "Neurostimulators (Intracranial)",
-      "normalized_key": "neurostimulators intracranial",
+      "normalized_key": "neurostimulator intracranial",
       "topic_ids": [
         17452
       ],
@@ -14166,7 +14166,7 @@
     },
     {
       "benefit_name": "Neurostimulators (Peripheral Nerve)",
-      "normalized_key": "neurostimulators peripheral nerve",
+      "normalized_key": "neurostimulator peripheral nerve",
       "topic_ids": [
         17469
       ],
@@ -14176,7 +14176,7 @@
     },
     {
       "benefit_name": "Neurostimulators (Spinal)",
-      "normalized_key": "neurostimulators spinal",
+      "normalized_key": "neurostimulator spinal",
       "topic_ids": [
         17465
       ],
@@ -14186,7 +14186,7 @@
     },
     {
       "benefit_name": "Neurostimulators, Analysis-Programming",
-      "normalized_key": "neurostimulators analysis program",
+      "normalized_key": "neurostimulator analysis programming",
       "topic_ids": [
         52218
       ],
@@ -14206,7 +14206,7 @@
     },
     {
       "benefit_name": "New or Established Patient",
-      "normalized_key": "new or establish patient",
+      "normalized_key": "new or established patient",
       "topic_ids": [
         20800,
         60190,
@@ -14342,7 +14342,7 @@
     },
     {
       "benefit_name": "Noncovered Dental",
-      "normalized_key": "noncovered dental",
+      "normalized_key": "noncovere dental",
       "topic_ids": [
         2380698,
         2380849
@@ -14536,7 +14536,7 @@
     },
     {
       "benefit_name": "Ocular prosthetics, artificial eye",
-      "normalized_key": "ocular prosthetics artificial eye",
+      "normalized_key": "ocular prosthetic artificial eye",
       "topic_ids": [
         20292
       ],
@@ -14546,7 +14546,7 @@
     },
     {
       "benefit_name": "Ocular Screening",
-      "normalized_key": "ocular screen",
+      "normalized_key": "ocular screening",
       "topic_ids": [
         2334025
       ],
@@ -14646,7 +14646,7 @@
     },
     {
       "benefit_name": "Operating Microscope",
-      "normalized_key": "operate microscope",
+      "normalized_key": "operating microscope",
       "topic_ids": [
         60318
       ],
@@ -14656,7 +14656,7 @@
     },
     {
       "benefit_name": "Operating room charges",
-      "normalized_key": "operate room charge",
+      "normalized_key": "operating room charge",
       "topic_ids": [
         12819
       ],
@@ -14882,7 +14882,7 @@
     },
     {
       "benefit_name": "Osteoporosis screening",
-      "normalized_key": "osteoporosis screen",
+      "normalized_key": "osteoporosis screening",
       "topic_ids": [
         2317285
       ],
@@ -15046,7 +15046,7 @@
     },
     {
       "benefit_name": "Other fixed partial services",
-      "normalized_key": "other fixe partial service",
+      "normalized_key": "other fix partial service",
       "topic_ids": [
         66619
       ],
@@ -15398,7 +15398,7 @@
     },
     {
       "benefit_name": "Other screening and preventive services",
-      "normalized_key": "other screen and preventive service",
+      "normalized_key": "other screening and preventive service",
       "topic_ids": [
         23775
       ],
@@ -15408,7 +15408,7 @@
     },
     {
       "benefit_name": "Other Specialized Services",
-      "normalized_key": "other specialize service",
+      "normalized_key": "other specialized service",
       "topic_ids": [
         20311
       ],
@@ -15590,7 +15590,7 @@
     },
     {
       "benefit_name": "Oxygen and Related Respiratory Equipment",
-      "normalized_key": "oxygen and relate respiratory equipment",
+      "normalized_key": "oxygen and related respiratory equipment",
       "topic_ids": [
         21404
       ],
@@ -15610,7 +15610,7 @@
     },
     {
       "benefit_name": "Pacemaker or Pacing Cardioverter- Defibrillator",
-      "normalized_key": "pacemaker or pace cardioverter defibrillator",
+      "normalized_key": "pacemaker or pace defibrillator",
       "topic_ids": [
         15391
       ],
@@ -15670,7 +15670,7 @@
     },
     {
       "benefit_name": "Pancreas",
-      "normalized_key": "pancreas",
+      "normalized_key": "pancrea",
       "topic_ids": [
         15999
       ],
@@ -15740,7 +15740,7 @@
     },
     {
       "benefit_name": "Parenting and Pediatrics",
-      "normalized_key": "parent and pediatrics",
+      "normalized_key": "parenting and pediatric",
       "topic_ids": [
         2414458
       ],
@@ -15750,7 +15750,7 @@
     },
     {
       "benefit_name": "Paring or Cutting",
-      "normalized_key": "pare or cutting",
+      "normalized_key": "par or cut",
       "topic_ids": [
         13289
       ],
@@ -15770,7 +15770,7 @@
     },
     {
       "benefit_name": "Partial dentures (including routine post delivery care)",
-      "normalized_key": "partial denture including routine post delivery care",
+      "normalized_key": "partial denture include routine post delivery care",
       "topic_ids": [
         66548
       ],
@@ -16109,7 +16109,7 @@
     },
     {
       "benefit_name": "Physical therapy freestanding facility",
-      "normalized_key": "physical therapy freestanding facility",
+      "normalized_key": "physical therapy freestande facility",
       "topic_ids": [
         89497
       ],
@@ -16159,7 +16159,7 @@
     },
     {
       "benefit_name": "Pneumatic compressors or related appliances",
-      "normalized_key": "pneumatic compressor or relate appliance",
+      "normalized_key": "pneumatic compressor or related appliance",
       "topic_ids": [
         2327433
       ],
@@ -16279,7 +16279,7 @@
     },
     {
       "benefit_name": "Preadmission testing",
-      "normalized_key": "preadmission test",
+      "normalized_key": "preadmission testing",
       "topic_ids": [
         61296
       ],
@@ -16399,7 +16399,7 @@
     },
     {
       "benefit_name": "Preventive screening services",
-      "normalized_key": "preventive screen service",
+      "normalized_key": "preventive screening service",
       "topic_ids": [
         52733
       ],
@@ -16532,7 +16532,7 @@
     },
     {
       "benefit_name": "Professional psychological testing",
-      "normalized_key": "professional psychological test",
+      "normalized_key": "professional psychological testing",
       "topic_ids": [
         83841
       ],
@@ -16702,7 +16702,7 @@
     },
     {
       "benefit_name": "Prosthetics and orthotics",
-      "normalized_key": "prosthetics and orthotics",
+      "normalized_key": "prosthetic and orthotic",
       "topic_ids": [
         12936
       ],
@@ -16824,7 +16824,7 @@
     },
     {
       "benefit_name": "Psychological testing",
-      "normalized_key": "psychological test",
+      "normalized_key": "psychological testing",
       "topic_ids": [
         12794
       ],
@@ -16834,7 +16834,7 @@
     },
     {
       "benefit_name": "PT & OT Therapies and Testing",
-      "normalized_key": "pt ot therapy and test",
+      "normalized_key": "pt ot therapy and testing",
       "topic_ids": [
         12987
       ],
@@ -16874,7 +16874,7 @@
     },
     {
       "benefit_name": "Pulmonary function testing",
-      "normalized_key": "pulmonary function test",
+      "normalized_key": "pulmonary function testing",
       "topic_ids": [
         12788
       ],
@@ -17034,7 +17034,7 @@
     },
     {
       "benefit_name": "Recementing",
-      "normalized_key": "recementing",
+      "normalized_key": "recemente",
       "topic_ids": [
         2385500
       ],
@@ -17044,7 +17044,7 @@
     },
     {
       "benefit_name": "Recementing Crowns and Bridges",
-      "normalized_key": "recementing crown and bridge",
+      "normalized_key": "recemente crown and bridge",
       "topic_ids": [
         2386254
       ],
@@ -17128,7 +17128,7 @@
     },
     {
       "benefit_name": "Remote Physiologic Monitoring",
-      "normalized_key": "remote physiologic monitor",
+      "normalized_key": "remote physiologic monitoring",
       "topic_ids": [
         2386248
       ],
@@ -17138,7 +17138,7 @@
     },
     {
       "benefit_name": "Removable Prosthodontics",
-      "normalized_key": "removable prosthodontics",
+      "normalized_key": "removable prosthodontic",
       "topic_ids": [
         66614
       ],
@@ -17408,7 +17408,7 @@
     },
     {
       "benefit_name": "Repair and/or Reconstruction",
-      "normalized_key": "repair and or reconstruction",
+      "normalized_key": "repair reconstruction",
       "topic_ids": [
         13328
       ],
@@ -17418,7 +17418,7 @@
     },
     {
       "benefit_name": "Repair and/or Reconstruction of Surgical Defects",
-      "normalized_key": "repair and or reconstruction of surgical defect",
+      "normalized_key": "repair reconstruction of surgical defect",
       "topic_ids": [
         17448
       ],
@@ -17488,7 +17488,7 @@
     },
     {
       "benefit_name": "Repair, Revision and/or Reconstruction",
-      "normalized_key": "repair revision and or reconstruction",
+      "normalized_key": "repair revision reconstruction",
       "topic_ids": [
         13741,
         13754,
@@ -17536,7 +17536,7 @@
     },
     {
       "benefit_name": "Repairs, adjustments, rebasing or relining of dentures or bridges",
-      "normalized_key": "repair adjustment rebase or reline of denture or bridge",
+      "normalized_key": "repair adjustment rebase or relining of denture or bridge",
       "topic_ids": [
         60503
       ],
@@ -17546,7 +17546,7 @@
     },
     {
       "benefit_name": "Replacement of hearing aids",
-      "normalized_key": "replacement of hearing aid",
+      "normalized_key": "replacement of hear aid",
       "topic_ids": [
         60398
       ],
@@ -17576,7 +17576,7 @@
     },
     {
       "benefit_name": "Replacement parts and repair of hearing aid",
-      "normalized_key": "replacement part and repair of hearing aid",
+      "normalized_key": "replacement part and repair of hear aid",
       "topic_ids": [
         60401
       ],
@@ -18018,7 +18018,7 @@
     },
     {
       "benefit_name": "Secondary Implant(s) Procedures",
-      "normalized_key": "secondary implant s procedure",
+      "normalized_key": "secondary procedure",
       "topic_ids": [
         17909
       ],
@@ -18028,7 +18028,7 @@
     },
     {
       "benefit_name": "Section Fixed Denture",
-      "normalized_key": "section fixe denture",
+      "normalized_key": "section fix denture",
       "topic_ids": [
         2380598
       ],
@@ -18078,7 +18078,7 @@
     },
     {
       "benefit_name": "Self-dialysis training",
-      "normalized_key": "self dialysis train",
+      "normalized_key": "self dialysis training",
       "topic_ids": [
         60433
       ],
@@ -18168,7 +18168,7 @@
     },
     {
       "benefit_name": "Shoe Orthotics",
-      "normalized_key": "shoe orthotics",
+      "normalized_key": "shoe orthotic",
       "topic_ids": [
         81835
       ],
@@ -18288,7 +18288,7 @@
     },
     {
       "benefit_name": "Skilled nursing (home health)",
-      "normalized_key": "skill nursing home health",
+      "normalized_key": "skilled nursing home health",
       "topic_ids": [
         24045
       ],
@@ -18298,7 +18298,7 @@
     },
     {
       "benefit_name": "Skilled nursing facility",
-      "normalized_key": "skill nursing facility",
+      "normalized_key": "skilled nursing facility",
       "topic_ids": [
         88572
       ],
@@ -18338,7 +18338,7 @@
     },
     {
       "benefit_name": "Skull, Meninges and Brain",
-      "normalized_key": "skull meninx and brain",
+      "normalized_key": "skull meninge and brain",
       "topic_ids": [
         17440
       ],
@@ -18358,7 +18358,7 @@
     },
     {
       "benefit_name": "Sleep testing and electroencephalogram",
-      "normalized_key": "sleep test and electroencephalogram",
+      "normalized_key": "sleep testing and electroencephalogram",
       "topic_ids": [
         12791
       ],
@@ -18388,7 +18388,7 @@
     },
     {
       "benefit_name": "Smoking cessation products",
-      "normalized_key": "smoking cessation product",
+      "normalized_key": "smoke cessation product",
       "topic_ids": [
         61407
       ],
@@ -18398,7 +18398,7 @@
     },
     {
       "benefit_name": "Smoking counseling",
-      "normalized_key": "smoking counseling",
+      "normalized_key": "smoke counseling",
       "topic_ids": [
         2317479
       ],
@@ -18608,7 +18608,7 @@
     },
     {
       "benefit_name": "Spectacle services (including prosthesis for aphakia)",
-      "normalized_key": "spectacle service including prosthesis for aphakia",
+      "normalized_key": "spectacle service include prosthesis for aphakia",
       "topic_ids": [
         20293
       ],
@@ -18618,7 +18618,7 @@
     },
     {
       "benefit_name": "Speech and hearing evaluation",
-      "normalized_key": "speech and hearing evaluation",
+      "normalized_key": "speech and hear evaluation",
       "topic_ids": [
         52837
       ],
@@ -18648,7 +18648,7 @@
     },
     {
       "benefit_name": "Speech generating devices (SGD)",
-      "normalized_key": "speech generate device sgd",
+      "normalized_key": "speech generating device sgd",
       "topic_ids": [
         63957
       ],
@@ -18866,7 +18866,7 @@
     },
     {
       "benefit_name": "Suction Pump/Room Vaporizers",
-      "normalized_key": "suction pump room vaporizers",
+      "normalized_key": "suction pump room vaporizer",
       "topic_ids": [
         21406
       ],
@@ -18946,7 +18946,7 @@
     },
     {
       "benefit_name": "Supplies for Oxygen and Related Respiratory Equipm",
-      "normalized_key": "supply for oxygen and relate respiratory equipm",
+      "normalized_key": "supply for oxygen and related respiratory equipm",
       "topic_ids": [
         20966
       ],
@@ -19038,7 +19038,7 @@
     },
     {
       "benefit_name": "Surgery for Parathyroid, Thymus, Adrenal Glands, Pancreas and Carotid Body",
-      "normalized_key": "surgery for parathyroid thymus adrenal gland pancreas and carotid body",
+      "normalized_key": "surgery for parathyroid thymus adrenal gland pancrea and carotid body",
       "topic_ids": [
         17437
       ],
@@ -19474,7 +19474,7 @@
     },
     {
       "benefit_name": "Thyroid screening test",
-      "normalized_key": "thyroid screen test",
+      "normalized_key": "thyroid screening test",
       "topic_ids": [
         66496
       ],
@@ -19554,7 +19554,7 @@
     },
     {
       "benefit_name": "Trachea and Bronchi",
-      "normalized_key": "trachea and bronchus",
+      "normalized_key": "trachea and bronchi",
       "topic_ids": [
         15117
       ],
@@ -19624,7 +19624,7 @@
     },
     {
       "benefit_name": "Training and educational classes for various topics",
-      "normalized_key": "train and educational class for various topic",
+      "normalized_key": "training and educational class for various topic",
       "topic_ids": [
         61341
       ],
@@ -19646,7 +19646,7 @@
     },
     {
       "benefit_name": "Transcutaneous and/or Neuromuscular Electrical Ner",
-      "normalized_key": "transcutaneous and or neuromuscular electrical ner",
+      "normalized_key": "transcutaneous neuromuscular electrical ner",
       "topic_ids": [
         21411
       ],
@@ -19798,7 +19798,7 @@
     },
     {
       "benefit_name": "Transportation, meals, and lodging for transplant patients and their families",
-      "normalized_key": "transportation meal and lodging for transplant patient and their family",
+      "normalized_key": "transportation meal and lodge for transplant patient and their family",
       "topic_ids": [
         60057
       ],
@@ -19918,7 +19918,7 @@
     },
     {
       "benefit_name": "Tunica Vaginalis",
-      "normalized_key": "tunica vaginalis",
+      "normalized_key": "tunica vaginali",
       "topic_ids": [
         17040
       ],
@@ -19928,7 +19928,7 @@
     },
     {
       "benefit_name": "Twist Drill, Burr Hole(s) or Trephine",
-      "normalized_key": "twist drill burr hole s or trephine",
+      "normalized_key": "twist drill burr or trephine",
       "topic_ids": [
         17444
       ],
@@ -19988,7 +19988,7 @@
     },
     {
       "benefit_name": "Unlisted ophthalmology procedures",
-      "normalized_key": "unlist ophthalmology procedure",
+      "normalized_key": "unlisted ophthalmology procedure",
       "topic_ids": [
         52252
       ],
@@ -20136,7 +20136,7 @@
     },
     {
       "benefit_name": "Urodynamics",
-      "normalized_key": "urodynamics",
+      "normalized_key": "urodynamic",
       "topic_ids": [
         16752
       ],
@@ -20196,7 +20196,7 @@
     },
     {
       "benefit_name": "Vas Deferens",
-      "normalized_key": "va deferens",
+      "normalized_key": "vas deferen",
       "topic_ids": [
         52480
       ],
@@ -20316,7 +20316,7 @@
     },
     {
       "benefit_name": "Vestibular Function Tests, With Recording (eg, ENG)",
-      "normalized_key": "vestibular function test with record eg eng",
+      "normalized_key": "vestibular function test with recording eg eng",
       "topic_ids": [
         38310
       ],
@@ -20356,7 +20356,7 @@
     },
     {
       "benefit_name": "Vision Aids",
-      "normalized_key": "vision aid",
+      "normalized_key": "vision aids",
       "topic_ids": [
         60251
       ],
@@ -20366,7 +20366,7 @@
     },
     {
       "benefit_name": "Vision aids",
-      "normalized_key": "vision aid",
+      "normalized_key": "vision aids",
       "topic_ids": [
         60221
       ],
@@ -20386,7 +20386,7 @@
     },
     {
       "benefit_name": "Visual Screening",
-      "normalized_key": "visual screen",
+      "normalized_key": "visual screening",
       "topic_ids": [
         2317280
       ],
@@ -20630,7 +20630,7 @@
     },
     {
       "benefit_name": "Work Related or Medical Disability Evaluation Serv",
-      "normalized_key": "work relate or medical disability evaluation serv",
+      "normalized_key": "work related or medical disability evaluation serv",
       "topic_ids": [
         20892
       ],

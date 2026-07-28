@@ -1,27 +1,27 @@
 # LLM Classifications (Stage 4.5)
 
-568 candidates evaluated. confidence="high" or "medium" generic_administrative/fragment_or_criterion results are applied as flags (hidden by the UI's "hide low-quality entries" checkbox) -- everything else (low confidence, or "benefit") is left alone, per the precision gate.
+569 candidates evaluated. confidence="high" or "medium" generic_administrative/fragment_or_criterion results are applied as flags (hidden by the UI's "hide low-quality entries" checkbox) -- everything else (low confidence, or "benefit") is left alone, per the precision gate.
 
 ## "$130 allowance for frames or elective contact lenses" -> benefit (confidence=medium)
-- The name describes a specific, nameable vision benefit -- a $130 allowance toward frames or elective contact lenses -- which a member could point to and ask about. It names a concrete covered item/allowance rather than a generic category or a condition/exclusion. Confidence is medium because it's phrased partly as an allowance amount, but it clearly refers to a specific vision benefit.
+- The name refers to a specific, nameable vision benefit -- an allowance for frames or elective contact lenses. Although it includes a dollar amount, it identifies a concrete covered item/service a member could ask about. It is not a generic category word or a fragment/criterion.
 
-## "$150 allowance for frames" -> fragment_or_criterion (confidence=medium)
-- This is a benefit limitation/allowance amount describing the dollar coverage for frames, not itself a nameable service. The actual benefit is 'frames'; '$150 allowance for frames' describes the allowance/limit terms, appearing under a 'Frequency' section listing coverage parameters. It's a qualifier on how frames are covered rather than a distinct service.
+## "$150 allowance for frames" -> benefit (confidence=medium)
+- The name describes a specific vision benefit -- an allowance toward eyeglass frames. It names a concrete, coverable item (frames with a $150 allowance), which a member could point to and ask about. Though phrased as an allowance amount, it clearly refers to a nameable vision service/item rather than a generic category or a criterion.
 
 ## "$150 allowance for frames or elective contact lenses" -> benefit (confidence=medium)
-- This names a specific vision benefit - an allowance amount toward frames or elective contact lenses. A member could point to this and ask about coverage. While phrased with a dollar amount, it refers to a concrete, nameable covered item/allowance rather than a generic category or a mere criterion.
+- The name refers to a specific, nameable vision benefit -- an allowance for frames or elective contact lenses. A member could point to this and ask about coverage. While the phrasing includes a dollar amount (which resembles a benefit limit), it names a concrete covered item/service in a vision plan.
 
 ## "$150 elective contact lenses" -> benefit (confidence=medium)
-- This names a specific vision benefit -- elective contact lenses with a $150 allowance. Despite the dollar amount prefix (likely an extraction artifact), the core refers to a real, nameable covered item (elective contact lenses).
+- The name refers to elective contact lenses with a specific dollar allowance ($150), which is a nameable, specific covered item in a vision plan. A member could point to it and ask if it's covered. The dollar amount is an allowance/limit but the core is a real, specific service/item.
 
-## "$50 per day for lodging" -> fragment_or_criterion (confidence=high)
-- This is a cost/allowance amount ('$50 per day for lodging'), describing a daily reimbursement limit within oncology clinical trials, not a nameable specific service. It's a benefit parameter/limitation, not a service a member would point to and ask if covered.
+## "$50 per day for lodging" -> benefit (confidence=medium)
+- Under 'Oncology Clinical Trials', a lodging allowance of $50 per day is a specific, nameable covered item (travel/lodging benefit associated with clinical trial participation). While it embeds a dollar amount, it names a concrete service/item a member could point to. Leaning benefit rather than generic/fragment since it refers to a specific reimbursable item.
 
-## "$60 per day for travel" -> fragment_or_criterion (confidence=high)
-- This is a dollar allowance amount ('$60 per day for travel'), not a nameable service. It describes a cost/reimbursement limit within the oncology clinical trials provision, not a specific covered service a member could point to and ask about.
+## "$60 per day for travel" -> fragment_or_criterion (confidence=medium)
+- The name '$60 per day for travel' describes a reimbursement amount/limit rather than naming a specific service. It's a cost provision or benefit limit associated with clinical trial travel, not itself a nameable service a member would point to.
 
-## "A DME supplier" -> fragment_or_criterion (confidence=high)
-- 'A DME supplier' names a type of provider/source from which equipment may be obtained, not a specific covered service or item. It appears as a list item describing where to obtain equipment, making it a fragment/criterion rather than a nameable benefit.
+## "A DME supplier" -> fragment_or_criterion (confidence=medium)
+- 'A DME supplier' names a type of provider/entity rather than a specific covered service or item a member would ask coverage for. The indefinite article 'A' suggests it was extracted from a sentence fragment referring to a supplier, not a benefit itself. It does not name a nameable service.
 
 ## "A certified registered nurse anesthetist (CRNA)" -> benefit (confidence=medium)
 - A certified registered nurse anesthetist (CRNA) is a specific, nameable provider whose services a member could ask about. Under 'Anesthesiology Services' this refers to anesthesia services rendered by a CRNA, which is a real, specific covered item rather than a generic category or a fragment/criterion.
@@ -32,38 +32,38 @@
 ## "A licensed behavior analyst (LBA)" -> fragment_or_criterion (confidence=medium)
 - This names a type of provider (a licensed behavior analyst), not a specific covered service or item. It describes who renders care rather than a nameable benefit a member would ask about being covered. Under Autism Spectrum Disorders, this is likely a provider-qualification/eligibility reference rather than a benefit name.
 
-## "A licensed psychologist" -> fragment_or_criterion (confidence=high)
-- 'A licensed psychologist' names a type of provider, not a specific covered service or item. It appears as part of eligibility criteria describing who may provide autism-related services, not as a nameable benefit a member would ask to have covered.
+## "A licensed psychologist" -> fragment_or_criterion (confidence=medium)
+- The name 'A licensed psychologist' does not name a specific covered service or item. It describes a type of provider or qualifier condition (e.g., services must be performed by a licensed psychologist), which is a criterion rather than a nameable benefit.
 
-## "A medical evaluation at an affiliated immunization pharmacy" -> benefit (confidence=medium)
-- This names a specific, identifiable service -- a medical evaluation performed at an affiliated immunization pharmacy -- that a member could point to and ask if it's covered. It appears in a list alongside other clear benefits like pre-surgical consultations and ABA treatments. While it includes a location qualifier, the core is a nameable service.
+## "A medical evaluation at an affiliated immunization pharmacy" -> fragment_or_criterion (confidence=medium)
+- The name describes a scenario/condition ('a medical evaluation at an affiliated immunization pharmacy') rather than naming a specific, distinct covered service. It reads as a qualifier about where/how something occurs in the context of immunizations rather than a nameable benefit a member would point to. The phrasing with the leading article 'A' and the locational qualifier suggests it was extracted from a sentence fragment describing a condition, not a benefit label.
 
 ## "A member’s home" -> fragment_or_criterion (confidence=medium)
 - 'A member's home' is not a specific covered service or item; it describes a location/setting (likely part of a phrase like 'delivery in a member's home'). It names no nameable service on its own, so it reads as a fragment rather than a benefit.
 
 ## "A participating hospice inpatient unit" -> fragment_or_criterion (confidence=medium)
-- The name 'A participating hospice inpatient unit' is a sub-item describing WHERE inpatient care is provided (the facility/provider type), not a nameable service itself. The actual benefit is 'Inpatient care provided by...' and this is a list continuation describing the qualifying provider. It reads as a descriptive fragment/provider qualifier rather than a distinct covered service.
+- The name 'A participating hospice inpatient unit' begins with an article and describes a place/provider setting rather than naming a specific covered service. It reads like a fragment identifying where care is rendered (a criterion/setting) rather than a nameable benefit itself. The actual benefit would be 'Hospice care services'; this candidate is a locational qualifier.
 
 ## "A participating hospital (when you are discharged)" -> fragment_or_criterion (confidence=high)
 - The name is a parenthetical scenario/condition ('when you are discharged') attached to a location, not a specific nameable service or item. It describes a circumstance rather than a covered benefit.
 
 ## "A participating hospital contracting with the hospice program or" -> fragment_or_criterion (confidence=high)
-- This is a sentence fragment describing a type of provider setting where inpatient hospice care may be delivered, ending in 'or' as part of a list. It does not name a specific covered service; it's a fragment describing a facility qualifier.
+- The name is a sentence fragment ending in 'or', describing a provider entity within a larger clause rather than naming a specific covered service. It's a partial phrase, not a nameable benefit.
 
-## "A participating hospital setting" -> fragment_or_criterion (confidence=high)
-- This describes a location/setting where a service (vaginal delivery or cesarean section) is provided, not a specific nameable service itself. It's a qualifier/condition describing where the actual benefit occurs, not a benefit name.
+## "A participating hospital setting" -> fragment_or_criterion (confidence=medium)
+- The name 'A participating hospital setting' describes a location/setting condition rather than a specific nameable service. It reads as a qualifier (where care is delivered) rather than a covered benefit itself. This aligns with a fragment/criterion describing a scenario or place of service.
 
-## "A participating skilled nursing facility contracting with the hospice program" -> fragment_or_criterion (confidence=high)
-- This describes a type of facility/setting where hospice care is provided, not a specific nameable service. It's a fragment describing a location/provider condition within the hospice benefit, not itself a benefit a member could point to and ask if it's covered.
+## "A participating skilled nursing facility contracting with the hospice program" -> fragment_or_criterion (confidence=medium)
+- The name describes a type of provider/facility with a qualifying condition ('contracting with the hospice program') rather than naming a specific covered service. It reads as a criterion or descriptor of who provides care, not a nameable benefit a member would ask coverage for.
 
 ## "A physical therapy, occupational therapy or speech language therapy visit" -> fragment_or_criterion (confidence=medium)
 - The name is phrased as 'A physical therapy, occupational therapy or speech language therapy visit' -- worded as a countable instance/scenario rather than a clean service name. While it references real therapy services, the phrasing ('A ... visit') suggests it was extracted from a cost-share or visit-limit context describing a scenario/unit rather than naming a distinct benefit. The underlying services (PT/OT/speech therapy) are real benefits, but this specific extracted string reads as a fragment describing a visit type. Given real doubt, medium confidence.
 
 ## "A physician other than the operating physician" -> fragment_or_criterion (confidence=high)
-- This describes who anesthesia services are payable to (a qualifying provider condition), not a specific nameable service. The actual benefit is anesthesia services; this phrase is a criterion/qualifier about the provider, not a service itself.
+- The name 'A physician other than the operating physician' does not name a specific service or item. It describes a qualifier/condition about who administers anesthesia (i.e., that anesthesia must be provided by someone other than the surgeon). This is a criterion rather than a nameable benefit.
 
-## "A physician who orders and supervises anesthesiology services" -> fragment_or_criterion (confidence=medium)
-- This describes a type of provider/scenario ('a physician who orders and supervises anesthesiology services') rather than naming a specific service. It appears in a list of who may perform anesthesia services, functioning as a qualifier/provider description rather than a nameable benefit a member would ask 'is this covered?'
+## "A physician who orders and supervises anesthesiology services" -> fragment_or_criterion (confidence=high)
+- The name describes a physician role/condition ('who orders and supervises anesthesiology services') rather than naming a specific coverable service or item. It reads as a qualifier or descriptive clause, not a nameable benefit a member could point to.
 
 ## "A pre-surgical consultation" -> benefit (confidence=medium)
 - 'A pre-surgical consultation' names a specific, identifiable medical service that a member could ask whether it's covered. Despite the article 'A' making it read like a fragment, it refers to a concrete nameable service rather than a category, process word, or eligibility condition. Leaning toward benefit per guidance.
@@ -75,13 +75,13 @@
 - The name refers to a specific, nameable service -- a primary care physician visit across various settings (office, home, virtual, outpatient). A member could point to this and ask if it's covered. While phrased somewhat descriptively, it names a concrete service rather than a generic category or a pure eligibility criterion.
 
 ## "A private room or an apartment" -> fragment_or_criterion (confidence=medium)
-- 'A private room or an apartment' is not a specific nameable medical service or item a member would ask coverage about. It appears in an exclusion list describing accommodation scenarios/conditions rather than naming a distinct benefit. It reads as a fragment describing a room type/scenario, not a service. Not driven by exclusion status but by the name itself lacking a nameable service.
+- The name 'A private room or an apartment' does not name a specific covered service. It reads as a fragment describing an accommodation/scenario, likely part of an exclusion or limitation clause (e.g., not covering costs of a private room or apartment). It does not refer to a distinct, nameable medical service or item a member would point to and ask 'is this covered?' It is not a category cost-share word either, so fragment_or_criterion fits best.
 
-## "A retail health clinic visit" -> benefit (confidence=high)
-- A retail health clinic visit names a specific, identifiable service a member could ask about, listed alongside other specific visit types. It refers to a concrete, nameable service rather than a generic category or a fragment/criterion.
+## "A retail health clinic visit" -> benefit (confidence=medium)
+- 'A retail health clinic visit' names a specific, identifiable service setting/encounter a member could ask about coverage for. Though phrased with an article, it refers to a concrete nameable service rather than a generic category or a fragment/criterion.
 
-## "A single and a tandem transplant" -> benefit (confidence=medium)
-- This names a specific transplant configuration (a single transplant combined with a tandem transplant) within Transplant Services. It refers to a concrete, nameable service arrangement a member could ask about, parallel to 'Two tandem transplants' and 'Allogeneic Transplants'. While phrased somewhat as a scenario, it identifies a specific covered transplant scenario rather than a generic category or pure eligibility rule.
+## "A single and a tandem transplant" -> fragment_or_criterion (confidence=medium)
+- The name 'A single and a tandem transplant' reads as a descriptive fragment about transplant frequency/count rather than naming a specific transplant service. It appears under Transplant Services but describes a scenario (a single vs. tandem transplant) rather than a nameable procedure like 'bone marrow transplant.' The leading article 'A' and phrasing suggest an extracted clause describing coverage limits on transplant counts rather than a benefit name itself.
 
 ## "A specialist office, home, virtual or outpatient visit" -> fragment_or_criterion (confidence=low)
 - The name describes a visit setting/scenario ('a specialist office, home, virtual or outpatient visit') phrased as a descriptive clause under Copayment Requirements rather than naming a discrete, nameable service. However, it does reference a specialist visit which could be seen as a service, so confidence is low; it reads more like a cost-share applicability descriptor than a specific benefit.
@@ -90,14 +90,14 @@
 ## "A speech language pathologist certified by the American Speech-Language-Hearing" -> fragment_or_criterion (confidence=high)
 - The name is a truncated sentence fragment describing who must perform the service ('A speech language pathologist certified by the American Speech-Language-Hearing...') rather than naming a specific covered service. It reads as a provider-qualification/eligibility criterion, not a benefit itself. The actual benefit would be 'Speech Language Therapy' (the header).
 
-## "A virtual primary care visit" -> benefit (confidence=high)
-- 'A virtual primary care visit' names a specific, nameable service a member could ask about coverage for. It appears in a list of covered visit types alongside office visits and retail clinic visits. This is a real benefit, not a category word or fragment.
+## "A virtual primary care visit" -> benefit (confidence=medium)
+- A virtual primary care visit names a specific, identifiable service a member could ask about coverage for. The phrasing is slightly article-prefixed ('A'), but it clearly refers to a concrete telehealth service rather than a generic category or fragment.
 
-## "Act of War" -> fragment_or_criterion (confidence=high)
-- 'Act of War' is not a specific nameable service or item. The excerpt shows it as part of an exclusion condition -- services resulting from injury 'due to an act of war.' It describes a scenario/circumstance, not a covered service.
+## "Act of War" -> fragment_or_criterion (confidence=medium)
+- "Act of War" is not a nameable service or item; it describes a scenario/circumstance typically used as an exclusion condition (e.g., losses resulting from an act of war). It names a qualifying condition rather than a specific covered service, so it is best classified as a fragment/criterion.
 
-## "Acute Care" -> benefit (confidence=medium)
-- Acute care is a defined term referring to a specific level/type of medical care ('Medical care that requires a wide range of medical, surgical, obstetrical...'). It names a recognizable, nameable type of care a member could ask about, appearing alongside real services like Custodial care. It leans more toward a nameable service than a pure administrative category word.
+## "Acute Care" -> generic_administrative (confidence=medium)
+- 'Acute Care' is a broad category/level-of-care descriptor rather than a specific nameable service. Under a Skilled Nursing Facility header it likely distinguishes care levels rather than naming a discrete covered service. Leaning generic_administrative but with medium confidence given lack of snippet evidence.
 
 ## "Acute renal (kidney) failure" -> benefit (confidence=medium)
 - Acute renal (kidney) failure is a specific, nameable medical condition appearing under Dialysis Services, likely as a covered diagnosis/scenario for dialysis. While it's a condition rather than a service per se, it names a specific medical entity a member could point to, and the instructions favor leaning toward benefit when uncertain.
@@ -108,113 +108,117 @@
 ## "Adjunctive G eneral Services" -> generic_administrative (confidence=medium)
 - 'Adjunctive General Services' is a category heading in dental plans (a section grouping in CDT coding) rather than a specific nameable service. It describes a class of miscellaneous services rather than a single item a member could point to. No snippet available, but the name and Class II Basic Services header suggest a category grouping.
 
-## "Adjunctive general services" -> generic_administrative (confidence=medium)
-- 'Adjunctive general services' is a category/grouping heading that introduces a list of specific services ('These services include: ...'), rather than naming one specific, nameable service itself. It functions as a category label within Class II Basic Services, similar to 'Other Services'.
+## "Adjunctive general services" -> benefit (confidence=medium)
+- "Adjunctive general services" is a recognized ADA dental procedure category (CDT code series D9000-D9999) covering specific services like anesthesia, palliative treatment, and occlusal adjustments. While somewhat broad, it names an identifiable class of covered dental services under Basic Services, and members could point to it and ask if it's covered. Leaning toward benefit given uncertainty.
 
-## "Adjustments" -> benefit (confidence=medium)
-- The name 'Adjustments' refers to a specific dental service (adjustments/relines/repairs for prosthodontic appliances, or occlusal adjustments) that a member could ask about. While the word is somewhat generic on its own, in the dental context it names an identifiable procedure. Leaning toward benefit given the specific service context.
+## "Adjustments" -> generic_administrative (confidence=low)
+- 'Adjustments' under Class II Basic Services could refer to a specific dental service (e.g., denture adjustments), but standing alone as just 'Adjustments' it reads as a generic category noun rather than a specific nameable service. Without excerpts, evidence is weak, hence low confidence.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Adjustments, repairs, relines, rebases and tissue conditioning for prosthodontic appliances" -> benefit (confidence=high)
 - The name refers to specific, nameable dental services (adjustments, repairs, relines, rebases, tissue conditioning for prosthodontic appliances) under Class II Basic Services. These are concrete procedures a member could ask about coverage for.
 
-## "Administration of blood" -> benefit (confidence=high)
-- 'Administration of blood' names a specific, nameable medical service (blood transfusion administration) appearing under the Surgery benefits section. A member could ask whether this is covered.
+## "Administration of blood" -> benefit (confidence=medium)
+- 'Administration of blood' names a specific, nameable clinical service (the transfusion/administration of blood products) that a member could ask about being covered. Appearing under 'Surgery' supports it being a real service rather than a generic category or a fragment/criterion.
 
 ## "Administration of covered drugs except for select immunization vaccines" -> fragment_or_criterion (confidence=medium)
-- The name 'Administration of covered drugs except for select immunization vaccines' contains an exception clause qualifier and describes a process/scenario rather than a specific nameable service. It appears in an exclusion list alongside other fragment-style items like 'Anything other than covered drugs and services' and 'Any covered drug entirely consumed at the time and place of the prescription.' While 'administration of drugs' could be a service, the 'except for select immunization vaccines' qualifier makes this read as a carved-out condition rather than a clean benefit name.
+- The name reads as a scope/exception clause ('Administration of covered drugs except for select immunization vaccines') rather than a specific nameable service. It describes what is or isn't included with a carve-out qualifier ('except for...'), which is characteristic of a criterion/limitation fragment. While 'administration of covered drugs' borders on a service concept, the exception phrasing tips it toward a fragment; hence medium confidence.
 
 ## "Air Ambulance" -> benefit (confidence=high)
-- Air ambulance is a specific, nameable transport service a member could ask about coverage for, appearing under Ambulance Services.
+- Air ambulance is a specific, nameable service under the Ambulance Services section that a member could ask about coverage for.
 
 ## "Allergy Testing" -> benefit (confidence=high)
-- Allergy testing is a specific, nameable medical service that a member could point to and ask if it's covered. It appears consistently under a clinical service header.
+- Allergy Testing is a specific, nameable medical service that a member could point to and ask if it's covered. It appears under a clearly related section header 'Allergy Testing and Therapy'.
 
 ## "Allergy Therapy" -> benefit (confidence=high)
-- Allergy Therapy names a specific, identifiable medical service (allergy immunotherapy, allergy shots, injections). A member could ask whether it is covered. It is not a generic administrative category or a fragment.
+- 'Allergy Therapy' names a specific, identifiable medical service that a member could ask about being covered, consistent with the section header 'Allergy Testing and Therapy'. It is not a generic category word or a fragment/criterion.
 
 ## "Allergy immunotherapy by injection (allergy shots)" -> benefit (confidence=high)
 - The name refers to a specific, nameable medical service -- allergy immunotherapy administered by injection (allergy shots). It's a concrete service a member could ask about, and appears under a clinically relevant header.
 
-## "Allogeneic" -> benefit (confidence=medium)
-- The name 'Allogeneic' is an adjective typically qualifying 'Transplants', and the excerpts show 'Allogeneic Transplants' as a specific, nameable transplant service. Allogeneic transplants are a real, specific covered service (donor-derived stem cell/bone marrow transplants). The truncation to just 'Allogeneic' is an extraction artifact, but it clearly refers to a specific nameable service.
+## "Allogeneic" -> fragment_or_criterion (confidence=low)
+- 'Allogeneic' is an adjective describing a type of transplant (allogeneic bone marrow/stem cell transplant), not a complete service name on its own. Without the noun it modifies, it functions as a qualifier/fragment rather than naming a specific service. However, there is no snippet evidence, so confidence is low; it could be shorthand for a real transplant benefit.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Allogeneic Oncology Clinical Trials" -> benefit (confidence=medium)
 - The name refers to a specific type of oncology clinical trial (allogeneic - involving donor cells/tissue), which is a nameable service a member could ask about coverage for. It names a specific category of covered service rather than a generic administrative process or a fragment. No excerpts available, but the name itself is specific enough to be a benefit.
 
 ## "Allogeneic Transplants" -> benefit (confidence=high)
-- Allogeneic Transplants names a specific, recognizable medical procedure (transplant using donor cells/tissue). It is a nameable service a member could ask about, appearing under Transplant Services as a distinct benefit.
+- Allogeneic transplant is a specific, nameable medical procedure (transplant using donor cells/tissue). It appears under Transplant Services, and a member could clearly ask whether it's covered. This is a real benefit, not a generic category or fragment.
 
 ## "Alveoloplasty" -> benefit (confidence=high)
-- Alveoloplasty is a specific, nameable dental surgical procedure (surgical reshaping of the alveolar bone/jaw ridge). It appears in a list of payable procedures alongside other specific dental services, and a member could clearly ask 'is this covered?'
+- Alveoloplasty is a specific, nameable dental surgical procedure (surgical reshaping/smoothing of the alveolar bone). A member could ask whether it's covered. It's not a category word or a fragment.
 
 ## "Alveoloplasty needed to prepare for a denture" -> benefit (confidence=high)
-- Alveoloplasty is a specific, nameable dental surgical procedure (reshaping of the alveolar bone). The qualifier 'needed to prepare for a denture' describes the clinical context but the core names a real service a member could ask about. It appears in a list of specific procedures under Class III Major Services.
+- Alveoloplasty is a specific, nameable dental surgical procedure (reshaping of the alveolar bone), listed under Class III Major Services. The qualifier 'needed to prepare for a denture' describes the specific procedure context, and the core names a real service a member could ask about.
 
 ## "Alveoplasty" -> benefit (confidence=high)
-- Alveoplasty is a specific, nameable surgical dental procedure (surgical reshaping of the alveolar ridge). A member could point to it and ask if it's covered. It's a real service, not a generic category or fragment.
+- Alveoplasty is a specific, nameable surgical procedure (surgical reshaping/smoothing of the jawbone/alveolar ridge). It is a concrete service a member could ask about coverage for, appearing under Surgery.
 
 ## "Amalgam Fillings" -> benefit (confidence=high)
 - Amalgam fillings are a specific, nameable dental service that a member could ask about being covered. This is a concrete restorative service, not a generic category or fragment.
 
-## "An office consultation" -> benefit (confidence=high)
-- An office consultation is a specific, nameable medical service that a member could ask about being covered. It appears in a list alongside other specific services like pre-surgical consultation and ABA treatment. The leading article does not make it generic; it names a concrete service.
+## "An office consultation" -> benefit (confidence=medium)
+- An office consultation is a specific, nameable medical service that a member could point to and ask if it's covered. It appears under copayment requirements, but the name itself refers to a real service. The leading article 'An' suggests it may be a slight fragment of a phrasing, but the core refers to a specific service, so I lean toward benefit.
 
-## "An office consultation with a specialist" -> benefit (confidence=high)
-- This names a specific, identifiable service -- an office consultation with a specialist -- that a member could ask about coverage for. It appears alongside other specific visit types with defined copayments. It is not a generic category word or a fragment/criterion.
+## "An office consultation with a specialist" -> benefit (confidence=medium)
+- The name refers to a specific, nameable service -- a specialist office consultation -- that a member could point to and ask if it's covered. It appears under copayment requirements, but that's cost-share context, not disqualifying. The phrasing 'An office consultation with a specialist' is descriptive but names a concrete service. Medium confidence due to lack of direct snippets.
 
 ## "Ancillary services" -> generic_administrative (confidence=medium)
-- "Ancillary services" is a broad category noun referring to a general class of supporting services rather than a specific, nameable covered service. It appears in a list alongside 'Services provided by staff' and 'Prescribed drugs,' functioning as a category rather than a distinct point-and-ask benefit.
+- 'Ancillary services' is a generic category term describing a class of supporting/supplementary services rather than a specific nameable service a member could point to. It does not identify a particular procedure or item. However, without direct excerpts I retain some uncertainty, so medium confidence.
 
-## "Anesthesia during infusion therapy" -> benefit (confidence=high)
-- 'Anesthesia during infusion therapy' names a specific, nameable service (local anesthesia provided as part of infusion therapy). It appears as a distinct bulleted benefit under Anesthesiology Services, and a member could clearly ask whether this is covered.
+## "Anesthesia during infusion therapy" -> benefit (confidence=medium)
+- The name refers to a specific, nameable service -- anesthesia administered during infusion therapy -- which appears under the Anesthesiology Services header. A member could ask whether this specific service is covered. No coverage status influences this.
 
 ## "Anesthesia services and materials" -> benefit (confidence=high)
-- Anesthesia services and materials is a specific, nameable medical service that a member could ask about being covered. It appears in a bulleted list of covered surgery-related services alongside other concrete benefits like recovery room and nursing care.
+- 'Anesthesia services and materials' names a specific, nameable medical service that a member could ask about coverage for. It appears under the 'Surgery' section, consistent with a real covered service. This is not a generic category word nor a fragment/criterion.
 
 ## "Anesthesiology during surgery" -> benefit (confidence=high)
-- 'Anesthesiology during surgery' names a specific, nameable medical service - anesthesia given to members undergoing covered surgery. A member could point to it and ask if it's covered. It appears under 'We pay for' with concrete descriptions of the service.
+- The name refers to a specific, nameable medical service -- anesthesiology administered during surgery -- under the 'Anesthesiology Services' header. A member could clearly ask 'is this covered?' making it a genuine benefit.
 
 ## "Anti reflective coating" -> benefit (confidence=high)
-- Anti reflective coating is a specific, nameable lens option that a member could ask whether it is covered. It appears in a bulleted list of concrete lens options under the Lenses section, alongside similar specific items like polycarbonate lenses and progressive lenses.
+- Anti-reflective coating is a specific, nameable vision lens option/service that a member could ask whether it's covered, appearing under the Lenses section. It is a concrete item, not a category word or fragment.
 
 ## "Antibiotic injections" -> benefit (confidence=high)
-- 'Antibiotic injections' names a specific, identifiable dental service listed under Class II Basic Services. A member could point to it and ask if it's covered. It is not a generic category word nor a fragment/criterion.
+- 'Antibiotic injections' names a specific, identifiable dental/medical service that a member could ask about coverage for. It appears under Class II Basic Services, a benefit category. This is a concrete nameable service, not a generic category noun or a fragment.
 
 ## "Antireflective Lenses" -> benefit (confidence=high)
-- Antireflective lenses is a specific, nameable vision item that a member could point to and ask if it's covered. The fact that it appears in an exclusion/member-responsibility list does not change its status as a real benefit item.
+- Antireflective lenses are a specific, nameable vision product/coating a member could ask about being covered. Appears under Lenses section, consistent with a concrete benefit item.
 
 ## "Any drug we think is experimental or investigational." -> fragment_or_criterion (confidence=high)
-- The name describes a category/condition ('any drug we think is experimental or investigational') rather than naming a specific, pointable service or item. It is a qualifier/exclusion criterion appearing in a list of excluded drug types, describing the scenario under which drugs are not covered rather than naming a discrete service.
+- The name does not identify a specific, nameable drug or service; it describes a category defined by a qualifying condition (drugs deemed experimental or investigational). This is an exclusion criterion/qualifier rather than a specific covered item, so it is a fragment/criterion regardless of coverage status.
 
 ## "Any medically necessary special features" -> fragment_or_criterion (confidence=medium)
-- 'Any medically necessary special features' does not name a specific service or item; it describes a qualifier/scenario (additional features that meet a medical necessity criterion) rather than a nameable prosthetic/orthotic device or service. It reads as a condition-based catch-all within the device coverage list.
+- The name 'Any medically necessary special features' does not identify a specific, nameable service or item. It's a qualifier/catch-all phrase describing a condition (medical necessity) applied to unspecified 'special features' of prosthetic/orthotic devices, rather than naming a particular device or service a member could point to.
 
-## "Any procedure done to enhance reproductive capacity or fertility" -> fragment_or_criterion (confidence=high)
-- The phrase 'Any procedure done to enhance reproductive capacity or fertility' describes a category/scenario of procedures via a qualifying description rather than naming a specific, nameable service. It begins with 'Any procedure done to...' which is a descriptive criterion, not a distinct service a member could point to and ask about specifically.
+## "Any procedure done to enhance reproductive capacity or fertility" -> fragment_or_criterion (confidence=medium)
+- The name 'Any procedure done to enhance reproductive capacity or fertility' does not name a specific, nameable service. It is a broad descriptive/qualifier phrase describing a category of procedures by their purpose rather than identifying a concrete service a member could point to. This reads like an exclusion clause or descriptive criterion under the Infertility Treatment section rather than a discrete benefit name.
 
 ## "Anything other than covered drugs and services" -> fragment_or_criterion (confidence=high)
-- The phrase 'Anything other than covered drugs and services' names no specific service or item; it is a catch-all exclusion scenario describing a category of non-covered things, not a nameable benefit.
+- The name 'Anything other than covered drugs and services' does not name a specific service or item; it is an exclusionary catch-all phrase describing a scenario/condition rather than a nameable benefit.
 
-## "Aphakic" -> benefit (confidence=high)
-- Appears in a list of special lens types (Myodisc, Lenticular myodisc, Aphakic, etc.). 'Aphakic' names a specific type of lens for aphakic (post-cataract) patients -- a concrete, nameable item a member could ask about, regardless of its exclusion status here.
+## "Aphakic" -> fragment_or_criterion (confidence=low)
+- 'Aphakic' is an adjective describing a condition (absence of the eye's natural lens), not itself a specific nameable service. Under 'Lenses'/'Eye Exam' headers it likely qualifies a benefit (e.g., aphakic lenses) rather than naming one. Without snippets, I lean toward it being a qualifier/criterion, but confidence is low given the ambiguity.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Apical surgeries on permanent teeth" -> benefit (confidence=high)
-- 'Apical surgeries on permanent teeth' names a specific, nameable dental procedure (apicoectomy/apical surgery), listed as a specific service under endodontic services. A member could point to it and ask if it's covered.
+- Apical surgery (apicoectomy) is a specific, nameable dental procedure appearing under Class III Major Services. A member could clearly ask 'is this covered?' It is a real service, not a category or fragment.
 
 ## "Applied Behavior Analysis (ABA) treatment" -> benefit (confidence=high)
 - ABA is a specific, nameable therapeutic service for autism spectrum disorders that a member could ask whether it's covered. It appears under an Autism Spectrum Disorders benefit section, confirming it's a real benefit.
 
-## "Approved clinical trial" -> benefit (confidence=medium)
-- 'Approved clinical trial' names a specific, nameable item/service (a defined phase I-IV clinical trial for prevention/detection/treatment) that a member could point to and ask about coverage of routine patient costs. It refers to a concrete covered scenario rather than a generic category word or a mere condition/qualifier. Medium confidence since it functions partly as a defined term, but it clearly names a specific coverable service context.
+## "Approved clinical trial" -> fragment_or_criterion (confidence=low)
+- 'Approved clinical trial' reads more like a qualifying condition/defined term than a specific covered service — the actual benefit is typically 'routine patient costs' associated with an approved clinical trial. The name describes a category/qualifier ('approved') rather than a nameable service. However, it could be treated as a nameable item a member points to, so confidence is low; without excerpts it's ambiguous, but it leans toward a definitional term rather than a service.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Artificial insemination" -> benefit (confidence=high)
-- Artificial insemination is a specific, nameable medical procedure listed among infertility treatment services. A member could clearly ask whether it's covered, making it a genuine benefit.
+- Artificial insemination is a specific, nameable medical procedure that a member could ask about coverage for. It appears under Infertility Treatment, consistent with a real service.
 
 ## "Assessments" -> generic_administrative (confidence=medium)
-- 'Assessments' is a generic category noun describing a kind of diagnostic activity rather than a specific nameable service. It appears as a bullet under 'Diagnostic services' alongside 'Evaluations or tests,' indicating it's a broad category label rather than a distinct benefit a member could point to. Unlike a specific named test (e.g., Autism Diagnostic Observation Schedule), 'Assessments' alone is too generic.
+- The name 'Assessments' is a generic category noun rather than a specific nameable service. While it appears under 'Autism Spectrum Disorders', without excerpts the bare term describes a kind of process/category rather than a distinct covered service. Leaning generic_administrative but with medium confidence given lack of snippet detail.
 
-## "Athletic Trainer" -> fragment_or_criterion (confidence=medium)
-- 'Athletic Trainer' names a type of health care provider/professional, not a specific covered service or item. It appears in lists of provider types and a definition of the professional. A provider category is neither a nameable service benefit nor an administrative cost-share term; it functions as a criterion/qualifier for who renders care rather than a benefit itself.
+## "Athletic Trainer" -> benefit (confidence=medium)
+- 'Athletic Trainer' names a specific type of provider/service that a member could ask about coverage for. While it's a provider type rather than a procedure, it refers to a concrete, nameable service category and is not a generic administrative term or a fragment/criterion. Lacking direct excerpts, medium confidence is appropriate.
 
 ## "Autism Benefit Maximums" -> generic_administrative (confidence=medium)
 - The name 'Autism Benefit Maximums' refers to a dollar/visit limit cap on autism coverage, not a specific covered service. It describes a benefit maximum (a cost/limit administrative concept) rather than a nameable service a member could ask 'is this covered?' about.
@@ -233,34 +237,34 @@
 - The name refers to 'Benefit Maximums' for Autism Spectrum Disorders, which describes a coverage limit/administrative provision rather than a specific nameable service. While ASD treatment itself is a benefit, this candidate specifically names the maximums category, which is an administrative/limitation concept, not a service a member would point to and ask 'is this covered?'
 
 ## "Autism Spectrum Disorders- Covered Services" -> benefit (confidence=medium)
-- The name refers to Autism Spectrum Disorders, a specific, nameable condition whose diagnosis and treatment is a real covered service a member could ask about. The '- Covered Services' suffix is a header artifact, but the core is a legitimate benefit. Leaning toward benefit per guidance.
+- The name refers to Autism Spectrum Disorders covered services, which names a specific, recognizable category of treatment/services a member could ask about. While it includes the phrase 'Covered Services,' the core refers to a nameable condition-specific benefit rather than a generic administrative process word. Leaning toward benefit given instruction to avoid mislabeling real benefits.
 
-## "Autologous" -> benefit (confidence=medium)
-- The candidate 'Autologous' is truncated from 'Autologous Transplants', which refers to a specific, nameable medical procedure (a type of bone marrow transplant using the patient's own cells). Under the 'Transplant Services' / 'Bone Marrow Transplants' header, this names a real covered service. Confidence is medium because the extracted name is a fragment of the full benefit name, but it clearly points to a specific service rather than a generic category or eligibility criterion.
+## "Autologous" -> fragment_or_criterion (confidence=medium)
+- 'Autologous' is an adjective/qualifier (meaning derived from the same individual, as in autologous transplant or autologous stem cells) rather than a complete, nameable service on its own. Under 'Transplant Services' it describes a type/characteristic of a transplant, not a specific benefit a member could point to. It reads as a truncated fragment of a fuller benefit name.
 
 ## "Autologous Oncology Clinical Trials" -> benefit (confidence=low)
 - The name refers to autologous oncology clinical trials, which appears to name a specific type of service/participation (autologous treatments within oncology clinical trials). Though phrasing is somewhat category-like, it identifies a specific nameable service a member could ask about. No excerpts provided, so confidence is low, but leaning toward benefit per guidance.
 
 ## "Autologous Transplants" -> benefit (confidence=high)
-- Autologous Transplants is a specific, nameable medical procedure appearing under Transplant Services. A member could point to it and ask if it's covered. It names a real service, not a generic category or fragment.
+- Autologous transplant is a specific, nameable medical procedure (transplant using the patient's own cells/tissue), appearing under Transplant Services. A member could point to it and ask whether it's covered.
 
 ## "BCBSM-designated providers in Michigan" -> fragment_or_criterion (confidence=medium)
 - The name 'BCBSM-designated providers in Michigan' does not name a specific covered service or item; it describes a category of providers/a qualifier about who provides services, appearing under a 'Value Based Programs' header. It reads as a provider designation criterion rather than a nameable benefit a member could ask coverage about.
 
 ## "Bariatric surgery" -> benefit (confidence=high)
-- Bariatric surgery is a specific, nameable surgical procedure that a member could ask about coverage for. It appears under Surgery section headers and is clearly a distinct covered service, not a generic category or fragment.
+- Bariatric surgery is a specific, nameable surgical procedure appearing under Surgery headings. Members could clearly ask if it's covered.
 
 ## "Bariatric surgery is limited to one per member per lifetime" -> fragment_or_criterion (confidence=high)
-- This text states a limitation ('is limited to one per member per lifetime') rather than naming a service. The actual benefit is 'Bariatric surgery' which appears separately; this candidate is a limitation clause describing a frequency criterion, not a nameable service.
+- The name is a full sentence describing a limitation/frequency rule ('is limited to one per member per lifetime') rather than naming a specific service. Though 'Bariatric surgery' is a real benefit, this extracted text is a criterion/limitation clause, not a benefit name itself.
 
 ## "Basic prosthodontic services" -> benefit (confidence=high)
-- 'Basic prosthodontic services' names a specific, recognizable category of dental services (replacing missing natural teeth, adjustments, repairs). It's a concrete, nameable service a member could ask about, appearing under Class II Basic Services. Though somewhat category-like, prosthodontic services is a specific dental service type, not a generic administrative process word.
+- 'Basic prosthodontic services' names a specific, recognizable category of dental services (prosthodontics involving basic restorative work like repairs to dentures/bridges) that a member could point to and ask if covered. It appears under a dental Class II Basic Services header, consistent with a real covered benefit category rather than a generic administrative term or a fragment.
 
 ## "Behavioral health services" -> benefit (confidence=medium)
-- 'Behavioral health services' appears as a nameable service category (mental health and substance use disorder services), listed as a covered service. While somewhat broad, it refers to a specific, recognizable set of services a member could ask about. Leaning toward benefit given the guidance to avoid mislabeling legitimate services.
+- 'Behavioral health services' names a recognizable, specific category of covered clinical services (mental health/behavioral treatment). While somewhat broad, it refers to a nameable service a member could ask about, and appears under specific benefit sections like Autism Spectrum Disorders and Gender Affirming Services. It is not a pure administrative/cost-share word nor a fragment/criterion, so I lean toward benefit with medium confidence given its slight generality.
 
 ## "Benefit Maximums" -> generic_administrative (confidence=high)
-- "Benefit Maximums" is a category/administrative term referring to coverage limits, not a specific nameable service a member could ask to have covered.
+- 'Benefit Maximums' describes a category/process concept (limits on coverage amounts) rather than a specific nameable service. It's an administrative cost/limit provision, not something a member would point to and ask if it's covered.
 
 ## "Bereavement counseling for the family after the member’s death" -> benefit (confidence=high)
 - Bereavement counseling is a specific, nameable service provided under hospice care. The qualifier 'for the family after the member's death' describes the specific covered service, and it appears consistently as a hospice benefit component. A member could point to this and ask whether it is covered.
@@ -268,56 +272,56 @@
 ## "Bi-weekly (three-month supply)" -> benefit (confidence=medium)
 - Under the 'Contact Lenses' vision header, 'Bi-weekly (three-month supply)' names a specific type/quantity of contact lens supply, which is a nameable covered item a member could ask about. It is not a generic category word or a mere eligibility criterion; it describes a specific lens supply option. Confidence is medium given no excerpt was found, but the name and header point to a real vision benefit.
 
-## "Binocular measure" -> benefit (confidence=high)
-- Binocular measure is a specific, nameable diagnostic component of an eye exam (measuring how the eyes work together). It appears alongside other specific tests like tonometry and ophthalmoscopic examinations. A member could point to it and ask if it's covered, so it is a real benefit.
+## "Binocular measure" -> benefit (confidence=low)
+- 'Binocular measure' appears under an 'Eye Exam' vision section and names a specific measurable exam component/service. Without direct snippets confidence is low, but the name refers to a nameable service item rather than a generic category or fragment.
 
-## "Biomicroscopic evaluation" -> benefit (confidence=high)
-- Biomicroscopic evaluation is a specific, nameable clinical procedure performed during an eye exam. It appears alongside other specific procedures (lid evaluation, ophthalmoscopy, tear test), confirming it is a concrete service a member could point to, not a generic category or fragment.
+## "Biomicroscopic evaluation" -> benefit (confidence=medium)
+- Biomicroscopic evaluation is a specific, nameable clinical procedure (a slit-lamp examination commonly performed in contact lens fittings). Appearing under vision-related headers supports it being a real service a member could ask about. No evidence it is a generic category or a fragment.
 
 ## "Birthing center" -> benefit (confidence=high)
-- A birthing center is a specific, nameable facility/service that a member could ask whether it's covered. It refers to a concrete type of care setting, not a generic category word or a fragment/criterion.
+- A birthing center is a specific, nameable facility/service a member could ask about coverage for. Despite the odd header, the name itself refers to a concrete covered facility.
 
 ## "Bite Splint" -> benefit (confidence=high)
-- A bite splint (mandibular orthotic repositioning device) is a specific, nameable dental appliance a member could ask about coverage for. It names a concrete item, not a category or condition.
+- A bite splint is a specific, nameable dental appliance/device used for treating conditions like TMJ or bruxism. It's a concrete item a member could ask about, appearing under Dental Services. Not a category word or fragment.
 
 ## "Bitewing radiographs (X-rays) and individual periapical films" -> benefit (confidence=high)
 - This names specific dental diagnostic services -- bitewing X-rays and periapical films -- that a member could point to and ask if covered. It appears under Class I Diagnostic and Preventive Services, consistent with a specific nameable benefit.
 
-## "Bleeding or clotting abnormalities" -> fragment_or_criterion (confidence=high)
-- This is a medical condition listed as an example of criteria that justify facility/anesthesia services for dental care, not a nameable covered service or item itself. It describes a qualifying clinical condition, making it a criterion rather than a benefit.
+## "Bleeding or clotting abnormalities" -> fragment_or_criterion (confidence=medium)
+- The name 'Bleeding or clotting abnormalities' describes a medical condition or diagnostic scenario, not a specific nameable service. Under a 'Dental Services' header, this likely appears as a qualifying criterion (e.g., dental services covered when the patient has bleeding or clotting abnormalities). It does not name a service a member could point to and ask 'is this covered?' but rather a condition/qualifier. No direct snippet available, so medium confidence.
 
-## "Blended Lenses" -> benefit (confidence=high)
-- Blended lenses are a specific, nameable optical product (a type of multifocal lens without a visible line). It appears in an exclusion list but names a real item, so it qualifies as a benefit regardless of coverage status.
+## "Blended Lenses" -> benefit (confidence=medium)
+- 'Blended Lenses' is a specific, nameable type of contact/eyeglass lens under the 'Contact Lenses' vision section. A member could point to it and ask if it's covered. No snippets provided, but the name clearly refers to a concrete item, not a category word or fragment.
 
 ## "Blepharoplasty of upper lids" -> benefit (confidence=high)
-- Blepharoplasty of upper lids is a specific, nameable surgical procedure. It appears in a list alongside other specific surgeries (breast reduction, panniculectomy), confirming it names a concrete service a member could ask about.
+- Blepharoplasty of the upper lids is a specific, nameable surgical procedure appearing under a Surgery header. A member could ask whether it's covered. This is a real benefit regardless of coverage status.
 
 ## "Blood glucose monitors" -> benefit (confidence=high)
-- 'Blood glucose monitors' is a specific, nameable medical item/supply covered under the diabetes management program. A member could point to it and ask if it's covered. This is a clear benefit.
+- 'Blood glucose monitors' is a specific, nameable medical device/item a member could ask about coverage for, appearing under a diabetes management program section. It refers to a concrete piece of equipment, not a generic category or a criterion.
 
 ## "Blood glucose monitors for the legally blind" -> benefit (confidence=high)
-- This names a specific, tangible medical item -- blood glucose monitors designed for the legally blind -- listed among concrete diabetes supplies. A member could point to it and ask if it's covered. The qualifier 'for the legally blind' describes a specific product variant, not an eligibility criterion applied to a generic service.
+- The name refers to a specific, nameable item/equipment -- blood glucose monitors designed for legally blind members -- covered under the Outpatient Diabetes Management Program. A member could point to this and ask if it's covered. It names a concrete medical device, not a category or eligibility fragment.
 
 ## "Bone Marrow Transplants" -> benefit (confidence=high)
-- Bone marrow transplants is a specific, nameable medical procedure that a member could ask about coverage for. It appears under Transplant Services and describes a concrete service, not a generic category or fragment.
+- Bone Marrow Transplants is a specific, nameable medical procedure appearing under Transplant Services. A member could clearly ask if it's covered.
 
 ## "Bone marrow" -> benefit (confidence=medium)
-- The name 'Bone marrow' refers to a specific, nameable item/service in the context of transplants and donor searches. While the excerpts show it within a phrase ('Bone Marrow Donor Program Registry'), bone marrow transplantation is a real, specific covered service. It is not a generic administrative category nor a fragment/criterion. Leaning toward benefit given uncertainty about exact phrasing.
+- 'Bone marrow' names a specific, identifiable item/service (bone marrow, likely bone marrow transplant/harvest) that a member could ask about. Under an oncology clinical trials header it plausibly refers to bone marrow transplant. It is a concrete nameable item rather than a category word or fragment, so lean toward benefit.
 
 ## "Bone marrow (described below)" -> benefit (confidence=medium)
 - Under 'Transplant Services', 'Bone marrow' refers to a bone marrow transplant, which is a specific, nameable covered service. The '(described below)' is a cross-reference artifact but the core name refers to a real service. Leaning toward benefit.
 
 ## "Bone replacement grafts" -> benefit (confidence=high)
-- This names a specific, nameable dental procedure (bone replacement grafts) listed among periodontal/surgical services. A member could point to it and ask if it's covered.
+- 'Bone replacement grafts' is a specific, nameable dental/surgical service listed under Class III Major Services. A member could point to it and ask if it is covered.
 
 ## "Breast reduction" -> benefit (confidence=high)
-- Breast reduction is a specific, nameable surgical procedure listed among other concrete surgeries under the Surgery section. A member could clearly ask whether it is covered.
+- 'Breast reduction' is a specific, nameable surgical procedure that a member could ask about coverage for. It appears under the 'Surgery' header, consistent with a real medical service. Whether covered or excluded is irrelevant to classification.
 
 ## "Bridges" -> benefit (confidence=medium)
 - 'Bridges' refers to dental bridges, a specific, nameable dental prosthetic/service a member could ask about. Though the header lists it under diagnostic/preventive (bridges are usually major services), the name itself denotes a concrete service, so it qualifies as a benefit.
 
 ## "Broken or Lost Lenses or Frames" -> benefit (confidence=medium)
-- The name refers to replacement of broken or lost lenses or frames, which is a specific, nameable service item a member could ask about (even though it appears in exclusion lists). It names a concrete item/service rather than a generic category or a mere condition/qualifier.
+- The name refers to a specific, nameable scenario tied to a concrete item (lenses or frames) that vision plans commonly address as a replacement benefit or exclusion. Under the 'Contact Lenses' header, this reads as a coverage provision for broken/lost eyewear, which a member could point to and ask about. It is not a pure administrative category word, and it names a specific item rather than a generic rule. Leaning toward benefit per guidance, though the phrasing borders on a scenario descriptor, hence medium confidence.
 
 ## "By a lab at your in- network physician’s direction." -> fragment_or_criterion (confidence=high)
 - The name 'By a lab at your in-network physician's direction' describes a condition/scenario under which lab services are performed, not a specific nameable service. It's a qualifier fragment, not a benefit.
@@ -328,20 +332,21 @@
 ## "By your physician, or" -> fragment_or_criterion (confidence=high)
 - The name 'By your physician, or' is a sentence fragment describing a condition or qualifier (who performs/orders the service), not a specific nameable service. It has no service name in it.
 
-## "Cardiovascular Management Program" -> benefit (confidence=high)
-- This is a specific, nameable program under the Enhanced Condition Management Program that provides select services, equipment, and tools to manage hypertension. A member could point to it and ask if it's covered. It names a specific service offering rather than a generic category or a fragment/criterion.
+## "Cardiovascular Management Program" -> benefit (confidence=medium)
+- The name refers to a specific, nameable disease/condition management program (cardiovascular management), which a member could point to and ask if it's covered. While it's a program rather than a discrete procedure, it names a specific service offering under the Enhanced Condition Management Program. Lacking direct snippets, medium confidence, but leaning toward benefit per guidance.
 
 ## "Care for mental illness" -> benefit (confidence=medium)
-- "Care for mental illness" names a specific, identifiable service (treatment/care for mental illness) that a member could ask about, even though here it appears in an exclusion list under Skilled Nursing Facility Services. Coverage/exclusion status must not drive classification. It is not a generic category word like 'Equipment' nor a fragment/criterion; it names an actual service type.
+- The name refers to a specific, nameable category of service -- treatment/care for mental illness -- which a member could point to and ask if it's covered. Though somewhat broad, it names a real service type rather than an administrative process word or a fragment/criterion. Leaning toward benefit given no evidence it's a mere category noun or fragment.
 
-## "Care for senility or developmental disability" -> benefit (confidence=medium)
-- This names a specific type of care (care for senility or developmental disability), parallel to sibling items like 'Custodial care', 'Care for substance use disorder', and 'Care for mental illness', which are nameable services. It appears in exclusion lists, but exclusion status must not drive classification. A member could point to it and ask if it's covered. It's a specific, nameable service type rather than a generic category or fragment.
+## "Care for senility or developmental disability" -> fragment_or_criterion (confidence=low)
+- The name 'Care for senility or developmental disability' reads more like a qualifier/scenario describing a type of care situation (often an exclusion criterion in SNF contexts, e.g. care primarily for senility) rather than a specific nameable service. However, no direct snippet is available and it could arguably be a specific care type. Given uncertainty, I lean fragment_or_criterion with low confidence since it describes a condition/scenario rather than a distinct service, but it borders on a benefit-like descriptor.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
-## "Care for substance use disorder" -> benefit (confidence=high)
-- 'Care for substance use disorder' names a specific, nameable service that a member could ask about. It appears alongside other real services like 'Custodial care' and 'Care for mental illness'. It happens to appear in an exclusion list under Skilled Nursing Facility context, but exclusion status must not influence classification.
+## "Care for substance use disorder" -> benefit (confidence=medium)
+- The name refers to a specific, nameable service — treatment for substance use disorder — which a member could ask about coverage for. Despite appearing under a possibly mismatched header, the name itself denotes a real clinical service, so it qualifies as a benefit.
 
-## "Catheterization equipment and urinary sets" -> benefit (confidence=high)
-- This names a specific, identifiable medical supply item (catheterization equipment and urinary sets) that a member could ask about coverage for. Although it appears under the generic 'Medical Supplies' header, the name itself refers to a concrete, nameable item rather than a generic category or a criterion/fragment.
+## "Catheterization equipment and urinary sets" -> benefit (confidence=medium)
+- The name refers to specific, nameable medical supply items -- catheterization equipment and urinary sets -- that a member could point to and ask if covered. Appearing under 'Medical Supplies' supports it being a concrete item rather than a generic category or fragment. Not a process word or eligibility criterion.
 
 ## "Certified Nurse Anesthetist" -> benefit (confidence=high)
 - A Certified Nurse Anesthetist is a specific, nameable provider/service that a member could ask about coverage for. Despite the odd section header, the name itself clearly refers to a specific service provider, not a generic category or fragment.
@@ -350,25 +355,25 @@
 - A Certified Nurse Anesthetist (CRNA) is a specific, nameable type of provider/service that a member could ask about coverage for. It names a real service item despite appearing under an unexpected header.
 
 ## "Certified Nurse Practitioner" -> benefit (confidence=medium)
-- This names a specific type of provider (Certified Nurse Practitioner). While it's a provider type rather than a service, it's a specific, nameable entity that a member could reference. However, it functions more as a provider category than a specific covered service, so confidence is medium. Leaning toward benefit since it's a specific, nameable item.
+- A Certified Nurse Practitioner is a specific, nameable provider type whose services a member could ask about being covered. It refers to a concrete category of care provider, not a generic administrative category or a fragment/criterion.
 
 ## "Certified by the Michigan Department of Community Health" -> fragment_or_criterion (confidence=high)
-- This is a certification requirement/eligibility criterion for a provider, not a nameable service. The excerpts show it as one of the conditions that training 'must be' certified by, describing a qualifier rather than a covered service.
+- The name 'Certified by the Michigan Department of Community Health' describes a certification qualifier/eligibility criterion, not a specific nameable service. It's a condition attached to the Outpatient Diabetes Management Program rather than a benefit itself.
 
-## "Certified licensed social workers" -> fragment_or_criterion (confidence=medium)
-- This names a type of provider (a professional category), not a specific covered service or item. It appears in a list of provider types (certified nurse practitioners, psychologists, physical therapists), which describes who renders care rather than a nameable benefit a member could ask 'is this covered?'. It's not a generic cost-share/process word, but it is a provider-designation qualifier rather than a service.
+## "Certified licensed social workers" -> benefit (confidence=medium)
+- The name refers to a specific type of provider/professional (certified licensed social workers) whose services a member could ask about coverage for. While it names a provider category rather than a discrete procedure, it is a specific, nameable service provider type, not a generic administrative word or a fragment/criterion. Leaning toward benefit per guidance.
 
 ## "Certified to receive Medicare or Medicaid reimbursement or" -> fragment_or_criterion (confidence=high)
-- The text 'Certified to receive Medicare or Medicaid reimbursement or' is a provider qualification criterion, not a nameable service. The excerpts show it describing requirements the provider of self-management training must meet. It names no specific covered service or item.
+- The name 'Certified to receive Medicare or Medicaid reimbursement or' is a sentence fragment describing an eligibility/certification criterion, not a specific nameable service. It trails off with 'or', clearly an incomplete clause, and describes a qualification condition rather than a covered service.
 
 ## "Cervical cancer screening" -> benefit (confidence=high)
-- Cervical cancer screening is a specific, nameable preventive service that a member could ask about coverage for. It appears in a list of concrete preventive screenings.
+- Cervical cancer screening is a specific, nameable preventive service that a member could point to and ask if it's covered. It appears under Preventive Care Services, consistent with a real benefit.
 
-## "Chemical profile" -> benefit (confidence=high)
-- 'Chemical profile' is a specific, nameable laboratory test (a blood chemistry panel) listed as a routine screening service alongside cholesterol testing and colonoscopy under Preventive Care Services. A member could ask 'is this covered?' It names a specific service, not a category or fragment.
+## "Chemical profile" -> benefit (confidence=medium)
+- A chemical profile is a specific, nameable laboratory test panel (blood chemistry panel) that a member could ask about being covered, appearing under Preventive Care Services. It names a concrete service rather than a generic category or a fragment/criterion.
 
 ## "Chemotherapeutic drugs." -> benefit (confidence=high)
-- Chemotherapeutic drugs is a specific, nameable class of medications used for cancer treatment. A member could clearly ask whether these are covered. It is not a generic administrative category nor a fragment/criterion.
+- Chemotherapeutic drugs names a specific, nameable class of medical items/services used in cancer treatment. A member could clearly ask whether these are covered. This is not a generic administrative category nor a fragment.
 
 ## "Chemotherapy Infusion Pumps" -> benefit (confidence=high)
 - The name refers to a specific, nameable durable medical equipment item -- chemotherapy infusion pumps -- which a member could point to and ask if covered. The section header seems mismatched but the name itself clearly names a concrete service/item.
@@ -377,8 +382,8 @@
 - The name combines 'Chemotherapy' (a real service) with 'Prior Authorization,' which is an administrative process/requirement rather than a service. This appears to describe a process step or requirement for chemotherapy coverage rather than naming a specific coverable service. However, with no excerpt and only the name to judge from, confidence is low; it could arguably be a process/administrative item, but it reads more like a criterion/requirement than a nameable service.
 - **Not auto-flagged**: below the high/medium-confidence precision gate.
 
-## "Chemotherapy Specialty Pharmaceuticals" -> benefit (confidence=high)
-- This names a specific, nameable category of covered items -- chemotherapy specialty pharmaceuticals/drugs. A member could ask 'are these covered?' It refers to a concrete drug type, not a generic process word like 'Drugs' alone or a fragment/criterion.
+## "Chemotherapy Specialty Pharmaceuticals" -> benefit (confidence=medium)
+- The name refers to a specific, nameable category of pharmaceuticals -- chemotherapy specialty drugs -- which a member could point to and ask whether it is covered. Under the Prescription Drugs header this represents a concrete drug class rather than a generic process word or a fragment/criterion. No excerpt is available, so confidence is medium.
 
 ## "Chemotherapy for Bone Marrow Transplants" -> benefit (confidence=high)
 - The name refers to a specific, nameable medical service -- chemotherapy administered in connection with bone marrow transplants -- under the Transplant Services section. A member could clearly ask whether this specific service is covered.
@@ -387,16 +392,19 @@
 - The name refers to a specific, nameable service -- chemotherapy provided in the context of oncology clinical trials. A member could ask whether this is covered. It is not a generic category word nor a fragment/criterion. No excerpts available, but the name and header support classifying as a benefit.
 
 ## "Chiropractic Services" -> benefit (confidence=high)
-- Chiropractic Services is a real, specific, nameable service a member could ask about coverage for. The section header mismatch (Chemotherapy) appears to be an extraction artifact, but the name itself clearly refers to a concrete service.
+- Chiropractic Services names a specific, recognizable covered service that a member could ask about coverage for. The mismatched section header (Chemotherapy) doesn't change that the name itself refers to a concrete, nameable healthcare service.
 
 ## "Chiropractic office visits" -> benefit (confidence=high)
-- 'Chiropractic office visits' names a specific, identifiable service a member could ask about coverage for. It appears as a distinct bulleted benefit with its own coverage terms (one visit every 36 months for new patients), confirming it's a real nameable service rather than a generic category or fragment.
+- 'Chiropractic office visits' names a specific, nameable service a member could ask about coverage for, appearing under a relevant chiropractic services header. It is a concrete service, not a generic category or fragment.
 
 ## "Cholesterol testing" -> benefit (confidence=high)
-- Cholesterol testing is a specific, nameable diagnostic screening service that a member could ask about. It appears as a distinct item under Preventive Care Services.
+- 'Cholesterol testing' is a specific, nameable service (a lab screening test) that a member could ask about, appearing under Preventive Care Services. It refers to a concrete covered service, not a category or fragment.
 
 ## "Chronic, irreversible kidney failure (End Stage Renal Disease (ESRD))" -> benefit (confidence=medium)
 - The name refers to a specific, nameable medical condition (End Stage Renal Disease) treated under the Dialysis Services benefit. Although phrased as a diagnosis rather than a service, it identifies a concrete condition a member could ask about coverage for, appearing under a specific benefit header. Leaning toward benefit per guidance, with medium confidence given it reads more like a diagnosis label than a service name.
+
+## "Class I ‐ Diagnostic and Preventive Services" -> generic_administrative (confidence=medium)
+- This is a dental plan service class/category grouping ('Class I – Diagnostic and Preventive Services') rather than a specific nameable service. It describes a tier of coverage that groups multiple procedures, not a single service a member points to. Leaning generic_administrative, but medium confidence since no direct snippet is available.
 
 ## "Clinical Nurse Specialist-Certified" -> benefit (confidence=medium)
 - 'Clinical Nurse Specialist-Certified' names a specific type of provider/practitioner whose services can be covered. Provider types are typically treated as nameable benefit categories in these certificates. It is not a generic process word nor a fragment/criterion. Confidence is medium due to lack of direct excerpts.
@@ -407,20 +415,20 @@
 ## "Coating/Laminating" -> benefit (confidence=medium)
 - Coating/laminating is a specific, nameable vision benefit -- a lens treatment/add-on service a member could ask about being covered. It names a concrete item/service rather than a category word or a fragment/criterion.
 
-## "Collection of mature eggs and sperm" -> benefit (confidence=high)
-- This names a specific, concrete medical service (collection of mature eggs and sperm) under fertility preservation. A member could point to it and ask if it's covered. It is not a generic category word or a fragment/criterion.
+## "Collection of mature eggs and sperm" -> benefit (confidence=medium)
+- Under the 'Fertility Preservation' header, 'Collection of mature eggs and sperm' names a specific, identifiable medical procedure a member could ask about being covered. It is not a generic category word nor a conditional fragment.
 
 ## "Colonoscopy" -> benefit (confidence=high)
-- Colonoscopy is a specific, nameable medical procedure that a member could ask about coverage for. It appears as a distinct benefit under Preventive Care Services with defined coverage terms.
+- Colonoscopy is a specific, nameable medical procedure that a member could ask about coverage for. It appears under Preventive Care Services and is a real, well-defined service, not a generic category or fragment.
 
 ## "Complete dentures" -> benefit (confidence=high)
-- 'Complete dentures' is a specific, nameable dental prosthetic device/service that a member could ask about. It appears under Class III Major Services with specific frequency limits, clearly a real benefit.
+- 'Complete dentures' is a specific, nameable dental prosthetic device/service listed under Class III Major Services. A member could point to it and ask if it's covered.
 
 ## "Composite Fillings" -> benefit (confidence=high)
-- Composite fillings are a specific, nameable dental service used to repair decayed or damaged teeth. A member could clearly ask if they are covered. This is a real benefit.
+- Composite fillings are a specific, nameable dental service (tooth-colored fillings) that a member could point to and ask if it's covered. It is a real benefit, not a generic category or fragment.
 
-## "Compounded hormones" -> benefit (confidence=high)
-- Compounded hormones is a specific, nameable pharmaceutical product/service that a member could ask about. It appears in exclusion lists, but coverage status doesn't affect classification. It names a real, specific item.
+## "Compounded hormones" -> benefit (confidence=medium)
+- Compounded hormones refers to a specific, nameable pharmaceutical item/service under the Prescription Drugs section. A member could ask whether these are covered, making it a real benefit regardless of coverage status. No excerpts available, but the name itself denotes a concrete drug product.
 
 ## "Computerized axial tomography (CAT) scans" -> benefit (confidence=high)
 - CAT scans are a specific, nameable diagnostic imaging service under Radiology Services that a member could ask about coverage for.
@@ -429,109 +437,109 @@
 - The name 'Conditions caused by accidental injuries, and' is a sentence fragment ending in 'and', describing a category of conditions rather than naming a specific, nameable service. It reads as a partial clause pulled from a longer sentence, not a benefit.
 
 ## "Consultations by dentists not providing treatment" -> benefit (confidence=medium)
-- This names a specific, identifiable dental service—a consultation performed by a dentist who is not the one providing treatment (i.e., a second-opinion/specialist consultation). A member could point to it and ask whether it's covered. It appears alongside other real services like 'House and hospital calls' and 'Antibiotic injections' under Class II Basic Services. It's not a generic category word nor a bare condition/qualifier.
+- The name refers to a specific, nameable dental service -- consultations provided by dentists who are not the ones performing treatment. This is a concrete service a member could point to and ask about, appearing under 'Class II – Basic Services'. It is not a generic category word nor a mere fragment/criterion, so it best fits 'benefit', though absent excerpts lower confidence.
 
 ## "Consultations, Inpatient or Outpatient" -> benefit (confidence=medium)
 - A consultation, whether inpatient or outpatient, is a specific, nameable medical service a member could ask about being covered. The inpatient/outpatient distinction is a setting qualifier but the core term 'Consultations' names a real service. Medium confidence due to lack of direct snippets.
 
-## "Contact lenses every 12 months" -> benefit (confidence=high)
-- 'Contact lenses' is a specific, nameable covered vision item; the 'every 12 months' is a frequency qualifier but the core names a real service/item a member could ask about. Appears in a covered benefits list in a vision certificate.
+## "Contact lenses every 12 months" -> fragment_or_criterion (confidence=medium)
+- The name 'Contact lenses every 12 months' appears under a 'Frequency' header and combines a service item ('Contact lenses') with a frequency limitation ('every 12 months'). While 'Contact lenses' alone would be a real benefit, this candidate as extracted describes a frequency/eligibility rule rather than naming a specific service cleanly. The 'every 12 months' qualifier indicates this is describing a coverage limitation/frequency criterion. However, there's some doubt since the core item is a real service, so medium confidence.
 
 ## "Continuous Positive Airway Pressure (CPAP)" -> benefit (confidence=high)
 - CPAP is a specific, nameable piece of durable medical equipment used to treat sleep apnea. A member could clearly ask 'is CPAP covered?' It appears under Durable Medical Equipment and names a specific item, not a generic category or a fragment.
 
 ## "Continuous glucose monitor sensors" -> benefit (confidence=high)
-- 'Continuous glucose monitor sensors' is a specific, nameable medical supply item that a member could ask about coverage for. It appears in a list alongside other specific diabetic supplies (test strips, lancets, insulin delivery reservoirs), confirming it is a concrete item rather than a generic category or fragment.
+- 'Continuous glucose monitor sensors' names a specific, tangible medical item/device that a member could ask about coverage for. It is not a generic category nor a fragment/criterion.
 
 ## "Continuous glucose monitors" -> benefit (confidence=high)
-- 'Continuous glucose monitors' is a specific, nameable medical device that appears in a list of diabetic supplies and devices alongside glucometers and test strips. A member could clearly ask whether this specific item is covered.
+- Continuous glucose monitors is a specific, nameable medical device that a member could ask whether it is covered. It is a concrete item, not a generic category or fragment.
 
 ## "Contraceptive Counseling" -> benefit (confidence=high)
-- Contraceptive counseling is a specific, nameable preventive care service a member could ask about being covered. The excerpts define it as 'a preventive service that helps you choose a contraceptive method,' confirming it is a real service, not a generic category or fragment.
+- Contraceptive counseling is a specific, nameable preventive care service that a member could ask about. It fits under Preventive Care Services and names a concrete service, not a generic category or fragment.
 
 ## "Contraceptive Devices Injections, and Implants" -> benefit (confidence=high)
 - The name refers to specific, nameable medical items/services -- contraceptive devices, injections, and implants -- listed under Preventive Care Services. A member could clearly ask whether these are covered. This is a real benefit, not a generic category or fragment.
 
 ## "Contraceptive Drugs" -> benefit (confidence=high)
-- Contraceptive Drugs names a specific, identifiable category of covered medication that a member could point to and ask about coverage. While 'Drugs' alone would be generic, 'Contraceptive Drugs' specifies a concrete class of items/medications, making it a real nameable benefit.
+- 'Contraceptive Drugs' names a specific, identifiable category of covered items that a member could ask about, appearing under Preventive Care Services. It refers to a concrete nameable service/item rather than a generic administrative process or a fragment/criterion.
 
 ## "Contraceptive Injections" -> benefit (confidence=high)
 - Contraceptive injections name a specific, nameable medical service/item that a member could ask about being covered. It appears under Preventive Care Services, consistent with a real benefit.
 
-## "Contraceptive Mobile App" -> benefit (confidence=high)
-- 'Contraceptive Mobile App' is a specific, nameable item/service covered under preventive care, with a defined frequency limit (one per member per 12 months). It refers to a concrete covered item, not a category word or a fragment/criterion.
+## "Contraceptive Mobile App" -> benefit (confidence=medium)
+- The name refers to a specific, nameable item -- a contraceptive mobile app (such as an FDA-cleared digital contraceptive), which is a discrete service/item a member could ask about under Preventive Care Services. Though no direct snippet is available, the name itself denotes a specific product rather than a generic category or a fragment/criterion.
 
-## "Cornea" -> benefit (confidence=high)
-- 'Cornea' in the transplant services context refers to corneal transplant, a specific, nameable medical service/procedure. The excerpts explicitly list cornea alongside skin and bone marrow transplants as payable procedures. This is a real, specific benefit a member could ask about.
+## "Cornea" -> benefit (confidence=medium)
+- Under 'Transplant Services', 'Cornea' refers to a corneal transplant, a specific nameable service a member could ask about. It names a specific item/procedure rather than a generic category or fragment.
 
-## "Cornea evaluation" -> benefit (confidence=high)
-- Cornea evaluation is a specific, nameable diagnostic vision service listed alongside other specific tests (ophthalmoscopy, tear test, pupil evaluation). A member could ask whether it's covered.
+## "Cornea evaluation" -> benefit (confidence=medium)
+- A cornea evaluation is a specific, nameable vision service that a member could ask about coverage for. It appears under vision-related headers. This names a concrete diagnostic/examination service rather than a generic category or a fragment.
 
 ## "Cosmetic Lenses/Processes" -> benefit (confidence=medium)
 - The name refers to specific vision items/services -- cosmetic lens options and lens processing/coatings under the Contact Lenses section. These are nameable items a member could ask about coverage for, even if often excluded. Not a generic category word or a fragment/criterion. Medium confidence due to lack of direct excerpts.
 
 ## "Cosmetic Surgery" -> benefit (confidence=high)
-- Cosmetic surgery is a specific, nameable medical service that a member could ask about. It appears under the Surgery section with conditions on when it's payable, but the name itself refers to a real, specific service regardless of coverage limitations.
+- Cosmetic surgery is a specific, nameable surgical service that a member could ask about, appearing under the Surgery section. It is a real service regardless of whether it is typically excluded.
 
 ## "Cosmetic surgery is only payable for" -> fragment_or_criterion (confidence=high)
-- The name 'Cosmetic surgery is only payable for' is a sentence fragment introducing a list of qualifying conditions, not a specific nameable service. Although 'cosmetic surgery' is a real service concept, the extracted text is a coverage-limitation clause describing when it is payable, so it reads as a criterion/qualifier rather than a benefit name.
+- The name 'Cosmetic surgery is only payable for' is an incomplete sentence fragment describing a condition/qualifier for when coverage applies, not a specific nameable service. It reads as the start of an eligibility rule rather than a benefit name.
 
 ## "Counseling services" -> benefit (confidence=medium)
-- 'Counseling services' names a specific, identifiable service a member could ask about being covered, listed alongside diagnostic and planning services under Infertility Treatment. While somewhat broad, it refers to a nameable service rather than a pure category/process word or a fragment/criterion.
+- 'Counseling services' names a specific, nameable service a member could ask whether it's covered. Though somewhat broad, it refers to an identifiable service (counseling), not a process/category word or a fragment/criterion. Leaning toward benefit given uncertainty.
 
-## "Coverage Requirements" -> fragment_or_criterion (confidence=high)
-- 'Coverage Requirements' is a heading introducing eligibility conditions (services must be medically necessary and appropriate), not a specific nameable service or item. It describes rules/criteria rather than a benefit.
+## "Coverage Requirements" -> fragment_or_criterion (confidence=medium)
+- 'Coverage Requirements' is a heading describing conditions/rules for coverage rather than naming a specific service. It does not refer to a nameable service a member could point to; it describes eligibility/process criteria.
 
 ## "Covered Drugs Obtained from an Out-of-Network Pharmacy" -> fragment_or_criterion (confidence=medium)
 - The name describes a scenario/condition -- drugs obtained through a particular channel (an out-of-network pharmacy) -- rather than naming a specific covered service or item. The actual benefit is 'prescription drugs'; this phrase qualifies where/how they're obtained, making it a criterion/scenario rather than a nameable service.
 
-## "Covered services and devices for pain management" -> benefit (confidence=medium)
-- The name refers to a specific, nameable category of services and devices for pain management, which appears under a 'Pain Management' benefit section. While it uses somewhat generic 'covered services and devices' phrasing, it names a concrete clinical domain (pain management) that a member could point to and ask about. Leaning toward benefit given the specific service area.
+## "Covered services and devices for pain management" -> generic_administrative (confidence=medium)
+- The name 'Covered services and devices for pain management' is a category heading describing a class of provisions rather than a specific, nameable service. It literally says 'covered services and devices for' a category, which is a grouping phrase, not a single pointable service. However, without direct excerpts there is some uncertainty, so medium confidence.
 
 ## "Covered services are provided within the state of Michigan." -> fragment_or_criterion (confidence=high)
-- The text describes a geographic eligibility condition ('Covered services are provided within the state of Michigan') under a list of criteria that must be met for coverage. It names no specific service; it is a qualifying condition, so it is a fragment/criterion.
+- This is a sentence describing a geographic condition/limitation on coverage, not a specific nameable service. It states where covered services are provided rather than naming a service a member could ask about.
 
 ## "Covered services include, but not limited to, the following" -> fragment_or_criterion (confidence=high)
 - The name 'Covered services include, but not limited to, the following' is an introductory clause/lead-in phrase, not a specific nameable service. It describes what follows rather than naming a service a member could ask about.
 
 ## "Crowns" -> benefit (confidence=high)
-- 'Crowns' names a specific, nameable dental item/service that a member could ask about coverage for. It is not a generic category word or a fragment; it refers to a concrete dental restoration.
+- Crowns is a specific, nameable dental service/item that a member could ask about coverage for. It refers to a concrete dental restoration, not a category word or a fragment.
 
 ## "Cryopreservation of embryos, mature eggs and sperm" -> benefit (confidence=high)
 - The name refers to a specific, nameable medical service -- cryopreservation of embryos, mature eggs and sperm -- under the Fertility Preservation section. A member could clearly ask whether this specific service is covered.
 
-## "Culture of eggs" -> benefit (confidence=high)
-- 'Culture of eggs' is a specific, nameable fertility preservation procedure appearing alongside other concrete services like 'Ovarian transposition' and 'Embryo transfer.' A member could point to it and ask if it's covered.
+## "Culture of eggs" -> benefit (confidence=medium)
+- Under a Fertility Preservation header, 'Culture of eggs' names a specific procedure step in fertility/IVF processes. It refers to a concrete, nameable service a member could ask about coverage for, not a generic category or a fragment.
 
 ## "Custodial care" -> benefit (confidence=high)
-- 'Custodial care' is a real, specific, nameable type of care service that a member could ask about. It appears in exclusion lists here, but the guidance explicitly cites 'Custodial care' as an example of a real benefit that happens to be excluded. Coverage status must not drive classification.
+- Custodial care is a specific, nameable type of care (assistance with activities of daily living) that a member could ask about. It is commonly excluded but remains a real, specific service, so it classifies as a benefit regardless of coverage status.
 
-## "Custodial or nonskilled care" -> benefit (confidence=high)
-- Custodial or nonskilled care is a specific, nameable type of care service that a member could ask about coverage for. Like 'Custodial care' example, it's a real service even though it appears in exclusion lists here. Coverage status must not drive classification.
+## "Custodial or nonskilled care" -> benefit (confidence=medium)
+- The name refers to a specific, nameable type of care (custodial/nonskilled care) that a member could ask about. It's often excluded, but exclusion status doesn't affect classification. It names a real category of service under Home Health Care Services.
 
 ## "Dailies (three-month supply)" -> benefit (confidence=medium)
 - The name refers to daily disposable contact lenses provided as a three-month supply, which is a specific, nameable item a member could ask about under the Contact Lenses section of a vision plan. It names a concrete covered item rather than a generic category or a fragment/criterion.
 
 ## "Damage to the device so that it cannot be restored" -> fragment_or_criterion (confidence=high)
-- This text describes a condition/scenario under which a prosthetic device may be replaced ('Damage to the device so that it cannot be restored'), listed alongside 'A change in the patient's condition' and 'Loss of the device'. It does not name a specific service or item; it is a qualifying circumstance/eligibility criterion for replacement.
+- The name describes a condition/scenario (a device being damaged beyond restoration) that would trigger replacement coverage, not a specific nameable service or item. It is a qualifier/criterion, containing no service name itself.
 
 ## "Deemed safe and effective by BCBSM" -> fragment_or_criterion (confidence=high)
-- The name 'Deemed safe and effective by BCBSM' describes a qualifying condition/criterion that a treatment must meet, not a specific nameable service. It appears as a bullet listing requirements for autism spectrum disorder treatments, making it a criterion rather than a benefit.
+- The name 'Deemed safe and effective by BCBSM' describes a qualifying condition/criterion for coverage rather than a specific nameable service or item. It contains no service name at all, only an eligibility qualifier.
 
 ## "Dental Services in a Participating Hospital" -> benefit (confidence=medium)
-- 'Dental Services in a Participating Hospital' names a specific, nameable category of covered service tied to a place of service. While 'Dental Services' alone might lean generic, the qualifier makes it a specific covered benefit a member could ask about. It is a real service offering rather than a cost-share, process word, or fragment/criterion.
+- The name refers to a specific, nameable service -- dental services provided in a participating hospital setting. A member could point to this and ask whether it's covered. It names a concrete service/location combination rather than a generic category or a fragment/criterion.
 
 ## "Dental conditions existing before an accident requiring emergency dental treatment" -> fragment_or_criterion (confidence=medium)
-- This describes a scenario/condition (pre-existing dental conditions that exist before an accident) rather than naming a specific service. It functions as a qualifier/exclusion clause describing which situations are not covered, not a nameable service a member could point to. The 'benefit' being referenced is really emergency dental treatment, with this being a condition-based limitation on it.
+- The name describes a pre-existing condition scenario/qualifier ('Dental conditions existing before an accident requiring emergency dental treatment') rather than naming a specific, coverable dental service. It reads as an exclusion condition or eligibility qualifier describing a circumstance, not a nameable service a member could point to.
 
 ## "Dental injury" -> benefit (confidence=medium)
-- The name 'Dental injury' (accidental dental injury) refers to a specific, nameable condition/service scenario — damage to the face or jaw from external force, with follow-up treatment covered. This is a specific, pointable item a member could ask about, rather than a generic category or a mere qualifier. The match appears to be a fragment of 'accidental injury' text, but the underlying concept of dental injury treatment is a real benefit. Leaning toward benefit per guidance.
+- 'Dental injury' names a specific, nameable condition/service (accidental injury to teeth) that a member could ask about coverage for. The section header seems mismatched (likely an extraction artifact), but the name itself refers to a real, specific covered item common in medical plans (dental care due to accidental injury).
 
 ## "Dental sealants" -> benefit (confidence=high)
-- Dental sealants are a specific, nameable dental service that a member could point to and ask if covered. Appears in a list of specific services alongside space maintainers and X-rays.
+- Dental sealants is a specific, nameable dental service that a member could ask about coverage for. It appears under 'Class II – Basic Services' consistent with a real dental benefit.
 
 ## "Dental surgery is only payable for" -> fragment_or_criterion (confidence=high)
-- The name 'Dental surgery is only payable for' is a sentence fragment introducing a conditional list of when dental surgery is payable. It describes a coverage condition rather than naming a specific service, so it is a fragment/criterion.
+- The name 'Dental surgery is only payable for' is a sentence fragment describing a condition/limitation on when dental surgery is covered, not a specific nameable service. The trailing 'is only payable for' indicates it was extracted mid-sentence as an eligibility qualifier.
 
 ## "Depo-Provera and Intrauterine Devices (IUD)" -> benefit (confidence=high)
 - The name refers to specific, nameable contraceptive items/services (Depo-Provera injections and intrauterine devices), which members could clearly point to and ask if covered. Appearing under Preventive Care Services confirms it is a real benefit.
@@ -540,58 +548,58 @@
 - The name describes a timing condition/exclusion scenario ('ordered or purchased prior to the certificate's effective date') rather than naming a specific covered device or service. It is a qualifier/criterion, not a nameable benefit item.
 
 ## "Diabetes Prevention Program" -> benefit (confidence=high)
-- 'Diabetes Prevention Program' is a specific, nameable service/program that a member could ask about coverage for. The excerpts show it as a distinct program providing select services, equipment, and tools to reduce Type 2 diabetes risk.
+- 'Diabetes Prevention Program' names a specific, identifiable service/program a member could ask about being covered. It fits under a condition management program section and is a concrete named offering, not a generic category or fragment.
 
 ## "Diabetic specialty shoes" -> benefit (confidence=high)
-- 'Diabetic specialty shoes' names a specific, nameable item that a member could ask about being covered. It appears as a distinct bullet under the diabetes management program, clearly denoting a concrete covered item.
+- Diabetic specialty shoes are a specific, nameable item that a member could ask about coverage for, appearing appropriately under a diabetes management program section. It refers to a concrete medical supply/item, not a category or fragment.
 
 ## "Diagnostic Radiology Services" -> benefit (confidence=high)
-- Diagnostic Radiology Services names a specific, identifiable medical service (facility and physician radiology services used to diagnose). A member could point to it and ask if it's covered. It is more specific than a bare category like 'Radiology' and refers to a concrete nameable service.
+- 'Diagnostic Radiology Services' names a specific, recognizable category of covered medical service (imaging/X-ray diagnostics) that a member could point to and ask about. It is a real, nameable service rather than a generic cost-share term or a fragment/criterion.
 
 ## "Diagnostic Tests" -> generic_administrative (confidence=medium)
-- "Diagnostic tests" is a generic category noun describing a type of diagnostic procedure rather than a specific, nameable service. It appears alongside "laboratory examinations" as a broad category. While in a dental context it's somewhat more specific, the name itself is generic. Leaning generic_administrative but with medium confidence given some borderline specificity.
+- 'Diagnostic Tests' is a broad category noun describing a kind of service rather than a specific nameable procedure. Under a dental 'Diagnostic and Preventive Services' class, it functions as a grouping label rather than a discrete benefit a member would point to. Medium confidence given no direct snippet.
 
 ## "Diagnostic X-rays" -> benefit (confidence=high)
 - Diagnostic X-rays is a specific, nameable service a member could ask about coverage for. It refers to a concrete diagnostic imaging procedure, not a generic category or fragment.
 
 ## "Diagnostic agents" -> benefit (confidence=medium)
-- Diagnostic agents are a specific, nameable category of pharmaceutical items (e.g., contrast media, diagnostic reagents) that a member could ask about. Though appearing in exclusion lists, coverage status must not drive classification. It names a real class of items rather than being a generic process word or a fragment/criterion.
+- 'Diagnostic agents' names a specific, identifiable category of items (e.g. contrast media, radiopharmaceuticals used for diagnostic testing) that a member could point to and ask if covered. Under the Prescription Drugs header, this refers to a nameable class of products rather than a generic administrative process word or a fragment/criterion. Leaning toward benefit given the specific, nameable nature.
 
 ## "Diagnostic and preventive services" -> generic_administrative (confidence=medium)
-- This is a class/category grouping ('Class I – Diagnostic and Preventive Services') rather than a specific nameable service. It describes a broad category of dental services rather than a single service a member could point to. The name is a category label heading a group of individual benefits.
+- This is a dental plan class category ('Class I') that groups together multiple specific services rather than naming a single, specific covered service. 'Diagnostic and preventive services' describes a broad category/class of provisions rather than a nameable individual service like 'oral exam' or 'cleaning'. It functions as a section header for a bundle of benefits.
 
-## "Diagnostic studies done for the sole purpose of infertility assessment" -> benefit (confidence=medium)
-- This names a specific, identifiable service -- diagnostic studies for infertility assessment. Although it includes a qualifier ('for the sole purpose of infertility assessment'), the core is a nameable service (diagnostic studies) that a member could ask about. It appears in a bulleted list alongside other real services in the Infertility Treatment section. Coverage/exclusion status doesn't affect this being a real service.
+## "Diagnostic studies done for the sole purpose of infertility assessment" -> fragment_or_criterion (confidence=medium)
+- The name describes diagnostic studies qualified by a purpose/scenario ('done for the sole purpose of infertility assessment') rather than naming a specific, discrete service or item. The phrasing reads as a condition/qualifier defining a scenario of coverage or exclusion, not a pointable service like a specific test. This leans toward fragment/criterion rather than a nameable benefit.
 
 ## "Diagnostic tests and laboratory examinations" -> benefit (confidence=medium)
-- Names a specific, nameable dental service (diagnostic tests and laboratory examinations) that a member could ask about, listed alongside other concrete services like dental sealants and space maintainers. Though somewhat category-like, it refers to identifiable diagnostic services rather than a pure administrative process word.
+- The name refers to specific, nameable dental services (diagnostic tests and lab examinations) that a member could ask about. It appears under a Basic Services benefit class. While somewhat broad, it names concrete services rather than a pure administrative category or a fragment/criterion.
 
 ## "Diaphragms (when performed in the physician’s office)" -> benefit (confidence=high)
 - The core name 'Diaphragms' refers to a specific, nameable contraceptive device/service, appearing under Preventive Care Services. The parenthetical qualifier is just a setting condition; the underlying item is a real benefit.
 
 ## "Dietary supplements" -> benefit (confidence=high)
-- Dietary supplements is a specific, nameable item that a member could point to and ask about coverage. It appears in exclusion lists, but exclusion status does not affect classification. It names a real, specific category of items.
+- Dietary supplements is a specific, nameable item a member could ask about coverage for. Even though often excluded, it names a concrete product category, not an administrative process or fragment.
 
-## "Diversional therapy" -> benefit (confidence=high)
-- Diversional therapy is a specific, nameable therapeutic service (recreational/activity-based therapy). Although it appears in an exclusion list here, it names a real service, so it qualifies as a benefit regardless of coverage status.
+## "Diversional therapy" -> benefit (confidence=medium)
+- Diversional therapy is a specific, nameable therapeutic service (activity-based therapy). A member could ask whether it is covered. It names a real service rather than a category or fragment, so it classifies as a benefit even though it commonly appears in exclusion lists.
 
-## "Domiciliary foster care" -> benefit (confidence=high)
-- Domiciliary foster care names a specific, identifiable type of care service that a member could ask about. Although it appears in exclusion lists (alongside custodial care), that does not affect classification. It is a nameable service, not a generic category or fragment.
+## "Domiciliary foster care" -> benefit (confidence=medium)
+- Domiciliary foster care names a specific, identifiable type of residential care service that a member could ask about. Under the Behavioral Health Services header, it refers to a nameable service/item rather than a generic category or a fragment/criterion. Even if often excluded, it remains a real named service.
 
 ## "Donor lymphocyte infusion" -> benefit (confidence=high)
-- Donor lymphocyte infusion is a specific, nameable medical procedure used in transplant/oncology treatment. A member could ask whether it is covered. It appears alongside other specific transplant services in bulleted lists.
+- Donor lymphocyte infusion is a specific, nameable medical procedure used after stem cell/bone marrow transplant. It appears under Transplant Services and is a concrete service a member could ask about, not a generic category or fragment.
 
 ## "Double-blind food challenge test and bronchial challenge test" -> benefit (confidence=high)
 - The name refers to specific, nameable diagnostic tests (double-blind food challenge and bronchial challenge tests) under allergy testing. A member could ask whether these are covered. This is a real, specific benefit.
 
 ## "Drugs" -> generic_administrative (confidence=high)
-- 'Drugs' is a generic category noun appearing in a list alongside 'Equipment', 'Supplies', 'Solutions', and 'Other medically necessary services' — all generic category items describing kinds of provisions related to dialysis, not a specific nameable service or item a member could ask about.
+- The name 'Drugs' is a broad category noun rather than a specific, nameable service or item. It describes a kind of provision, not a particular covered drug or service a member could point to.
 
-## "Drugs Received in Other Locations" -> generic_administrative (confidence=medium)
-- This is a category/location-based grouping heading ('Drugs Received in Other Locations') that organizes where drugs may be dispensed, rather than naming a specific covered drug or service. It functions as a sub-heading describing a category of provision, similar to generic administrative nouns like 'Drugs' or 'Other Services'.
+## "Drugs Received in Other Locations" -> fragment_or_criterion (confidence=medium)
+- The name 'Drugs Received in Other Locations' does not name a specific drug or service; it describes a scenario/location qualifier for where drugs are obtained. It functions as a category-of-circumstance descriptor rather than a nameable covered service, aligning with fragment/criterion patterns like 'Drugs obtained from an out-of-network mail order provider.'
 
-## "Drugs Received in a Hospital" -> benefit (confidence=high)
-- 'Drugs Received in a Hospital' names a specific, identifiable covered item -- prescription drugs, biologicals and solutions administered in a hospital setting. It is a concrete service category a member could point to and ask if covered, not a generic process word like bare 'Drugs' nor a fragment/criterion.
+## "Drugs Received in a Hospital" -> benefit (confidence=medium)
+- The name refers to a specific, nameable category of item -- prescription drugs administered/received in a hospital setting, which is a distinguishable benefit type a member could ask about. While 'Drugs' alone would be generic, the qualifier 'Received in a Hospital' specifies a concrete service context. Leaning toward benefit given uncertainty and lack of direct snippets.
 
 ## "Drugs obtained from an out-of-network mail order provider." -> fragment_or_criterion (confidence=high)
 - The name describes a scenario/condition -- drugs obtained through a particular channel (out-of-network mail order provider) -- rather than naming a specific covered service or item. It functions as an exclusion criterion, not a nameable benefit.
@@ -609,13 +617,13 @@
 - The name refers to specific, nameable items -- drugs, biologicals, and solutions administered as part of care, including take-home drugs. This is a concrete covered item a member could ask about, not a generic category word or a fragment/criterion. While 'Drugs' alone would be generic, this fully specified phrase names particular items with qualifying detail, so it leans benefit.
 
 ## "EKGs" -> benefit (confidence=high)
-- EKGs (electrocardiograms) are a specific, nameable diagnostic service a member could ask about being covered. It appears in a service list under Surgery, naming a concrete item/service.
+- An EKG (electrocardiogram) is a specific, nameable diagnostic service a member could ask about coverage for. It is not a generic category word or a fragment/criterion.
 
-## "Eight visits for children from birth through 12 months" -> fragment_or_criterion (confidence=high)
-- This is a quantity/frequency limitation sub-bullet under the actual benefit 'Well-Baby and Well-Child Visits'. It describes a visit allowance for an age range rather than naming a specific service. It's a criterion/limitation, not a nameable benefit.
+## "Eight visits for children from birth through 12 months" -> fragment_or_criterion (confidence=medium)
+- The name describes a quantity/frequency limit and eligibility scenario ('eight visits for children from birth through 12 months') rather than naming a specific service. It's a coverage criterion/limitation attached to well-child care, not a nameable service itself.
 
 ## "Electricity or water used to operate the dialyzer" -> fragment_or_criterion (confidence=medium)
-- 'Electricity or water used to operate the dialyzer' describes utility costs/ancillary items associated with dialysis rather than naming a specific covered medical service. It reads as an exclusion-type line item describing incidental costs, not a nameable benefit a member would point to and ask 'is this covered.' It's more of a qualifier/scenario item than a distinct service.
+- This describes utility costs (electricity or water) used to operate dialysis equipment rather than naming a specific, discrete covered service. It reads as an itemized cost component/scenario under dialysis rather than a nameable benefit a member would ask about. It does not name a service like 'dialysis' itself but a peripheral incidental cost, functioning more like a qualifier/detail item.
 
 ## "Electrocardiogram (EKG)" -> benefit (confidence=high)
 - An electrocardiogram (EKG) is a specific, nameable diagnostic service that a member could ask about coverage for. It appears under 'Diagnostic Services', consistent with a real benefit.
@@ -632,185 +640,189 @@
 ## "Electromyogram (EMG)" -> benefit (confidence=high)
 - An electromyogram (EMG) is a specific, nameable diagnostic test that a member could ask about coverage for. It appears under Diagnostic Services, consistent with a real benefit.
 
-## "Embryo transfer to member within one year from cryopreservation" -> benefit (confidence=high)
-- 'Embryo transfer' is a specific, nameable medical procedure a member could ask about. The temporal qualifier ('within one year from cryopreservation') is a coverage condition, but the core names a real service. It appears in a covered-services list under Fertility Preservation alongside other specific procedures like 'Culture of eggs' and 'Ovarian transposition'.
+## "Embryo transfer to member within one year from cryopreservation" -> fragment_or_criterion (confidence=medium)
+- The name reads as a conditional scenario/qualifier ('...within one year from cryopreservation') rather than a clean, specific service name. While 'embryo transfer' is a real procedure, this phrasing describes a timing condition/eligibility rule attached to it, suggesting it was extracted from a criterion clause. Leaning fragment_or_criterion but with only medium confidence given the embedded real procedure name.
 
 ## "Emergency Dental Care" -> benefit (confidence=high)
-- 'Emergency Dental Care' is a specific, nameable service a member could ask about coverage for. The excerpts describe where the service is provided and that it is paid for, confirming it is a real benefit.
+- 'Emergency Dental Care' names a specific, identifiable dental service that a member could ask about being covered. It appears under the Dental Services header and refers to a concrete service, not a generic category or a fragment/criterion.
 
 ## "Emergency palliative treatment" -> benefit (confidence=high)
-- Emergency palliative treatment is a specific, nameable dental service providing temporary pain relief, listed as a covered service in dental benefit classes. A member could point to it and ask if it's covered.
+- Emergency palliative treatment is a specific, nameable dental service (treatment to relieve pain/discomfort on an emergency basis), commonly listed as a covered dental benefit. It refers to a concrete service a member could ask about, not a category word or fragment.
 
 ## "Endodontic Services" -> benefit (confidence=high)
-- Endodontic services is a specific, nameable dental service category (root canals, treating diseased/damaged nerves) that a member could ask about coverage for. It refers to a concrete type of dental treatment, not a generic administrative process.
+- Endodontic services (root canal treatments) are a specific, nameable category of dental services under Class II Basic Services. A member could point to this and ask if it's covered.
 
-## "Enhanced Diabetes Management Program" -> benefit (confidence=high)
-- 'Enhanced Diabetes Management Program' is a specific, nameable program/service providing select services, equipment, and tools to manage Type 2 diabetes. A member could point to it and ask if it's covered. It is not a generic category word nor a fragment/criterion.
+## "Enhanced Diabetes Management Program" -> benefit (confidence=medium)
+- The name refers to a specific, nameable program/service (an enhanced diabetes management program) that a member could ask about. Though it appears under a condition management program header, it names a concrete disease management offering rather than a generic category or a fragment. No excerpts available, so medium confidence.
 
 ## "Environmental studies, evaluation, or control" -> benefit (confidence=medium)
 - Under an 'Allergy Testing and Therapy' header, 'Environmental studies, evaluation, or control' names a specific type of allergy-related service (assessment/control of environmental allergens). It refers to a nameable service a member could ask about, so it qualifies as a benefit rather than a generic category or fragment, though the somewhat category-like phrasing lowers confidence.
 
-## "Equipment" -> generic_administrative (confidence=high)
-- 'Equipment' is a generic category noun, not a specific nameable service. In the excerpts it appears as part of 'services, supplies and equipment to treat' dialysis conditions, describing a kind of provision rather than a specific covered item a member could point to.
+## "Equipment" -> generic_administrative (confidence=medium)
+- The name 'Equipment' is a generic category noun rather than a specific, nameable service or item. Under the Dialysis Services header it describes a category of provision (equipment) rather than a particular covered item. No specific excerpts contradict this, so this reads as a generic administrative/category term.
 
 ## "Evaluations or tests, including the Autism Diagnostic Observation Schedule" -> benefit (confidence=medium)
 - The name refers to specific, nameable diagnostic services for autism spectrum disorders, including the Autism Diagnostic Observation Schedule (a real, named assessment tool). A member could ask whether these evaluations/tests are covered. While it starts somewhat generically ('Evaluations or tests'), the inclusion of a specific named diagnostic instrument makes it a concrete service rather than a pure category word or fragment.
 
 ## "Excision of hyperplastic tissue per arch" -> benefit (confidence=high)
-- This names a specific, nameable dental surgical procedure (excision of hyperplastic tissue per arch), listed alongside other specific procedures like removal of exostoses and frenulectomies. A member could point to it and ask if it's covered.
+- This names a specific, identifiable dental surgical procedure (excision of hyperplastic tissue, billed per arch) under a Major Services class. A member could point to it and ask if it's covered.
 
-## "Experimental equipment" -> benefit (confidence=medium)
-- 'Experimental equipment' names a specific, identifiable category of equipment that a member could point to and ask about coverage. It appears in an exclusion list, but exclusion status must not drive classification. While somewhat generic, it refers to a nameable item type rather than a pure process/cost-share word, so it leans toward benefit.
+## "Experimental equipment" -> fragment_or_criterion (confidence=low)
+- The name 'Experimental equipment' describes a qualifier/category of equipment defined by its experimental status rather than naming a specific piece of durable medical equipment. It reads like an exclusion category (equipment deemed experimental) rather than a specific nameable item. However, without direct snippets and given some ambiguity, confidence is low; it could arguably be treated as a category of equipment, but it does not point to a specific service or item a member could ask about by name.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
-## "Experimental prosthetic devices" -> benefit (confidence=high)
-- 'Experimental prosthetic devices' names a specific, nameable item (prosthetic devices that are experimental). A member could point to it and ask if it's covered. It appears in an exclusion list, but exclusion status must not drive classification. This is a real, specific item, not a generic category word or a bare fragment/criterion.
+## "Experimental prosthetic devices" -> benefit (confidence=medium)
+- The name refers to a specific, nameable class of items -- prosthetic devices that are experimental in nature. Under the 'Prosthetic and Orthotic Devices' header, this is a real item a member could ask about (likely appearing in an exclusion list, but coverage status doesn't affect classification). 'Experimental' functions as a qualifier of a real device type, not as a standalone criterion, so it names a specific item rather than being a pure fragment.
 
 ## "Experimental treatment not included in this certificate" -> fragment_or_criterion (confidence=high)
-- The name 'Experimental treatment not included in this certificate' does not name a specific service; it describes a qualifier/exclusion scenario. The phrase 'not included in this certificate' is a condition rather than a nameable service item.
+- The name 'Experimental treatment not included in this certificate' does not name a specific service; it describes a limitation/exclusion scenario ('not included in this certificate'). It reads as a qualifier/exclusion clause rather than a specific nameable service.
 
 ## "External exams of the eye" -> benefit (confidence=medium)
-- 'External exams of the eye' names a specific, nameable diagnostic service/procedure component of an eye exam. A member could point to it as a defined service. While it appears as a component within a required exam list, it refers to an actual clinical examination rather than an administrative category or a condition/qualifier.
+- The name 'External exams of the eye' refers to a specific, nameable diagnostic service under a vision 'Eye Exam' section. A member could point to it and ask if it's covered. Absent snippets lowers confidence, but the name clearly denotes a concrete service rather than a category word or fragment.
 
 ## "FDA approved" -> fragment_or_criterion (confidence=high)
-- 'FDA approved' is a qualifying condition that injectable/infused drugs must meet, not a specific nameable service. The excerpts show it as a bullet in a list of criteria (must be FDA approved, ordered by a physician, etc.), making it an eligibility criterion rather than a benefit.
+- 'FDA approved' is a qualifier/eligibility condition describing a criterion a drug must meet, not a specific nameable service or item. It names no service itself, so it is a fragment/criterion.
 
 ## "Family counseling" -> benefit (confidence=high)
-- 'Family counseling' is a specific, nameable behavioral health service that a member could ask whether it's covered. It appears alongside other specific services like individual psychotherapy and psychological testing.
+- Family counseling is a specific, nameable service under behavioral health that a member could ask about. It is a real service regardless of coverage status.
 
 ## "Fecal Occult Blood Screening" -> benefit (confidence=high)
-- Fecal Occult Blood Screening is a specific, nameable diagnostic test that a member could point to and ask if it's covered. It appears under Preventive Care Services with clear service definition (one per member per calendar year to detect blood in feces/stool).
+- Fecal Occult Blood Screening is a specific, nameable preventive medical test that a member could ask about coverage for. It appears under Preventive Care Services and names a concrete diagnostic screening, not a category or fragment.
 
 ## "Five days of occasional respite care during a 30-day period" -> fragment_or_criterion (confidence=medium)
 - The name 'Five days of occasional respite care during a 30-day period' describes a quantity/limitation on respite care rather than naming a service. The underlying service is 'respite care,' but this candidate is phrased as a coverage limit/scenario ('five days...during a 30-day period'), which reads as a criterion or limitation description rather than a clean benefit name. Leaning toward fragment_or_criterion but with only medium confidence since it does reference a real service.
 
-## "Fluorescein evaluation" -> benefit (confidence=high)
-- Fluorescein evaluation is a specific, nameable diagnostic vision service (a corneal/tear film test using fluorescein dye), appearing alongside other specific evaluations like cornea evaluation and lid evaluation. A member could point to it and ask if it's covered.
+## "Fluorescein evaluation" -> benefit (confidence=medium)
+- Fluorescein evaluation is a specific, nameable diagnostic procedure (using fluorescein dye, commonly in contact lens fitting/eye exams). It appears under vision-related headers and names a concrete service a member could ask about, so it qualifies as a benefit despite lacking direct snippets.
 
 ## "Fluoride treatments" -> benefit (confidence=high)
-- Fluoride treatments is a specific, nameable dental service listed under diagnostic and preventive services. A member could clearly ask 'is this covered?'
+- Fluoride treatments is a specific, nameable dental service appearing under diagnostic and preventive services. A member could clearly ask whether it's covered.
 
 ## "For bone marrow transplants" -> fragment_or_criterion (confidence=medium)
-- The name 'For bone marrow transplants' is a prepositional phrase fragment, part of a subheading 'Additional services for bone marrow transplants'. While bone marrow transplant is a real service, the extracted text itself is a fragment/qualifier ('for...') rather than a clean service name. It reads as a scoping phrase introducing additional services rather than naming the benefit.
+- The name 'For bone marrow transplants' begins with 'For' and reads as a prepositional/conditional fragment rather than a clean benefit name. While bone marrow transplant is a real service, this specific extracted text appears to be a sentence fragment ('For bone marrow transplants...' describing a scenario or condition) rather than the benefit name itself, which would simply be 'Bone marrow transplant.'
 
 ## "For oncology clinical trials" -> fragment_or_criterion (confidence=medium)
 - The name 'For oncology clinical trials' is a prepositional fragment ('For...'), not a nameable service. While 'oncology clinical trials' itself could be a benefit, the extracted candidate is phrased as a qualifier/scenario clause rather than a specific service name. It reads as introducing conditions applicable to oncology clinical trials rather than naming a service a member could point to.
 
 ## "Frenulectomies" -> benefit (confidence=high)
-- A frenulectomy is a specific, nameable surgical dental procedure (removal of a frenulum). It appears in a list of specific surgical services under Class III Major Services, making it a real benefit.
+- A frenulectomy is a specific, nameable dental/surgical procedure (removal of a frenulum). Under a Class III Major Services dental heading, this is a real covered service a member could point to.
 
 ## "Full-mouth and panoramic radiographs (X ‐ rays)" -> benefit (confidence=high)
 - This names a specific, identifiable dental service -- full-mouth and panoramic X-rays -- appearing under a Basic Services class. A member could clearly ask 'is this covered?' It is a concrete nameable diagnostic item, not a generic category or fragment.
 
 ## "Gender affirming surgery and related services" -> benefit (confidence=high)
-- 'Gender affirming surgery and related services' names a specific, identifiable medical service that a member could ask about. It appears as a distinct bulleted covered service under Gender Affirming Services, not as a category process word or a conditional fragment.
+- The name refers to a specific, nameable medical service (gender affirming surgery and related services), appearing under a matching section header. A member could clearly ask whether this is covered. This is a real benefit, not a category word or fragment.
 
 ## "General Anesthesia" -> benefit (confidence=high)
-- General anesthesia (or IV sedation) in connection with oral surgery is a specific, nameable service a member could ask about. It is a concrete covered item, not a generic category or a fragment.
+- General Anesthesia is a specific, nameable service that a member could ask whether it's covered, appearing appropriately under Class II Basic Services in dental plans. It refers to a concrete medical/dental service, not a category noun or fragment.
 
-## "General housekeeping services" -> benefit (confidence=medium)
-- 'General housekeeping services' names a specific, identifiable type of service that a member could ask about, appearing alongside other nameable services like transportation and private duty nursing in an exclusion list. Its exclusion status does not affect classification. It is a nameable service rather than a category/process word or a fragment/criterion.
+## "General housekeeping services" -> fragment_or_criterion (confidence=low)
+- Under Home Health Care Services, 'general housekeeping services' typically appears as a limitation/exclusion of what home health aides may not provide. However, it could be read as a nameable service item. There's no snippet to confirm. It's borderline, but 'general housekeeping services' does describe a nameable type of service. Leaning toward benefit but with real doubt about whether it's a specific covered service versus a category qualifier. Given the guidance to lean toward benefit when uncertain, but the phrasing 'general' suggests a category. Low confidence.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "General nursing services" -> benefit (confidence=medium)
-- 'General nursing services' names a specific, identifiable service provided in a residential treatment facility that a member could point to and ask about. While somewhat broad, it refers to an actual nameable service (nursing care) rather than a pure administrative category or a fragment/criterion. Leaning toward benefit per guidance when uncertain.
+- 'General nursing services' names a specific, identifiable service (nursing care) that a member could ask about coverage for. While somewhat broad, it refers to an actual nameable service rather than a category of cost-share or administrative process. Leaning toward benefit given uncertainty and lack of direct snippets.
 
 ## "Genetic counselling and breast cancer genetic testing (BRCA)" -> benefit (confidence=high)
 - The name refers to specific, nameable services: genetic counselling and BRCA breast cancer genetic testing. A member could clearly ask whether this is covered. It appears under Preventive Care Services, consistent with a real benefit.
 
 ## "Genetic testing" -> benefit (confidence=high)
-- Genetic testing is a specific, nameable medical service that a member could ask about coverage for. It appears in a bulleted list of covered services under Autism Spectrum Disorders alongside other clear benefits like outpatient mental health therapy and nutritional therapy.
+- Genetic testing is a specific, nameable medical service a member could ask whether it's covered. It names a concrete diagnostic procedure rather than a generic category or a fragment/criterion.
 
 ## "Gingival flap procedures" -> benefit (confidence=high)
-- Gingival flap procedures is a specific, nameable dental/periodontal surgical procedure. It appears alongside other specific services like soft tissue grafts and osseous surgeries under Major Services, and a member could clearly ask whether it's covered.
+- Gingival flap procedure is a specific, nameable periodontal dental surgery, listed under Class III Major Services. A member could clearly ask 'is this covered?'
 
 ## "Gingivectomies and gingivoplasties" -> benefit (confidence=high)
-- Gingivectomies and gingivoplasties are specific, nameable dental surgical procedures (removal/reshaping of gum tissue). They appear in a list of specific periodontal services under Class III Major Services, and a member could clearly point to them and ask if covered.
+- Gingivectomy and gingivoplasty are specific, nameable dental surgical procedures (gum tissue removal/reshaping). Under a Class III Major Services dental header, this clearly names a specific covered service.
 
 ## "Glucometers" -> benefit (confidence=high)
-- Glucometers is a specific, nameable medical device (blood glucose meter) listed as a diabetic supply. A member could point to it and ask if it's covered. This is a concrete item, not a generic category or fragment.
+- Glucometers are a specific, nameable medical device (blood glucose meters) that a member could point to and ask if it's covered. This is a concrete item, not a generic category or fragment.
 
 ## "Group psychotherapeutic treatment" -> benefit (confidence=high)
-- Group psychotherapeutic treatment is a specific, nameable behavioral health service that appears in lists alongside other distinct services like individual psychotherapy and psychological testing. A member could clearly ask whether it is covered.
+- Group psychotherapeutic treatment (group therapy) is a specific, nameable behavioral health service a member could ask about. It appears under the Behavioral Health Services header and refers to a concrete service, not a category word or fragment.
 
 ## "HIV counseling and screening" -> benefit (confidence=high)
-- HIV counseling and screening is a specific, nameable preventive service that appears in a preventive care benefits list alongside other specific screenings. A member could clearly ask whether it's covered.
+- HIV counseling and screening is a specific, nameable preventive service under Preventive Care Services that a member could ask about coverage for.
 
 ## "HPV screening" -> benefit (confidence=high)
-- HPV screening is a specific, nameable preventive service that a member could ask whether it's covered. It appears in a list of concrete preventive screenings under Preventive Care Services.
+- HPV screening is a specific, nameable preventive care service that a member could ask about coverage for. It appears under Preventive Care Services, consistent with a real benefit.
 
 ## "Hair prostheses such as wigs, hair pieces, hair implants, etc." -> benefit (confidence=high)
 - The name refers to a specific, nameable item -- hair prostheses (wigs, hair pieces, hair implants). A member could point to it and ask if it's covered. It appears under a Prosthetic and Orthotic Devices header, consistent with a real device benefit, regardless of coverage status.
 
 ## "Health Maintenance Examination" -> benefit (confidence=high)
-- A health maintenance examination is a specific, nameable preventive care service that a member could point to and ask if it's covered. It has defined limits (one exam per member per calendar year) and is a real service, not a generic category or fragment.
+- A health maintenance examination is a specific, nameable preventive care service (an annual/periodic physical exam) that a member could ask about. It appears under Preventive Care Services, consistent with a real benefit.
 
 ## "Hearing aids" -> benefit (confidence=high)
-- Hearing aids is a specific, nameable item a member could ask about coverage for. It appears as a bulleted item under Prosthetic and Orthotic Devices. Real benefit regardless of coverage status.
+- 'Hearing aids' is a specific, nameable item a member could ask about coverage for, appearing under Prosthetic and Orthotic Devices. It clearly names a concrete device, not a generic category or fragment.
 
 ## "Hemisections" -> benefit (confidence=high)
-- Hemisection is a specific, nameable dental surgical procedure (surgical removal/separation of one root of a multi-rooted tooth). It appears as a distinct service item under Major Services, making it a real benefit.
+- Hemisection is a specific dental surgical procedure (surgical division of a multi-rooted tooth, removing a diseased root and its crown portion). It appears under Class III Major Services, a dental benefits category. It names a specific, nameable procedure a member could ask about.
 
 ## "Hi index lenses" -> benefit (confidence=high)
-- High index lenses are a specific, nameable lens option under vision coverage that a member could ask about, regardless of coverage status.
+- High-index lenses are a specific, nameable vision product a member could ask whether coverage applies. Under the 'Lenses' header this refers to a concrete lens type, not a generic category or fragment.
 
 ## "High-dose chemotherapy and/or total body irradiation" -> benefit (confidence=high)
 - The name refers to specific, nameable medical services -- high-dose chemotherapy and total body irradiation -- commonly provided in transplant and oncology contexts. Despite its length, it names concrete procedures a member could ask about, and it appears under relevant clinical section headers.
 
-## "History" -> fragment_or_criterion (confidence=medium)
-- 'History' here is a component of what an eye exam must include, not a standalone nameable benefit a member would ask about. It's a sub-item/element of the exam process rather than a specific covered service. It's a fragment describing a required exam component.
+## "History" -> fragment_or_criterion (confidence=low)
+- Under an 'Eye Exam' section, 'History' likely refers to a component of the exam process (taking patient history) rather than a specific nameable covered service. It is a generic process/component word, not a distinct benefit a member would ask about. However, no excerpts are available to confirm, so confidence is low.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Home hemodialysis" -> benefit (confidence=high)
-- Home hemodialysis is a specific, nameable medical service (dialysis performed at home) that a member could point to and ask if it's covered. It appears under 'Dialysis Services' as a covered item with specific sub-details, confirming it is a real benefit.
+- Home hemodialysis is a specific, nameable medical service under the Dialysis Services section. A member could clearly ask whether this treatment is covered.
 
 ## "Hospital (inpatient or outpatient)" -> generic_administrative (confidence=medium)
 - The name 'Hospital (inpatient or outpatient)' describes a place/setting of care and a category of service delivery rather than a specific nameable covered service. Under a 'Surgery' header it appears to indicate where surgery is performed rather than naming a particular procedure or benefit. This reads as a category/setting noun, not a specific service a member would point to and ask if covered.
 
 ## "Hospitalization" -> generic_administrative (confidence=high)
-- "Hospitalization" is a generic category/process noun describing the kind of care setting rather than a specific nameable service. It appears as a sub-item under transplant services listing components of care, but the word itself is a broad administrative category, not a specific benefit like 'high-dose chemotherapy' or 'bone marrow infusion' listed alongside it.
+- 'Hospitalization' is a generic category/process noun describing a kind of provision rather than a specific nameable service. It appears under service categories like Oncology Clinical Trials and Transplant Services as a cost/care category, not as a distinct covered item a member would ask about specifically.
 
 ## "Hospitals and Other Facilities" -> generic_administrative (confidence=high)
-- This is a category heading grouping provider types (hospitals and other facilities) rather than a specific nameable covered service. It describes the kind of provider/facility, not a particular benefit a member could point to and ask about.
+- The name 'Hospitals and Other Facilities' is a category grouping of provider types rather than a specific, nameable service or item. It describes the kind of place where care is delivered, not a distinct covered benefit a member could point to.
 
-## "House and hospital calls" -> benefit (confidence=high)
-- This names a specific, nameable dental service -- calls/visits made by a dentist at a house or hospital. It appears in a list of specific Class II basic services alongside consultations, antibiotic injections, etc. A member could point to it and ask if it's covered.
+## "House and hospital calls" -> benefit (confidence=medium)
+- Under a dental plan's Class II Basic Services, 'House and hospital calls' refers to a specific, nameable dental service (dentist visits made at a patient's home or in a hospital setting). It names a concrete service a member could ask about, so it qualifies as a benefit rather than a generic category or fragment.
 
-## "Housekeeping items and services" -> generic_administrative (confidence=medium)
-- 'Housekeeping items and services' is a generic category noun describing a kind of ancillary support (cleaning/facility maintenance) rather than a specific, nameable covered medical service. It appears in a list of ancillary items associated with surgery facility services, functioning as a broad category label rather than a distinct benefit a member would point to and ask 'is this covered?'
+## "Housekeeping items and services" -> fragment_or_criterion (confidence=low)
+- The name 'Housekeeping items and services' is vague and describes a general category of non-medical personal/household support rather than a specific, nameable medical service. It reads more like a catch-all exclusion phrase. However, without excerpts and given the instruction to lean toward benefit when uncertain, I keep confidence low; it could arguably be a nameable category of excluded services, but it doesn't point to a single specific service.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Hyperbaric oxygenation (therapy given in a pressure chamber)" -> benefit (confidence=high)
 - Hyperbaric oxygenation is a specific, nameable medical therapy delivered in a pressure chamber. It's a concrete service a member could ask about, listed under Hospital Services. Clearly a benefit.
 
 ## "IV Sedation" -> benefit (confidence=high)
-- IV sedation is a specific, nameable service provided in connection with oral surgery. A member could point to it and ask if it's covered. It's not a generic category or a fragment/criterion.
+- IV Sedation names a specific, nameable dental/medical service (intravenous sedation) that a member could ask about coverage for. It appears under Class II Basic Services, consistent with a real dental benefit.
 
 ## "Immunizations" -> benefit (confidence=high)
-- Immunizations/vaccines are a specific, nameable covered service that a member could point to and ask if covered. Excerpts describe paying for specific vaccines against infection, confirming it names a real service.
+- Immunizations is a specific, nameable service that a member could ask about coverage for, appearing under Preventive Care Services. It names a concrete medical service, not a generic category or fragment.
 
 ## "In a participating skilled nursing facility (see Page 118)" -> fragment_or_criterion (confidence=high)
 - The name is a prepositional phrase describing a location/scenario ('In a participating skilled nursing facility') with a cross-reference to another page. It does not name a specific service or item; it describes where a benefit applies rather than being a benefit itself.
 
 ## "In vitro fertilization" -> benefit (confidence=high)
-- In vitro fertilization is a specific, nameable medical procedure that a member could ask about coverage for. It appears in a bulleted list of distinct infertility services, confirming it's a concrete service rather than a category or fragment.
+- In vitro fertilization is a specific, nameable medical procedure that a member could ask about coverage for. It fits under the Infertility Treatment section as a concrete service, not a generic category or fragment.
 
 ## "Individual and group therapy or counseling" -> benefit (confidence=high)
-- This names a specific, identifiable behavioral health service (individual and group therapy or counseling) that a member could point to and ask if it's covered. It appears alongside other specific services like psychological testing and family therapy under Behavioral Health Services.
+- The name refers to a specific, nameable behavioral health service -- individual and group therapy/counseling -- that a member could ask whether it is covered. It appears under Behavioral Health Services, consistent with a real service.
 
 ## "Individual psychotherapeutic treatment" -> benefit (confidence=high)
-- Individual psychotherapeutic treatment names a specific, nameable mental health service that a member could ask about coverage for. It appears alongside other specific services like family counseling and psychological testing, confirming it's a distinct benefit rather than a category or fragment.
+- 'Individual psychotherapeutic treatment' names a specific, nameable behavioral health service that a member could ask about coverage for. It appears under Behavioral Health Services and refers to a concrete type of therapy, not a category word or a criterion/fragment.
 
 ## "Infertility testing and treatment" -> benefit (confidence=high)
-- 'Infertility testing and treatment' names a specific, nameable medical service a member could ask about coverage for. It appears alongside other clear benefits like bariatric surgery and prosthetics/orthotics. Though somewhat broad, it refers to a concrete category of covered medical services, not an administrative process word or a fragment/criterion.
+- 'Infertility testing and treatment' names a specific, identifiable medical service that a member could ask about coverage for. It is not a generic category word nor a fragment/criterion.
 
 ## "Infusion of bone marrow and/or peripheral blood stem cells" -> benefit (confidence=high)
 - This names a specific, identifiable medical procedure -- the infusion of bone marrow and/or peripheral blood stem cells, a concrete transplant-related service under Transplant Services. A member could clearly ask whether this specific procedure is covered.
 
 ## "Infusion of colony stimulating growth factors" -> benefit (confidence=high)
-- This names a specific, nameable medical service -- the infusion of colony stimulating growth factors, a concrete procedure used in transplant contexts. A member could point to it and ask if it's covered. It is not a generic category word or a fragment/criterion.
+- The name refers to a specific, nameable medical service -- the administration of colony stimulating growth factors, which are real drugs used in oncology and transplant contexts. It appears under specific clinical section headers and describes a concrete procedure a member could ask about coverage for.
 
 ## "Infusion pumps" -> benefit (confidence=high)
-- Infusion pumps is a specific, nameable medical device/item a member could ask about coverage for, used for administration of chemotherapy. It is a concrete item, not a category word or fragment.
+- Infusion pumps is a specific, nameable durable medical equipment item that a member could point to and ask if it's covered. Despite appearing under an oddly matched header, the name itself refers to a concrete device, making it a real benefit.
 
 ## "Inhalation therapy" -> benefit (confidence=high)
-- Inhalation therapy is a specific, nameable medical service that a member could ask about coverage for. It appears in a list alongside other specific services like ECT and pulmonary function evaluation.
+- Inhalation therapy is a specific, nameable medical service (respiratory treatment) that a member could ask about coverage for. It appears under Hospital Services and names a concrete therapy rather than a generic category or fragment.
 
 ## "Injectable/Infused Drugs" -> benefit (confidence=medium)
 - The name refers to a specific, nameable category of pharmaceuticals administered by injection or infusion. While somewhat broad, injectable/infused drugs are a recognizable class of covered items a member could ask about, more specific than a bare 'Drugs' generic term.
@@ -819,34 +831,34 @@
 - The name refers to a specific, nameable medical service -- injections of specific pharmacological agents (antiallergen, antihistamine, bronchodilator, antispasmodic) -- under the Allergy Testing and Therapy section. A member could clearly ask 'is this injection covered?' This is a concrete service, not a category word or a fragment.
 
 ## "Inlays" -> benefit (confidence=high)
-- Inlays are a specific, nameable dental restoration that a member could point to and ask if covered. They appear alongside crowns, veneers, and onlays as concrete dental items. This is a real dental service/item, not a generic category or fragment.
+- Inlays are a specific, nameable dental restoration procedure. A member could clearly ask whether inlays are covered. This is a real dental benefit regardless of coverage status.
 
-## "Inpatient Hospital" -> generic_administrative (confidence=high)
-- 'Inpatient Hospital' is a care setting/category noun rather than a specific nameable service. The actual services (e.g. 'Acute detoxification') are listed as sub-bullets under it. It describes the kind of setting, not a specific covered service.
+## "Inpatient Hospital" -> generic_administrative (confidence=medium)
+- 'Inpatient Hospital' names a setting/category of care rather than a specific nameable service. Under the behavioral health header it describes the place/level of care (inpatient hospital services) rather than a discrete covered service a member would point to. Leaning generic_administrative with medium confidence given lack of direct snippet.
 
 ## "Inpatient Hospital Mental Health Services" -> benefit (confidence=high)
-- This names a specific, identifiable service - inpatient hospital mental health services - that a member could point to and ask if it's covered. It includes specific treatments like individual psychotherapy. It is a nameable service, not a generic category word or fragment.
+- The name refers to a specific, nameable service -- inpatient hospital mental health services -- that a member could ask about coverage for. It appears under Behavioral Health Services and describes a concrete category of care rather than a generic cost-share term or fragment.
 
-## "Inpatient Hospital Services" -> generic_administrative (confidence=medium)
-- 'Inpatient Hospital Services' is a broad category heading describing the type/setting of care rather than a specific nameable service. The excerpts show it functioning as a header with sub-bullets listing the actual specific services (medical care by hospital personnel, etc.). It's a category noun for a class of provisions, not something a member points to as a single specific service.
+## "Inpatient Hospital Services" -> benefit (confidence=medium)
+- While somewhat category-like, 'Inpatient Hospital Services' names a specific, recognizable class of covered services that a member could point to and ask about coverage. It refers to services rendered during a hospital admission, which is a nameable service. Unlike pure category words such as 'Hospitalization,' this describes an actual service type. Leaning toward benefit given the instruction to favor benefit when uncertain.
 
 ## "Inpatient admissions that BCBSM has not preapproved" -> fragment_or_criterion (confidence=high)
-- The name describes a condition/scenario (admissions lacking preapproval) rather than naming a specific service. It's an exclusion criterion qualifying inpatient admissions, not a nameable benefit itself.
+- The name describes a scenario/condition -- inpatient admissions lacking preapproval -- rather than naming a specific, coverable service. It's a limitation/exclusion criterion (preapproval requirement), not a nameable benefit.
 
 ## "Insulin" -> benefit (confidence=high)
-- Insulin is a specific, nameable medical item/drug that a member could ask about coverage for. It appears in the diabetes management supply lists (e.g. 'Insulin pumps') and is clearly a concrete covered item, not a generic category or fragment.
+- Insulin is a specific, nameable medication/item, appearing under the Outpatient Diabetes Management Program. A member could clearly ask 'is insulin covered?' It refers to a concrete item, not a category or fragment.
 
 ## "Insulin delivery monitors" -> benefit (confidence=high)
-- 'Insulin delivery monitors' names a specific, nameable device/item, appearing in a bulleted list of diagnostic supplies and devices alongside glucometers and continuous glucose monitors. A member could point to it and ask if it's covered.
+- 'Insulin delivery monitors' names a specific, nameable medical device/item that a member could ask whether it's covered. It is not a generic category word or a fragment/criterion. Appears under Prescription Drugs, consistent with diabetic supplies coverage.
 
 ## "Insulin delivery reservoirs" -> benefit (confidence=high)
-- 'Insulin delivery reservoirs' is a specific, nameable diabetic supply item, listed alongside other concrete items like test strips, lancets, and glucose monitor sensors. A member could point to it and ask if it's covered.
+- 'Insulin delivery reservoirs' names a specific, nameable diabetic supply item that a member could ask about. Under a Prescription Drugs header, this is a concrete covered item, not a generic category or fragment.
 
 ## "Insulin pumps" -> benefit (confidence=high)
-- Insulin pumps is a specific, nameable medical device/item that a member could ask about coverage for, appearing in a list of diabetes management equipment. It is a concrete covered item, not a generic category or fragment.
+- Insulin pumps is a specific, nameable medical device/item covered under diabetes management programs. A member could clearly ask 'are insulin pumps covered?' This is a concrete durable medical equipment item, not a generic category or fragment.
 
 ## "Intermediate vision lenses" -> benefit (confidence=high)
-- 'Intermediate vision lenses' is a specific, nameable eyewear item listed as a covered lens option under the Lenses section. A member could point to it and ask whether it's covered, making it a real benefit.
+- 'Intermediate vision lenses' is a specific, nameable vision product appearing under a 'Lenses' section. A member could point to it and ask if it's covered. It names a concrete item, not a category or fragment.
 
 ## "Intradermal, scratch and puncture tests" -> benefit (confidence=high)
 - The name refers to specific, nameable allergy testing procedures (intradermal, scratch, and puncture tests) under the Allergy Testing and Therapy section. A member could clearly point to these and ask if they're covered.
@@ -854,132 +866,132 @@
 ## "Known reaction to analgesics, anesthetics, etc." -> fragment_or_criterion (confidence=high)
 - The name describes a medical condition/qualifier scenario (a patient having a known reaction to certain drugs), not a specific covered service or item. It reads as an eligibility criterion likely used to justify dental services in a hospital setting, so it is a fragment/criterion rather than a nameable benefit.
 
-## "Laboratory examinations" -> benefit (confidence=high)
-- 'Laboratory examinations' names a specific, identifiable diagnostic service that a member could ask about being covered. It appears in diagnostic/preventive and skilled nursing service lists as a concrete service, not a generic category word or a fragment/criterion.
+## "Laboratory examinations" -> benefit (confidence=medium)
+- 'Laboratory examinations' names a specific, identifiable diagnostic service that a member could ask about being covered. While somewhat broad, it refers to a concrete category of nameable service (lab tests/diagnostics) rather than an administrative process word or a fragment/criterion. Leaning toward benefit per guidance when uncertain.
 
-## "Laboratory services" -> benefit (confidence=high)
-- Laboratory services is a specific, nameable medical service that a member could ask about coverage for. It appears in a covered-services list under Behavioral Health. While somewhat broad, it names a concrete category of clinical service rather than an administrative/cost-share process word.
+## "Laboratory services" -> benefit (confidence=medium)
+- 'Laboratory services' names a specific, nameable category of covered medical services (lab tests/work) that a member could ask about coverage for. While somewhat broad, it refers to an actual identifiable service rather than a pure administrative/process word or a fragment/criterion. Leaning toward benefit per guidance.
 
-## "Laboratory tests related to the dialysis" -> benefit (confidence=high)
-- 'Laboratory tests related to the dialysis' names a specific, identifiable service tied to dialysis treatment. A member could point to it and ask if lab tests during dialysis are covered. It is not a mere category word nor a fragment/criterion.
+## "Laboratory tests related to the dialysis" -> benefit (confidence=medium)
+- The name refers to a specific, nameable service -- laboratory tests performed in connection with dialysis treatment. It appears under a 'Dialysis Services' header and describes a concrete covered item a member could ask about. Though slightly descriptive, it names an actual service rather than a generic category or an eligibility criterion.
 
-## "Lactation education and alternative fertility awareness counseling" -> benefit (confidence=high)
-- The name refers to specific, nameable services: lactation education and fertility awareness counseling, appearing under Maternity Care. A member could point to it and ask if it's covered. It names concrete services rather than a generic category or a fragment/criterion.
+## "Lactation education and alternative fertility awareness counseling" -> benefit (confidence=medium)
+- The name refers to specific, nameable services (lactation education counseling and fertility awareness counseling) that a member could ask about being covered, and it appears under Maternity Care. Although it seems to combine two services, both are concrete services rather than generic categories or fragments. No direct snippet available lowers confidence.
 
 ## "Lamaze, parenting or other similar classes." -> benefit (confidence=medium)
 - The name refers to specific, nameable services (Lamaze classes, parenting classes) that a member could ask about coverage for. Under Maternity Care, these are concrete educational offerings, not a generic category word or a fragment/criterion. The trailing 'or other similar classes' is a slight generalization but the core names specific services, so it qualifies as a benefit.
 
 ## "Lancets" -> benefit (confidence=high)
-- Lancets are a specific, nameable medical item used in diabetes management. A member could point to it and ask if it's covered. It appears in a list of concrete supplies alongside test strips, syringes, and insulin.
+- Lancets are a specific, nameable medical item used in diabetes management (for blood glucose testing). Appearing under Outpatient Diabetes Management Program supports this being a concrete covered supply item, not a category or fragment.
 
 ## "Lens tolerance tests" -> benefit (confidence=high)
-- 'Lens tolerance tests' is a specific, nameable diagnostic service within vision contact lens fitting, appearing alongside other specific tests like tear test, pupil evaluation, and cornea evaluation. A member could point to it and ask if it's covered.
+- Lens tolerance tests are a specific, nameable vision service that a member could ask about coverage for. It appears under vision-related headers and names a concrete diagnostic/fitting test, not a generic category or fragment.
 
 ## "Lenses may be molded or ground, glass or plastic." -> fragment_or_criterion (confidence=high)
 - The name is a full sentence describing a characteristic/qualification of lenses ('may be molded or ground, glass or plastic') rather than naming a specific service or item. The actual benefit would be 'Lenses' (the section header); this extracted text is a descriptive sentence fragment, not a nameable benefit.
 
-## "Lenticular aphakic" -> benefit (confidence=high)
-- 'Lenticular aphakic' is a specific, nameable type of corrective lens appearing in a list of lens types (Myodisc, Aphakic, etc.). It names a concrete item a member could point to and ask if it's covered, independent of coverage status.
+## "Lenticular aphakic" -> benefit (confidence=medium)
+- 'Lenticular aphakic' refers to lenticular aphakic lenses, a specific type of corrective eyewear lens used for aphakia (absence of the eye's natural lens). Under the 'Lenses' vision section, this names a specific, coverable optical item, so it is a benefit despite being short.
 
-## "Lenticular aspheric aphakic" -> benefit (confidence=high)
-- This names a specific type of corrective lens (a lenticular aspheric aphakic lens) - a concrete, nameable optical item a member could ask about. It appears in a list of specific lens types under Lenses. The fact it appears under 'We do not pay for' does not affect classification; it remains a real, specific item.
+## "Lenticular aspheric aphakic" -> benefit (confidence=medium)
+- This names a specific type of eyeglass lens (lenticular aspheric aphakic lens), appearing under the Lenses section of a vision plan. It refers to a specific, nameable item a member could ask about, so it qualifies as a benefit despite the truncated phrasing.
 
 ## "Lenticular aspheric myodisc" -> benefit (confidence=high)
-- 'Lenticular aspheric myodisc' is a specific, nameable type of special lens listed among covered special lenses (Myodisc, Aphakic, etc.). A member could point to it and ask if it's covered. It is a concrete item, not a category word or fragment.
+- This is a specific, nameable type of corrective lens (a lenticular aspheric myodisc lens used for high myopia). It appears under vision plan 'Lenses' headers and is a concrete item a member could ask about coverage for.
 
 ## "Lenticular myodisc" -> benefit (confidence=high)
-- Lenticular myodisc is a specific, nameable type of special lens listed under 'We pay for the following special lenses.' It is a concrete item a member could ask about, not a generic category or fragment.
+- A lenticular myodisc is a specific type of eyeglass lens for high myopia, appearing under the 'Lenses' vision section. It names a concrete, coverable item a member could point to.
 
 ## "Licensed in the state of Michigan" -> fragment_or_criterion (confidence=high)
-- The text 'Licensed in the state of Michigan' describes an eligibility/qualification criterion for the optometrist, not a specific nameable service. The excerpts show it as a condition ('The optometrist is: – Licensed in the state of Michigan'), which is clearly a criterion rather than a benefit.
+- The name 'Licensed in the state of Michigan' does not name a specific service or item. It describes an eligibility/qualification criterion (a provider being licensed in Michigan), which is a condition rather than a nameable benefit.
 
-## "Lid evaluation" -> benefit (confidence=high)
-- Lid evaluation is a specific, nameable component of a contact lens fitting eye exam, appearing alongside other specific exam procedures like ophthalmoscopy and tear test. A member could point to it as a distinct service.
+## "Lid evaluation" -> benefit (confidence=medium)
+- 'Lid evaluation' refers to an eyelid evaluation, a specific nameable clinical service in a vision context. It is not a generic category word or a fragment/criterion. No excerpts provided, but the name itself denotes a concrete service, so medium confidence.
 
 ## "Life-threatening condition" -> fragment_or_criterion (confidence=medium)
 - 'Life-threatening condition' under a Clinical Trials header describes an eligibility criterion/qualifying condition for coverage of routine patient costs, not a specific nameable service or item. It's a scenario/qualifier rather than a benefit.
 
 ## "Limitations and Exclusions" -> generic_administrative (confidence=high)
-- This is a section heading describing a category of provisions (limitations and exclusions) rather than a specific, nameable covered service or item. It names a process/category, not a benefit.
+- 'Limitations and Exclusions' is a section/category heading describing a type of provision, not a specific nameable service. It names no service a member could ask coverage about.
 
 ## "Limited occlusal adjustments" -> benefit (confidence=high)
-- 'Limited occlusal adjustments' names a specific dental procedure (adjusting the bite/occlusion) listed among other concrete basic dental services. It's a nameable service a member could ask about.
+- 'Limited occlusal adjustments' is a specific, nameable dental procedure (adjusting the biting surfaces of teeth), appearing under Class II Basic Services. A member could ask 'is this covered?' about it. It is a real, specific service.
 
-## "Living donor transplants not listed in this certificate" -> fragment_or_criterion (confidence=high)
-- The name 'Living donor transplants not listed in this certificate' contains the qualifier 'not listed in this certificate,' which describes a scenario/exclusion criterion rather than naming a specific transplant service. While 'living donor transplants' alone might be a benefit category, the appended condition makes this a criterion describing which services fall outside coverage, not a nameable specific service a member could point to.
+## "Living donor transplants not listed in this certificate" -> fragment_or_criterion (confidence=medium)
+- The name doesn't refer to a specific, nameable transplant service. Instead it describes a scenario/qualifier ('not listed in this certificate') applied to living donor transplants generically. It functions as an exclusion catch-all rather than naming a particular service a member could point to and ask if it's covered.
 
 ## "Localized delivery of antimicrobial agents" -> benefit (confidence=high)
-- This names a specific, nameable dental periodontal service (localized delivery of antimicrobial agents) that a member could ask whether it's covered. It appears in a bulleted list of specific procedures alongside osseous surgeries and soft tissue grafts.
+- This names a specific, identifiable dental procedure (localized delivery of antimicrobial agents, often for periodontal treatment) that a member could ask whether it is covered. It appears under Class III Major Services, consistent with a real dental benefit.
 
-## "Loss of the device" -> fragment_or_criterion (confidence=high)
-- 'Loss of the device' is not a nameable service or item; it describes a scenario/condition (a reason for device replacement) alongside similar items like 'Damage to the device so that it cannot be restored'. It's a criterion, not a benefit.
+## "Loss of the device" -> fragment_or_criterion (confidence=medium)
+- The name 'Loss of the device' does not name a specific service or item. Under 'Prosthetic and Orthotic Devices', it describes a scenario/condition (loss of a device) that likely triggers a replacement provision, rather than naming a coverable service itself. It reads as a qualifier/criterion, not a nameable benefit.
 
 ## "Magnetic resonance imaging (MRI)" -> benefit (confidence=high)
 - MRI is a specific, nameable diagnostic imaging service under Radiology Services that a member could ask about coverage for.
 
-## "Major restorative services" -> benefit (confidence=high)
-- 'Major restorative services' names a specific, nameable dental service category (repair of decayed or damaged teeth, including onlays and crowns). It refers to concrete covered procedures a member could ask about, not a generic cost-share/process word or a fragment.
+## "Major restorative services" -> benefit (confidence=medium)
+- 'Major restorative services' names a recognizable category of dental procedures (crowns, bridges, inlays/onlays, etc.) that a member could point to and ask about coverage. While somewhat broad, it appears under specific dental service classes and refers to a nameable, identifiable set of restorative dental services rather than a pure administrative/cost-share term or a fragment. Leaning toward benefit given uncertainty.
 
 ## "Marijuana (cannabis); medical or otherwise" -> benefit (confidence=medium)
 - The name refers to a specific, nameable item (marijuana/cannabis, medical or otherwise) that a member could point to and ask about coverage. Under the Prescription Drugs header, it's a concrete item even though it's likely excluded. Exclusion status doesn't affect classification.
 
 ## "Marital counseling" -> benefit (confidence=high)
-- 'Marital counseling' names a specific, nameable service a member could ask about. It appears in exclusion lists here, but coverage status must not drive classification. This is a real service type, not a generic category or fragment.
+- Marital counseling is a specific, nameable service under Behavioral Health Services. It commonly appears in exclusion lists, but the name itself refers to a concrete service a member could ask about, so it qualifies as a benefit.
 
 ## "Meals, including special diets" -> benefit (confidence=medium)
 - 'Meals, including special diets' names a specific, identifiable item/service provided during a hospital stay that a member could ask about. It's not a generic category word nor a fragment/criterion. Under 'Hospital Services' this refers to a concrete provision, so it qualifies as a benefit.
 
 ## "Medical supplies required for the use of an insulin pump" -> benefit (confidence=high)
-- This names a specific, identifiable item -- medical supplies for an insulin pump -- appearing in a list of specific diabetes management items (test strips, lancets, syringes, insulin). A member could point to it and ask if it's covered. It's a real, nameable item, not a generic category or a condition/fragment.
+- The name refers to a specific, nameable item -- medical supplies for insulin pump use -- covered under an Outpatient Diabetes Management Program. A member could point to this and ask if it's covered. It names a concrete category of durable supplies, not a generic process word or a fragment/criterion.
 
 ## "Medical-Surgical Treatment" -> generic_administrative (confidence=low)
 - The name 'Medical-Surgical Treatment' is a broad category term rather than a specific, nameable service. It describes a general kind of care rather than a particular procedure or item a member could point to. However, there are no direct excerpts and the header context (Contact Lenses) is confusing, so confidence is low.
 - **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Medically necessary and appropriate" -> fragment_or_criterion (confidence=high)
-- This appears under 'Coverage Requirements' as a bullet describing a condition that autism services must meet ('must be medically necessary and appropriate'). It names no specific service; it's an eligibility criterion.
+- The name 'Medically necessary and appropriate' is a qualifier/criterion describing a coverage standard, not a specific nameable service. It does not name any particular service or item a member could point to and ask about.
 
 ## "Medically necessary diagnostic services" -> benefit (confidence=medium)
-- 'Medically necessary diagnostic services' names a specific category of service in the infertility treatment context that a member could ask about. While somewhat general, it refers to a nameable service (diagnostic services for infertility) rather than a pure administrative category or a fragment/criterion. Leaning toward benefit given guidance to prefer it when uncertain.
+- The name refers to diagnostic services (in the infertility context), which are specific nameable medical services a member could ask about. While 'medically necessary' is a qualifier, the core 'diagnostic services' names a real service, so it leans toward benefit.
 
 ## "Medically necessary genetic testing" -> benefit (confidence=high)
-- 'Medically necessary genetic testing' names a specific, identifiable service a member could ask about. The 'medically necessary' qualifier is a common modifier on real benefit names, and genetic testing is a concrete nameable service, not a category noun or eligibility fragment.
+- The name refers to a specific, nameable service -- genetic testing -- that a member could ask whether it is covered. The 'medically necessary' qualifier describes a real, covered service item under Maternity Care, not a generic category or fragment.
 
 ## "Medically necessary mammography" -> benefit (confidence=high)
-- 'Medically necessary mammography' names a specific, identifiable diagnostic radiology service. It appears alongside other concrete imaging services (MRI, PET scans, nuclear cardiac studies). The 'medically necessary' qualifier distinguishes it from routine screening but it still refers to a nameable service a member could ask about.
+- The name refers to mammography, a specific, nameable diagnostic imaging service under Radiology Services. 'Medically necessary' is a qualifier but the core is a real service a member could ask about coverage for.
 
 ## "Medications" -> generic_administrative (confidence=medium)
-- "Medications" is a broad category noun rather than a specific nameable service or item. The excerpts show it as 'Medications administered during any service except an eye exam' - a general category of drugs/substances rather than a particular covered service. While it appears in an exclusion context, that isn't driving the classification; the term itself is a generic category word akin to 'Drugs'.
+- 'Medications' is a generic category noun describing a class of items rather than a specific, nameable covered service. It parallels examples like 'Drugs' and 'Equipment' given as generic administrative. No specific medication or service is named, and the odd section header (Contact Lenses) offers no concrete evidence of a specific benefit.
 
 ## "Member education and home programs" -> benefit (confidence=medium)
-- 'Member education and home programs' names a specific, identifiable service offered in the context of therapy programs. It appears consistently as a bulleted item alongside other named services like 'Recreational therapy' and 'Sports medicine.' While somewhat broad, it refers to a nameable service a member could ask about, so it leans toward benefit.
+- The name refers to a specific, nameable service component within therapy services (member education and home exercise/care programs). Under OT/PT/Speech therapy headers, this describes an identifiable service a member could ask about coverage for. It is not a generic category word nor a fragment/criterion.
 
-## "Minor restorative services" -> benefit (confidence=high)
-- 'Minor restorative services' is a specific, nameable category of dental services (repair of decayed or damaged teeth, including amalgam and resin restorations) that a member could point to and ask if covered. It's a recognized dental benefit class, not a generic cost-share/process word or a fragment/criterion.
+## "Minor restorative services" -> benefit (confidence=medium)
+- 'Minor restorative services' refers to a specific, nameable category of dental services (like fillings) that appear under Class II Basic Services in dental plans. A member could ask whether these are covered. While somewhat category-like, it names a specific class of dental restorative work commonly listed as a covered benefit, so leaning toward benefit.
 
 ## "Monitoring of ovarian response to ovulatory stimulants" -> benefit (confidence=high)
-- This names a specific, identifiable medical service related to infertility treatment. It appears alongside other clearly specific services (artificial insemination, in vitro fertilization, ovarian wedge resection). A member could point to it and ask if it's covered, making it a real benefit regardless of coverage status.
+- This names a specific, identifiable medical service under Infertility Treatment -- monitoring of ovarian response to ovulatory stimulants. A member could clearly ask whether this specific service is covered, so it qualifies as a benefit.
 
 ## "Monthly (six-month supply)" -> fragment_or_criterion (confidence=medium)
 - The name 'Monthly (six-month supply)' does not name a specific service or item. It appears under 'Contact Lenses' and describes a supply quantity/frequency qualifier for contact lenses rather than a distinct nameable benefit itself. It is a specification of a dispensing schedule, not a service.
 
-## "Morbid Obesity Weight Management" -> benefit (confidence=high)
-- 'Morbid Obesity Weight Management' names a specific, coverable service with defined visit limits (26 visits per member per year for BMI 30+). A member could ask 'is this covered?' It is not a generic category word nor a fragment/criterion.
+## "Morbid Obesity Weight Management" -> benefit (confidence=medium)
+- The name refers to a specific, nameable service -- weight management treatment for morbid obesity -- which a member could ask whether it's covered. It is not a generic category word nor a fragment/criterion. No direct excerpt available, but the name itself denotes a concrete service.
 
 ## "Multiple extractions or removal of unerupted teeth" -> benefit (confidence=high)
-- This names a specific, nameable dental service -- the extraction/removal of unerupted teeth. A member could ask whether this procedure is covered. It appears in a bulleted list of specific dental procedures alongside 'Alveoloplasty' and 'Diagnostic X-rays', confirming it is a concrete service rather than a category or criterion.
+- This names a specific, nameable dental procedure -- extraction or removal of unerupted teeth -- that a member could ask about coverage for. Under the Dental Services header, this is a real benefit.
 
-## "Myodisc" -> benefit (confidence=high)
-- Myodisc is a specific, nameable type of special lens (used for high myopia). It appears under 'Lenses' as a distinct item in a list of covered special lenses, making it a concrete service/item a member could ask about.
+## "Myodisc" -> benefit (confidence=medium)
+- Myodisc refers to a specific type of eyeglass lens (a high-power lens design for severe myopia), appearing under the 'Lenses' header in vision plans. It is a specific, nameable item a member could ask about, not a generic category or fragment.
 
-## "Nerve conduction" -> benefit (confidence=high)
-- Nerve conduction (study) is a specific, nameable diagnostic test, listed alongside EMG under Diagnostic Services. A member could point to it and ask if it's covered.
+## "Nerve conduction" -> benefit (confidence=medium)
+- 'Nerve conduction' refers to nerve conduction studies, a specific diagnostic test, appearing under Diagnostic Services. It names a concrete, pointable diagnostic service rather than a generic category or fragment.
 
 ## "Newborn examination" -> benefit (confidence=high)
-- 'Newborn examination' names a specific, identifiable medical service (an exam of a newborn given by a physician). A member could ask whether it's covered. It appears as a distinct bulleted benefit under Newborn Care.
+- 'Newborn examination' names a specific, identifiable medical service that a member could ask about being covered, appearing under the 'Newborn Care' section. It is a concrete nameable service, not a generic category or fragment.
 
 ## "No other means of transportation are available" -> fragment_or_criterion (confidence=high)
-- The phrase 'No other means of transportation are available' is an eligibility requirement/condition for air ambulance coverage, not a specific nameable service. The excerpts show it as a bulleted requirement under 'Air ambulance services must also meet these requirements.'
+- The name 'No other means of transportation are available' is not a service; it describes a condition/eligibility criterion for ambulance coverage. It names no specific service or item, so it is a fragment/criterion.
 
 ## "Non-emergent air ambulance services between covered destinations" -> benefit (confidence=high)
 - This names a specific, identifiable service -- non-emergent air ambulance transport between covered destinations. A member could point to it and ask whether it's covered. It appears under 'Ambulance Services' and describes a concrete service type, not a category noun or eligibility fragment.
@@ -993,35 +1005,35 @@
 ## "Non-surgical periodontic services" -> benefit (confidence=high)
 - 'Non-surgical periodontic services' names a specific, identifiable category of dental services (treatment of gum disease without surgery) that a member could point to and ask about coverage. It appears under Class II Basic Services in dental plans, consistent with a real covered benefit.
 
-## "Nonexperimental drugs to control blood sugar" -> benefit (confidence=high)
-- This names a specific, identifiable item/service -- pharmaceutical drugs used to control blood sugar (excluding experimental ones). It appears in a list of concrete covered diabetes supplies (syringes, insulin, insulin pump supplies), and a member could clearly ask 'are my blood sugar control drugs covered?' The 'nonexperimental' qualifier is part of the specific service description, not a standalone eligibility fragment.
+## "Nonexperimental drugs to control blood sugar" -> benefit (confidence=medium)
+- The name refers to a specific, nameable item -- medications used to control blood sugar under a diabetes management program. A member could ask whether these drugs are covered. The 'nonexperimental' qualifier is a descriptor but the core references a real service/item, and it fits under the Outpatient Diabetes Management Program header.
 
 ## "Not listed in this certificate or" -> fragment_or_criterion (confidence=high)
-- The text 'Not listed in this certificate or' is a sentence fragment describing an exclusion condition, not a specific nameable service. It appears as a bullet qualifier in an exclusion list describing which services are not covered.
+- The name 'Not listed in this certificate or' is an incomplete sentence fragment describing a scenario/condition, not a specific nameable service. It clearly names no service or item.
 
 ## "Not required to be covered under PPACA" -> fragment_or_criterion (confidence=high)
-- The phrase 'Not required to be covered under PPACA' is a qualifier/condition describing which services are excluded, not a specific nameable service. It appears as a bullet in an exclusion criterion ('services that are: not listed... or not required to be covered under PPACA'). It names no service itself.
+- The name 'Not required to be covered under PPACA' describes a regulatory condition/qualifier about coverage requirements, not a specific nameable service or item. It is a criterion clause, not a benefit.
 
 ## "Nuclear cardiac studies" -> benefit (confidence=high)
-- Nuclear cardiac studies is a specific, nameable diagnostic imaging service listed alongside other concrete tests like EKG, EEG, PET scans, and mammography. A member could point to it and ask if it's covered.
+- Nuclear cardiac studies is a specific, nameable diagnostic imaging service (e.g. myocardial perfusion imaging), appearing under Diagnostic/Radiology Services. A member could clearly ask whether this is covered.
 
 ## "Nursing services" -> benefit (confidence=medium)
-- 'Nursing services' names a specific, identifiable service that a member could ask about coverage for. While somewhat broad, it refers to a concrete category of care (nursing) rather than a generic administrative/cost-share word or a fragment/criterion. It appears alongside other clear benefit items like 'Semiprivate room' and 'Meals.' Leaning toward benefit per the guidance.
+- 'Nursing services' names a specific, identifiable service under Hospital Services that a member could ask about. While somewhat broad, it refers to a concrete, nameable service rather than a category word or fragment. Leaning toward benefit given the guidance to avoid mislabeling real services.
 
 ## "Nutritional therapy" -> benefit (confidence=high)
-- 'Nutritional therapy' names a specific, nameable service that a member could ask about coverage for. It appears in a bulleted list of distinct covered services under Autism Spectrum Disorders alongside other clear benefits like genetic testing and outpatient mental health therapy.
+- Nutritional therapy is a specific, nameable service that a member could ask about coverage for. It appears under Autism Spectrum Disorders as a treatment modality. It names a concrete service rather than a generic category or a fragment/criterion.
 
-## "Obstetrics" -> benefit (confidence=high)
-- Obstetrics is a specific, nameable medical service area (maternity/childbirth care provided by a physician or certified nurse midwife). Members can point to it and ask if it's covered. It refers to concrete covered services, not a generic administrative category or a fragment.
+## "Obstetrics" -> generic_administrative (confidence=medium)
+- 'Obstetrics' is a medical specialty/category term rather than a specific nameable service. It describes a general field of care under Maternity Care rather than a particular covered service like 'prenatal visits' or 'delivery'. It functions as a category noun similar to 'Hospitalization' or 'Drugs'.
 
 ## "Occlusal biteguards" -> benefit (confidence=high)
-- An occlusal biteguard is a specific, nameable dental appliance/item that a member could ask about coverage for. It appears in a list of basic dental services.
+- Occlusal biteguards are a specific, nameable dental appliance/service that a member could ask about coverage for, appearing under Class II Basic Services. This is a concrete item, not a category or fragment.
 
 ## "Occupational therapy, Page 73" -> benefit (confidence=high)
 - Occupational therapy is a real, specific, nameable service. The 'Page 73' suffix is an index/page reference artifact, but the core name refers to a genuine benefit.
 
-## "Office visits after regularly scheduled hours" -> benefit (confidence=high)
-- This names a specific, nameable dental service -- office visits occurring after regularly scheduled hours. A member could point to it and ask if it's covered. It appears as a distinct line item alongside other specific services like consultations and house/hospital calls.
+## "Office visits after regularly scheduled hours" -> benefit (confidence=medium)
+- The name refers to a specific, nameable dental service -- office visits provided after regularly scheduled hours -- which a member could ask whether it's covered. It appears under 'Class II – Basic Services', a benefits category. It is not a generic category noun nor a condition/exclusion fragment, so it classifies as a benefit.
 
 ## "Office visits for observation (during regularly scheduled hours)" -> benefit (confidence=medium)
 - The name refers to a specific, nameable dental service - office visits for observation during regularly scheduled hours - appearing under a Basic Services class. A member could point to it and ask if it's covered. While it includes a timing qualifier, the core names a real service.
@@ -1029,149 +1041,151 @@
 ## "One exam per member, per calendar year" -> fragment_or_criterion (confidence=high)
 - The name 'One exam per member, per calendar year' describes a frequency limitation/quantity rule, not a specific nameable service. It states how often something is covered rather than naming the service itself, making it a criterion/limitation fragment.
 
-## "One eye exam every 12 months" -> benefit (confidence=high)
-- Although phrased with a frequency limit, this names a specific, nameable service (an eye exam) that a member could ask about. The core service is an eye exam; the '12 months' qualifier describes its frequency but the name clearly refers to a real vision benefit.
+## "One eye exam every 12 months" -> fragment_or_criterion (confidence=medium)
+- The name describes a frequency limitation ('every 12 months') rather than naming a service itself. It appeared under a 'Frequency' header, which supports that it is a coverage limitation/rule. While it references an eye exam, the phrasing is structured as a frequency criterion, not a nameable service benefit. The underlying service 'eye exam' would be the actual benefit.
 
 ## "One eye exam every calendar year" -> fragment_or_criterion (confidence=medium)
-- The name describes a frequency limitation ('one eye exam every calendar year') rather than naming a specific service cleanly. The section header is 'Frequency' and the phrasing centers on the allowed quantity/interval. While it references an eye exam, the extracted name is really a frequency criterion. The underlying service (eye exam) is a benefit, but this particular candidate as extracted is a frequency rule.
+- The name describes a frequency limitation ('one ... every calendar year') rather than naming a specific service. It appeared under a 'Frequency' header, reinforcing that this is a coverage limitation/criterion about how often an eye exam is covered, not a nameable benefit itself. The benefit would be 'eye exam'; this phrasing is a quantity/frequency rule.
 
 ## "One pair of frames every 12 months" -> fragment_or_criterion (confidence=medium)
-- The name 'One pair of frames every 12 months' describes a frequency/quantity limitation under a 'Frequency' header, not a nameable service itself. The actual benefit is 'frames'; this phrasing is a frequency criterion. While frames are a real benefit, this specific extracted text expresses a frequency rule rather than naming the service.
+- The name describes a frequency limitation/allowance ('one pair every 12 months') under a 'Frequency' header rather than naming a service. The actual benefit would be 'frames' or 'eyeglass frames'; this text expresses a quantity/time limit criterion, not a nameable service itself.
 
-## "One pair of frames every calendar year" -> benefit (confidence=medium)
-- The name 'One pair of frames every calendar year' refers to a specific, nameable item (eyeglass frames) with a frequency limit. While it's phrased with frequency language, the core references frames -- a concrete vision benefit item a member could ask about. The 'every calendar year' portion is a frequency qualifier attached to a real item, not a standalone criterion.
+## "One pair of frames every calendar year" -> fragment_or_criterion (confidence=medium)
+- The name describes a frequency/limitation ('One pair of frames every calendar year') rather than naming a specific service. The actual benefit would be 'frames'; this text is a quantity/frequency criterion appearing under the 'Frequency' header. It expresses a limitation rule, not a nameable service.
 
 ## "One pair of lenses every 12 months" -> fragment_or_criterion (confidence=medium)
-- The name 'One pair of lenses every 12 months' embeds a frequency limitation rather than naming a service cleanly. The underlying service ('lenses') is a real benefit, but this candidate is a frequency-clause phrasing extracted under the 'Frequency' header. It reads as a quantity/frequency rule rather than a clean nameable service. Leaning fragment_or_criterion but with medium confidence since 'lenses' is a real item embedded within.
+- The name 'One pair of lenses every 12 months' appears under a 'Frequency' header and describes a frequency limitation/allowance rather than naming a service. While 'lenses' is a real benefit item, this phrasing is a quantity/frequency criterion rather than a nameable benefit itself.
 
-## "One pair of lenses or contact lenses every 12 months" -> benefit (confidence=high)
-- The name refers to a specific, nameable vision item (lenses or contact lenses), even though it includes a frequency qualifier. A member could point to this and ask if it's covered. The frequency limit ('every 12 months') is a benefit specification, not a mere fragment or generic category.
+## "One pair of lenses or contact lenses every 12 months" -> fragment_or_criterion (confidence=medium)
+- The name describes a frequency limitation/eligibility rule ('every 12 months') rather than naming a service itself. Under the 'Frequency' header, this is a coverage limitation describing how often lenses are provided, not a nameable benefit. The core service would be 'lenses or contact lenses'; the phrase as extracted is a frequency criterion.
 
-## "One pair of lenses or contact lenses every calendar year" -> benefit (confidence=medium)
-- The name references a specific, nameable covered item (lenses or contact lenses), though phrased with a frequency limitation. The core service/item is real and identifiable, so it leans benefit despite the frequency qualifier.
+## "One pair of lenses or contact lenses every calendar year" -> fragment_or_criterion (confidence=medium)
+- The name describes a frequency/quantity limitation ('one pair...every calendar year') rather than naming a specific service. It appears under a 'Frequency' header, reinforcing that it's a usage rule. While it references lenses/contact lenses, the phrasing is a coverage limitation clause, not a nameable benefit itself.
 
 ## "One per member, per calendar year" -> fragment_or_criterion (confidence=high)
 - The name 'One per member, per calendar year' describes a frequency limitation or coverage condition, not a specific nameable service. It answers 'how often' rather than 'what service,' making it a criterion/limitation fragment.
 
 ## "Only covered in an inpatient or outpatient hospital location" -> fragment_or_criterion (confidence=high)
-- The text 'Only covered in an inpatient or outpatient hospital location' is a coverage condition/qualifier for ECT, not a specific nameable service. It's a sub-bullet describing where the actual benefit (Electroconvulsive Therapy) is covered.
+- The name 'Only covered in an inpatient or outpatient hospital location' does not name any specific service or item. It describes a location/coverage condition -- a qualifier or eligibility rule -- rather than a nameable benefit.
 
 ## "Operating room services, including delivery and surgical treatment rooms" -> benefit (confidence=high)
 - This names a specific, coverable service -- operating room services including delivery and surgical treatment rooms. A member could point to it and ask if it's covered. It appears under the 'Surgery' header and describes a concrete facility service, not a generic category word or a fragment/criterion.
 
 ## "Ophthalmoscopic examinations" -> benefit (confidence=high)
-- Ophthalmoscopic examinations is a specific, nameable diagnostic procedure (examination of the eye's interior with an ophthalmoscope). It appears alongside other specific eye exam components like tonometry and visual acuity testing. A member could point to it and ask if it's covered.
+- Ophthalmoscopic examinations name a specific, identifiable medical service (examination of the eye's interior using an ophthalmoscope). Under an Eye Exam vision header, this is a concrete, nameable service a member could ask about, not a generic category or fragment.
 
-## "Ophthalmoscopy" -> benefit (confidence=high)
-- Ophthalmoscopy is a specific, nameable clinical procedure (examination of the eye's interior) that a member could point to and ask if it's covered. It appears as a distinct diagnostic evaluation within the contact lens exam list, not a generic category or fragment.
+## "Ophthalmoscopy" -> benefit (confidence=medium)
+- Ophthalmoscopy is a specific, nameable diagnostic eye examination procedure. A member could point to it and ask whether it's covered. It names a real service rather than a generic category or fragment.
 
 ## "Oral brush biopsy sample collection" -> benefit (confidence=high)
-- This names a specific, identifiable dental diagnostic procedure (collecting a sample via oral brush biopsy to identify cancerous/precancerous cells). A member could point to it and ask if it's covered. It is not a generic category word or a fragment/criterion.
+- Oral brush biopsy sample collection is a specific, nameable dental diagnostic procedure that a member could ask about coverage for. It appears under a Class I Diagnostic and Preventive Services header, consistent with a real covered service.
 
 ## "Oral examinations/evaluations" -> benefit (confidence=high)
 - Oral examinations/evaluations is a specific, nameable dental service found under diagnostic/preventive services. A member could clearly ask whether this is covered.
 
 ## "Oral surgery services" -> benefit (confidence=high)
-- Oral surgery services names a specific, nameable category of dental services appearing under Class III Major Services. A member could point to it and ask if it's covered. It's a real dental benefit, not a generic administrative term or fragment.
+- 'Oral surgery services' names a specific, identifiable dental service that a member could ask about coverage for. It appears under a dental major services class, consistent with a real covered benefit category, and refers to a nameable service rather than a generic cost-share or fragment.
 
 ## "Osseous surgeries" -> benefit (confidence=high)
-- Osseous surgeries is a specific, nameable dental periodontal procedure appearing among a list of concrete services like gingivectomies, soft tissue grafts, and bone replacement grafts. A member could ask whether it is covered.
+- Osseous surgery is a specific, nameable dental/periodontal surgical procedure (bone recontouring around teeth), appearing under Class III Major Services. A member could point to it and ask if it's covered.
 
 ## "Osteopathic manipulation therapy (OMT) on any location of the body" -> benefit (confidence=high)
 - This names a specific, nameable medical service -- osteopathic manipulative therapy (OMT) -- appearing under a relevant clinical header. The trailing qualifier 'on any location of the body' describes scope but the core is a real, pointable service a member could ask about.
 
 ## "Ostomy sets and accessories" -> benefit (confidence=high)
-- Ostomy sets and accessories is a specific, nameable medical supply item a member could ask about coverage for. It appears in a bulleted list of concrete medical supplies alongside catheterization equipment and dressings.
+- Ostomy sets and accessories names a specific, nameable medical supply item that a member could point to and ask if it's covered. It appears under 'Medical Supplies' and refers to concrete items, not a generic category or fragment.
 
 ## "Ostomy sets and accessories, catheterization equipment and urinary sets" -> benefit (confidence=high)
 - The name lists specific, nameable medical items -- ostomy sets and accessories, catheterization equipment, and urinary sets -- which are concrete supplies a member could ask about. Under the 'Medical Supplies' header, these are real covered items despite being a compound list.
 
-## "Other Dental Services" -> generic_administrative (confidence=high)
-- "Other Dental Services" is a category/catch-all heading, not a specific nameable service. The actual specific services (e.g. TMJ treatment) are listed as sub-items beneath it. The name itself is a generic grouping label.
+## "Other Dental Services" -> generic_administrative (confidence=medium)
+- The name 'Other Dental Services' is a catch-all category noun rather than a specific, nameable service. 'Other...Services' is a hallmark of a generic administrative grouping used to bundle miscellaneous items, not something a member could point to as a distinct benefit. No specific service is named.
 
 ## "Other Services" -> generic_administrative (confidence=high)
-- "Other Services" is a generic catch-all category label, not a specific nameable service. It appears as a bullet heading under Anesthesiology Services covering miscellaneous items, and does not itself name any particular covered service.
+- The name 'Other Services' is a catch-all category noun, not a specific nameable service. It describes a residual grouping rather than something a member could point to and ask if covered.
 
-## "Other diagnostic and preventive services" -> generic_administrative (confidence=high)
-- The name 'Other diagnostic and preventive services' is a category header that groups sub-items (diagnostic tests, dental sealants, space maintainers) rather than naming a specific service itself. The word 'Other' and the plural 'services' followed by a list of actual specific items confirms it's a category/bucket label, not a nameable benefit.
+## "Other diagnostic and preventive services" -> generic_administrative (confidence=medium)
+- The name 'Other diagnostic and preventive services' is a catch-all category phrase rather than a specific nameable service. The word 'Other' plus the broad category terms indicate this is a bucket/category heading, not a distinct service a member could point to.
 
-## "Other medically necessary services related to dialysis treatment" -> generic_administrative (confidence=medium)
-- The phrase 'Other medically necessary services related to dialysis treatment' is a catch-all category term rather than a specific nameable service. It uses the generic 'Other ... services' construction which describes a kind/category of provision rather than a particular service a member could point to. It appears in a bulleted list alongside generic items like 'Equipment', 'Drugs', 'Supplies'.
+## "Other medically necessary services related to dialysis treatment" -> fragment_or_criterion (confidence=medium)
+- The name 'Other medically necessary services related to dialysis treatment' does not name a specific, pointable service. It is a catch-all qualifier describing a category of unspecified additional services subject to medical-necessity criteria, rather than a nameable service a member could ask about specifically. The word 'Other' plus 'medically necessary...related to' signals this is a residual/criterion phrase rather than a discrete benefit.
 
-## "Outpatient Hospital Services" -> generic_administrative (confidence=medium)
-- 'Outpatient Hospital Services' is a broad category/setting descriptor rather than a specific nameable service. It groups services delivered in an outpatient hospital setting, similar to 'Hospitalization' or 'Outpatient Services', rather than pointing to a single service a member could ask about.
+## "Outpatient Hospital Services" -> benefit (confidence=medium)
+- 'Outpatient Hospital Services' names a specific, recognizable category of covered service that members can point to and ask if it's covered. While somewhat broad, it is a standard, nameable benefit line item in medical plans rather than a pure administrative category word like 'Coinsurance'. No exclusion status should influence this. Leaning toward benefit given the guidance to avoid mislabeling real benefits.
 
-## "Outpatient Psychiatric Care Facility and Office Setting" -> generic_administrative (confidence=medium)
-- This is a setting/category header ('Outpatient Psychiatric Care Facility and Office Setting') that introduces a list of covered services provided in that setting, rather than naming a specific service itself. It describes the place/context of care, not a nameable service a member would ask 'is this covered?' The excerpts show it functioning as a subsection heading followed by 'We pay for the following services in a participating outpatient psychiatric care...'.
+## "Outpatient Psychiatric Care Facility and Office Setting" -> benefit (confidence=medium)
+- The name refers to outpatient psychiatric care in facility and office settings, which is a specific, nameable behavioral health service a member could ask about. Though it includes setting descriptors, it names a real covered service (outpatient psychiatric care). Leaning toward benefit given the specific service reference.
 
 ## "Outpatient Psychiatric Care Facility, Office Setting, Online and Virtual" -> benefit (confidence=medium)
 - The name refers to outpatient psychiatric care delivered across specific settings (facility, office, online/virtual). Under the Behavioral Health Services header, this names a specific, coverable service a member could ask about. The 'settings' portion is descriptive of where the service is provided but the core is a real, nameable service (outpatient psychiatric care).
 
 ## "Outpatient mental health" -> benefit (confidence=medium)
-- 'Outpatient mental health' names a specific, identifiable service (mental health care delivered in an outpatient setting) that a member could point to and ask about. While somewhat category-like, it refers to a concrete service type appearing in a bulleted benefit list, so it leans toward benefit.
+- The name 'Outpatient mental health' refers to a specific, nameable category of care that a member could ask about coverage for. While somewhat broad, mental health services in outpatient settings is a recognized specific benefit type in insurance certificates, not merely a generic administrative process word. No direct snippet is available, but the name itself points to a real service.
 
 ## "Outpatient mental health therapy" -> benefit (confidence=high)
-- Outpatient mental health therapy is a specific, nameable service that a member could ask about coverage for. It appears in a bulleted list alongside other clear benefits like nutritional therapy and genetic testing under autism spectrum disorders coverage.
+- 'Outpatient mental health therapy' names a specific, nameable service a member could ask about being covered. It is a real behavioral health benefit, not a generic category or fragment.
 
 ## "Ovarian transposition" -> benefit (confidence=high)
-- Ovarian transposition is a specific, nameable surgical procedure used in fertility preservation. It appears as a distinct bulleted service under the Fertility Preservation section, making it a real benefit a member could ask about.
+- Ovarian transposition is a specific, nameable surgical procedure (relocating the ovaries to protect them from radiation) commonly offered under fertility preservation. A member could point to it and ask whether it is covered.
 
 ## "Ovarian wedge resection or ovarian drilling" -> benefit (confidence=high)
-- Ovarian wedge resection and ovarian drilling are specific, nameable surgical procedures used in infertility treatment. A member could point to this and ask if it's covered. It is a real medical service, not a generic category or fragment.
+- These are specific, nameable surgical procedures (ovarian wedge resection and ovarian drilling) used in infertility treatment. A member could ask whether these are covered. This is a real benefit regardless of coverage status.
 
 ## "Oxygen and other gas therapy" -> benefit (confidence=high)
-- 'Oxygen and other gas therapy' names a specific, identifiable medical service/item that a member could point to and ask if it's covered. It appears in a list of specific covered services within Skilled Nursing Facility Services. It is not a generic category word nor a fragment/criterion.
+- 'Oxygen and other gas therapy' names a specific, identifiable medical service/item a member could ask about being covered. It is not a generic category word nor a fragment/criterion.
 
 ## "Oxygen and other therapeutic gases" -> benefit (confidence=high)
-- 'Oxygen and other therapeutic gases' names a specific, identifiable item/supply that a member could point to and ask about coverage. It appears in a bulleted list of covered surgical items alongside other concrete services. It is a nameable therapeutic item, not a generic category word or a fragment/criterion.
+- 'Oxygen and other therapeutic gases' names a specific, nameable medical item/service that a member could ask about coverage for. It is not a generic category word or a fragment/criterion.
 
 ## "Oxygen and other therapeutic gases and their administration" -> benefit (confidence=high)
-- Names a specific, identifiable service/item -- oxygen and therapeutic gases plus their administration. A member could point to it and ask if it's covered. It appears in a list alongside other specific services like inhalation therapy and ECT, confirming it's a nameable benefit rather than a generic category or fragment.
+- The name refers to a specific, nameable service/item -- oxygen and therapeutic gases plus their administration -- something a member could ask about coverage for. It appears under Hospital Services and names concrete items, not a generic category or a fragment/criterion.
 
 ## "Panniculectomy" -> benefit (confidence=high)
-- Panniculectomy is a specific, nameable surgical procedure (removal of excess abdominal skin/tissue). It appears in a list of specific surgeries. Whether covered or excluded is irrelevant; it names a real service.
+- Panniculectomy is a specific, nameable surgical procedure (removal of excess abdominal skin/tissue). It appears under a Surgery header and clearly names a distinct medical service a member could ask about.
 
 ## "Parenting or other similar classes" -> benefit (confidence=medium)
-- 'Parenting or other similar classes' names a specific, identifiable service (educational classes) that a member could ask about, even though it appears in an exclusion list. The 'or other similar classes' phrasing is a bit broad, but it still refers to a nameable service type rather than a category word or eligibility criterion. Coverage status (excluded) does not affect classification.
+- The name refers to a specific, nameable service -- parenting classes or similar educational classes -- that a member could ask about being covered. Though somewhat broad, it names an identifiable service type rather than a generic cost-share category or a fragment/criterion. Leaning toward benefit per guidance.
 
 ## "Part of a comprehensive rehabilitation plan" -> fragment_or_criterion (confidence=high)
-- The text 'Part of a comprehensive rehabilitation plan' is a condition/qualifier in a bulleted list of criteria for when treatment to improve cognition may be paid for ('We may pay for treatment to improve cognition if it is: – Part of a comprehensive rehabilitation plan – Medically necessary...'). It does not name a specific service; it describes an eligibility criterion.
+- The name 'Part of a comprehensive rehabilitation plan' is not a nameable service but a qualifying condition/criterion describing when occupational therapy is covered. It describes a requirement rather than a specific service a member could point to.
 
 ## "Part of a comprehensive rehabilitation plan, and" -> fragment_or_criterion (confidence=high)
 - The name is a sentence fragment describing a condition/qualifier ('Part of a comprehensive rehabilitation plan, and') rather than naming any specific service. It reads as an eligibility criterion attached to Physical Therapy coverage, not a nameable benefit.
 
-## "Participating facilities" -> fragment_or_criterion (confidence=high)
-- 'Participating facilities' is a type of provider, not a specific covered service. It appears in a list of provider types (hospitals, physicians, nurse practitioners) describing who delivers chronic disease management services, not a nameable benefit a member would ask about.
+## "Participating facilities" -> fragment_or_criterion (confidence=low)
+- 'Participating facilities' names a category of provider/network status rather than a specific covered service or item. It describes a qualifier about where care is received, not a nameable service. With no snippets available, confidence is low, but the name itself does not point to a specific benefit.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
-## "Participating hospitals" -> fragment_or_criterion (confidence=high)
-- 'Participating hospitals' appears as a provider type in a list describing who provides chronic disease management services, not as a nameable covered service or item. It describes the provider of care, not a benefit itself.
+## "Participating hospitals" -> fragment_or_criterion (confidence=low)
+- 'Participating hospitals' describes a provider network status/qualifier rather than a specific covered service or item a member would ask about. It refers to a category of provider, not a nameable benefit. However, without excerpts and given the ambiguity, confidence is low; it could arguably be a provider-listing rather than a service, leaning toward fragment/criterion as it names a provider condition rather than a service.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Patch and photo tests" -> benefit (confidence=high)
-- Patch and photo tests are specific, nameable allergy diagnostic tests that a member could point to and ask if they're covered. They appear alongside other specific test types like intradermal, scratch and puncture tests under Allergy Testing and Therapy.
+- Patch and photo tests are specific, nameable diagnostic allergy testing procedures under the Allergy Testing and Therapy section. A member could point to these and ask if they're covered.
 
 ## "Patient is allergic to local anesthesia" -> fragment_or_criterion (confidence=high)
-- This is a condition/eligibility criterion describing when general anesthesia may be justified, not a nameable service. The surrounding bullets ('Patient is medically impaired', 'Patient is younger than age seven') confirm these are qualifying scenarios, not benefits.
+- The name is a conditional clause describing a scenario/eligibility condition (a patient being allergic to local anesthesia), not a nameable service or item. This is a criterion, likely governing when general anesthesia might be covered.
 
 ## "Patient is medically impaired or compromised" -> fragment_or_criterion (confidence=high)
-- The name describes a patient condition/eligibility scenario (part of a list of criteria for when general anesthesia might be covered), not a specific nameable service. Surrounding bullets are similar criteria ('Patient is allergic to local anesthesia', 'Patient is younger than age seven').
+- The name describes a patient condition/qualifier ('is medically impaired or compromised'), not a specific dental service. It's a criterion describing when something might apply, with no nameable service in the text.
 
 ## "Patient is younger than age seven" -> fragment_or_criterion (confidence=high)
-- This is an eligibility condition describing when general anesthesia/IV sedation is justified, not a nameable service. It appears in a list of criteria (medically impaired, allergic to anesthesia) that qualify coverage, so it names no specific service.
+- The name 'Patient is younger than age seven' describes an eligibility/age condition, not a specific nameable service. It is a criterion or qualifier rather than a benefit.
 
 ## "Periodontal scaling and root planing" -> benefit (confidence=high)
-- This names a specific, well-known dental procedure (periodontal scaling and root planing) that a member could ask about. It appears in a list of specific services under major dental services, making it a clear benefit.
+- Periodontal scaling and root planing is a specific, nameable dental procedure that a member could point to and ask if it's covered. It appears under a dental services class header, consistent with a real benefit.
 
 ## "Peripheral blood stem cell (including peripheral blood stem cell pheresis)" -> benefit (confidence=high)
 - The name refers to a specific, nameable medical service/procedure -- peripheral blood stem cell collection including pheresis. This is a concrete clinical service a member could ask about, appearing under an Oncology Clinical Trials header, clearly a real benefit rather than a generic category or fragment.
 
 ## "Photochromatic glass lenses" -> benefit (confidence=high)
-- This names a specific, nameable eyewear item (photochromatic glass lenses) appearing in a list of specific lens types under a 'Lenses' section. A member could point to it and ask if it's covered, regardless of coverage status.
+- Photochromatic glass lenses is a specific, nameable vision item appearing under a 'Lenses' header. A member could clearly ask whether these lenses are covered, making this a real benefit regardless of coverage status.
 
 ## "Photochromatic lenses" -> benefit (confidence=high)
-- Photochromatic lenses is a specific, nameable vision item that a member could ask about coverage for. It appears in a list of lens options alongside other specific items like progressive lenses and anti-reflective lenses. This is a real benefit item, not a generic category or fragment.
+- Photochromatic lenses are a specific, nameable vision item under the 'Lenses' header. A member could point to it and ask if it's covered, so it qualifies as a benefit regardless of coverage status.
 
 ## "Physical therapists" -> benefit (confidence=medium)
-- 'Physical therapists' names a specific type of provider whose services are covered. It appears in a list of provider types. While it's a provider rather than a service, it refers to a specific, nameable category a member could ask about (physical therapy services). It's specific rather than a generic administrative process word or a fragment. Leaning toward benefit per guidance.
+- 'Physical therapists' names a specific, recognizable type of provider/service that a member could ask about coverage for. While phrased as providers rather than 'physical therapy,' it refers to a concrete, nameable service category rather than a generic administrative process or a fragment/criterion. Leaning toward benefit per guidance when uncertain.
 
 ## "Physical therapy (see Page 86 for physical therapy services)" -> benefit (confidence=high)
 - The core name 'Physical therapy' is a real, specific, nameable covered service. The parenthetical cross-reference ('see Page X for physical therapy services') is just a pointer artifact and doesn't change that the name refers to a legitimate benefit a member could ask about.
@@ -1192,37 +1206,38 @@
 - 'Physician services' is a specific, nameable service that a member could ask about coverage for. The parenthetical '(up to two visits per week)' is a frequency limitation on that benefit, not a disqualifier. In the context of Skilled Nursing Facility Services, this names a real covered service.
 
 ## "Physician services are payable for tests such as" -> fragment_or_criterion (confidence=high)
-- This is a sentence fragment/lead-in phrase ('Physician services are payable for tests such as') that introduces a list of specific tests rather than naming a specific service itself. It describes a scenario/qualifier and ends with 'such as', clearly a header fragment, not a nameable benefit.
+- The name is a sentence fragment ('Physician services are payable for tests such as') that introduces a list rather than naming a specific service. It describes a payment condition/lead-in phrase, not a nameable benefit.
 
 ## "Physician services by a member of the hospice interdisciplinary team" -> benefit (confidence=high)
-- This names a specific, nameable service -- physician services provided by a member of the hospice interdisciplinary team. It appears as a distinct bulleted item under Hospice Care Services alongside other clearly nameable services like nursing care and respite care. A member could point to this and ask whether it's covered.
+- The name refers to a specific, nameable service -- physician services provided by a member of the hospice interdisciplinary team -- under the Hospice Care Services header. A member could point to this and ask if it's covered. It is a concrete service, not a generic category or fragment.
 
 ## "Physician services not paid by the hospital" -> fragment_or_criterion (confidence=medium)
-- The name describes a payment scenario/qualifier ('not paid by the hospital') rather than a specific nameable service. 'Physician services' is itself a broad category, and the qualifier makes this a condition about billing rather than a distinct covered service a member could point to.
+- The name 'Physician services not paid by the hospital' is not a specific nameable service but rather a qualifying condition describing which physician services apply (those not paid by the hospital). The 'not paid by the hospital' clause is a criterion/scenario qualifier rather than naming a distinct covered service. While 'physician services' alone would be closer to generic administrative, the trailing qualifier makes this a conditional description rather than a benefit name.
 
 ## "Physician's surgical fee" -> benefit (confidence=medium)
 - 'Physician's surgical fee' names a specific, identifiable service/charge—the fee for a physician performing surgery—that a member could ask about. Under the 'Surgery' header this refers to a concrete covered item. While it names a fee, it's tied to a specific nameable service rather than being a generic cost-share category like 'Coinsurance'.
 
-## "Physicians" -> fragment_or_criterion (confidence=high)
-- 'Physicians' appears in a list of provider types who provide chronic disease management services, not as a named service or item. It describes who delivers care (a provider category/qualifier), not a specific coverable benefit a member could point to and ask 'is this covered?'
+## "Physicians" -> generic_administrative (confidence=medium)
+- 'Physicians' is a category noun referring to a type of provider, not a specific nameable service a member could ask is this covered. It describes who provides care rather than a distinct benefit.
 
-## "Physicians and Other Professional Providers" -> generic_administrative (confidence=high)
-- This names a category of provider type rather than a specific, nameable covered service. It describes who may render services, not a particular service or item a member would point to and ask if it's covered.
+## "Physicians and Other Professional Providers" -> generic_administrative (confidence=medium)
+- The name refers to a category of provider types ('Physicians and Other Professional Providers') rather than a specific, nameable covered service or item. Appearing under a provider-network section header supports that this is a general classification/category of providers, not a distinct benefit a member would ask 'is this covered?'
 
-## "Planning services" -> benefit (confidence=low)
-- Under 'Infertility Treatment', 'Planning services' appears as a specific listed covered service alongside 'diagnostic services' and 'counseling services'. While somewhat generic-sounding, in this context it refers to a nameable service (infertility planning services) a member could ask about. Leaning toward benefit per guidance, but with low confidence given the vague wording.
+## "Planning services" -> fragment_or_criterion (confidence=low)
+- The name 'Planning services' is vague and does not clearly name a specific service. Under an 'Infertility Treatment' header it likely is a fragment of 'Family planning services' or a truncated phrase. However, without any excerpts and given the mandate to lean toward 'benefit' when uncertain, this is borderline. 'Family planning services' would be a real benefit, but 'Planning services' alone reads as an incomplete/generic phrase. Low confidence due to lack of supporting excerpts.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Plastic photosensitive lenses (Transitions®)" -> benefit (confidence=high)
 - This names a specific, nameable item -- photosensitive plastic lenses (Transitions brand) -- a concrete product a member could ask about coverage for under a vision plan's Lenses section.
 
 ## "Polarized lenses" -> benefit (confidence=high)
-- 'Polarized lenses' is a specific, nameable vision care item that a member could ask about being covered. It appears under the 'Lenses' section alongside other specific lens types like photochromatic and plastic photosensitive lenses.
+- Polarized lenses is a specific, nameable vision item that a member could ask about coverage for, appearing under the Lenses section. It names a concrete product, not a category or criterion.
 
 ## "Polycarbonate lenses" -> benefit (confidence=high)
-- Polycarbonate lenses is a specific, nameable vision item that a member could ask about coverage for. It appears under the Lenses section as a distinct lens type, making it a real benefit.
+- Polycarbonate lenses are a specific, nameable vision item under a 'Lenses' header. A member could point to it and ask if it's covered, so it's a real benefit.
 
 ## "Polycarbonate lenses for children through 18 years of age" -> benefit (confidence=high)
-- This names a specific, nameable item (polycarbonate lenses) covered under the Lenses section, with an age qualifier. A member could point to it and ask if it's covered. It's a real vision benefit item, not a generic category or fragment.
+- This names a specific, nameable item -- polycarbonate lenses for children through 18 years of age -- under a 'Lenses' vision section. A member could clearly ask 'are these covered?' The age qualifier is part of the benefit specification, not an exclusion criterion.
 
 ## "Porcelain, ceramic and cast metal retainers for resin-bonded bridges" -> benefit (confidence=high)
 - This names a specific, nameable dental item -- porcelain, ceramic and cast metal retainers used for resin-bonded bridges, a Class III major dental service. A member could point to it and ask if it's covered.
@@ -1243,40 +1258,40 @@
 - The name refers to prescription drugs including hormone therapy, which is a specific, nameable covered service (particularly under Gender Affirming Services). The 'see Prescription Drugs' is a cross-reference artifact but the core names real services. Leaning toward benefit.
 
 ## "Prescription drugs that are experimental or investigational." -> fragment_or_criterion (confidence=high)
-- The name 'Prescription drugs that are experimental or investigational' does not name a specific, pointable service or item; it describes a qualifier/condition (experimental or investigational status) applied to prescription drugs. This is a criterion-based exclusion clause rather than a nameable benefit.
+- The name describes a qualifier/condition ('that are experimental or investigational') applied to prescription drugs rather than naming a specific, nameable drug or service. It reads as an exclusion criterion rather than a benefit name.
 
 ## "Prescription drugs that we consider to be cosmetic" -> fragment_or_criterion (confidence=medium)
-- The name 'Prescription drugs that we consider to be cosmetic' does not name a specific, nameable service or item. It describes a category qualified by a subjective criterion ('that we consider to be cosmetic'), functioning as an exclusion clause rather than a pointable benefit. This is parallel to 'Prescription drugs that are experimental or investigational' which is also a qualifier-based exclusion. It's not a discrete service a member could point to.
+- The name is not a specific nameable service or item but rather a qualifier describing a category of drugs based on our subjective determination ('that we consider to be cosmetic'). It describes an exclusion criterion/scenario rather than a discrete named benefit a member could point to. The phrasing reads as a limitation clause rather than a service name.
 
-## "Preventive drugs" -> benefit (confidence=medium)
-- 'Preventive drugs' names a specific, identifiable category of medications covered under prescription drug benefits (a member could ask if their preventive drug is covered). While somewhat broad, it refers to a nameable class of covered items rather than a generic process/cost-share word or a fragment. It appears as a named benefit heading alongside Immunization Vaccines, Supplements and Vitamins.
+## "Preventive drugs" -> benefit (confidence=high)
+- 'Preventive drugs' names a specific, identifiable category of covered medication (e.g., preventive medications under the prescription drug benefit) that a member could point to and ask about. It refers to a nameable service/item, not a generic process word or a fragment/criterion.
 
 ## "Prior Authorization" -> generic_administrative (confidence=high)
-- 'Prior Authorization' is an administrative process/requirement, not a specific nameable covered service. The excerpts confirm it refers to a coverage requirement ('Do not meet prior authorization requirements') rather than an item or service a member could point to and ask if it's covered.
+- 'Prior Authorization' is a process/administrative requirement, not a specific covered service or item. It describes an approval process for obtaining certain drugs or services, not something a member would point to and ask if it's covered.
 
-## "Prior Authorization for Specialty Pharmaceuticals" -> generic_administrative (confidence=high)
-- 'Prior Authorization for Specialty Pharmaceuticals' describes a process/administrative requirement (prior authorization) rather than naming a specific covered service or item. It's a category/process phrase, not a nameable benefit a member could ask 'is this covered?' about.
+## "Prior Authorization for Specialty Pharmaceuticals" -> generic_administrative (confidence=medium)
+- This names a process/administrative requirement (prior authorization) rather than a specific covered service or item. Prior authorization is a coverage-management procedure applied to specialty drugs, not itself a nameable service a member would ask 'is this covered?' about. Confidence is medium since no snippet was available, but the name clearly describes an administrative process.
 
 ## "Private duty nursing" -> benefit (confidence=high)
-- Private duty nursing is a specific, nameable healthcare service that a member could ask about coverage for. It appears in bulleted lists (here as an exclusion) but the name itself refers to a concrete service, so it qualifies as a benefit regardless of coverage status.
+- Private duty nursing is a specific, nameable service that a member could ask whether it's covered. It appears under Home Health Care Services, a plausible context. It is not a generic category word or a fragment/criterion.
 
 ## "Procedures that are payable in the circumstances explained above include" -> fragment_or_criterion (confidence=high)
-- This is a sentence fragment introducing a list ('Procedures that are payable in the circumstances explained above include:'), not the name of a specific service. The actual benefits are the items listed after it (Alveoloplasty, Diagnostic X-rays, etc.).
+- The name 'Procedures that are payable in the circumstances explained above include' is a sentence fragment introducing a list, not a specific nameable service. It describes a scenario/lead-in rather than a covered item.
 
 ## "Progressive lenses" -> benefit (confidence=high)
-- Progressive lenses is a specific, nameable vision item that a member could ask about coverage for. It appears under 'Lenses' as a distinct lens option, alongside other specific lens types.
+- Progressive lenses are a specific, nameable vision item under the Lenses section that a member could ask whether it's covered.
 
 ## "Prophylaxes" -> benefit (confidence=high)
-- Prophylaxes refers to dental cleanings, a specific, nameable preventive dental service listed alongside oral examinations and fluoride treatments. A member could point to it and ask if it's covered.
+- Prophylaxes refers to dental cleanings, a specific, nameable service in dental plans, appearing under diagnostic and preventive services. A member could ask whether cleanings are covered.
 
-## "Prosthetics and orthotics" -> benefit (confidence=high)
-- Prosthetics and orthotics are specific, nameable medical items/devices a member could ask about coverage for. Despite appearing in coinsurance/cost-share lists, the name itself refers to concrete covered items, not a generic category or fragment.
+## "Prosthetics and orthotics" -> benefit (confidence=medium)
+- Prosthetics and orthotics names specific, tangible covered items/devices that a member could ask about. While it groups two categories, both refer to concrete nameable medical items rather than an administrative process or cost-share term. Leaning benefit per guidance.
 
 ## "Prosthodontic services" -> benefit (confidence=high)
-- Prosthodontic services is a specific, nameable category of dental services (repair or replace missing or deficient natural teeth or tissue). A member could ask 'is prosthodontic care covered?' It refers to a concrete class of dental services, not a generic cost-share or administrative process, and it is not a fragment or eligibility criterion.
+- Prosthodontic services refers to a specific, nameable category of dental services (crowns, bridges, dentures) that a member could ask about coverage for. It appears under Class III Major Services, a standard dental benefit tier. This is a real dental benefit.
 
 ## "Provided as part of a chemotherapy program and" -> fragment_or_criterion (confidence=high)
-- The name 'Provided as part of a chemotherapy program and' is a sentence fragment describing a condition/criterion for coverage, not a specific nameable service. The excerpts show it's part of a bulleted list of qualifying conditions (approved by FDA, treatment of malignant disease, etc.) rather than a benefit name itself.
+- The name 'Provided as part of a chemotherapy program and' is an incomplete sentence fragment describing a condition/qualifier rather than naming a specific service. It ends with 'and', clearly cut off from a larger clause, and describes when something applies rather than what the service is.
 
 ## "Provider’s equipment, such as stethoscopes" -> fragment_or_criterion (confidence=medium)
 - The name 'Provider's equipment, such as stethoscopes' describes a category of items typically excluded from DME coverage (provider-owned tools), not a specific nameable benefit a member would request. It reads as an exclusion clause/example rather than a distinct covered service. However, some ambiguity exists since 'stethoscopes' is a nameable item, so medium confidence.
@@ -1288,115 +1303,116 @@
 - Psychiatric Partial Hospitalization Program (PHP) is a specific, nameable level of behavioral health care that a member could point to and ask if it's covered. It names a concrete service, not a generic category or fragment.
 
 ## "Psychological testing" -> benefit (confidence=high)
-- Psychological testing is a specific, nameable clinical service under Behavioral Health that a member could ask whether it's covered. It appears alongside other specific services like individual/group psychotherapeutic treatment and family counseling.
+- 'Psychological testing' is a specific, nameable clinical service under Behavioral Health Services that a member could ask whether it's covered. It is a concrete service, not a generic category or fragment.
 
 ## "Psychological testing, evaluation, or therapy for allergies" -> benefit (confidence=medium)
 - The name refers to a specific, nameable service -- psychological testing, evaluation, or therapy specifically for allergies. Under the 'Allergy Testing and Therapy' section, this is a concrete service a member could ask about (likely excluded, but exclusion status doesn't matter). It names a specific type of service, not a generic category or a fragment/criterion.
 
-## "Psychologists" -> fragment_or_criterion (confidence=medium)
-- 'Psychologists' is a type of provider/practitioner, not a specific nameable service or item. It appears in a list of provider types (clinical nurse specialists, social workers, physical therapists, etc.) rather than describing a covered service. A member wouldn't ask 'is Psychologists covered?' — provider types describe who renders care, not a benefit itself. It's closest to a non-service descriptor, though it could arguably be seen as a generic category.
+## "Psychologists" -> benefit (confidence=low)
+- 'Psychologists' names a specific type of provider whose services members could ask about. While it's a provider category rather than a named service, it refers to a concrete, identifiable service source. With no snippets available and instructions to lean toward 'benefit' when uncertain, I classify it as a benefit with low confidence.
 
 ## "Pulmonary function evaluation" -> benefit (confidence=high)
-- Pulmonary function evaluation is a specific, nameable diagnostic service that a member could point to and ask if it's covered. It appears in a list alongside other specific services like Inhalation therapy and Electroconvulsive Treatment.
+- Pulmonary function evaluation is a specific, nameable diagnostic service a member could ask about. Under Hospital Services header, it clearly refers to a concrete medical service, not a category or fragment.
 
 ## "Pulmonary function studies" -> benefit (confidence=high)
-- Pulmonary function studies is a specific, nameable diagnostic test that a member could ask whether it's covered. It appears alongside other specific diagnostic services like EKG and EEG under Diagnostic Services.
+- Pulmonary function studies is a specific, nameable diagnostic test that a member could ask about coverage for. It appears under Diagnostic Services and refers to a concrete medical service, not a category noun or fragment.
 
-## "Pupil evaluation" -> benefit (confidence=high)
-- 'Pupil evaluation' is a specific, nameable clinical vision service appearing in a list of concrete contact lens fitting evaluations (biomicroscopic, lid, cornea, etc.). A member could ask whether this specific evaluation is covered.
+## "Pupil evaluation" -> benefit (confidence=medium)
+- 'Pupil evaluation' names a specific, nameable clinical service (an eye examination component) that a member could ask about, appearing under a vision 'Contact Lenses' context. It is a concrete service rather than a generic category or a fragment/criterion. No excerpts are available, so confidence is medium.
 
-## "Qualified individual" -> fragment_or_criterion (confidence=high)
-- 'Qualified individual' is an eligibility criterion/definition describing who may receive services, not a specific nameable service or item. The excerpts confirm it defines a member status ('must be a qualified individual according to the terms of this certificate') rather than naming a covered service.
+## "Qualified individual" -> fragment_or_criterion (confidence=medium)
+- The name 'Qualified individual' does not name a specific service or item. Under the Clinical Trials section, this describes an eligibility criterion/definition (i.e., who qualifies as an eligible participant), not a nameable covered benefit a member could point to. It fits the fragment/criterion category.
 
 ## "Radioactive isotope studies and use of radium" -> benefit (confidence=high)
-- This names specific, nameable radiology services (radioactive isotope studies and use of radium) listed alongside other concrete diagnostic services like X-rays, ultrasound, and CAT scans. A member could point to it and ask if it's covered.
+- The name refers to a specific, nameable medical service -- radioactive isotope studies and the therapeutic/diagnostic use of radium, a nuclear medicine/radiology service. It appears under 'Radiology Services' and is something a member could ask about coverage for.
 
 ## "Recementation of fixed bridges" -> benefit (confidence=high)
-- This names a specific, nameable dental procedure (recementing fixed bridges) that a member could point to and ask if it's covered. It appears under Class II Basic Services as a distinct service item.
+- 'Recementation of fixed bridges' is a specific, nameable dental procedure appearing under Class II Basic Services. A member could clearly ask whether this specific service is covered, making it a genuine benefit.
 
 ## "Recementation or repair of posts, crowns, veneers, inlays and onlays" -> benefit (confidence=high)
 - This names a specific, nameable dental service (recementation or repair of posts, crowns, veneers, inlays and onlays) under Class II Basic Services. A member could point to this and ask if it's covered. Length does not disqualify it as a benefit.
 
-## "Recovery room" -> benefit (confidence=high)
-- 'Recovery room' names a specific, identifiable facility service associated with surgery that a member could point to and ask if it's covered. It appears in a benefit bullet list alongside other concrete services like anesthesia and nursing care.
+## "Recovery room" -> benefit (confidence=medium)
+- A recovery room is a specific, nameable facility service associated with surgery that a member could ask about coverage for. It appears under the Surgery header, consistent with a real service. Leaning toward benefit as it names a concrete item.
 
-## "Recreational therapy" -> benefit (confidence=high)
-- Recreational therapy is a specific, nameable therapeutic service that a member could ask whether it's covered. It appears in lists alongside other named services. Its appearance in these excerpts (possibly as an exclusion) does not affect classification.
+## "Recreational therapy" -> benefit (confidence=medium)
+- Recreational therapy is a specific, nameable therapeutic service (often excluded in plans but still a real service a member could ask about). It appears alongside other named therapies. Despite lack of direct snippet, the name clearly refers to a specific service type.
 
 ## "Refills of prescriptions for covered drugs that exceed BCBSM’s limits" -> fragment_or_criterion (confidence=high)
 - The name describes a scenario/limitation condition ('refills that exceed BCBSM's limits') rather than a specific nameable service. It is a limitation clause, not a benefit.
 
-## "Related reading and interpretation of your test results" -> benefit (confidence=medium)
-- This names a specific, nameable service under Preventive Care Services -- the reading and interpretation of preventive test results by a provider. A member could point to it and ask whether it's covered. It's more specific than a generic category word and does describe an actual service rendered, so it leans toward benefit.
+## "Related reading and interpretation of your test results" -> fragment_or_criterion (confidence=medium)
+- The name 'Related reading and interpretation of your test results' describes an ancillary process/component associated with testing rather than a specific standalone nameable service a member would ask coverage about. It reads as a qualifying clause describing an included aspect of a test, not a distinct benefit. No direct excerpts to confirm, so medium confidence.
 
-## "Removal of the equipment after it is no longer needed" -> fragment_or_criterion (confidence=high)
-- The phrase 'Removal of the equipment after it is no longer needed' describes a scenario/condition within dialysis services rather than naming a specific, distinct covered service. It's a sub-clause elaborating on what's included in dialysis equipment provisions, not a nameable benefit a member would ask about independently.
+## "Removal of the equipment after it is no longer needed" -> fragment_or_criterion (confidence=medium)
+- The name describes an action/scenario ('removal of equipment after it is no longer needed') rather than naming a specific, standalone covered service. It reads as a clause describing what is included in dialysis equipment provision, not a nameable benefit a member would ask about independently.
 
 ## "Repairs of bridges" -> benefit (confidence=high)
-- 'Repairs of bridges' is a specific, nameable dental service under Class III Major Services that a member could ask about coverage for. It refers to a concrete procedure, not a generic category or an eligibility fragment.
+- 'Repairs of bridges' names a specific, nameable dental service under Class III Major Services. A member could point to it and ask if bridge repairs are covered. It is not a generic category or a fragment/criterion.
 
 ## "Repairs, limited to the cost of a new device" -> fragment_or_criterion (confidence=medium)
 - The name describes a limitation/qualifier ('limited to the cost of a new device') rather than naming a specific service. While 'Repairs' of prosthetic/orthotic devices could be a nameable service, the phrasing here is a limitation clause describing a cost cap rather than a clean benefit name, leaning toward fragment/criterion.
 
-## "Residential and Outpatient Substance Abuse Treatment Facility" -> benefit (confidence=high)
-- The name refers to a specific, nameable service/facility -- residential and outpatient substance abuse treatment. A member could point to it and ask if it's covered. It appears as a distinct bulleted benefit under Behavioral Health Services with its own medical necessity criteria, indicating it names an actual covered service rather than a generic category or fragment.
+## "Residential and Outpatient Substance Abuse Treatment Facility" -> benefit (confidence=medium)
+- The name refers to a specific, nameable type of treatment facility/service for substance abuse (residential and outpatient), which a member could ask whether it's covered. It appears under Behavioral Health Services. While it names a facility type rather than a single procedure, it is specific enough to be a real benefit rather than a generic category word or fragment.
 
 ## "Rh(D) incompatibility screening" -> benefit (confidence=high)
 - Rh(D) incompatibility screening is a specific, nameable preventive service (a recognized prenatal screening test). It appears under Preventive Care Services and refers to a concrete diagnostic screening a member could ask about.
 
 ## "Rhinoplasty" -> benefit (confidence=high)
-- Rhinoplasty is a specific, nameable surgical procedure. Though it appears in an exclusion context here, it names a concrete service, so it qualifies as a benefit regardless of coverage status.
+- Rhinoplasty is a specific, nameable surgical procedure (nose reshaping) appearing under a Surgery section. A member could clearly ask whether it is covered.
 
 ## "Room and board" -> benefit (confidence=medium)
-- "Room and board" refers to a specific, nameable service item in a residential treatment facility that a member could ask whether it is covered. While somewhat generic-sounding, it is a concrete facility service item listed as a covered component, not a process/cost-share category word like coinsurance or a fragment/criterion. Leaning toward benefit per guidance.
+- 'Room and board' refers to a specific, nameable service item in inpatient care -- the daily charge for a hospital/facility bed and meals. A member could point to it and ask if it's covered. While somewhat category-like, it names a concrete inpatient service component rather than an administrative process or cost-share term. Leaning toward benefit per guidance.
 
 ## "Routine Flexible Sigmoidoscopy Examination" -> benefit (confidence=high)
-- This names a specific, nameable medical service (a routine flexible sigmoidoscopy examination) that a member could ask about coverage for. It appears under Preventive Care Services with specific frequency limits, confirming it is a concrete benefit.
+- A routine flexible sigmoidoscopy examination is a specific, nameable preventive screening procedure that a member could ask about coverage for. It appears under Preventive Care Services and names a concrete medical service, not a category or fragment.
 
 ## "Routine Gynecological Examination" -> benefit (confidence=high)
-- Names a specific, nameable preventive service with defined coverage limits (two visits per member per calendar year). A member could point to it and ask if it's covered.
+- This names a specific, identifiable medical service that a member could ask about coverage for. It appears under Preventive Care Services and is a concrete, nameable examination type, not a generic category or fragment.
 
-## "Routine Laboratory Services" -> benefit (confidence=high)
-- 'Routine Laboratory Services' names a specific, identifiable preventive care service that a member could ask about coverage for. It appears under Preventive Care Services as a covered benefit with defined frequency limits. While somewhat categorical, it refers to a concrete, nameable service item.
+## "Routine Laboratory Services" -> benefit (confidence=medium)
+- 'Routine Laboratory Services' names a specific, identifiable category of covered service (lab tests as part of preventive care) that a member could ask about. While somewhat broad, it refers to a nameable service rather than a pure administrative/cost-share word or a fragment/criterion. Under 'Preventive Care Services' this is a real benefit.
 
 ## "Routine Pap Smear" -> benefit (confidence=high)
-- 'Routine Pap Smear' is a specific, nameable medical screening service listed under Preventive Care Services with defined frequency limits. A member could clearly ask whether it's covered.
+- A routine Pap smear is a specific, nameable preventive screening service that a member could ask about coverage for. It appears under Preventive Care Services, consistent with a real benefit.
 
-## "Routine care" -> benefit (confidence=medium)
-- 'Routine care' under the Newborn Care section refers to a specific, nameable service—routine care during the newborn's eligible hospital stay. While somewhat broad, it names a concrete covered service a member could ask about, rather than a category/cost-share word or a fragment/criterion. Leaning toward benefit per guidance.
+## "Routine care" -> fragment_or_criterion (confidence=low)
+- The name 'Routine care' under 'Newborn Care' is vague and does not clearly name a specific, pointable service. It reads more like a general category qualifier than a distinct benefit. However, there is no snippet evidence and it could arguably refer to routine newborn care as a coverable item, so confidence is low. It leans toward being a non-specific descriptor rather than a nameable service.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Routine care during the newborn’s eligible hospital stay." -> benefit (confidence=medium)
 - The name refers to a specific, nameable service -- routine care provided to a newborn during their hospital stay -- which a member could point to and ask if it's covered. It appears under Maternity/Newborn Care headers. While it includes a qualifier ('during the newborn's eligible hospital stay'), the core is a specific covered service (routine newborn care), not merely a category word or a bare eligibility criterion.
 
-## "Routine dental services" -> benefit (confidence=high)
-- 'Routine dental services' names a specific, nameable category of care that a member could ask about being covered. Though it appears in exclusion lists here, coverage status is irrelevant. It refers to an identifiable service type (routine dental care), making it a benefit rather than a generic administrative word or a fragment/criterion.
+## "Routine dental services" -> benefit (confidence=medium)
+- 'Routine dental services' names a specific, recognizable category of care a member could ask about being covered. While somewhat broad, it refers to an identifiable set of services (checkups, cleanings, etc.) rather than a pure administrative/process word or a fragment. Under a 'Dental Services' header it functions as a nameable benefit.
 
 ## "Routine eye exams or services" -> benefit (confidence=high)
-- 'Routine eye exams' is a specific, nameable service a member could ask about. Though it appears under exclusions, coverage status doesn't affect classification. It names a concrete service under Optometrist Services.
+- 'Routine eye exams' is a specific, nameable service under Optometrist Services that a member could ask about coverage for. Although 'or services' is somewhat broad, the core names a concrete covered item.
 
-## "Routine laboratory tests" -> benefit (confidence=high)
-- 'Routine laboratory tests' names a specific, identifiable medical service that a member could ask about being covered. It appears in a list of covered dialysis-related services and refers to an actual nameable service, unlike the generic 'Equipment' or 'Drugs' entries in the same list.
+## "Routine laboratory tests" -> benefit (confidence=medium)
+- 'Routine laboratory tests' names a specific, nameable medical service that a member could ask about being covered. Though somewhat broad, it refers to an actual service category with concrete meaning (lab tests), especially in context of dialysis services. It is not merely an administrative process word like 'Coinsurance' nor a fragment/criterion. Leaning toward benefit per guidance.
 
 ## "Routine maintenance of a prosthetic device" -> benefit (confidence=medium)
-- The name refers to a specific, nameable service -- maintenance of a prosthetic device -- that a member could ask whether it is covered. It appears in exclusion lists here, but coverage status must not influence classification. It is not a generic category word nor a mere fragment/criterion; it names a concrete service.
+- The name refers to a specific, nameable service -- routine maintenance of a prosthetic device -- under the Prosthetic and Orthotic Devices section. A member could ask 'is maintenance of my prosthetic covered?' While no direct excerpt was provided, the name describes a concrete service rather than a generic category or a fragment/criterion.
 
 ## "Routine patient costs" -> benefit (confidence=medium)
-- 'Routine patient costs' in the context of clinical trials is a specific, defined coverage category referring to the routine care items and services associated with participating in an approved clinical trial. It is a nameable benefit that members can ask whether it's covered, and appears as a distinct benefit heading under Clinical Trials. While the phrasing is somewhat generic-sounding, in insurance parlance it is a recognized specific benefit tied to clinical trial participation.
+- 'Routine patient costs' in the context of clinical trials is a specific, nameable coverage category defined by ACA - the routine items and services provided to a patient participating in an approved clinical trial. While the name has a somewhat generic ring, it refers to a distinct, well-defined covered benefit that a member could point to and ask about. Leaning toward benefit per the guidance.
 
 ## "Screening Mammography" -> benefit (confidence=high)
-- Screening mammography is a specific, nameable medical service to screen for breast cancer. It appears as a distinct bulleted benefit under Preventive Care Services with defined frequency limits.
+- Screening Mammography is a specific, nameable preventive service under the Preventive Care Services header. A member could clearly ask whether it is covered.
 
 ## "Screening, counseling and prescription drugs to help you stop smoking" -> benefit (confidence=high)
 - This names a specific set of covered preventive services (smoking cessation screening, counseling, and prescription drugs) that a member could point to and ask about. It appears under Preventive Care Services and describes a nameable, specific service rather than a generic category or eligibility criterion.
 
-## "Search of an international donor registry" -> benefit (confidence=high)
-- 'Search of an international donor registry' names a specific, identifiable service (searching a donor registry for matches), something a member could point to and ask if it's covered. It appears in an exclusion list here, but coverage status must not drive the classification. The name refers to a concrete nameable service, not a generic category or a fragment/criterion.
+## "Search of an international donor registry" -> benefit (confidence=medium)
+- The name refers to a specific, nameable service -- searching an international donor registry (typically related to bone marrow/stem cell transplant matching). A member could point to this and ask if it's covered. It's not a generic category word nor a fragment/criterion; it describes an actual service performed.
 
-## "Select high abuse drugs" -> benefit (confidence=medium)
-- 'Select high abuse drugs' names a specific category of drug items (drugs with high abuse potential) that a member could point to and ask about coverage. It appears alongside other real drug items like 'Compounded hormones' and 'Dietary supplements' in an exclusion list. While somewhat category-like, it refers to a specific nameable class of items rather than a process or eligibility rule. Its exclusion status does not affect classification.
+## "Select high abuse drugs" -> benefit (confidence=low)
+- Under the Prescription Drugs header, 'Select high abuse drugs' appears to name a specific category of medications (high-abuse-potential drugs) that plans track for coverage/limitation purposes. It refers to a nameable set of drug items rather than being a pure administrative process word or a fragment/condition. However, it borders on a category noun, so confidence is low; leaning toward benefit per guidance.
 
 ## "Select immunization vaccines" -> benefit (confidence=high)
-- 'Select immunization vaccines' names a specific, nameable covered item (immunization vaccines). A member could point to it and ask if it's covered. It is a specific service/item rather than a generic category word or a fragment/criterion.
+- 'Select immunization vaccines' names a specific, nameable covered item/service -- vaccines administered as immunizations. A member could point to it and ask if it's covered. It is not a generic category word or a fragment/criterion.
 
 ## "Select services, equipment, and tools to manage hypertension" -> fragment_or_criterion (confidence=low)
 - The name begins with 'Select services, equipment, and tools' which describes a generic bundle/category rather than a specific nameable service, though it references hypertension management under a condition management program. It's a vague grouping phrase rather than a single specific benefit. Leaning toward fragment/generic due to the non-specific 'select services, equipment, and tools' framing, but no excerpts available so confidence is low.
@@ -1409,22 +1425,22 @@
 - The name refers to a specific, nameable category of items -- over-the-counter drugs that are self-administered. A member could point to this and ask whether it's covered. It names a real class of items rather than a process word or a fragment/criterion. While somewhat categorical, it's more specific than pure administrative terms like 'Drugs' alone, so leaning toward benefit.
 
 ## "Semiprivate room" -> benefit (confidence=high)
-- A semiprivate room is a specific, nameable inpatient hospital accommodation that a member could ask about coverage for. It appears in a list of concrete hospital services (nursing, meals, etc.), and is a distinct covered item rather than a generic category or fragment.
+- A semiprivate room is a specific, nameable inpatient accommodation service that members can identify and ask whether it's covered. It appears under Hospital Services, consistent with a real benefit.
 
 ## "Septorhinoplasty" -> benefit (confidence=high)
-- Septorhinoplasty is a specific, nameable surgical procedure. Its appearance in an exclusion context does not affect classification; it names a concrete service a member could ask about.
+- Septorhinoplasty is a specific, nameable surgical procedure (combined nasal septum and rhinoplasty surgery), appearing under the Surgery header. A member could clearly ask whether it's covered.
 
-## "Services by a nonparticipating ambulatory surgery facility" -> benefit (confidence=medium)
-- The name refers to a specific, nameable service -- services provided by a nonparticipating ambulatory surgery facility. A member could point to this and ask if it's covered. While it appears under 'we do not pay for,' coverage status must not drive classification. It names a real service type distinguished by provider type, which is specific enough to be a benefit rather than a pure category word or a fragment.
+## "Services by a nonparticipating ambulatory surgery facility" -> fragment_or_criterion (confidence=medium)
+- The name describes a scenario/qualifier -- services rendered at a nonparticipating (out-of-network) ambulatory surgery facility -- rather than naming a specific covered service or procedure. The phrasing centers on the network status of the facility, which is a condition/limitation, not a nameable benefit like a specific surgery. It reads as an exclusion/coverage-condition clause.
 
-## "Services covered under any other health plan" -> fragment_or_criterion (confidence=high)
-- 'Services covered under any other health plan' does not name a specific service or item; it describes a condition/scenario (coordination of benefits / services already covered elsewhere) used as an exclusion criterion. It's a qualifier, not a nameable benefit.
+## "Services covered under any other health plan" -> fragment_or_criterion (confidence=medium)
+- The name 'Services covered under any other health plan' does not name a specific, pointable service or item. Instead it describes a scenario/condition (coordination of benefits or exclusion of services already covered elsewhere). It's a qualifier about circumstances rather than a nameable service, so it fits fragment_or_criterion.
 
 ## "Services not related to the dialysis process" -> fragment_or_criterion (confidence=high)
-- The name 'Services not related to the dialysis process' does not name a specific, nameable service. It describes an exclusionary scenario/qualifier -- services that fall outside the dialysis process. It parallels the adjacent items like 'Services not provided by the employees of the ESRD facility,' which are also condition/scenario descriptions rather than specific benefits.
+- The name describes an exclusionary scenario/qualifier ('services not related to the dialysis process') rather than naming a specific service. It's a limitation clause, not a nameable benefit.
 
 ## "Services that are not BCBSM benefits" -> fragment_or_criterion (confidence=high)
-- 'Services that are not BCBSM benefits' does not name any specific, nameable service or item. It is a self-referential qualifier/criterion describing a category of exclusion (anything not covered), not a concrete service a member could point to. This is a criterion, independent of its exclusion status.
+- The name 'Services that are not BCBSM benefits' does not name a specific service or item; it describes a category/exclusion scenario referring to anything not covered. This is a qualifier/exclusion clause rather than a nameable benefit.
 
 ## "Services that are not focused on improving the member’s functioning" -> fragment_or_criterion (confidence=high)
 - The name is a descriptive clause characterizing a category of services by a qualifier ('that are not focused on improving the member's functioning') rather than naming a specific, nameable service. It reads as an exclusion criterion, not a benefit item.
@@ -1432,56 +1448,58 @@
 ## "Services to treat temporomandibular joint dysfunction (except as described above)" -> fragment_or_criterion (confidence=medium)
 - While 'services to treat temporomandibular joint dysfunction' names a real service area, the actual candidate name is framed as an exclusion clause qualifier ('except as described above'), which points back to another provision rather than naming a specific coverable service. The core phrasing reads as a limitation/exclusion clause. However, there is a real service concept (TMJ treatment) embedded, so confidence is medium; the trailing qualifier makes this read more like a fragment/criterion than a clean benefit name.
 
-## "Severe respiratory disease" -> fragment_or_criterion (confidence=high)
-- This is a medical condition listed as an eligibility criterion (part of a list of conditions that qualify for something under Dental Services), not a specific covered service or item. It describes a patient condition, not a nameable benefit.
+## "Severe respiratory disease" -> fragment_or_criterion (confidence=low)
+- 'Severe respiratory disease' is a medical condition/diagnosis, not a nameable service or item. It reads as an eligibility criterion or qualifying condition (e.g., dental services may be covered when a patient has a severe respiratory disease). The Dental Services header combined with this being a condition name suggests it's a criterion rather than a benefit itself. However, with no direct snippet, confidence is low.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Sexually transmitted infection screening" -> benefit (confidence=high)
-- This names a specific, nameable preventive care service - screening for sexually transmitted infections. It appears in a list alongside other clearly specific benefits like cervical cancer screening and HIV counseling and screening. A member could ask 'is this covered?'
+- This names a specific, nameable preventive service (screening for sexually transmitted infections) that a member could ask about. It appears under Preventive Care Services, consistent with a real benefit.
 
 ## "Simple extractions" -> benefit (confidence=high)
-- Simple extractions refers to a specific, nameable dental procedure (tooth extraction) that a member could ask whether it's covered. It appears under Class II Basic Services as a distinct covered dental service.
+- 'Simple extractions' names a specific, nameable dental service (tooth extraction), appearing under Class II Basic Services. A member could clearly ask if this is covered.
 
-## "Six visits for children 13 months through 23 months" -> fragment_or_criterion (confidence=high)
-- This is a visit-frequency limitation describing how many well-child visits are allowed for a specific age range, not a nameable service itself. It's a quantity/eligibility qualifier under the actual benefit (preventive/well-child care visits), so it describes a condition rather than naming a specific covered service.
+## "Six visits for children 13 months through 23 months" -> fragment_or_criterion (confidence=medium)
+- The name 'Six visits for children 13 months through 23 months' describes a coverage limit/frequency criterion tied to an age range rather than naming a specific service. It quantifies visits under preventive care but doesn't itself name a nameable service like 'well-child visits.' It reads as a limitation/eligibility descriptor extracted from a benefit table.
 
 ## "Six visits for children 24 months through 35 months" -> fragment_or_criterion (confidence=medium)
-- This is a visit-count/age-range specification ('Six visits for children 24 months through 35 months') describing the frequency limit for well-child visits, not a nameable service itself. The actual benefit is 'Well-child visits'; this candidate is a sub-detail describing quantity and eligibility age range, so it functions as a criterion/limitation fragment rather than a distinct benefit.
+- The name describes a quantity/frequency limit and age criterion ('six visits for children 24 months through 35 months') rather than naming a specific service. It's a coverage limitation on preventive visits, not a nameable service itself.
 
-## "Skin" -> benefit (confidence=high)
-- In context, 'Skin' refers to skin transplants (a specific, nameable transplant service alongside cornea and bone marrow transplants). This is a real, specific covered service under Transplant Services.
+## "Skin" -> benefit (confidence=medium)
+- Under the 'Transplant Services' header, 'Skin' most plausibly refers to skin grafts/skin transplants, which is a specific, nameable covered service. Though the name is terse, in the transplant context it denotes a concrete transplantable tissue rather than a generic category or fragment. Leaning toward benefit given uncertainty guidance.
 
 ## "Sleep apnea treatments" -> benefit (confidence=high)
-- 'Sleep apnea treatments' names a specific, nameable medical service/procedure category that a member could point to and ask about coverage. It appears alongside other specific surgical procedures. It refers to a real service regardless of its coverage status in these excerpts.
+- 'Sleep apnea treatments' names a specific, nameable medical service that a member could ask about coverage for. It appears under a Surgery section, consistent with a real covered service, and is not a generic category word or a fragment/criterion.
 
 ## "Sleep studies and surgeries to diagnose and treat sleep apnea" -> benefit (confidence=high)
-- Names a specific, nameable service -- sleep studies and surgeries to diagnose and treat sleep apnea -- that a member could ask about coverage for. Appears as a bulleted covered service under Surgery.
+- The name refers to specific, nameable medical services (sleep studies and surgeries to diagnose/treat sleep apnea) that a member could point to and ask if covered. It appears under a 'Surgery' header, consistent with a real benefit.
 
 ## "Soft tissue grafts" -> benefit (confidence=high)
-- Soft tissue grafts is a specific, nameable dental periodontal procedure appearing alongside other specific services like gingivectomies and bone replacement grafts. A member could ask whether this is covered.
+- 'Soft tissue grafts' is a specific, nameable dental/surgical procedure appearing under Class III Major Services. A member could ask if it's covered. Not a generic category or fragment.
 
 ## "Solutions" -> generic_administrative (confidence=medium)
-- "Solutions" is a generic category noun appearing in a list alongside similar generic items like "Equipment", "Drugs", "Supplies", and "Other medically necessary services". It does not name a specific, pointable service; it's a vague catch-all category for dialysis solutions rather than a discrete nameable benefit.
+- Under a Dialysis Services header, 'Solutions' likely refers to dialysis solutions/supplies but the name itself is a generic category noun rather than a specific nameable service. It does not identify a specific covered item a member could clearly point to, functioning as a supply category. Leaning generic_administrative but with medium confidence given lack of direct snippets.
 
 ## "Space maintainers" -> benefit (confidence=high)
-- Space maintainers are a specific, nameable dental device/service used to hold space for teeth. A member could ask 'is this covered?'. It appears under Basic Services as a distinct item.
+- Space maintainers are a specific, nameable dental appliance/service, appearing under Class II Basic Services. A member could clearly ask whether this specific item is covered.
 
 ## "Spare prosthesis devices" -> benefit (confidence=high)
-- 'Spare prosthesis devices' names a specific, nameable item -- a backup/duplicate prosthetic device. A member could point to it and ask if it's covered. It appears in exclusion lists here, but exclusion status must not drive classification. It is a concrete item, not a generic category word or a condition/criterion fragment.
+- 'Spare prosthesis devices' names a specific, pointable item (backup/duplicate prosthetic devices) under the Prosthetic and Orthotic Devices section. It is a nameable item a member could ask about, regardless of coverage status. Not a category word or a fragment.
 
 ## "Special treatment rooms" -> benefit (confidence=medium)
-- 'Special treatment rooms' names a specific, identifiable facility item/service within Skilled Nursing Facility Services, listed alongside other concrete covered items like laboratory examinations and oxygen therapy. It refers to a nameable thing a member could ask about, not a generic category or a criterion/fragment.
+- 'Special treatment rooms' names a specific facility item/service within skilled nursing facility care that a member could ask about coverage for. It's not a generic cost-share or process word, nor a fragment. Leaning benefit though no direct snippet was available.
 
-## "Specialty Pharmaceuticals" -> benefit (confidence=high)
-- Specialty Pharmaceuticals refers to a specific, nameable category of drugs (specialty drugs) that a member could ask about coverage for. The excerpts describe paying for approved specialty drugs under defined conditions, making it a real covered item rather than a generic process/administrative term or fragment.
+## "Specialty Pharmaceuticals" -> benefit (confidence=medium)
+- Specialty Pharmaceuticals refers to a specific, nameable category of drugs (high-cost specialty medications) that a member could ask about coverage for, appearing under Prescription Drugs. While somewhat category-like, it names a concrete class of drug items rather than a generic process/cost-share word, so it leans benefit.
 
-## "Spectrum Disorders" -> fragment_or_criterion (confidence=medium)
-- The candidate 'Spectrum Disorders' is a truncated fragment of 'Autism Spectrum Disorders'. On its own, 'Spectrum Disorders' does not name a specific service or condition benefit -- it's an incomplete phrase clipped from the full term. The excerpts consistently show it as part of 'Autism Spectrum Disorders', indicating this is an extraction artifact rather than a standalone nameable benefit.
+## "Spectrum Disorders" -> fragment_or_criterion (confidence=low)
+- The name 'Spectrum Disorders' appears to be a truncated fragment, likely part of a longer term such as 'Autism Spectrum Disorders' or 'Spectrum Disorders treatment.' On its own under an 'Audiologist Services' header it doesn't clearly name a specific covered service or item. However, without direct snippets there's real uncertainty; it could be a shorthand for a real diagnostic/treatment benefit, so confidence is low.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Speech language therapy, Page 121" -> benefit (confidence=medium)
 - The core name 'Speech language therapy' is a real, specific, nameable service commonly covered under home health care. The 'Page 121' appears to be an index/page reference artifact appended by extraction, but the underlying name refers to a genuine benefit.
 
 ## "Sperm washing" -> benefit (confidence=high)
-- Sperm washing is a specific, nameable medical procedure used in infertility treatment, appearing in a bulleted list of distinct services alongside artificial insemination and post-coital test. A member could clearly ask whether it is covered.
+- Sperm washing is a specific, nameable medical procedure used in infertility/fertility treatment. A member could point to it and ask if it's covered. It fits under the Infertility Treatment header and is a concrete service, not a category word or fragment.
 
 ## "Spring-powered lancet devices" -> benefit (confidence=high)
 - 'Spring-powered lancet devices' names a specific, tangible medical item used in diabetes management. Under an Outpatient Diabetes Management Program header, this is a concrete covered supply a member could point to and ask about. It is a real, nameable item, not a generic category or fragment.
@@ -1499,47 +1517,49 @@
 - This names a specific, nameable service -- a Partial Hospitalization Program for substance use disorder treatment. A member could point to it and ask whether it's covered. It appears under Behavioral Health Services and is a well-defined level of care, not a generic category or fragment.
 
 ## "Summary of findings" -> fragment_or_criterion (confidence=medium)
-- 'Summary of findings' appears as a sub-item within an eye exam component list, describing part of the exam process/documentation rather than naming a specific covered service. It is not a nameable service a member would ask about, nor a distinct benefit. It reads as a fragment describing what an eye exam includes, not a benefit itself.
+- 'Summary of findings' does not name a specific covered service or item. It appears to describe an output or documentation element of an eye exam rather than a nameable benefit a member would ask about. It is not a category cost-share term either, but rather descriptive text, so it fits fragment_or_criterion best. Confidence is medium due to lack of direct snippets.
 
-## "Supplements" -> generic_administrative (confidence=medium)
-- "Supplements" appears as part of a category heading "Preventive Drugs, Immunization Vaccines, Supplements and Vitamins". On its own it is a broad generic category noun rather than a specific nameable service or item. It functions as a class of items in the prescription drug section rather than a distinct benefit a member could point to and ask about specifically.
+## "Supplements" -> generic_administrative (confidence=low)
+- The name 'Supplements' under a Prescription Drugs header is a broad category noun rather than a specific nameable service or item. However, with no excerpts to confirm context, confidence is low. It could refer to 'Dietary supplements' which would be a nameable item, so there is genuine uncertainty.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
-## "Supplies" -> generic_administrative (confidence=high)
-- 'Supplies' is a generic category noun, not a specific nameable service. It appears as part of a phrase 'Dialysis services... supplies and equipment' where the specific benefit is dialysis; 'supplies' alone is just a category word like 'equipment' or 'drugs'.
+## "Supplies" -> generic_administrative (confidence=medium)
+- 'Supplies' is a generic category noun rather than a specific, nameable service or item. Under 'Dialysis Services' it describes the kind of provision (supplies used in dialysis) rather than a particular covered item a member could point to. No excerpt provides evidence of a more specific service name.
 
 ## "Supplies and equipment used for subacute detoxification or rehabilitation" -> benefit (confidence=medium)
-- While 'Supplies and equipment' alone would be generic, this name specifies a concrete, nameable item tied to a specific service context ('used for subacute detoxification or rehabilitation'). A member could point to it and ask whether it's covered. It's a specific covered item within behavioral health services rather than a mere category word or a fragment/criterion.
+- The name refers to a specific, nameable item -- supplies and equipment used for a particular purpose (subacute detoxification or rehabilitation). While 'supplies and equipment' alone would be generic, the qualifier ties it to a specific service context, making it a pointable-to covered item under Behavioral Health Services. Leaning toward benefit per guidance when there's doubt.
 
-## "Support garments or other nonmedical items" -> fragment_or_criterion (confidence=medium)
-- The name 'Support garments or other nonmedical items' is vague and open-ended. While 'support garments' alone might be a nameable item, the 'or other nonmedical items' qualifier makes this a broad catch-all category rather than a specific, pointable service. It reads more like an exclusion clause describing a class of non-covered items than a distinct benefit name. Leaning toward fragment/criterion given the non-specific catch-all phrasing, though there is some doubt since 'support garments' is a real item.
+## "Support garments or other nonmedical items" -> fragment_or_criterion (confidence=low)
+- The name 'Support garments or other nonmedical items' reads as a broad exclusion category with a catch-all qualifier ('or other nonmedical items') rather than a specific nameable service. While 'support garments' alone might be a specific item, the appended generic clause makes this a category/exclusion descriptor. However, without any excerpt evidence and given the guidance to lean toward benefit when uncertain, I keep low confidence. The phrasing strongly resembles an exclusion clause listing a class of things rather than a single specific benefit.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Surgical and impacted tooth extractions and root removal" -> benefit (confidence=high)
-- This names specific, nameable dental services (surgical/impacted tooth extractions and root removal) that a member could ask about coverage for. It appears in a Class III Major Services list of covered procedures.
+- This names specific, nameable dental services (surgical extractions, impacted tooth extractions, root removal) under a Major Services dental category. A member could clearly ask whether these are covered.
 
 ## "Surgical endodontic services" -> benefit (confidence=high)
-- 'Surgical endodontic services' names a specific, nameable dental service (treating teeth with diseased or damaged nerves, including apicoectomy, etc.). A member could ask whether it's covered. It appears under Class III – Major Services and describes a concrete procedure category tied to specific treatments.
+- 'Surgical endodontic services' names a specific, nameable dental service (e.g. apicoectomy, root-end surgery). It appears under a real coverage class (Class III – Major Services). A member could point to it and ask if it's covered.
 
 ## "Surgical exposure and facilitation of eruption of unerupted teeth" -> benefit (confidence=high)
-- This names a specific, nameable dental surgical procedure (surgically exposing and facilitating eruption of unerupted teeth). It appears in a bulleted list of covered surgical services under Class III/II. It is a concrete service a member could ask about, not a category word or fragment.
+- This is a specific, nameable dental surgical procedure (surgical exposure and facilitation of eruption of unerupted teeth), appearing under Class III Major Services. A member could point to it and ask if it's covered. It names a concrete service, not a category or fragment.
 
 ## "Surgical periodontic services" -> benefit (confidence=high)
-- 'Surgical periodontic services' names a specific, nameable dental service that treats diseases of the gums and supporting structures. It appears under Class III Major Services as a distinct covered service category. A member could point to it and ask if it's covered.
+- 'Surgical periodontic services' names a specific, identifiable dental service (surgical treatment of gum/periodontal disease), appearing under Class III Major Services. A member could point to it and ask if it's covered.
 
 ## "Surgical treatment of male gynecomastia" -> benefit (confidence=high)
-- This names a specific, nameable surgical procedure (surgical treatment of male gynecomastia) that a member could ask about coverage for. It appears alongside other specific procedures like blepharoplasty, breast reduction, and panniculectomy.
+- The name refers to a specific, nameable surgical procedure (surgical treatment of male gynecomastia) that a member could ask about coverage for. It appears under a Surgery header, consistent with a real benefit.
 
 ## "Survey, including history, physical exam, and diagnostic laboratory studies" -> fragment_or_criterion (confidence=low)
 - The name reads as a compound description of a diagnostic process ('Survey, including history, physical exam, and diagnostic laboratory studies') rather than a single specific nameable service. It lists components of an evaluation. Under an 'Allergy Testing and Therapy' header this appears to describe what an allergy survey/evaluation entails. It leans toward a descriptive/process phrase rather than a discrete benefit, but there is ambiguity since 'diagnostic laboratory studies' and 'physical exam' are somewhat concrete. Low confidence given no excerpts.
 - **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Syringes" -> benefit (confidence=high)
-- Syringes is a specific, nameable medical item covered under the diabetes management program. A member could point to it and ask if it's covered. It's not a generic category word or a fragment/criterion.
+- Syringes is a specific, nameable item—a member could ask whether syringes (e.g., for insulin administration under the diabetes management program) are covered. It names a concrete supply item, not a generic category or fragment.
 
-## "T-cell depleted infusion" -> benefit (confidence=high)
-- T-cell depleted infusion is a specific, nameable medical procedure used in transplant services. It appears in bulleted benefit lists alongside other specific services like donor lymphocyte infusion. A member could point to it and ask if it's covered.
+## "T-cell depleted infusion" -> benefit (confidence=medium)
+- T-cell depleted infusion names a specific, nameable medical procedure used in transplant contexts (a stem cell/donor infusion depleted of T-cells). It appears under Transplant Services and Oncology Clinical Trials headers, consistent with a real service a member could ask about. Not a generic category word or a fragment/criterion. Confidence is medium due to lack of direct excerpts.
 
-## "Tear test" -> benefit (confidence=high)
-- 'Tear test' is a specific, nameable diagnostic procedure performed as part of a contact lens fitting exam. It refers to a concrete service a member could point to, not a category noun or a criterion/fragment.
+## "Tear test" -> benefit (confidence=medium)
+- A 'tear test' is a specific, nameable diagnostic procedure (e.g., Schirmer test for tear production, relevant to contact lens fitting). A member could ask whether it is covered. It names a concrete service rather than a category or a condition/qualifier.
 
 ## "Telephone or face-to-face contact and group interventions" -> fragment_or_criterion (confidence=low)
 - The name describes modes/methods of contact (telephone, face-to-face, group interventions) rather than a specific nameable service. It reads as a descriptor of how a service is delivered under Collaborative Care Management, not a distinct benefit itself. However, without direct snippets and given it could arguably be a service component, confidence is low.
@@ -1548,89 +1568,92 @@
 ## "Telephone, individual face-to-face, and group interventions" -> benefit (confidence=medium)
 - The name describes specific delivery modes of intervention services (telephone, face-to-face, group), which are nameable service formats a member could ask about, likely tobacco cessation or wellness counseling under Value Based Programs. It's more specific than a generic category word and doesn't read as a fragment or eligibility criterion, so I lean toward benefit with moderate confidence given lack of direct excerpts.
 
-## "Temporary Benefits for Hospital Services" -> generic_administrative (confidence=medium)
-- This names a transitional/continuity-of-care provision (temporary benefits when a hospital ends its BCBS contract) rather than a specific, nameable covered service or item. It describes a process/category of benefit provision, not a discrete service a member could point to and ask 'is this covered?' It's closer to an administrative arrangement than a benefit name.
+## "Temporary Benefits for Hospital Services" -> generic_administrative (confidence=low)
+- The name 'Temporary Benefits for Hospital Services' reads as a category/provision label rather than a specific nameable service. 'Hospital Services' is a broad category and 'Temporary Benefits' describes a type of provision arrangement, not a discrete service a member could point to. However, without any excerpt snippets and given the risk of mislabeling, confidence is low; it could be a transitional coverage provision. Leaning generic_administrative due to the category-noun structure.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Temporomandibular surgery" -> benefit (confidence=high)
-- Temporomandibular surgery is a specific, nameable surgical service (surgery of the temporomandibular joint) that a member could ask about coverage for. It appears alongside other specific benefits like bariatric surgery and infertility treatment.
+- Temporomandibular surgery names a specific, identifiable surgical procedure (surgery on the temporomandibular joint) that a member could ask about coverage for. It is a concrete service, not a category noun or fragment.
 
 ## "Test strips and lancets" -> benefit (confidence=high)
-- Test strips and lancets are specific, nameable diabetic supply items that a member could point to and ask if covered. Listed alongside other specific items like glucose monitors and insulin delivery reservoirs.
+- Test strips and lancets are specific, nameable medical items used for diabetic blood glucose monitoring. A member could point to these and ask if they're covered. This is a concrete item, not a generic category or fragment.
 
 ## "Test strips for glucometer" -> benefit (confidence=high)
-- Test strips for glucometer names a specific, tangible diabetic supply item that a member could point to and ask if covered. It appears in a bulleted list alongside other concrete items like glucometers and lancets.
+- 'Test strips for glucometer' names a specific, nameable durable medical/pharmacy item that a member could ask about coverage for. It's under Prescription Drugs and refers to a concrete product, not a category word or a fragment.
 
 ## "Test strips for glucose monitors" -> benefit (confidence=high)
-- 'Test strips for glucose monitors' is a specific, nameable item that a member could ask about coverage for. It appears in a list of concrete diabetes supplies alongside insulin pumps, lancets, and monitors, all specific covered items.
+- The name refers to a specific, nameable item (test strips for glucose monitors) that a member could ask whether it's covered. It appears under a diabetes management program header, consistent with a real supply benefit.
 
-## "Testing of visual acuity" -> benefit (confidence=high)
-- Testing of visual acuity is a specific, nameable diagnostic service/procedure performed as part of an eye exam. It refers to a concrete service a member could point to, not a generic category word or a fragment/criterion.
+## "Testing of visual acuity" -> benefit (confidence=medium)
+- 'Testing of visual acuity' names a specific, nameable clinical service under an Eye Exam section that a member could ask about. It's not a generic category word nor a condition/qualifier fragment, so it classifies as a benefit.
 
 ## "The appropriateness of a drug for your condition" -> fragment_or_criterion (confidence=high)
-- This is a sub-bullet describing something a medication assessment identifies, not a nameable covered service. It's a fragment/qualifier ('the appropriateness of a drug for your condition') rather than a specific service a member could point to and ask if it's covered.
+- The name 'The appropriateness of a drug for your condition' does not name a specific service or item; it describes a qualifier/evaluation criterion. It reads as a sentence fragment describing a condition or consideration rather than a nameable benefit.
 
 ## "The appropriateness of the drug for your condition" -> fragment_or_criterion (confidence=high)
-- This is a sub-bullet describing something a medication assessment identifies, not a nameable service. It's a fragment describing an aspect/criterion evaluated within a service, alongside items like 'The correct dosage' and 'When to take the drug'. It does not name a specific service a member could point to.
+- The name 'The appropriateness of the drug for your condition' describes a criterion or condition used to evaluate coverage, not a specific nameable service or item. It reads as an eligibility/review consideration rather than a benefit.
 
 ## "The correct dosage" -> fragment_or_criterion (confidence=high)
-- 'The correct dosage' is not a nameable service or item; it's a sub-bullet item in a list of assessment factors (appropriateness, dosage, timing, interactions). It describes a criterion/aspect being evaluated in a value-based program, not a specific covered benefit a member could ask about.
+- The name 'The correct dosage' does not name a specific service or item. It describes a condition or qualifier related to medication administration, not a nameable benefit a member could point to and ask if it's covered.
 
 ## "The correct drug dosage" -> fragment_or_criterion (confidence=high)
-- This is an item in a list describing what assessments identify (appropriateness, correct dosage, timing, interactions), not a specific nameable service. It's a fragment describing a criterion/component of medication management, not a benefit itself.
+- The name 'The correct drug dosage' does not name a specific covered service or item. It is a phrase describing a condition or goal within care management, not a nameable benefit a member could ask coverage for. This is a fragment/criterion rather than a benefit.
 
-## "The cost of developing and fitting the basic device" -> fragment_or_criterion (confidence=high)
-- This is a cost/process description within a list of what is covered under prosthetic/orthotic devices, not a specific nameable service. 'The cost of developing and fitting the basic device' describes a cost component rather than a distinct benefit a member could point to and ask about.
+## "The cost of developing and fitting the basic device" -> fragment_or_criterion (confidence=medium)
+- The name describes a cost element/process ('the cost of developing and fitting the basic device') rather than naming a specific service or item a member could point to. It reads as a descriptive clause about what is covered relative to a prosthetic/orthotic device, not a nameable benefit itself. Leaning fragment_or_criterion since it's a descriptive phrase rather than a discrete service name.
 
 ## "The cost of purchasing or replacing the device" -> fragment_or_criterion (confidence=high)
-- The name 'The cost of purchasing or replacing the device' describes a cost/scenario rather than naming a specific service or item. The actual benefit is the prosthetic/orthotic device itself; this phrase is a descriptive clause about paying for purchase/replacement, not a nameable service a member could point to.
+- The name 'The cost of purchasing or replacing the device' describes a cost/scenario related to a device rather than naming a specific service or item. It's a fragment describing a cost condition, not a nameable benefit itself.
 
 ## "The diagnosis of a condition" -> fragment_or_criterion (confidence=high)
-- 'The diagnosis of a condition' describes an activity/scenario within an online visit context rather than naming a specific, coverable service or item. It's a fragment describing what the visit accomplishes, not a nameable benefit a member would point to and ask if covered.
+- 'The diagnosis of a condition' does not name a specific service or item; it describes a scenario/purpose (visits for diagnosing a condition). It reads as a sentence fragment/criterion rather than a nameable benefit.
 
-## "The drug Interactions" -> fragment_or_criterion (confidence=high)
-- This is one item in a list describing aspects of medication counseling/review ('The correct drug dosage', 'The right time to take the drug', 'The drug Interactions'). It is a fragment describing a topic covered during collaborative care management, not a specific nameable service a member could point to and ask if it's covered.
+## "The drug Interactions" -> fragment_or_criterion (confidence=low)
+- The name 'The drug Interactions' reads like a sentence fragment rather than a specific nameable service. 'Drug interactions' is a pharmacological concept/phenomenon, not a covered service a member could point to. Under Collaborative Care Management it likely refers to monitoring or reviewing drug interactions as part of a process. However there is no snippet to confirm, so confidence is low.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "The experimental or investigational item, device or service" -> fragment_or_criterion (confidence=medium)
 - The name is a descriptive phrase referencing 'the experimental or investigational item, device or service' rather than naming a specific covered service. Under a clinical trials routine patient costs section, this reads as a clause describing the scenario/exclusion (i.e., the experimental item itself isn't a routine patient cost), not a nameable benefit a member could point to. It functions as a qualifier/condition rather than a distinct service.
 
 ## "The provider is not a commercial airline" -> fragment_or_criterion (confidence=high)
-- This is a condition/eligibility criterion for air ambulance coverage, not a nameable service. It appears in a bulleted list of requirements ('The provider is not a commercial airline', 'The member is taken to the nearest facility...'), describing qualifiers rather than naming a specific covered service.
+- The name is a condition/qualifier ('The provider is not a commercial airline') describing an eligibility rule for ambulance coverage, not a specific nameable service.
 
 ## "The right time to take the drug" -> fragment_or_criterion (confidence=high)
-- This is a sub-bullet describing an aspect of medication review/counseling within Collaborative Care Management, not a specific nameable service. It's a fragment describing what is evaluated, not a benefit a member could ask coverage for.
+- The name 'The right time to take the drug' is a descriptive phrase about medication timing guidance, not a specific nameable service. It reads as a fragment describing a consideration or scenario rather than a covered service a member could ask about.
 
 ## "The subscriber directs BCBSM not to cover the newborn’s services" -> fragment_or_criterion (confidence=high)
 - The name is a sentence describing a scenario/condition (the subscriber directing BCBSM not to cover services), not a specific nameable service or item. It clearly reads as an eligibility/coverage condition rather than a benefit.
 
-## "Therapeutic boarding schools" -> benefit (confidence=high)
-- 'Therapeutic boarding schools' is a specific, nameable type of facility/service that a member could point to and ask about coverage. Though it appears in exclusion lists, exclusion status must not drive classification. It names a concrete service, not a generic category or fragment.
+## "Therapeutic boarding schools" -> benefit (confidence=medium)
+- 'Therapeutic boarding schools' names a specific, identifiable type of facility/service that a member could ask about, even though it typically appears in exclusion lists. Under Behavioral Health Services, this is a nameable service item rather than a generic category or a fragment/criterion.
 
 ## "Therapeutic care – Evidence-based services from licensed providers. It includes" -> fragment_or_criterion (confidence=medium)
 - The name is a truncated fragment ending with 'It includes', indicating it was cut off mid-sentence. While 'Therapeutic care' could be a benefit, the extraction captured a definitional sentence ('Evidence-based services from licensed providers. It includes...') rather than a clean benefit name. This is a sentence fragment describing what therapeutic care encompasses rather than a discrete nameable service.
 
 ## "Therapeutic injections" -> benefit (confidence=high)
-- Therapeutic injections is a specific, nameable medical service that a member could ask about coverage for, appearing under Professional Services. It refers to a concrete clinical procedure, not a generic category or fragment.
+- 'Therapeutic injections' names a specific, nameable medical service under Professional Services. A member could point to it and ask if it's covered. It is not a generic category word or a fragment/criterion.
 
 ## "Therapeutic pulpotomies or pulpal debridement" -> benefit (confidence=high)
-- This names specific, nameable dental procedures (therapeutic pulpotomies and pulpal debridement) that a member could ask about being covered. It appears in a list of specific Class II basic services alongside other named procedures.
+- This names specific dental procedures (therapeutic pulpotomies, pulpal debridement) that a member could point to and ask about coverage. It appears under Class II Basic Services, a benefit category. It is a real, nameable service.
 
-## "Therapy and counseling for family members" -> benefit (confidence=high)
-- This names a specific, nameable service -- therapy and counseling provided to family members as part of behavioral health treatment. It appears alongside other specific services like individual/group therapy and psychological testing. A member could point to it and ask if it's covered.
+## "Therapy and counseling for family members" -> benefit (confidence=medium)
+- The name refers to a specific, nameable service -- therapy and counseling provided for family members -- within behavioral health services. A member could ask 'is this covered?' It's not a generic category word nor a fragment/criterion; it names an identifiable service.
 
 ## "Therapy that is performed without a physical therapy treatment" -> fragment_or_criterion (confidence=high)
-- The name describes a scenario/condition (therapy performed without a physical therapy treatment) rather than naming a specific service. It appears in an exclusion list describing qualifiers, and does not point to a concrete, nameable service a member could ask about.
+- The name describes a scenario/condition ('Therapy that is performed without a physical therapy treatment') rather than naming a specific, coverable service. It reads as an exclusion clause or qualifier, not a nameable benefit a member could point to.
 
 ## "Therapy that is performed without a physical therapy treatment plan" -> fragment_or_criterion (confidence=high)
-- The name describes a scenario/condition ('therapy performed without a treatment plan') rather than naming a specific, nameable service. It's a qualifier describing when therapy is excluded, not a service a member could point to and ask if covered.
+- The name describes a scenario/condition ('therapy performed without a treatment plan') rather than naming a specific service. It is an exclusion criterion, not a nameable benefit.
 
 ## "Therapy that is performed without an occupational therapy treatment plan" -> fragment_or_criterion (confidence=high)
-- The name describes a condition/scenario ('therapy performed without an occupational therapy treatment plan') rather than naming a specific service. It's an exclusion clause describing when therapy is not covered, not a nameable benefit.
+- The name describes a condition/scenario ('therapy performed without an occupational therapy treatment plan') rather than naming a specific service. It's an exclusion criterion, not a nameable benefit.
 
-## "Thyroid function" -> benefit (confidence=high)
-- Thyroid function refers to a specific diagnostic test, listed alongside EKG, EEG, and pulmonary function studies under Diagnostic Services. It is a nameable, specific service a member could ask about.
+## "Thyroid function" -> fragment_or_criterion (confidence=low)
+- "Thyroid function" under Diagnostic Services likely refers to a thyroid function test, which would be a specific diagnostic service. However, on its own "Thyroid function" names a bodily function rather than a specific service. Given the diagnostic context, it plausibly refers to thyroid function testing, a nameable service. With no snippets and genuine ambiguity, leaning toward benefit is safer, but the bare phrasing describes a function/condition rather than a service. Low confidence given lack of evidence.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Tobacco Cessation Programs" -> benefit (confidence=high)
-- Tobacco Cessation Programs is a specific, nameable service (screening, counseling and prescription drugs to help stop smoking) under Preventive Care Services. A member could clearly ask whether this is covered.
+- Tobacco cessation programs are a specific, nameable covered service commonly found under preventive care. A member could ask 'is this covered?' about it. It names a concrete service, not a generic category or a fragment.
 
 ## "Transcranial Magnetic Stimulation (TMS)" -> benefit (confidence=high)
 - Transcranial Magnetic Stimulation (TMS) is a specific, nameable medical treatment/procedure used for behavioral health conditions. A member could clearly ask whether it is covered. The section header (Behavioral Health Services) is consistent with it being a real service.
@@ -1642,67 +1665,68 @@
 - The name describes transplant surgery performed under a specific scenario/condition ('in a non-designated facility'), which functions as a limitation/qualifier rather than naming a distinct covered service. The core service is 'transplant surgery,' and the added clause specifies where it is performed, making this a scenario/exclusion criterion rather than a specific nameable benefit.
 
 ## "Transplant surgery and related services performed in a nondesignated facility" -> fragment_or_criterion (confidence=medium)
-- While 'Transplant surgery and related services' is a real benefit, this candidate name is qualified by 'performed in a nondesignated facility' — a scenario/condition describing where the service occurs rather than naming a distinct service. The excerpts confirm this is an exclusion scenario ('You have to pay for...if you receive...in a nondesignated facility'). The name describes a circumstance/qualifier rather than a specific nameable service, making it a fragment/criterion.
+- The name describes transplant surgery qualified by a scenario/condition -- being performed 'in a nondesignated facility.' This is not naming a distinct service but rather a limitation/exclusion criterion about where the transplant is performed. The core service is 'transplant surgery,' but the qualifier turns this into a scenario rule rather than a specific nameable benefit.
 
-## "Transportation to and from a hospital or other facility" -> benefit (confidence=high)
-- The name refers to a specific, nameable service (transportation to and from a hospital or other facility) that a member could point to and ask if it's covered. It appears in an exclusion list, but exclusion status must not affect classification. This is a concrete service, not a category word or a fragment/criterion.
+## "Transportation to and from a hospital or other facility" -> benefit (confidence=medium)
+- The name describes a specific, nameable service -- transportation to and from a hospital or other facility -- which a member could ask whether it's covered. This is a concrete service item rather than a generic category or a fragment/condition. Confidence is medium due to lack of direct excerpts, but the name clearly names a service.
 
-## "Traumatic scars" -> benefit (confidence=high)
-- "Traumatic scars" names a specific, nameable condition for which surgical treatment (e.g. reconstructive/scar revision) is provided. It appears in a Surgery section alongside other specific procedures/conditions like blepharoplasty and breast reduction. A member could point to it and ask whether treatment is covered. It is not a generic category word nor a fragment/criterion.
+## "Traumatic scars" -> benefit (confidence=medium)
+- 'Traumatic scars' names a specific, identifiable condition typically addressed under surgical benefits (scar revision/reconstruction). Under the 'Surgery' header, it refers to a nameable service a member could ask about. While no direct snippet is available, the name itself denotes a specific item rather than a generic category or fragment.
 
 ## "Travel and Lodging" -> benefit (confidence=medium)
-- Travel and Lodging refers to a specific, reimbursable expense benefit (up to $5,000) associated with oncology clinical trials. A member could point to it and ask whether their travel/lodging is covered. While somewhat category-like, it names a concrete, reimbursable item with a defined limit, distinguishing it from purely generic administrative terms.
+- Travel and lodging is a specific, nameable benefit often reimbursed under clinical trial provisions. A member could ask 'is my travel and lodging covered?' It refers to concrete items (transportation and accommodation costs), not a generic category word or a fragment/criterion. Confidence is medium due to lack of direct snippet, but it aligns with a recognizable clinical-trial support benefit.
 
-## "Treatment and consultation recommendations" -> fragment_or_criterion (confidence=medium)
-- This phrase describes what an online visit consists of/produces rather than naming a specific covered service. It appears alongside 'The diagnosis of a condition' as components of a telehealth online visit. 'Treatment and consultation recommendations' is a descriptive fragment of what the provider delivers, not a distinct nameable benefit a member would point to and ask if it's covered.
+## "Treatment and consultation recommendations" -> fragment_or_criterion (confidence=low)
+- The name 'Treatment and consultation recommendations' describes an activity/process during a visit rather than a specific nameable covered service. It doesn't refer to a distinct service a member would ask 'is this covered?' about. Without direct snippets, confidence is low, but it reads more as a fragment describing what happens in a visit than a benefit itself.
+- **Not auto-flagged**: below the high/medium-confidence precision gate.
 
 ## "Two single transplants" -> benefit (confidence=medium)
-- 'Two single transplants' names a specific transplant service configuration for which covered services are provided when directly related to it. It appears in a list alongside 'Two tandem transplants', 'A single and a tandem transplant', and 'Allogeneic Transplants' -- all specific, nameable transplant scenarios/services a member could ask about. While it reads somewhat like a scenario, it refers to a concrete, identifiable transplant service arrangement rather than a generic category or an eligibility qualifier.
+- Under the 'Transplant Services' header, 'Two single transplants' names a specific transplant procedure scenario/service that a member could ask about coverage for. While the phrasing is somewhat unusual, it refers to a nameable transplant service rather than a generic category or a mere condition/qualifier. Leaning toward benefit given the transplant context.
 
 ## "Two tandem transplants" -> benefit (confidence=medium)
-- 'Two tandem transplants' refers to a specific, nameable transplant service configuration that a member could ask about coverage for. It appears alongside parallel specific items like 'Two single transplants' and 'A single and a tandem transplant', all naming concrete transplant scenarios rather than administrative categories or eligibility criteria. It names a real, specific procedure type.
+- Under the 'Transplant Services' header, 'Two tandem transplants' names a specific, nameable transplant procedure (tandem transplants performed in sequence). A member could point to it and ask if it's covered, so it qualifies as a real benefit. No snippet available lowers confidence, but the name clearly refers to a specific service.
 
-## "Two visits for children 36 months through 47 months" -> fragment_or_criterion (confidence=high)
-- This is a visit-frequency limitation for well-child visits (a quantity/age-range qualifier), not a nameable service. The underlying benefit is 'well-child visits'; this text merely specifies how many visits are allowed for a specific age range.
+## "Two visits for children 36 months through 47 months" -> fragment_or_criterion (confidence=medium)
+- The name describes a visit frequency/eligibility parameter (number of visits for a specific age range) rather than naming a specific service. It's a coverage limitation/criterion for well-child visits, not a nameable benefit itself.
 
 ## "Two visits per member, per calendar year" -> fragment_or_criterion (confidence=high)
 - This names a frequency/quantity limitation ('two visits per member, per calendar year'), not a specific nameable service. It describes a coverage limit rather than a benefit.
 
 ## "UV coating" -> benefit (confidence=high)
-- UV coating is a specific, nameable lens option that a member could ask whether it's covered. It appears in a list of concrete lens options under the Lenses section, alongside other specific benefits like Progressive lenses and Anti-reflective lenses.
+- UV coating is a specific, nameable vision benefit (a lens treatment) appearing under the 'Lenses' section. A member could point to it and ask if it's covered.
 
-## "Ultrafiltration" -> benefit (confidence=high)
-- Ultrafiltration is a specific, nameable medical procedure used in dialysis to remove fluid from the blood. It appears under Dialysis Services as a covered service. Unlike the generic entries alongside it (Equipment, Drugs, Supplies), it names a concrete procedure.
+## "Ultrafiltration" -> benefit (confidence=medium)
+- Ultrafiltration is a specific, nameable medical procedure related to dialysis (removing fluid from blood). Under the 'Dialysis Services' header, it names a concrete service a member could ask about, so it qualifies as a benefit.
 
 ## "Ultrasound" -> benefit (confidence=high)
-- Ultrasound is a specific, nameable diagnostic imaging service listed alongside other concrete radiology services like X-rays, CAT scans, and MRI. A member could clearly point to it and ask if it's covered.
+- Ultrasound is a specific, nameable diagnostic imaging service under Radiology Services. A member could clearly ask 'is ultrasound covered?' It refers to a concrete procedure, not a generic category or fragment.
 
 ## "Ultraviolet protective coating" -> benefit (confidence=high)
-- Ultraviolet protective coating is a specific, nameable lens option/item that a member could ask about coverage for. It appears in a list of concrete lens options alongside polycarbonate lenses, anti-reflective coating, etc.
+- Ultraviolet protective coating is a specific, nameable vision lens option/add-on that a member could ask whether it's covered. Under the 'Lenses' header, it's a concrete item, not a generic category or fragment.
 
-## "Umbilical cord blood" -> benefit (confidence=high)
-- Umbilical cord blood is a specific, nameable item used in stem cell/transplant contexts. It appears alongside other harvested materials like peripheral blood stem cells as a concrete covered item a member could ask about.
+## "Umbilical cord blood" -> benefit (confidence=medium)
+- 'Umbilical cord blood' names a specific, identifiable item/service (used in transplants and clinical trials). It is not a generic category word nor a fragment/criterion. Given the header 'Oncology Clinical Trials,' it plausibly refers to umbilical cord blood collection/storage/transplant coverage. Leaning toward benefit as instructed when uncertain.
 
-## "Unstable angina" -> fragment_or_criterion (confidence=high)
-- Unstable angina is a medical condition, not a covered service or item. It appears in a list of 'medical conditions' that serve as examples/criteria (likely for medically necessary hospital dental care). It does not name a specific service a member could ask to have covered; it describes a qualifying clinical scenario.
+## "Unstable angina" -> benefit (confidence=medium)
+- Unstable angina is a specific, nameable medical condition/diagnosis. While the section header 'Dental Services' seems mismatched, the name itself refers to a concrete clinical entity a member could ask about. Absent contradicting snippets, lean toward benefit.
 
-## "Up to eight hours of routine home care per day" -> benefit (confidence=medium)
-- The name describes routine home care under hospice services, which is a specific, nameable service. The 'up to eight hours per day' is a quantity qualifier attached to a real service (routine home care). A member could ask 'is routine home care covered?' The service is identifiable, so it leans toward benefit despite the quantity framing.
+## "Up to eight hours of routine home care per day" -> fragment_or_criterion (confidence=medium)
+- The name describes a quantity/limit qualifier ('up to eight hours per day') rather than naming a specific service. While 'routine home care' is embedded, the phrasing is a coverage limitation/scenario descriptor typical of hospice benefit limits, not a standalone nameable service. It reads as a criterion describing how much of a service is covered.
 
 ## "Use of ambulatory surgery facility" -> benefit (confidence=medium)
-- The name refers to use of an ambulatory surgery facility, which is a specific, nameable covered item/service that a member could ask about. It appears in a benefit list alongside other concrete services like anesthesia and recovery room. While phrased with 'Use of', it names a specific facility service rather than a generic category or a conditional fragment.
+- The name refers to the use of an ambulatory surgery facility, which is a specific, nameable service/facility a member could ask about coverage for. It appears under the 'Surgery' header, consistent with a real benefit. While phrased as 'use of...', it still names a concrete facility-based service rather than a generic category or a fragment/criterion.
 
 ## "Visits through age 18 as follows" -> fragment_or_criterion (confidence=high)
-- This is a header/qualifier phrase introducing a schedule of visit counts ('Visits through age 18 as follows:'). It does not name a specific service; the actual benefit is 'Well-Baby and Well-Child Visits'. This text describes the scope/frequency criterion rather than a nameable service.
+- The name 'Visits through age 18 as follows' is a sentence fragment/lead-in describing an age criterion followed by an enumeration, not a specific nameable service. It describes eligibility scope rather than naming a benefit.
 
 ## "Visual reading and urine test strips" -> benefit (confidence=high)
-- This names a specific, tangible diabetic supply item (visual reading and urine test strips) listed alongside other concrete items like lancets, syringes, and insulin. A member could point to it and ask whether it is covered.
+- This names a specific, tangible item -- visual reading and urine test strips -- used in diabetes management. It's a concrete supply a member could ask about coverage for, appearing under the Outpatient Diabetes Management Program section.
 
 ## "Vital pulpotomies on primary teeth" -> benefit (confidence=high)
-- This names a specific, nameable dental procedure (vital pulpotomy performed on primary teeth), appearing under Class II Basic Services alongside other specific procedures. A member could clearly ask whether this procedure is covered.
+- This names a specific, nameable dental procedure (vital pulpotomy on primary teeth), listed under Class II Basic Services. A member could point to it and ask if it's covered.
 
 ## "Vitamins" -> benefit (confidence=medium)
-- Vitamins is a specific, nameable item that a member could ask about coverage for (e.g., preventive vitamins covered under ACA). It refers to a concrete product category, not a process or cost-share term, and not a fragment or criterion. While somewhat broad, it names a specific item type rather than an administrative concept, so I lean toward benefit.
+- 'Vitamins' names a specific, nameable item that a member could ask whether it is covered, appearing under Prescription Drugs. Though often excluded, it refers to a concrete product type rather than a process word or fragment. Leaning toward benefit per guidance.
 
 ## "Well-Baby and Well-Child Visits" -> benefit (confidence=high)
 - Well-Baby and Well-Child Visits are specific, nameable preventive care services that a member could ask about coverage for. This is a real benefit under Preventive Care Services, not a generic category or fragment.

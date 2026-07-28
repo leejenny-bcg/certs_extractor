@@ -5,6 +5,7 @@ Drugs obtained from an out-of-network mail order provider.,exact,2,65,14,ppo_med
 Individual psychotherapeutic treatment,exact,2,64,14,ppo_medical,13,51,0,64,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Family counseling,exact,2,64,14,ppo_medical,13,51,0,64,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Group psychotherapeutic treatment,exact,2,64,14,ppo_medical,13,51,0,64,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Consultations required by a facility’s or program’s rules,exact,2,52,13,ppo_medical,0,52,0,0,52,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Marital counseling,exact,2,52,13,ppo_medical,0,52,0,52,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Prescribed drugs given by the hospital or facility during the member’s treatment,exact,2,52,13,ppo_medical,0,52,0,0,52,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Ancillary services,exact,"2,3",50,14,ppo_medical,0,37,13,37,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
@@ -42,12 +43,10 @@ Acute Care,exact,"2,3",27,14,ppo_medical,0,14,13,14,13,Skilled Nursing Facility 
 Physical Therapy,exact,"1,2",26,14,ppo_medical,26,0,0,26,0,Autism Spectrum Disorders
 Occupational Therapy,exact,"1,2",26,14,ppo_medical,26,0,0,26,0,Autism Spectrum Disorders
 Speech Language Therapy,exact,"1,2",26,14,ppo_medical,26,0,0,26,0,Autism Spectrum Disorders
-Consultations required by a facility’s or program’s rules,exact,2,26,13,ppo_medical,0,26,0,0,26,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Treatment or supplies that do not meet BCBSM requirements,exact,2,26,13,ppo_medical,0,26,0,0,26,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Services provided by the facility's staff,exact,2,26,13,ppo_medical,13,13,0,0,26,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Prescribed drugs given by the facility in connection with treatment,exact,2,26,13,ppo_medical,13,13,0,0,26,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Services provided in a skilled nursing facility or through a residential or outpatient substance abuse treatment program,exact,2,26,13,ppo_medical,0,26,0,0,26,Behavioral Health Services (Mental Health and Substance Use Disorder)
-Consultations required by a facility or program’s rule,exact,2,26,13,ppo_medical,0,26,0,0,26,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Services provided by a nonparticipating outpatient psychiatric care facility,exact,2,26,13,ppo_medical,0,26,0,0,26,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Certified Nurse Practitioner,exact,"2,3",26,14,ppo_medical,13,0,13,13,13,Chronic Disease Management
 Clinical Nurse Specialist-Certified,exact,"2,3",26,14,ppo_medical,13,0,13,13,13,Chronic Disease Management
@@ -204,6 +203,7 @@ Removal of the equipment after it is no longer needed,exact,2,14,14,ppo_medical,
 "Services provided by persons under contract with the hospital, agencies or organizations assisting in the dialysis or acting as ""backup"" including hospital personnel sent to the member's home",exact,2,14,14,ppo_medical,0,14,0,0,14,Dialysis Services
 Electricity or water used to operate the dialyzer,exact,2,14,14,ppo_medical,0,14,0,14,0,Dialysis Services
 "Installation of electric power, a water supply or a sanitary waste disposal system",exact,2,14,14,ppo_medical,0,14,0,0,14,Dialysis Services
+Transfer of the dialyzer to another location in the member’s home,exact,2,14,14,ppo_medical,0,14,0,0,14,Dialysis Services
 Physician services not paid by the hospital,exact,2,14,14,ppo_medical,0,14,0,14,0,Dialysis Services
 The use of durable medical equipment while you are in the hospital.,exact,2,14,14,ppo_medical,14,0,0,0,14,Durable Medical Equipment
 "The rental or purchase of durable medical equipment, if prescribed by a physician or other provider licensed to prescribe it. You may obtain it from",exact,2,14,14,ppo_medical,14,0,0,0,14,Durable Medical Equipment
@@ -507,7 +507,6 @@ You will need to pay the out-of-network cost-share if tests are done by an out-o
 "The treatment must be arranged by the member’s physician and the physician director, or a committee of staff physicians of a self-dialysis training program",exact,2,13,13,ppo_medical,0,13,0,0,13,Dialysis Services
 The owner of the member’s home must give the hospital prior written permission to install the equipment.,exact,2,13,13,ppo_medical,0,13,0,0,13,Dialysis Services
 Continuous ambulatory peritoneal dialysis and self-dialysis training with the number of training sessions limited according to Medicare guidelines,exact,2,13,13,ppo_medical,13,0,0,0,13,Dialysis Services
-Continuous cycling peritoneal dialysis (limited to 14 dialysis treatments per month) and self- dialysis training with the number of training sessions limited according to Medicare guidelines,exact,2,13,13,ppo_medical,13,0,0,0,13,Dialysis Services
 Placement and maintenance of a dialysis machine in the member’s home,exact,2,13,13,ppo_medical,13,0,0,0,13,Dialysis Services
 A participating hospital (when you are discharged),exact,2,13,13,ppo_medical,13,0,0,13,0,Durable Medical Equipment
 A DME supplier,exact,2,13,13,ppo_medical,13,0,0,13,0,Durable Medical Equipment
@@ -528,7 +527,6 @@ Part of a comprehensive rehabilitation plan,exact,2,13,13,ppo_medical,0,13,0,13,
 Services and medical supplies to treat and control diabetes when prescribed by a physician or other professional provider licensed to prescribe it. Services and supplies include,exact,2,13,13,ppo_medical,13,0,0,0,13,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
 "Part of a comprehensive rehabilitation plan, and",exact,2,13,13,ppo_medical,0,13,0,13,0,Physical Therapy
 Select diabetic supplies and devices when prescribed by a physician or other professional provider licensed to prescribe it. Select diabetic supplies and devices include,exact,2,13,13,ppo_medical,13,0,0,0,13,Prescription Drugs
-Diabetic supplies will be subject to your preferred brand-name drug and/or nonpreferred brand- name drugs cost-share requirement.,exact,2,13,13,ppo_medical,13,0,0,0,13,Prescription Drugs
 “Preferred” devices will be covered at 100% of our approved amount. “Nonpreferred” devices will be subject to your nonpreferred brand-name drugs cost-share requirement.,exact,2,13,13,ppo_medical,13,0,0,0,13,Prescription Drugs
 Covered Drugs Obtained from an Out-of-Network Pharmacy,exact,2,13,13,ppo_medical,13,0,0,13,0,Prescription Drugs
 Payment for non-covered specialty drugs or services.,exact,2,13,7,ppo_medical,0,13,0,0,13,Prescription Drugs
@@ -585,8 +583,10 @@ $60 per day for travel,exact,2,12,12,ppo_medical,12,0,0,12,0,Oncology Clinical T
 $50 per day for lodging,exact,2,12,12,ppo_medical,12,0,0,12,0,Oncology Clinical Trials
 Licensed in the state of Michigan,exact,2,12,12,ppo_medical,12,0,0,12,0,Optometrist Services
 Certified by the Michigan Board of Optometry to administer and prescribe therapeutic pharmaceutical agents,exact,2,12,12,ppo_medical,12,0,0,0,12,Optometrist Services
+Self-management training is considered medically necessary upon diagnosis by an M.D. or D.O.,exact,2,12,12,ppo_medical,12,0,0,0,12,Outpatient Diabetes Management Program (ODMP)
 Your M.D. or D.O. diagnoses a significant change with long-term implications in your symptoms or conditions that necessitate changes in your self-management or a significant change in medical protocol or treatment.,exact,2,12,12,ppo_medical,12,0,0,0,12,Outpatient Diabetes Management Program (ODMP)
 A combined maximum of 30 habilitative and a combined maximum of 30 rehabilitative outpatient visits per member per calendar year.,exact,2,12,12,ppo_medical,12,0,0,0,12,Occupational Therapy | Physical Therapy
+Diabetic supplies will be subject to your preferred brand-name drug and/or nonpreferred brand- name drugs cost-share requirement.,exact,2,12,12,ppo_medical,12,0,0,0,12,Prescription Drugs
 "One per member, per calendar year",exact,2,12,12,ppo_medical,12,0,0,12,0,Preventive Care Services
 "Two visits per member, per calendar year",exact,2,12,12,ppo_medical,12,0,0,12,0,Preventive Care Services
 "Screening, counseling and prescription drugs to help you stop smoking",exact,2,12,12,ppo_medical,12,0,0,12,0,Preventive Care Services
@@ -659,12 +659,12 @@ Conventional Treatment,exact,3,10,10,ppo_medical,0,0,10,0,10,
 A physician who orders and supervises anesthesiology services,exact,2,10,10,ppo_medical,10,0,0,10,0,Anesthesiology Services
 A certified registered nurse anesthetist (CRNA),exact,2,10,10,ppo_medical,10,0,0,10,0,Anesthesiology Services
 Autism spectrum disorder services including applied behavior analysis (ABA) is covered subject to the following requirements,exact,2,10,10,ppo_medical,10,0,0,0,10,Autism Spectrum Disorders
+Continuous cycling peritoneal dialysis (limited to 14 dialysis treatments per month) and self- dialysis training with the number of training sessions limited according to Medicare guidelines,exact,2,10,10,ppo_medical,10,0,0,0,10,Dialysis Services
 The member's family cannot provide the services and the home health care agency has identified a need for these services for the member to participate in the program,exact,2,10,10,ppo_medical,10,0,0,0,10,Home Health Care Services
 The services are provided by a home health aide and supervised by a registered nurse employed by the agency,exact,2,10,10,ppo_medical,10,0,0,0,10,Home Health Care Services
 A participating hospice inpatient unit,exact,2,10,10,ppo_medical,10,0,0,10,0,Hospice Care Services
 A participating hospital contracting with the hospice program or,exact,2,10,10,ppo_medical,10,0,0,10,0,Hospice Care Services
 A participating skilled nursing facility contracting with the hospice program,exact,2,10,10,ppo_medical,10,0,0,10,0,Hospice Care Services
-Transfer of the dialyzer to another location in the member’s home,exact,2,10,10,ppo_medical,0,10,0,0,10,Dialysis Services
 "Occupational therapy, Page 73",fuzzy,2,10,10,ppo_medical,10,0,0,10,0,Home Health Care Services
 "Speech language therapy, Page 121",fuzzy,2,10,10,ppo_medical,10,0,0,10,0,Home Health Care Services
 Payment for noncovered specialty drugs or services,exact,2,10,7,ppo_medical,0,10,0,0,10,Prescription Drugs
@@ -700,7 +700,6 @@ Electroconvulsive Treatment (ECT),exact,2,9,9,ppo_medical,9,0,0,9,0,Hospital Ser
 Pulmonary function evaluation,exact,2,9,9,ppo_medical,9,0,0,9,0,Hospital Services
 "Whole blood, blood derivatives, blood plasma or packed red blood cells, supplies and their administration",exact,2,9,9,ppo_medical,9,0,0,0,9,Hospital Services
 Hyperbaric oxygenation (therapy given in a pressure chamber),exact,2,9,9,ppo_medical,9,0,0,9,0,Hospital Services
-Self-management training is considered medically necessary upon diagnosis by an M.D. or D.O.,exact,2,9,9,ppo_medical,9,0,0,0,9,Outpatient Diabetes Management Program (ODMP)
 "One exam per member, per calendar year",exact,2,9,9,ppo_medical,9,0,0,9,0,Preventive Care Services
 "Harvesting (including peripheral blood stem cell pheresis) and storage of the donor’s bone marrow, peripheral blood stem cell and/or umbilical cord blood, if the donor is",exact,2,9,9,ppo_medical,9,0,0,0,9,Transplant Services
 Therapy that is performed without a physical therapy treatment plan,exact,2,9,9,ppo_medical,0,9,0,9,0,Physical Therapy
@@ -794,7 +793,6 @@ Changes to Your Certificate,exact,3,5,5,"dental,vision",0,0,5,0,5,
 Enforceability of Various Provisions,exact,3,5,5,"dental,vision",0,0,5,0,5,
 Expedited External Review Process,exact,3,5,5,"dental,vision",0,0,5,0,5,
 Expedited Internal Review Process,exact,3,5,5,"dental,vision",0,0,5,0,5,
-In-Network Provider,exact,3,5,4,vision,0,0,5,0,5,
 Blood tests to evaluate donors (if not covered by the potential donor’s insurance),exact,2,5,5,ppo_medical,5,0,0,0,5,Oncology Clinical Trials
 Therapy that is performed without a physical therapy treatment,exact,2,5,5,ppo_medical,0,5,0,5,0,Physical Therapy
 Autism Coverage Requirements,exact,3,5,5,ppo_medical,0,0,5,5,0,Autism Spectrum Disorders
@@ -803,6 +801,7 @@ Immunizations. We pay for vaccines against infection during the first 24 months 
 Specialty drugs dispensed by a participating mail order provider. Specialty drugs may only be obtained from the exclusive pharmacy network for specialty drugs. See specialty drugs within your certificate for more information.,exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
 Specialty drugs obtained outside our exclusive pharmacy network for specialty drugs,exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
 Prescriptions for quantities of 84 through 90 days that are not provided by a 90-Day Retail,exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
+"More than the quantities allowed per prescription of select drugs by BCBSM, unless the prescriber obtains prior authorization from BCBSM. A list of drugs that may have quantity limits is available at the BCBSM website at https://www.bcbsm.com/2026-select-ppo-druglist",exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
 Any drug we think is experimental or investigational.,exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
 State-controlled drugs,exact,2,5,5,ppo_medical,0,5,0,5,0,Prescription Drugs
 Any covered drug entirely consumed at the time and place of the prescription,exact,2,5,5,ppo_medical,0,5,0,0,5,Prescription Drugs
@@ -862,7 +861,6 @@ General conditions of Your Contract,exact,3,4,4,vision,0,0,4,0,4,
 How to Reach VSP,exact,3,4,4,vision,0,0,4,0,4,
 Emergency dental care is the treatment of accidental injuries within 24 hours of the injury. This is to relieve pain and discomfort. We also pay for follow-up treatment completed within six months of the injury.,exact,2,4,4,ppo_medical,4,0,0,0,4,Dental Services
 Physical therapy or (see Page 83 for physical therapy services),fuzzy,2,4,4,ppo_medical,4,0,0,4,0,Dental Services
-Transfer of the dialyzer to another location in the members home,exact,2,4,4,ppo_medical,0,4,0,0,4,Dialysis Services
 "Inpatient and Outpatient Consultations: If a physician needs help diagnosing or treating a member ’s condition, we pay for inpatient and outpatient consultations. They must be provided by a professional provider who has the skills or knowledge needed for the case.",exact,2,4,4,ppo_medical,4,0,0,0,4,Professional Services
 Accidental Dental Injury,exact,3,4,4,ppo_medical,0,0,4,1,3,Contraceptive Services
 Blue Cross Blue Shield Global Core,exact,3,4,4,ppo_medical,0,0,4,0,4,
@@ -873,7 +871,6 @@ The member is receiving skilled nursing care or physical therapy or speech langu
 Newborn examination given by a physician other than the anesthesiologist or the attending physician of the birth parent,exact,2,4,4,ppo_medical,4,0,0,0,4,Maternity Care
 "each visit, including",exact,2,4,4,ppo_medical,4,0,0,4,0,BCBSM PPO In-Network Providers
 "To avoid out-of-network cost share, obtain your prescribed durable medical equipment and prosthetics, orthotics and medical supplies from an in-network provider. Contact Customer",exact,2,4,4,ppo_medical,4,0,0,0,4,Durable Medical Equipment
-"More than the quantities allowed per prescription of select drugs by BCBSM, unless the prescriber obtains prior authorization from BCBSM. A list of drugs that may have quantity limits is available at the BCBSM website at https://www.bcbsm.com/2026-select-ppo-druglist",exact,2,4,4,ppo_medical,0,4,0,0,4,Prescription Drugs
 In a participating freestanding ESRD facility in conjunction with dialysis services (see Page 52),exact,2,4,4,ppo_medical,4,0,0,0,4,Prescription Drugs
 When required for infusion therapy (see Page 67),exact,2,4,4,ppo_medical,4,0,0,0,4,Prescription Drugs
 In a participating hospice for the comfort of the member (see Page 61),exact,2,4,4,ppo_medical,4,0,0,0,4,Prescription Drugs
@@ -900,7 +897,6 @@ For bone marrow transplants,exact,3,4,4,ppo_medical,0,0,4,4,0,Transplant Service
 For oncology clinical trials,exact,3,4,4,ppo_medical,0,0,4,4,0,Oncology Clinical Trials
 Infusion pumps,exact,3,4,4,ppo_medical,0,0,4,4,0,Cardiac Rehabilitation
 Spectrum Disorders,exact,3,4,3,ppo_medical,0,0,4,3,1,Audiologist Services
-Class I – Diagnostic and Preventive Services,exact,"1,3",4,2,dental,2,0,2,4,0,Class I – Diagnostic and Preventive Services
 Diagnostic and preventive services,exact,"2,3",4,2,dental,2,0,2,4,0,Class I – Diagnostic and Preventive Services
 Class II – Basic Services,exact,"1,3",4,2,dental,2,0,2,4,0,Class I – Diagnostic and Preventive Services
 Emergency palliative treatment,exact,"2,3",4,2,dental,2,0,2,4,0,Class I – Diagnostic and Preventive Services | Class II – Basic Services
@@ -917,8 +913,8 @@ Copayment Amount,exact,3,3,3,vision,0,0,3,0,3,
 Improper Use of Contract,exact,3,3,3,vision,0,0,3,0,3,
 In Network Providers - Copayments,exact,3,3,3,vision,0,0,3,0,3,
 Applied spectrum disorder services including applied behavior analysis (ABA) is covered subject to the following requirements,exact,2,3,3,ppo_medical,3,0,0,0,3,Autism Spectrum Disorders
+Continuous cycling peritoneal dialysis (limited to 14 dialysis treatments per month) and self-dialysis training with the number of training sessions limited according to Medicare guidelines,exact,2,3,3,ppo_medical,3,0,0,0,3,Dialysis Services
 Services must be medically necessary . Refer to Section 7 for the definition of “medically necessary.”,exact,2,3,3,ppo_medical,3,0,0,0,3,Optometrist Services
-Self-management training is considered medically necessary upon diagnosis by an M.D. or,exact,2,3,3,ppo_medical,3,0,0,0,3,Outpatient Diabetes Management Program (ODMP)
 Administered by the physician or un der the physician’s supervision,exact,2,3,3,ppo_medical,3,0,0,0,3,Prescription Drugs
 "Harvesting (including peripheral blood stem cell pheresi s) and storage of the donor’s bone marrow, peripheral blood stem cell and/or umbilical cord blood, if the donor is",exact,2,3,3,ppo_medical,3,0,0,0,3,Transplant Services
 "Prenatal care, including maternity education provided in a physician’s office as part of a prenatal visit",exact,2,3,3,ppo_medical,3,0,0,0,3,Maternity Care
@@ -956,6 +952,7 @@ definition,exact,3,3,3,ppo_medical,0,0,3,0,3,
 Allogeneic,exact,3,3,3,ppo_medical,0,0,3,3,0,Temporary Benefits | Transplant Services
 Department of Insurance and Financial Services (DIFS),exact,3,3,3,"dental,vision",0,0,3,0,3,
 Improper Use,exact,3,3,3,"dental,vision",0,0,3,0,3,
+In-Network Provider,exact,3,3,2,vision,0,0,3,0,3,
 Member,exact,3,3,3,"dental,vision",0,0,3,0,3,
 Fluoride treatments,exact,"2,3",3,2,dental,2,0,1,3,0,Class I – Diagnostic and Preventive Services
 Adjunctive general services,exact,"2,3",3,2,dental,2,0,1,3,0,Class II – Basic Services
@@ -966,6 +963,7 @@ Lien,exact,3,3,3,"dental,vision",0,0,3,0,3,
 One pair of lenses or contact lenses every 12 months,exact,2,2,2,vision,2,0,0,2,0,Frequency
 Paid Under Other Certificates,exact,3,2,2,vision,0,0,2,0,2,
 (DIFS),exact,3,2,2,vision,0,0,2,0,2,
+In- Network Provider,exact,3,2,2,vision,0,0,2,0,2,
 "Physical therapy (Page 83), speech language therapy (Page 116) or occupational therapy (Page",exact,2,2,2,ppo_medical,2,0,0,0,2,Skilled Nursing Facility Services
 "More than a 30-day supply of a covered drug unless dispensed by an In-Network Retail 90 pharmacy or In-Network Mail Order pharmacy. We may make exceptions for drugs whose minimal package size prevents a 30-day supply from being dispensed (e.g., inhalers)",exact,2,2,2,ppo_medical,0,2,0,0,2,Prescription Drugs
 Covered Drugs,exact,3,2,2,ppo_medical,0,0,2,0,2,
@@ -1012,6 +1010,7 @@ Physical therapy (see Page 91 for physical therapy services),exact,2,2,2,ppo_med
 Benefit Maximums,exact,3,2,2,ppo_medical,0,0,2,2,0,Autism Spectrum Disorders
 Autologous,exact,3,2,2,ppo_medical,0,0,2,2,0,Transplant Services
 "Mental health and substance use disorder visits (office, virtual or online visits)",exact,2,2,2,"csr_rider,ppo_medical",2,0,0,0,2,BCBSM PPO In-Network Providers | Copayment Requirements
+Class I – Diagnostic and Preventive Services,exact,1,2,2,dental,2,0,0,2,0,
 Oral examinations/evaluations,exact,2,2,2,dental,2,0,0,2,0,Class I – Diagnostic and Preventive Services
 Prophylaxes,exact,2,2,2,dental,2,0,0,2,0,Class I – Diagnostic and Preventive Services
 Bitewing radiographs (X-rays) and individual periapical films,exact,2,2,2,dental,2,0,0,2,0,Class I – Diagnostic and Preventive Services
@@ -1074,6 +1073,7 @@ Amount Billed,exact,3,2,2,dental,0,0,2,0,2,
 Bridges,exact,3,2,2,dental,0,0,2,2,0,Class I – Diagnostic and Preventive Services
 By Report,exact,3,2,2,dental,0,0,2,0,2,
 Choosing A Dentist,exact,3,2,2,dental,0,0,2,0,2,
+Class I ‐ Diagnostic and Preventive Services,exact,3,2,2,dental,0,0,2,2,0,Class I – Diagnostic and Preventive Services
 Composite Fillings,exact,3,2,2,dental,0,0,2,2,0,Class I – Diagnostic and Preventive Services
 Course of Treatment,exact,3,2,2,dental,0,0,2,0,2,
 Crowns,exact,3,2,2,dental,0,0,2,2,0,Class I – Diagnostic and Preventive Services
@@ -1101,7 +1101,6 @@ Short-term general inpatient care when the member is admitted for pain control o
 "Physical therapy, speech language therapy services and occupational therapy when provided to control symptoms and maintain a member’s daily activities and basic functional skills",exact,2,1,1,ppo_medical,1,0,0,0,1,Hospice Care Services
 "Drugs required for infusion therapy. Since specialty pharmaceuticals may be used in infusion therapy, please see the Prior Authorization for Specialty Pharmaceuticals requirement described on Page 101.",exact,2,1,1,ppo_medical,1,0,0,0,1,Infusion Therapy
 Services received from a nonparticipating hospital or nonparticipating,exact,2,1,1,ppo_medical,0,1,0,0,1,Occupational Therapy
-"More than the quantities allowed per prescription of select drugs by BCBSM, unless the prescriber obtains prior authorization from BCBSM. A list of drugs that may have quantity limits is available at the BCBSM website at https://www.bcbsm.com/2025-select-ppo-druglist",exact,2,1,1,ppo_medical,0,1,0,0,1,Prescription Drugs
 Any drug or device prescribed for uses or in dosages other than those specifically approved by the Food and Drug Administration. This is often referred to as the off-label use of a drug or device.,exact,2,1,1,ppo_medical,0,1,0,0,1,Prescription Drugs
 In a participating freestanding ESRD facility in conjunction with dialysis services (see Page 48),exact,2,1,1,ppo_medical,1,0,0,0,1,Prescription Drugs
 When required for infusion therapy (see Page 63),exact,2,1,1,ppo_medical,1,0,0,0,1,Prescription Drugs
@@ -1197,6 +1196,7 @@ Physicians and Other Professional Providers,exact,2,1,1,ppo_medical,1,0,0,1,0,BC
 Services given when intensive monitoring and/or supervision during exercise is required. Services may be given in,exact,2,1,1,ppo_medical,1,0,0,0,1,Cardiac Rehabilitation
 "If physical therapy, occupational therapy or speech language therapy services cannot be done in the home, we will pay for outpatient therapy. It may be in an outpatient department of a hospital or a physical therapy facility. Benefits are subject to the combined 30-visit maximums for physical therapy and occupational therapy and the 30-visit maximum for speech language therapy described on Pages 77, 91 and 127.",exact,2,1,1,ppo_medical,1,0,0,0,1,Home Health Care Services
 "Ostomy sets and accessories, catheterization equipment and urinary sets",exact,2,1,1,ppo_medical,1,0,0,1,0,Medical Supplies
+Diabetic supplies will be subject to your preferred brand-name drug and/or nonpreferred brand name drugs cost-share requirement.,exact,2,1,1,ppo_medical,1,0,0,0,1,Prescription Drugs
 Refills of prescriptions for covered drugs that exceed BCBSM’s limits,exact,2,1,1,ppo_medical,0,1,0,1,0,Prescription Drugs
 BCBSM does not cover refills that are dispensed before 75% of the time the prescription covers has elapsed.,exact,2,1,1,ppo_medical,0,1,0,0,1,Prescription Drugs
 BCBSM does not cover more refills than your prescription allows.,exact,2,1,1,ppo_medical,0,1,0,0,1,Prescription Drugs

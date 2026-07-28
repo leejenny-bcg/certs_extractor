@@ -1,6 +1,6 @@
 # LLM Classifications (Stage 4.5)
 
-565 candidates evaluated. confidence="high" or "medium" generic_administrative/fragment_or_criterion results are applied as flags (hidden by the UI's "hide low-quality entries" checkbox) -- everything else (low confidence, or "benefit") is left alone, per the precision gate.
+562 candidates evaluated. confidence="high" or "medium" generic_administrative/fragment_or_criterion results are applied as flags (hidden by the UI's "hide low-quality entries" checkbox) -- everything else (low confidence, or "benefit") is left alone, per the precision gate.
 
 ## "$130 allowance for frames or elective contact lenses" -> benefit (confidence=medium)
 - The name describes a specific, nameable vision benefit -- a $130 allowance toward frames or elective contact lenses -- which a member could point to and ask about. It names a concrete covered item/allowance rather than a generic category or a condition/exclusion. Confidence is medium because it's phrased partly as an allowance amount, but it clearly refers to a specific vision benefit.
@@ -1172,15 +1172,6 @@
 
 ## "Physical therapists" -> benefit (confidence=medium)
 - 'Physical therapists' names a specific type of provider whose services are covered. It appears in a list of provider types. While it's a provider rather than a service, it refers to a specific, nameable category a member could ask about (physical therapy services). It's specific rather than a generic administrative process word or a fragment. Leaning toward benefit per guidance.
-
-## "Physical therapy (see Page 86 for physical therapy services)" -> benefit (confidence=high)
-- The core name 'Physical therapy' is a real, specific, nameable covered service. The parenthetical cross-reference ('see Page X for physical therapy services') is just a pointer artifact and doesn't change that the name refers to a legitimate benefit a member could ask about.
-
-## "Physical therapy (see Page 91 for physical therapy services)" -> benefit (confidence=medium)
-- The core name 'Physical therapy' refers to a specific, nameable service a member could ask about. The parenthetical cross-reference ('see Page 91 for physical therapy services') is just a pointer artifact, not part of the benefit itself. Despite appearing under 'Dental Services' header, the underlying service is a real benefit.
-
-## "Physical therapy or (see Page 83 for physical therapy services)" -> fragment_or_criterion (confidence=medium)
-- While 'Physical therapy' is a real benefit, the extracted name is actually a cross-reference fragment ('Physical therapy or (see Page 83 for physical therapy services)') rather than a clean benefit name. The trailing 'or' and parenthetical pointer indicate this is a mis-extracted sentence fragment/navigational reference rather than a proper benefit name entry.
 
 ## "Physician services (up to two visits per week)" -> benefit (confidence=high)
 - 'Physician services' is a specific, nameable service that a member could ask about coverage for. The parenthetical '(up to two visits per week)' is a frequency limitation on that benefit, not a disqualifier. In the context of Skilled Nursing Facility Services, this names a real covered service.

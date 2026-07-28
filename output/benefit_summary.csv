@@ -8,6 +8,7 @@ Group psychotherapeutic treatment,exact,2,64,14,ppo_medical,13,51,0,64,0,Behavio
 Consultations required by a facility’s or program’s rules,exact,2,52,13,ppo_medical,0,52,0,0,52,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Marital counseling,exact,2,52,13,ppo_medical,0,52,0,52,0,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Prescribed drugs given by the hospital or facility during the member’s treatment,exact,2,52,13,ppo_medical,0,52,0,0,52,Behavioral Health Services (Mental Health and Substance Use Disorder)
+Physical therapy,exact,"1,2",50,14,ppo_medical,50,0,0,50,0,Autism Spectrum Disorders | Dental Services | Home Health Care Services
 Ancillary services,exact,"2,3",50,14,ppo_medical,0,37,13,37,13,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Durable medical equipment,exact,"1,2",45,20,"csr_rider,ppo_medical",45,0,0,45,0,BCBSM PPO In-Network Providers | BCBSM PPO Out-of-Network Providers | Coinsurance Requirements
 Amounts that exceed our approved amount for covered drugs or out-of-network retail penalty amounts.,exact,2,43,14,ppo_medical,0,43,0,0,43,Prescription Drugs
@@ -20,7 +21,6 @@ High-dose chemotherapy and/or total body irradiation,exact,2,38,12,ppo_medical,3
 Hospitalization,exact,2,38,12,ppo_medical,38,0,0,38,0,Oncology Clinical Trials | Transplant Services
 Allogeneic Transplants,exact,"2,3",38,14,ppo_medical,28,0,10,36,2,Oncology Clinical Trials | Transplant Services
 Services provided by the hospital’s or facility’s staff,exact,2,37,13,ppo_medical,0,37,0,0,37,Behavioral Health Services (Mental Health and Substance Use Disorder)
-Physical therapy,exact,"1,2",36,14,ppo_medical,36,0,0,36,0,Autism Spectrum Disorders | Home Health Care Services
 Occupational therapy,exact,"1,2",36,14,ppo_medical,36,0,0,36,0,Autism Spectrum Disorders | Home Health Care Services
 Speech language therapy,exact,"1,2",36,14,ppo_medical,36,0,0,36,0,Autism Spectrum Disorders | Home Health Care Services
 Autologous Transplants,exact,"2,3",33,14,ppo_medical,18,0,15,20,13,Oncology Clinical Trials | Transplant Services
@@ -728,7 +728,6 @@ Cosmetic Drugs,exact,3,8,8,ppo_medical,0,0,8,0,8,
 Medically necessary and appropriate,exact,2,8,8,ppo_medical,8,0,0,8,0,Autism Spectrum Disorders
 Comprehensive and focused on managing and improving the symptoms directly related to a member’s autism spectrum disorder,exact,2,8,8,ppo_medical,8,0,0,0,8,Autism Spectrum Disorders
 Deemed safe and effective by BCBSM,exact,2,8,8,ppo_medical,8,0,0,8,0,Autism Spectrum Disorders
-Physical therapy (see Page 86 for physical therapy services),fuzzy,2,8,8,ppo_medical,8,0,0,8,0,Dental Services
 "Inpatient and Outpatient Consultations: If a physician needs help diagnosing or treating a member’s condition, we pay for inpatient and outpatient consultations. They must be provided by a professional provider who has the skills or knowledge needed for the consultations.",exact,2,8,8,ppo_medical,8,0,0,0,8,Professional Services
 Lenticular aspheric myodisc,exact,"2,3",7,4,vision,4,0,3,7,0,Eye Exam | Lenses
 Aphakic,exact,"2,3",7,4,vision,4,0,3,7,0,Eye Exam | Lenses
@@ -861,7 +860,6 @@ Experimental Treatment,exact,3,4,4,vision,0,0,4,0,4,
 General conditions of Your Contract,exact,3,4,4,vision,0,0,4,0,4,
 How to Reach VSP,exact,3,4,4,vision,0,0,4,0,4,
 Emergency dental care is the treatment of accidental injuries within 24 hours of the injury. This is to relieve pain and discomfort. We also pay for follow-up treatment completed within six months of the injury.,exact,2,4,4,ppo_medical,4,0,0,0,4,Dental Services
-Physical therapy or (see Page 83 for physical therapy services),fuzzy,2,4,4,ppo_medical,4,0,0,4,0,Dental Services
 "Inpatient and Outpatient Consultations: If a physician needs help diagnosing or treating a member ’s condition, we pay for inpatient and outpatient consultations. They must be provided by a professional provider who has the skills or knowledge needed for the case.",exact,2,4,4,ppo_medical,4,0,0,0,4,Professional Services
 Accidental Dental Injury,exact,3,4,4,ppo_medical,0,0,4,1,3,Contraceptive Services
 Blue Cross Blue Shield Global Core,exact,3,4,4,ppo_medical,0,0,4,0,4,
@@ -1003,7 +1001,6 @@ Medical-Surgical Treatment,exact,3,2,2,vision,0,0,2,2,0,Contact Lenses
 Medicare,exact,3,2,2,vision,0,0,2,0,2,
 Medications,exact,3,2,2,vision,0,0,2,2,0,Contact Lenses
 Notification,exact,3,2,2,vision,0,0,2,0,2,
-Physical therapy (see Page 91 for physical therapy services),exact,2,2,2,ppo_medical,2,0,0,2,0,Dental Services
 Benefit Maximums,exact,3,2,2,ppo_medical,0,0,2,2,0,Autism Spectrum Disorders
 Autologous,exact,3,2,2,ppo_medical,0,0,2,2,0,Transplant Services
 "Mental health and substance use disorder visits (office, virtual or online visits)",exact,2,2,2,"csr_rider,ppo_medical",2,0,0,0,2,BCBSM PPO In-Network Providers | Copayment Requirements

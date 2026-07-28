@@ -674,7 +674,6 @@ Controlled Substances,8,8,3,ppo_medical,
 Medically necessary and appropriate,8,8,2,ppo_medical,Autism Spectrum Disorders
 Comprehensive and focused on managing and improving the symptoms directly related to a member’s autism spectrum disorder,8,8,2,ppo_medical,Autism Spectrum Disorders
 Deemed safe and effective by BCBSM,8,8,2,ppo_medical,Autism Spectrum Disorders
-Physical therapy (see Page 86 for physical therapy services),8,8,2,ppo_medical,Dental Services
 "Inpatient and Outpatient Consultations: If a physician needs help diagnosing or treating a member’s condition, we pay for inpatient and outpatient consultations. They must be provided by a professional provider who has the skills or knowledge needed for the consultations.",8,8,2,ppo_medical,Professional Services
 Aphakic,7,4,"2,3",vision,Eye Exam | Lenses
 Lenticular aphakic,7,4,"2,3",vision,Eye Exam | Lenses
@@ -798,7 +797,6 @@ Experimental Treatment,4,4,3,vision,
 General conditions of Your Contract,4,4,3,vision,
 How to Reach VSP,4,4,3,vision,
 Emergency dental care is the treatment of accidental injuries within 24 hours of the injury. This is to relieve pain and discomfort. We also pay for follow-up treatment completed within six months of the injury.,4,4,2,ppo_medical,Dental Services
-Physical therapy or (see Page 83 for physical therapy services),4,4,2,ppo_medical,Dental Services
 "Inpatient and Outpatient Consultations: If a physician needs help diagnosing or treating a member ’s condition, we pay for inpatient and outpatient consultations. They must be provided by a professional provider who has the skills or knowledge needed for the case.",4,4,2,ppo_medical,Professional Services
 Accidental Dental Injury,4,4,3,ppo_medical,Contraceptive Services
 Blue Cross Blue Shield Global Core,4,4,3,ppo_medical,
@@ -929,7 +927,6 @@ Medically Unnecessary Services,2,2,3,vision,
 Medical-Surgical Treatment,2,2,3,vision,Contact Lenses
 Medicare,2,2,3,vision,
 Notification,2,2,3,vision,
-Physical therapy (see Page 91 for physical therapy services),2,2,2,ppo_medical,Dental Services
 Benefit Maximums,2,2,3,ppo_medical,Autism Spectrum Disorders
 Autologous,2,2,3,ppo_medical,Transplant Services
 "Mental health and substance use disorder visits (office, virtual or online visits)",2,2,2,"csr_rider,ppo_medical",BCBSM PPO In-Network Providers | Copayment Requirements

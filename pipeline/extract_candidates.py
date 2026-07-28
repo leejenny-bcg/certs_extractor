@@ -244,8 +244,33 @@ def strip_trailing_colon(text):
 # number is never part of the benefit's name, so stripping it is safe.
 TRAILING_PAGE_REF_RE = re.compile(r"[,.]?\s*\(?page\s+\d+\)?\.?\s*$", re.IGNORECASE)
 
+# Same cross-reference, worded as a full clause instead of a bare page
+# number - confirmed against the source PDF: "Physical therapy (see Page
+# 86 for physical therapy services)" under a Dental/TMJ We-pay-for list,
+# citing the same "Physical Therapy" benefit's own dedicated section. The
+# "for ..." content is never new information about the benefit (it's
+# always a restatement/description of what's at that page), so the whole
+# parenthetical is safe to drop, not just the digits inside it. Matched
+# structurally ("(see Page N for ...)") rather than against specific
+# wording so it generalizes to whatever follows "for".
+TRAILING_SEE_PAGE_REF_RE = re.compile(r"\s*\(see page\s+\d+ for [^()]*\)\.?\s*$", re.IGNORECASE)
+
+# A benefit name never legitimately ends in a dangling conjunction - this
+# only shows up as leftover debris after stripping a trailing page-ref
+# clause from source text that itself has a stray word (confirmed: one
+# document's own PDF text literally reads "Physical therapy or (see Page
+# 83 for physical therapy services)", an apparent typo in BCBSM's source,
+# not our extraction). Deliberately only applied right after a page-ref
+# strip, not generally, since a mid-sentence fragment ending in "or"/"and"
+# elsewhere isn't the same situation.
+DANGLING_CONJUNCTION_RE = re.compile(r"\s+(or|and)\s*$", re.IGNORECASE)
+
 
 def strip_trailing_page_reference(text):
+    without_clause = TRAILING_SEE_PAGE_REF_RE.sub("", text)
+    if without_clause != text:
+        without_clause = DANGLING_CONJUNCTION_RE.sub("", without_clause).rstrip()
+        return without_clause if without_clause else text
     stripped = TRAILING_PAGE_REF_RE.sub("", text).rstrip()
     return stripped if stripped else text
 

@@ -19,6 +19,26 @@
     "score": 100
   },
   {
+    "corpus_canonical_name": "Physical therapy",
+    "corpus_total_mentions": 50,
+    "corpus_tiers_present": [
+      1,
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Physical therapy",
+    "tree_topic_ids": [
+      52483
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PT,OT,SLP/PHYSICAL THERAPY"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
     "corpus_canonical_name": "Durable medical equipment",
     "corpus_total_mentions": 45,
     "corpus_tiers_present": [
@@ -56,26 +76,6 @@
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PSYCHIATRY AND MENTAL HEALTH/0941 - RECREATIONAL THERAPY"
-    ],
-    "match_type": "exact",
-    "score": 100
-  },
-  {
-    "corpus_canonical_name": "Physical therapy",
-    "corpus_total_mentions": 36,
-    "corpus_tiers_present": [
-      1,
-      2
-    ],
-    "corpus_profiles_present": [
-      "ppo_medical"
-    ],
-    "tree_benefit_name": "Physical therapy",
-    "tree_topic_ids": [
-      52483
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/PT,OT,SLP/PHYSICAL THERAPY"
     ],
     "match_type": "exact",
     "score": 100

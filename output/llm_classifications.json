@@ -1704,11 +1704,6 @@
     "confidence": "high",
     "reasoning": "The name 'Deemed safe and effective by BCBSM' describes a qualifying condition/criterion that a treatment must meet, not a specific nameable service. It appears as a bullet listing requirements for autism spectrum disorder treatments, making it a criterion rather than a benefit."
   },
-  "Physical therapy (see Page 86 for physical therapy services)": {
-    "classification": "benefit",
-    "confidence": "high",
-    "reasoning": "The core name 'Physical therapy' is a real, specific, nameable covered service. The parenthetical cross-reference ('see Page X for physical therapy services') is just a pointer artifact and doesn't change that the name refers to a legitimate benefit a member could ask about."
-  },
   "Lenticular aspheric myodisc": {
     "classification": "benefit",
     "confidence": "high",
@@ -1803,6 +1798,11 @@
     "classification": "benefit",
     "confidence": "high",
     "reasoning": "'Diabetic specialty shoes' names a specific, nameable item that a member could ask about being covered. It appears as a distinct bullet under the diabetes management program, clearly denoting a concrete covered item."
+  },
+  "In a participating skilled nursing facility (see": {
+    "classification": "fragment_or_criterion",
+    "confidence": "high",
+    "reasoning": "The name 'In a participating skilled nursing facility (see' is a sentence fragment describing a location/scenario with a truncated cross-reference, not a specific nameable service or item. It clearly reads as extracted mid-clause rather than as a benefit name."
   },
   "Chemical profile": {
     "classification": "benefit",
@@ -1978,11 +1978,6 @@
     "classification": "benefit",
     "confidence": "medium",
     "reasoning": "Coating/laminating is a specific, nameable vision benefit -- a lens treatment/add-on service a member could ask about being covered. It names a concrete item/service rather than a category word or a fragment/criterion."
-  },
-  "Physical therapy or (see Page 83 for physical therapy services)": {
-    "classification": "fragment_or_criterion",
-    "confidence": "medium",
-    "reasoning": "While 'Physical therapy' is a real benefit, the extracted name is actually a cross-reference fragment ('Physical therapy or (see Page 83 for physical therapy services)') rather than a clean benefit name. The trailing 'or' and parenthetical pointer indicate this is a mis-extracted sentence fragment/navigational reference rather than a proper benefit name entry."
   },
   "Cosmetic Surgery": {
     "classification": "benefit",
@@ -2263,11 +2258,6 @@
     "classification": "generic_administrative",
     "confidence": "medium",
     "reasoning": "\"Medications\" is a broad category noun rather than a specific nameable service or item. The excerpts show it as 'Medications administered during any service except an eye exam' - a general category of drugs/substances rather than a particular covered service. While it appears in an exclusion context, that isn't driving the classification; the term itself is a generic category word akin to 'Drugs'."
-  },
-  "Physical therapy (see Page 91 for physical therapy services)": {
-    "classification": "benefit",
-    "confidence": "medium",
-    "reasoning": "The core name 'Physical therapy' refers to a specific, nameable service a member could ask about. The parenthetical cross-reference ('see Page 91 for physical therapy services') is just a pointer artifact, not part of the benefit itself. Despite appearing under 'Dental Services' header, the underlying service is a real benefit."
   },
   "Benefit Maximums": {
     "classification": "generic_administrative",
@@ -2818,10 +2808,5 @@
     "classification": "fragment_or_criterion",
     "confidence": "high",
     "reasoning": "'Act of War' is not a specific nameable service or item. The excerpt shows it as part of an exclusion condition -- services resulting from injury 'due to an act of war.' It describes a scenario/circumstance, not a covered service."
-  },
-  "In a participating skilled nursing facility (see": {
-    "classification": "fragment_or_criterion",
-    "confidence": "high",
-    "reasoning": "The name 'In a participating skilled nursing facility (see' is a sentence fragment describing a location/scenario with a truncated cross-reference, not a specific nameable service or item. It clearly reads as extracted mid-clause rather than as a benefit name."
   }
 }

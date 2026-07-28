@@ -14,16 +14,19 @@ they just start from opposite ends.
 ## Pipeline overview
 
 ```
-Stage 1  extract_text.py         PDF -> per-page text + word-level font/position data
-Stage 2  segment.py              -> header-bounded sections per document
-Stage 3  extract_candidates.py   -> benefit/procedure candidates per document
-Stage 4  merge_candidates.py     -> canonical benefit list, deduped across all documents
-Stage 5  compare_to_topic_tree.py -> diffed against the Topic Tree, both directions
+Stage 1    extract_text.py            PDF -> per-page text + word-level font/position data
+Stage 2    segment.py                 -> header-bounded sections per document
+Stage 3    extract_candidates.py      -> benefit/procedure candidates per document
+Stage 4    merge_candidates.py        -> canonical benefit list, deduped across all documents
+Stage 4.5  classify_benefits.py       -> LLM pass flagging likely non-benefit noise (tags, doesn't delete)
+Stage 5    compare_to_topic_tree.py   -> diffed against the Topic Tree, both directions (exact + fuzzy)
+Stage 5.5  semantic_match_topic_tree.py -> LLM pass rechecking unmatched benefits fuzzy matching missed
 ```
 
 Each stage's output is cached to `output/` and consumed by the next stage.
 Re-running a stage only reprocesses what changed (Stage 1 is content-hash
-cached per file).
+cached per file; Stages 4.5/5.5 cache LLM results by a hash of the evidence
+sent to the model, in `pipeline/.claude_*_cache.json`).
 
 ### Stage 1 — Text extraction (`pipeline/extract_text.py`)
 
@@ -84,16 +87,50 @@ wording variants (typos, page-number-only differences, etc.).
 Output: `output/benefits_master.json` (canonical records) and
 `output/benefit_summary.csv` (flat summary, sorted by mention count).
 
+### Stage 4.5 — LLM classification (`pipeline/classify_benefits.py`)
+
+Stage 3's lexical rules catch most non-benefit noise (generic-category
+nouns, sentence fragments, agent clauses), but a residual set — things
+like "Hospitalization" or "FDA approved" — has no clean lexical signal to
+key off of. This stage reviews every non-Tier-1 canonical benefit with
+Claude (Batches API), using real snippet evidence pulled from the source
+pages, and classifies it as `benefit` / `generic_administrative` /
+`fragment_or_criterion`. Only high/medium-confidence non-"benefit"
+verdicts are applied (a precision gate — mislabeling a real benefit is a
+worse error than missing a fragment); everything is tagged in `llm_review`
+on the master record, never deleted. A high/medium "benefit" verdict can
+also *rescue* a record the shape heuristic mistakenly called "sentence."
+
+`pipeline/confidence.py` centralizes the resulting "is this benefit
+trustworthy" logic (`is_high_confidence`, `is_top_level_header`,
+`exclusion_reason`) so both later pipeline stages and the UI agree on what
+counts as high-confidence, without the pipeline depending on the UI layer.
+
 ### Stage 5 — Topic Tree comparison (`pipeline/build_benefits.py`, `compare_to_topic_tree.py`)
 
 `build_benefits.py` (reused from `certs_riders`) turns `Topic Tree
 v9.xlsx` into `output/benefits.json` — 1,986 unique benefit names after
 filtering out procedure codes. `compare_to_topic_tree.py` then diffs the
-two lists (exact match, then fuzzy for what's left) and writes:
+two lists on normalized-key text, in increasingly targeted passes — exact
+match, fuzzy match (RapidFuzz, threshold 90), "and/or" compound
+splitting, generic "Service(s)" suffix stripping — and writes:
 
 - `output/corpus_benefits_not_in_tree.{json,csv}` — the original question.
 - `output/tree_entries_not_in_corpus.{json,csv}` — the inverse gap.
-- `output/matched_pairs.{json,csv}` — the overlap, tagged exact/fuzzy + score.
+- `output/matched_pairs.{json,csv}` — the overlap, tagged by match type + score.
+
+### Stage 5.5 — LLM semantic matching (`pipeline/semantic_match_topic_tree.py`)
+
+Fuzzy matching has a structural blind spot: it always returns the single
+highest-scoring candidate, so a wrong candidate that happens to share more
+surface words can outscore the right one — no threshold fixes that. This
+stage takes every unmatched, high-confidence corpus benefit, generates its
+top-10 fuzzy candidates (not just the top-1), and asks Claude for a strict
+"is this the *same specific* benefit" verdict, backed by real source
+snippets so it can see surrounding list context rather than just the bare
+name. Same Batches API + precision-gate pattern as Stage 4.5. Accepted
+matches are folded into `matched_pairs.json` (tagged
+`match_type: "llm_semantic"`), and removed from the two "not in" files.
 
 ## Running the pipeline
 
@@ -103,9 +140,15 @@ python3 extract_text.py .. ../output --workers 4
 python3 segment.py ../output/extracted ../output/segments
 python3 extract_candidates.py ../output/extracted ../output/segments ../output/candidates
 python3 merge_candidates.py ../output/candidates ../output
+python3 classify_benefits.py ../output/benefits_master.json ../output          # Stage 4.5, needs ANTHROPIC_API_KEY
 python3 build_benefits.py "../Topic Tree v9.xlsx" ../output --sheet "Raw Data"
 python3 compare_to_topic_tree.py ../output/benefits_master.json ../output/benefits.json ../output
+python3 semantic_match_topic_tree.py ../output/benefits_master.json ../output/benefits.json ../output  # Stage 5.5, needs ANTHROPIC_API_KEY
 ```
+
+Stages 4.5 and 5.5 call Claude via the Anthropic Batches API and cache
+results by evidence hash — re-running after unrelated pipeline changes
+doesn't re-bill unchanged benefits.
 
 ## Running the UI
 
@@ -116,12 +159,17 @@ streamlit run app.py
 ```
 
 Two pages:
-- **Benefit-level Explorer** — the full canonical benefit list, filterable
-  by tier/profile/confidence, downloadable as CSV, with per-benefit
+- **Benefit-level Explorer** — "All Benefits" and "Low-Quality / Excluded"
+  tabs (the latter for auditing what Stage 4.5 flagged, or what the shape
+  heuristic excluded on its own), filterable by Topic Tree match status
+  (matched/unmatched/all), downloadable as CSV, with per-benefit
   drill-down into which documents/pages it came from (with a text-snippet
-  preview, when the extracted-text cache is available).
+  preview, when the extracted-text cache is available) and which Topic
+  Tree entry it matched to.
 - **Topic Tree Comparison** — three tabs (Not in Topic Tree / Not in
-  Corpus / Matched) for validating overlaps and gaps in both directions.
+  Corpus / Matched) for validating overlaps and gaps in both directions;
+  the Matched tab is filterable by match type and shows LLM reasoning for
+  `llm_semantic` matches.
 
 ## Known limitations (surfaced, not hidden)
 
@@ -145,3 +193,14 @@ Two pages:
   UI's page-snippet preview, but too heavy for the deploy repo; the UI
   degrades gracefully to "not available" rather than erroring when it's
   missing.
+- **Stage 5.5's candidate pool is capped at the top 10 fuzzy matches** — if
+  the correct Topic Tree entry doesn't rank in the top 10 by fuzzy score,
+  Claude never sees it as an option. Closing this would need a full-tree
+  semantic search rather than a fuzzy-prefiltered one; out of scope for now.
+- **Tier-1 section headers are deliberately excluded from Stage 4.5's LLM
+  review scope**, not because they're all real benefits, but because
+  classifying them was tried and found inconsistent (two near-duplicate
+  headers differing only by a dash character got opposite verdicts) and
+  over-eager (flagged legitimate categories like "Surgery"). Whether to
+  show them is a deterministic UI toggle instead (`is_top_level_header`),
+  not an automated judgment call.

@@ -301,7 +301,6 @@ Experimental treatment not included in this certificate,14,14,2,ppo_medical,Onco
 "Items or services that are normally covered by other funding sources (e.g., investigational drugs funded by a drug company)",14,14,2,ppo_medical,Oncology Clinical Trials
 "Any other services, admissions or length of stay related to any of the above exclusions",14,14,2,ppo_medical,Oncology Clinical Trials
 Covered services are provided within the state of Michigan.,14,14,2,ppo_medical,Optometrist Services
-The optometrist is:,14,14,2,ppo_medical,Optometrist Services
 Routine eye exams or services,14,14,2,ppo_medical,Optometrist Services
 Outpatient Diabetes Management Program (ODMP),14,14,1,ppo_medical,
 "Diabetes self-management training conducted in a group setting, whenever practicable, if:",14,14,2,ppo_medical,Outpatient Diabetes Management Program | Outpatient Diabetes Management Program (ODMP)
@@ -332,7 +331,6 @@ Related reading and interpretation of your test results,14,14,2,ppo_medical,Prev
 Routine Gynecological Examination,14,14,2,ppo_medical,Preventive Care Services
 Morbid Obesity Weight Management,14,14,2,ppo_medical,Preventive Care Services
 Tobacco Cessation Programs,14,14,2,ppo_medical,Preventive Care Services
-Screening and preventive care services that are:,14,14,2,ppo_medical,Contraceptive Services | Preventive Care Services
 Therapeutic injections,14,14,2,ppo_medical,Professional Services
 Prosthetic and Orthotic Devices,14,14,1,ppo_medical,
 The cost of purchasing or replacing the device,14,14,2,ppo_medical,Prosthetic and Orthotic Devices
@@ -498,7 +496,6 @@ Loss of the device,13,13,2,ppo_medical,Prosthetic and Orthotic Devices
 The member’s physician provides a written confirmation indicating that skilled care is needed.,13,13,2,ppo_medical,Skilled Nursing Facility Services
 "Treatment solely to improve cognition (e.g., memory or perception), concentration and/or attentiveness, organizational or problem-solving skills, academic skills, impulse control or other behaviors for which behavior modification is sought without a speech language therapy treatment plan that guides and helps to monitor the provided therapy",13,13,2,ppo_medical,Speech Language Therapy
 24/7 Virtual Visit,13,13,3,ppo_medical,
-Accredited Hospital,13,13,3,ppo_medical,
 Acute Care Facility,13,13,3,ppo_medical,
 Administrative Costs,13,13,3,ppo_medical,
 Affiliate Cancer Center,13,13,3,ppo_medical,
@@ -540,7 +537,6 @@ $50 per day for lodging,12,12,2,ppo_medical,Oncology Clinical Trials
 Licensed in the state of Michigan,12,12,2,ppo_medical,Optometrist Services
 Certified by the Michigan Board of Optometry to administer and prescribe therapeutic pharmaceutical agents,12,12,2,ppo_medical,Optometrist Services
 Your M.D. or D.O. diagnoses a significant change with long-term implications in your symptoms or conditions that necessitate changes in your self-management or a significant change in medical protocol or treatment.,12,12,2,ppo_medical,Outpatient Diabetes Management Program (ODMP)
-The provider of self-management training must be:,12,12,2,ppo_medical,Outpatient Diabetes Management Program (ODMP)
 A combined maximum of 30 habilitative and a combined maximum of 30 rehabilitative outpatient visits per member per calendar year.,12,12,2,ppo_medical,Occupational Therapy | Physical Therapy
 "One per member, per calendar year",12,12,2,ppo_medical,Preventive Care Services
 "Two visits per member, per calendar year",12,12,2,ppo_medical,Preventive Care Services
@@ -555,6 +551,7 @@ When services are provided in a location other than a hospital or ambulatory sur
 The appropriateness of the drug for your condition,12,12,2,ppo_medical,Value Based Programs
 The correct dosage,12,12,2,ppo_medical,Value Based Programs
 When to take the drug,12,12,2,ppo_medical,Value Based Programs
+Accredited Hospital,12,12,3,ppo_medical,
 Licensed Behavior Analyst,12,12,3,ppo_medical,
 Autism Evaluation Center,12,12,3,ppo_medical,
 Bite Splint,12,12,3,ppo_medical,Dental Services
@@ -1041,12 +1038,12 @@ In a participating residential or outpatient substance abuse treatment facility 
 Specialty Pharmaceuticals: We pay for approved specialty drugs when:,1,1,2,ppo_medical,Prescription Drugs
 "Physical therapy (Page 81), speech language therapy (Page 113) or occupational therapy (Page",1,1,2,ppo_medical,Skilled Nursing Facility Services
 Therapy billed as an habilitative service when it does not meet the definition of rehabilitative service in this certificate,1,1,2,ppo_medical,Speech Language Therapy
+Accedited Hospital,1,1,3,ppo_medical,
 BlueCard - Travel,1,1,3,ppo_medical,
 Chemotherapy Prior Authorization,1,1,3,ppo_medical,Prescription Drugs
 Chemotherapy Specialty Pharmaceuticals,1,1,3,ppo_medical,Prescription Drugs
 "diagnostic laboratory and pathology services in an outpatient hospital, independent laboratory, or physician’s office",1,1,2,ppo_medical,BCBSM PPO In-Network Providers
 "diagnostic laboratory and pathology services an outpatient hospital, independent laboratory or physician ’ s office.",1,1,2,ppo_medical,BCBSM PPO In-Network Providers
-CRNA services must be:,1,1,2,ppo_medical,Anesthesiology Services
 "Interdisciplinary Evaluation – An interdisciplinary evaluation must occur before a member will be approved for ABA treatment. The interdisciplinary team must include, but is not limited to, a physician, behavior health specialist, and a speech language specialist. A BCBS-approved autism evaluation center can perform this evaluation and",1,1,2,ppo_medical,Autism Spectrum Disorders
 Prior Authorization – Autism spectrum disorder services must be authorized by,1,1,2,ppo_medical,Autism Spectrum Disorders
 Autism spectrum disorder services (including ABA) when performed by a participation LBA or other provider acting within their scope of practice.,1,1,2,ppo_medical,Autism Spectrum Disorders

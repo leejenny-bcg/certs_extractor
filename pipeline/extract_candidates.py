@@ -62,6 +62,11 @@ LETTERHEAD_MAX_SIZE = 9.0
 # (e.g. "...limited to those described below:") is often a legitimate
 # standalone name that just happens to introduce children too.
 BARE_INFINITIVE_COLON_RE = re.compile(r"\bto\s+\w+:$")
+# Same "group header for its own children" shape, different ending: a bare
+# copula/modal right before the colon (e.g. "The optometrist is:" ->
+# provider-licensing criteria; "...biologicals must be:" -> drug-eligibility
+# criteria). Also narrow on purpose, same reasoning as above.
+GROUP_HEADER_COPULA_RE = re.compile(r"\b(is|are|must be|will be):$", re.IGNORECASE)
 
 COST_TIER_GROUP_HEADER_RE = re.compile(
     r"^(\$[\d,]+(\.\d+)?\s+for:|"
@@ -92,9 +97,15 @@ LEADING_VERB_WORDS = {"are", "is", "can", "will", "does", "has", "have", "was", 
 # depth) distinguishes them, only the lexical pattern. Confirmed against 6
 # real examples (all caught) and 10 known-good benefit names (0 false
 # positives) before adding.
-AGENT_CLAUSE_RE = re.compile(r"\b(provided|given|required|received)\s+(by|from)\b", re.IGNORECASE)
+AGENT_CLAUSE_RE = re.compile(
+    r"\b(provided|given|required|received|furnished|administered|billed|ordered|prescribed|dispensed|performed|rendered|supervised)\s+(by|from)\b",
+    re.IGNORECASE,
+)
 PAYMENT_FOR_RE = re.compile(r"^payment for\b", re.IGNORECASE)
-NOT_MEET_RE = re.compile(r"\bdo(?:es)? not meet\b", re.IGNORECASE)
+# "do(es) not meet X" and "have/has not been X" are both exclusion-criterion
+# shapes ("Treatment...that do not meet BCBSM requirements", "Services that
+# have not been preapproved") - same underlying pattern, different verb.
+NOT_MEET_RE = re.compile(r"\bdo(?:es)? not meet\b|\bhas not been\b|\bhave not been\b", re.IGNORECASE)
 
 
 def shape_of(text):
@@ -323,7 +334,7 @@ def walk_benefit_bullets(lines, header_text, section_context, dental_split, defa
         depth = depth_rank.get(round(line["x0"], 0), 0)
         raw = strip_leading_bullet(text)
 
-        if BARE_INFINITIVE_COLON_RE.search(raw):
+        if BARE_INFINITIVE_COLON_RE.search(raw) or GROUP_HEADER_COPULA_RE.search(raw):
             # Group header for its children, not a candidate itself - still
             # tracked in stack_text_by_depth so children get the right
             # immediate_parent.
@@ -484,6 +495,14 @@ def extract_index_entries(pages, sections_by_page, page_offset):
                 absolute_page = printed_page + page_offset
                 in_range = 0 <= absolute_page < num_pages
                 parent = sections_by_page.get(absolute_page) if in_range else None
+                # An INDEX term whose page doesn't resolve to any
+                # benefit-bearing section is landing in Definitions,
+                # Appeals, General Conditions, etc. (e.g. "Coinsurance",
+                # "Adverse Benefit Decision", "BCBSM") - the back-of-book
+                # index covers every topic in the certificate, not just
+                # benefits, and this is the clean signal for "not a
+                # benefit" that was already being computed but unused.
+                shape = shape_of(term) if parent is not None else "sentence"
                 entries.append(
                     {
                         "text": term,
@@ -493,7 +512,7 @@ def extract_index_entries(pages, sections_by_page, page_offset):
                         "immediate_parent": None,
                         "nesting_depth": None,
                         "inclusion": "unknown",
-                        "shape": shape_of(term),
+                        "shape": shape,
                         "section_context": None,
                         "source_page": absolute_page if in_range else None,
                     }

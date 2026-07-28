@@ -28,6 +28,8 @@ COLUMN_HELP = {
     "or dental certificates, or csr_rider (cost-sharing riders).",
     "matched_to_tree": "Whether this benefit (exact or fuzzy match) has a corresponding entry on "
     "the Topic Tree - see the Topic Tree Comparison page for details.",
+    "matched_topic_tree_name": "Which Topic Tree entry this benefit matched to, if any - see the "
+    "Topic Tree Comparison page for match type/score.",
     "exclusion_reason": "Why this benefit is excluded from the main tab by default: either the "
     "LLM classification pass's verdict + reasoning, or (if never reviewed) that its mentions are "
     "mostly sentence-shaped rather than a clean benefit name.",
@@ -66,15 +68,19 @@ def download_button(df, label, file_name, key):
     )
 
 
-def render_benefit_table(records, unmatched_names, key_prefix, show_header_toggle=False, show_reason_column=False):
+def render_benefit_table(records, matched_tree_by_corpus, key_prefix, show_header_toggle=False, show_reason_column=False):
     """Shared table + filters + drill-down, reused by both Benefit Explorer
     tabs (the full high-confidence list and the low-quality/excluded one)
     so they stay visually and behaviorally identical apart from which
     records and which extra controls/columns they get. key_prefix keeps
-    Streamlit widget keys unique between the two tabs.
+    Streamlit widget keys unique between the two tabs. matched_tree_by_corpus
+    maps canonical_name -> matched Topic Tree name(s) (joined with " | " if
+    more than one - see build_matched_tree_map), for records with a match;
+    absent for unmatched ones.
     """
     df = records_to_df(records)
-    df["matched_to_tree"] = ~df["canonical_name"].isin(unmatched_names)
+    df["matched_to_tree"] = df["canonical_name"].isin(matched_tree_by_corpus)
+    df["matched_topic_tree_name"] = df["canonical_name"].map(matched_tree_by_corpus).fillna("")
 
     col1, col2, col3 = st.columns([2, 1, 1])
     with col1:
@@ -112,7 +118,7 @@ def render_benefit_table(records, unmatched_names, key_prefix, show_header_toggl
     filtered = filtered.sort_values("total_mentions", ascending=False)
 
     display_cols = ["canonical_name", "total_mentions", "document_count",
-                     "profiles_present", "covered", "excluded", "matched_to_tree"]
+                     "covered", "excluded", "matched_to_tree", "matched_topic_tree_name"]
     if show_reason_column:
         display_cols.append("exclusion_reason")
     st.caption(f"{len(filtered):,} of {len(df):,} benefits shown")
@@ -135,6 +141,16 @@ def render_benefit_table(records, unmatched_names, key_prefix, show_header_toggl
     render_benefit_detail(selected)
 
 
+def build_matched_tree_map():
+    """canonical_name -> matched Topic Tree benefit name(s), joined with
+    " | " for the rare case of more than one (Pass A doesn't dedupe tree
+    entries sharing a key, so one corpus benefit can match several)."""
+    by_corpus = {}
+    for p in data.load_matched_pairs():
+        by_corpus.setdefault(p["corpus_canonical_name"], []).append(p["tree_benefit_name"])
+    return {name: " | ".join(tree_names) for name, tree_names in by_corpus.items()}
+
+
 def render_benefit_explorer():
     st.title("Benefit-level Explorer")
     st.caption(
@@ -143,19 +159,19 @@ def render_benefit_explorer():
     )
 
     records = data.load_benefits_master()
-    unmatched_names = {r["canonical_name"] for r in data.load_corpus_not_in_tree()}
+    matched_tree_by_corpus = build_matched_tree_map()
     high_confidence_records = [r for r in records if data.is_high_confidence(r)]
     excluded_records = [r for r in records if not data.is_high_confidence(r)]
 
     tab1, tab2 = st.tabs(["All Benefits", f"Low-Quality / Excluded ({len(excluded_records):,})"])
     with tab1:
-        render_benefit_table(high_confidence_records, unmatched_names, "main", show_header_toggle=True)
+        render_benefit_table(high_confidence_records, matched_tree_by_corpus, "main", show_header_toggle=True)
     with tab2:
         st.caption(
             "Everything the main tab excludes by default - shown with the reason for exclusion "
             "so you can judge whether it's actually low-quality, not just take it on faith."
         )
-        render_benefit_table(excluded_records, unmatched_names, "lowq", show_reason_column=True)
+        render_benefit_table(excluded_records, matched_tree_by_corpus, "lowq", show_reason_column=True)
 
 
 def render_benefit_detail(canonical_name):

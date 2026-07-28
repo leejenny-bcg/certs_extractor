@@ -80,9 +80,9 @@ def render_benefit_table(records, unmatched_names, key_prefix, show_header_toggl
     with col1:
         search = st.text_input("Search benefit name", key=f"{key_prefix}_search")
     with col2:
-        profile_filter = st.multiselect(
-            "Profile", sorted({p for r in records for p in r["profiles_present"]}), default=[],
-            key=f"{key_prefix}_profile",
+        tree_match_filter = st.selectbox(
+            "Topic Tree match", ["All", "Matched", "Unmatched"],
+            key=f"{key_prefix}_tree_match",
         )
     with col3:
         min_mentions = st.number_input("Min mentions", min_value=1, value=1, key=f"{key_prefix}_min_mentions")
@@ -101,8 +101,10 @@ def render_benefit_table(records, unmatched_names, key_prefix, show_header_toggl
     filtered = df
     if search:
         filtered = filtered[filtered["canonical_name"].str.contains(search, case=False, na=False)]
-    if profile_filter:
-        filtered = filtered[filtered["profiles_present"].apply(lambda p: any(pf in p for pf in profile_filter))]
+    if tree_match_filter == "Matched":
+        filtered = filtered[filtered["matched_to_tree"]]
+    elif tree_match_filter == "Unmatched":
+        filtered = filtered[~filtered["matched_to_tree"]]
     filtered = filtered[filtered["total_mentions"] >= min_mentions]
     if show_header_toggle and not include_headers:
         filtered = filtered[~filtered["_top_level_header"]]

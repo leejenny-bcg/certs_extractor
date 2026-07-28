@@ -5678,5 +5678,100 @@
     "classification": "fragment_or_criterion",
     "confidence": "high",
     "reasoning": "'Act of War' is not a specific nameable service or item. The excerpt shows it as part of an exclusion condition -- services resulting from injury 'due to an act of war.' It describes a scenario/circumstance, not a covered service."
+  },
+  "Specialty Pharmaceuticals::ea3e42ab7fe094c3": {
+    "classification": "benefit",
+    "confidence": "high",
+    "reasoning": "Specialty Pharmaceuticals refers to a specific, nameable category of drugs (specialty drugs) that a member could ask about coverage for. The excerpts describe paying for approved specialty drugs under defined conditions, making it a real covered item rather than a generic process/administrative term or fragment."
+  },
+  "Chiropractic office visits::56e2ec174f7914d6": {
+    "classification": "benefit",
+    "confidence": "high",
+    "reasoning": "'Chiropractic office visits' names a specific, identifiable service a member could ask about coverage for. It appears as a distinct bulleted benefit with its own coverage terms (one visit every 36 months for new patients), confirming it's a real nameable service rather than a generic category or fragment."
+  },
+  "Physician services are payable for tests such as::cca1d37509005736": {
+    "classification": "fragment_or_criterion",
+    "confidence": "high",
+    "reasoning": "This is a sentence fragment/lead-in phrase ('Physician services are payable for tests such as') that introduces a list of specific tests rather than naming a specific service itself. It describes a scenario/qualifier and ends with 'such as', clearly a header fragment, not a nameable benefit."
+  },
+  "Inpatient Hospital Services::e0027d8c9285f610": {
+    "classification": "generic_administrative",
+    "confidence": "medium",
+    "reasoning": "'Inpatient Hospital Services' is a broad category heading describing the type/setting of care rather than a specific nameable service. The excerpts show it functioning as a header with sub-bullets listing the actual specific services (medical care by hospital personnel, etc.). It's a category noun for a class of provisions, not something a member points to as a single specific service."
+  },
+  "Outpatient Hospital Services::f955e2534956b299": {
+    "classification": "generic_administrative",
+    "confidence": "medium",
+    "reasoning": "'Outpatient Hospital Services' is a broad category/setting descriptor rather than a specific nameable service. It groups services delivered in an outpatient hospital setting, similar to 'Hospitalization' or 'Outpatient Services', rather than pointing to a single service a member could ask about."
+  },
+  "Temporary Benefits for Hospital Services::526deebeb49c04f3": {
+    "classification": "generic_administrative",
+    "confidence": "medium",
+    "reasoning": "This names a transitional/continuity-of-care provision (temporary benefits when a hospital ends its BCBS contract) rather than a specific, nameable covered service or item. It describes a process/category of benefit provision, not a discrete service a member could point to and ask 'is this covered?' It's closer to an administrative arrangement than a benefit name."
+  },
+  "Therapeutic care \u2013 Evidence-based services from licensed providers. It includes::d895821751b0e47a": {
+    "classification": "fragment_or_criterion",
+    "confidence": "medium",
+    "reasoning": "The name is a truncated fragment ending with 'It includes', indicating it was cut off mid-sentence. While 'Therapeutic care' could be a benefit, the extraction captured a definitional sentence ('Evidence-based services from licensed providers. It includes...') rather than a clean benefit name. This is a sentence fragment describing what therapeutic care encompasses rather than a discrete nameable service."
+  },
+  "A certified registered nurse anesthetist (CRNA)::a58a54962dbb2748": {
+    "classification": "benefit",
+    "confidence": "medium",
+    "reasoning": "A certified registered nurse anesthetist (CRNA) is a specific, nameable provider whose services a member could ask about. Under 'Anesthesiology Services' this refers to anesthesia services rendered by a CRNA, which is a real, specific covered item rather than a generic category or a fragment/criterion."
+  },
+  "Injectable/Infused Drugs::857b520ed21d9bda": {
+    "classification": "benefit",
+    "confidence": "medium",
+    "reasoning": "The name refers to a specific, nameable category of pharmaceuticals administered by injection or infusion. While somewhat broad, injectable/infused drugs are a recognizable class of covered items a member could ask about, more specific than a bare 'Drugs' generic term."
+  },
+  "each visit, including::28869c81474b0a11": {
+    "classification": "fragment_or_criterion",
+    "confidence": "high",
+    "reasoning": "The name 'each visit, including' is a sentence fragment with no specific service named. It describes a scope/qualifier rather than a nameable service or item, so it is a fragment, not a benefit."
+  },
+  "Additional Counseling and Screening Services, including but not limited to::80af24cacb403a3a": {
+    "classification": "fragment_or_criterion",
+    "confidence": "medium",
+    "reasoning": "The name ends with 'including but not limited to' which is an introductory lead-in phrase, not a specific nameable service. 'Additional Counseling and Screening Services' is a vague category, and the trailing qualifier confirms this is a header/fragment introducing a list rather than a specific benefit a member could point to."
+  },
+  "Cosmetic surgery is only payable for::6cf53caac8890d07": {
+    "classification": "fragment_or_criterion",
+    "confidence": "high",
+    "reasoning": "The name 'Cosmetic surgery is only payable for' is a sentence fragment introducing a list of qualifying conditions, not a specific nameable service. Although 'cosmetic surgery' is a real service concept, the extracted text is a coverage-limitation clause describing when it is payable, so it reads as a criterion/qualifier rather than a benefit name."
+  },
+  "Sleep apnea treatments::8995ff99a660b935": {
+    "classification": "benefit",
+    "confidence": "high",
+    "reasoning": "'Sleep apnea treatments' names a specific, nameable medical service/procedure category that a member could point to and ask about coverage. It appears alongside other specific surgical procedures. It refers to a real service regardless of its coverage status in these excerpts."
+  },
+  "Dental surgery is only payable for::341b1a707fe11cdb": {
+    "classification": "fragment_or_criterion",
+    "confidence": "high",
+    "reasoning": "The name 'Dental surgery is only payable for' is a sentence fragment introducing a conditional list of when dental surgery is payable. It describes a coverage condition rather than naming a specific service, so it is a fragment/criterion."
+  },
+  "Other diagnostic and preventive services::2085ab43ac4001e6": {
+    "classification": "generic_administrative",
+    "confidence": "high",
+    "reasoning": "The name 'Other diagnostic and preventive services' is a category header that groups sub-items (diagnostic tests, dental sealants, space maintainers) rather than naming a specific service itself. The word 'Other' and the plural 'services' followed by a list of actual specific items confirms it's a category/bucket label, not a nameable benefit."
+  },
+  "Procedures that are payable in the circumstances explained above include::5d559f716dd7f928": {
+    "classification": "fragment_or_criterion",
+    "confidence": "high",
+    "reasoning": "This is a sentence fragment introducing a list ('Procedures that are payable in the circumstances explained above include:'), not the name of a specific service. The actual benefits are the items listed after it (Alveoloplasty, Diagnostic X-rays, etc.)."
+  },
+  "Visits through age 18 as follows::3f58d32b1ca4083f": {
+    "classification": "fragment_or_criterion",
+    "confidence": "high",
+    "reasoning": "This is a header/qualifier phrase introducing a schedule of visit counts ('Visits through age 18 as follows:'). It does not name a specific service; the actual benefit is 'Well-Baby and Well-Child Visits'. This text describes the scope/frequency criterion rather than a nameable service."
+  },
+  "Covered services include, but not limited to, the following::51faf151a87fe5ae": {
+    "classification": "fragment_or_criterion",
+    "confidence": "high",
+    "reasoning": "The name 'Covered services include, but not limited to, the following' is an introductory clause/lead-in phrase, not a specific nameable service. It describes what follows rather than naming a service a member could ask about."
+  },
+  "Refills of prescriptions for covered drugs that exceed BCBSM\u2019s limits::5fb8de675e9be549": {
+    "classification": "fragment_or_criterion",
+    "confidence": "high",
+    "reasoning": "The name describes a scenario/limitation condition ('refills that exceed BCBSM's limits') rather than a specific nameable service. It is a limitation clause, not a benefit."
   }
 }

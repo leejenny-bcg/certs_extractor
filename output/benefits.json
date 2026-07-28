@@ -6152,7 +6152,7 @@
     },
     {
       "benefit_name": "Aniseikonic lenses",
-      "normalized_key": "aniseikonic lense",
+      "normalized_key": "aniseikonic lens",
       "topic_ids": [
         60431
       ],
@@ -7682,7 +7682,7 @@
     },
     {
       "benefit_name": "Coating or laminating of lenses",
-      "normalized_key": "coating or laminate of lense",
+      "normalized_key": "coating or laminate of lens",
       "topic_ids": [
         60429
       ],
@@ -7954,7 +7954,7 @@
     },
     {
       "benefit_name": "Contact lenses",
-      "normalized_key": "contact lense",
+      "normalized_key": "contact lens",
       "topic_ids": [
         12945
       ],
@@ -8124,7 +8124,7 @@
     },
     {
       "benefit_name": "Cosmetic lenses or processes",
-      "normalized_key": "cosmetic lense or process",
+      "normalized_key": "cosmetic lens or process",
       "topic_ids": [
         60512
       ],
@@ -12502,7 +12502,7 @@
     },
     {
       "benefit_name": "Intraocular Lenses",
-      "normalized_key": "intraocular lense",
+      "normalized_key": "intraocular lens",
       "topic_ids": [
         60253
       ],
@@ -12934,7 +12934,7 @@
     },
     {
       "benefit_name": "Lenses other than contacts",
-      "normalized_key": "lense other than contact",
+      "normalized_key": "lens other than contact",
       "topic_ids": [
         12944
       ],
@@ -13638,7 +13638,7 @@
     },
     {
       "benefit_name": "Medically necessary contact lenses",
-      "normalized_key": "medically necessary contact lense",
+      "normalized_key": "medically necessary contact lens",
       "topic_ids": [
         61302
       ],
@@ -14374,7 +14374,7 @@
     },
     {
       "benefit_name": "Not medically necessary contact lenses",
-      "normalized_key": "not medically necessary contact lense",
+      "normalized_key": "not medically necessary contact lens",
       "topic_ids": [
         61301
       ],
@@ -16039,7 +16039,7 @@
     },
     {
       "benefit_name": "Photochromic lenses",
-      "normalized_key": "photochromic lense",
+      "normalized_key": "photochromic lens",
       "topic_ids": [
         60511
       ],
@@ -16069,7 +16069,7 @@
     },
     {
       "benefit_name": "Photosensitive lenses",
-      "normalized_key": "photosensitive lense",
+      "normalized_key": "photosensitive lens",
       "topic_ids": [
         60430
       ],
@@ -16139,7 +16139,7 @@
     },
     {
       "benefit_name": "Plastic lenses",
-      "normalized_key": "plastic lense",
+      "normalized_key": "plastic lens",
       "topic_ids": [
         60426
       ],
@@ -17556,7 +17556,7 @@
     },
     {
       "benefit_name": "Replacement of lenses or frames",
-      "normalized_key": "replacement of lense or frame",
+      "normalized_key": "replacement of lens or frame",
       "topic_ids": [
         60428
       ],
@@ -18518,7 +18518,7 @@
     },
     {
       "benefit_name": "Special lenses",
-      "normalized_key": "special lense",
+      "normalized_key": "special lens",
       "topic_ids": [
         60410
       ],
@@ -18598,7 +18598,7 @@
     },
     {
       "benefit_name": "Spectacle Lenses",
-      "normalized_key": "spectacle lense",
+      "normalized_key": "spectacle lens",
       "topic_ids": [
         60250
       ],
@@ -19484,7 +19484,7 @@
     },
     {
       "benefit_name": "Tinted lenses",
-      "normalized_key": "tint lense",
+      "normalized_key": "tint lens",
       "topic_ids": [
         12947
       ],

@@ -62,6 +62,7 @@ Lancets,Lancets,exact,100,6
 Insulin,Insulin,exact,100,6
 Chemical profile,Chemical profile,exact,100,6
 Cholesterol testing,Cholesterol testing,exact,100,6
+Lenses,Lens,exact,100,4
 Contact Lenses,Contact lenses,exact,100,4
 Ophthalmoscopy,Ophthalmoscopy,exact,100,4
 HPV screening,HPV Screening,exact,100,4
@@ -69,8 +70,11 @@ Infusion pumps,0261 - Infusion Pump,exact,100,4
 Class I – Diagnostic and Preventive Services,Class I Diagnostic and Preventive Services,exact,100,4
 Class III – Major Services,Class III Major Services,exact,100,4
 Complete dentures,Complete Denture,exact,100,4
+Aphakic Lenses,Aphakic lense,exact,100,3
+Blended Lenses,Blended lense,exact,100,3
 Rhinoplasty,Rhinoplasty,exact,100,3
 Contraceptive Injections,Contraceptive injections,exact,100,2
+Progressive lenses,Progressive Lens,exact,100,2
 Medically Necessary,Medically Necessary,exact,100,2
 Medications,Medication,exact,100,2
 Medications,Medications,exact,100,2

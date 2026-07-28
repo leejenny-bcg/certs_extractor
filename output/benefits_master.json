@@ -4623,11 +4623,11 @@
     }
   },
   {
-    "canonical_name": "Items that are not considered by BCBSM to be directly related to travel and lodging. Examples include, but are not limited to:",
+    "canonical_name": "Items that are not considered by BCBSM to be directly related to travel and lodging. Examples include, but are not limited to",
     "merge_key": "item that be not consider by bcbsm to be directly relate to travel and lodging example include but be not limit to",
     "match_type": "exact",
     "variant_texts": {
-      "Items that are not considered by BCBSM to be directly related to travel and lodging. Examples include, but are not limited to:": 28
+      "Items that are not considered by BCBSM to be directly related to travel and lodging. Examples include, but are not limited to": 28
     },
     "tiers_present": [
       2
@@ -13696,8 +13696,7 @@
     "merge_key": "specialty pharmaceutical",
     "match_type": "exact",
     "variant_texts": {
-      "Specialty Pharmaceuticals": 14,
-      "Specialty Pharmaceuticals:": 1
+      "Specialty Pharmaceuticals": 15
     },
     "tiers_present": [
       2,
@@ -13816,7 +13815,7 @@
     "llm_review": {
       "classification": "benefit",
       "confidence": "high",
-      "reasoning": "Specialty Pharmaceuticals refers to a specific, nameable category of drugs (specialty/specialty chemotherapy drugs) that a member could ask 'is this covered?' The excerpts describe payment for approved specialty drugs, making it a concrete covered item rather than a generic process word or a fragment.",
+      "reasoning": "Specialty Pharmaceuticals refers to a specific, nameable category of drugs (specialty drugs) that a member could ask about coverage for. The excerpts describe paying for approved specialty drugs under defined conditions, making it a real covered item rather than a generic process/administrative term or fragment.",
       "applied": false
     }
   },
@@ -17491,12 +17490,11 @@
     ]
   },
   {
-    "canonical_name": "Treatment prescribed by a physician or licensed psychologist:",
+    "canonical_name": "Treatment prescribed by a physician or licensed psychologist",
     "merge_key": "treatment prescribe by a physician or license psychologist",
     "match_type": "exact",
     "variant_texts": {
-      "Treatment prescribed by a physician or licensed psychologist:": 9,
-      "Treatment prescribed by a physician or licensed psychologist": 4,
+      "Treatment prescribed by a physician or licensed psychologist": 13,
       "Treatment prescribed by a physician or licensed psychologist.": 1
     },
     "tiers_present": [
@@ -18397,11 +18395,11 @@
     }
   },
   {
-    "canonical_name": "Services provided by a qualified provider, including but not limited to a physician, fully licensed psychologist, certified nurse practitioner, clinical nurse specialist-certified, clinical licensed master\u2019s social worker, licensed professional counselor, limited licensed psychologists, or licensed marriage and family therapist, or other professional provider as determined by BCBSM in a participating outpatient psychiatric care facility or an office setting:",
+    "canonical_name": "Services provided by a qualified provider, including but not limited to a physician, fully licensed psychologist, certified nurse practitioner, clinical nurse specialist-certified, clinical licensed master\u2019s social worker, licensed professional counselor, limited licensed psychologists, or licensed marriage and family therapist, or other professional provider as determined by BCBSM in a participating outpatient psychiatric care facility or an office setting",
     "merge_key": "service provide by a qualify provider including but not limit to a physician fully license psychologist certify nurse practitioner clinical nurse specialist certify clinical license master s social worker license professional counselor limit license psychologist or license marriage and family therapist or other professional provider as determine by bcbsm in a participate outpatient psychiatric care facility or a office setting",
     "match_type": "exact",
     "variant_texts": {
-      "Services provided by a qualified provider, including but not limited to a physician, fully licensed psychologist, certified nurse practitioner, clinical nurse specialist-certified, clinical licensed master\u2019s social worker, licensed professional counselor, limited licensed psychologists, or licensed marriage and family therapist, or other professional provider as determined by BCBSM in a participating outpatient psychiatric care facility or an office setting:": 14
+      "Services provided by a qualified provider, including but not limited to a physician, fully licensed psychologist, certified nurse practitioner, clinical nurse specialist-certified, clinical licensed master\u2019s social worker, licensed professional counselor, limited licensed psychologists, or licensed marriage and family therapist, or other professional provider as determined by BCBSM in a participating outpatient psychiatric care facility or an office setting": 14
     },
     "tiers_present": [
       2
@@ -20313,11 +20311,11 @@
     ]
   },
   {
-    "canonical_name": "Chiropractic office visits:",
+    "canonical_name": "Chiropractic office visits",
     "merge_key": "chiropractic office visit",
     "match_type": "exact",
     "variant_texts": {
-      "Chiropractic office visits:": 14
+      "Chiropractic office visits": 14
     },
     "tiers_present": [
       2
@@ -20439,7 +20437,7 @@
     "llm_review": {
       "classification": "benefit",
       "confidence": "high",
-      "reasoning": "'Chiropractic office visits' names a specific, nameable service that a member could ask about coverage for. It appears under a clear chiropractic services header with specific coverage terms (one office visit every 36 months for new patients), confirming it is a concrete benefit rather than a generic category or fragment.",
+      "reasoning": "'Chiropractic office visits' names a specific, identifiable service a member could ask about coverage for. It appears as a distinct bulleted benefit with its own coverage terms (one visit every 36 months for new patients), confirming it's a real nameable service rather than a generic category or fragment.",
       "applied": false
     }
   },
@@ -20822,11 +20820,11 @@
     ]
   },
   {
-    "canonical_name": "Chronic disease management services provided by:",
+    "canonical_name": "Chronic disease management services provided by",
     "merge_key": "chronic disease management service provide by",
     "match_type": "exact",
     "variant_texts": {
-      "Chronic disease management services provided by:": 14
+      "Chronic disease management services provided by": 14
     },
     "tiers_present": [
       2
@@ -24130,11 +24128,11 @@
     }
   },
   {
-    "canonical_name": "Physician services are payable for tests such as:",
+    "canonical_name": "Physician services are payable for tests such as",
     "merge_key": "physician service be payable for test such as",
     "match_type": "exact",
     "variant_texts": {
-      "Physician services are payable for tests such as:": 14
+      "Physician services are payable for tests such as": 14
     },
     "tiers_present": [
       2
@@ -24256,16 +24254,16 @@
     "llm_review": {
       "classification": "fragment_or_criterion",
       "confidence": "high",
-      "reasoning": "This is a sentence lead-in phrase ('Physician services are payable for tests such as:') that introduces a list of actual tests. It does not name a specific service itself; the real benefits are the listed items (Thyroid function, EKG, EEG, etc.). The phrase is a fragment/introductory clause, not a nameable service.",
+      "reasoning": "This is a sentence fragment/lead-in phrase ('Physician services are payable for tests such as') that introduces a list of specific tests rather than naming a specific service itself. It describes a scenario/qualifier and ends with 'such as', clearly a header fragment, not a nameable benefit.",
       "applied": true
     }
   },
   {
-    "canonical_name": "Physician and independent physical therapist services are payable for the following tests:",
+    "canonical_name": "Physician and independent physical therapist services are payable for the following tests",
     "merge_key": "physician and independent physical therapist service be payable for the following test",
     "match_type": "exact",
     "variant_texts": {
-      "Physician and independent physical therapist services are payable for the following tests:": 14
+      "Physician and independent physical therapist services are payable for the following tests": 14
     },
     "tiers_present": [
       2
@@ -28108,11 +28106,11 @@
     ]
   },
   {
-    "canonical_name": "The rental or purchase of durable medical equipment, if prescribed by a physician or other provider licensed to prescribe it. You may obtain it from:",
+    "canonical_name": "The rental or purchase of durable medical equipment, if prescribed by a physician or other provider licensed to prescribe it. You may obtain it from",
     "merge_key": "rental or purchase of durable medical equipment if prescribe by a physician or other provider license to prescribe it you may obtain it from",
     "match_type": "exact",
     "variant_texts": {
-      "The rental or purchase of durable medical equipment, if prescribed by a physician or other provider licensed to prescribe it. You may obtain it from:": 14
+      "The rental or purchase of durable medical equipment, if prescribed by a physician or other provider licensed to prescribe it. You may obtain it from": 14
     },
     "tiers_present": [
       2
@@ -32573,11 +32571,11 @@
     ]
   },
   {
-    "canonical_name": "The following when provided for rehabilitation:",
+    "canonical_name": "The following when provided for rehabilitation",
     "merge_key": "following when provide for rehabilitation",
     "match_type": "exact",
     "variant_texts": {
-      "The following when provided for rehabilitation:": 14
+      "The following when provided for rehabilitation": 14
     },
     "tiers_present": [
       2
@@ -32698,12 +32696,11 @@
     ]
   },
   {
-    "canonical_name": "Part-time health aide services, including preparing meals, laundering, bathing and feeding if :",
+    "canonical_name": "Part-time health aide services, including preparing meals, laundering, bathing and feeding if",
     "merge_key": "part time health aide service including prepare meal launder bath and feeding if",
     "match_type": "exact",
     "variant_texts": {
-      "Part-time health aide services, including preparing meals, laundering, bathing and feeding if :": 10,
-      "Part-time health aide services, including preparing meals, laundering, bathing and feeding if:": 4
+      "Part-time health aide services, including preparing meals, laundering, bathing and feeding if": 14
     },
     "tiers_present": [
       2
@@ -34602,11 +34599,11 @@
     ]
   },
   {
-    "canonical_name": "Inpatient care provided by:",
+    "canonical_name": "Inpatient care provided by",
     "merge_key": "inpatient care provide by",
     "match_type": "exact",
     "variant_texts": {
-      "Inpatient care provided by:": 14
+      "Inpatient care provided by": 14
     },
     "tiers_present": [
       2
@@ -36248,12 +36245,12 @@
     ]
   },
   {
-    "canonical_name": "Inpatient Hospital Services:",
+    "canonical_name": "Inpatient Hospital Services",
     "merge_key": "inpatient hospital service",
     "match_type": "exact",
     "variant_texts": {
-      "Inpatient Hospital Services:": 13,
-      "Inpatient hospital services:": 1
+      "Inpatient Hospital Services": 13,
+      "Inpatient hospital services": 1
     },
     "tiers_present": [
       2
@@ -36374,17 +36371,17 @@
     ],
     "llm_review": {
       "classification": "generic_administrative",
-      "confidence": "high",
-      "reasoning": "This is a category heading ('Inpatient Hospital Services:') that introduces a sub-list of actual services (medical care by hospital personnel, etc.). It describes a kind/category of provision rather than a specific nameable service, and the colon plus following sub-bullets confirm it's a grouping header.",
+      "confidence": "medium",
+      "reasoning": "'Inpatient Hospital Services' is a broad category heading describing the type/setting of care rather than a specific nameable service. The excerpts show it functioning as a header with sub-bullets listing the actual specific services (medical care by hospital personnel, etc.). It's a category noun for a class of provisions, not something a member points to as a single specific service.",
       "applied": true
     }
   },
   {
-    "canonical_name": "Outpatient Hospital Services:",
+    "canonical_name": "Outpatient Hospital Services",
     "merge_key": "outpatient hospital service",
     "match_type": "exact",
     "variant_texts": {
-      "Outpatient Hospital Services:": 14
+      "Outpatient Hospital Services": 14
     },
     "tiers_present": [
       2
@@ -36505,17 +36502,17 @@
     ],
     "llm_review": {
       "classification": "generic_administrative",
-      "confidence": "high",
-      "reasoning": "'Outpatient Hospital Services' is a broad category/setting descriptor rather than a specific nameable service. It functions as a header grouping services delivered in an outpatient hospital setting, not a discrete benefit a member would point to and ask if covered.",
+      "confidence": "medium",
+      "reasoning": "'Outpatient Hospital Services' is a broad category/setting descriptor rather than a specific nameable service. It groups services delivered in an outpatient hospital setting, similar to 'Hospitalization' or 'Outpatient Services', rather than pointing to a single service a member could ask about.",
       "applied": true
     }
   },
   {
-    "canonical_name": "Temporary Benefits for Hospital Services:",
+    "canonical_name": "Temporary Benefits for Hospital Services",
     "merge_key": "temporary benefit for hospital service",
     "match_type": "exact",
     "variant_texts": {
-      "Temporary Benefits for Hospital Services:": 14
+      "Temporary Benefits for Hospital Services": 14
     },
     "tiers_present": [
       2
@@ -36635,9 +36632,9 @@
       }
     ],
     "llm_review": {
-      "classification": "fragment_or_criterion",
+      "classification": "generic_administrative",
       "confidence": "medium",
-      "reasoning": "The name refers to a transitional/continuity-of-care provision describing a scenario (when a hospital ends its BCBS contract while you're receiving services) rather than naming a specific, distinct covered service. It's a process/administrative provision about temporary continuation of benefits, not a nameable medical service a member would point to and ask 'is this covered?' It leans toward administrative/criterion territory, but I keep confidence medium given ambiguity.",
+      "reasoning": "This names a transitional/continuity-of-care provision (temporary benefits when a hospital ends its BCBS contract) rather than a specific, nameable covered service or item. It describes a process/category of benefit provision, not a discrete service a member could point to and ask 'is this covered?' It's closer to an administrative arrangement than a benefit name.",
       "applied": true
     }
   },
@@ -39597,11 +39594,11 @@
     }
   },
   {
-    "canonical_name": "Services provided to the newborn if one of the following apply:",
+    "canonical_name": "Services provided to the newborn if one of the following apply",
     "merge_key": "service provide to the newborn if one of the following apply",
     "match_type": "exact",
     "variant_texts": {
-      "Services provided to the newborn if one of the following apply:": 14
+      "Services provided to the newborn if one of the following apply": 14
     },
     "tiers_present": [
       2
@@ -44171,11 +44168,11 @@
     ]
   },
   {
-    "canonical_name": "Diabetes self-management training conducted in a group setting, whenever practicable, if:",
+    "canonical_name": "Diabetes self-management training conducted in a group setting, whenever practicable, if",
     "merge_key": "diabetes self management train conduct in a group setting whenever practicable if",
     "match_type": "exact",
     "variant_texts": {
-      "Diabetes self-management training conducted in a group setting, whenever practicable, if:": 14
+      "Diabetes self-management training conducted in a group setting, whenever practicable, if": 14
     },
     "tiers_present": [
       2
@@ -57801,11 +57798,11 @@
     ]
   },
   {
-    "canonical_name": "Treatment must be provided or supervised by one of the following:",
+    "canonical_name": "Treatment must be provided or supervised by one of the following",
     "merge_key": "treatment must be provide or supervise by one of the following",
     "match_type": "exact",
     "variant_texts": {
-      "Treatment must be provided or supervised by one of the following:": 13
+      "Treatment must be provided or supervised by one of the following": 13
     },
     "tiers_present": [
       2
@@ -66877,11 +66874,11 @@
     }
   },
   {
-    "canonical_name": "Vaginal delivery or cesarean section when provided in:",
+    "canonical_name": "Vaginal delivery or cesarean section when provided in",
     "merge_key": "vaginal delivery or cesarean section when provide in",
     "match_type": "exact",
     "variant_texts": {
-      "Vaginal delivery or cesarean section when provided in:": 13
+      "Vaginal delivery or cesarean section when provided in": 13
     },
     "tiers_present": [
       2
@@ -68207,12 +68204,11 @@
     ]
   },
   {
-    "canonical_name": "Services and medical supplies to treat and control diabetes when prescribed by a physician or other professional provider licensed to prescribe it. Services and supplies include:",
+    "canonical_name": "Services and medical supplies to treat and control diabetes when prescribed by a physician or other professional provider licensed to prescribe it. Services and supplies include",
     "merge_key": "service and medical supply to treat and control diabetes when prescribe by a physician or other professional provider license to prescribe it service and supply include",
     "match_type": "exact",
     "variant_texts": {
-      "Services and medical supplies to treat and control diabetes when prescribed by a physician or other professional provider licensed to prescribe it. Services and supplies include:": 12,
-      "Services and medical supplies to treat and control diabetes when prescribed by a physician or other professional provider licensed to prescribe it. Services and supplies include :": 1
+      "Services and medical supplies to treat and control diabetes when prescribed by a physician or other professional provider licensed to prescribe it. Services and supplies include": 13
     },
     "tiers_present": [
       2
@@ -68451,11 +68447,11 @@
     }
   },
   {
-    "canonical_name": "Select diabetic supplies and devices when prescribed by a physician or other professional provider licensed to prescribe it. Select diabetic supplies and devices include:",
+    "canonical_name": "Select diabetic supplies and devices when prescribed by a physician or other professional provider licensed to prescribe it. Select diabetic supplies and devices include",
     "merge_key": "select diabetic supply and device when prescribe by a physician or other professional provider license to prescribe it select diabetic supply and device include",
     "match_type": "exact",
     "variant_texts": {
-      "Select diabetic supplies and devices when prescribed by a physician or other professional provider licensed to prescribe it. Select diabetic supplies and devices include:": 13
+      "Select diabetic supplies and devices when prescribed by a physician or other professional provider licensed to prescribe it. Select diabetic supplies and devices include": 13
     },
     "tiers_present": [
       2
@@ -73591,11 +73587,11 @@
     ]
   },
   {
-    "canonical_name": "Therapeutic care \u2013 Evidence-based services from licensed providers. It includes:",
+    "canonical_name": "Therapeutic care \u2013 Evidence-based services from licensed providers. It includes",
     "merge_key": "therapeutic care evidence base service from license provider it include",
     "match_type": "exact",
     "variant_texts": {
-      "Therapeutic care \u2013 Evidence-based services from licensed providers. It includes:": 12
+      "Therapeutic care \u2013 Evidence-based services from licensed providers. It includes": 12
     },
     "tiers_present": [
       2
@@ -73703,7 +73699,7 @@
     "llm_review": {
       "classification": "fragment_or_criterion",
       "confidence": "medium",
-      "reasoning": "The name ends with a colon and 'It includes:', indicating this was a header/lead-in phrase to a list of specific services rather than a nameable service itself. While 'Therapeutic care' relates to autism treatment, the trailing definitional phrasing 'Evidence-based services from licensed providers. It includes:' shows this is a description/category lead-in, not a specific pointable benefit.",
+      "reasoning": "The name is a truncated fragment ending with 'It includes', indicating it was cut off mid-sentence. While 'Therapeutic care' could be a benefit, the extraction captured a definitional sentence ('Evidence-based services from licensed providers. It includes...') rather than a clean benefit name. This is a sentence fragment describing what therapeutic care encompasses rather than a discrete nameable service.",
       "applied": true
     }
   },
@@ -73942,11 +73938,11 @@
     }
   },
   {
-    "canonical_name": "Services to treat temporomandibular joint dysfunction (TMJ) limited to those described below:",
+    "canonical_name": "Services to treat temporomandibular joint dysfunction (TMJ) limited to those described below",
     "merge_key": "service to treat temporomandibular joint dysfunction tmj limit to that describe below",
     "match_type": "exact",
     "variant_texts": {
-      "Services to treat temporomandibular joint dysfunction (TMJ) limited to those described below:": 12
+      "Services to treat temporomandibular joint dysfunction (TMJ) limited to those described below": 12
     },
     "tiers_present": [
       2
@@ -74277,11 +74273,11 @@
     ]
   },
   {
-    "canonical_name": "Newborn services provided during the first 48 or 96 hours if the newborn has not been added to the BCBSM contract of the birth parent. These services include:",
+    "canonical_name": "Newborn services provided during the first 48 or 96 hours if the newborn has not been added to the BCBSM contract of the birth parent. These services include",
     "merge_key": "newborn service provide during the first 48 or 96 hour if the newborn have not be add to the bcbsm contract of the birth parent this service include",
     "match_type": "exact",
     "variant_texts": {
-      "Newborn services provided during the first 48 or 96 hours if the newborn has not been added to the BCBSM contract of the birth parent. These services include:": 12
+      "Newborn services provided during the first 48 or 96 hours if the newborn has not been added to the BCBSM contract of the birth parent. These services include": 12
     },
     "tiers_present": [
       2
@@ -74611,11 +74607,11 @@
     ]
   },
   {
-    "canonical_name": "Harvesting and storage (both covered even if it is not covered by the donor\u2019s insurance) of the donor\u2019s:",
+    "canonical_name": "Harvesting and storage (both covered even if it is not covered by the donor\u2019s insurance) of the donor\u2019s",
     "merge_key": "harvesting and storage both cover even if it be not cover by the donor s insurance of the donor s",
     "match_type": "exact",
     "variant_texts": {
-      "Harvesting and storage (both covered even if it is not covered by the donor\u2019s insurance) of the donor\u2019s:": 12
+      "Harvesting and storage (both covered even if it is not covered by the donor\u2019s insurance) of the donor\u2019s": 12
     },
     "tiers_present": [
       2
@@ -82927,8 +82923,7 @@
     "merge_key": "certify register nurse anesthetist crna",
     "match_type": "exact",
     "variant_texts": {
-      "A certified registered nurse anesthetist (CRNA)": 8,
-      "A certified registered nurse anesthetist (CRNA):": 2
+      "A certified registered nurse anesthetist (CRNA)": 10
     },
     "tiers_present": [
       2
@@ -83022,16 +83017,16 @@
     "llm_review": {
       "classification": "benefit",
       "confidence": "medium",
-      "reasoning": "The name refers to a certified registered nurse anesthetist, a specific type of provider whose services (anesthesia) are a nameable, specific covered service under Anesthesiology Services. A member could reasonably ask if CRNA services are covered. While it names a provider type rather than a procedure, it points to a specific, identifiable service, so I lean toward benefit.",
+      "reasoning": "A certified registered nurse anesthetist (CRNA) is a specific, nameable provider whose services a member could ask about. Under 'Anesthesiology Services' this refers to anesthesia services rendered by a CRNA, which is a real, specific covered item rather than a generic category or a fragment/criterion.",
       "applied": false
     }
   },
   {
-    "canonical_name": "Autism spectrum disorder services including applied behavior analysis (ABA) is covered subject to the following requirements:",
+    "canonical_name": "Autism spectrum disorder services including applied behavior analysis (ABA) is covered subject to the following requirements",
     "merge_key": "autism spectrum disorder service including apply behavior analysis aba be cover subject to the following requirement",
     "match_type": "exact",
     "variant_texts": {
-      "Autism spectrum disorder services including applied behavior analysis (ABA) is covered subject to the following requirements:": 10
+      "Autism spectrum disorder services including applied behavior analysis (ABA) is covered subject to the following requirements": 10
     },
     "tiers_present": [
       2
@@ -87221,11 +87216,11 @@
     }
   },
   {
-    "canonical_name": "Harvesting (including peripheral blood stem cell pheresis) and storage of the donor\u2019s bone marrow, peripheral blood stem cell and/or umbilical cord blood, if the donor is:",
+    "canonical_name": "Harvesting (including peripheral blood stem cell pheresis) and storage of the donor\u2019s bone marrow, peripheral blood stem cell and/or umbilical cord blood, if the donor is",
     "merge_key": "harvesting including peripheral blood stem cell pheresis and storage of the donor s bone marrow peripheral blood stem cell and or umbilical cord blood if the donor be",
     "match_type": "exact",
     "variant_texts": {
-      "Harvesting (including peripheral blood stem cell pheresis) and storage of the donor\u2019s bone marrow, peripheral blood stem cell and/or umbilical cord blood, if the donor is:": 9
+      "Harvesting (including peripheral blood stem cell pheresis) and storage of the donor\u2019s bone marrow, peripheral blood stem cell and/or umbilical cord blood, if the donor is": 9
     },
     "tiers_present": [
       2
@@ -96088,8 +96083,7 @@
     "merge_key": "injectable infuse drug",
     "match_type": "exact",
     "variant_texts": {
-      "Injectable/Infused Drugs": 4,
-      "Injectable/Infused Drugs:": 1
+      "Injectable/Infused Drugs": 5
     },
     "tiers_present": [
       2
@@ -96148,7 +96142,7 @@
     "llm_review": {
       "classification": "benefit",
       "confidence": "medium",
-      "reasoning": "The name refers to a specific category of medications administered by injection or infusion, which is a nameable, pointable service a member could ask about coverage for. While somewhat broad, injectable/infused drugs is a recognized specific benefit type distinct from oral prescription drugs, not merely a generic process word.",
+      "reasoning": "The name refers to a specific, nameable category of pharmaceuticals administered by injection or infusion. While somewhat broad, injectable/infused drugs are a recognizable class of covered items a member could ask about, more specific than a bare 'Drugs' generic term.",
       "applied": false
     }
   },
@@ -97083,7 +97077,7 @@
   },
   {
     "canonical_name": "Lenses",
-    "merge_key": "lense",
+    "merge_key": "lens",
     "match_type": "exact",
     "variant_texts": {
       "Lenses": 4
@@ -97136,7 +97130,7 @@
   },
   {
     "canonical_name": "Lenses may be molded or ground, glass or plastic.",
-    "merge_key": "lense may be mold or ground glass or plastic",
+    "merge_key": "lens may be mold or ground glass or plastic",
     "match_type": "exact",
     "variant_texts": {
       "Lenses may be molded or ground, glass or plastic.": 4
@@ -97197,7 +97191,7 @@
   },
   {
     "canonical_name": "The lenses may be colorless or have rose tints #1 or #2 if therapeutically necessary. The provider may charge you for additional tinting other than for necessary rose tints #1 or #2.",
-    "merge_key": "lense may be colorless or have rose tint 1 or 2 if therapeutically necessary the provider may charge you for additional tint other than for necessary rose tint 1 or 2",
+    "merge_key": "lens may be colorless or have rose tint 1 or 2 if therapeutically necessary the provider may charge you for additional tint other than for necessary rose tint 1 or 2",
     "match_type": "exact",
     "variant_texts": {
       "The lenses may be colorless or have rose tints #1 or #2 if therapeutically necessary. The provider may charge you for additional tinting other than for necessary rose tints #1 or #2.": 4
@@ -97252,7 +97246,7 @@
   },
   {
     "canonical_name": "The lens blank of a standard lens must not exceed 60 mm in diameter. The provider may charge you for the difference in cost between standard and oversize lenses.",
-    "merge_key": "lens blank of a standard lens must not exceed 60 mm in diameter the provider may charge you for the difference in cost between standard and oversize lense",
+    "merge_key": "lens blank of a standard lens must not exceed 60 mm in diameter the provider may charge you for the difference in cost between standard and oversize lens",
     "match_type": "exact",
     "variant_texts": {
       "The lens blank of a standard lens must not exceed 60 mm in diameter. The provider may charge you for the difference in cost between standard and oversize lenses.": 4
@@ -97360,7 +97354,7 @@
   },
   {
     "canonical_name": "Contact Lenses",
-    "merge_key": "contact lense",
+    "merge_key": "contact lens",
     "match_type": "exact",
     "variant_texts": {
       "Contact Lenses": 4
@@ -97706,7 +97700,7 @@
   },
   {
     "canonical_name": "Antireflective Lenses",
-    "merge_key": "antireflective lense",
+    "merge_key": "antireflective lens",
     "match_type": "fuzzy",
     "variant_texts": {
       "Antireflective Lenses": 3,
@@ -97765,7 +97759,7 @@
   },
   {
     "canonical_name": "Broken or Lost Lenses or Frames",
-    "merge_key": "break or lose lense or frame",
+    "merge_key": "break or lose lens or frame",
     "match_type": "exact",
     "variant_texts": {
       "Broken or Lost Lenses or Frames": 3,
@@ -98825,11 +98819,11 @@
     ]
   },
   {
-    "canonical_name": "each visit, including:",
+    "canonical_name": "each visit, including",
     "merge_key": "each visit including",
     "match_type": "exact",
     "variant_texts": {
-      "each visit, including:": 4
+      "each visit, including": 4
     },
     "tiers_present": [
       2
@@ -98881,7 +98875,7 @@
     "llm_review": {
       "classification": "fragment_or_criterion",
       "confidence": "high",
-      "reasoning": "The name 'each visit, including:' is a sentence fragment/lead-in phrase, not a specific nameable service. It describes a structure introducing a list rather than naming a covered service or item.",
+      "reasoning": "The name 'each visit, including' is a sentence fragment with no specific service named. It describes a scope/qualifier rather than a nameable service or item, so it is a fragment, not a benefit.",
       "applied": true
     }
   },
@@ -99454,11 +99448,11 @@
     }
   },
   {
-    "canonical_name": "Additional Counseling and Screening Services, including but not limited to:",
+    "canonical_name": "Additional Counseling and Screening Services, including but not limited to",
     "merge_key": "additional counseling and screen service including but not limit to",
     "match_type": "exact",
     "variant_texts": {
-      "Additional Counseling and Screening Services, including but not limited to:": 4
+      "Additional Counseling and Screening Services, including but not limited to": 4
     },
     "tiers_present": [
       2
@@ -99510,7 +99504,7 @@
     "llm_review": {
       "classification": "fragment_or_criterion",
       "confidence": "medium",
-      "reasoning": "The name ends with 'including but not limited to:' which is an introductory lead-in phrase to a list, not a specific nameable service. 'Additional Counseling and Screening Services' is a vague category rather than a specific benefit, and the trailing colon confirms it's a header/fragment introducing subsequent items rather than a benefit name itself.",
+      "reasoning": "The name ends with 'including but not limited to' which is an introductory lead-in phrase, not a specific nameable service. 'Additional Counseling and Screening Services' is a vague category, and the trailing qualifier confirms this is a header/fragment introducing a list rather than a specific benefit a member could point to.",
       "applied": true
     }
   },
@@ -100925,7 +100919,7 @@
   },
   {
     "canonical_name": "Lenses must be equal in quality to the first-quality lens series made by American Optical, Bausch &",
-    "merge_key": "lense must be equal in quality to the first quality lens series make by american optical bausch",
+    "merge_key": "lens must be equal in quality to the first quality lens series make by american optical bausch",
     "match_type": "exact",
     "variant_texts": {
       "Lenses must be equal in quality to the first-quality lens series made by American Optical, Bausch &": 3
@@ -101069,7 +101063,7 @@
   },
   {
     "canonical_name": "Aphakic Lenses",
-    "merge_key": "aphakic lense",
+    "merge_key": "aphakic lens",
     "match_type": "exact",
     "variant_texts": {
       "Aphakic Lenses": 3
@@ -101115,7 +101109,7 @@
   },
   {
     "canonical_name": "Blended Lenses",
-    "merge_key": "blend lense",
+    "merge_key": "blend lens",
     "match_type": "exact",
     "variant_texts": {
       "Blended Lenses": 3
@@ -101306,11 +101300,11 @@
     ]
   },
   {
-    "canonical_name": "Applied spectrum disorder services including applied behavior analysis (ABA) is covered subject to the following requirements:",
+    "canonical_name": "Applied spectrum disorder services including applied behavior analysis (ABA) is covered subject to the following requirements",
     "merge_key": "apply spectrum disorder service including apply behavior analysis aba be cover subject to the following requirement",
     "match_type": "exact",
     "variant_texts": {
-      "Applied spectrum disorder services including applied behavior analysis (ABA) is covered subject to the following requirements:": 3
+      "Applied spectrum disorder services including applied behavior analysis (ABA) is covered subject to the following requirements": 3
     },
     "tiers_present": [
       2
@@ -101498,11 +101492,11 @@
     ]
   },
   {
-    "canonical_name": "Harvesting (including peripheral blood stem cell pheresi s) and storage of the donor\u2019s bone marrow, peripheral blood stem cell and/or umbilical cord blood, if the donor is:",
+    "canonical_name": "Harvesting (including peripheral blood stem cell pheresi s) and storage of the donor\u2019s bone marrow, peripheral blood stem cell and/or umbilical cord blood, if the donor is",
     "merge_key": "harvesting including peripheral blood stem cell pheresi s and storage of the donor s bone marrow peripheral blood stem cell and or umbilical cord blood if the donor be",
     "match_type": "exact",
     "variant_texts": {
-      "Harvesting (including peripheral blood stem cell pheresi s) and storage of the donor\u2019s bone marrow, peripheral blood stem cell and/or umbilical cord blood, if the donor is:": 3
+      "Harvesting (including peripheral blood stem cell pheresi s) and storage of the donor\u2019s bone marrow, peripheral blood stem cell and/or umbilical cord blood, if the donor is": 3
     },
     "tiers_present": [
       2
@@ -102529,11 +102523,11 @@
     ]
   },
   {
-    "canonical_name": "Cosmetic surgery is only payable for:",
+    "canonical_name": "Cosmetic surgery is only payable for",
     "merge_key": "cosmetic surgery be only payable for",
     "match_type": "exact",
     "variant_texts": {
-      "Cosmetic surgery is only payable for:": 3
+      "Cosmetic surgery is only payable for": 3
     },
     "tiers_present": [
       2
@@ -102578,7 +102572,7 @@
     "llm_review": {
       "classification": "fragment_or_criterion",
       "confidence": "high",
-      "reasoning": "The name 'Cosmetic surgery is only payable for:' is a sentence fragment introducing a list of conditions/criteria under which cosmetic surgery is covered. It does not itself name a specific service; the trailing colon and phrasing indicate it's a lead-in to eligibility criteria. While 'cosmetic surgery' is a real service, the extracted string is a qualifier clause, not a clean benefit name.",
+      "reasoning": "The name 'Cosmetic surgery is only payable for' is a sentence fragment introducing a list of qualifying conditions, not a specific nameable service. Although 'cosmetic surgery' is a real service concept, the extracted text is a coverage-limitation clause describing when it is payable, so it reads as a criterion/qualifier rather than a benefit name.",
       "applied": true
     }
   },
@@ -102799,11 +102793,11 @@
     }
   },
   {
-    "canonical_name": "Sleep apnea treatments:",
+    "canonical_name": "Sleep apnea treatments",
     "merge_key": "sleep apnea treatment",
     "match_type": "exact",
     "variant_texts": {
-      "Sleep apnea treatments:": 3
+      "Sleep apnea treatments": 3
     },
     "tiers_present": [
       2
@@ -102847,8 +102841,8 @@
     ],
     "llm_review": {
       "classification": "benefit",
-      "confidence": "medium",
-      "reasoning": "'Sleep apnea treatments' names a specific, identifiable category of medical service that a member could ask about coverage for. While it's somewhat broad, it refers to a concrete nameable clinical treatment area (with sub-items like rhinoplasty/septorhinoplasty listed under it), not an administrative cost-share word or a fragment/criterion. It appears in the Surgery section as a real service line.",
+      "confidence": "high",
+      "reasoning": "'Sleep apnea treatments' names a specific, nameable medical service/procedure category that a member could point to and ask about coverage. It appears alongside other specific surgical procedures. It refers to a real service regardless of its coverage status in these excerpts.",
       "applied": false
     }
   },
@@ -102961,11 +102955,11 @@
     }
   },
   {
-    "canonical_name": "Dental surgery is only payable for:",
+    "canonical_name": "Dental surgery is only payable for",
     "merge_key": "dental surgery be only payable for",
     "match_type": "exact",
     "variant_texts": {
-      "Dental surgery is only payable for:": 3
+      "Dental surgery is only payable for": 3
     },
     "tiers_present": [
       2
@@ -103010,7 +103004,7 @@
     "llm_review": {
       "classification": "fragment_or_criterion",
       "confidence": "high",
-      "reasoning": "The candidate name 'Dental surgery is only payable for:' is a sentence lead-in introducing a list of conditions/criteria, not a specific nameable service. It describes when dental surgery is payable rather than naming the service itself.",
+      "reasoning": "The name 'Dental surgery is only payable for' is a sentence fragment introducing a conditional list of when dental surgery is payable. It describes a coverage condition rather than naming a specific service, so it is a fragment/criterion.",
       "applied": true
     }
   },
@@ -103651,7 +103645,7 @@
   },
   {
     "canonical_name": "One pair of lenses or contact lenses every 12 months",
-    "merge_key": "one pair of lense or contact lense every 12 month",
+    "merge_key": "one pair of lens or contact lens every 12 month",
     "match_type": "exact",
     "variant_texts": {
       "One pair of lenses or contact lenses every 12 months": 2
@@ -104615,11 +104609,11 @@
     }
   },
   {
-    "canonical_name": "Multiple extractions or removal of unerupted teeth or alveoloplasty when:",
+    "canonical_name": "Multiple extractions or removal of unerupted teeth or alveoloplasty when",
     "merge_key": "multiple extraction or removal of unerupted tooth or alveoloplasty when",
     "match_type": "exact",
     "variant_texts": {
-      "Multiple extractions or removal of unerupted teeth or alveoloplasty when:": 2
+      "Multiple extractions or removal of unerupted teeth or alveoloplasty when": 2
     },
     "tiers_present": [
       2
@@ -104818,11 +104812,11 @@
     ]
   },
   {
-    "canonical_name": "You are limited to three presurgical consultations for each surgical diagnosis. The three consultations consist of a:",
+    "canonical_name": "You are limited to three presurgical consultations for each surgical diagnosis. The three consultations consist of a",
     "merge_key": "you be limit to three presurgical consultation for each surgical diagnosis the three consultation consist of a",
     "match_type": "exact",
     "variant_texts": {
-      "You are limited to three presurgical consultations for each surgical diagnosis. The three consultations consist of a:": 2
+      "You are limited to three presurgical consultations for each surgical diagnosis. The three consultations consist of a": 2
     },
     "tiers_present": [
       2
@@ -105077,7 +105071,7 @@
   },
   {
     "canonical_name": "Progressive lenses",
-    "merge_key": "progressive lense",
+    "merge_key": "progressive lens",
     "match_type": "exact",
     "variant_texts": {
       "Progressive lenses": 2
@@ -105163,7 +105157,7 @@
   },
   {
     "canonical_name": "Cosmetic Lenses/Processes",
-    "merge_key": "cosmetic lense process",
+    "merge_key": "cosmetic lens process",
     "match_type": "exact",
     "variant_texts": {
       "Cosmetic Lenses/Processes": 1,
@@ -105921,11 +105915,11 @@
     }
   },
   {
-    "canonical_name": "Other diagnostic and preventive services:",
+    "canonical_name": "Other diagnostic and preventive services",
     "merge_key": "other diagnostic and preventive service",
     "match_type": "exact",
     "variant_texts": {
-      "Other diagnostic and preventive services:": 2
+      "Other diagnostic and preventive services": 2
     },
     "tiers_present": [
       2
@@ -105963,7 +105957,7 @@
     "llm_review": {
       "classification": "generic_administrative",
       "confidence": "high",
-      "reasoning": "This is a category header ('Other diagnostic and preventive services:') that groups specific sub-services beneath it (diagnostic tests, dental sealants, space maintainers). It describes a kind/grouping of provisions rather than naming a single specific service, and ends with a colon indicating it introduces a list.",
+      "reasoning": "The name 'Other diagnostic and preventive services' is a category header that groups sub-items (diagnostic tests, dental sealants, space maintainers) rather than naming a specific service itself. The word 'Other' and the plural 'services' followed by a list of actual specific items confirms it's a category/bucket label, not a nameable benefit.",
       "applied": true
     }
   },
@@ -106610,11 +106604,11 @@
     ]
   },
   {
-    "canonical_name": "General anesthesia or IV sedation in connection with oral surgery, when medically or dentally necessary as determined by BCBSM. To be considered necessary, one of the following criteria must be met:",
+    "canonical_name": "General anesthesia or IV sedation in connection with oral surgery, when medically or dentally necessary as determined by BCBSM. To be considered necessary, one of the following criteria must be met",
     "merge_key": "general anesthesia or iv sedation in connection with oral surgery when medically or dentally necessary as determine by bcbsm to be consider necessary one of the following criterion must be meet",
     "match_type": "exact",
     "variant_texts": {
-      "General anesthesia or IV sedation in connection with oral surgery, when medically or dentally necessary as determined by BCBSM. To be considered necessary, one of the following criteria must be met:": 2
+      "General anesthesia or IV sedation in connection with oral surgery, when medically or dentally necessary as determined by BCBSM. To be considered necessary, one of the following criteria must be met": 2
     },
     "tiers_present": [
       2
@@ -109301,7 +109295,7 @@
   },
   {
     "canonical_name": "$150 allowance for frames or elective contact lenses",
-    "merge_key": "150 allowance for frame or elective contact lense",
+    "merge_key": "150 allowance for frame or elective contact lens",
     "match_type": "exact",
     "variant_texts": {
       "$150 allowance for frames or elective contact lenses": 1
@@ -109816,11 +109810,11 @@
     ]
   },
   {
-    "canonical_name": "Specialty Pharmaceuticals: We pay for approved specialty drugs when:",
+    "canonical_name": "Specialty Pharmaceuticals: We pay for approved specialty drugs when",
     "merge_key": "specialty pharmaceutical we pay for approve specialty drug when",
     "match_type": "exact",
     "variant_texts": {
-      "Specialty Pharmaceuticals: We pay for approved specialty drugs when:": 1
+      "Specialty Pharmaceuticals: We pay for approved specialty drugs when": 1
     },
     "tiers_present": [
       2
@@ -110572,11 +110566,11 @@
     ]
   },
   {
-    "canonical_name": "Given by:",
+    "canonical_name": "Given by",
     "merge_key": "given by",
     "match_type": "exact",
     "variant_texts": {
-      "Given by:": 1
+      "Given by": 1
     },
     "tiers_present": [
       2
@@ -111032,11 +111026,11 @@
     ]
   },
   {
-    "canonical_name": "The consultation will be paid for if the surgery you plan to have is covered under this certificate and will be done in a covered location (see above). Consultations consist of a:",
+    "canonical_name": "The consultation will be paid for if the surgery you plan to have is covered under this certificate and will be done in a covered location (see above). Consultations consist of a",
     "merge_key": "consultation will be pay for if the surgery you plan to have be cover under this certificate and will be do in a cover location see above consultation consist of a",
     "match_type": "exact",
     "variant_texts": {
-      "The consultation will be paid for if the surgery you plan to have is covered under this certificate and will be done in a covered location (see above). Consultations consist of a:": 1
+      "The consultation will be paid for if the surgery you plan to have is covered under this certificate and will be done in a covered location (see above). Consultations consist of a": 1
     },
     "tiers_present": [
       2
@@ -111134,11 +111128,11 @@
     ]
   },
   {
-    "canonical_name": "Technical surgical assistance (TSA): In some cases, a surgeon will need another physician to give them technical assistance. We pay the approved amount for TSA, according to our guidelines. The surgery can be done in a:",
+    "canonical_name": "Technical surgical assistance (TSA): In some cases, a surgeon will need another physician to give them technical assistance. We pay the approved amount for TSA, according to our guidelines. The surgery can be done in a",
     "merge_key": "technical surgical assistance tsa in some case a surgeon will need another physician to give they technical assistance we pay the approve amount for tsa accord to our guideline the surgery can be do in a",
     "match_type": "exact",
     "variant_texts": {
-      "Technical surgical assistance (TSA): In some cases, a surgeon will need another physician to give them technical assistance. We pay the approved amount for TSA, according to our guidelines. The surgery can be done in a:": 1
+      "Technical surgical assistance (TSA): In some cases, a surgeon will need another physician to give them technical assistance. We pay the approved amount for TSA, according to our guidelines. The surgery can be done in a": 1
     },
     "tiers_present": [
       2
@@ -111282,11 +111276,11 @@
     }
   },
   {
-    "canonical_name": "Procedures that are payable in the circumstances explained above include:",
+    "canonical_name": "Procedures that are payable in the circumstances explained above include",
     "merge_key": "procedure that be payable in the circumstance explain above include",
     "match_type": "exact",
     "variant_texts": {
-      "Procedures that are payable in the circumstances explained above include:": 1
+      "Procedures that are payable in the circumstances explained above include": 1
     },
     "tiers_present": [
       2
@@ -111317,7 +111311,7 @@
     "llm_review": {
       "classification": "fragment_or_criterion",
       "confidence": "high",
-      "reasoning": "This is a sentence lead-in phrase ('Procedures that are payable in the circumstances explained above include:') that introduces a list rather than naming a specific service. It describes a condition/scenario, not a nameable benefit.",
+      "reasoning": "This is a sentence fragment introducing a list ('Procedures that are payable in the circumstances explained above include:'), not the name of a specific service. The actual benefits are the items listed after it (Alveoloplasty, Diagnostic X-rays, etc.).",
       "applied": true
     }
   },
@@ -111390,11 +111384,11 @@
     ]
   },
   {
-    "canonical_name": "Visits through age 18 as follows:",
+    "canonical_name": "Visits through age 18 as follows",
     "merge_key": "visit through age 18 as follow",
     "match_type": "exact",
     "variant_texts": {
-      "Visits through age 18 as follows:": 1
+      "Visits through age 18 as follows": 1
     },
     "tiers_present": [
       2
@@ -111425,16 +111419,16 @@
     "llm_review": {
       "classification": "fragment_or_criterion",
       "confidence": "high",
-      "reasoning": "The name 'Visits through age 18 as follows:' is a sentence fragment/lead-in introducing a list of visit allowances, not a specific nameable service. The actual benefit is 'Well-Baby and Well-Child Visits'; this candidate is just a qualifier describing the age scope and setting up a list.",
+      "reasoning": "This is a header/qualifier phrase introducing a schedule of visit counts ('Visits through age 18 as follows:'). It does not name a specific service; the actual benefit is 'Well-Baby and Well-Child Visits'. This text describes the scope/frequency criterion rather than a nameable service.",
       "applied": true
     }
   },
   {
-    "canonical_name": "The following services once per member, per calendar year, when performed as routine screening:",
+    "canonical_name": "The following services once per member, per calendar year, when performed as routine screening",
     "merge_key": "following service once per member per calendar year when perform as routine screen",
     "match_type": "exact",
     "variant_texts": {
-      "The following services once per member, per calendar year, when performed as routine screening:": 1
+      "The following services once per member, per calendar year, when performed as routine screening": 1
     },
     "tiers_present": [
       2
@@ -111464,11 +111458,11 @@
     ]
   },
   {
-    "canonical_name": "Hospital and physician benefits for colonoscopy services are payable at 100% of the BCBSM approved amount as follows:",
+    "canonical_name": "Hospital and physician benefits for colonoscopy services are payable at 100% of the BCBSM approved amount as follows",
     "merge_key": "hospital and physician benefit for colonoscopy service be payable at 100 of the bcbsm approve amount as follow",
     "match_type": "exact",
     "variant_texts": {
-      "Hospital and physician benefits for colonoscopy services are payable at 100% of the BCBSM approved amount as follows:": 1
+      "Hospital and physician benefits for colonoscopy services are payable at 100% of the BCBSM approved amount as follows": 1
     },
     "tiers_present": [
       2
@@ -111930,11 +111924,11 @@
     }
   },
   {
-    "canonical_name": "Covered services include, but not limited to, the following:",
+    "canonical_name": "Covered services include, but not limited to, the following",
     "merge_key": "cover service include but not limit to the following",
     "match_type": "exact",
     "variant_texts": {
-      "Covered services include, but not limited to, the following:": 1
+      "Covered services include, but not limited to, the following": 1
     },
     "tiers_present": [
       2
@@ -111965,7 +111959,7 @@
     "llm_review": {
       "classification": "fragment_or_criterion",
       "confidence": "high",
-      "reasoning": "This is an introductory clause ('Covered services include, but not limited to, the following:') that precedes a list of benefits. It does not name any specific service itself; it is a sentence fragment used as a list header, not a nameable benefit.",
+      "reasoning": "The name 'Covered services include, but not limited to, the following' is an introductory clause/lead-in phrase, not a specific nameable service. It describes what follows rather than naming a service a member could ask about.",
       "applied": true
     }
   },
@@ -112073,7 +112067,7 @@
   },
   {
     "canonical_name": "One pair of lenses every 12 months",
-    "merge_key": "one pair of lense every 12 month",
+    "merge_key": "one pair of lens every 12 month",
     "match_type": "exact",
     "variant_texts": {
       "One pair of lenses every 12 months": 1
@@ -112113,7 +112107,7 @@
   },
   {
     "canonical_name": "Contact lenses every 12 months",
-    "merge_key": "contact lense every 12 month",
+    "merge_key": "contact lens every 12 month",
     "match_type": "exact",
     "variant_texts": {
       "Contact lenses every 12 months": 1
@@ -112193,7 +112187,7 @@
   },
   {
     "canonical_name": "$150 elective contact lenses",
-    "merge_key": "150 elective contact lense",
+    "merge_key": "150 elective contact lens",
     "match_type": "exact",
     "variant_texts": {
       "$150 elective contact lenses": 1
@@ -112233,7 +112227,7 @@
   },
   {
     "canonical_name": "Lenses must be equal in quality to the first-quality lens series made by American Optical,",
-    "merge_key": "lense must be equal in quality to the first quality lens series make by american optical",
+    "merge_key": "lens must be equal in quality to the first quality lens series make by american optical",
     "match_type": "exact",
     "variant_texts": {
       "Lenses must be equal in quality to the first-quality lens series made by American Optical,": 1
@@ -112341,7 +112335,7 @@
   },
   {
     "canonical_name": "Photochromatic lenses",
-    "merge_key": "photochromatic lense",
+    "merge_key": "photochromatic lens",
     "match_type": "exact",
     "variant_texts": {
       "Photochromatic lenses": 1
@@ -112381,7 +112375,7 @@
   },
   {
     "canonical_name": "$130 allowance for frames or elective contact lenses",
-    "merge_key": "130 allowance for frame or elective contact lense",
+    "merge_key": "130 allowance for frame or elective contact lens",
     "match_type": "exact",
     "variant_texts": {
       "$130 allowance for frames or elective contact lenses": 1
@@ -112918,11 +112912,11 @@
     }
   },
   {
-    "canonical_name": "Services given when intensive monitoring and/or supervision during exercise is required. Services may be given in:",
+    "canonical_name": "Services given when intensive monitoring and/or supervision during exercise is required. Services may be given in",
     "merge_key": "service given when intensive monitor and or supervision during exercise be require service may be given in",
     "match_type": "exact",
     "variant_texts": {
-      "Services given when intensive monitoring and/or supervision during exercise is required. Services may be given in:": 1
+      "Services given when intensive monitoring and/or supervision during exercise is required. Services may be given in": 1
     },
     "tiers_present": [
       2
@@ -113026,11 +113020,11 @@
     }
   },
   {
-    "canonical_name": "Refills of prescriptions for covered drugs that exceed BCBSM\u2019s limits:",
+    "canonical_name": "Refills of prescriptions for covered drugs that exceed BCBSM\u2019s limits",
     "merge_key": "refill of prescription for cover drug that exceed bcbsm s limit",
     "match_type": "exact",
     "variant_texts": {
-      "Refills of prescriptions for covered drugs that exceed BCBSM\u2019s limits:": 1
+      "Refills of prescriptions for covered drugs that exceed BCBSM\u2019s limits": 1
     },
     "tiers_present": [
       2
@@ -113061,7 +113055,7 @@
     "llm_review": {
       "classification": "fragment_or_criterion",
       "confidence": "high",
-      "reasoning": "The name describes a scenario/limitation ('Refills...that exceed BCBSM's limits') rather than naming a specific covered service or item. It is a condition/limitation clause, not a nameable benefit.",
+      "reasoning": "The name describes a scenario/limitation condition ('refills that exceed BCBSM's limits') rather than a specific nameable service. It is a limitation clause, not a benefit.",
       "applied": true
     }
   },
@@ -113825,7 +113819,7 @@
   },
   {
     "canonical_name": "One pair of lenses or contact lenses every calendar year",
-    "merge_key": "one pair of lense or contact lense every calendar year",
+    "merge_key": "one pair of lens or contact lens every calendar year",
     "match_type": "exact",
     "variant_texts": {
       "One pair of lenses or contact lenses every calendar year": 1
@@ -113939,7 +113933,7 @@
   },
   {
     "canonical_name": "Polycarbonate lenses for children through 18 years of age",
-    "merge_key": "polycarbonate lense for child through 18 year of age",
+    "merge_key": "polycarbonate lens for child through 18 year of age",
     "match_type": "exact",
     "variant_texts": {
       "Polycarbonate lenses for children through 18 years of age": 1
@@ -113979,7 +113973,7 @@
   },
   {
     "canonical_name": "Polycarbonate lenses",
-    "merge_key": "polycarbonate lense",
+    "merge_key": "polycarbonate lens",
     "match_type": "exact",
     "variant_texts": {
       "Polycarbonate lenses": 1
@@ -114099,7 +114093,7 @@
   },
   {
     "canonical_name": "Photochromatic glass lenses",
-    "merge_key": "photochromatic glass lense",
+    "merge_key": "photochromatic glass lens",
     "match_type": "exact",
     "variant_texts": {
       "Photochromatic glass lenses": 1
@@ -114139,7 +114133,7 @@
   },
   {
     "canonical_name": "Plastic photosensitive lenses (Transitions\u00ae)",
-    "merge_key": "plastic photosensitive lense transition",
+    "merge_key": "plastic photosensitive lens transition",
     "match_type": "exact",
     "variant_texts": {
       "Plastic photosensitive lenses (Transitions\u00ae)": 1
@@ -114179,7 +114173,7 @@
   },
   {
     "canonical_name": "Polarized lenses",
-    "merge_key": "polarize lense",
+    "merge_key": "polarize lens",
     "match_type": "exact",
     "variant_texts": {
       "Polarized lenses": 1
@@ -114219,7 +114213,7 @@
   },
   {
     "canonical_name": "Intermediate vision lenses",
-    "merge_key": "intermediate vision lense",
+    "merge_key": "intermediate vision lens",
     "match_type": "exact",
     "variant_texts": {
       "Intermediate vision lenses": 1
@@ -114259,7 +114253,7 @@
   },
   {
     "canonical_name": "Hi index lenses",
-    "merge_key": "hello index lense",
+    "merge_key": "hello index lens",
     "match_type": "exact",
     "variant_texts": {
       "Hi index lenses": 1

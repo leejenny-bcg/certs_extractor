@@ -218,6 +218,19 @@ def strip_leading_bullet(text):
     return text.strip()
 
 
+def strip_trailing_colon(text):
+    """A candidate's own trailing colon is never part of its name - it's
+    either a group header that also happens to read as a standalone benefit
+    (e.g. "Chiropractic office visits:", deliberately kept as a candidate
+    rather than demoted, see BARE_INFINITIVE_COLON_RE above) or a narrower
+    group header GROUP_HEADER_COPULA_RE/BARE_INFINITIVE_COLON_RE didn't
+    catch. Either way, strip it for the final candidate text; it never
+    changes shape_of()'s classification (checked against both example
+    categories before adding)."""
+    text = text.rstrip()
+    return text[:-1].rstrip() if text.endswith(":") else text
+
+
 TERMINAL_PUNCT = (".", "!", "?", ":")
 
 
@@ -241,8 +254,9 @@ def try_merge_continuation(last_candidate, line_text):
         return False
     if not line_text or not line_text[0].islower():
         return False
-    last_candidate["text"] = f"{last_candidate['text']} {line_text}".strip()
-    last_candidate["shape"] = shape_of(last_candidate["text"])
+    merged_text = strip_trailing_colon(f"{last_candidate['text']} {line_text}".strip())
+    last_candidate["text"] = merged_text
+    last_candidate["shape"] = shape_of(merged_text)
     return True
 
 
@@ -348,6 +362,7 @@ def walk_benefit_bullets(lines, header_text, section_context, dental_split, defa
             split_name, did_split = bold_split(line["words"][1:])  # skip bullet glyph word
             if did_split:
                 candidate_text = split_name
+        candidate_text = strip_trailing_colon(candidate_text)
 
         parent = stack_text_by_depth.get(depth - 1) if depth > 0 else None
         stack_text_by_depth[depth] = candidate_text
@@ -390,7 +405,7 @@ def walk_cost_tier_bullets(lines, header_text, section_context):
 
         inline_match = COST_TIER_INLINE_RE.match(raw)
         if inline_match:
-            candidate_text = inline_match.group("service").strip()
+            candidate_text = strip_trailing_colon(inline_match.group("service").strip())
             if HOUSEHOLD_SIZE_RE.match(candidate_text):
                 group_active_depth = None
                 last_candidate = None
@@ -418,15 +433,16 @@ def walk_cost_tier_bullets(lines, header_text, section_context):
             continue
 
         if group_active_depth is not None and depth > group_active_depth:
+            candidate_text = strip_trailing_colon(raw)
             new_candidate = {
-                "text": raw,
+                "text": candidate_text,
                 "tier": 2,
                 "subtier": "2b",
                 "parent_header": header_text,
                 "immediate_parent": None,
                 "nesting_depth": depth,
                 "inclusion": "covered",
-                "shape": shape_of(raw),
+                "shape": shape_of(candidate_text),
                 "section_context": section_context,
                 "source_page": line["page"],
             }
@@ -490,7 +506,7 @@ def extract_index_entries(pages, sections_by_page, page_offset):
                 m = INDEX_ENTRY_RE.match(text.strip())
                 if not m:
                     continue
-                term = m.group("term").strip()
+                term = strip_trailing_colon(m.group("term").strip())
                 printed_page = int(m.group("page"))
                 absolute_page = printed_page + page_offset
                 in_range = 0 <= absolute_page < num_pages
@@ -567,7 +583,7 @@ def extract_one(record, segmentation):
         if BENEFIT_SECTION_RE.search(ctx):
             candidates.append(
                 {
-                    "text": header,
+                    "text": strip_trailing_colon(header),
                     "tier": 1,
                     "subtier": "1",
                     "parent_header": None,

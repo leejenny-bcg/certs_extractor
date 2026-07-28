@@ -1232,6 +1232,25 @@
     "score": 100
   },
   {
+    "corpus_canonical_name": "Lenses",
+    "corpus_total_mentions": 4,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Lens",
+    "tree_topic_ids": [
+      17916
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/EYE AND OCULAR ADNEXA/ANTERIOR SEGMENT/LENS"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
     "corpus_canonical_name": "Contact Lenses",
     "corpus_total_mentions": 4,
     "corpus_tiers_present": [
@@ -1368,6 +1387,44 @@
     "score": 100
   },
   {
+    "corpus_canonical_name": "Aphakic Lenses",
+    "corpus_total_mentions": 3,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Aphakic lense",
+    "tree_topic_ids": [
+      60414
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/APHAKIC LENSE"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Blended Lenses",
+    "corpus_total_mentions": 3,
+    "corpus_tiers_present": [
+      3
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Blended lense",
+    "tree_topic_ids": [
+      60510
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/BLENDED"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
     "corpus_canonical_name": "Rhinoplasty",
     "corpus_total_mentions": 3,
     "corpus_tiers_present": [
@@ -1401,6 +1458,25 @@
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/CONTRACEPTION/INJECTIONS"
+    ],
+    "match_type": "exact",
+    "score": 100
+  },
+  {
+    "corpus_canonical_name": "Progressive lenses",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "vision"
+    ],
+    "tree_benefit_name": "Progressive Lens",
+    "tree_topic_ids": [
+      60475
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS/PROSTHETIC DEVICE/PROGRESSIVE LENS"
     ],
     "match_type": "exact",
     "score": 100

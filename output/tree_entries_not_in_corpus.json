@@ -6623,14 +6623,14 @@
   },
   {
     "benefit_name": "Aniseikonic lenses",
-    "normalized_key": "aniseikonic lense",
+    "normalized_key": "aniseikonic lens",
     "topic_ids": [
       60431
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/ANISEIKONIC LENSES"
     ],
-    "_key": "aniseikonic lense"
+    "_key": "aniseikonic lens"
   },
   {
     "benefit_name": "Antepartum Services",
@@ -6752,17 +6752,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/CARDIOVASCULAR SYSTEM/HEART AND PERICARDIUM/AORTIC ANOMALIES"
     ],
     "_key": "aortic anomaly"
-  },
-  {
-    "benefit_name": "Aphakic lense",
-    "normalized_key": "aphakic lens",
-    "topic_ids": [
-      60414
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/APHAKIC LENSE"
-    ],
-    "_key": "aphakic lens"
   },
   {
     "benefit_name": "Appendix",
@@ -7221,17 +7210,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/URINARY SYSTEM/BLADDER"
     ],
     "_key": "bladder"
-  },
-  {
-    "benefit_name": "Blended lense",
-    "normalized_key": "blend lens",
-    "topic_ids": [
-      60510
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/BLENDED"
-    ],
-    "_key": "blend lens"
   },
   {
     "benefit_name": "Blood glucose",
@@ -8167,14 +8145,14 @@
   },
   {
     "benefit_name": "Coating or laminating of lenses",
-    "normalized_key": "coating or laminate of lense",
+    "normalized_key": "coating or laminate of lens",
     "topic_ids": [
       60429
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/COATING OR LAMINATING"
     ],
-    "_key": "coating or laminate of lense"
+    "_key": "coating or laminate of lens"
   },
   {
     "benefit_name": "Cologuard",
@@ -8587,14 +8565,14 @@
   },
   {
     "benefit_name": "Cosmetic lenses or processes",
-    "normalized_key": "cosmetic lense or process",
+    "normalized_key": "cosmetic lens or process",
     "topic_ids": [
       60512
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/COSMETIC LENSES OR PROCESSES"
     ],
-    "_key": "cosmetic lense or process"
+    "_key": "cosmetic lens or process"
   },
   {
     "benefit_name": "Cosmetic procedures",
@@ -13157,14 +13135,14 @@
   },
   {
     "benefit_name": "Intraocular Lenses",
-    "normalized_key": "intraocular lense",
+    "normalized_key": "intraocular lens",
     "topic_ids": [
       60253
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS/PROSTHETIC DEVICE/INTRAOCULAR LENSES"
     ],
-    "_key": "intraocular lense"
+    "_key": "intraocular lens"
   },
   {
     "benefit_name": "Intraosseous",
@@ -13578,17 +13556,6 @@
     "_key": "leg tibia and fibula and ankle joint"
   },
   {
-    "benefit_name": "Lens",
-    "normalized_key": "lens",
-    "topic_ids": [
-      17916
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/EYE AND OCULAR ADNEXA/ANTERIOR SEGMENT/LENS"
-    ],
-    "_key": "lens"
-  },
-  {
     "benefit_name": "Lens insertion fee",
     "normalized_key": "lens insertion fee",
     "topic_ids": [
@@ -13601,14 +13568,14 @@
   },
   {
     "benefit_name": "Lenses other than contacts",
-    "normalized_key": "lense other than contact",
+    "normalized_key": "lens other than contact",
     "topic_ids": [
       12944
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS"
     ],
-    "_key": "lense other than contact"
+    "_key": "lens other than contact"
   },
   {
     "benefit_name": "Lenticular aphakic lense",
@@ -14326,14 +14293,14 @@
   },
   {
     "benefit_name": "Medically necessary contact lenses",
-    "normalized_key": "medically necessary contact lense",
+    "normalized_key": "medically necessary contact lens",
     "topic_ids": [
       61302
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS/PROSTHETIC DEVICE/SPECTACLE LENSES/CONTACT LENSES/MEDICALLY NECESSARY"
     ],
-    "_key": "medically necessary contact lense"
+    "_key": "medically necessary contact lens"
   },
   {
     "benefit_name": "Medicare Demonstration Project",
@@ -15100,14 +15067,14 @@
   },
   {
     "benefit_name": "Not medically necessary contact lenses",
-    "normalized_key": "not medically necessary contact lense",
+    "normalized_key": "not medically necessary contact lens",
     "topic_ids": [
       61301
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS/PROSTHETIC DEVICE/SPECTACLE LENSES/CONTACT LENSES/NOT MEDICALLY NECESSARY"
     ],
-    "_key": "not medically necessary contact lense"
+    "_key": "not medically necessary contact lens"
   },
   {
     "benefit_name": "Nuclear medicine",
@@ -16884,14 +16851,14 @@
   },
   {
     "benefit_name": "Photosensitive lenses",
-    "normalized_key": "photosensitive lense",
+    "normalized_key": "photosensitive lens",
     "topic_ids": [
       60430
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/PHOTOSENSITIVE"
     ],
-    "_key": "photosensitive lense"
+    "_key": "photosensitive lens"
   },
   {
     "benefit_name": "Physical therapy and Occupational Therapy",
@@ -16950,14 +16917,14 @@
   },
   {
     "benefit_name": "Plastic lenses",
-    "normalized_key": "plastic lense",
+    "normalized_key": "plastic lens",
     "topic_ids": [
       60426
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/PLASTIC"
     ],
-    "_key": "plastic lense"
+    "_key": "plastic lens"
   },
   {
     "benefit_name": "Pneumatic Compressor and Appliances",
@@ -17377,17 +17344,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIAGNOSTIC SERVICES/PULMONOLOGY/PROFESSIONAL SERVICES"
     ],
     "_key": "professional pulmonology service"
-  },
-  {
-    "benefit_name": "Progressive Lens",
-    "normalized_key": "progressive lens",
-    "topic_ids": [
-      60475
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS/PROSTHETIC DEVICE/PROGRESSIVE LENS"
-    ],
-    "_key": "progressive lens"
   },
   {
     "benefit_name": "Prolonged Physician Service With Direct (Face-To-Face)",
@@ -18403,14 +18359,14 @@
   },
   {
     "benefit_name": "Replacement of lenses or frames",
-    "normalized_key": "replacement of lense or frame",
+    "normalized_key": "replacement of lens or frame",
     "topic_ids": [
       60428
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/VISION/REPLACEMENT OF LENSES OR FRAMES"
     ],
-    "_key": "replacement of lense or frame"
+    "_key": "replacement of lens or frame"
   },
   {
     "benefit_name": "Replacement of prosthetic and orthotic devices/appliances",
@@ -19428,14 +19384,14 @@
   },
   {
     "benefit_name": "Special lenses",
-    "normalized_key": "special lense",
+    "normalized_key": "special lens",
     "topic_ids": [
       60410
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS/PROSTHETIC DEVICE/SPECTACLE LENSES/SPECIAL LENSES"
     ],
-    "_key": "special lense"
+    "_key": "special lens"
   },
   {
     "benefit_name": "Special medicine services, procedures and reports",
@@ -19516,14 +19472,14 @@
   },
   {
     "benefit_name": "Spectacle Lenses",
-    "normalized_key": "spectacle lense",
+    "normalized_key": "spectacle lens",
     "topic_ids": [
       60250
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PROSTHETICS AND ORTHOTICS/PROSTHETIC DEVICE/SPECTACLE LENSES"
     ],
-    "_key": "spectacle lense"
+    "_key": "spectacle lens"
   },
   {
     "benefit_name": "Spectacle services (including prosthesis for aphakia)",
@@ -20476,14 +20432,14 @@
   },
   {
     "benefit_name": "Tinted lenses",
-    "normalized_key": "tint lense",
+    "normalized_key": "tint lens",
     "topic_ids": [
       12947
     ],
     "tree_paths": [
       "/PRODUCTION/SERVICES AND PROCEDURES/VISION/LENSES OTHER THAN CONTACTS/TINTED"
     ],
-    "_key": "tint lense"
+    "_key": "tint lens"
   },
   {
     "benefit_name": "Tissue Conditioning",

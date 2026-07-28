@@ -83,13 +83,12 @@ from anthropic import Anthropic
 from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
 from anthropic.types.messages.batch_create_params import Request
 
-from snippets import find_snippet
+from snippets import gather_snippets
 
 HERE = Path(__file__).parent
 CACHE_PATH = HERE / ".claude_classification_cache.json"
 
 MODEL = "claude-opus-4-8"
-MAX_SNIPPETS = 3
 APPLY_CONFIDENCE_LEVELS = ("high", "medium")
 
 CLASSIFICATION_SCHEMA = {
@@ -172,25 +171,6 @@ def save_cache(cache):
 
 def is_scope_candidate(record):
     return 1 not in record["tiers_present"]
-
-
-def gather_snippets(output_dir, record, max_snippets=MAX_SNIPPETS):
-    snippets = []
-    docs = sorted(record["documents"], key=lambda d: -d["mention_count"])
-    for doc in docs:
-        if len(snippets) >= max_snippets:
-            break
-        for page_idx in doc["pages"][:2]:
-            if len(snippets) >= max_snippets:
-                break
-            excerpt = find_snippet(output_dir, doc["doc_id"], page_idx, record["canonical_name"])
-            if excerpt:
-                snippets.append({
-                    "doc_id": doc["doc_id"],
-                    "page": page_idx,
-                    "text": excerpt,
-                })
-    return snippets
 
 
 def build_evidence(output_dir, record):

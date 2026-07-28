@@ -6210,17 +6210,6 @@
     "_key": "allergy and clinical immunology"
   },
   {
-    "benefit_name": "Allogeneic bone marrow transplantation",
-    "normalized_key": "allogeneic bone marrow transplantation",
-    "topic_ids": [
-      12846
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/TRANSPLANTATION/BASIC ORGAN/BONE MARROW/ALLOGENEIC"
-    ],
-    "_key": "allogeneic bone marrow transplantation"
-  },
-  {
     "benefit_name": "Allograft and Graft",
     "normalized_key": "allograft and graft",
     "topic_ids": [
@@ -8069,17 +8058,6 @@
     "_key": "contact lens suitability exam"
   },
   {
-    "benefit_name": "Contraception",
-    "normalized_key": "contraception",
-    "topic_ids": [
-      52474
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/CONTRACEPTION"
-    ],
-    "_key": "contraception"
-  },
-  {
     "benefit_name": "Contraceptive implants",
     "normalized_key": "contraceptive implant",
     "topic_ids": [
@@ -8684,17 +8662,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/DEVICES FOR THE DIAGNOSIS OR TREATMENT OF  JAW JOINT DISORDERS"
     ],
     "_key": "device for the diagnosis or treatment of jaw joint disorder"
-  },
-  {
-    "benefit_name": "Diabetes Programs",
-    "normalized_key": "diabetes program",
-    "topic_ids": [
-      2372998
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIABETES MANAGEMENT PROGRAMS"
-    ],
-    "_key": "diabetes program"
   },
   {
     "benefit_name": "Diabetic Routine Foot Care",
@@ -12629,17 +12596,6 @@
     "_key": "iris ciliary body"
   },
   {
-    "benefit_name": "IV therapy",
-    "normalized_key": "iv therapy",
-    "topic_ids": [
-      12930
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/IV THERAPY"
-    ],
-    "_key": "iv therapy"
-  },
-  {
     "benefit_name": "Jaw joint disorder treatment",
     "normalized_key": "jaw joint disorder treatment",
     "topic_ids": [
@@ -13496,17 +13452,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/MISCELLANEOUS/MEDICAL GENETIC AND GENETIC COUNSELING SERVICES"
     ],
     "_key": "medical genetic and genetic counseling service"
-  },
-  {
-    "benefit_name": "Medical nutrition therapy",
-    "normalized_key": "medical nutrition therapy",
-    "topic_ids": [
-      12807
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/MEDICAL NUTRITION THERAPY"
-    ],
-    "_key": "medical nutrition therapy"
   },
   {
     "benefit_name": "Medical Radiation Physics, Dosimetry, Treatment Devices and Special Services",
@@ -15640,17 +15585,6 @@
     "_key": "partial denture"
   },
   {
-    "benefit_name": "Partial dentures (including routine post delivery care)",
-    "normalized_key": "partial denture include routine post delivery care",
-    "topic_ids": [
-      66548
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/ALVEOPLASTY/DENTAL PROSTHODONTICS/REMOVABLE/PARTIAL DENTURES"
-    ],
-    "_key": "partial denture include routine post delivery care"
-  },
-  {
     "benefit_name": "Partial liver transplantation",
     "normalized_key": "partial liver transplantation",
     "topic_ids": [
@@ -15853,17 +15787,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIAGNOSTIC SERVICES/PERIPHERAL ARTERIAL DISEASE REHABILITATION"
     ],
     "_key": "peripheral arterial disease rehabilitation"
-  },
-  {
-    "benefit_name": "Peripheral blood stem cell transplantation",
-    "normalized_key": "peripheral blood stem cell transplantation",
-    "topic_ids": [
-      12845
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/TRANSPLANTATION/BASIC ORGAN/BONE MARROW/PERIPHERAL BLOOD STEM CELL"
-    ],
-    "_key": "peripheral blood stem cell transplantation"
   },
   {
     "benefit_name": "Peritoneal Dialysis",
@@ -16552,17 +16475,6 @@
     "_key": "prosthetic larynx"
   },
   {
-    "benefit_name": "Prosthodontic Services (Type B)",
-    "normalized_key": "prosthodontic service type b",
-    "topic_ids": [
-      60483
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/ALVEOPLASTY/DENTAL PROSTHODONTICS"
-    ],
-    "_key": "prosthodontic service type b"
-  },
-  {
     "benefit_name": "Proton Beam Treatment Delivery",
     "normalized_key": "proton beam treatment delivery",
     "topic_ids": [
@@ -16638,17 +16550,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PSYCHIATRIC SERVICES/PSYCHIATRIC THERAPEUTIC PROCEDURES"
     ],
     "_key": "psychiatric therapeutic procedure"
-  },
-  {
-    "benefit_name": "Psychiatric therapeutic procedures - office or other outpatient facility",
-    "normalized_key": "psychiatric therapeutic procedure office or other outpatient facility",
-    "topic_ids": [
-      52077
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PSYCHIATRIC SERVICES/PSYCHIATRIC THERAPEUTIC PROCEDURES/OFFICE OR OTHER OUTPATIENT FACILITY"
-    ],
-    "_key": "psychiatric therapeutic procedure office or other outpatient facility"
   },
   {
     "benefit_name": "Psychiatry and mental health",
@@ -18347,17 +18248,6 @@
     "_key": "special evaluation and management service"
   },
   {
-    "benefit_name": "Special Foods and Formulas",
-    "normalized_key": "special food and formula",
-    "topic_ids": [
-      2010465
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SPECIAL FOODS AND FORMULAS"
-    ],
-    "_key": "special food and formula"
-  },
-  {
     "benefit_name": "Special lenses",
     "normalized_key": "special lens",
     "topic_ids": [
@@ -19327,17 +19217,6 @@
       "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/ENDOCRINE SYSTEM/THYROID GLAND"
     ],
     "_key": "thyroid gland"
-  },
-  {
-    "benefit_name": "Thyroid screening test",
-    "normalized_key": "thyroid screening test",
-    "topic_ids": [
-      66496
-    ],
-    "tree_paths": [
-      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/LABORATORY SERVICES/THYROID SCREENING TEST"
-    ],
-    "_key": "thyroid screening test"
   },
   {
     "benefit_name": "Tinted lenses",

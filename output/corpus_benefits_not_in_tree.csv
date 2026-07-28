@@ -11,12 +11,10 @@ Therapy billed as a rehabilitative service when it does not meet the definition 
 "Services provided by a freestanding facility in a home, hospital, skilled nursing facility, or residential substance abuse treatment facility",42,14,2,ppo_medical,Occupational Therapy | Physical Therapy | Speech Language Therapy
 Member education and home programs,42,14,2,ppo_medical,Occupational Therapy | Physical Therapy | Speech Language Therapy
 Hospitalization,38,12,2,ppo_medical,Oncology Clinical Trials | Transplant Services
-Allogeneic Transplants,38,14,"2,3",ppo_medical,Oncology Clinical Trials | Transplant Services
 Services provided by the hospital’s or facility’s staff,37,13,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Autologous Transplants,33,14,"2,3",ppo_medical,Oncology Clinical Trials | Transplant Services
 Payment for noncovered drugs or services,33,13,2,ppo_medical,Prescription Drugs
 Temporomandibular surgery,31,16,2,"csr_rider,ppo_medical",BCBSM PPO In-Network Providers | BCBSM PPO Out-of-Network Providers | Coinsurance Requirements
-Infertility testing and treatment,31,16,2,"csr_rider,ppo_medical",BCBSM PPO In-Network Providers | BCBSM PPO Out-of-Network Providers | Coinsurance Requirements
 Bariatric surgery,30,16,2,"csr_rider,ppo_medical",BCBSM PPO In-Network Providers | BCBSM PPO Out-of-Network Providers | Coinsurance Requirements | Surgery
 Services that require less than intensive monitoring or supervision because the member ’s endurance while exercising and management of risk factors are stable,28,14,2,ppo_medical,Cardiac Rehabilitation | Pulmonary Rehabilitation
 "Items that are not considered by BCBSM to be directly related to travel and lodging. Examples include, but are not limited to",28,14,2,ppo_medical,Oncology Clinical Trials | Transplant Services
@@ -66,8 +64,6 @@ Ambulatory Surgery Facility,16,14,"2,3",ppo_medical,Surgery
 Copayment,15,15,3,"dental,ppo_medical,vision",
 Harvesting (including peripheral blood stem cell pheresis) and storage of bone marrow and/or peripheral blood stem cells,15,12,2,ppo_medical,Oncology Clinical Trials | Transplant Services
 Infusion of bone marrow and/or peripheral blood stem cells,15,12,2,ppo_medical,Oncology Clinical Trials | Transplant Services
-Contraceptive Drugs,15,9,"2,3",ppo_medical,Preventive Care Services
-Allergy Therapy,14,14,2,ppo_medical,Allergy Testing and Therapy
 Fungal or bacterial skin tests (such as those given for tuberculosis or diphtheria),14,14,2,ppo_medical,Allergy Testing and Therapy
 "Psychological testing, evaluation, or therapy for allergies",14,14,2,ppo_medical,Allergy Testing and Therapy
 "Environmental studies, evaluation, or control",14,14,2,ppo_medical,Allergy Testing and Therapy
@@ -95,7 +91,6 @@ Diagnostic services provided by a qualified provider.,14,14,2,ppo_medical,Autism
 Treatment prescribed by a physician or licensed psychologist,14,14,2,ppo_medical,Autism Spectrum Disorders
 Transcranial Magnetic Stimulation (TMS),14,14,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Inpatient Hospital Mental Health Services,14,14,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
-"Outpatient Psychiatric Care Facility, Office Setting, Online and Virtual",14,14,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
 "Services provided by a qualified provider, including but not limited to a physician, fully licensed psychologist, certified nurse practitioner, clinical nurse specialist-certified, clinical licensed master’s social worker, licensed professional counselor, limited licensed psychologists, or licensed marriage and family therapist, or other professional provider as determined by BCBSM in a participating outpatient psychiatric care facility or an office setting",14,14,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Residential and Outpatient Substance Abuse Treatment Facility,14,14,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Substance Use Disorder Partial Hospitalization Program (PHP),14,14,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
@@ -178,7 +173,6 @@ Facility and professional services to examine and treat a medical emergency or a
 Enhanced Condition Management Program (ECMP),14,14,1,ppo_medical,
 Diabetes Prevention Program,14,14,2,ppo_medical,Enhanced Condition Management Program (ECMP)
 "Select services, equipment, and tools to reduce the risk of a Type 2 diabetes diagnosis",14,14,2,ppo_medical,Enhanced Condition Management Program (ECMP)
-Enhanced Diabetes Management Program,14,14,2,ppo_medical,Enhanced Condition Management Program (ECMP)
 "Select services, equipment, tools to manage Type 2 diabetes",14,14,2,ppo_medical,Enhanced Condition Management Program (ECMP)
 Cardiovascular Management Program,14,14,2,ppo_medical,Enhanced Condition Management Program (ECMP)
 "Select services, equipment, and tools to manage hypertension",14,14,2,ppo_medical,Enhanced Condition Management Program (ECMP)
@@ -234,7 +228,6 @@ Ovarian wedge resection or ovarian drilling,14,14,2,ppo_medical,Infertility Trea
 Reconstructive surgery of one or both fallopian tubes to open the blockage that causes infertility,14,14,2,ppo_medical,Infertility Treatment
 Diagnostic studies done for the sole purpose of infertility assessment,14,14,2,ppo_medical,Infertility Treatment
 Any procedure done to enhance reproductive capacity or fertility,14,14,2,ppo_medical,Infertility Treatment
-Infusion Therapy,14,14,1,ppo_medical,
 Nursing services needed to administer infusion therapy and treat infusion therapy-related wound care,14,14,2,ppo_medical,Infusion Therapy
 "Durable medical equipment, medical supplies and solutions needed for infusion therapy",14,14,2,ppo_medical,Infusion Therapy
 "Services in a nonparticipating LTACH, including emergency services, unless BCBSM determines there are extenuating circumstances",14,14,2,ppo_medical,Long-Term Acute Care Hospital Services
@@ -252,7 +245,6 @@ Therapy that is performed without an occupational therapy treatment plan,14,14,2
 The diagnosis of a condition,14,14,2,ppo_medical,"Office, Outpatient and Home Medical Care Visits"
 Treatment and consultation recommendations,14,14,2,ppo_medical,"Office, Outpatient and Home Medical Care Visits"
 Bone marrow,14,14,2,ppo_medical,Oncology Clinical Trials
-Peripheral blood stem cell (including peripheral blood stem cell pheresis),14,14,2,ppo_medical,Oncology Clinical Trials
 Umbilical cord blood,14,14,2,ppo_medical,Oncology Clinical Trials
 Travel and Lodging,14,14,2,ppo_medical,Oncology Clinical Trials
 An admission to a designated center or a length of stay at a designated center that has not been preapproved,14,14,2,ppo_medical,Oncology Clinical Trials
@@ -308,7 +300,6 @@ Durable medical equipment used in the facility or outside the facility when rent
 Care for senility or developmental disability,14,14,2,ppo_medical,Skilled Nursing Facility Services
 Care for mental illness,14,14,2,ppo_medical,Skilled Nursing Facility Services
 Care provided by a nonparticipating skilled nursing facility,14,14,2,ppo_medical,Skilled Nursing Facility Services
-Special Medical Foods for Inborn Errors of Metabolism,14,14,1,ppo_medical,
 The cost of special medical foods must be higher than the cost of foods or items that are not special medical foods,14,14,2,ppo_medical,Special Medical Foods for Inborn Errors of Metabolism
 Medical documentation must support the diagnosis of a covered condition that requires special medical foods,14,14,2,ppo_medical,Special Medical Foods for Inborn Errors of Metabolism
 "Nutritional products, supplements, medical foods or any other items provided to treat medical conditions that are not related to the treatment of inborn errors of metabolism",14,14,2,ppo_medical,Special Medical Foods for Inborn Errors of Metabolism
@@ -320,7 +311,6 @@ Therapy that is performed without a speech language therapy treatment plan,14,14
 Services provided by speech-language pathology assistants or therapy aides,14,14,2,ppo_medical,Speech Language Therapy
 Services received from a nonparticipating freestanding outpatient physical therapy facility or a nonparticipating skilled nursing facility,14,14,2,ppo_medical,Speech Language Therapy
 "More than 30 habilitative and 30 rehabilitative outpatient visits per member per calendar year, whether obtained from an in-network or out-of-network provider",14,14,2,ppo_medical,Speech Language Therapy
-Anesthesia services and materials,14,14,2,ppo_medical,Surgery
 "Nursing care by, or under the supervision of, a registered nurse",14,14,2,ppo_medical,Surgery
 "Drugs, biologicals, surgical dressings, supplies, splints and casts directly related to providing surgery",14,14,2,ppo_medical,Surgery
 Oxygen and other therapeutic gases,14,14,2,ppo_medical,Surgery
@@ -400,7 +390,6 @@ Bleeding or clotting abnormalities,13,13,2,ppo_medical,Dental Services
 Unstable angina,13,13,2,ppo_medical,Dental Services
 Severe respiratory disease,13,13,2,ppo_medical,Dental Services
 "Known reaction to analgesics, anesthetics, etc.",13,13,2,ppo_medical,Dental Services
-Thyroid function,13,13,2,ppo_medical,Diagnostic Services
 Nerve conduction,13,13,2,ppo_medical,Diagnostic Services
 We pay for standard office lab tests in your physician’s office. Other lab tests must be sent to a laboratory.,13,13,2,ppo_medical,Diagnostic Services
 You will need to pay the out-of-network cost-share if tests are done by an out-of-network lab or in an out-of-network hospital.,13,13,2,ppo_medical,Diagnostic Services
@@ -461,7 +450,6 @@ Double-blind food challenge test and bronchial challenge test,12,12,2,ppo_medica
 Behavioral Health Treatment (BHT) – Evidence-based counseling is part of BHT. A licensed psychologist must perform or supervise this treatment. The psychologist must have adequate formal university training and supervised experience in BHT.,12,12,2,ppo_medical,Autism Spectrum Disorders
 Psychological care – It includes a psychologist’s direct or consulting services. The psychologist must be licensed in the state of practice.,12,12,2,ppo_medical,Autism Spectrum Disorders
 Therapeutic care – Evidence-based services from licensed providers. It includes,12,12,2,ppo_medical,Autism Spectrum Disorders
-Nutritional therapy,12,12,2,ppo_medical,Autism Spectrum Disorders
 Services to treat temporomandibular joint dysfunction (TMJ) limited to those described below,12,12,2,ppo_medical,Dental Services
 Medically necessary professional and facility services for the treatment of gender dysphoria.,12,12,2,ppo_medical,Gender Affirming Services
 Newborn services provided during the first 48 or 96 hours if the newborn has not been added to the BCBSM contract of the birth parent. These services include,12,12,2,ppo_medical,Maternity Care
@@ -503,9 +491,7 @@ Room and board,11,11,2,ppo_medical,Behavioral Health Services (Mental Health and
 General nursing services,11,11,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
 "Drugs, biologicals and solutions used in the facility",11,11,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
 Outpatient substance use disorder services for the treatment of tobacco dependence,11,11,2,ppo_medical,Behavioral Health Services (Mental Health and Substance Use Disorder)
-"Physical therapy, speech language therapy, and occupational therapy when provided to control symptoms and maintain the member’s daily activities and basic functional skills",11,11,2,ppo_medical,Hospice Care Services
 Preventive drugs,11,11,2,ppo_medical,Prescription Drugs
-Select immunization vaccines,11,11,2,ppo_medical,Prescription Drugs
 Supplements,11,11,2,ppo_medical,Prescription Drugs
 Vitamins,11,11,2,ppo_medical,Prescription Drugs
 Dispensed by an in-network pharmacy and,11,11,2,ppo_medical,Prescription Drugs
@@ -595,7 +581,6 @@ Comprehensive and focused on managing and improving the symptoms directly relate
 Deemed safe and effective by BCBSM,8,8,2,ppo_medical,Autism Spectrum Disorders
 "Inpatient and Outpatient Consultations: If a physician needs help diagnosing or treating a member’s condition, we pay for inpatient and outpatient consultations. They must be provided by a professional provider who has the skills or knowledge needed for the consultations.",8,8,2,ppo_medical,Professional Services
 "A mental health or substance use disorder visit (office, virtual or online visit)",7,7,2,"csr_rider,ppo_medical",BCBSM PPO In-Network Providers | Copayment Requirements
-Chemotherapeutic drugs.,7,7,2,ppo_medical,Oncology Clinical Trials
 "If you need another colonoscopy in the same calendar year, you will have to pay your deductible and coinsurance. It can be done by an in-network or out-of-network provider.",7,7,2,ppo_medical,Preventive Care Services
 "Chemotherapeutic drugs. If Michigan law requires it, we cover these drugs and the reasonable cost of giving them.",7,7,2,ppo_medical,Oncology Clinical Trials
 "Elective abortion (also known as termination of pregnancy) - Services, devices, drugs or other substances for which federal funding is not available, no matter the location.",7,7,2,ppo_medical,Prescription Drugs
@@ -862,8 +847,6 @@ Surgical periodontic services,2,2,2,dental,Class III – Major Services
 Gingivectomies and gingivoplasties,2,2,2,dental,Class III – Major Services
 Gingival flap procedures,2,2,2,dental,Class III – Major Services
 Soft tissue grafts,2,2,2,dental,Class III – Major Services
-Prosthodontic services,2,2,2,dental,Class III – Major Services
-"Removable partial dentures and fixed partial dentures (bridges), including abutment crowns and pontics",2,2,2,dental,Class III – Major Services
 "Porcelain, ceramic and cast metal retainers for resin-bonded bridges",2,2,2,dental,Class III – Major Services
 Repairs of bridges,2,2,2,dental,Class III – Major Services
 Stayplates to replace recently extracted permanent anterior (front) teeth,2,2,2,dental,Class III – Major Services

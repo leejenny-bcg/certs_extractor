@@ -164,6 +164,28 @@
     "corpus_matched_part": "High-dose chemotherapy"
   },
   {
+    "corpus_canonical_name": "Allogeneic Transplants",
+    "corpus_total_mentions": 38,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Allogeneic bone marrow transplantation",
+    "tree_topic_ids": [
+      12846
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/TRANSPLANTATION/BASIC ORGAN/BONE MARROW/ALLOGENEIC"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The excerpts describe allogeneic transplants involving bone marrow donor searches (National Bone Marrow Donor Program Registry), harvesting, and infusion of colony stimulating growth factors - all hallmarks of allogeneic bone marrow/stem cell transplantation. The candidate 'Allogeneic bone marrow transplantation' refers to the same specific service. While the benefit name is generically 'Allogeneic Transplants', the context strongly indicates bone marrow transplantation, making this a reasonable match, though not fully certain given the broader label."
+  },
+  {
     "corpus_canonical_name": "Occupational therapy",
     "corpus_total_mentions": 36,
     "corpus_tiers_present": [
@@ -267,6 +289,28 @@
     "score": 80,
     "llm_confidence": "medium",
     "llm_reasoning": "'Contraceptive Services' most closely aligns with 'Contraceptive professional services', which covers the professional service component of contraception broadly. The other contraceptive candidates (injections, implants) are specific modalities, not the general service. While not a perfect lexical match, 'Contraceptive professional services' is the closest semantic equivalent representing contraceptive services generally."
+  },
+  {
+    "corpus_canonical_name": "Infertility testing and treatment",
+    "corpus_total_mentions": 31,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "csr_rider",
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Infertility treatment",
+    "tree_topic_ids": [
+      89472
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/INFERTILITY SERVICES/INFERTILITY TREATMENT"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit covers both infertility testing and treatment. Candidate 1 'Infertility treatment' captures the core service. Candidate 3 'Infertility testing or sterilization' bundles testing with a distinct service (sterilization), making it a less clean match. 'Infertility treatment' is the closest specific match, though it omits the testing component; still refers to the same core benefit."
   },
   {
     "corpus_canonical_name": "Diagnostic X-rays",
@@ -624,6 +668,28 @@
     "score": 95,
     "llm_confidence": "high",
     "llm_reasoning": "Specialty Pharmaceuticals and Specialty Drugs refer to the same specific benefit - high-cost specialty prescription medications. Under the Prescription Drugs section, these terms are synonymous."
+  },
+  {
+    "corpus_canonical_name": "Contraceptive Drugs",
+    "corpus_total_mentions": 15,
+    "corpus_tiers_present": [
+      2,
+      3
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Contraception",
+    "tree_topic_ids": [
+      52474
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/CONTRACEPTION"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Contraceptive Drugs' refers to contraceptive medications. Candidate 3 'Contraceptive drugs non-NHCR/PPACA' is a specific subset (non-preventive/non-mandated contraceptives), but this benefit appears under Preventive Care Services, so that specific candidate is not a match. 'Contraceptive implants' and 'Contraceptive injections' are specific delivery methods, not drugs generally. 'Contraception' is the closest general term covering contraceptive drugs, though it is somewhat broad. Given the preventive-care context and that no candidate exactly says 'contraceptive drugs' in the correct sense, 'Contraception' is the best available semantic match, but with reservation."
   },
   {
     "corpus_canonical_name": "Allergy Testing",
@@ -1939,6 +2005,153 @@
     "llm_reasoning": "The benefit appears under 'Transplant Services' and refers to bone marrow transplant. Candidate 5 'Bone Marrow or Stem Cell Services/Procedures' is the closest match to bone marrow transplant services. Other candidates refer to specific sub-aspects (donor evaluation, harvesting/storing, donor) rather than the overall bone marrow transplant service."
   },
   {
+    "corpus_canonical_name": "Allergy Therapy",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Allergen Immunotherapy",
+    "tree_topic_ids": [
+      20562
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/ALLERGY AND CLINICAL IMMUNOLOGY/ALLERGEN IMMUNOTHERAPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The excerpts describe Allergy Therapy as allergy immunotherapy by injection (allergy shots) and injections of antiallergens. This aligns closely with the candidate 'Allergen Immunotherapy'. The other candidates like Allergy Test/Testing refer to the diagnostic side, not the therapy. While 'Allergy Therapy' as a label is slightly broader, its defined content is immunotherapy, making this a reasonable match."
+  },
+  {
+    "corpus_canonical_name": "Enhanced Diabetes Management Program",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Diabetes Programs",
+    "tree_topic_ids": [
+      2372998
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/DIABETES MANAGEMENT PROGRAMS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The Enhanced Diabetes Management Program is a specific program offering select services, equipment, and tools to manage Type 2 diabetes. 'Diabetes Programs' is the closest match as it refers to program-based diabetes offerings. The other candidates like 'Diabetes Management', 'DME for Diabetes Management', or 'Education for Diabetes Management' refer to management activities or specific components rather than a program. However, there is some doubt whether 'Diabetes Programs' captures this specific enhanced program, so medium confidence."
+  },
+  {
+    "corpus_canonical_name": "Infusion Therapy",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "IV therapy",
+    "tree_topic_ids": [
+      12930
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/IV THERAPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "Infusion therapy is the administration of medications/fluids intravenously, which is the same service as IV therapy. 'Home infusion therapy' is narrower (specific to home setting), so it's not the right match here. 'IV therapy' represents the same general infusion service. Confidence is medium since terminology can vary in scope."
+  },
+  {
+    "corpus_canonical_name": "Peripheral blood stem cell (including peripheral blood stem cell pheresis)",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Peripheral blood stem cell transplantation",
+    "tree_topic_ids": [
+      12845
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SURGICAL PROCEDURES/TRANSPLANTATION/BASIC ORGAN/BONE MARROW/PERIPHERAL BLOOD STEM CELL"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit refers to peripheral blood stem cell collection/pheresis and the process. Candidate 1 'Peripheral blood stem cell transplantation' is the closest specific match referring to the same peripheral blood stem cell service. However, pheresis (collection) versus transplantation are technically distinct phases, creating some doubt, so medium confidence."
+  },
+  {
+    "corpus_canonical_name": "Special Medical Foods for Inborn Errors of Metabolism",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      1
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Special Foods and Formulas",
+    "tree_topic_ids": [
+      2010465
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/SPECIAL FOODS AND FORMULAS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "'Special Foods and Formulas' appears to refer to the same specific benefit - special medical foods/formulas, which for inborn errors of metabolism are the primary use case. The other candidates are unrelated (room/board, medical supplies). While the tree entry may be slightly broader, it is the closest specific match for special medical foods coverage. Marked medium due to potential scope difference."
+  },
+  {
+    "corpus_canonical_name": "Anesthesia services and materials",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Anesthesia professional services",
+    "tree_topic_ids": [
+      82159
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/MARK-UP TOPICS ONLY/SURGERY AND ANESTHESIA/ANESTHESIA PROFESSIONAL SERVICES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Anesthesia services and materials' refers to anesthesia services provided in connection with surgery. Candidate 1 'Anesthesia professional services' is the closest specific match referring to anesthesia services themselves, rather than surgery-of-a-specific-body-system-plus-anesthesia (candidates 3-10), which are broader/different categories. There is some doubt because the corpus benefit includes 'materials' (drugs/supplies) alongside professional services, but both refer to the same core anesthesia service."
+  },
+  {
+    "corpus_canonical_name": "Outpatient Psychiatric Care Facility, Office Setting, Online and Virtual",
+    "corpus_total_mentions": 14,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Psychiatric therapeutic procedures - office or other outpatient facility",
+    "tree_topic_ids": [
+      52077
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PSYCHIATRIC SERVICES/PSYCHIATRIC THERAPEUTIC PROCEDURES/OFFICE OR OTHER OUTPATIENT FACILITY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit describes outpatient psychiatric care in office/facility/virtual settings. Candidate 1 closely matches this - psychiatric therapeutic procedures in office or other outpatient facility. Other candidates are more specific procedures (intensive outpatient, psychotherapy) or unrelated (dialysis, neonatal). Candidate 1 is the best semantic fit for general outpatient psychiatric care, though the specific setting emphasis introduces some uncertainty."
+  },
+  {
     "corpus_canonical_name": "Laboratory services",
     "corpus_total_mentions": 13,
     "corpus_tiers_present": [
@@ -2320,6 +2533,27 @@
     "llm_reasoning": "Candidate 1 explicitly references CRNA (Certified Registered Nurse Anesthetist) professional charges, which is the same specific benefit/provider service as the benefit name."
   },
   {
+    "corpus_canonical_name": "Thyroid function",
+    "corpus_total_mentions": 13,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Thyroid screening test",
+    "tree_topic_ids": [
+      66496
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/LABORATORY SERVICES/THYROID SCREENING TEST"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Thyroid function' refers to a diagnostic thyroid function test. Candidate 'Thyroid screening test' is the closest specific match for a thyroid blood/lab test. 'Thyroid Gland' is an anatomical category, not a test. While 'screening' and 'function' aren't identical terms, both refer to a thyroid diagnostic lab test, making this a reasonable but not certain match."
+  },
+  {
     "corpus_canonical_name": "Allergy immunotherapy by injection (allergy shots)",
     "corpus_total_mentions": 12,
     "corpus_tiers_present": [
@@ -2381,6 +2615,27 @@
     "score": 80,
     "llm_confidence": "medium",
     "llm_reasoning": "Contraceptive Medication refers to contraceptive drugs. Candidate 'Contraceptive drugs non-NHCR/PPACA' is the closest specific match for contraceptive medication/drugs, whereas injections, implants, and general 'Contraception' are distinct forms or broader categories."
+  },
+  {
+    "corpus_canonical_name": "Nutritional therapy",
+    "corpus_total_mentions": 12,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Medical nutrition therapy",
+    "tree_topic_ids": [
+      12807
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/NHCR/PPACA/MEDICAL NUTRITION THERAPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Nutritional therapy' appears as part of autism spectrum disorder treatment. 'Medical nutrition therapy' is the closest candidate and refers to the same specific service of nutritional/dietary therapy. While the context differs (autism vs general), both refer to nutrition therapy as a service. The other candidates are unrelated therapy types. Medium confidence because the exact scope may differ slightly, but they clearly refer to the same specific nutritional therapy service."
   },
   {
     "corpus_canonical_name": "Fecal Occult Blood Screening",
@@ -2569,6 +2824,48 @@
     "score": 95,
     "llm_confidence": "high",
     "llm_reasoning": "The benefit refers to covered services and devices for pain management, which directly corresponds to 'Pain management services'. Both refer to the same specific service area of pain management."
+  },
+  {
+    "corpus_canonical_name": "Physical therapy, speech language therapy, and occupational therapy when provided to control symptoms and maintain the member\u2019s daily activities and basic functional skills",
+    "corpus_total_mentions": 11,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Physical therapy, occupational therapy and speech therapy",
+    "tree_topic_ids": [
+      12744
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PHYSICAL THERAPY, OCCUPATIONAL THERAPY AND SPEECH THERAPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "Candidate 1 lists the same three therapy modalities (physical, occupational, speech) as the benefit name. The benefit name adds a hospice-specific context (controlling symptoms and maintaining daily activities), but the underlying service bundle is the same combination of therapies. Confidence is medium rather than high because the certificate benefit is specifically framed within Hospice Care Services, which may be a distinct coverage context, but the specific service referenced is the same trio of therapies."
+  },
+  {
+    "corpus_canonical_name": "Select immunization vaccines",
+    "corpus_total_mentions": 11,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Immunizations",
+    "tree_topic_ids": [
+      2010427
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/PREVENTIVE SERVICES/IMMUNIZATIONS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit 'Select immunization vaccines' refers to covered immunization vaccines under prescription drugs. 'Immunizations' is the closest general match referring to the same specific service. However, candidates like 'Standard Immunizations', 'Additional Vaccines', 'COVID Immunizations', and 'Vaccines and toxoids' are more specific subsets, and none precisely captures 'select immunization vaccines.' 'Immunizations' best represents the same benefit category without being a narrower subset, though there's some doubt about specificity."
   },
   {
     "corpus_canonical_name": "Routine Pap Smear",
@@ -2963,6 +3260,29 @@
     "score": 80,
     "llm_confidence": "medium",
     "llm_reasoning": "The corpus benefit refers to blood tests to evaluate donors. The top candidate specifies 'bone marrow donor', which is a specific type of donor. In the oncology/transplant context this is plausibly the same service, but the corpus name is more generic about donors while the candidate is specific to bone marrow. Reasonable confidence but not full certainty due to the specificity difference."
+  },
+  {
+    "corpus_canonical_name": "Chemotherapeutic drugs.",
+    "corpus_total_mentions": 7,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "ppo_medical"
+    ],
+    "tree_benefit_name": "Chemotherapy",
+    "tree_topic_ids": [
+      52557,
+      52357
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/FACILITY/INPATIENT HOSPITAL/CHEMOTHERAPY",
+      "/PRODUCTION/SERVICES AND PROCEDURES/PROFESSIONAL/CHEMOTHERAPY"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "Chemotherapeutic drugs refers to the medications used in chemotherapy. Candidate 'Chemotherapy' is the closest general match for the chemotherapy service/drugs. Other candidates are more specific (high dose, oral ancillary, self-administered) and don't match the general chemotherapeutic drugs benefit. 'Chemotherapy' represents the same core benefit though with some ambiguity between the service and the drugs themselves."
   },
   {
     "corpus_canonical_name": "Lancets",
@@ -4074,6 +4394,48 @@
     "score": 80,
     "llm_confidence": "medium",
     "llm_reasoning": "The benefit 'Abutment' refers to a dental component that connects an implant to a crown. 'Abutment - Other' is the closest general match for the abutment benefit itself, whereas 'Abutment Supported' and 'Abutment placement' refer to more specific related services/procedures rather than the abutment benefit as a standalone item. 'Abutment - Other' appears to be the generic catch-all for the abutment benefit."
+  },
+  {
+    "corpus_canonical_name": "Removable partial dentures and fixed partial dentures (bridges), including abutment crowns and pontics",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Partial dentures (including routine post delivery care)",
+    "tree_topic_ids": [
+      66548
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/ALVEOPLASTY/DENTAL PROSTHODONTICS/REMOVABLE/PARTIAL DENTURES"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The benefit covers removable partial dentures AND fixed partial dentures (bridges) with abutment crowns and pontics. Candidate 1 'Partial dentures' captures the partial dentures portion but does not explicitly include bridges/fixed partial dentures. It is the closest match to the core service, though the corpus benefit is broader. Reasonable but not certain given the bridge component isn't reflected."
+  },
+  {
+    "corpus_canonical_name": "Prosthodontic services",
+    "corpus_total_mentions": 2,
+    "corpus_tiers_present": [
+      2
+    ],
+    "corpus_profiles_present": [
+      "dental"
+    ],
+    "tree_benefit_name": "Prosthodontic Services (Type B)",
+    "tree_topic_ids": [
+      60483
+    ],
+    "tree_paths": [
+      "/PRODUCTION/SERVICES AND PROCEDURES/DENTAL/ALVEOPLASTY/DENTAL PROSTHODONTICS"
+    ],
+    "match_type": "llm_semantic",
+    "score": 80,
+    "llm_confidence": "medium",
+    "llm_reasoning": "The corpus benefit 'Prosthodontic services' describes major services repairing/replacing missing teeth (dentures, bridges, crowns), which aligns with prosthodontic coverage. Candidate 1 'Prosthodontic Services (Type B)' typically denotes major prosthodontic services, matching the Class III/Major Services context. However, candidates 2, 4, and 5 are also prosthodontic variants, creating some ambiguity, so confidence is medium rather than high."
   },
   {
     "corpus_canonical_name": "Photochromatic lenses",

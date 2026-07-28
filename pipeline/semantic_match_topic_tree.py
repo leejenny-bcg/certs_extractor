@@ -41,6 +41,20 @@ same tree entry is expected (Stage 5's Pass B docstring establishes this
 same precedent), so an already-matched tree entry must still be offered
 as a candidate here.
 
+Each corpus benefit's evidence includes real source-text excerpts
+(gather_snippets(), shared with classify_benefits.py), not just its name
+and section headers - added after finding a concrete miss without it:
+the first run rejected "Allogeneic Transplants" -> "Allogeneic bone
+marrow transplantation" as "too broad a category" (reasoning from the
+name alone, where "allogeneic transplant" is a broad general-medicine
+term), but the source text lists it alongside "Tandem transplants" and
+"single transplant" under Transplant Services - i.e. specifically a
+bone-marrow/stem-cell modality in this corpus, not a general-organ
+transplant claim. A 12-item random sample of the no-match verdicts from
+that first run was otherwise mostly genuine correct rejections, so this
+isn't a systemic rewrite, just closing the evidence gap classify_benefits.py
+already established as necessary for this kind of context-dependent call.
+
 Disclosed limitation: if the correct tree entry doesn't rank in the top
 10 by fuzzy score, Claude never sees it as a candidate and can't catch it.
 Closing that would need a full-tree semantic search rather than a
@@ -80,6 +94,7 @@ from compare_to_topic_tree import (
     write_tree_csv,
 )
 from merge_candidates import strip_leading_article
+from snippets import gather_snippets
 
 HERE = Path(__file__).parent
 CACHE_PATH = HERE / ".claude_semantic_match_cache.json"
@@ -137,7 +152,7 @@ Use confidence="low" - or an empty matched_tree_name - whenever there's real dou
 it's the same specific service versus a related-but-different one. When in doubt, lean toward no \
 match."""
 
-PROMPT_VERSION = 1
+PROMPT_VERSION = 3  # v2: added snippet evidence; v3: widened snippet context_chars 80->300
 
 
 def load_cache():
@@ -172,11 +187,20 @@ def find_candidates(corpus_key, tree, tree_keys, limit=CANDIDATE_LIMIT, floor=CA
     return candidates
 
 
-def build_evidence(record, candidates):
+# Wider than gather_snippets()'s 80-char default - this stage specifically
+# needs to see sibling list items around the matched phrase (e.g. "Search
+# of the National Bone Marrow Donor Program Registry" two lines below
+# "Allogeneic Transplants"), not just the immediate phrase classify_benefits.py
+# needs for its narrower per-name classification call.
+SNIPPET_CONTEXT_CHARS = 300
+
+
+def build_evidence(output_dir, record, candidates):
     return {
         "canonical_name": record["canonical_name"],
         "parent_headers": record.get("parent_headers") or [],
         "candidates": [c["benefit_name"] for c in candidates],
+        "snippets": gather_snippets(output_dir, record, context_chars=SNIPPET_CONTEXT_CHARS),
     }
 
 
@@ -185,6 +209,7 @@ def evidence_hash(evidence):
         "prompt_version": PROMPT_VERSION,
         "canonical_name": evidence["canonical_name"],
         "candidates": evidence["candidates"],
+        "snippets": evidence["snippets"],
     }, sort_keys=True)
     return hashlib.sha256(payload.encode()).hexdigest()[:16]
 
@@ -195,6 +220,13 @@ def build_prompt(evidence):
     ]
     if evidence["parent_headers"]:
         lines.append(f"Section header(s) it appeared under: {'; '.join(evidence['parent_headers'])}")
+    lines.append("")
+    lines.append("Sample excerpts from where it matched in the source certificates:")
+    if evidence["snippets"]:
+        for s in evidence["snippets"]:
+            lines.append(f"  - [{s['doc_id']} p{s['page']}]: {s['text']}")
+    else:
+        lines.append("  (no direct snippet found -- judge from the name and header alone)")
     lines.append("")
     lines.append("Candidate Topic Tree entries (ranked by text similarity, NOT correctness):")
     for i, name in enumerate(evidence["candidates"], 1):
@@ -266,7 +298,7 @@ def main():
         if not candidates:
             skipped_no_candidate += 1
             continue
-        evidence = build_evidence(c, candidates)
+        evidence = build_evidence(args.output_dir, c, candidates)
         review_items.append((c, candidates, evidence))
 
     print(f"{len(corpus_unmatched)} unmatched corpus benefits total, "

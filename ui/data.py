@@ -78,6 +78,37 @@ def is_high_confidence(record):
     return phrase_count >= sentence_count
 
 
+def is_top_level_header(record):
+    """A Tier 1 record is the certificate's own section header - e.g.
+    "Surgery", "Hospital Services", dental's "Class II - Basic Services".
+    Deliberately a plain, deterministic tiers_present check rather than an
+    LLM judgment call: classify_benefits.py briefly tried having Claude
+    decide which Tier-1 headers are "real" benefits vs. administrative
+    category labels, but that was inconsistent (two near-duplicate "Class
+    I" records differing only by dash character got opposite verdicts) and
+    over-eager (flagged legitimate primary navigation categories like
+    "Surgery"). Whether to show these broad categories is now a user
+    choice (the Benefit Explorer's "include top-level navigation
+    categories" toggle), not an automated one.
+    """
+    return 1 in record["tiers_present"]
+
+
+def exclusion_reason(record):
+    """Human-readable reason a record fails is_high_confidence(), for the
+    Benefit Explorer's "Low-Quality / Excluded" tab - the whole point of
+    that tab is letting a human judge whether the exclusion is correct, so
+    the reason has to be visible, not just the fact of exclusion. Returns
+    None if the record isn't excluded.
+    """
+    if is_high_confidence(record):
+        return None
+    llm_review = record.get("llm_review")
+    if llm_review and llm_review.get("applied"):
+        return f"{llm_review['classification']}: {llm_review['reasoning']}"
+    return "Mostly sentence-shaped mentions (index terms or criteria/description text), not a clean benefit name"
+
+
 def get_extracted_doc(doc_id):
     """Lazily load a single Stage 1 extracted-text cache file for a document.
     Returns None if the cache is missing - output/extracted/ (~115MB) is

@@ -11,16 +11,25 @@ population with Claude, using real snippet evidence, and tags (never deletes)
 the ones it's confident are not real benefit names.
 
 Scope gate: only canonical records where `1 not in tiers_present` (not a
-section header -- Tier 1 is ground truth, doesn't need review) AND
-`shape_breakdown["phrase"] >= shape_breakdown["sentence"]` (i.e. records the
-existing is_high_confidence() heuristic currently marks confident via the
-*shape* path, not the *Tier 1* path -- exactly the population where the
-existing heuristic can be wrong). Tier-1 headers and already-excluded
-sentence-majority records are skipped entirely; no mention-count/MeSH-style
-gate is applied on top, because generic administrative terms (e.g.
-"Coinsurance") often have *high* mention counts precisely because they're
-generic -- mention count doesn't separate signal from noise here the way it
-does in certs_riders' Topic-Tree-anchored problem.
+section header) AND `shape_breakdown["phrase"] >= shape_breakdown["sentence"]`
+(i.e. records is_high_confidence() currently marks confident via the
+*shape* path, not the *Tier 1* path). Tier 1 was briefly included (found
+two real gaps this way: "Temporary Benefits" and "Value Based Programs"
+are policy/program section headers, not nameable services), but reverted
+after finding the classification was inconsistent on Tier-1 headers
+specifically -- two near-duplicate "Class I - Diagnostic and Preventive
+Services" records (differing only by dash character) got opposite
+verdicts, and several broad-but-legitimate "PAYS FOR" section categories
+("Surgery", "Hospital Services", dental's "Class II/III" tiers) got
+flagged too, which would hide primary navigation categories this whole
+pipeline treats as ground-truth Tier 1 elsewhere. Tier-1 visibility is
+now a deterministic user-facing UI toggle instead (see
+ui/data.py:is_top_level_header) rather than an LLM judgment call. No
+mention-count/MeSH-style gate is applied on top, because generic
+administrative terms (e.g. "Coinsurance") often have *high* mention counts
+precisely because they're generic -- mention count doesn't separate signal
+from noise here the way it does in certs_riders' Topic-Tree-anchored
+problem.
 
 Every candidate is classified as exactly one of:
   - "benefit": a real, specific covered service/benefit name.
@@ -256,6 +265,19 @@ def main():
     candidates = [r for r in records if is_scope_candidate(r)]
     print(f"{len(records)} canonical benefits total, {len(candidates)} in scope "
           f"(non-Tier-1, phrase-majority)", file=sys.stderr)
+
+    # Clear stale llm_review left over from a broader scope gate in a
+    # previous run (e.g. the Tier-1 expansion this file's docstring
+    # describes reverting) - keeps the data file matching the *current*
+    # scope definition rather than accumulating leftovers from past ones.
+    in_scope_names = {r["canonical_name"] for r in candidates}
+    stale_cleared = 0
+    for r in records:
+        if r["canonical_name"] not in in_scope_names and r.get("llm_review") is not None:
+            del r["llm_review"]
+            stale_cleared += 1
+    if stale_cleared:
+        print(f"Cleared stale llm_review from {stale_cleared} out-of-scope record(s)", file=sys.stderr)
 
     evidence_by_name = {r["canonical_name"]: build_evidence(args.output_dir, r) for r in candidates}
 

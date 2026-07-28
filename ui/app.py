@@ -28,6 +28,9 @@ COLUMN_HELP = {
     "or dental certificates, or csr_rider (cost-sharing riders).",
     "matched_to_tree": "Whether this benefit (exact or fuzzy match) has a corresponding entry on "
     "the Topic Tree - see the Topic Tree Comparison page for details.",
+    "exclusion_reason": "Why this benefit is excluded from the main tab by default: either the "
+    "LLM classification pass's verdict + reasoning, or (if never reviewed) that its mentions are "
+    "mostly sentence-shaped rather than a clean benefit name.",
 }
 
 
@@ -43,10 +46,11 @@ def records_to_df(records):
                 "covered": r["inclusion_breakdown"].get("covered", 0),
                 "excluded": r["inclusion_breakdown"].get("excluded", 0),
                 "parent_headers": " | ".join(r["parent_headers"][:5]),
-                # Not displayed - just available for the "hide low-quality
-                # entries" checkbox filter. See data.is_high_confidence for
-                # what counts, and its docstring for how to extend this.
-                "_high_confidence": data.is_high_confidence(r),
+                # Not displayed directly - just available for filtering
+                # (top-level-category toggle) and for the "Low-Quality /
+                # Excluded" tab's reason column.
+                "_top_level_header": data.is_top_level_header(r),
+                "exclusion_reason": data.exclusion_reason(r) or "",
             }
         )
     return pd.DataFrame(rows)
@@ -62,34 +66,37 @@ def download_button(df, label, file_name, key):
     )
 
 
-def render_benefit_explorer():
-    st.title("Benefit-level Explorer")
-    st.caption(
-        "Benefits extracted bottom-up from the certs/riders themselves - not anchored to the "
-        "Topic Tree. See Topic Tree Comparison for how this list lines up against it."
-    )
-
-    records = data.load_benefits_master()
+def render_benefit_table(records, unmatched_names, key_prefix, show_header_toggle=False, show_reason_column=False):
+    """Shared table + filters + drill-down, reused by both Benefit Explorer
+    tabs (the full high-confidence list and the low-quality/excluded one)
+    so they stay visually and behaviorally identical apart from which
+    records and which extra controls/columns they get. key_prefix keeps
+    Streamlit widget keys unique between the two tabs.
+    """
     df = records_to_df(records)
-    unmatched_names = {r["canonical_name"] for r in data.load_corpus_not_in_tree()}
     df["matched_to_tree"] = ~df["canonical_name"].isin(unmatched_names)
 
     col1, col2, col3 = st.columns([2, 1, 1])
     with col1:
-        search = st.text_input("Search benefit name")
+        search = st.text_input("Search benefit name", key=f"{key_prefix}_search")
     with col2:
         profile_filter = st.multiselect(
-            "Profile", sorted({p for r in records for p in r["profiles_present"]}), default=[]
+            "Profile", sorted({p for r in records for p in r["profiles_present"]}), default=[],
+            key=f"{key_prefix}_profile",
         )
     with col3:
-        min_mentions = st.number_input("Min mentions", min_value=1, value=1)
-    hide_low_quality = st.checkbox(
-        "Hide low-quality entries",
-        value=True,
-        help="Hides benefits whose mentions are mostly index terms or criteria/description "
-        "sentences rather than a clean benefit name. More exclusion criteria may be added "
-        "to this filter later.",
-    )
+        min_mentions = st.number_input("Min mentions", min_value=1, value=1, key=f"{key_prefix}_min_mentions")
+
+    include_headers = True
+    if show_header_toggle:
+        include_headers = st.checkbox(
+            "Include top-level navigation categories",
+            value=True,
+            key=f"{key_prefix}_include_headers",
+            help="These are the certificate's own section headers (e.g. \"Surgery\", \"Hospital "
+            "Services\", dental's \"Class II - Basic Services\") - broad categories rather than "
+            "specific covered items. Uncheck to see only the specific benefits nested under them.",
+        )
 
     filtered = df
     if search:
@@ -97,13 +104,15 @@ def render_benefit_explorer():
     if profile_filter:
         filtered = filtered[filtered["profiles_present"].apply(lambda p: any(pf in p for pf in profile_filter))]
     filtered = filtered[filtered["total_mentions"] >= min_mentions]
-    if hide_low_quality:
-        filtered = filtered[filtered["_high_confidence"]]
+    if show_header_toggle and not include_headers:
+        filtered = filtered[~filtered["_top_level_header"]]
 
     filtered = filtered.sort_values("total_mentions", ascending=False)
 
     display_cols = ["canonical_name", "total_mentions", "document_count",
                      "profiles_present", "covered", "excluded", "matched_to_tree"]
+    if show_reason_column:
+        display_cols.append("exclusion_reason")
     st.caption(f"{len(filtered):,} of {len(df):,} benefits shown")
     st.dataframe(
         filtered[display_cols],
@@ -112,7 +121,7 @@ def render_benefit_explorer():
         height=400,
         column_config={k: st.column_config.Column(help=v) for k, v in COLUMN_HELP.items()},
     )
-    download_button(filtered[display_cols], "Download filtered benefits (CSV)", "benefits_filtered.csv", "explorer_download")
+    download_button(filtered[display_cols], "Download filtered benefits (CSV)", "benefits_filtered.csv", f"{key_prefix}_download")
 
     st.divider()
     st.subheader("Benefit detail")
@@ -120,8 +129,31 @@ def render_benefit_explorer():
     if not options:
         st.info("No benefits match the current filters.")
         return
-    selected = st.selectbox("Pick a benefit to inspect", options, key="explorer_detail_select")
+    selected = st.selectbox("Pick a benefit to inspect", options, key=f"{key_prefix}_detail_select")
     render_benefit_detail(selected)
+
+
+def render_benefit_explorer():
+    st.title("Benefit-level Explorer")
+    st.caption(
+        "Benefits extracted bottom-up from the certs/riders themselves - not anchored to the "
+        "Topic Tree. See Topic Tree Comparison for how this list lines up against it."
+    )
+
+    records = data.load_benefits_master()
+    unmatched_names = {r["canonical_name"] for r in data.load_corpus_not_in_tree()}
+    high_confidence_records = [r for r in records if data.is_high_confidence(r)]
+    excluded_records = [r for r in records if not data.is_high_confidence(r)]
+
+    tab1, tab2 = st.tabs(["All Benefits", f"Low-Quality / Excluded ({len(excluded_records):,})"])
+    with tab1:
+        render_benefit_table(high_confidence_records, unmatched_names, "main", show_header_toggle=True)
+    with tab2:
+        st.caption(
+            "Everything the main tab excludes by default - shown with the reason for exclusion "
+            "so you can judge whether it's actually low-quality, not just take it on faith."
+        )
+        render_benefit_table(excluded_records, unmatched_names, "lowq", show_reason_column=True)
 
 
 def render_benefit_detail(canonical_name):

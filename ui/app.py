@@ -151,18 +151,31 @@ def build_matched_tree_map():
     return {name: " | ".join(tree_names) for name, tree_names in by_corpus.items()}
 
 
-def render_benefit_explorer():
+def render_benefit_explorer(public_mode=False):
+    """public_mode=True is the restricted view used by ui/app_public.py (the
+    deployed build): just the high-confidence benefit list, no Low-Quality/
+    Excluded tab and no reference to the Topic Tree Comparison page, which
+    that build doesn't register at all. Local dev (streamlit run app.py)
+    always calls this with the default, full view.
+    """
     st.title("Benefit-level Explorer")
-    st.caption(
-        "Benefits extracted bottom-up from the certs/riders themselves - not anchored to the "
-        "Topic Tree. See Topic Tree Comparison for how this list lines up against it."
-    )
+    if public_mode:
+        st.caption("Benefits extracted bottom-up from the certs/riders themselves - not anchored to the Topic Tree.")
+    else:
+        st.caption(
+            "Benefits extracted bottom-up from the certs/riders themselves - not anchored to the "
+            "Topic Tree. See Topic Tree Comparison for how this list lines up against it."
+        )
 
     records = data.load_benefits_master()
     matched_tree_by_corpus = build_matched_tree_map()
     high_confidence_records = [r for r in records if data.is_high_confidence(r)]
-    excluded_records = [r for r in records if not data.is_high_confidence(r)]
 
+    if public_mode:
+        render_benefit_table(high_confidence_records, matched_tree_by_corpus, "main", show_header_toggle=True)
+        return
+
+    excluded_records = [r for r in records if not data.is_high_confidence(r)]
     tab1, tab2 = st.tabs(["All Benefits", f"Low-Quality / Excluded ({len(excluded_records):,})"])
     with tab1:
         render_benefit_table(high_confidence_records, matched_tree_by_corpus, "main", show_header_toggle=True)

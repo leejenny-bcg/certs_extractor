@@ -14,12 +14,11 @@ Run with: streamlit run app_public.py
 """
 import streamlit as st
 
-from app import render_benefit_explorer  # also runs app.py's st.set_page_config() at import time
+from app import render_benefit_explorer, render_sidebar  # also runs app.py's st.set_page_config() at import time
 
 
 def main():
-    with st.sidebar:
-        st.title("Certs Extraction")
+    render_sidebar()
 
     explorer_page = st.Page(
         lambda: render_benefit_explorer(public_mode=True),

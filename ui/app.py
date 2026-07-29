@@ -369,9 +369,27 @@ def render_topic_tree_comparison():
         download_button(filtered3, "Download (CSV)", "matched_pairs.csv", "tab3_download")
 
 
-def main():
+def render_sidebar():
+    """Shared with ui/app_public.py so both builds show the same pipeline
+    summary. Skips Stages 4.5/5.5 (the LLM review/matching passes) on
+    purpose - this is a quick orientation blurb for someone new to the
+    tool, not a full pipeline reference (see README.md for that).
+    """
     with st.sidebar:
         st.title("Certs Extraction")
+        st.caption(
+            "Benefits extracted bottom-up from the certs/riders "
+            "themselves, then compared against the Topic Tree at the end:\n\n"
+            "1. Extract text from PDFs\n"
+            "2. Segment into header-bounded sections\n"
+            "3. Extract benefit candidates\n"
+            "4. Merge into a canonical benefit list\n"
+            "5. Compare against the Topic Tree"
+        )
+
+
+def main():
+    render_sidebar()
 
     explorer_page = st.Page(render_benefit_explorer, title="Benefit-level Explorer",
                              url_path="benefit-explorer", default=True)

@@ -120,9 +120,12 @@ def extract_one_pdf(input_root, relative_path):
     return record
 
 
+def safe_cache_name(relative_path):
+    return relative_path.replace("/", "__").replace(" ", "_")
+
+
 def cache_path_for(output_dir, relative_path):
-    safe_name = relative_path.replace("/", "__").replace(" ", "_")
-    return Path(output_dir) / "extracted" / f"{safe_name}.json"
+    return Path(output_dir) / "extracted" / f"{safe_cache_name(relative_path)}.json"
 
 
 def needs_processing(input_root, relative_path, output_dir):

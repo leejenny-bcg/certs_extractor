@@ -7,9 +7,14 @@ Topic Tree v9.xlsx
 
 # Pipeline intermediate caches - regenerable by rerunning the pipeline
 # scripts, and not read directly by the UI.
-# output/extracted/ is the exception: committed on purpose (115MB, 7.3MB
-# max per file - well within GitHub's norms) so the deployed UI's
-# benefit-detail snippet preview works there too, not just locally.
+# output/extracted/ (120MB - 87% of it is per-word font/position data
+# Stage 2/3 need, that no snippet-lookup code path ever reads) is
+# deliberately excluded even though it's the "real" Stage 1 cache -
+# committing it broke Streamlit Community Cloud's build (confirmed by
+# isolating the commit on a test branch). output/extracted_text/
+# (build_text_cache.py's ~8MB raw-text-only derivative) is committed
+# instead - see pipeline/snippets.py's docstring.
+output/extracted/
 output/segments/
 output/candidates/
 

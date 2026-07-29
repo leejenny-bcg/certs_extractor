@@ -1,26 +1,36 @@
-"""Shared helper for loading Stage 1's extracted-text cache and finding a
-short text excerpt around a term on a given page. Used by the UI (for the
-benefit-detail drill-down) and by the LLM review stages (classify_benefits.py,
-semantic_match_topic_tree.py) to gather real source-text evidence -- lives
-in pipeline/ rather than ui/ so pipeline stages don't depend on the UI layer.
+"""Shared helper for loading Stage 1.5's slimmed text-only cache
+(build_text_cache.py's output/extracted_text/, not Stage 1's full
+output/extracted/) and finding a short text excerpt around a term on a
+given page. Used by the UI (for the benefit-detail drill-down) and by the
+LLM review stages (classify_benefits.py, semantic_match_topic_tree.py) to
+gather real source-text evidence -- lives in pipeline/ rather than ui/ so
+pipeline stages don't depend on the UI layer.
+
+Reads extracted_text/, not extracted/, because every caller here only
+ever touches raw_text - never the per-word font/position data Stage 2/3
+need output/extracted/ for. Measured directly: that layout data is 87% of
+output/extracted/'s size (105MB of 120MB), so the deploy-committed cache
+this module reads is ~8-10MB instead of 120MB, with identical raw_text
+coverage (every page of every document, not just referenced ones).
 """
 import json
 import re
 from functools import lru_cache
+from pathlib import Path
 
-from extract_text import cache_path_for
+from extract_text import safe_cache_name
 
 _WORD_RE = re.compile(r"[A-Za-z0-9]+")
 
 
 @lru_cache(maxsize=None)
 def get_extracted_doc(output_dir, doc_id):
-    """Lazily load a single Stage 1 extracted-text cache file for a document.
-    Returns None if the cache is missing - output/extracted/ (~115MB) is
-    excluded from the deploy repo, so a fresh clone won't have it. Callers
-    should degrade to "not available" rather than crashing.
+    """Lazily load a single document's slimmed text-only cache file.
+    Returns None if the cache is missing (e.g. a fresh clone before
+    running Stage 1 and build_text_cache.py). Callers should degrade to
+    "not available" rather than crashing.
     """
-    cache_file = cache_path_for(output_dir, doc_id)
+    cache_file = Path(output_dir) / "extracted_text" / f"{safe_cache_name(doc_id)}.json"
     if not cache_file.exists():
         return None
     with open(cache_file) as f:

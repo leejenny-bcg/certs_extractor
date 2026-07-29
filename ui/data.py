@@ -61,13 +61,14 @@ def has_revenue_code_prefix(benefit_name):
 
 
 def get_extracted_doc(doc_id):
-    """Lazily load a single Stage 1 extracted-text cache file for a document.
-    Returns None if the cache is missing - output/extracted/ (~115MB) is
-    excluded from the deploy repo, so a fresh clone won't have it. The
-    snippet/full-page-text features degrade to "not available" rather than
-    crashing the page. Thin wrapper over pipeline/snippets.py so pipeline
-    stages (e.g. classify_benefits.py) can share the same cache/logic
-    without depending on the UI layer.
+    """Lazily load a single document's Stage 1.5 text-only cache file
+    (output/extracted_text/, not Stage 1's full output/extracted/ - see
+    pipeline/snippets.py). Returns None if the cache is missing (e.g. a
+    fresh clone before running Stages 1/1.5). The snippet/full-page-text
+    features degrade to "not available" rather than crashing the page.
+    Thin wrapper over pipeline/snippets.py so pipeline stages (e.g.
+    classify_benefits.py) can share the same cache/logic without
+    depending on the UI layer.
     """
     return _get_extracted_doc(OUTPUT_DIR, doc_id)
 

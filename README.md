@@ -15,6 +15,7 @@ they just start from opposite ends.
 
 ```
 Stage 1    extract_text.py            PDF -> per-page text + word-level font/position data
+Stage 1.5  build_text_cache.py        -> small raw-text-only cache, derived from Stage 1, for the UI/deploy
 Stage 2    segment.py                 -> header-bounded sections per document
 Stage 3    extract_candidates.py      -> benefit/procedure candidates per document
 Stage 4    merge_candidates.py        -> canonical benefit list, deduped across all documents
@@ -35,7 +36,18 @@ one JSON per document to `output/extracted/`. Each page includes raw text
 *and* word-level data (`fontname`, `size`, `x0`, `top` per word) — this is
 what later stages use to detect bullet hierarchy, bold-font header
 markers, and section boundaries. This is the one thing that makes this
-pipeline's cache larger than `certs_riders`' (which only needs plain text).
+pipeline's cache larger than `certs_riders`' (which only needs plain text)
+— 120MB, measured directly to be 87% word-level layout data.
+
+### Stage 1.5 — Text-only cache (`pipeline/build_text_cache.py`)
+
+Every snippet-lookup code path (the UI's benefit-detail preview,
+Stage 4.5/5.5's `gather_snippets()`) only ever reads a page's `raw_text`,
+never the word-level layout data. This stage strips that out, writing a
+slimmed copy of every document/page to `output/extracted_text/` (~8MB vs.
+`output/extracted/`'s 120MB) — `pipeline/snippets.py` reads from here, not
+`output/extracted/` directly. `output/extracted/` itself stays local-only;
+Stage 2/3 still need the full version and read it independently.
 
 ### Stage 2 — Segmentation (`pipeline/segment.py`, `family_profiles.py`)
 
@@ -137,6 +149,7 @@ matches are folded into `matched_pairs.json` (tagged
 ```bash
 cd pipeline
 python3 extract_text.py .. ../output --workers 4
+python3 build_text_cache.py ../output/extracted ../output   # Stage 1.5
 python3 segment.py ../output/extracted ../output/segments
 python3 extract_candidates.py ../output/extracted ../output/segments ../output/candidates
 python3 merge_candidates.py ../output/candidates ../output
@@ -189,11 +202,14 @@ Two pages:
   lowering it would start merging genuinely different-scope benefits
   (e.g. `"Ambulance Services"` vs. `"Emergency Ambulance Services"`),
   which would hide real gaps rather than surface them.
-- **`output/extracted/` (~115MB) is committed to git** so the UI's
-  page-snippet preview works in the deployed build too, not just locally
-  — well within GitHub's normal limits (7.3MB max per file). The UI still
-  degrades gracefully to "not available" if it's ever missing (e.g. a
-  fresh clone before running Stage 1).
+- **`output/extracted/` itself (120MB) is excluded from git** — committing
+  it directly was tried first and broke Streamlit Community Cloud's build
+  (confirmed by isolating the commit on a test branch, likely a free-tier
+  clone size/time limit). `output/extracted_text/` (Stage 1.5's ~8MB
+  raw-text-only derivative) is committed instead, so the UI's page-snippet
+  preview still works in the deployed build. The UI degrades gracefully to
+  "not available" if it's ever missing (e.g. a fresh clone before running
+  Stages 1/1.5).
 - **Stage 5.5's candidate pool is capped at the top 10 fuzzy matches** — if
   the correct Topic Tree entry doesn't rank in the top 10 by fuzzy score,
   Claude never sees it as an option. Closing this would need a full-tree

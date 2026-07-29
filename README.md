@@ -189,10 +189,11 @@ Two pages:
   lowering it would start merging genuinely different-scope benefits
   (e.g. `"Ambulance Services"` vs. `"Emergency Ambulance Services"`),
   which would hide real gaps rather than surface them.
-- **`output/extracted/` (~115MB) is excluded from git** — needed for the
-  UI's page-snippet preview, but too heavy for the deploy repo; the UI
-  degrades gracefully to "not available" rather than erroring when it's
-  missing.
+- **`output/extracted/` (~115MB) is committed to git** so the UI's
+  page-snippet preview works in the deployed build too, not just locally
+  — well within GitHub's normal limits (7.3MB max per file). The UI still
+  degrades gracefully to "not available" if it's ever missing (e.g. a
+  fresh clone before running Stage 1).
 - **Stage 5.5's candidate pool is capped at the top 10 fuzzy matches** — if
   the correct Topic Tree entry doesn't rank in the top 10 by fuzzy score,
   Claude never sees it as an option. Closing this would need a full-tree

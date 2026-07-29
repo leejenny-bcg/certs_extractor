@@ -7,7 +7,9 @@ Topic Tree v9.xlsx
 
 # Pipeline intermediate caches - regenerable by rerunning the pipeline
 # scripts, and not read directly by the UI.
-output/extracted/
+# output/extracted/ is the exception: committed on purpose (115MB, 7.3MB
+# max per file - well within GitHub's norms) so the deployed UI's
+# benefit-detail snippet preview works there too, not just locally.
 output/segments/
 output/candidates/
 

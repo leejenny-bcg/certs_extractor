@@ -12,22 +12,6 @@ import data
 
 st.set_page_config(page_title="Certs/Riders Benefit Extraction", layout="wide")
 
-# layout="wide" above sets the *default*, but a viewer's own "Wide mode"
-# browser/URL preference (Settings menu) can override it - and on the
-# deployed app, fresh/incognito visitors (no stored preference, no visible
-# toggle) were still getting the narrow, wide-margined "centered" layout.
-# Forcing it here via CSS applies to every viewer regardless of that
-# per-browser setting. `.block-container` is Streamlit's stable class for
-# the main content area's width cap.
-st.markdown(
-    """
-    <style>
-    .block-container { max-width: 95% !important; }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
 # Same palette as certs_riders/ui/app.py, for visual consistency between the
 # two tools (light mode only; not hooked into Streamlit's dark-mode vars).
 BLUE = "#2a78d6"

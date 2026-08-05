@@ -4,7 +4,6 @@ Run with: streamlit run app.py
 """
 from pathlib import Path
 
-import altair as alt
 import pandas as pd
 import streamlit as st
 
